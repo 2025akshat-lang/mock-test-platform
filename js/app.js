@@ -198,6 +198,25 @@ function normalizeQuestion(q) {
   };
 }
 
+// Scans a rendered container for LaTeX written inside the JSON text
+// ($...$ inline, $$...$$ block) and turns it into real math with KaTeX.
+// Safe to call even before the KaTeX <script defer> tags have finished
+// loading — it just silently does nothing that one time.
+function renderMath(container) {
+  if (!container || typeof window.renderMathInElement !== 'function') return;
+  try {
+    window.renderMathInElement(container, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '\\[', right: '\\]', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false }
+      ],
+      throwOnError: false
+    });
+  } catch (e) { console.error('KaTeX render failed:', e); }
+}
+
 // START A TEST — fetches the full test file (with questions) only now,
 // lazily, so browsing the test list stays fast.
 async function startMock(testId) {
@@ -280,7 +299,8 @@ function loadQuestion(idx) {
   if (state.status === 'not-visited') state.status = 'not-answered';
 
   document.getElementById('display-q-num').innerText = idx + 1;
-  document.getElementById('q-text').innerText = q.question;
+  document.getElementById('q-text').innerHTML = q.question;
+  document.getElementById('q-diagram').innerHTML = q.diagram || '';
   document.getElementById('mark-pos').innerText = q.marks.pos.toFixed(1);
   document.getElementById('mark-neg').innerText = q.marks.neg.toFixed(2);
   document.getElementById('save-next-btn').innerText = idx === rawQuizData.length - 1 ? "Save & Submit" : "Save & Next";
@@ -292,6 +312,7 @@ function loadQuestion(idx) {
     </div>
   `).join('');
 
+  renderMath(document.getElementById('exam-viewport'));
   renderSections();
   renderPalette();
 }
@@ -481,6 +502,7 @@ function renderSolutions(filter) {
       </div>
     `;
   }).join('');
+  renderMath(container);
 }
 
 function filterSolutions(type) {
@@ -553,6 +575,7 @@ function renderSolutionDetailBody() {
   body.innerHTML = `
     <div class="sol-detail-meta">⏱️ Time: ${q.timeAvg} | 🎯 ${q.rightPct} got it right</div>
     <div class="sol-detail-question">Q${i + 1}. ${q.question}</div>
+    ${q.diagram ? `<div style="margin:10px 0;">${q.diagram}</div>` : ''}
     <div class="sol-opt-list">${optionsHtml}</div>
     ${isOpen ? `
       <div class="sol-detail-answer">
@@ -572,6 +595,7 @@ function renderSolutionDetailBody() {
     </div>
   `;
   body.scrollTop = 0; // jump back to top whenever we switch questions
+  renderMath(body);
 }
 
 // Marks a question's answer as revealed and refreshes just the detail body
