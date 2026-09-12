@@ -96,14 +96,57 @@ Koi bhi JS file edit nahi karni padti.
 Sab kuch `js/data-loader.js` ke `safeFetchJSON()` se guzarta hai, jo kabhi
 `throw` nahi karta — hamesha `{ ok, data, error }` return karta hai.
 
-## Aage kya add ho sakta hai (abhi is split me nahi hai)
+## Instructions screen (naya) — "Start Test" ke baad, exam se pehle
 
-Aapke message me kuch cheezein mention hui thi jo abhi original file me bhi
-nahi thi (naya feature hoga, sirf split nahi):
+Ab `startMock()` seedha exam shuru nahi karta — pehle ek Instructions +
+Language screen dikhata hai. Do hisse hain:
+
+1. **Summary block** (Questions / Total Marks / Duration) — yeh kabhi
+   hand-typed nahi hota, `rawQuizData` se hi live calculate hota hai. Isme
+   kabhi drift nahi ho sakta.
+2. **Rules list** — `data/default-instructions.json` ke generic rules +
+   (agar hai to) us test ki apni JSON me `"instructions": [...]` field ke
+   extra lines, dono jode jaate hain. Matlab custom instructions default ko
+   **replace nahi karte, uske upar add hote hain**.
+
+Naya test ke liye extra instructions dene ke liye, us test ki `.json` me
+bas ek field add karo:
+```json
+{
+  "id": "jmi-4",
+  "title": "...",
+  "instructions": [
+    "Is test me Section-B optional hai, sirf best 3 attempt count honge."
+  ],
+  "questions": [ ... ]
+}
+```
+Field na ho to sirf default rules dikhenge — kuch aur karne ki zaroorat nahi.
+
+## Language toggle (English / हिंदी)
+
+Instructions screen par ek language toggle bhi hai. Abhi ke liye:
+- Sirf UI level par kaam karta hai — agar kisi question me `question_hi`,
+  `options_hi`, `explanation_hi` fields nahi hain, to Hindi select karne par
+  bhi English hi dikhega (fail-safe fallback, blank kabhi nahi).
+- Bilingual test banane ke liye, question object me yeh extra fields daal do:
+  ```json
+  {
+    "id": 1,
+    "question": "2+2=?",
+    "question_hi": "2+2=?",
+    "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
+    "options_hi": { "A": "३", "B": "४", "C": "५", "D": "६" },
+    "correct": "B",
+    "explanation": "...",
+    "explanation_hi": "..."
+  }
+  ```
+  Jitne questions me `_hi` fields hongi, utne hi bilingual honge — baaki
+  automatically English pe fallback ho jaate hain. Test-by-test, question-by-
+  question incrementally add kar sakte ho.
+
+## Aage kya add ho sakta hai
+
 - **Mode tier** (Mock Test vs Notes) — abhi sirf Mock Test flow hai.
-- **Instructions page** aur **Hindi/English language choice** test start
-  karne se pehle.
-
-Agar yeh chahiye to bata dena — manifest/data structure already isko
-accommodate karne layak bana hai (`mode` field add karke), bas UI screen aur
-routing add karni hogi.
+- Actual Hindi translations un questions me jo abhi sirf English hain.
