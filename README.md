@@ -1,5 +1,4 @@
 # Axat Study Zone — Modular Structure
-link rakhla 
 https://2025akshat-lang.github.io/mock-test-platform/
 Yeh wahi app hai (same look, same features — dashboard, CBT-style test runner,
 timer, analytics, solutions), bas ab **6 folders/files me split** hai instead
@@ -77,6 +76,44 @@ sirf apne computer par plain double-click se nahi.)
 
 **Bas.** `app.js` ya `index.html` ko touch karne ki zaroorat nahi.
 
+## Maths formulas (LaTeX) aur diagrams (SVG) — Science/Maths/Engineering tests ke liye
+
+Code kahin nahi likhna — bas apni `.json` file me text ke andar hi likh do,
+rendering automatic hai (KaTeX `index.html` me already jud chuka hai):
+
+- **LaTeX**: `question`, har `options` value, aur `explanation` — teeno me
+  seedha LaTeX likh sakte ho. Inline formula ke liye `$...$` use karo, apni
+  line pe bade/centered formula ke liye `$$...$$`:
+  ```json
+  {
+    "id": 2, "section": "Physics",
+    "question": "The kinetic energy of a body is given by $KE = \\frac{1}{2}mv^2$. If mass is doubled and velocity is halved, the new KE is:",
+    "options": { "A": "Same as before", "B": "Half of before", "C": "$\\frac{1}{4}$ of before", "D": "Double of before" },
+    "correct": "B",
+    "explanation": "$$KE_{new} = \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}mv^2 \\times \\frac{1}{2}$$ so it becomes half."
+  }
+  ```
+  Backslash ko JSON me hamesha `\\` likhna (double backslash) — `\frac` ban
+  jaata hai `\\frac` JSON string ke andar.
+
+- **Diagrams (SVG)**: question object me ek naya optional field `diagram`
+  add karo, uske andar raw `<svg>...</svg>` markup as a string. Yeh question
+  ke text aur options ke beech me apne aap dikh jaata hai (practice screen
+  aur solution detail screen dono me):
+  ```json
+  {
+    "id": 3, "section": "Maths",
+    "question": "In the triangle shown, find the value of $x$.",
+    "diagram": "<svg viewBox='0 0 200 120' width='200' height='120'><polygon points='10,110 190,110 100,10' fill='none' stroke='#0f172a' stroke-width='2'/><text x='95' y='105' font-size='12'>x°</text></svg>",
+    "options": { "A": "40", "B": "50", "C": "60", "D": "70" },
+    "correct": "C"
+  }
+  ```
+  Agar diagram nahi chahiye to field ko chhod do — bilkul optional hai.
+
+**Koi JS/HTML edit nahi karni** — dono cheezein sirf `data/**/*.json` ke text
+se chalti hain.
+
 ## Naya exam / naya sub-level add karna
 
 Sirf `data/manifest.json` edit karo — ek naya category object (jaise `"ssc"`)
@@ -97,57 +134,14 @@ Koi bhi JS file edit nahi karni padti.
 Sab kuch `js/data-loader.js` ke `safeFetchJSON()` se guzarta hai, jo kabhi
 `throw` nahi karta — hamesha `{ ok, data, error }` return karta hai.
 
-## Instructions screen (naya) — "Start Test" ke baad, exam se pehle
+## Aage kya add ho sakta hai (abhi is split me nahi hai)
 
-Ab `startMock()` seedha exam shuru nahi karta — pehle ek Instructions +
-Language screen dikhata hai. Do hisse hain:
-
-1. **Summary block** (Questions / Total Marks / Duration) — yeh kabhi
-   hand-typed nahi hota, `rawQuizData` se hi live calculate hota hai. Isme
-   kabhi drift nahi ho sakta.
-2. **Rules list** — `data/default-instructions.json` ke generic rules +
-   (agar hai to) us test ki apni JSON me `"instructions": [...]` field ke
-   extra lines, dono jode jaate hain. Matlab custom instructions default ko
-   **replace nahi karte, uske upar add hote hain**.
-
-Naya test ke liye extra instructions dene ke liye, us test ki `.json` me
-bas ek field add karo:
-```json
-{
-  "id": "jmi-4",
-  "title": "...",
-  "instructions": [
-    "Is test me Section-B optional hai, sirf best 3 attempt count honge."
-  ],
-  "questions": [ ... ]
-}
-```
-Field na ho to sirf default rules dikhenge — kuch aur karne ki zaroorat nahi.
-
-## Language toggle (English / हिंदी)
-
-Instructions screen par ek language toggle bhi hai. Abhi ke liye:
-- Sirf UI level par kaam karta hai — agar kisi question me `question_hi`,
-  `options_hi`, `explanation_hi` fields nahi hain, to Hindi select karne par
-  bhi English hi dikhega (fail-safe fallback, blank kabhi nahi).
-- Bilingual test banane ke liye, question object me yeh extra fields daal do:
-  ```json
-  {
-    "id": 1,
-    "question": "2+2=?",
-    "question_hi": "2+2=?",
-    "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
-    "options_hi": { "A": "३", "B": "४", "C": "५", "D": "६" },
-    "correct": "B",
-    "explanation": "...",
-    "explanation_hi": "..."
-  }
-  ```
-  Jitne questions me `_hi` fields hongi, utne hi bilingual honge — baaki
-  automatically English pe fallback ho jaate hain. Test-by-test, question-by-
-  question incrementally add kar sakte ho.
-
-## Aage kya add ho sakta hai
-
+Aapke message me kuch cheezein mention hui thi jo abhi original file me bhi
+nahi thi (naya feature hoga, sirf split nahi):
 - **Mode tier** (Mock Test vs Notes) — abhi sirf Mock Test flow hai.
-- Actual Hindi translations un questions me jo abhi sirf English hain.
+- **Instructions page** aur **Hindi/English language choice** test start
+  karne se pehle.
+
+Agar yeh chahiye to bata dena — manifest/data structure already isko
+accommodate karne layak bana hai (`mode` field add karke), bas UI screen aur
+routing add karni hogi.
