@@ -1,4 +1,4 @@
-export const EXAM_ROUTES = {
+window.EXAM_ROUTES = {
   ssc: {
     name: "SSC",
     levels: [
