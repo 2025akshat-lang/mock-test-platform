@@ -2,48 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mock Test Portal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app-container">
     <header class="app-header">
-      <h1>Mock Test Portal</h1>
+      <h2>🎯 Exam Test Series Portal</h2>
     </header>
 
-    <main class="dashboard-card">
-      <div class="controls-grid">
-        <div class="input-group">
-          <label for="mode-select">Category</label>
-          <select id="mode-select">
-            <option value="mocks">Mock Test</option>
-            <option value="notes">Notes</option>
-          </select>
-        </div>
-
-        <div class="input-group">
-          <label for="exam-select">Exam</label>
-          <select id="exam-select"></select>
-        </div>
-
-        <div class="input-group">
-          <label for="level-select">Level / Paper</label>
-          <select id="level-select"></select>
-        </div>
-
-        <div class="input-group">
-          <label for="test-num">Test No.</label>
-          <input type="number" id="test-num" value="1" min="1">
-        </div>
-
-        <button id="load-btn" class="btn-primary">Load Content</button>
+    <!-- Top Navigation Filter -->
+    <div class="filter-card">
+      <div class="input-group">
+        <label>Mode</label>
+        <select id="mode-select" class="custom-select">
+          <option value="mocks">Mock Tests</option>
+          <option value="notes">Study Notes</option>
+        </select>
       </div>
 
-      <div id="display-container" class="display-area">
-        <p class="placeholder-text">Select exam details above to start.</p>
+      <div class="input-group">
+        <label>Select Exam</label>
+        <select id="exam-select" class="custom-select"></select>
       </div>
-    </main>
+
+      <div class="input-group">
+        <label>Select Sub-Level</label>
+        <select id="level-select" class="custom-select"></select>
+      </div>
+    </div>
+
+    <!-- Mocks Cards Display Area -->
+    <div id="cards-container" class="cards-grid"></div>
+
+    <!-- Sarkari Exam Style Instruction Overlay Container -->
+    <div id="test-overlay" class="overlay hidden">
+      <div class="modal-box" id="modal-content"></div>
+    </div>
   </div>
 
   <script type="module" src="app.js"></script>
