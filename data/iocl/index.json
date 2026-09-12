@@ -8,6 +8,14 @@
     "badgeClass": "badge-new",
     "questionCount": 30,
     "maxMarks": 30.0
+  },{
+    "id": "iocl-qc-2",
+    "file": "iocl-qc-2.json",
+    "title": "Instrumentation QA QC- Mock Test",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 1,
+    "maxMarks": 1.0
   }
 ]
-
