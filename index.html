@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Dynamic Zoom Fix for Mobile Browsers -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mock Test Portal</title>
   <link rel="stylesheet" href="style.css">
@@ -12,10 +13,10 @@
       <h2>🎯 Exam Test Series Portal</h2>
     </header>
 
-    <!-- Top Navigation Filter -->
+    <!-- Top Navigation Filter Card -->
     <div class="filter-card">
       <div class="input-group">
-        <label>Mode</label>
+        <label for="mode-select">Category</label>
         <select id="mode-select" class="custom-select">
           <option value="mocks">Mock Tests</option>
           <option value="notes">Study Notes</option>
@@ -23,25 +24,26 @@
       </div>
 
       <div class="input-group">
-        <label>Select Exam</label>
+        <label for="exam-select">Select Exam</label>
         <select id="exam-select" class="custom-select"></select>
       </div>
 
       <div class="input-group">
-        <label>Select Sub-Level</label>
+        <label for="level-select">Select Sub-Level</label>
         <select id="level-select" class="custom-select"></select>
       </div>
     </div>
 
-    <!-- Mocks Cards Display Area -->
+    <!-- Mocks Cards Display Grid -->
     <div id="cards-container" class="cards-grid"></div>
 
-    <!-- Sarkari Exam Style Instruction Overlay Container -->
+    <!-- Sarkari Exam Style Instruction Overlay Modal -->
     <div id="test-overlay" class="overlay hidden">
       <div class="modal-box" id="modal-content"></div>
     </div>
   </div>
 
+  <!-- Defer JS Execution to ensure HTML DOM is completely ready -->
   <script type="module" src="app.js"></script>
 </body>
 </html>
