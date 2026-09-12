@@ -23,6 +23,9 @@ let userState = [];
 let attemptHistory = {};
 let registeredEmail = localStorage.getItem('user_email') || '';
 
+let defaultInstructions = [];   // data/default-instructions.json, loaded once at startup
+let selectedLanguage = 'en';    // 'en' or 'hi' — chosen on the instructions screen
+
 // ---- FAIL-SAFE HELPERS ----
 // Show a friendly full-screen message instead of a broken/blank page.
 function showFailSafe(message) {
@@ -38,19 +41,31 @@ function showFailSafe(message) {
 
 // ---- STARTUP ----
 async function initApp() {
-  const res = await DataLoader.getManifest();
-  if (!res.ok) {
+  const [manifestRes, instrRes] = await Promise.all([
+    DataLoader.getManifest(),
+    DataLoader.getDefaultInstructions()
+  ]);
+
+  if (!manifestRes.ok) {
     showFailSafe("Couldn't load the exam list. Please check your connection and try again.");
-    console.error(res.error);
+    console.error(manifestRes.error);
     return;
   }
-  manifestData = res.data;
+  manifestData = manifestRes.data;
+
+  // Fail-safe: a missing/broken default-instructions.json just means
+  // the default rules list is empty — a per-test "instructions" array
+  // (if that test has one) still shows fine on its own.
+  defaultInstructions = instrRes.ok ? instrRes.data : [];
+  if (!instrRes.ok) console.error(instrRes.error);
+
   goToHome();
 }
 
 // INITIALIZE CLEAN HOME SCREEN
 function goToHome() {
   document.getElementById('error-screen').style.display = 'none';
+  document.getElementById('instructions-screen').style.display = 'none';
   document.getElementById('home-dashboard').style.display = 'flex';
 
   navHistoryStack = ['level-1'];
@@ -217,12 +232,68 @@ async function startMock(testId) {
   rawQuizData = currentActiveTest.questions.map(normalizeQuestion);
 
   document.getElementById('home-dashboard').style.display = 'none';
+  showInstructionsScreen(currentActiveTest);
+}
+
+// ---- INSTRUCTIONS SCREEN ----
+// Resolve logic: the summary block (questions/marks/duration/title) is
+// ALWAYS auto-computed from the test itself — never hand-typed, so it
+// can never drift out of sync. The rules list is the default rules
+// PLUS whatever extra lines this specific test adds via its own
+// optional "instructions" array. A test with no "instructions" field
+// just shows the default rules — nothing else changes for it.
+function resolveInstructionRules(test) {
+  const extra = Array.isArray(test.instructions) ? test.instructions : [];
+  return defaultInstructions.concat(extra);
+}
+
+function showInstructionsScreen(test) {
+  document.getElementById('instructions-exam-title').innerText = test.title;
+  document.getElementById('instr-q-count').innerText = rawQuizData.length;
+  document.getElementById('instr-marks').innerText = rawQuizData.reduce((s, q) => s + q.marks.pos, 0);
+  document.getElementById('instr-time').innerText = `${test.timeMins} min`;
+
+  document.getElementById('instructions-rules-list').innerHTML =
+    resolveInstructionRules(test).map(r => `<li style="margin-bottom:8px;">${r}</li>`).join('');
+
+  document.getElementById('lang-btn-en').classList.toggle('active', selectedLanguage === 'en');
+  document.getElementById('lang-btn-hi').classList.toggle('active', selectedLanguage === 'hi');
+
+  document.getElementById('instructions-screen').style.display = 'flex';
+}
+
+function setLanguage(lang) {
+  selectedLanguage = lang;
+  document.getElementById('lang-btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-btn-hi').classList.toggle('active', lang === 'hi');
+}
+
+// User has read the instructions and tapped Start — NOW the exam UI
+// actually appears and the timer starts. This is the code that used
+// to run immediately inside startMock().
+function beginTestFromInstructions() {
+  document.getElementById('instructions-screen').style.display = 'none';
   document.getElementById('exam-header').style.display = 'flex';
   document.getElementById('section-tabs').style.display = 'flex';
   document.getElementById('exam-viewport').style.display = 'flex';
   document.getElementById('exam-footer').style.display = 'flex';
 
   reattemptTest();
+}
+
+// ---- LANGUAGE-AWARE TEXT GETTERS ----
+// Same fallback pattern as the data loader: if a question doesn't have
+// a "_hi" version of a field, we silently fall back to English rather
+// than showing blank/broken text. Existing English-only tests need ZERO
+// changes — this only activates for questions that add "_hi" fields.
+function getQText(q) {
+  return (selectedLanguage === 'hi' && q.question_hi) ? q.question_hi : q.question;
+}
+function getQOptions(q) {
+  return (selectedLanguage === 'hi' && q.options_hi) ? q.options_hi : q.options;
+}
+function getQExplanation(q) {
+  return (selectedLanguage === 'hi' && q.explanation_hi) ? q.explanation_hi : q.explanation;
 }
 
 function exitToHome() {
@@ -262,16 +333,18 @@ function loadQuestion(idx) {
   currentQIdx = idx; const q = rawQuizData[idx]; const state = userState[idx];
   if (state.status === 'not-visited') state.status = 'not-answered';
 
+  const qOptions = getQOptions(q);
+
   document.getElementById('display-q-num').innerText = idx + 1;
-  document.getElementById('q-text').innerText = q.question;
+  document.getElementById('q-text').innerText = getQText(q);
   document.getElementById('mark-pos').innerText = q.marks.pos.toFixed(1);
   document.getElementById('mark-neg').innerText = q.marks.neg.toFixed(2);
   document.getElementById('save-next-btn').innerText = idx === rawQuizData.length - 1 ? "Save & Submit" : "Save & Next";
 
-  document.getElementById('options-container').innerHTML = Object.keys(q.options).map(key => `
+  document.getElementById('options-container').innerHTML = Object.keys(qOptions).map(key => `
     <div class="option-card ${state.selectedOption === key ? 'selected' : ''}" onclick="selectOption('${key}')">
       <div class="option-idx">${key}</div>
-      <div>${q.options[key]}</div>
+      <div>${qOptions[key]}</div>
     </div>
   `).join('');
 
@@ -440,6 +513,8 @@ function renderSolutions(filter) {
     if (filter === 'incorrect' && (isCorrect || isUnattempted)) return '';
     if (filter === 'unattempted' && !isUnattempted) return '';
 
+    const qOptions = getQOptions(q);
+
     return `
       <div class="sol-card">
         <div class="sol-card-header">
@@ -448,15 +523,15 @@ function renderSolutions(filter) {
             ${isCorrect ? 'Correct' : isUnattempted ? 'Unattempted' : 'Incorrect'}
           </span>
         </div>
-        <div class="sol-card-text">Q${i + 1}. ${q.question}</div>
+        <div class="sol-card-text">Q${i + 1}. ${getQText(q)}</div>
         <div class="sol-opt-list">
-          ${Object.keys(q.options).map(k => `
+          ${Object.keys(qOptions).map(k => `
             <div class="sol-opt-item ${k === q.correct ? 'is-correct' : (state.selectedOption === k && !isCorrect) ? 'is-user-wrong' : ''}">
-              <strong>${k}:</strong> ${q.options[k]}
+              <strong>${k}:</strong> ${qOptions[k]}
             </div>
           `).join('')}
         </div>
-        <div class="sol-exp-box"><strong>💡 Solution:</strong> ${q.explanation}</div>
+        <div class="sol-exp-box"><strong>💡 Solution:</strong> ${getQExplanation(q)}</div>
       </div>
     `;
   }).join('');
