@@ -2,48 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Dynamic Zoom Fix for Mobile Browsers -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Mock Test Portal</title>
+  <title>Mock Test Platform</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-container">
-    <header class="app-header">
-      <h2>🎯 Exam Test Series Portal</h2>
-    </header>
+  <h1>Mock Test Portal</h1>
 
-    <!-- Top Navigation Filter Card -->
-    <div class="filter-card">
-      <div class="input-group">
-        <label for="mode-select">Category</label>
-        <select id="mode-select" class="custom-select">
-          <option value="mocks">Mock Tests</option>
-          <option value="notes">Study Notes</option>
-        </select>
-      </div>
+  <div class="controls">
+    <select id="mode-select">
+      <option value="mocks">Mock Test</option>
+      <option value="notes">Notes</option>
+    </select>
 
-      <div class="input-group">
-        <label for="exam-select">Select Exam</label>
-        <select id="exam-select" class="custom-select"></select>
-      </div>
+    <select id="exam-select">
+      <option value="ssc">SSC</option>
+      <option value="upsc">UPSC</option>
+    </select>
 
-      <div class="input-group">
-        <label for="level-select">Select Sub-Level</label>
-        <select id="level-select" class="custom-select"></select>
-      </div>
-    </div>
+    <select id="level-select">
+      <option value="cgl">CGL / Pre</option>
+      <option value="assistant_commandant">Assistant Commandant</option>
+    </select>
 
-    <!-- Mocks Cards Display Grid -->
-    <div id="cards-container" class="cards-grid"></div>
+    <input type="number" id="test-num" value="1" min="1" style="width: 50px;">
 
-    <!-- Sarkari Exam Style Instruction Overlay Modal -->
-    <div id="test-overlay" class="overlay hidden">
-      <div class="modal-box" id="modal-content"></div>
-    </div>
+    <button id="load-btn">Load Content</button>
   </div>
 
-  <!-- Defer JS Execution to ensure HTML DOM is completely ready -->
+  <hr>
+
+  <div id="display-container">
+    <p>Select options and click Load.</p>
+  </div>
+
   <script type="module" src="app.js"></script>
 </body>
 </html>
