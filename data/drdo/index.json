@@ -1,0 +1,22 @@
+[
+  {
+    "id": "drdo-1",
+    "file": "drdo-1.json",
+    "title": "DRDO CEPTAM Tier-2 Mock Test 1",
+    "timeMins": 120,
+    "badgeText": "MEMORY BASED",
+    "badgeClass": "badge-memory",
+    "questionCount": 120,
+    "maxMarks": 120
+  },
+  {
+    "id": "drdo-2",
+    "file": "drdo-2.json",
+    "title": "DRDO CEPTAM Mock Test 2",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 4,
+    "maxMarks": 4
+  }
+]
