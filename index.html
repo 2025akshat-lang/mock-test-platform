@@ -2,39 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mock Test Platform</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshat study zone</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Mock Test Portal</h1>
 
-  <div class="controls">
-    <select id="mode-select">
-      <option value="mocks">Mock Test</option>
-      <option value="notes">Notes</option>
-    </select>
-
-    <select id="exam-select">
-      <option value="ssc">SSC</option>
-      <option value="upsc">UPSC</option>
-    </select>
-
-    <select id="level-select">
-      <option value="cgl">CGL / Pre</option>
-      <option value="assistant_commandant">Assistant Commandant</option>
-    </select>
-
-    <input type="number" id="test-num" value="1" min="1" style="width: 50px;">
-
-    <button id="load-btn">Load Content</button>
+  <!-- FAIL-SAFE ERROR SCREEN (shown instead of a browser error page) -->
+  <div class="app-screen" id="error-screen" style="display:none; align-items:center; justify-content:center; text-align:center; padding:24px;">
+    <div>
+      <div style="font-size:2.5rem; margin-bottom:10px;">🛠️</div>
+      <div style="font-size:1.1rem; font-weight:800; margin-bottom:6px;">Content Not Available</div>
+      <div style="color:var(--text-muted); font-size:0.85rem; margin-bottom:18px;" id="error-detail">This section hasn't been added yet. Please check back soon.</div>
+      <button class="btn btn-primary" onclick="goToHome()">⬅ Back to Home</button>
+    </div>
   </div>
 
-  <hr>
+  <!-- MASTER HOME DASHBOARD SCREEN -->
+  <div class="app-screen" id="home-dashboard">
+    <!-- TOP HEADER -->
+    <div class="app-top-bar">
+      <div class="goal-selector">
+        <span>⚡Axat Study PORTAL</span>
+      </div>
+      <div class="user-profile-badge" onclick="promptUserEmail()">P</div>
+    </div>
 
-  <div id="display-container">
-    <p>Select options and click Load.</p>
+    <div class="dashboard-body">
+      <!-- DYNAMIC HEADER WITH BACK BUTTON -->
+      <div class="nav-header-bar" id="nav-header-bar" style="display:none;">
+        <button class="back-btn" onclick="goBackStep()">⬅ Back</button>
+        <div class="page-title" id="current-page-title">Category</div>
+      </div>
+
+      <!-- LEVEL 1: CLEAN MAIN MENU (Home View) — built dynamically from data/manifest.json -->
+      <div class="main-menu-grid" id="view-level-1"></div>
+
+      <!-- LEVEL 2: SUB-CATEGORIES (Classes / Exams / PSUs) -->
+      <div class="sub-grid" id="view-level-2" style="display:none;"></div>
+
+      <!-- LEVEL 3: MOCK TESTS LIST FOR SELECTED SUB-CATEGORY -->
+      <div class="tests-vertical-list" id="view-level-3" style="display:none;"></div>
+    </div>
+
+    <!-- BOTTOM NAVIGATION BAR -->
+    <div class="bottom-nav">
+      <div class="nav-tab-item active" onclick="goToHome()">
+        <div class="nav-tab-icon">🏠</div>
+        <div>Home</div>
+      </div>
+      <div class="nav-tab-item" onclick="openAttemptedList()">
+        <div class="nav-tab-icon">📊</div>
+        <div>Reports</div>
+      </div>
+      <div class="nav-tab-item" onclick="promptUserEmail()">
+        <div class="nav-tab-icon">👤</div>
+        <div>Account</div>
+      </div>
+    </div>
   </div>
 
-  <script type="module" src="app.js"></script>
+  <!-- CBT EXAM TOP HEADER -->
+  <header style="display:none;" id="exam-header">
+    <div class="brand-title" onclick="exitToHome()">🚀 Axat ZONE</div>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <div class="timer-badge" id="overall-timer">00:30:00</div>
+      <button class="btn btn-secondary" style="padding: 4px 8px; font-size: 0.75rem;" onclick="toggleDrawer()">View Attempted Quest.</button>
+    </div>
+  </header>
+
+  <!-- SECTION SELECTOR ROW -->
+  <div class="section-bar" id="section-tabs" style="display:none;"></div>
+
+  <div class="main-viewport" id="exam-viewport" style="display:none;">
+    <div class="question-wrapper">
+      <div class="meta-bar">
+        <div style="font-weight: 700;">Question <span id="display-q-num">1</span></div>
+        <div style="font-size:0.75rem; color:var(--success);">Marks: +<span id="mark-pos">1.0</span> / -<span id="mark-neg">0.25</span></div>
+      </div>
+      <div class="question-container">
+        <div class="question-text" id="q-text">Loading...</div>
+        <div class="options-grid" id="options-container"></div>
+      </div>
+    </div>
+
+    <div class="drawer" id="drawer">
+      <div style="display:flex; justify-content:space-between; margin-bottom:12px;">
+        <h4>Question Palette</h4>
+        <button class="btn btn-secondary" onclick="toggleDrawer()">✕</button>
+      </div>
+      <div class="palette-grid" id="palette-grid"></div>
+      <button class="btn btn-primary" style="margin-top:16px; width:100%;" onclick="submitExam()">Submit Test</button>
+    </div>
+  </div>
+
+  <footer id="exam-footer" style="display:none;">
+    <div style="display:flex; gap: 6px;">
+      <button class="btn btn-warning" onclick="markForReviewAndNext()">Mark Review</button>
+      <button class="btn btn-secondary" onclick="clearResponse()">Clear</button>
+    </div>
+    <div style="display:flex; gap: 6px;">
+      <button class="btn btn-secondary" onclick="navigate(-1)">Prev</button>
+      <button class="btn btn-primary" id="save-next-btn" onclick="saveAndNext()">Save & Next</button>
+    </div>
+  </footer>
+
+  <!-- ANALYTICS & SOLUTIONS OVERLAY -->
+  <div class="analytics-overlay" id="analytics-overlay">
+    <div class="app-top-bar">
+      <div style="font-weight:700;">Test Analysis</div>
+      <div style="display:flex; gap:6px;">
+        <button class="btn btn-secondary" style="font-size:0.75rem;" onclick="reattemptTest()">🔄 Reattempt</button>
+        <button class="btn btn-secondary" style="font-size:0.75rem;" onclick="exitToHome()">🏠 Home</button>
+      </div>
+    </div>
+
+    <div class="nav-tabs-bar">
+      <div class="top-nav-tab active" id="tab-btn-analysis" onclick="switchAnalyticsTab('analysis')">Analysis</div>
+      <div class="top-nav-tab" id="tab-btn-solutions" onclick="switchAnalyticsTab('solutions')">Solutions</div>
+    </div>
+
+    <div class="tab-content" id="tab-analysis">
+      <div class="score-card-banner">
+        <div class="score-row">
+          <div>
+            <div style="font-size:0.75rem; color:var(--text-muted);">YOUR SCORE</div>
+            <div class="big-score"><span id="res-score">0</span> / <span id="res-max-score">0</span></div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:0.75rem; color:var(--text-muted);">STATUS</div>
+            <div style="font-weight:700; color:var(--success);" id="score-status-label">Report Saved</div>
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <div class="mini-stat"><div class="val" id="res-rank">--</div><div class="lbl">Rank</div></div>
+          <div class="mini-stat"><div class="val" id="res-accuracy" style="color:var(--success)">0%</div><div class="lbl">Accuracy</div></div>
+          <div class="mini-stat"><div class="val" id="res-percentile">--%</div><div class="lbl">Percentile</div></div>
+        </div>
+      </div>
+
+      <h4 style="margin-bottom:10px;">Sectional Breakdown</h4>
+      <div id="sectional-summary-list"></div>
+    </div>
+
+    <div class="tab-content" id="tab-solutions" style="display:none;">
+      <div class="filter-pills">
+        <button class="pill-btn active" onclick="filterSolutions('all')">All (<span id="cnt-all">0</span>)</button>
+        <button class="pill-btn" onclick="filterSolutions('correct')">Correct (<span id="cnt-correct">0</span>)</button>
+        <button class="pill-btn" onclick="filterSolutions('incorrect')">Incorrect (<span id="cnt-incorrect">0</span>)</button>
+        <button class="pill-btn" onclick="filterSolutions('unattempted')">Unattempted (<span id="cnt-unattempted">0</span>)</button>
+      </div>
+
+      <div id="solutions-list-container"></div>
+    </div>
+  </div>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
