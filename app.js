@@ -1,17 +1,30 @@
+import { EXAM_ROUTES } from './config/exam-routes.js';
 import { fetchDynamicData } from './modules/data-loader.js';
-import { displayContentCard, displayErrorState } from './modules/ui-render.js';
+import { renderSubLevels, displayContentCard, displayErrorState } from './modules/ui-render.js';
 
-document.getElementById('load-btn').addEventListener('click', async () => {
-  const container = document.getElementById('display-container');
-  
+const examSelect = document.getElementById('exam-select');
+const levelSelect = document.getElementById('level-select');
+const loadBtn = document.getElementById('load-btn');
+const container = document.getElementById('display-container');
+
+// 1. Auto Sync Dropdowns (Exam change hone par Level auto update honge)
+examSelect.addEventListener('change', () => {
+  renderSubLevels(examSelect.value, EXAM_ROUTES, levelSelect);
+});
+
+// Initialize sub-levels first time
+renderSubLevels(examSelect.value, EXAM_ROUTES, levelSelect);
+
+// 2. Load Content Click Handler
+loadBtn.addEventListener('click', async () => {
   const state = {
     mode: document.getElementById('mode-select').value,
-    exam: document.getElementById('exam-select').value,
-    level: document.getElementById('level-select').value,
+    exam: examSelect.value,
+    level: levelSelect.value,
     testNum: document.getElementById('test-num').value
   };
 
-  container.innerHTML = "<p>Loading...</p>";
+  container.innerHTML = "<p>Searching file in system...</p>";
 
   const response = await fetchDynamicData(state.mode, state.exam, state.level, state.testNum);
 
