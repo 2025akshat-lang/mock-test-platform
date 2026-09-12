@@ -84,8 +84,21 @@
     .option-idx { width: 22px; height: 22px; border-radius: 50%; background: #e2e8f0; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; }
     .option-card.selected .option-idx { background: var(--primary); color: #fff; }
 
-    footer { position: fixed;height: 52px; background: #fff; border-top: 1px solid var(--card-border); display: flex; align-items: center; justify-content: space-between; padding: 0 12px; z-index: 50; }
-    .btn { padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: none; }
+    footer { 
+  position: fixed;
+  bottom: 0;              /* Isse bilkul niche screen par chipak jayega */
+  left: 0;                /* Left edge se start hoga */
+  width: 100%;            /* Poori screen ki width lega */
+  height: 52px; 
+  background: #fff; 
+  border-top: 1px solid var(--card-border); 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 12px; 
+  z-index: 50; 
+}
+   .btn { padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: none; }
     .btn-secondary { background: #f1f5f9; color: var(--text-main); border: 1px solid var(--card-border); }
     .btn-warning { background: #f59e0b; color: #fff; }
     .btn-primary { background: var(--primary); color: #fff; }
