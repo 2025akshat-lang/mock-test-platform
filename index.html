@@ -18,6 +18,36 @@
     </div>
   </div>
 
+  <!-- INSTRUCTIONS SCREEN — shown after "Start Test" is tapped, before -->
+  <!-- the exam UI appears. Content here is never hardcoded: the summary -->
+  <!-- row and rules list are filled in by showInstructionsScreen() in   -->
+  <!-- app.js, using data/default-instructions.json + this test's own   -->
+  <!-- optional "instructions" field. -->
+  <div class="app-screen" id="instructions-screen" style="display:none;">
+    <div class="app-top-bar">
+      <div class="goal-selector" id="instructions-exam-title">Test Instructions</div>
+    </div>
+    <div class="dashboard-body">
+      <div class="summary-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom:18px;">
+        <div class="mini-stat"><div class="val" id="instr-q-count">--</div><div class="lbl">Questions</div></div>
+        <div class="mini-stat"><div class="val" id="instr-marks">--</div><div class="lbl">Total Marks</div></div>
+        <div class="mini-stat"><div class="val" id="instr-time">--</div><div class="lbl">Duration</div></div>
+      </div>
+
+      <h4 style="margin-bottom:10px;">Instructions</h4>
+      <ul id="instructions-rules-list" style="margin-bottom:22px; padding-left:18px; font-size:0.85rem; line-height:1.6;"></ul>
+
+      <h4 style="margin-bottom:8px;">Choose Language / भाषा चुनें</h4>
+      <div class="filter-pills" style="margin-bottom:22px;">
+        <button class="pill-btn active" id="lang-btn-en" onclick="setLanguage('en')">English</button>
+        <button class="pill-btn" id="lang-btn-hi" onclick="setLanguage('hi')">हिंदी</button>
+      </div>
+
+      <button class="btn btn-primary" style="width:100%; padding:12px;" onclick="beginTestFromInstructions()">I have read the instructions — Start Test 🚀</button>
+      <button class="btn btn-secondary" style="width:100%; margin-top:8px; padding:10px;" onclick="goToHome()">⬅ Cancel &amp; Go Back</button>
+    </div>
+  </div>
+
   <!-- MASTER HOME DASHBOARD SCREEN -->
   <div class="app-screen" id="home-dashboard">
     <!-- TOP HEADER -->
