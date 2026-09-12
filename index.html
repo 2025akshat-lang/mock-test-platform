@@ -14,6 +14,7 @@
       z-index: 1000;
       background: #fff;
       flex-direction: column;
+      font-size:23px;
     }
     .solution-detail-overlay.active { display: flex; }
 
@@ -24,7 +25,7 @@
       padding: 12px 16px;
       background: #0f172a;
       color: #fff;
-      flex-shrink: 0;
+      flex-shrink: 0;font-size:25px;
     }
     .sol-detail-header .back-btn {
       background: transparent;
@@ -53,7 +54,7 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 0.85rem;
+      font-size: 0.95rem;
       background: #e2e8f0;
       color: #334155;
       cursor: pointer;
@@ -78,22 +79,30 @@
 
     .sol-detail-answer {
       margin-top: 14px;
-      padding-top: 12px;
-      border-top: 1px solid var(--card-border, #e2e8f0);
+      padding: 12px 14px;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 8px;
       font-weight: 800;
       font-size: 0.9rem;
+      color: #166534;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
     }
-    .sol-detail-pct { float: right; font-weight: 600; color: var(--text-muted, #64748b); }
+    .sol-detail-answer u { text-decoration-color: #166534; }
+    .sol-detail-pct { font-weight: 600; color: var(--text-muted, #64748b); font-size: 0.8rem; }
 
-    .sol-detail-solution-box { margin-top: 14px; clear: both; }
+    .sol-detail-solution-box { margin-top: 16px; }
     .sol-detail-solution-title {
       font-weight: 800;
       letter-spacing: 0.5px;
-      color: var(--text-muted, #64748b);
-      margin-bottom: 8px;
-      font-size: 0.85rem;
-      border-bottom: 1px solid var(--card-border, #e2e8f0);
-      padding-bottom: 6px;
+      color: var(--primary-dark, #1d4ed8);
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
     }
 
     .sol-detail-viewbtn { margin-top: 16px; width: 100%; }
