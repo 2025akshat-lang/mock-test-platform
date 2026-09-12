@@ -2,10 +2,13 @@
   --bg: #f8fafc;
   --card-bg: #ffffff;
   --card-border: #e2e8f0;
+
   --primary: #2563eb;
   --primary-dark: #1d4ed8;
+
   --text-main: #0f172a;
   --text-muted: #64748b;
+
   --success: #16a34a;
   --danger: #dc2626;
 
@@ -13,7 +16,7 @@
   --cbt-not-answered: #dc2626;
   --cbt-review: #9333ea;
 
-  /* Fixed exam footer height */
+  /* Fixed footer height */
   --exam-footer-height: 68px;
 }
 
@@ -59,7 +62,7 @@ body {
 
 
 /* =========================================================
-   MAIN APP SCREEN
+   MAIN APP
    ========================================================= */
 
 .app-screen {
@@ -78,7 +81,6 @@ body {
   z-index: 10;
 
   display: flex;
-
   flex-direction: column;
 
   overflow: hidden;
@@ -93,15 +95,12 @@ body {
   flex: 0 0 auto;
 
   background: #0f172a;
-
   color: #fff;
 
   padding: 12px 16px;
 
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 
   border-bottom: 1px solid #1e293b;
@@ -115,13 +114,11 @@ body {
   border-radius: 20px;
 
   font-size: 0.85rem;
-
   font-weight: 700;
 
   color: #38bdf8;
 
   display: flex;
-
   align-items: center;
 
   gap: 6px;
@@ -138,12 +135,10 @@ body {
   background: var(--primary);
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
   font-weight: 700;
-
   font-size: 0.85rem;
 
   border: 2px solid #38bdf8;
@@ -162,11 +157,9 @@ body {
   min-height: 0;
 
   overflow-y: auto;
-
   overflow-x: hidden;
 
   padding: 16px;
-
   padding-bottom: 70px;
 
   -webkit-overflow-scrolling: touch;
@@ -174,7 +167,7 @@ body {
 
 
 /* =========================================================
-   BREADCRUMB / BACK BAR
+   BACK / PAGE HEADER
    ========================================================= */
 
 .nav-header-bar {
@@ -197,7 +190,6 @@ body {
   border-radius: 6px;
 
   font-size: 0.8rem;
-
   font-weight: 700;
 
   cursor: pointer;
@@ -205,7 +197,6 @@ body {
   color: var(--text-main);
 
   display: flex;
-
   align-items: center;
 
   gap: 4px;
@@ -223,7 +214,7 @@ body {
 
 
 /* =========================================================
-   MAIN MENU CARDS
+   MAIN MENU
    ========================================================= */
 
 .main-menu-grid {
@@ -244,9 +235,7 @@ body {
   padding: 18px;
 
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 
   cursor: pointer;
@@ -265,7 +254,6 @@ body {
 
 .menu-card-left {
   display: flex;
-
   align-items: center;
 
   gap: 14px;
@@ -284,9 +272,7 @@ body {
   background: #eff6ff;
 
   display: flex;
-
   align-items: center;
-
   justify-content: center;
 
   font-size: 1.5rem;
@@ -411,19 +397,16 @@ body {
 
 .badge-memory {
   background: #fef3c7;
-
   color: #b45309;
 }
 
 .badge-free {
   background: #dcfce7;
-
   color: #15803d;
 }
 
 .badge-new {
   background: #fee2e2;
-
   color: #b91c1c;
 }
 
@@ -533,7 +516,6 @@ header {
   flex: 0 0 50px;
 
   height: 50px;
-
   min-height: 50px;
 
   background: #0f172a;
@@ -595,7 +577,7 @@ header {
 
 
 /* =========================================================
-   EXAM SECTION BAR
+   SECTION BAR
    ========================================================= */
 
 .section-bar {
@@ -660,10 +642,10 @@ header {
    ========================================================= */
 
 /*
-   IMPORTANT
+   Question area remains movable / scrollable.
 
-   The viewport fills the remaining screen.
-   Footer is fixed separately at the bottom.
+   Footer is NOT inside this flow.
+   Footer is independently fixed at bottom.
 */
 
 .main-viewport {
@@ -678,20 +660,19 @@ header {
   position: relative;
 
   overflow: hidden;
-
-  /*
-     Reserve space for the fixed footer.
-     Question content will never disappear underneath it.
-  */
-
-  padding-bottom:
-    var(--exam-footer-height);
 }
 
 
 /* =========================================================
-   QUESTION PAPER
+   QUESTION WRAPPER
    ========================================================= */
+
+/*
+   THIS AREA SCROLLS.
+
+   The question container is therefore movable
+   vertically by normal mobile scrolling.
+*/
 
 .question-wrapper {
   flex: 1 1 auto;
@@ -706,9 +687,10 @@ header {
 
   padding: 16px;
 
-  /*
-     ONLY QUESTION AREA SCROLLS
-  */
+  padding-bottom:
+    calc(
+      var(--exam-footer-height) + 20px
+    );
 
   overflow-y: auto;
 
@@ -718,6 +700,11 @@ header {
 
   scrollbar-width: thin;
 }
+
+
+/* =========================================================
+   QUESTION META
+   ========================================================= */
 
 .meta-bar {
   display: flex;
@@ -735,6 +722,11 @@ header {
   flex-shrink: 0;
 }
 
+
+/* =========================================================
+   QUESTION CONTAINER
+   ========================================================= */
+
 .question-container {
   background: #fff;
 
@@ -743,6 +735,13 @@ header {
   border-radius: 8px;
 
   padding: 16px;
+
+  /*
+     Prevent shrinking.
+
+     It remains inside the scrollable
+     question area.
+  */
 
   flex-shrink: 0;
 }
@@ -758,6 +757,11 @@ header {
 
   overflow-wrap: anywhere;
 }
+
+
+/* =========================================================
+   OPTIONS
+   ========================================================= */
 
 .options-grid {
   display: flex;
@@ -828,21 +832,17 @@ header {
 
 
 /* =========================================================
-   EXAM FOOTER — FIXED BOTTOM
+   FIXED EXAM FOOTER
    ========================================================= */
 
 /*
-   THIS IS THE MAIN FIX.
+   ONLY THIS BAR IS FIXED.
 
-   Footer is no longer part of normal document flow.
-   It is permanently attached to the bottom of the
-   exam screen.
-
-   Therefore:
-
-   Question scrolls.
-   Footer stays fixed.
-   Submit button stays visible.
+   It will remain at the bottom even when:
+   - Question scrolls
+   - Question container moves
+   - Palette opens
+   - Palette scrolls
 */
 
 footer {
@@ -850,13 +850,14 @@ footer {
 
   left: 0;
   right: 0;
+
   bottom: 0;
 
   width: 100%;
 
-  min-height: var(--exam-footer-height);
-
   height: var(--exam-footer-height);
+
+  min-height: var(--exam-footer-height);
 
   background: #fff;
 
@@ -869,10 +870,6 @@ footer {
   justify-content: space-between;
 
   gap: 8px;
-
-  /*
-     Android safe area
-  */
 
   padding-top: 8px;
 
@@ -888,14 +885,11 @@ footer {
   box-sizing: border-box;
 
   /*
-     Above question content and palette
+     Footer always stays above
+     question/palette.
   */
 
   z-index: 500;
-
-  /*
-     Prevent accidental horizontal overflow
-  */
 
   overflow: hidden;
 }
@@ -960,6 +954,13 @@ footer .btn {
    QUESTION PALETTE / DRAWER
    ========================================================= */
 
+/*
+   Palette is NOT fixed.
+
+   It belongs to .main-viewport and can move/scroll.
+   Footer remains independent and fixed.
+*/
+
 .drawer {
   position: absolute;
 
@@ -985,8 +986,7 @@ footer .btn {
     right 0.3s ease;
 
   /*
-     Below footer.
-     Footer remains visible/fixed.
+     Below fixed footer.
   */
 
   z-index: 400;
@@ -997,6 +997,10 @@ footer .btn {
 
   padding: 16px;
 
+  /*
+     Palette itself can scroll internally.
+  */
+
   overflow: hidden;
 }
 
@@ -1006,13 +1010,14 @@ footer .btn {
 
 
 /* =========================================================
-   PALETTE GRID
+   PALETTE GRID — MOVABLE / SCROLLABLE
    ========================================================= */
 
 .palette-grid {
   display: grid;
 
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns:
+    repeat(5, 1fr);
 
   gap: 8px;
 
@@ -1025,6 +1030,8 @@ footer .btn {
   overflow-x: hidden;
 
   -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
 }
 
 .palette-node {
@@ -1049,6 +1056,8 @@ footer .btn {
   font-weight: 600;
 
   cursor: pointer;
+
+  flex-shrink: 0;
 }
 
 .palette-node.status-answered {
@@ -1103,7 +1112,7 @@ footer .btn {
 
 
 /* =========================================================
-   ANALYTICS NAVIGATION
+   ANALYTICS NAV
    ========================================================= */
 
 .nav-tabs-bar {
@@ -1208,7 +1217,8 @@ footer .btn {
 .summary-grid {
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:
+    repeat(3, 1fr);
 
   gap: 8px;
 
@@ -1405,23 +1415,18 @@ footer .btn {
 
 
 /* =========================================================
-   MOBILE — 600px
+   MOBILE
    ========================================================= */
 
 @media (max-width: 600px) {
 
   :root {
-    /*
-       Slightly taller because Android safe-area
-       is included inside the footer.
-    */
-
     --exam-footer-height: 64px;
   }
 
 
   /* -----------------------------------------
-     EXAM HEADER
+     HEADER
      ----------------------------------------- */
 
   header {
@@ -1467,11 +1472,16 @@ footer .btn {
 
 
   /* -----------------------------------------
-     QUESTION AREA
+     QUESTION
      ----------------------------------------- */
 
   .question-wrapper {
     padding: 10px;
+
+    padding-bottom:
+      calc(
+        var(--exam-footer-height) + 20px
+      );
   }
 
   .question-container {
@@ -1496,9 +1506,9 @@ footer .btn {
      ----------------------------------------- */
 
   footer {
-    min-height: var(--exam-footer-height);
-
     height: var(--exam-footer-height);
+
+    min-height: var(--exam-footer-height);
 
     padding-top: 6px;
 
@@ -1529,10 +1539,17 @@ footer .btn {
     right: -300px;
 
     padding: 12px;
+
+    /*
+       Leave footer visible.
+    */
+
+    bottom: 0;
   }
 
   .palette-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns:
+      repeat(5, 1fr);
 
     gap: 7px;
   }
@@ -1573,7 +1590,7 @@ footer .btn {
 
 
 /* =========================================================
-   VERY SMALL PHONES — 380px
+   VERY SMALL PHONES
    ========================================================= */
 
 @media (max-width: 380px) {
@@ -1584,6 +1601,11 @@ footer .btn {
 
   .question-wrapper {
     padding: 8px;
+
+    padding-bottom:
+      calc(
+        var(--exam-footer-height) + 20px
+      );
   }
 
   .question-container {
@@ -1601,9 +1623,9 @@ footer .btn {
   }
 
   footer {
-    min-height: var(--exam-footer-height);
-
     height: var(--exam-footer-height);
+
+    min-height: var(--exam-footer-height);
 
     gap: 5px;
 
@@ -1665,12 +1687,17 @@ footer .btn {
 
   .question-wrapper {
     padding: 8px;
+
+    padding-bottom:
+      calc(
+        var(--exam-footer-height) + 15px
+      );
   }
 
   footer {
-    min-height: var(--exam-footer-height);
-
     height: var(--exam-footer-height);
+
+    min-height: var(--exam-footer-height);
 
     padding-top: 4px;
 
@@ -1688,7 +1715,10 @@ footer .btn {
 
   footer {
     padding-bottom:
-      max(8px, env(safe-area-inset-bottom));
+      max(
+        8px,
+        env(safe-area-inset-bottom)
+      );
   }
 
   .bottom-nav {
@@ -1715,4 +1745,4 @@ footer .btn {
 
     max-height: 100vh;
   }
-}
+  }
