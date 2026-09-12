@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "iocl-qc-1",
+    "file": "iocl-qc-1.json",
+    "title": "IOCL Quality Control Chemist - Mock Test 1",
+    "timeMins": 60,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 30,
+    "maxMarks": 30.0
+  }
+]
+
