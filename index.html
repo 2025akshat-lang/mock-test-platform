@@ -2,37 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mock Test Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Test Portal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Mock Test Portal</h1>
+  <div class="app-container">
+    <header class="app-header">
+      <h1>Mock Test Portal</h1>
+    </header>
 
-  <div class="controls">
-    <select id="mode-select">
-      <option value="mocks">Mock Test</option>
-      <option value="notes">Notes</option>
-    </select>
+    <main class="dashboard-card">
+      <div class="controls-grid">
+        <div class="input-group">
+          <label for="mode-select">Category</label>
+          <select id="mode-select">
+            <option value="mocks">Mock Test</option>
+            <option value="notes">Notes</option>
+          </select>
+        </div>
 
-    <select id="exam-select">
-      <option value="ssc">SSC</option>
-      <option value="upsc">UPSC</option>
-    </select>
+        <div class="input-group">
+          <label for="exam-select">Exam</label>
+          <select id="exam-select"></select>
+        </div>
 
-    <select id="level-select">
-      <option value="cgl">CGL / Pre</option>
-      <option value="assistant_commandant">Assistant Commandant</option>
-    </select>
+        <div class="input-group">
+          <label for="level-select">Level / Paper</label>
+          <select id="level-select"></select>
+        </div>
 
-    <input type="number" id="test-num" value="1" min="1" style="width: 50px;">
+        <div class="input-group">
+          <label for="test-num">Test No.</label>
+          <input type="number" id="test-num" value="1" min="1">
+        </div>
 
-    <button id="load-btn">Load Content</button>
-  </div>
+        <button id="load-btn" class="btn-primary">Load Content</button>
+      </div>
 
-  <hr>
-
-  <div id="display-container">
-    <p>Select options and click Load.</p>
+      <div id="display-container" class="display-area">
+        <p class="placeholder-text">Select exam details above to start.</p>
+      </div>
+    </main>
   </div>
 
   <script type="module" src="app.js"></script>
