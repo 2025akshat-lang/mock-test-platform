@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": "k12",
+      "title": "K-12 Education",
+      "icon": "📚",
+      "desc": "Class 6th to 12th Science & Math",
+      "subCategories": [
+        {
+          "id": "class-6",
+          "name": "Class 6th Science"
+        },
+        {
+          "id": "class-7",
+          "name": "Class 7th Science"
+        },
+        {
+          "id": "class-11",
+          "name": "Class 11th Physics"
+        },
+        {
+          "id": "class-12",
+          "name": "Class 12th Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "entrance",
+      "title": "Entrance Exams",
+      "icon": "🎓",
+      "desc": "JMI, DU, BHU & University Tests",
+      "subCategories": [
+        {
+          "id": "jmi",
+          "name": "Jamia Millia Islamia (JMI)"
+        },
+        {
+          "id": "du",
+          "name": "Delhi University (DU)"
+        },
+        {
+          "id": "bhu",
+          "name": "Banaras Hindu University (BHU)"
+        }
+      ]
+    },
+    {
+      "id": "psu",
+      "title": "PSU Exams",
+      "icon": "🏢",
+      "desc": "DRDO, IOCL, ISRO & PSU Papers",
+      "subCategories": [
+        {
+          "id": "drdo",
+          "name": "DRDO CEPTAM"
+        },
+        {
+          "id": "iocl",
+          "name": "IOCL Apprentice"
+        },
+        {
+          "id": "isro",
+          "name": "ISRO Technical"
+        }
+      ]
+    }
+  ]
+}
