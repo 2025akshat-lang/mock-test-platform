@@ -202,6 +202,34 @@ function normalizeQuestion(q) {
 // ($...$ inline, $$...$$ block) and turns it into real math with KaTeX.
 // Safe to call even before the KaTeX <script defer> tags have finished
 // loading — it just silently does nothing that one time.
+// Explanation text in the JSON is plain text, not real HTML — so writing
+// **bold** or "- point" in the JSON did nothing before. This turns those
+// into actual <strong> tags and a bulleted "Key Points" list (styled in
+// style.css as .sol-key-points). LaTeX ($...$) is untouched here — KaTeX
+// runs afterwards via renderMath() and finds it regardless of the tags
+// this adds around it.
+function renderMarkdownLite(text) {
+  if (!text) return '';
+  let html = String(text).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+  const lines = html.split(/\r?\n/);
+  const out = [];
+  let inList = false;
+  lines.forEach(line => {
+    const trimmed = line.trim();
+    const isBullet = /^[-*]\s+/.test(trimmed);
+    if (isBullet) {
+      if (!inList) { out.push('<ul class="sol-key-points">'); inList = true; }
+      out.push('<li>' + trimmed.replace(/^[-*]\s+/, '') + '</li>');
+    } else {
+      if (inList) { out.push('</ul>'); inList = false; }
+      if (trimmed.length) out.push('<p>' + trimmed + '</p>');
+    }
+  });
+  if (inList) out.push('</ul>');
+  return out.join('');
+}
+
 function renderMath(container) {
   if (!container || typeof window.renderMathInElement !== 'function') return;
   try {
@@ -579,12 +607,12 @@ function renderSolutionDetailBody() {
     <div class="sol-opt-list">${optionsHtml}</div>
     ${isOpen ? `
       <div class="sol-detail-answer">
-        Correct Answer Is: <u>${q.correct}: ${q.options[q.correct]}</u>
+        <span>✅ Correct Answer: <u>${q.correct}: ${q.options[q.correct]}</u></span>
         <span class="sol-detail-pct">${q.rightPct} got this right</span>
       </div>
       <div class="sol-detail-solution-box">
         <div class="sol-detail-solution-title">💡 SOLUTION</div>
-        <div class="sol-exp-box">${q.explanation}</div>
+        <div class="sol-exp-box">${renderMarkdownLite(q.explanation)}</div>
       </div>
     ` : `
       <button class="btn btn-primary sol-detail-viewbtn" onclick="revealSolution(${i})">View Solution</button>
