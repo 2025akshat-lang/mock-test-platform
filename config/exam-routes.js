@@ -2,24 +2,16 @@ export const EXAM_ROUTES = {
   ssc: {
     name: "SSC",
     levels: [
-      { id: "cgl", label: "CGL" },
-      { id: "chsl", label: "CHSL" },
-      { id: "mts", label: "MTS" }
+      { id: "cgl", label: "SSC CGL", totalMocks: 2 },
+      { id: "chsl", label: "SSC CHSL", totalMocks: 1 },
+      { id: "mts", label: "SSC MTS", totalMocks: 3 }
     ]
   },
   upsc: {
     name: "UPSC",
     levels: [
-      { id: "pre", label: "Pre" },
-      { id: "mains", label: "Mains" },
-      { id: "assistant_commandant", label: "Assistant Commandant" }
-    ]
-  },
-  dsssb: {
-    name: "DSSSB",
-    levels: [
-      { id: "aso", label: "ASO" },
-      { id: "tgt", label: "TGT" }
+      { id: "pre", label: "UPSC Pre", totalMocks: 2 },
+      { id: "assistant_commandant", label: "Assistant Commandant", totalMocks: 1 }
     ]
   }
 };
