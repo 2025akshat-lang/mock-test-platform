@@ -12,6 +12,9 @@
   --cbt-answered: #16a34a;
   --cbt-not-answered: #dc2626;
   --cbt-review: #9333ea;
+
+  /* Fixed exam footer height */
+  --exam-footer-height: 68px;
 }
 
 
@@ -32,12 +35,15 @@
     sans-serif;
 
   user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
+
   min-height: 100%;
 
   margin: 0;
@@ -63,6 +69,7 @@ body {
 
   width: 100%;
   height: 100dvh;
+
   min-height: 0;
   max-height: 100dvh;
 
@@ -71,6 +78,7 @@ body {
   z-index: 10;
 
   display: flex;
+
   flex-direction: column;
 
   overflow: hidden;
@@ -85,12 +93,15 @@ body {
   flex: 0 0 auto;
 
   background: #0f172a;
+
   color: #fff;
 
   padding: 12px 16px;
 
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
 
   border-bottom: 1px solid #1e293b;
@@ -104,11 +115,13 @@ body {
   border-radius: 20px;
 
   font-size: 0.85rem;
+
   font-weight: 700;
 
   color: #38bdf8;
 
   display: flex;
+
   align-items: center;
 
   gap: 6px;
@@ -125,10 +138,12 @@ body {
   background: var(--primary);
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
   font-weight: 700;
+
   font-size: 0.85rem;
 
   border: 2px solid #38bdf8;
@@ -147,9 +162,11 @@ body {
   min-height: 0;
 
   overflow-y: auto;
+
   overflow-x: hidden;
 
   padding: 16px;
+
   padding-bottom: 70px;
 
   -webkit-overflow-scrolling: touch;
@@ -162,6 +179,7 @@ body {
 
 .nav-header-bar {
   display: flex;
+
   align-items: center;
 
   gap: 10px;
@@ -179,6 +197,7 @@ body {
   border-radius: 6px;
 
   font-size: 0.8rem;
+
   font-weight: 700;
 
   cursor: pointer;
@@ -186,6 +205,7 @@ body {
   color: var(--text-main);
 
   display: flex;
+
   align-items: center;
 
   gap: 4px;
@@ -195,6 +215,7 @@ body {
 
 .page-title {
   font-size: 1.1rem;
+
   font-weight: 800;
 
   color: var(--text-main);
@@ -202,7 +223,7 @@ body {
 
 
 /* =========================================================
-   MAIN MENU CARDS GRID
+   MAIN MENU CARDS
    ========================================================= */
 
 .main-menu-grid {
@@ -223,7 +244,9 @@ body {
   padding: 18px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
   cursor: pointer;
@@ -242,6 +265,7 @@ body {
 
 .menu-card-left {
   display: flex;
+
   align-items: center;
 
   gap: 14px;
@@ -260,7 +284,9 @@ body {
   background: #eff6ff;
 
   display: flex;
+
   align-items: center;
+
   justify-content: center;
 
   font-size: 1.5rem;
@@ -270,6 +296,7 @@ body {
 
 .menu-title {
   font-size: 1rem;
+
   font-weight: 800;
 
   margin-bottom: 2px;
@@ -293,7 +320,7 @@ body {
 
 
 /* =========================================================
-   SUB CATEGORY LIST
+   SUB CATEGORY
    ========================================================= */
 
 .sub-grid {
@@ -318,6 +345,7 @@ body {
   cursor: pointer;
 
   font-weight: 700;
+
   font-size: 0.9rem;
 
   box-shadow:
@@ -332,7 +360,7 @@ body {
 
 
 /* =========================================================
-   TEST CARDS LIST
+   TEST CARDS
    ========================================================= */
 
 .tests-vertical-list {
@@ -383,16 +411,19 @@ body {
 
 .badge-memory {
   background: #fef3c7;
+
   color: #b45309;
 }
 
 .badge-free {
   background: #dcfce7;
+
   color: #15803d;
 }
 
 .badge-new {
   background: #fee2e2;
+
   color: #b91c1c;
 }
 
@@ -434,7 +465,7 @@ body {
 
 
 /* =========================================================
-   BOTTOM NAVIGATION
+   DASHBOARD BOTTOM NAV
    ========================================================= */
 
 .bottom-nav {
@@ -445,7 +476,7 @@ body {
 
   width: 100%;
 
-  height: 56px;
+  min-height: 56px;
 
   background: #fff;
 
@@ -454,11 +485,15 @@ body {
   display: flex;
 
   justify-content: space-around;
+
   align-items: center;
 
   z-index: 20;
 
-  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: 4px;
+
+  padding-bottom:
+    env(safe-area-inset-bottom);
 }
 
 .nav-tab-item {
@@ -491,13 +526,15 @@ body {
 
 
 /* =========================================================
-   EXAM INTERFACE
+   EXAM HEADER
    ========================================================= */
 
 header {
   flex: 0 0 50px;
 
   height: 50px;
+
+  min-height: 50px;
 
   background: #0f172a;
 
@@ -511,7 +548,7 @@ header {
 
   padding: 0 12px;
 
-  z-index: 20;
+  z-index: 50;
 
   min-width: 0;
 }
@@ -558,7 +595,7 @@ header {
 
 
 /* =========================================================
-   SECTION BAR
+   EXAM SECTION BAR
    ========================================================= */
 
 .section-bar {
@@ -622,6 +659,13 @@ header {
    MAIN EXAM VIEWPORT
    ========================================================= */
 
+/*
+   IMPORTANT
+
+   The viewport fills the remaining screen.
+   Footer is fixed separately at the bottom.
+*/
+
 .main-viewport {
   flex: 1 1 auto;
 
@@ -634,6 +678,14 @@ header {
   position: relative;
 
   overflow: hidden;
+
+  /*
+     Reserve space for the fixed footer.
+     Question content will never disappear underneath it.
+  */
+
+  padding-bottom:
+    var(--exam-footer-height);
 }
 
 
@@ -645,6 +697,7 @@ header {
   flex: 1 1 auto;
 
   min-width: 0;
+
   min-height: 0;
 
   display: flex;
@@ -653,11 +706,17 @@ header {
 
   padding: 16px;
 
+  /*
+     ONLY QUESTION AREA SCROLLS
+  */
+
   overflow-y: auto;
 
   overflow-x: hidden;
 
   -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
 }
 
 .meta-bar {
@@ -769,29 +828,35 @@ header {
 
 
 /* =========================================================
-   EXAM FOOTER
+   EXAM FOOTER — FIXED BOTTOM
    ========================================================= */
 
 /*
-   IMPORTANT:
-   Footer is now part of the flex layout.
-   It will NOT disappear behind Android's navigation area.
+   THIS IS THE MAIN FIX.
+
+   Footer is no longer part of normal document flow.
+   It is permanently attached to the bottom of the
+   exam screen.
+
+   Therefore:
+
+   Question scrolls.
+   Footer stays fixed.
+   Submit button stays visible.
 */
 
 footer {
-  position: relative;
+  position: fixed;
 
-  left: auto;
-  right: auto;
-  bottom: auto;
-
-  flex: 0 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   width: 100%;
 
-  min-height: 52px;
+  min-height: var(--exam-footer-height);
 
-  height: auto;
+  height: var(--exam-footer-height);
 
   background: #fff;
 
@@ -805,7 +870,14 @@ footer {
 
   gap: 8px;
 
+  /*
+     Android safe area
+  */
+
   padding-top: 8px;
+
+  padding-left:
+    max(12px, env(safe-area-inset-left));
 
   padding-right:
     max(12px, env(safe-area-inset-right));
@@ -813,18 +885,35 @@ footer {
   padding-bottom:
     max(8px, env(safe-area-inset-bottom));
 
-  padding-left:
-    max(12px, env(safe-area-inset-left));
-
-  z-index: 200;
-
   box-sizing: border-box;
+
+  /*
+     Above question content and palette
+  */
+
+  z-index: 500;
+
+  /*
+     Prevent accidental horizontal overflow
+  */
+
+  overflow: hidden;
 }
 
 
 /* =========================================================
-   BUTTONS
+   FOOTER BUTTONS
    ========================================================= */
+
+footer .btn {
+  flex-shrink: 0;
+
+  white-space: nowrap;
+
+  position: relative;
+
+  z-index: 501;
+}
 
 .btn {
   padding: 6px 12px;
@@ -839,13 +928,7 @@ footer {
 
   border: none;
 
-  flex-shrink: 0;
-
   white-space: nowrap;
-
-  position: relative;
-
-  z-index: 201;
 }
 
 .btn-secondary {
@@ -881,7 +964,9 @@ footer {
   position: absolute;
 
   top: 0;
+
   right: -300px;
+
   bottom: 0;
 
   width: min(300px, 88vw);
@@ -896,9 +981,15 @@ footer {
 
   border-left: 1px solid var(--card-border);
 
-  transition: right 0.3s ease;
+  transition:
+    right 0.3s ease;
 
-  z-index: 100;
+  /*
+     Below footer.
+     Footer remains visible/fixed.
+  */
+
+  z-index: 400;
 
   display: flex;
 
@@ -915,7 +1006,7 @@ footer {
 
 
 /* =========================================================
-   PALETTE HEADER / CONTENT
+   PALETTE GRID
    ========================================================= */
 
 .palette-grid {
@@ -997,7 +1088,7 @@ footer {
 
   background: var(--bg);
 
-  z-index: 300;
+  z-index: 1000;
 
   display: none;
 
@@ -1012,7 +1103,7 @@ footer {
 
 
 /* =========================================================
-   ANALYTICS NAV TABS
+   ANALYTICS NAVIGATION
    ========================================================= */
 
 .nav-tabs-bar {
@@ -1314,19 +1405,18 @@ footer {
 
 
 /* =========================================================
-   MOBILE RESPONSIVE FIX
+   MOBILE — 600px
    ========================================================= */
 
 @media (max-width: 600px) {
 
-  /* -----------------------------------------
-     APP
-     ----------------------------------------- */
+  :root {
+    /*
+       Slightly taller because Android safe-area
+       is included inside the footer.
+    */
 
-  .app-screen {
-    height: 100dvh;
-
-    max-height: 100dvh;
+    --exam-footer-height: 64px;
   }
 
 
@@ -1339,7 +1429,10 @@ footer {
 
     height: 50px;
 
+    min-height: 50px;
+
     padding-left: 10px;
+
     padding-right: 10px;
 
     gap: 8px;
@@ -1374,7 +1467,7 @@ footer {
 
 
   /* -----------------------------------------
-     QUESTION PAPER
+     QUESTION AREA
      ----------------------------------------- */
 
   .question-wrapper {
@@ -1399,22 +1492,24 @@ footer {
 
 
   /* -----------------------------------------
-     FOOTER
+     FIXED FOOTER
      ----------------------------------------- */
 
   footer {
-    min-height: 58px;
+    min-height: var(--exam-footer-height);
 
-    padding-top: 7px;
+    height: var(--exam-footer-height);
 
-    padding-bottom:
-      max(8px, env(safe-area-inset-bottom));
+    padding-top: 6px;
 
     padding-left:
       max(8px, env(safe-area-inset-left));
 
     padding-right:
       max(8px, env(safe-area-inset-right));
+
+    padding-bottom:
+      max(8px, env(safe-area-inset-bottom));
   }
 
   footer .btn {
@@ -1425,7 +1520,7 @@ footer {
 
 
   /* -----------------------------------------
-     QUESTION PALETTE
+     PALETTE
      ----------------------------------------- */
 
   .drawer {
@@ -1478,10 +1573,14 @@ footer {
 
 
 /* =========================================================
-   VERY SMALL PHONES
+   VERY SMALL PHONES — 380px
    ========================================================= */
 
 @media (max-width: 380px) {
+
+  :root {
+    --exam-footer-height: 62px;
+  }
 
   .question-wrapper {
     padding: 8px;
@@ -1502,15 +1601,20 @@ footer {
   }
 
   footer {
-    min-height: 60px;
+    min-height: var(--exam-footer-height);
+
+    height: var(--exam-footer-height);
 
     gap: 5px;
 
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left:
+      max(7px, env(safe-area-inset-left));
+
+    padding-right:
+      max(7px, env(safe-area-inset-right));
 
     padding-bottom:
-      max(8px, env(safe-area-inset-bottom));
+      max(7px, env(safe-area-inset-bottom));
   }
 
   footer .btn {
@@ -1541,10 +1645,16 @@ footer {
 
 @media (max-width: 900px) and (orientation: landscape) {
 
+  :root {
+    --exam-footer-height: 52px;
+  }
+
   header {
     flex-basis: 46px;
 
     height: 46px;
+
+    min-height: 46px;
   }
 
   .section-bar {
@@ -1558,18 +1668,20 @@ footer {
   }
 
   footer {
-    min-height: 48px;
+    min-height: var(--exam-footer-height);
 
-    padding-top: 5px;
+    height: var(--exam-footer-height);
+
+    padding-top: 4px;
 
     padding-bottom:
-      max(5px, env(safe-area-inset-bottom));
+      max(4px, env(safe-area-inset-bottom));
   }
 }
 
 
 /* =========================================================
-   SAFE AREA SUPPORT
+   SAFE AREA
    ========================================================= */
 
 @supports (padding: max(0px)) {
@@ -1587,7 +1699,7 @@ footer {
 
 
 /* =========================================================
-   FALLBACK FOR OLDER BROWSERS
+   OLD BROWSER FALLBACK
    ========================================================= */
 
 @supports not (height: 100dvh) {
@@ -1603,4 +1715,4 @@ footer {
 
     max-height: 100vh;
   }
-    }
+}
