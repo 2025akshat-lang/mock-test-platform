@@ -1,5 +1,6 @@
 # Axat Study Zone — Modular Structure
-
+link rakhla 
+https://2025akshat-lang.github.io/mock-test-platform/
 Yeh wahi app hai (same look, same features — dashboard, CBT-style test runner,
 timer, analytics, solutions), bas ab **6 folders/files me split** hai instead
 of ek 8400-line HTML file.
