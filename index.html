@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Test Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mock Test Portal</h1>
+
+  <div class="controls">
+    <select id="mode-select">
+      <option value="mocks">Mock Test</option>
+      <option value="notes">Notes</option>
+    </select>
+
+    <select id="exam-select">
+      <option value="ssc">SSC</option>
+      <option value="upsc">UPSC</option>
+    </select>
+
+    <select id="level-select">
+      <option value="cgl">CGL / Pre</option>
+      <option value="assistant_commandant">Assistant Commandant</option>
+    </select>
+
+    <input type="number" id="test-num" value="1" min="1" style="width: 50px;">
+
+    <button id="load-btn">Load Content</button>
+  </div>
+
+  <hr>
+
+  <div id="display-container">
+    <p>Select options and click Load.</p>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
