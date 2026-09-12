@@ -5,6 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akshat study zone</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* --- Solution Detail Overlay (added: tap-a-question full-screen view) --- */
+    .solution-detail-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: #fff;
+      flex-direction: column;
+    }
+    .solution-detail-overlay.active { display: flex; }
+
+    .sol-detail-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      background: #0f172a;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .sol-detail-header .back-btn {
+      background: transparent;
+      color: #fff;
+      border: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .sol-detail-nav {
+      display: flex;
+      gap: 8px;
+      padding: 10px 12px;
+      overflow-x: auto;
+      white-space: nowrap;
+      border-bottom: 1px solid var(--card-border, #e2e8f0);
+      flex-shrink: 0;
+    }
+    .sol-nav-node {
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+      background: #e2e8f0;
+      color: #334155;
+      cursor: pointer;
+    }
+    .sol-nav-node.nav-correct { background: #22c55e; color: #fff; }
+    .sol-nav-node.nav-incorrect { background: #ef4444; color: #fff; }
+    .sol-nav-node.nav-unattempted { background: #cbd5e1; color: #334155; }
+    .sol-nav-node.active { outline: 3px solid var(--primary, #2563eb); outline-offset: 2px; }
+
+    /* This is the part that actually matters: body scrolls on its own,
+       independent of the header/nav above it, so a long solution never
+       pushes or overlaps them — it just scrolls inside this box. */
+    .sol-detail-body {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 16px;
+    }
+
+    .sol-detail-meta { font-size: 0.8rem; color: var(--text-muted, #64748b); margin-bottom: 8px; }
+    .sol-detail-question { font-weight: 700; font-size: 1rem; margin-bottom: 14px; }
+
+    .sol-detail-answer {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid var(--card-border, #e2e8f0);
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+    .sol-detail-pct { float: right; font-weight: 600; color: var(--text-muted, #64748b); }
+
+    .sol-detail-solution-box { margin-top: 14px; clear: both; }
+    .sol-detail-solution-title {
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: var(--text-muted, #64748b);
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--card-border, #e2e8f0);
+      padding-bottom: 6px;
+    }
+
+    .sol-detail-viewbtn { margin-top: 16px; width: 100%; }
+
+    .sol-detail-nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--card-border, #e2e8f0);
+    }
+    .sol-detail-nav-buttons .btn { flex: 1; }
+  </style>
 </head>
 <body>
 
@@ -15,36 +118,6 @@
       <div style="font-size:1.1rem; font-weight:800; margin-bottom:6px;">Content Not Available</div>
       <div style="color:var(--text-muted); font-size:0.85rem; margin-bottom:18px;" id="error-detail">This section hasn't been added yet. Please check back soon.</div>
       <button class="btn btn-primary" onclick="goToHome()">⬅ Back to Home</button>
-    </div>
-  </div>
-
-  <!-- INSTRUCTIONS SCREEN — shown after "Start Test" is tapped, before -->
-  <!-- the exam UI appears. Content here is never hardcoded: the summary -->
-  <!-- row and rules list are filled in by showInstructionsScreen() in   -->
-  <!-- app.js, using data/default-instructions.json + this test's own   -->
-  <!-- optional "instructions" field. -->
-  <div class="app-screen" id="instructions-screen" style="display:none;">
-    <div class="app-top-bar">
-      <div class="goal-selector" id="instructions-exam-title">Test Instructions</div>
-    </div>
-    <div class="dashboard-body">
-      <div class="summary-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom:18px;">
-        <div class="mini-stat"><div class="val" id="instr-q-count">--</div><div class="lbl">Questions</div></div>
-        <div class="mini-stat"><div class="val" id="instr-marks">--</div><div class="lbl">Total Marks</div></div>
-        <div class="mini-stat"><div class="val" id="instr-time">--</div><div class="lbl">Duration</div></div>
-      </div>
-
-      <h4 style="margin-bottom:10px;">Instructions</h4>
-      <ul id="instructions-rules-list" style="margin-bottom:22px; padding-left:18px; font-size:0.85rem; line-height:1.6;"></ul>
-
-      <h4 style="margin-bottom:8px;">Choose Language / भाषा चुनें</h4>
-      <div class="filter-pills" style="margin-bottom:22px;">
-        <button class="pill-btn active" id="lang-btn-en" onclick="setLanguage('en')">English</button>
-        <button class="pill-btn" id="lang-btn-hi" onclick="setLanguage('hi')">हिंदी</button>
-      </div>
-
-      <button class="btn btn-primary" style="width:100%; padding:12px;" onclick="beginTestFromInstructions()">I have read the instructions — Start Test 🚀</button>
-      <button class="btn btn-secondary" style="width:100%; margin-top:8px; padding:10px;" onclick="goToHome()">⬅ Cancel &amp; Go Back</button>
     </div>
   </div>
 
@@ -186,6 +259,20 @@
 
       <div id="solutions-list-container"></div>
     </div>
+  </div>
+
+  <!-- SOLUTION DETAIL OVERLAY: opens when a card in Solutions is tapped.
+       Has its own question-number nav (like the exam palette) so the user
+       can jump/swipe between questions, and a scrollable body so a long
+       solution never overlaps the nav bar or other content. -->
+  <div class="solution-detail-overlay" id="solution-detail-overlay">
+    <div class="sol-detail-header">
+      <button class="back-btn" onclick="closeSolutionDetail()">⬅ Back</button>
+      <div style="flex:1; text-align:center; font-weight:700;">Solution</div>
+      <div style="width:60px;"></div>
+    </div>
+    <div class="sol-detail-nav" id="sol-detail-nav"></div>
+    <div class="sol-detail-body" id="sol-detail-body"></div>
   </div>
 
   <script src="js/data-loader.js"></script>
