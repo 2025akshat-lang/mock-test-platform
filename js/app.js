@@ -21,6 +21,7 @@ let rawQuizData = [];
 let currentQIdx = 0, overallTime = 1800, timerInterval = null;
 let userState = [];
 let attemptHistory = {};
+let revealedSolutions = new Set(); // which solution cards user has tapped open
 let registeredEmail = localStorage.getItem('user_email') || '';
 
 // ---- FAIL-SAFE HELPERS ----
@@ -392,6 +393,7 @@ function renderAnalyticsView(testId) {
   const data = attemptHistory[testId];
   userState = data.userState;
   rawQuizData = data.questionsData;
+  revealedSolutions = new Set();
 
   document.getElementById('res-score').innerText = data.score;
   document.getElementById('res-max-score').innerText = data.maxScore;
@@ -445,7 +447,18 @@ function renderSectionalSummary() {
   }).join('');
 }
 
+// currentSolutionFilter tracks which pill is active, purely so the list
+// re-renders correctly after coming back from the detail view.
+let currentSolutionFilter = 'all';
+let solutionDetailIdx = 0;      // which question the full-screen detail view is showing
+let swipeHandlersAttached = false;
+let touchStartX = null;
+
+// The Solutions tab itself is just a light list of question previews now —
+// tapping a card opens the full-screen detail view (openSolutionDetail),
+// which is where the actual "View Solution" reveal + scrolling happens.
 function renderSolutions(filter) {
+  currentSolutionFilter = filter;
   const container = document.getElementById('solutions-list-container');
   container.innerHTML = rawQuizData.map((q, i) => {
     const state = userState[i];
@@ -457,7 +470,7 @@ function renderSolutions(filter) {
     if (filter === 'unattempted' && !isUnattempted) return '';
 
     return `
-      <div class="sol-card">
+      <div class="sol-card" onclick="openSolutionDetail(${i})" style="cursor:pointer;">
         <div class="sol-card-header">
           <span>⏱️ Time: ${q.timeAvg} | 🎯 ${q.rightPct} got it right</span>
           <span class="sol-badge" style="background:${isCorrect ? '#dcfce7' : isUnattempted ? '#f1f5f9' : '#fee2e2'}; color:${isCorrect ? '#166534' : isUnattempted ? '#475569' : '#991b1b'}">
@@ -465,14 +478,6 @@ function renderSolutions(filter) {
           </span>
         </div>
         <div class="sol-card-text">Q${i + 1}. ${q.question}</div>
-        <div class="sol-opt-list">
-          ${Object.keys(q.options).map(k => `
-            <div class="sol-opt-item ${k === q.correct ? 'is-correct' : (state.selectedOption === k && !isCorrect) ? 'is-user-wrong' : ''}">
-              <strong>${k}:</strong> ${q.options[k]}
-            </div>
-          `).join('')}
-        </div>
-        <div class="sol-exp-box"><strong>💡 Solution:</strong> ${q.explanation}</div>
       </div>
     `;
   }).join('');
@@ -482,6 +487,116 @@ function filterSolutions(type) {
   document.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
   if (event && event.target) event.target.classList.add('active');
   renderSolutions(type);
+}
+
+// ---- FULL-SCREEN SOLUTION DETAIL VIEW ----
+// Opened from a tap on a Solutions card. Has its own question-number nav
+// (like the exam palette) plus a scrollable body, so navigating between
+// questions or reading a long solution never overlaps anything else.
+
+function openSolutionDetail(i) {
+  solutionDetailIdx = i;
+  document.getElementById('solution-detail-overlay').classList.add('active');
+  attachSolutionSwipeHandlers();
+  renderSolutionDetailNav();
+  renderSolutionDetailBody();
+}
+
+function closeSolutionDetail() {
+  document.getElementById('solution-detail-overlay').classList.remove('active');
+}
+
+function renderSolutionDetailNav() {
+  const nav = document.getElementById('sol-detail-nav');
+  nav.innerHTML = rawQuizData.map((q, i) => {
+    const st = userState[i];
+    const unattempted = !st.selectedOption;
+    const correct = st.selectedOption === q.correct;
+    const cls = unattempted ? 'nav-unattempted' : (correct ? 'nav-correct' : 'nav-incorrect');
+    return `<div class="sol-nav-node ${cls} ${i === solutionDetailIdx ? 'active' : ''}" onclick="goToSolutionDetail(${i})">${i + 1}</div>`;
+  }).join('');
+
+  const activeNode = nav.querySelector('.active');
+  if (activeNode) activeNode.scrollIntoView({ inline: 'center', behavior: 'smooth', block: 'nearest' });
+}
+
+function goToSolutionDetail(i) {
+  solutionDetailIdx = i;
+  renderSolutionDetailNav();
+  renderSolutionDetailBody();
+}
+
+function stepSolutionDetail(dir) {
+  const n = solutionDetailIdx + dir;
+  if (n >= 0 && n < rawQuizData.length) goToSolutionDetail(n);
+}
+
+function renderSolutionDetailBody() {
+  const i = solutionDetailIdx;
+  const q = rawQuizData[i];
+  const state = userState[i];
+  const isCorrect = state.selectedOption === q.correct;
+  const isOpen = revealedSolutions.has(i);
+
+  const optionsHtml = Object.keys(q.options).map(k => {
+    const cls = isOpen
+      ? (k === q.correct ? 'is-correct' : (state.selectedOption === k && !isCorrect ? 'is-user-wrong' : ''))
+      : '';
+    return `
+      <div class="sol-opt-item ${cls}">
+        <strong>${k}:</strong> ${q.options[k]} ${isOpen && k === q.correct ? '✅' : ''}
+      </div>
+    `;
+  }).join('');
+
+  const body = document.getElementById('sol-detail-body');
+  body.innerHTML = `
+    <div class="sol-detail-meta">⏱️ Time: ${q.timeAvg} | 🎯 ${q.rightPct} got it right</div>
+    <div class="sol-detail-question">Q${i + 1}. ${q.question}</div>
+    <div class="sol-opt-list">${optionsHtml}</div>
+    ${isOpen ? `
+      <div class="sol-detail-answer">
+        Correct Answer Is: <u>${q.correct}: ${q.options[q.correct]}</u>
+        <span class="sol-detail-pct">${q.rightPct} got this right</span>
+      </div>
+      <div class="sol-detail-solution-box">
+        <div class="sol-detail-solution-title">💡 SOLUTION</div>
+        <div class="sol-exp-box">${q.explanation}</div>
+      </div>
+    ` : `
+      <button class="btn btn-primary sol-detail-viewbtn" onclick="revealSolution(${i})">View Solution</button>
+    `}
+    <div class="sol-detail-nav-buttons">
+      <button class="btn btn-secondary" onclick="stepSolutionDetail(-1)" ${i === 0 ? 'disabled' : ''}>⬅ Prev</button>
+      <button class="btn btn-secondary" onclick="stepSolutionDetail(1)" ${i === rawQuizData.length - 1 ? 'disabled' : ''}>Next ➔</button>
+    </div>
+  `;
+  body.scrollTop = 0; // jump back to top whenever we switch questions
+}
+
+// Marks a question's answer as revealed and refreshes just the detail body
+// (the nav dots don't need to change for a reveal).
+function revealSolution(i) {
+  revealedSolutions.add(i);
+  renderSolutionDetailBody();
+}
+
+// Left/right swipe on the body moves to the next/previous question —
+// attached once, since the container div itself is never replaced.
+function attachSolutionSwipeHandlers() {
+  if (swipeHandlersAttached) return;
+  swipeHandlersAttached = true;
+  const body = document.getElementById('sol-detail-body');
+  body.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
+  body.addEventListener('touchend', e => {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 60) {
+      if (dx < 0) stepSolutionDetail(1);
+      else stepSolutionDetail(-1);
+    }
+    touchStartX = null;
+  });
 }
 
 // START APPLICATION
