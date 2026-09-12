@@ -47,5 +47,12 @@ const DataLoader = (() => {
     return safeFetchJSON(`data/${subCatId}/${fileName}`);
   }
 
-  return { getManifest, getTestIndex, getTest };
+  // The generic "do's and don'ts" shown for every test unless that
+  // test adds its own extra lines on top. Missing/broken file just
+  // means an empty default list — never a crash.
+  async function getDefaultInstructions() {
+    return safeFetchJSON('data/default-instructions.json');
+  }
+
+  return { getManifest, getTestIndex, getTest, getDefaultInstructions };
 })();
