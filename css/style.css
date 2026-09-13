@@ -85,9 +85,9 @@
     .option-card.selected .option-idx { background: var(--primary); color: #fff; }
 
     footer { height: auto; background: #fff; border-top: 1px solid var(--card-border); display: flex; align-items: center; justify-content: space-between; padding: 0 12px; z-index: 20;margin:auto; padding-bottom:
-      max(8px, env(safe-area-inset-bottom));}
-    .btn { padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: none; }
-    .btn-secondary { background: #f1f5f9; color: var(--text-main); border: 1px solid var(--card-border); }
+      max(8px, env(safe-area-inset-bottom));overflow: hidden;}
+    .btn { padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: none;overflow: hidden; }
+    .btn-secondary { background: #f1f5f9; color: var(--text-main); border: 1px solid var(--card-border); overflow: hidden;}
     .btn-warning { background: #f59e0b; color: #fff; }
     .btn-primary { background: var(--primary); color: #fff; }
 
