@@ -200,9 +200,17 @@
         <div style="font-weight: 700;">Question <span id="display-q-num">1</span></div>
         <div style="font-size:0.75rem; color:var(--success);">Marks: +<span id="mark-pos">1.0</span> / -<span id="mark-neg">0.25</span></div>
       </div>
-      <div class="question-container">
+
+      <!-- Fixed: question text + diagram never scroll away, whatever the
+           options list does below. -->
+      <div class="question-fixed-block">
         <div class="question-text" id="q-text">Loading...</div>
         <div id="q-diagram" style="margin:10px 0;"></div>
+      </div>
+
+      <!-- Scrollable: only this area scrolls when the 4 options + a long
+           question stem don't all fit the screen. Footer stays put. -->
+      <div class="options-scroll-area">
         <div class="options-grid" id="options-container"></div>
       </div>
     </div>
