@@ -15,7 +15,7 @@
     "timeMins": 30,
     "badgeText": "NEW",
     "badgeClass": "badge-new",
-    "questionCount": 1,
-    "maxMarks": 1.0
+    "questionCount": 6,
+    "maxMarks": 6.0
   }
 ]
