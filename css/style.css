@@ -1367,7 +1367,7 @@ footer {
   }
 
   .timer-badge {
-    font-size: 0.77rem;
+    font-size: 0.72rem;
 
     padding: 4px 7px;
   }
@@ -1407,7 +1407,7 @@ footer {
   }
 
   footer {
-    min-height: 48px;
+    min-height: 58px;
 
     padding-top: 7px;
 
@@ -1500,7 +1500,7 @@ footer {
   }
 
   footer {
-    min-height: 40px;
+    min-height: 60px;
 
     gap: 5px;
 
@@ -1514,7 +1514,7 @@ footer {
   footer .btn {
     padding: 6px 8px;
 
-    font-size: 0.82rem;
+    font-size: 0.72rem;
   }
 
   .drawer {
@@ -1526,7 +1526,7 @@ footer {
   }
 
   .palette-node {
-    height: 100%;
+    height: 32px;
 
     font-size: 0.72rem;
   }
@@ -1542,7 +1542,7 @@ footer {
   header {
     flex-basis: 46px;
 
-    height: 100%;
+    height: 46px;
   }
 
   .section-bar {
@@ -1556,9 +1556,9 @@ footer {
   }
 
   footer {
-    min-height: 38px;
+    min-height: 48px;
 
-    padding-top: 3px;
+    padding-top: 5px;
 
     padding-bottom:
       max(5px, env(safe-area-inset-bottom));
