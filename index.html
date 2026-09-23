@@ -259,16 +259,21 @@
     </div>
 
     <!-- EXAM CONTROLS & PALETTE -->
-    <div class="exam-footer-bar" id="exam-footer" style="display:none;">
-      <div style="display: flex; gap: 10px;">
-        <button class="btn btn-secondary" onclick="MockPanel.markReview()">Mark Review</button>
-        <button class="btn btn-secondary" onclick="MockPanel.clearResponse()">Clear</button>
-      </div>
-      <div style="display: flex; gap: 10px;">
-        <button class="btn btn-secondary" onclick="MockPanel.prevQuestion()">Prev</button>
-        <button class="btn btn-primary" onclick="MockPanel.saveAndNext()">Save & Next</button>
-      </div>
-    </div>
+<div class="exam-footer-bar" id="exam-footer" style="display:none; position: fixed; bottom: 0; left: 0; width: 100%; background: #ffffff; padding: 12px 16px; border-top: 1px solid var(--card-border, #e2e8f0); box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.08); display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; z-index: 100;">
+  
+  <!-- Left Side: Mark Review & Clear -->
+  <div style="display: flex; gap: 8px; align-items: center;">
+    <button class="btn btn-secondary" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; cursor: pointer;" onclick="MockPanel.markReview()">Mark Review</button>
+    <button class="btn btn-secondary" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; cursor: pointer;" onclick="MockPanel.clearResponse()">Clear</button>
+  </div>
+  
+  <!-- Right Side: Prev & Save & Next -->
+  <div style="display: flex; gap: 8px; align-items: center;">
+    <button class="btn btn-secondary" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 6px; cursor: pointer;" onclick="MockPanel.prevQuestion()">Prev</button>
+    <button class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem; border-radius: 6px; cursor: pointer; font-weight: 600;" onclick="MockPanel.saveAndNext()">Save & Next</button>
+  </div>
+
+</div>
 
         <!-- QUESTION PALETTE / DRAWER -->
     <div class="question-palette-drawer" id="question-palette-drawer" style="display:none;">
