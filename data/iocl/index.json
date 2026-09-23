@@ -33,7 +33,17 @@
     "timeMins": 30,
     "badgeText": "NEW",
     "badgeClass": "badge-new",
-    "questionCount": 15,
-    "maxMarks": 15.0
+    "questionCount": 30,
+    "maxMarks": 30.0
+  },
+  {
+    "id": "iocl-qc-5",
+    "file": "iocl-qc-5.json",
+    "title": "UV-Vis 2.0 ",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 30,
+    "maxMarks": 30.0
   }
 ]
