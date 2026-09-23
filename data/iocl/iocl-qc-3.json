@@ -1,0 +1,223 @@
+{
+  "id": "iocl-qc-3",
+  "title": "IOCL Quality Control Chemist - Mock Test 3",
+  "timeMins": 60,
+  "badgeText": "NEW",
+  "badgeClass": "badge-new",
+  "instructions": [
+    "Test contains conceptual and instrumental analysis problems for High Performance Liquid Chromatography (HPLC) for Quality Control Chemist position.",
+    "Each question carries 1 mark. Read the explanations carefully after submitting."
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Ek analytical lab me HPLC system setup kiya ja raha hai jisme solvent reservoirs me methanol aur water ka mixture use ho raha hai. Agar system ke degasser unit ko bypass kar diya jaye aur mobile phase me dissolved helium gas reh jaye, toh detector ke baseline par iska kya direct negative impact padega?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#f4f4f4'/><text x='20' y='50' font-family='Arial' font-size='14' fill='red'>Bubbles -> Baseline Noise & Spurious Peaks</text></svg>",
+      "options": {
+        "A": "Baseline completely flat ho jayegi lekin retention time double ho jayega.",
+        "B": "Spurious peaks aur high baseline noise/drift create hoga due to micro-bubbles passing through the detector flow cell.",
+        "C": "Column ki length 2-10 cm se badh kar 25 cm ho jayegi.",
+        "D": "Pump ka pressure 6000 psi se drop hokar zero ho jayega."
+      },
+      "correct": "B",
+      "explanation": "Dissolved gases (like oxygen or air) jab detector cell se pass hoti hain aur pressure drop hota hai, toh bubbles form hote hain jo erratic spikes, high noise, aur baseline drift produce karte hain. Isliye sonicated/sparging with helium ya degassers use hote hain."
+    },
+    {
+      "id": 2,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "HPLC instrumentation me pump ka kaam hota hai solvent ko high pressure (upto 6000 psi) par normal flow rate (jaise 1.2 ml/min) par push karna. Agar gradient elution run karna ho, toh mixing valve ka kya role hota hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#eef'/><text x='20' y='50' font-family='Arial' font-size='14' fill='blue'>Reservoirs -> Mixing Valve -> Pump</text></svg>",
+      "options": {
+        "A": "Yeh sample ko loop injector me manually load karta hai.",
+        "B": "Yeh multiple solvent reservoirs se alag-alag liquids ka ratio time ke sath change karke mix karta hai.",
+        "C": "Yeh column ko stripping problem se bachata hai.",
+        "D": "Yeh detector ke bulk property ko measure karta hai."
+      },
+      "correct": "B",
+      "explanation": "Mixing valve pump se pehle ya pump ke saath connect hota hai jo different solvent reservoirs (jaise organic solvent aur water) se compositions ko blend کرتا hai gradient elution ke liye."
+    },
+    {
+      "id": 3,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Guard column (Pre-column) ki length typically 2-10 cm hoti hai. Iska sabse mukhya uddeshya kya hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#efe'/><text x='20' y='50' font-family='Arial' font-size='14' fill='green'>Guard Column -> Main Analytical Column</text></svg>",
+      "options": {
+        "A": "Analytical column ki life ko protect karna by trapping strongly bound impurities and particulate matter.",
+        "B": "Solvent ko 6000 psi tak compress karna.",
+        "C": "Refractive index aur conductivity ko ek saath measure karna.",
+        "D": "Flow splitting valve ko control karna."
+      },
+      "correct": "A",
+      "explanation": "Guard column main analytical column se pehle lagaya jata hai taki jo garbage, impurities ya irreversible contaminants hain woh pehle hi ruk jayein aur main column kharab na ho."
+    },
+    {
+      "id": 4,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Agar analytical column ki dimensions 5-25 cm length aur 2-4.6 mm diameter wali stainless steel tube ki bani hain, toh iske andar separation ka mukhya aadhar kya hota hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#fff3e0'/><text x='20' y='50' font-family='Arial' font-size='14' fill='orange'>Stationary vs Mobile Phase Partition</text></svg>",
+      "options": {
+        "A": "Solute ka boiling point separation.",
+        "B": "Stationary phase aur mobile phase ke beech solute ka partition/distribution coefficient.",
+        "C": "Solvent reservoirs me glass capacity ka 1.2 L hona.",
+        "D": "Vacuum pump ki speed."
+      },
+      "correct": "B",
+      "explanation": "HPLC ka core principle hi partition chromatography hai jisme solute stationary phase (column ke andar packed particles) aur mobile phase ke beech distribute hota hai."
+    },
+    {
+      "id": 5,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "HPLC detectors ko do main categories me divide kiya gaya hai: Bulk property detectors aur Solute property detectors. Refractive index (RI) detector kis category me aata hai aur iski kya limitation hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#fce4ec'/><text x='20' y='50' font-family='Arial' font-size='14' fill='purple'>Bulk Property: Refractive Index / Conductivity</text></svg>",
+      "options": {
+        "A": "Solute property detector; yeh gradient elution ke sath easily use ho sakta hai.",
+        "B": "Bulk property detector; yeh mobile phase aur solute ki physical property me difference measure karta hai aur gradient elution ke liye sensitive hota hai.",
+        "C": "Mass spectrometer; yeh sirf flow splitting valve ke baad kaam karta hai.",
+        "D": "Electrochemical detector; yeh sirf UV-active compounds ke liye hai."
+      },
+      "correct": "B",
+      "explanation": "RI detector bulk property detector hai jo mobile phase ki bulk property measure karta hai. Kyunki mobile phase ka composition gradient elution me badalta hai, isliye RI detector gradient ke sath unstable hota hai."
+    },
+    {
+      "id": 6,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Solvent reservoirs me organic solvents jaise methanol, Isopropanol (IPA), aur water use hote hain. Inhe use karne se pehle sonicated ya sparging with helium kyu kiya jata hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#e8f5e9'/><text x='20' y='50' font-family='Arial' font-size='14' fill='darkgreen'>Sonication/Helium -> Degassing</text></svg>",
+      "options": {
+        "A": "Solvents ka temperature badhane ke liye.",
+        "B": "Dissolved air aur gases ko remove karne ke liye taki bubbles na bane.",
+        "C": "Solvents ko 6000 psi pressure dene ke liye.",
+        "D": "Sample injector ko automatic banane ke liye."
+      },
+      "correct": "B",
+      "explanation": "Sonication aur helium sparging degasification ka kaam karte hain jisse solvents ke andar trapped ya dissolved gases bahar nikal jati hain."
+    },
+    {
+      "id": 7,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "HPLC me sample injector ka loop injector system kya function perform karta hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#ede7f6'/><text x='20' y='50' font-family='Arial' font-size='14' fill='indigo'>Sample Injector -> Introduces Sample</text></svg>",
+      "options": {
+        "A": "Yeh flowing mobile phase me precise sample volume introduce karta hai.",
+        "B": "Yeh column ko high pressure se bachata hai.",
+        "C": "Yeh UV aur IR spectrums record karta hai.",
+        "D": "Yeh waste ko recorder tak bhejta hai."
+      },
+      "correct": "A",
+      "explanation": "Loop injector system ka main use sample ko reproducible manner me flowing mobile phase ke andar inject karna hota hai."
+    },
+    {
+      "id": 8,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Agar ek solute property detector (jaise UV-Vis detector) use kiya ja raha hai, toh iski kya khasiyat hoti hai related to mobile phase?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#e0f7fa'/><text x='20' y='50' font-family='Arial' font-size='14' fill='teal'>Solute Property Detector: Ideally MP Independent</text></svg>",
+      "options": {
+        "A": "Yeh mobile phase ki bulk property par depend karta hai.",
+        "B": "Yeh ideally mobile phase ki properties se independent hota hai aur sirf solute ke specific physical/chemical response ko dekhta hai.",
+        "C": "Yeh sirf conductivity measure karta hai.",
+        "D": "Yeh column ki length ko 2 cm tak reduce kar deta hai."
+      },
+      "correct": "B",
+      "explanation": "Solute property detectors (jaise UV, Fluorescence, Electrochemical) target analyte ki properties ko detect karte hain aur ideally mobile phase ki background properties se independent hote hain."
+    },
+    {
+      "id": 9,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Flow splitting valve ka kya upyog hota hai jab kuch advanced detectors (jaise Mass Spectrometry - MS) ke sath HPLC run kiya jata hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#fffde7'/><text x='20' y='50' font-family='Arial' font-size='14' fill='#afb42b'>Flow Splitting Valve -> Divides Flow</text></svg>",
+      "options": {
+        "A": "Yeh solvent reservoirs me methanol ka level check karta hai.",
+        "B": "Yeh total flow rate ko divide karta hai taki ek chota fraction hi sensitive detector (jaise MS) tak jaye.",
+        "C": "Yeh pump ke pressure ko 6000 psi se upar maintain karta hai.",
+        "D": "Yeh guard column ko bypass kar deta hai."
+      },
+      "correct": "B",
+      "explanation": "Flow splitting valve mobile phase flow ko split karta hai, jo ki kuch detectors (jaise MS ya hyphenated systems) ke liye zaroori hota hai jahan high flow rate detector ko overload kar sakta hai."
+    },
+    {
+      "id": 10,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Agar HPLC system me normal flow rate 1.2 ml/min hai aur pump maximum 6000 psi pressure generate kar sakta hai, toh agar column me blockage ho jaye, toh system par kya asar padega?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#ffebee'/><text x='20' y='50' font-family='Arial' font-size='14' fill='red'>Blockage -> High Pressure Spike</text></svg>",
+      "options": {
+        "A": "Pump pressure drastically increase ho jayega.",
+        "B": "Flow rate apne aap double ho jayega.",
+        "C": "Solvent reservoirs ki glass capacity 2 L ho jayegi.",
+        "D": "Detector automatic off ho jayega."
+      },
+      "correct": "A",
+      "explanation": "Jab column ya frits me blockage hoti hai, toh fluid resistance badh jata hai, jiske karan pump ko same flow rate maintain karne ke liye pressure bahut zyada badhana padta hai."
+    },
+    {
+      "id": 11,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Glass solvent reservoirs ki typical capacity kitni hoti hai aur inka material glass kyu rakha jata hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#f1f8e9'/><text x='20' y='50' font-family='Arial' font-size='14' fill='green'>Glass Reservoirs (1-2 L)</text></svg>",
+      "options": {
+        "A": "1-2 L capacity; chemical inertness aur transparency ke liye taki solvent level dikhe.",
+        "B": "10-25 cm capacity; stainless steel ki tarah strong hone ke liye.",
+        "C": "6000 psi capacity; high pressure withstand karne ke liye.",
+        "D": "1.2 ml capacity; flow rate match karne ke liye."
+      },
+      "correct": "A",
+      "explanation": "Solvent reservoirs aamtaur par 1-2 L glass ke banaye jate hain taki organic solvents se react na karein (inert rahein) aur andar ka volume easily visible ho."
+    },
+    {
+      "id": 12,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Agar ek pharmaceutical compound ki purity check karni hai jo ki UV active nahi hai lekin refractive index show karta hai, toh aap kaunsa detector choose karenge aur kyu?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#e3f2fd'/><text x='20' y='50' font-family='Arial' font-size='14' fill='blue'>Non-UV Compound -> RI Detector</text></svg>",
+      "options": {
+        "A": "UV-Vis detector, kyunki yeh solute property detector hai.",
+        "B": "Refractive Index (RI) detector, kyunki yeh bulk property detector hai jo non-UV active solutes ko bhi detect kar sakta hai.",
+        "C": "Fluorescence detector, kyunki yeh mobile phase se independent hota hai.",
+        "D": "Electrochemical detector with flow splitting valve."
+      },
+      "correct": "B",
+      "explanation": "Non-UV active compounds (jaise sugars ya polymers) ke liye UV detector kaam nahi karta, isliye bulk property detectors jaise Refractive Index (RI) detector use kiye jate hain."
+    },
+    {
+      "id": 13,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Instrumentation diagram ke anusar, sample injector ke baad mobile phase aur sample kahan travel karte hain analytical column me enter hone se pehle?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#fbe9e7'/><text x='20' y='50' font-family='Arial' font-size='14' fill='#d84315'>Injector -> Pre-Column -> Analytical Column</text></svg>",
+      "options": {
+        "A": "Directly detector me.",
+        "B": "Pre-column (Guard column) me.",
+        "C": "Solvent reservoirs me wapas.",
+        "D": "Vacuum pump ke andar."
+      },
+      "correct": "B",
+      "explanation": "Sample injection ke baad, flow pre-column (guard column) se guzarta hai jo main analytical column ko impurities se bachata hai."
+    },
+    {
+      "id": 14,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Agar HPLC system me isocratic elution ki jagah gradient elution use karna ho, toh mixing valve aur pump ka kya combination kaam karta hai?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#e8eaf6'/><text x='20' y='50' font-family='Arial' font-size='14' fill='#3f51b5'>Gradient: Variable Mixing Ratio</text></svg>",
+      "options": {
+        "A": "Multiple reservoirs se solvent ka proportion dynamically change kiya jata hai run ke dauran.",
+        "B": "Sirf ek hi solvent reservoir use kiya ja sakta hai.",
+        "C": "Column ki length ko mechanically lamba kiya jata hai.",
+        "D": "Flow rate ko zero kar diya jata hai."
+      },
+      "correct": "A",
+      "explanation": "Gradient elution me mobile phase ki strength time ke sath change hoti hai, jiske liye mixing valve alag-alag reservoirs se solvents ka ratio dynamically mix karta hai."
+    },
+    {
+      "id": 15,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "HPLC instrumentation ke final stage me detector ke baad components kahan route kiye jate hain?",
+      "diagram": "<svg width='300' height='100'><rect width='300' height='100' fill='#efebe9'/><text x='20' y='50' font-family='Arial' font-size='14' fill='#4e342e'>Detector -> Waste & Recorder</text></svg>",
+      "options": {
+        "A": "Waste container aur data recorder / screen par.",
+        "B": "Directly solvent reservoirs me recycle hone ke liye.",
+        "C": "Vacuum pump ke pressure chamber me.",
+        "D": "Sample loop injector me wapas."
+      },
+      "correct": "A",
+      "explanation": "Detector se pass hone ke baad eluent ko recorder par signal plot karne ke baad waste me collect kar liya jata hai."
+    }
+  ]
+}
