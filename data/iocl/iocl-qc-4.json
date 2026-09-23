@@ -5,15 +5,14 @@
   "badgeText": "ADVANCED",
   "badgeClass": "badge-primary",
   "instructions": [
-    "Test contains conceptual and advanced instrumental analysis problems for UV-Vis and HPLC systems with detailed schematics.",
-    "Each question carries 1 mark. Read the explanations and study the diagrams carefully after submitting."
+    "Test contains conceptual and advanced instrumental analysis problems for UV-Vis and HPLC systems.",
+    "Each question carries 1 mark. Read the explanations carefully after submitting."
   ],
   "questions": [
     {
       "id": 1,
       "section": "Analytical Chemistry & Instruments",
       "question": "In an analytical lab, a sample needs to be run on a UV-Visible spectrophotometer where the absorption region lies in the deep UV (160 nm to 375 nm range). According to the source specifications, which lamp should be used for this range?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Light Sources in UV-Vis Spectroscopy</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e40af' font-family='sans-serif'>Deuterium (D2) Lamp: 160 - 375 nm (UV Region)</text><text x='250' y='105' font-size='10' text-anchor='middle' fill='#334155' font-family='sans-serif'>Tungsten: 350-3000 nm | Xenon: 190-800 nm</text></svg>",
       "options": {
         "A": "Tungsten lamp, because it covers deep UV from 350 nm to 3000 nm.",
         "B": "Deuterium (D_2) lamp, because its emission range is 160-375 nm, which is specific to the UV region.",
@@ -21,13 +20,12 @@
         "D": "Xenon lamp that emits only below 190 nm."
       },
       "correct": "B",
-      "explanation": "The Deuterium (D_2) lamp is the primary light source for the UV region (160-375 nm), as specified in the instrumentation notes[span_3](start_span)[span_3](end_span). (Note: Tungsten lamp is meant for the visible and IR region 350-3000 nm; LED is for the visible region 400-800 nm; Xenon lamp spans 190-800 nm, but the deuterium lamp is standard for 160 nm[span_4](start_span)[span_4](end_span).)"
+      "explanation": "The Deuterium (D_2) lamp is the primary light source for the UV region (160-375 nm), as specified in the instrumentation notes. (Note: Tungsten lamp is meant for the visible and IR region 350-3000 nm; LED is for the visible region 400-800 nm; Xenon lamp spans 190-800 nm, but the deuterium lamp is standard for 160 nm.)"
     },
     {
       "id": 2,
       "section": "Analytical Chemistry & Instruments",
       "question": "In a double-beam spectrophotometer, polychromatic light passes through a monochromator (prism/grating). If a standard borosilicate glass prism is used instead of a quartz prism and a scan is run at 200 nm, what problem will occur?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Sample Cells / Cuvettes Material Selection</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Borosilicate Glass / Plastic: Visible Only</text><text x='250' y='105' font-size='10' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Quartz (Required for UV < 350 nm)</text></svg>",
       "options": {
         "A": "Glass will completely absorb the UV light, and no transmission will be observed at 200 nm.",
         "B": "The prism will convert the double light beam into a quadruple beam.",
@@ -35,13 +33,12 @@
         "D": "Gas bubbles will dissolve in the solvent reservoirs."
       },
       "correct": "A",
-      "explanation": "Borosilicate glass is opaque in the UV region and absorbs radiation, which is why quartz or silica prisms/cuvettes are required for UV measurements[span_5](start_span)[span_5](end_span). (Note: Prisms do not increase the beam count; PMT amplification is independent of cuvette or prism material; Solvent reservoirs are part of the HPLC system, not the spectrophotometer.)"
+      "explanation": "Borosilicate glass is opaque in the UV region and absorbs radiation, which is why quartz or silica prisms/cuvettes are required for UV measurements. (Note: Prisms do not increase the beam count; PMT amplification is independent of cuvette or prism material; Solvent reservoirs are part of the HPLC system, not the spectrophotometer.)"
     },
     {
       "id": 3,
       "section": "Analytical Chemistry & Instruments",
       "question": "If plastic cuvettes or containers are mistakenly used alongside organic solvents during the sample injection or solvent delivery phase of an HPLC system, what reaction will occur according to the notes?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Plastic Cuvette Incompatibility</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#92400e' font-family='sans-serif'>Plastic + Organic Solvents</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#b45309' font-family='sans-serif'>Incompatible -> Dissolves / Deforms</text></svg>",
       "options": {
         "A": "Plastic will dissolve or deform in organic solvents because plastic is not suitable for organic solvents.",
         "B": "Plastic will easily withstand 6000 psi pressure.",
@@ -49,13 +46,12 @@
         "D": "It will increase the guard column length to 25 cm."
       },
       "correct": "A",
-      "explanation": "According to the notes, plastic cuvettes/containers are not used with organic solvents because they are incompatible and can degrade[span_6](start_span)[span_6](end_span). (Note: Plastic cannot bear high pressure; plastic has no relation to the refractive index detector; guard column length is fixed.)"
+      "explanation": "According to the notes, plastic cuvettes/containers are not used with organic solvents because they are incompatible and can degrade. (Note: Plastic cannot bear high pressure; plastic has no relation to the refractive index detector; guard column length is fixed.)"
     },
     {
       "id": 4,
       "section": "Analytical Chemistry & Instruments",
       "question": "A Photomultiplier Tube (PMT) detector is used to detect low light intensity. How does its internal amplification work?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>PMT (Photomultiplier Tube) Structure</text><rect x='80' y='50' width='340' height='75' rx='6' fill='#ede9fe' stroke='#7c3aed' stroke-width='2'/><text x='250' y='80' font-size='11' font-weight='bold' text-anchor='middle' fill='#5b21b6' font-family='sans-serif'>Photocathode -> Repeated Dynodes (75-100V higher)</text><text x='250' y='105' font-size='10' text-anchor='middle' fill='#6d28d9' font-family='sans-serif'>Secondary Electron Cascading Amplification</text></svg>",
       "options": {
         "A": "Repeated dynodes placed at specific angles produce secondary electrons, resulting in a cascading amplification effect.",
         "B": "Thermal energy is generated through an iron plate base and Au/Ag coating.",
@@ -63,13 +59,12 @@
         "D": "A fine wire mesh anode cools the cathode."
       },
       "correct": "A",
-      "explanation": "The structure of a PMT contains repeated dynodes at specific angles that multiply initial electrons to provide massive internal amplification[span_7](start_span)[span_7](end_span). (Note: Iron plate with Au/Ag is a specification of photovoltaic cells; P-N junctions are found in silicon photodiodes; Fine wire mesh is a feature of phototube anodes[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).)"
+      "explanation": "The structure of a PMT contains repeated dynodes at specific angles that multiply initial electrons to provide massive internal amplification. (Note: Iron plate with Au/Ag is a specification of photovoltaic cells; P-N junctions are found in silicon photodiodes; Fine wire mesh is a feature of phototube anodes.)"
     },
     {
       "id": 5,
       "section": "Analytical Chemistry & Instruments",
       "question": "If dissolved air/gases remain in the HPLC solvent reservoirs without a degasser or helium sparging, what flaw will occur in the detector cell?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>HPLC Degassing & Micro-Bubbles Impact</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Dissolved Gases -> Pressure Drop</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Micro-Bubbles -> High Baseline Noise & Spurious Peaks</text></svg>",
       "options": {
         "A": "High baseline noise and spurious peaks will be created due to micro-bubbles passing through.",
         "B": "Pump pressure will drop from 6000 psi to negative values.",
@@ -83,7 +78,6 @@
       "id": 6,
       "section": "Analytical Chemistry & Instruments",
       "question": "In an HPLC system, the normal flow rate is 1.2 ml/min and the pump pressure limit is 6000 psi. If a blockage occurs in the analytical or guard column due to particulate accumulation, how will the hydraulic system behave?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Column Blockage & Pressure Response</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fecaca' stroke='#ef4444' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#b91c1c' font-family='sans-serif'>Particulate Accumulation / Blockage</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Fluid Resistance Increases -> Pressure Spikes (upto 6000 psi)</text></svg>",
       "options": {
         "A": "System pressure will increase dramatically.",
         "B": "Flow rate will automatically double.",
@@ -97,7 +91,6 @@
       "id": 7,
       "section": "Analytical Chemistry & Instruments",
       "question": "The guard column (pre-column) typically has a length of 2-10 cm. What is its primary function in an HPLC setup?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Guard Column Protection</text><line x1='60' y1='85' x2='150' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='150' y='65' width='80' height='40' rx='4' fill='#86efac' stroke='#166534' stroke-width='2'/><text x='190' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#14532d' font-family='sans-serif'>Guard Col</text><line x1='230' y1='85' x2='290' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='290' y='55' width='150' height='60' rx='6' fill='#fca5a5' stroke='#991b1b' stroke-width='2'/><text x='365' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Analytical Column</text></svg>",
       "options": {
         "A": "To protect the main analytical column from stripping problems and strongly bound impurities.",
         "B": "To compress the solvent up to 6000 psi.",
@@ -105,13 +98,12 @@
         "D": "To load the sample into the loop injector."
       },
       "correct": "A",
-      "explanation": "The pre-column/guard column is placed before the main column so that garbage and contaminants are trapped there, keeping the main column protected[span_10](start_span)[span_10](end_span). (Note: Pressure is created by the pump; monochromator performs light separation; sample injector handles sample loading.)"
+      "explanation": "The pre-column/guard column is placed before the main column so that garbage and contaminants are trapped there, keeping the main column protected. (Note: Pressure is created by the pump; monochromator performs light separation; sample injector handles sample loading.)"
     },
     {
       "id": 8,
       "section": "Analytical Chemistry & Instruments",
       "question": "A Refractive Index (RI) detector is a bulk property detector. What is the main constraint when using this detector during gradient elution?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Bulk Property Detector Constraint</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fce7f3' stroke='#db2777' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#9d174d' font-family='sans-serif'>Refractive Index (Bulk Detector)</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#831843' font-family='sans-serif'>Gradient Elution Changes MP Composition -> Baseline Drift</text></svg>",
       "options": {
         "A": "Changes in mobile phase composition alter the bulk property, causing baseline instability.",
         "B": "It can only detect UV-active compounds.",
@@ -119,13 +111,12 @@
         "D": "It dissolves the quartz cuvette."
       },
       "correct": "A",
-      "explanation": "Because the RI detector measures a bulk property and mobile phase composition changes continuously in gradient elution, baseline drift and instability occur[span_11](start_span)[span_11](end_span). (Note: RI detectors are used for non-UV active compounds; RI detector is not part of a spectrophotometer; it has no relation to cuvette dissolution.)"
+      "explanation": "Because the RI detector measures a bulk property and mobile phase composition changes continuously in gradient elution, baseline drift and instability occur. (Note: RI detectors are used for non-UV active compounds; RI detector is not part of a spectrophotometer; it has no relation to cuvette dissolution.)"
     },
     {
       "id": 9,
       "section": "Analytical Chemistry & Instruments",
       "question": "In the construction of a photovoltaic cell detector (UV-Vis spectroscopy), what coating is applied to the metal iron plate base?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Photo-Voltaic (Barrier Layer) Cell</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fef9c3' stroke='#ca8a04' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Iron Plate Base Covered with Au or Ag</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#713f12' font-family='sans-serif'>Selenium Layer Semiconductor Sandwich</text></svg>",
       "options": {
         "A": "Gold (Au) or Silver (Ag)",
         "B": "Potassium and silver oxide",
@@ -133,13 +124,12 @@
         "D": "Stainless steel"
       },
       "correct": "A",
-      "explanation": "The notes clearly mention that in photovoltaic cells, the metal iron plate base is covered with Au or Ag[span_12](start_span)[span_12](end_span). (Note: Potassium and silver oxide are for phototube cathodes; borosilicate glass is for cuvettes/tubes; stainless steel is for analytical columns[span_13](start_span)[span_13](end_span)[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span).)"
+      "explanation": "The notes clearly mention that in photovoltaic cells, the metal iron plate base is covered with Au or Ag. (Note: Potassium and silver oxide are for phototube cathodes; borosilicate glass is for cuvettes/tubes; stainless steel is for analytical columns.)"
     },
     {
       "id": 10,
       "section": "Analytical Chemistry & Instruments",
       "question": "Both phototubes and Photomultiplier Tubes (PMTs) are photoemissive detectors. What is the main structural and functional difference between them?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Phototube vs PMT Comparison</text><rect x='60' y='55' width='180' height='65' rx='6' fill='#e0f2fe' stroke='#0284c7' stroke-width='2'/><text x='150' y='85' font-size='11' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Phototube</text><text x='150' y='105' font-size='9' text-anchor='middle' fill='#075985' font-family='sans-serif'>No Dynodes (1 Photon = 1 Electron)</text><rect x='260' y='55' width='180' height='65' rx='6' fill='#ede9fe' stroke='#7c3aed' stroke-width='2'/><text x='350' y='85' font-size='11' font-weight='bold' text-anchor='middle' fill='#5b21b6' font-family='sans-serif'>PMT</text><text x='350' y='105' font-size='9' text-anchor='middle' fill='#6d28d9' font-family='sans-serif'>Repeated Dynodes (Cascading Multiplier)</text></svg>",
       "options": {
         "A": "Phototubes lack internal amplification dynodes, whereas PMTs feature repeated dynodes providing cascading amplification.",
         "B": "Phototubes are based on a semiconductor P-N junction, while PMTs are made of glass.",
@@ -147,13 +137,12 @@
         "D": "PMTs operate exclusively in the visible region with a tungsten lamp."
       },
       "correct": "A",
-      "explanation": "A phototube is a simple photoemissive device without dynodes, whereas a PMT contains a chain of dynodes that multiply secondary electrons[span_16](start_span)[span_16](end_span). (Note: A silicon photodiode is a semiconductor P-N junction; phototubes can be used in both UV and Vis regions using glass/silica; PMTs are compatible with both deuterium and tungsten sources[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).)"
+      "explanation": "A phototube is a simple photoemissive device without dynodes, whereas a PMT contains a chain of dynodes that multiply secondary electrons. (Note: A silicon photodiode is a semiconductor P-N junction; phototubes can be used in both UV and Vis regions using glass/silica; PMTs are compatible with both deuterium and tungsten sources.)"
     },
     {
       "id": 11,
       "section": "Analytical Chemistry & Instruments",
       "question": "What is the role of the mixing valve when performing gradient elution in HPLC?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>HPLC Gradient Mixing Valve</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#eef2ff' stroke='#6366f1' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#4338ca' font-family='sans-serif'>Multiple Solvent Reservoirs</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#3730a3' font-family='sans-serif'>Mixing Valve dynamically blends ratios over time for Gradient</text></svg>",
       "options": {
         "A": "It dynamically mixes proportions of solvents from multiple reservoirs over time.",
         "B": "It sends the sample from the loop injector into the column.",
@@ -161,13 +150,12 @@
         "D": "It controls the speed of the vacuum pump."
       },
       "correct": "A",
-      "explanation": "The mixing valve blends solvent compositions from different reservoirs prior to the pump for gradient elution[span_20](start_span)[span_20](end_span). (Note: Sample injection is handled by the loop injector; waste is collected after the detector; vacuum pump is used for degassing.)"
+      "explanation": "The mixing valve blends solvent compositions from different reservoirs prior to the pump for gradient elution. (Note: Sample injection is handled by the loop injector; waste is collected after the detector; vacuum pump is used for degassing.)"
     },
     {
       "id": 12,
       "section": "Analytical Chemistry & Instruments",
       "question": "HPLC solvent reservoirs are typically made of glass with a 1-2 L capacity. What is the primary reason for choosing glass material?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Solvent Reservoirs (1 - 2 Liters)</text><rect x='150' y='45' width='200' height='85' rx='10' fill='#f1f5f9' stroke='#334155' stroke-width='2'/><text x='250' y='80' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Inert Glass Material</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#16a34a' font-family='sans-serif'>Transparent & Chemically Inert to Organic Solvents</text></svg>",
       "options": {
         "A": "Glass is chemically inert toward organic solvents, and its transparency makes the volume easily visible.",
         "B": "Glass can easily bear 6000 psi pressure.",
@@ -175,13 +163,12 @@
         "D": "Glass amplifies electrons like a photomultiplier tube."
       },
       "correct": "A",
-      "explanation": "Glass reservoirs provide chemical inertness for organic solvents and are transparent so the solvent level can be monitored easily[span_21](start_span)[span_21](end_span). (Note: Reservoirs do not bear high pressure; light splitting is the job of a prism/grating; electron amplification is the job of a PMT.)"
+      "explanation": "Glass reservoirs provide chemical inertness for organic solvents and are transparent so the solvent level can be monitored easily. (Note: Reservoirs do not bear high pressure; light splitting is the job of a prism/grating; electron amplification is the job of a PMT.)"
     },
     {
       "id": 13,
       "section": "Analytical Chemistry & Instruments",
       "question": "According to the UV-Vis instrumentation notes, which light source covers the widest continuous wavelength span (190-800 nm), encompassing both the UV and visible regions?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Xenon Lamp Wavelength Range</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#ffedd5' stroke='#f97316' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#c2410c' font-family='sans-serif'>Xenon Lamp</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#9a3412' font-family='sans-serif'>190 - 800 nm (Continuous UV-Visible Span)</text></svg>",
       "options": {
         "A": "Xenon lamp",
         "B": "Deuterium lamp",
@@ -189,13 +176,12 @@
         "D": "Light Emitting Diode (LED)"
       },
       "correct": "A",
-      "explanation": "The notes explicitly mention that the Xenon lamp has a range of 190-800 nm (UV-Visible)[span_22](start_span)[span_22](end_span). (Note: Deuterium lamp is for 160-375 nm UV; Tungsten lamp is for 350-3000 nm Visible/IR; LED is for 400-800 nm Visible[span_23](start_span)[span_23](end_span).)"
+      "explanation": "The notes explicitly mention that the Xenon lamp has a range of 190-800 nm (UV-Visible). (Note: Deuterium lamp is for 160-375 nm UV; Tungsten lamp is for 350-3000 nm Visible/IR; LED is for 400-800 nm Visible.)"
     },
     {
       "id": 14,
       "section": "Analytical Chemistry & Instruments",
       "question": "How does a silicon photodiode detector differ from other vacuum-tube detectors, and what is its core construction?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Silicon Photodiode (Solid-State Detector)</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#ccfbf1' stroke='#0d9488' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#115e59' font-family='sans-serif'>Semiconductor / Solid-State Diode</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#134e4a' font-family='sans-serif'>Consists of P-N Junction & Depletion Layer</text></svg>",
       "options": {
         "A": "It is a solid-state semiconductor device consisting of a P-N junction.",
         "B": "It has a cathode coated with potassium and silver oxide.",
@@ -203,13 +189,12 @@
         "D": "It is formed by a repeated dynode chain."
       },
       "correct": "A",
-      "explanation": "According to the notes, a silicon photodiode is a semiconductor based on a P-N junction, unlike vacuum tube detectors[span_24](start_span)[span_24](end_span). (Note: Potassium/silver oxide is a feature of phototube/PMT cathodes; iron plate + gold coating belongs to photovoltaic cells; dynodes are present in PMTs[span_25](start_span)[span_25](end_span)[span_26](start_span)[span_26](end_span).)"
+      "explanation": "According to the notes, a silicon photodiode is a semiconductor based on a P-N junction, unlike vacuum tube detectors. (Note: Potassium/silver oxide is a feature of phototube/PMT cathodes; iron plate + gold coating belongs to photovoltaic cells; dynodes are present in PMTs.)"
     },
     {
       "id": 15,
       "section": "Analytical Chemistry & Instruments",
       "question": "In the HPLC instrumentation layout, after the eluent exits the analytical column, where does it enter right before data is recorded?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>HPLC Post-Column Flow Path</text><line x1='60' y1='85' x2='150' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='150' y='65' width='80' height='40' rx='4' fill='#fca5a5' stroke='#991b1b' stroke-width='2'/><text x='190' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Column</text><line x1='230' y1='85' x2='290' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='290' y='65' width='80' height='40' rx='4' fill='#93c5fd' stroke='#1d4ed8' stroke-width='2'/><text x='330' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#1e3a8a' font-family='sans-serif'>Detector</text><line x1='370' y1='85' x2='430' y2='85' stroke='#0284c7' stroke-width='3'/><text x='250' y='130' font-size='10' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Eluent passes to Detector before Recorder</text></svg>",
       "options": {
         "A": "Into the detector",
         "B": "Into the sample injector",
@@ -217,13 +202,12 @@
         "D": "Into the vacuum pump"
       },
       "correct": "A",
-      "explanation": "After separation in the column, the eluent goes to the detector, which measures physical/chemical properties and sends signals to the recorder[span_27](start_span)[span_27](end_span). (Note: Sample injector is at the start; solvent reservoir is at the very beginning; vacuum pump is used for degassing.)"
+      "explanation": "After separation in the column, the eluent goes to the detector, which measures physical/chemical properties and sends signals to the recorder. (Note: Sample injector is at the start; solvent reservoir is at the very beginning; vacuum pump is used for degassing.)"
     },
     {
       "id": 16,
       "section": "Analytical Chemistry & Instruments",
       "question": "During chromatographic analysis using an HPLC system, if air pockets or micro-bubbles accumulate inside the reciprocating pump head, what primary operational issue will be observed?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Pump Head Air Pocket / Cavitation</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Trapped Gas Compressibility</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Severe Flow Fluctuations & Unstable Pressure Readings</text></svg>",
       "options": {
         "A": "Severe flow fluctuations and unstable pressure readings due to the compressibility of trapped gas.",
         "B": "Immediate permanent magnetization of the stainless-steel column.",
@@ -237,7 +221,6 @@
       "id": 17,
       "section": "Analytical Chemistry & Instruments",
       "question": "In UV-Vis spectrophotometers, what is the primary purpose of utilizing a deuterium discharge lamp combined with a tungsten-halogen lamp in a dual-source setup?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Dual-Source Setup (UV-Vis)</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e40af' font-family='sans-serif'>Deuterium (UV) + Tungsten (Vis/NIR)</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#1d4ed8' font-family='sans-serif'>Seamless Continuous Emission Spectrum (190 - 3000 nm)</text></svg>",
       "options": {
         "A": "To provide a seamless, continuous emission spectrum spanning both the ultraviolet and visible/near-IR regions.",
         "B": "To mechanically cool down the optical bench during high-speed scanning.",
@@ -245,13 +228,12 @@
         "D": "To increase sample throughput by running two independent samples simultaneously."
       },
       "correct": "A",
-      "explanation": "A dual-source setup combines deuterium (for UV) and tungsten (for Vis/NIR) lamps to cover the entire analytical wavelength range continuously[span_28](start_span)[span_28](end_span). (Note: Lamps do not cool benches or neutralize stray light; dual lamps do not mean dual sample runs in single/double beam setups.)"
+      "explanation": "A dual-source setup combines deuterium (for UV) and tungsten (for Vis/NIR) lamps to cover the entire analytical wavelength range continuously. (Note: Lamps do not cool benches or neutralize stray light; dual lamps do not mean dual sample runs in single/double beam setups.)"
     },
     {
       "id": 18,
       "section": "Analytical Chemistry & Instruments",
       "question": "What is the primary function of a sparging system or online vacuum degasser in high-performance liquid chromatography (HPLC)?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Online Vacuum Degasser / Sparging</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#dcfce7' stroke='#16a34a' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#166534' font-family='sans-serif'>Removes Dissolved O2 & N2 Gases</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#15803d' font-family='sans-serif'>Prevents Bubble Formation & Baseline Noise in Detector</text></svg>",
       "options": {
         "A": "To remove dissolved gases (like oxygen and nitrogen) from the mobile phase to prevent bubble formation and baseline noise.",
         "B": "To increase the viscosity of organic modifiers for better retention.",
@@ -259,13 +241,12 @@
         "D": "To filter out particulate matter larger than 0.45 micrometers."
       },
       "correct": "A",
-      "explanation": "Degassing and sparging remove dissolved gases that would otherwise form bubbles under pressure changes in the detector or mixing valves[span_29](start_span)[span_29](end_span). (Note: Viscosity is a fluid property not controlled by degassing; temperature and particulate filtration require thermostats and membrane filters respectively.)"
+      "explanation": "Degassing and sparging remove dissolved gases that would otherwise form bubbles under pressure changes in the detector or mixing valves. (Note: Viscosity is a fluid property not controlled by degassing; temperature and particulate filtration require thermostats and membrane filters respectively.)"
     },
     {
       "id": 19,
       "section": "Analytical Chemistry & Instruments",
       "question": "Why are quartz cuvettes strictly required for spectroscopic measurements in the UV region (below 350 nm) instead of standard optical glass cuvettes?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Quartz vs Glass Cuvette Transmission</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#e0f2fe' stroke='#0284c7' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Quartz Transmits UV efficiently (down to 190 nm)</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#075985' font-family='sans-serif'>Optical Glass absorbs heavily below 350 nm</text></svg>",
       "options": {
         "A": "Quartz transmits UV radiation efficiently, whereas optical glass absorbs light strongly below 350 nm.",
         "B": "Quartz cuvettes can withstand higher pressures up to 6000 psi.",
@@ -273,13 +254,12 @@
         "D": "Glass cuvettes react chemically with polar solvents to form precipitates."
       },
       "correct": "A",
-      "explanation": "Quartz has a wide transmission window down to ~190 nm, whereas optical glass absorbs UV light completely[span_30](start_span)[span_30](end_span). (Note: Cuvettes do not experience HPLC pressures; refractive index matching is irrelevant; optical glass does not precipitate with polar solvents.)"
+      "explanation": "Quartz has a wide transmission window down to ~190 nm, whereas optical glass absorbs UV light completely. (Note: Cuvettes do not experience HPLC pressures; refractive index matching is irrelevant; optical glass does not precipitate with polar solvents.)"
     },
     {
       "id": 20,
       "section": "Analytical Chemistry & Instruments",
       "question": "In HPLC instrumentation, what is the key advantage of using a high-pressure binary or quaternary mixing pump system over a low-pressure mixing system?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>High-Pressure Solvent Mixing</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#ede9fe' stroke='#7c3aed' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#5b21b6' font-family='sans-serif'>Blends Solvents After the Pumps</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#6d28d9' font-family='sans-serif'>High Precision & Eliminates Compressibility Volume Errors</text></svg>",
       "options": {
         "A": "High-pressure mixing blends solvents after the pumps, offering high precision and eliminating compressibility-related solvent volume errors.",
         "B": "It requires only a single solvent reservoir for all gradient operations.",
@@ -293,7 +273,6 @@
       "id": 21,
       "section": "Analytical Chemistry & Instruments",
       "question": "What role does the monochromator play when placed between the radiation source and the sample compartment in a UV-Vis spectrophotometer?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Monochromator (Prism / Grating)</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#92400e' font-family='sans-serif'>Polychromatic Light -> Dispersing Element</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#b45309' font-family='sans-serif'>Isolates Narrow, Continuous Band of Monochromatic Radiation</text></svg>",
       "options": {
         "A": "It disperses polychromatic light into its component wavelengths and isolates a narrow, continuous band of radiation.",
         "B": "It amplifies the electrical signal generated by the photodetector.",
@@ -301,13 +280,12 @@
         "D": "It records the absorption spectrum automatically."
       },
       "correct": "A",
-      "explanation": "Monochromators use prisms or gratings to disperse light and select a specific narrow wavelength band for analysis[span_31](start_span)[span_31](end_span). (Note: Amplification is done by PMT/electronics; temperature control is by cell holders; spectrum recording is handled by software/recorder.)"
+      "explanation": "Monochromators use prisms or gratings to disperse light and select a specific narrow wavelength band for analysis. (Note: Amplification is done by PMT/electronics; temperature control is by cell holders; spectrum recording is handled by software/recorder.)"
     },
     {
       "id": 22,
       "section": "Analytical Chemistry & Instruments",
       "question": "Which type of detector in UV-Vis spectroscopy relies on the direct conversion of light energy into electrical current via semiconductor p-n junctions without requiring external high-voltage power supplies?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Silicon Photodiode (Solid-State)</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#ccfbf1' stroke='#0d9488' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#115e59' font-family='sans-serif'>Semiconductor P-N Junction</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#134e4a' font-family='sans-serif'>Internal Photoelectric Effect without High Voltage[span_32](start_span)[span_32](end_span)</text></svg>",
       "options": {
         "A": "Silicon Photodiode detector",
         "B": "Photomultiplier Tube (PMT)",
@@ -315,13 +293,12 @@
         "D": "Vacuum Phototube"
       },
       "correct": "A",
-      "explanation": "Silicon photodiodes are solid-state semiconductor devices that generate photocurrent upon photon absorption without high-voltage dynode chains[span_33](start_span)[span_33](end_span). (Note: PMTs and phototubes require high voltage; FID is a gas chromatography detector[span_34](start_span)[span_34](end_span)[span_35](start_span)[span_35](end_span).)"
+      "explanation": "Silicon photodiodes are solid-state semiconductor devices that generate photocurrent upon photon absorption without high-voltage dynode chains. (Note: PMTs and phototubes require high voltage; FID is a gas chromatography detector.)"
     },
     {
       "id": 23,
       "section": "Analytical Chemistry & Instruments",
       "question": "In an HPLC instrument flow path, what is the specific purpose of the auto-sampler or loop injector?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Sample Loop Injector</text><line x1='60' y1='85' x2='180' y2='85' stroke='#0284c7' stroke-width='3'/><circle cx='230' cy='85' r='25' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='230' y='89' font-size='11' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Loop</text><line x1='280' y1='85' x2='420' y2='85' stroke='#0284c7' stroke-width='3'/><text x='250' y='130' font-size='10' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Introduces Precise Sample Volume into Pressurized Stream[span_36](start_span)[span_36](end_span)</text></svg>",
       "options": {
         "A": "To introduce a precise and reproducible volume of sample into the pressurized mobile phase stream without causing system depressurization.",
         "B": "To mix organic and aqueous mobile phases dynamically.",
@@ -329,13 +306,12 @@
         "D": "To trap large suspended particulate matter before the column."
       },
       "correct": "A",
-      "explanation": "The loop injector uses a rotor valve to load and inject exact sample volumes into the flowing mobile phase[span_37](start_span)[span_37](end_span). (Note: Mixing is done by valves/pumps; concentration measurement by detectors; particle trapping by frits/guard columns.)"
+      "explanation": "The loop injector uses a rotor valve to load and inject exact sample volumes into the flowing mobile phase. (Note: Mixing is done by valves/pumps; concentration measurement by detectors; particle trapping by frits/guard columns.)"
     },
     {
       "id": 24,
       "section": "Analytical Chemistry & Instruments",
       "question": "What is the primary operational limitation of Diode Array Detectors (DAD) compared to traditional variable-wavelength UV-Vis detectors?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Diode Array Detector (DAD)</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#e2e8f0' stroke='#475569' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Simultaneous Multi-Wavelength Readout</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#334155' font-family='sans-serif'>Slightly Higher Baseline Noise Across Diode Array</text></svg>",
       "options": {
         "A": "DAD systems generally have slightly higher baseline noise due to multiple simultaneous electronic readouts across the diode array.",
         "B": "DAD cannot record spectra below 400 nm.",
@@ -349,7 +325,6 @@
       "id": 25,
       "section": "Analytical Chemistry & Instruments",
       "question": "How does stray light affect absorbance measurements at high absorbance values in UV-Vis spectrophotometry?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Stray Light Deviation</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Unabsorbed Stray Light Reaches Detector</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Negative Deviation from Beer-Lambert Law (Underestimation)</text></svg>",
       "options": {
         "A": "It causes a negative deviation from Beer-Lambert Law, leading to an underestimation of actual sample concentration.",
         "B": "It increases the linear dynamic range up to 5 absorbance units.",
@@ -363,7 +338,6 @@
       "id": 26,
       "section": "Analytical Chemistry & Instruments",
       "question": "What is the main function of the frits located at both inlet and outlet ends of an HPLC analytical column?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>HPLC Column Frits</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#f1f5f9' stroke='#334155' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Porous Metal Frits at Inlet & Outlet</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#334155' font-family='sans-serif'>Retains Expensive Stationary Phase Beads Inside Column</text></svg>",
       "options": {
         "A": "To retain the expensive stationary phase packing material inside the column tube while allowing mobile phase and analytes to pass freely.",
         "B": "To cool the eluent before it reaches the optical detector flow cell.",
@@ -371,13 +345,12 @@
         "D": "To measure system backpressure in real-time."
       },
       "correct": "A",
-      "explanation": "Porous metal frits act as mechanical barriers that keep silica or polymer packing beads inside the column hardware[span_38](start_span)[span_38](end_span). (Note: Frits do not cool fluid, split streams, or measure backpressure electronically.)"
+      "explanation": "Porous metal frits act as mechanical barriers that keep silica or polymer packing beads inside the column hardware. (Note: Frits do not cool fluid, split streams, or measure backpressure electronically.)"
     },
     {
       "id": 27,
       "section": "Analytical Chemistry & Instruments",
       "question": "In fluorescence detectors used alongside HPLC, why is the emission detector placed at a 90-degree angle relative to the excitation beam axis?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Fluorescence Detector Geometry</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fce7f3' stroke='#db2777' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#9d174d' font-family='sans-serif'>90-Degree Emission Detection Angle</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#831843' font-family='sans-serif'>Minimizes Transmitted Excitation Light & Improves S/N Ratio</text></svg>",
       "options": {
         "A": "To minimize the amount of transmitted excitation light reaching the emission detector, thereby improving signal-to-noise ratio.",
         "B": "To increase the linear flow velocity of the mobile phase.",
@@ -391,7 +364,6 @@
       "id": 28,
       "section": "Analytical Chemistry & Instruments",
       "question": "What is the typical consequence of operating an HPLC column above its maximum recommended temperature limit?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Column Overheating Consequences</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Exceeding Max Temperature Limit</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Hydrolysis / Cleavage of Bonded Silane Ligands (Shortened Lifetime)</text></svg>",
       "options": {
         "A": "Degradation of the bonded stationary phase ligands, leading to shortened column lifetime and altered selectivity.",
         "B": "Instantaneous freezing of the organic aqueous mobile phase.",
@@ -405,7 +377,6 @@
       "id": 29,
       "section": "Analytical Chemistry & Instruments",
       "question": "Why is stainless steel widely chosen as the primary material for HPLC tubing, pump chambers, and column hardware?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Stainless Steel Hardware</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>High Mechanical Strength</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#334155' font-family='sans-serif'>Resists Extreme Operating Pressures (up to 6000+ psi)</text></svg>",
       "options": {
         "A": "It offers exceptional mechanical strength to withstand extreme operating pressures (up to 6000 psi and higher) alongside good corrosion resistance.",
         "B": "It is completely transparent to UV radiation from 200 to 800 nm.",
@@ -413,13 +384,12 @@
         "D": "It dissolves stubborn precipitates automatically during sample runs."
       },
       "correct": "A",
-      "explanation": "Stainless steel provides the high tensile strength needed for high-pressure fluid containment in HPLC systems[span_39](start_span)[span_39](end_span)[span_40](start_span)[span_40](end_span). (Note: Steel is opaque; it does not act as a monochromator or dissolve precipitates.)"
+      "explanation": "Stainless steel provides the high tensile strength needed for high-pressure fluid containment in HPLC systems. (Note: Steel is opaque; it does not act as a monochromator or dissolve precipitates.)"
     },
     {
       "id": 30,
       "section": "Analytical Chemistry & Instruments",
       "question": "When performing quantitative analysis using a UV-Vis spectrophotometer, why is it recommended to measure absorbance close to the absorption maximum (lambda max) of the analyte?",
-      "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Measurement at Lambda Max</text><rect x='100' y='55' width='300' height='65' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e40af' font-family='sans-serif'>Maximum Sensitivity & Flattest Slope</text><text x='250' y='105' font-size='10' font-weight='bold' text-anchor='middle' fill='#1d4ed8' font-family='sans-serif'>Minimizes Analytical Errors from Wavelength Fluctuations</text></svg>",
       "options": {
         "A": "It provides maximum sensitivity and minimizes analytical errors caused by small wavelength fluctuations.",
         "B": "It prevents the instrument from using deuterium lamps.",
@@ -427,7 +397,7 @@
         "D": "It eliminates the need for baseline correction blanks."
       },
       "correct": "A",
-      "explanation": "Measuring at lambda max yields the highest molar absorptivity and flattest slope region, reducing sensitivity to wavelength reset errors[span_41](start_span)[span_41](end_span). (Note: Wavelength choice does not restrict lamp usage, validate zero concentration laws, or eliminate blanks.)"
+      "explanation": "Measuring at lambda max yields the highest molar absorptivity and flattest slope region, reducing sensitivity to wavelength reset errors. (Note: Wavelength choice does not restrict lamp usage, validate zero concentration laws, or eliminate blanks.)"
     }
   ]
 }
