@@ -301,7 +301,6 @@ const MockPanel = (() => {
       });
     } catch (e) { console.error('KaTeX render failed:', e); }
   }
-
   async function startMock(testId) {
     const meta = currentSubCatTests.find(m => m.id === testId);
     if (!meta) {
@@ -327,14 +326,28 @@ const MockPanel = (() => {
       return sectionOrderMap.get(a.section) - sectionOrderMap.get(b.section);
     });
     
+    // 👇 Yahan home-dashboard ke sath-sath andar ke elements ko bhi hide kar do
     document.getElementById('home-dashboard').style.display = 'none';
+    
+    const navHeader = document.getElementById('nav-header-bar');
+    if(navHeader) navHeader.style.display = 'none';
+    
+    const v3 = document.getElementById('view-level-3');
+    if(v3) v3.style.display = 'none';
+
+    // Exam elements ko show karo
     document.getElementById('exam-header').style.display = 'flex';
     document.getElementById('section-tabs').style.display = 'flex';
     document.getElementById('exam-viewport').style.display = 'flex';
     const footer = document.getElementById('exam-footer');
     if(footer) footer.style.display = 'flex';
+    
     reattemptTest();
   }
+
+  
+    
+    
 
   function exitToHome() {
     clearInterval(timerInterval);
