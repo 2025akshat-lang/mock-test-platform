@@ -3,10 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akshat study zone</title>
+  <title>Akshat Study Zone</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* --- Solution Detail Overlay (added: tap-a-question full-screen view) --- */
+    #home-dashboard {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+    /* ============================================================
+       🍔 HAMBURGER & SIDEBAR MODERN UI DESIGN
+       ============================================================ */
+    .app-top-bar {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 16px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .hamburger-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      cursor: pointer;
+      z-index: 1100;
+    }
+    .hamburger-btn span {
+      width: 100%;
+      height: 3px;
+      background-color: #334155;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    /* Sliding Navigation Drawer */
+    .sidebar-menu {
+      position: fixed;
+      top: 0;
+      left: -280px;
+      width: 280px;
+      height: 100%;
+      background: #0f172a;
+      color: #fff;
+      z-index: 1050;
+      box-shadow: 4px 0 10px rgba(0,0,0,0.2);
+      transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      padding-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .sidebar-menu.open {
+      left: 0;
+    }
+    .sidebar-menu .menu-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 20px;
+      background: transparent;
+      border: none;
+      color: #cbd5e1;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.2s;
+    }
+    .sidebar-menu .menu-item:hover, .sidebar-menu .menu-item.active {
+      background: #1e293b;
+      color: #fff;
+    }
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 1040;
+    }
+    .sidebar-overlay.active {
+      display: block;
+      width:100%;
+    }
+
+    /* ============================================================
+       📦 INDEPENDENT PANEL CONTAINERS
+       ============================================================ */
+    .app-panel-wrapper {
+      display: none;
+      width:100%;
+    }
+    .app-panel-wrapper.active {
+      display: contents;
+    }
+
+    /* Simple Notes Panel Layout Examples */
+    .notes-container {
+      padding: 20px;
+      font-family: sans-serif;
+    }
+    .notes-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .notes-card h3 { margin: 0 0 8px 0; color: #1e293b; font-size: 1.2rem;}
+    .notes-card p { margin: 0; color: #64748b; font-size: 0.95rem; line-height: 1.5;}
+
+    /* --- Solution Detail Overlay --- */
     .solution-detail-overlay {
       display: none;
       position: fixed;
@@ -14,10 +131,9 @@
       z-index: 1000;
       background: #fff;
       flex-direction: column;
-      font-size:23px;
+      font-size: 23px;
     }
     .solution-detail-overlay.active { display: flex; }
-
     .sol-detail-header {
       display: flex;
       align-items: center;
@@ -25,282 +141,295 @@
       padding: 12px 16px;
       background: #0f172a;
       color: #fff;
-      flex-shrink: 0;font-size:25px;
-    }
-    .sol-detail-header .back-btn {
-      background: transparent;
-      color: #fff;
-      border: none;
-      font-size: 0.95rem;
-      font-weight: 600;
-      cursor: pointer;
-    }
-
-    .sol-detail-nav {
-      display: flex;
-      gap: 8px;
-      padding: 10px 12px;
-      overflow-x: auto;
-      white-space: nowrap;
-      border-bottom: 1px solid var(--card-border, #e2e8f0);
       flex-shrink: 0;
+      font-size: 25px;
     }
-    .sol-nav-node {
-      flex: 0 0 auto;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 0.95rem;
-      background: #e2e8f0;
-      color: #334155;
-      cursor: pointer;
-    }
+    .sol-detail-header .back-btn { background: transparent; color: #fff; border: none; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
+    .sol-detail-nav { display: flex; gap: 8px; padding: 10px 12px; overflow-x: auto; white-space: nowrap; border-bottom: 1px solid var(--card-border, #e2e8f0); flex-shrink: 0; }
+    .sol-nav-node { flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.95rem; background: #e2e8f0; color: #334155; cursor: pointer; }
     .sol-nav-node.nav-correct { background: #22c55e; color: #fff; }
     .sol-nav-node.nav-incorrect { background: #ef4444; color: #fff; }
     .sol-nav-node.nav-unattempted { background: #cbd5e1; color: #334155; }
     .sol-nav-node.active { outline: 3px solid var(--primary, #2563eb); outline-offset: 2px; }
-
-    /* This is the part that actually matters: body scrolls on its own,
-       independent of the header/nav above it, so a long solution never
-       pushes or overlaps them — it just scrolls inside this box. */
-    .sol-detail-body {
-      flex: 1;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-      padding: 16px;
-    }
-
+    .sol-detail-body { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 16px; }
     .sol-detail-meta { font-size: 0.8rem; color: var(--text-muted, #64748b); margin-bottom: 8px; }
     .sol-detail-question { font-weight: 700; font-size: 1rem; margin-bottom: 14px; }
-
-    .sol-detail-answer {
-      margin-top: 14px;
-      padding: 12px 14px;
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      border-radius: 8px;
-      font-weight: 800;
-      font-size: 0.9rem;
-      color: #166534;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
+    .sol-detail-answer { margin-top: 14px; padding: 12px 14px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; font-weight: 800; font-size: 0.9rem; color: #166534; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
     .sol-detail-answer u { text-decoration-color: #166534; }
     .sol-detail-pct { font-weight: 600; color: var(--text-muted, #64748b); font-size: 0.8rem; }
-
     .sol-detail-solution-box { margin-top: 16px; }
-    .sol-detail-solution-title {
-      font-weight: 800;
-      letter-spacing: 0.5px;
-      color: var(--primary-dark, #1d4ed8);
-      margin-bottom: 10px;
-      font-size: 0.95rem;
-      text-transform: uppercase;
-    }
-
+    .sol-detail-solution-title { font-weight: 800; letter-spacing: 0.5px; color: var(--primary-dark, #1d4ed8); margin-bottom: 10px; font-size: 0.95rem; text-transform: uppercase; }
     .sol-detail-viewbtn { margin-top: 16px; width: 100%; }
-
-    .sol-detail-nav-buttons {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      margin-top: 24px;
-      padding-top: 16px;
-      border-top: 1px solid var(--card-border, #e2e8f0);
-    }
+    .sol-detail-nav-buttons { display: flex; justify-content: space-between; gap: 10px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--card-border, #e2e8f0); }
     .sol-detail-nav-buttons .btn { flex: 1; }
   </style>
 
-  <!-- KaTeX: renders LaTeX math written inside question/option/explanation
-       text in the JSON data. Write math as $x^2+y^2$ (inline) or
-       $$\frac{a}{b}$$ (its own centered line) — renderMath() in app.js
-       scans the text and turns those into proper formulas. -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 </head>
 <body>
 
-  <!-- FAIL-SAFE ERROR SCREEN (shown instead of a browser error page) -->
+  <!-- SIDEBAR NAVIGATION MENU -->
+  <div class="sidebar-overlay" id="sidebar-overlay" onclick="ControlPanel.toggleSidebar()"></div>
+  <div class="sidebar-menu" id="sidebar-menu">
+    <button class="menu-item active" id="menu-btn-mock-panel" onclick="ControlPanel.switchPanel('mock-panel')">🎯 Mock Tests Setup</button>
+    <button class="menu-item" id="menu-btn-notes-panel" onclick="ControlPanel.switchPanel('notes-panel')">📝 Short Study Notes</button>
+    <button class="menu-item" id="menu-btn-future-panel" onclick="ControlPanel.switchPanel('future-panel')">🔮 Future Customize Area</button>
+  </div>
+
+  <!-- FAIL-SAFE ERROR SCREEN -->
   <div class="app-screen" id="error-screen" style="display:none; align-items:center; justify-content:center; text-align:center; padding:24px;">
     <div>
       <div style="font-size:2.5rem; margin-bottom:10px;">🛠️</div>
       <div style="font-size:1.1rem; font-weight:800; margin-bottom:6px;">Content Not Available</div>
       <div style="color:var(--text-muted); font-size:0.85rem; margin-bottom:18px;" id="error-detail">This section hasn't been added yet. Please check back soon.</div>
-      <button class="btn btn-primary" onclick="goToHome()">⬅ Back to Home</button>
+      <button class="btn btn-primary" onclick="MockPanel.goToHome()">⬅ Back to Home</button>
     </div>
   </div>
 
-  <!-- MASTER HOME DASHBOARD SCREEN -->
-  <div class="app-screen" id="home-dashboard">
-    <!-- TOP HEADER -->
-    <div class="app-top-bar">
-      <div class="goal-selector">
-        <span>⚡Axat Study PORTAL</span>
-      </div>
-      <div class="user-profile-badge" onclick="promptUserEmail()">P</div>
-    </div>
 
-    <div class="dashboard-body">
-      <!-- DYNAMIC HEADER WITH BACK BUTTON -->
-      <div class="nav-header-bar" id="nav-header-bar" style="display:none;">
-        <button class="back-btn" onclick="goBackStep()">⬅ Back</button>
-        <div class="page-title" id="current-page-title">Category</div>
-      </div>
-
-      <!-- LEVEL 1: CLEAN MAIN MENU (Home View) — built dynamically from data/manifest.json -->
-      <div class="main-menu-grid" id="view-level-1"></div>
-
-      <!-- LEVEL 2: SUB-CATEGORIES (Classes / Exams / PSUs) -->
-      <div class="sub-grid" id="view-level-2" style="display:none;"></div>
-
-      <!-- LEVEL 3: MOCK TESTS LIST FOR SELECTED SUB-CATEGORY -->
-      <div class="tests-vertical-list" id="view-level-3" style="display:none;"></div>
-    </div>
-
-    <!-- BOTTOM NAVIGATION BAR -->
-    <div class="bottom-nav">
-      <div class="nav-tab-item active" onclick="goToHome()">
-        <div class="nav-tab-icon">🏠</div>
-        <div>Home</div>
-      </div>
-      <div class="nav-tab-item" onclick="openAttemptedList()">
-        <div class="nav-tab-icon">📊</div>
-        <div>Reports</div>
-      </div>
-      <div class="nav-tab-item" onclick="promptUserEmail()">
-        <div class="nav-tab-icon">👤</div>
-        <div>Account</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- CBT EXAM TOP HEADER -->
-  <header style="display:none;" id="exam-header">
-    <div class="brand-title" onclick="exitToHome()">🚀 Axat ZONE</div>
-    <div style="display: flex; gap: 8px; align-items: center;">
-      <div class="timer-badge" id="overall-timer">00:30:00</div>
-      <button class="btn btn-secondary" style="padding: 4px 8px; font-size: 0.75rem;" onclick="toggleDrawer()">View Attempted Quest.</button>
-    </div>
-  </header>
-
-  <!-- SECTION SELECTOR ROW -->
-  <div class="section-bar" id="section-tabs" style="display:none;"></div>
-
-  <div class="main-viewport" id="exam-viewport" style="display:none;">
-    <div class="question-wrapper">
-      <div class="meta-bar">
-        <div style="font-weight: 700;">Question <span id="display-q-num">1</span></div>
-        <div style="font-size:0.75rem; color:var(--success);">Marks: +<span id="mark-pos">1.0</span> / -<span id="mark-neg">0.25</span></div>
+  <!-- ============================================================
+       🎯 PANEL 1: MOCK TEST ENGINE
+       ============================================================ -->
+  <div id="mock-panel" class="app-panel-wrapper active">
+    
+    <!-- MASTER HOME DASHBOARD SCREEN -->
+    <div class="app-screen" id="home-dashboard">
+      <div class="app-top-bar">
+        <div class="hamburger-btn" onclick="ControlPanel.toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="goal-selector">
+          <span>⚡ Akshat Study Portal</span>
+        </div>
+        <div class="user-profile-badge" onclick="MockPanel.promptUserEmail()">P</div>
       </div>
 
-      <!-- Fixed: question text + diagram never scroll away, whatever the
-           options list does below. -->
-      <div class="question-fixed-block">
-        <div class="question-text" id="q-text">Loading...</div>
-        <div id="q-diagram" style="margin:10px 0;"></div>
+      <div class="dashboard-body">
+        <div class="nav-header-bar" id="nav-header-bar" style="display:none;">
+          <button class="back-btn" onclick="MockPanel.goBackStep()">⬅ Back</button>
+          <div class="page-title" id="current-page-title">Category</div>
+        </div>
+
+        <div class="main-menu-grid" id="view-level-1"></div>
+        <div class="sub-grid" id="view-level-2" style="display:none;"></div>
+        <div class="tests-vertical-list" id="view-level-3" style="display:none;"></div>
       </div>
 
-      <!-- Scrollable: only this area scrolls when the 4 options + a long
-           question stem don't all fit the screen. Footer stays put. -->
-      <div class="options-scroll-area">
-        <div class="options-grid" id="options-container"></div>
+      <div class="bottom-nav">
+        <div class="nav-tab-item active" onclick="MockPanel.goToHome()">
+          <div class="nav-tab-icon">🏠</div>
+          <div>Home</div>
+        </div>
+        <div class="nav-tab-item" onclick="MockPanel.openAttemptedList()">
+          <div class="nav-tab-icon">📊</div>
+          <div>Reports</div>
+        </div>
+        <div class="nav-tab-item" onclick="MockPanel.promptUserEmail()">
+          <div class="nav-tab-icon">👤</div>
+          <div>Account</div>
+        </div>
       </div>
     </div>
 
-    <div class="drawer" id="drawer">
-      <div style="display:flex; justify-content:space-between; margin-bottom:12px;">
-        <h4>Question Palette</h4>
-        <button class="btn btn-secondary" onclick="toggleDrawer()">✕</button>
+    <!-- CBT EXAM TOP HEADER -->
+    <header style="display:none;" id="exam-header">
+      <div class="brand-title" onclick="MockPanel.exitToHome()">🚀 Akshat Zone</div>
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <div class="timer-badge" id="overall-timer">00:30:00</div>
+        <button class="btn btn-secondary" style="padding: 4px 8px; font-size: 0.75rem;" onclick="MockPanel.toggleDrawer()">View Attempted Quest.</button>
       </div>
-      <div class="palette-grid" id="palette-grid"></div>
-      <button class="btn btn-primary" style="margin-top:16px; width:100%;" onclick="submitExam()">Submit Test</button>
-    </div>
-  </div>
+    </header>
 
-  <footer id="exam-footer" style="display:none;">
-    <div style="display:flex; gap: 6px;">
-      <button class="btn btn-warning" onclick="markForReviewAndNext()">Mark Review</button>
-      <button class="btn btn-secondary" onclick="clearResponse()">Clear</button>
-    </div>
-    <div style="display:flex; gap: 6px;">
-      <button class="btn btn-secondary" onclick="navigate(-1)">Prev</button>
-      <button class="btn btn-primary" id="save-next-btn" onclick="saveAndNext()">Save & Next</button>
-    </div>
-  </footer>
+    <!-- SECTION SELECTOR ROW -->
+    <div class="section-bar" id="section-tabs" style="display:none;"></div>
 
-  <!-- ANALYTICS & SOLUTIONS OVERLAY -->
-  <div class="analytics-overlay" id="analytics-overlay">
-    <div class="app-top-bar">
-      <div style="font-weight:700;">Test Analysis</div>
-      <div style="display:flex; gap:6px;">
-        <button class="btn btn-secondary" style="font-size:0.75rem;" onclick="reattemptTest()">🔄 Reattempt</button>
-        <button class="btn btn-secondary" style="font-size:0.75rem;" onclick="exitToHome()">🏠 Home</button>
+    <!-- EXAM VIEWPORT -->
+    <div class="main-viewport" id="exam-viewport" style="display:none;">
+      <div class="question-wrapper">
+        <div class="meta-bar">
+          <div style="font-weight: 700;">Question <span id="display-q-num">1</span></div>
+          <div style="font-size: 0.85rem; color: #64748b;">Marks: +1.0 / -0.25</div>
+        </div>
+        <div id="question-container" style="margin-top: 15px;">Loading...</div>
       </div>
     </div>
 
-    <div class="nav-tabs-bar">
-      <div class="top-nav-tab active" id="tab-btn-analysis" onclick="switchAnalyticsTab('analysis')">Analysis</div>
-      <div class="top-nav-tab" id="tab-btn-solutions" onclick="switchAnalyticsTab('solutions')">Solutions</div>
+    <!-- EXAM CONTROLS & PALETTE -->
+    <div class="exam-footer-bar" id="exam-footer" style="display:none;">
+      <div style="display: flex; gap: 10px;">
+        <button class="btn btn-secondary" onclick="MockPanel.markReview()">Mark Review</button>
+        <button class="btn btn-secondary" onclick="MockPanel.clearResponse()">Clear</button>
+      </div>
+      <div style="display: flex; gap: 10px;">
+        <button class="btn btn-secondary" onclick="MockPanel.prevQuestion()">Prev</button>
+        <button class="btn btn-primary" onclick="MockPanel.saveAndNext()">Save & Next</button>
+      </div>
     </div>
 
-    <div class="tab-content" id="tab-analysis">
-      <div class="score-card-banner">
-        <div class="score-row">
-          <div>
-            <div style="font-size:0.75rem; color:var(--text-muted);">YOUR SCORE</div>
-            <div class="big-score"><span id="res-score">0</span> / <span id="res-max-score">0</span></div>
+        <!-- QUESTION PALETTE / DRAWER -->
+    <div class="question-palette-drawer" id="question-palette-drawer" style="display:none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #e2e8f0; flex-shrink: 0;">
+        <span style="font-weight: 700;">Question Palette</span>
+        <button onclick="MockPanel.toggleDrawer()" style="background:none; border:none; font-size: 1.2rem; cursor:pointer;">✕</button>
+      </div>
+      
+      <!-- 🔄 Grid ko scrollable banane ke liye flex: 1 aur overflow-y: auto yahan daal diya -->
+      <div id="palette-grid" style="padding: 10px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; flex: 1; overflow-y: auto; align-content: start;"></div>
+      
+      <div style="padding: 10px; flex-shrink: 0;">
+        <!-- ❌ height: 100vh yahan se hata diya hai taaki button fat na jaye -->
+        <button class="btn btn-danger" style="width: 100%;" onclick="MockPanel.submitTestModal()">Submit Test</button>
+      </div>
+    </div>
+
+    <!-- TEST ANALYSIS SCREEN -->
+    <div class="app-screen" id="test-analysis-screen" style="display:none; padding: 20px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h2 style="margin: 0; color: #1e293b;">Test Analysis</h2>
+        <div>
+          <button class="btn btn-secondary" onclick="MockPanel.reattemptTest()">🔄 Reattempt</button>
+          <button class="btn btn-primary" onclick="MockPanel.goToHome()">🏠 Home</button>
+        </div>
+      </div>
+      
+      <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+        <button class="btn btn-primary" id="tab-analysis-btn" onclick="MockPanel.switchAnalysisTab('analysis')">Analysis</button>
+        <button class="btn btn-secondary" id="tab-solutions-btn" onclick="MockPanel.switchAnalysisTab('solutions')">Solutions</button>
+      </div>
+
+      <div id="analysis-tab-content">
+        <div class="notes-card">
+          <div style="font-size: 0.85rem; color: #64748b;">YOUR SCORE</div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: #2563eb;" id="score-display">0 / 0</div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 15px;">
+          <div class="notes-card" style="margin-bottom:0;">
+            <div style="font-size: 0.8rem; color: #64748b;">STATUS</div>
+            <div style="font-weight: 700;" id="status-display">Report Saved</div>
           </div>
-          <div style="text-align:right;">
-            <div style="font-size:0.75rem; color:var(--text-muted);">STATUS</div>
-            <div style="font-weight:700; color:var(--success);" id="score-status-label">Report Saved</div>
+          <div class="notes-card" style="margin-bottom:0;">
+            <div style="font-size: 0.8rem; color: #64748b;">ACCURACY</div>
+            <div style="font-weight: 700;" id="accuracy-display">0%</div>
+          </div>
+        </div>
+        <div class="notes-card">
+          <h3 style="font-size: 1rem; margin-bottom: 10px;">Sectional Breakdown</h3>
+          <div style="display: flex; gap: 15px; font-size: 0.9rem; color: #64748b;">
+            <span>All (<span id="sec-all">0</span>)</span>
+            <span style="color: #22c55e;">Correct (<span id="sec-correct">0</span>)</span>
+            <span style="color: #ef4444;">Incorrect (<span id="sec-incorrect">0</span>)</span>
+            <span>Unattempted (<span id="sec-unattempted">0</span>)</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="solutions-tab-content" style="display:none;">
+        <div id="solutions-list-container"></div>
+      </div>
+    </div>
+
+        <!-- SOLUTION DETAIL OVERLAY -->
+    <div class="solution-detail-overlay" id="solution-detail-overlay">
+      <div class="sol-detail-header" style="display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #0f172a; color: #fff;">
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <button class="back-btn" onclick="MockPanel.closeSolutionDetail()" style="background: none; border: none; color: #fff; cursor: pointer; font-size: 1rem;">← Back</button>
+          <span style="font-size: 1.2rem; font-weight: bold;">Solution</span>
+        </div>
+      </div>
+
+      <!-- Upar wale question navigation numbers -->
+      <div class="sol-detail-nav" id="sol-detail-nav" style="padding: 10px 15px; display: flex; gap: 8px; overflow-x: auto; background: #f8fafc; border-bottom: 1px solid #e2e8f0;"></div>
+
+      <!-- Main Content jo scroll hoga -->
+      <div class="sol-detail-body" style="padding: 20px; overflow-y: auto; flex: 1; max-height: calc(100vh - 130px);">
+        
+        <!-- Meta info (Time & Accuracy) -->
+        <div style="font-size: 0.85rem; color: #64748b; margin-bottom: 10px;" id="sol-time-meta">
+          ⏱️ Time: 00:12 | 🎯 90% got it right
+        </div>
+
+        <!-- Question Text -->
+        <div style="font-size: 1.05rem; font-weight: 700; color: #1e293b; margin-bottom: 15px;" id="sol-question-text"></div>
+
+        <!-- Options Container -->
+        <div id="sol-options-container" style="margin-bottom: 15px;"></div>
+
+        <!-- View Solution Button (Jo click karne par answer aur explanation kholega) -->
+        <div id="view-solution-btn-container" style="margin-bottom: 20px;">
+          <button class="btn btn-primary" onclick="MockPanel.revealCurrentSolution()" style="width: 100%; padding: 12px; font-weight: 600;">View Solution</button>
+        </div>
+
+        <!-- Hidden Correct Answer & Explanation Box (jo 'View Solution' dabane par dikhega) -->
+        <div id="solution-reveal-box" style="display: none;">
+          <div id="sol-correct-answer-box" style="background: #dcfce7; border: 1px solid #22c55e; color: #166534; padding: 12px 15px; border-radius: 8px; font-weight: 600; margin-bottom: 15px; display: flex; align-items: center; gap: 8px;">
+            ✅ <span id="sol-correct-text">Correct Answer: </span>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+            <div style="font-weight: 700; color: #1e40af; margin-bottom: 8px; display: flex; align-items: center; gap: 5px;">
+              💡 SOLUTION
+            </div>
+            <div id="sol-explanation-text" style="color: #334155; font-size: 0.95rem; line-height: 1.5;"></div>
           </div>
         </div>
 
-        <div class="summary-grid">
-          <div class="mini-stat"><div class="val" id="res-rank">--</div><div class="lbl">Rank</div></div>
-          <div class="mini-stat"><div class="val" id="res-accuracy" style="color:var(--success)">0%</div><div class="lbl">Accuracy</div></div>
-          <div class="mini-stat"><div class="val" id="res-percentile">--%</div><div class="lbl">Percentile</div></div>
+      </div>
+
+      <!-- Niche Prev aur Next buttons -->
+      <div style="padding: 12px 20px; background: #fff; border-top: 1px solid #e2e8f0; display: flex; gap: 10px;">
+        <button class="btn btn-secondary" style="flex: 1;" onclick="MockPanel.prevSolutionQuestion()">← Prev</button>
+        <button class="btn btn-secondary" style="flex: 1;" onclick="MockPanel.nextSolutionQuestion()">Next →</button>
+      </div>
+    </div>
+
+  </div> <!-- End of Mock Panel -->
+
+
+  <!-- ============================================================
+       📝 PANEL 2: SHORT STUDY NOTES
+       ============================================================ -->
+  <div id="notes-panel" class="app-panel-wrapper">
+    <div class="notes-container">
+      <div class="app-top-bar" style="margin-bottom: 15px; border-radius: 8px;">
+        <div class="hamburger-btn" onclick="ControlPanel.toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <div style="font-weight: 700; font-size: 1.1rem; color: #1e293b;">📝 PrepZone Notes</div>
       </div>
-
-      <h4 style="margin-bottom:10px;">Sectional Breakdown</h4>
-      <div id="sectional-summary-list"></div>
-    </div>
-
-    <div class="tab-content" id="tab-solutions" style="display:none;">
-      <div class="filter-pills">
-        <button class="pill-btn active" onclick="filterSolutions('all')">All (<span id="cnt-all">0</span>)</button>
-        <button class="pill-btn" onclick="filterSolutions('correct')">Correct (<span id="cnt-correct">0</span>)</button>
-        <button class="pill-btn" onclick="filterSolutions('incorrect')">Incorrect (<span id="cnt-incorrect">0</span>)</button>
-        <button class="pill-btn" onclick="filterSolutions('unattempted')">Unattempted (<span id="cnt-unattempted">0</span>)</button>
+      <div class="notes-card">
+        <h3>My Smart Study Notes</h3>
+        <p>Yahan aap apne important formulas, shortcuts aur quick revision notes save karke rakh sakte hain, bina mock test engine ko disturb kiye!</p>
       </div>
-
-      <div id="solutions-list-container"></div>
     </div>
   </div>
 
-  <!-- SOLUTION DETAIL OVERLAY: opens when a card in Solutions is tapped.
-       Has its own question-number nav (like the exam palette) so the user
-       can jump/swipe between questions, and a scrollable body so a long
-       solution never overlaps the nav bar or other content. -->
-  <div class="solution-detail-overlay" id="solution-detail-overlay">
-    <div class="sol-detail-header">
-      <button class="back-btn" onclick="closeSolutionDetail()">⬅ Back</button>
-      <div style="flex:1; text-align:center; font-weight:700;">Solution</div>
-      <div style="width:60px;"></div>
-    </div>
-    <div class="sol-detail-nav" id="sol-detail-nav"></div>
-    <div class="sol-detail-body" id="sol-detail-body"></div>
-  </div>
 
+  <!-- ============================================================
+       🔮 PANEL 3: FUTURE CUSTOMIZE AREA
+       ============================================================ -->
+  <div id="future-panel" class="app-panel-wrapper">
+    <div class="notes-container">
+      <div class="app-top-bar" style="margin-bottom: 15px; border-radius: 8px;">
+        <div class="hamburger-btn" onclick="ControlPanel.toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div style="font-weight: 700; font-size: 1.1rem; color: #1e293b;">🔮 Custom Zone</div>
+      </div>
+      <div class="notes-card">
+        <h3>Future Customization Dashboard</h3>
+        <p>Yeh panel puri tarah khali hai. Yahan aap bina kisi interference ke apna naya code ya feature add kar sakte hain.</p>
+      </div>
+    </div>
+  </div>
+    <!-- 🔄 Yahan order theek karna hai: DataLoader ko pehle load karo -->
   <script src="js/data-loader.js"></script>
   <script src="js/app.js"></script>
 </body>
