@@ -26,5 +26,14 @@
     "badgeClass": "badge-new",
     "questionCount": 15,
     "maxMarks": 15.0
-  }
+  },{
+    "id": "iocl-qc-4",
+    "file": "iocl-qc-4.json",
+    "title": "UV-Visible ",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 15,
+    "maxMarks": 15.0
+  },
 ]
