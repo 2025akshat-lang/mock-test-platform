@@ -482,9 +482,16 @@ const MockPanel = (() => {
     }, 1000);
   }
 
-  function submitTestModal() {
-    if (confirm("Are you sure you want to submit the test?")) {
+   function submitTestModal() {
+    // Iframe ya Google Sites ke andar confirm() block ho jata hai, 
+    // isliye direct submitExam() ya safe check use karenge:
+    if (window.self !== window.top) {
+      // Agar site kisi iframe (jaise Google Sites) ke andar hai toh direct submit kar do ya custom alert rakho
       submitExam();
+    } else {
+      if (confirm("Are you sure you want to submit the test?")) {
+        submitExam();
+      }
     }
   }
 
