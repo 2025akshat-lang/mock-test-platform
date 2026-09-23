@@ -1,0 +1,147 @@
+<svg xmlns="http://w3.org" viewBox="0 0 850 550" width="100%" height="100%">
+  <!-- Definitions for Gradients, Glows, and Filters -->
+  <defs>
+    <!-- Glow Effect for Lamps -->
+    <filter id="glow-uv" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-vis" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="uvBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="visBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="combinedBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#CBD5E0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <!-- Markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569" />
+    </marker>
+  </defs>
+
+  <style>
+    .text-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1E293B; }
+    .text-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #334155; }
+    .text-sub { font-size: 11px; fill: #64748B; font-weight: normal; }
+    .component-outline { stroke: #475569; stroke-width: 2; fill: #F8FAFC; }
+    .ray-edge { stroke-dasharray: 4,4; stroke-width: 1; }
+  </style>
+
+  <!-- Background Grid/Canvas Accent (Optional for aesthetic) -->
+  <rect width="850" height="550" fill="#FAFAFA" rx="15"/>
+
+  <!-- Title -->
+  <text x="425" y="40" class="text-title" text-anchor="middle">Dual-Source Lamp Setup (UV-Vis Spectrophotometer)</text>
+
+  <!-- ================= LIGHT BEAMS (BACKGROUND LAYER) ================= -->
+  <!-- UV Light Path (Deuterium to Mirror) -->
+  <polygon points="210,235 400,225 400,275 210,265" fill="url(#uvBeam)" />
+  <line x1="210" y1="235" x2="400" y2="225" stroke="#A78BFA" class="ray-edge" />
+  <line x1="210" y1="265" x2="400" y2="275" stroke="#A78BFA" class="ray-edge" />
+
+  <!-- Visible Light Path (Tungsten to Mirror) -->
+  <polygon points="375,120 385,240 435,240 425,120" fill="url(#visBeam)" />
+  <line x1="375" y1="120" x2="385" y2="240" stroke="#FBBF24" class="ray-edge" />
+  <line x1="425" y1="120" x2="435" y2="240" stroke="#FBBF24" class="ray-edge" />
+
+  <!-- Combined Light Path (Mirror to Slit) -->
+  <polygon points="400,225 670,210 670,290 400,275" fill="url(#combinedBeam)" />
+  <line x1="400" y1="225" x2="670" y2="210" stroke="#F472B6" class="ray-edge" />
+  <line x1="400" y1="275" x2="670" y2="290" stroke="#F472B6" class="ray-edge" />
+
+
+  <!-- ================= COMPONENT 1: DEUTERIUM LAMP (Left) ================= -->
+  <g id="deuterium-lamp">
+    <!-- Glow -->
+    <circle cx="160" cy="250" r="25" fill="#8B5CF6" opacity="0.3" filter="url(#glow-uv)" />
+    <!-- Outer Bulb -->
+    <rect x="100" y="200" width="100" height="100" rx="20" class="component-outline" />
+    <rect x="80" y="235" width="20" height="30" fill="#64748B" stroke="#475569" stroke-width="2" />
+    <!-- Internal Arc Structure -->
+    <rect x="145" y="225" width="25" height="50" rx="3" fill="#E2E8F0" stroke="#475569" stroke-width="1.5" />
+    <!-- Plasma Discharge Arc Core -->
+    <circle cx="160" cy="250" r="6" fill="#FFFFFF" stroke="#D8B4FE" stroke-width="2" />
+  </g>
+
+
+  <!-- ================= COMPONENT 2: TUNGSTEN-HALOGEN LAMP (Top) ================= -->
+  <g id="tungsten-lamp">
+    <!-- Glow -->
+    <circle cx="400" cy="90" r="20" fill="#F59E0B" opacity="0.4" filter="url(#glow-vis)" />
+    <!-- Bulb Structure -->
+    <path d="M 380 50 L 420 50 L 420 80 Q 425 105 400 115 Q 375 105 380 80 Z" class="component-outline" />
+    <rect x="385" y="35" width="30" height="15" fill="#94A3B8" stroke="#475569" stroke-width="2" />
+    <!-- Filament Supports -->
+    <line x1="393" y1="50" x2="393" y2="85" stroke="#475569" stroke-width="1.5" />
+    <line x1="407" y1="50" x2="407" y2="85" stroke="#475569" stroke-width="1.5" />
+    <!-- Coiled Filament -->
+    <path d="M 393 85 Q 396 80 400 85 Q 404 90 407 85" fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+
+  <!-- ================= COMPONENT 3: SOURCE SELECTOR MIRROR ================= -->
+  <g id="source-mirror" transform="rotate(45, 400, 250)">
+    <!-- Mirror Base / Backing -->
+    <rect x="365" y="246" width="70" height="8" fill="#475569" rx="2" />
+    <!-- Reflective Surface -->
+    <rect x="365" y="242" width="70" height="4" fill="url(#mirrorGrad)" stroke="#94A3B8" stroke-width="0.5" />
+    <!-- Rotation/Flip Indicator Arrow -->
+    <path d="M 350 220 A 45 45 0 0 1 350 280" fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrow)" transform="rotate(-45, 400, 250)"/>
+  </g>
+  <!-- Center Pivot Pin -->
+  <circle cx="400" cy="250" r="4" fill="#1E293B" />
+
+
+  <!-- ================= COMPONENT 4: ENTRANCE SLIT / APERTURE ================= -->
+  <g id="entrance-slit">
+    <!-- Top Baffle -->
+    <path d="M 670 160 L 670 220 L 685 220 L 685 160 Z" fill="#334155" stroke="#1E293B" stroke-width="1.5" />
+    <!-- Bottom Baffle -->
+    <path d="M 670 280 L 670 340 L 685 340 L 685 280 Z" fill="#334155" stroke="#1E293B" stroke-width="1.5" />
+  </g>
+
+
+  <!-- ================= LABELS AND POINTER LINES ================= -->
+  <!-- Deuterium Label -->
+  <path d="M 150 305 L 150 380 L 110 380" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="100" y="375" class="text-label" text-anchor="end">Deuterium Discharge Lamp</text>
+  <text x="100" y="392" class="text-label text-sub" text-anchor="end">UV Source (190 nm – 400 nm)</text>
+
+  <!-- Tungsten-Halogen Label -->
+  <path d="M 425 75 L 530 75" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="540" y="72" class="text-label">Tungsten-Halogen Lamp</text>
+  <text x="540" y="89" class="text-label text-sub">Visible / NIR Source (400 nm – 2500 nm)</text>
+
+  <!-- Movable Mirror Label -->
+  <path d="M 370 265 L 300 320 L 300 440 L 340 440" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="350" y="435" class="text-label">Movable / Flip Mirror</text>
+  <text x="350" y="452" class="text-label text-sub">(Source Selection Mirror)</text>
+
+  <!-- Combined Beam Label -->
+  <path d="M 540 235 L 540 350 L 500 350" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="490" y="345" class="text-label" text-anchor="end">Combined Light Path</text>
+  <text x="490" y="362" class="text-label text-sub" text-anchor="end">Alternate switching between UV and Vis</text>
+
+  <!-- Entrance Slit Label -->
+  <path d="M 680 210 L 680 130 L 710 130" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="720" y="125" class="text-label">Entrance Slit</text>
+  <text x="720" y="142" class="text-label text-sub">To Monochromator / System</text>
+
+</svg>
