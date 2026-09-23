@@ -40,6 +40,7 @@ body {
   overflow: hidden;
   margin: 0 !important;         /* 👈 सेंटर अलाइनमेंट हटाकर किनारों से चिपकाएगा */
   box-sizing: border-box;
+  padding-bottom: 90px;
 }
 
 
