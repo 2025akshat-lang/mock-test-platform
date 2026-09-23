@@ -225,6 +225,7 @@
       "id": 17,
       "section": "Analytical Chemistry & Instruments",
       "question": "In UV-Vis spectrophotometers, what is the primary purpose of utilizing a deuterium discharge lamp combined with a tungsten-halogen lamp in a dual-source setup?",
+      "diagram": "<img src='data/iocl/diagram/Qc4/Deuterium_Discharge_Lamp.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Deuterium_Discharge_Lamp'>",
       "options": {
         "A": "To provide a seamless, continuous emission spectrum spanning both the ultraviolet and visible/near-IR regions.",
         "B": "To mechanically cool down the optical bench during high-speed scanning.",
