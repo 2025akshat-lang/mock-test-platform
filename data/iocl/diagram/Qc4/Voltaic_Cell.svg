@@ -1,0 +1,100 @@
+<svg xmlns="http://w3.org" viewBox="0 0 850 550" width="100%" height="100%">
+  <!-- Definitions for Gradients and Arrows -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4A5568" />
+    </marker>
+    <marker id="light-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#D69E2E" />
+    </marker>
+    
+    <!-- Gradients for Layers -->
+    <linearGradient id="transparentMetalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#A0AEC0" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="seleniumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FC8181"/>
+      <stop offset="100%" stop-color="#E53E3E"/>
+    </linearGradient>
+    <linearGradient id="basePlateGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#718096"/>
+      <stop offset="100%" stop-color="#4A5568"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .text-main { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; fill: #2D3748; }
+    .text-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1A365D; }
+    .text-sub { font-size: 12px; fill: #4A5568; font-style: italic; }
+    .text-bold { font-weight: bold; }
+    .wire { fill: none; stroke: #2D3748; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <!-- Diagram Title -->
+  <text x="425" y="40" class="text-title" text-anchor="middle">Photo-Voltaic Cell (Barrier Layer Cell)</text>
+
+  <!-- ================= LECTRODE STACK ================= -->
+  
+  <!-- 1. Top Transparent Metal Layer (Thin) -->
+  <rect x="250" y="170" width="220" height="12" fill="url(#transparentMetalGrad)" stroke="#718096" stroke-width="1.5" />
+  
+  <!-- 2. Middle Selenium Layer (Semiconductor) -->
+  <rect x="250" y="182" width="220" height="25" fill="url(#seleniumGrad)" stroke="#C53030" stroke-width="1.5" />
+  
+  <!-- 3. Bottom Iron Base Plate (Thick) -->
+  <rect x="230" y="207" width="260" height="35" fill="url(#basePlateGrad)" stroke="#2D3748" stroke-width="1.5" />
+
+  <!-- ================= LIGHT / RADIATION INDICATORS ================= -->
+  <!-- Incoming Light Waves/Arrows -->
+  <path d="M 280 80 Q 290 105 280 130 L 290 155" fill="none" stroke="#D69E2E" stroke-width="2" marker-end="url(#light-arrow)" />
+  <path d="M 330 80 Q 340 105 330 130 L 340 155" fill="none" stroke="#D69E2E" stroke-width="2" marker-end="url(#light-arrow)" />
+  <path d="M 380 80 Q 390 105 380 130 L 390 155" fill="none" stroke="#D69E2E" stroke-width="2" marker-end="url(#light-arrow)" />
+  <path d="M 430 80 Q 440 105 430 130 L 440 155" fill="none" stroke="#D69E2E" stroke-width="2" marker-end="url(#light-arrow)" />
+  
+  <text x="360" y="70" class="text-main text-bold" fill="#D69E2E" text-anchor="middle">Light / UV Radiation</text>
+
+  <!-- ================= EXTERNAL CIRCUIT ================= -->
+  
+  <!-- Top Electrode Terminal Contact -->
+  <rect x="420" y="162" width="20" height="8" fill="#4A5568" />
+  <path d="M 430 162 L 430 135 L 580 135 L 580 200" class="wire" />
+  <text x="445" y="150" class="text-main text-bold" fill="#2B6CB0">-</text>
+
+  <!-- Bottom Electrode Terminal Contact -->
+  <path d="M 360 242 L 360 300 L 580 300 L 580 260" class="wire" />
+  <text x="370" y="265" class="text-main text-bold" fill="#C53030">+</text>
+
+  <!-- Galvanometer Housing -->
+  <circle cx="580" cy="230" r="30" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="3" />
+  <!-- Galvanometer Pointer/Scale -->
+  <path d="M 580 250 L 580 215" fill="none" stroke="#2D3748" stroke-width="2.5" marker-end="url(#arrow)" />
+  <path d="M 565 210 Q 580 205 595 210" fill="none" stroke="#718096" stroke-width="1.5" />
+  <text x="580" y="235" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2B6CB0" text-anchor="middle" opacity="0.3">G</text>
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  
+  <!-- Transparent Metal Layer Label -->
+  <path d="M 210 140 L 260 140 L 280 172" fill="none" stroke="#4A5568" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="200" y="135" class="text-main text-bold" text-anchor="end" fill="#2B6CB0">Transparent Metal Layer</text>
+  <text x="200" y="152" class="text-sub" text-anchor="end">(1st Electrode: Au / Ag)</text>
+
+  <!-- Selenium Layer Label -->
+  <path d="M 160 192 L 242 192" fill="none" stroke="#4A5568" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="150" y="188" class="text-main text-bold" text-anchor="end" fill="#C53030">Selenium Layer</text>
+  <text x="150" y="205" class="text-sub" text-anchor="end">(Semiconductor)</text>
+
+  <!-- Metal Base Plate Label -->
+  <path d="M 180 260 L 220 260 L 245 240" fill="none" stroke="#4A5568" stroke-width="1" marker-end="url(#arrow)" />
+  <text x="170" y="255" class="text-main text-bold" text-anchor="end">Metal Base Plate</text>
+  <text x="170" y="272" class="text-sub" text-anchor="end">(2nd Electrode: Iron)</text>
+
+  <!-- Galvanometer Label -->
+  <text x="630" y="235" class="text-main text-bold" fill="#2B6CB0">Galvanometer</text>
+
+  <!-- Formula/Relationship Box -->
+  <rect x="500" y="360" width="180" height="60" fill="#EDF2F7" stroke="#CBD5E0" rx="6" />
+  <text x="590" y="385" class="text-main text-bold" text-anchor="middle" font-size="13">Intensity ∝ Current</text>
+  <text x="590" y="405" class="text-sub" text-anchor="middle">(Flow of Current)</text>
+
+</svg>
