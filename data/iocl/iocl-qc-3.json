@@ -12,212 +12,212 @@
     {
       "id": 1,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Ek analytical lab me HPLC system setup kiya ja raha hai jisme solvent reservoirs me methanol aur water ka mixture use ho raha hai. Agar system ke degasser unit ko bypass kar diya jaye aur mobile phase me dissolved helium gas reh jaye, toh detector ke baseline par iska kya direct negative impact padega?",
+      "question": "An HPLC system is being set up in an analytical lab using a mixture of methanol and water in the solvent reservoirs. If the degasser unit is bypassed and dissolved helium gas remains in the mobile phase, what will be the direct negative impact on the detector baseline?",
       "diagram": "<svg viewBox='0 0 650 220' xmlns='http://www.w3.org/2000/svg'><rect width='650' height='220' fill='#f8fafc' rx='8'/><text x='325' y='25' font-size='14' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>HPLC Instrumentation Flow & Degasser Impact</text><rect x='30' y='50' width='45' height='70' rx='6' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='52' y='80' font-size='10' text-anchor='middle' fill='#334155' font-family='sans-serif'>Solvent</text><text x='52' y='95' font-size='9' text-anchor='middle' fill='#ef4444' font-weight='bold' font-family='sans-serif'>[Gas Bubbles]</text><line x1='75' y1='85' x2='110' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='110' y='65' width='55' height='40' rx='4' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='137' y='89' font-size='11' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Degasser (Bypassed)</text><line x1='165' y1='85' x2='200' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='200' y='65' width='60' height='40' rx='4' fill='#cbd5e1' stroke='#334155' stroke-width='2'/><text x='230' y='89' font-size='11' font-weight='bold' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>Pump</text><line x1='260' y1='85' x2='300' y2='85' stroke='#0284c7' stroke-width='3'/><circle cx='300' cy='85' r='14' fill='#bae6fd' stroke='#0284c7' stroke-width='2'/><text x='300' y='89' font-size='10' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Inj</text><line x1='314' y1='85' x2='360' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='360' y='50' width='40' height='70' rx='4' fill='#fda4af' stroke='#9f1239' stroke-width='2'/><text x='380' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#9f1239' font-family='sans-serif'>Column</text><line x1='400' y1='85' x2='445' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='445' y='65' width='60' height='40' rx='4' fill='#93c5fd' stroke='#1d4ed8' stroke-width='2'/><text x='475' y='89' font-size='11' font-weight='bold' text-anchor='middle' fill='#1e3a8a' font-family='sans-serif'>Detector</text><path d='M 530 50 Q 560 30 590 50 T 630 50' fill='none' stroke='#dc2626' stroke-width='2.5'/><text x='580' y='110' font-size='10' font-weight='bold' text-anchor='middle' fill='#dc2626' font-family='sans-serif'>High Baseline Noise & Spurious Peaks</text></svg>",
       "options": {
-        "A": "Baseline completely flat ho jayegi lekin retention time double ho jayega.",
-        "B": "Spurious peaks aur high baseline noise/drift create hoga due to micro-bubbles passing through the detector flow cell.",
-        "C": "Column ki length 2-10 cm se badh kar 25 cm ho jayegi.",
-        "D": "Pump ka pressure 6000 psi se drop hokar zero ho jayega."
+        "A": "The baseline will become completely flat, but retention time will double.",
+        "B": "Spurious peaks and high baseline noise/drift will be created due to micro-bubbles passing through the detector flow cell.",
+        "C": "The column length will increase from 2-10 cm to 25 cm.",
+        "D": "The pump pressure will drop from 6000 psi to zero."
       },
       "correct": "B",
-      "explanation": "Dissolved gases (like oxygen or air) jab detector cell se pass hoti hain aur pressure drop hota hai, toh bubbles form hote hain jo erratic spikes, high noise, aur baseline drift produce karte hain. Isliye sonicated/sparging with helium ya degassers use hote hain[span_1](start_span)[span_1](end_span)."
+      "explanation": "Dissolved gases (like oxygen or air) when passing through the detector cell under a pressure drop form bubbles that produce erratic spikes, high noise, and baseline drift. Therefore, sonication or sparging with helium/degassers are used[span_0](start_span)[span_0](end_span)."
     },
     {
       "id": 2,
       "section": "Analytical Chemistry & Instruments",
-      "question": "HPLC instrumentation me pump ka kaam hota hai solvent ko high pressure (upto 6000 psi) par normal flow rate (jaise 1.2 ml/min) par push karna. Agar gradient elution run karna ho, toh mixing valve ka kya role hota hai?",
+      "question": "In HPLC instrumentation, the pump's role is to push solvent at high pressure (up to 6000 psi) at a normal flow rate (e.g., 1.2 ml/min). If gradient elution needs to be run, what is the role of the mixing valve?",
       "diagram": "<svg viewBox='0 0 600 180' xmlns='http://www.w3.org/2000/svg'><rect width='600' height='180' fill='#f8fafc' rx='8'/><text x='300' y='22' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Solvent Reservoirs & Mixing Valve Unit</text><rect x='40' y='40' width='35' height='55' rx='4' fill='#cbd5e1' stroke='#334155' stroke-width='1.5'/><text x='57' y='72' font-size='9' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>Solv A</text><rect x='85' y='40' width='35' height='55' rx='4' fill='#cbd5e1' stroke='#334155' stroke-width='1.5'/><text x='102' y='72' font-size='9' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>Solv B</text><line x1='57' y1='95' x2='57' y2='120' stroke='#0284c7' stroke-width='2'/><line x1='102' y1='95' x2='102' y2='120' stroke='#0284c7' stroke-width='2'/><line x1='57' y1='120' x2='160' y2='120' stroke='#0284c7' stroke-width='2'/><line x1='102' y1='120' x2='160' y2='120' stroke='#0284c7' stroke-width='2'/><circle cx='180' cy='120' r='18' fill='#fde047' stroke='#a16207' stroke-width='2'/><text x='180' y='124' font-size='10' font-weight='bold' text-anchor='middle' fill='#713f12' font-family='sans-serif'>Mix</text><line x1='198' y1='120' x2='260' y2='120' stroke='#0284c7' stroke-width='2.5'/><rect x='260' y='100' width='60' height='40' rx='4' fill='#93c5fd' stroke='#1d4ed8' stroke-width='2'/><text x='290' y='124' font-size='11' font-weight='bold' text-anchor='middle' fill='#1e3a8a' font-family='sans-serif'>Pump</text><line x1='320' y1='120' x2='380' y2='120' stroke='#0284c7' stroke-width='2.5'/><text x='450' y='124' font-size='11' font-weight='bold' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>To Column (Gradient Elution)</text></svg>",
       "options": {
-        "A": "Yeh sample ko loop injector me manually load karta hai.",
-        "B": "Yeh multiple solvent reservoirs se alag-alag liquids ka ratio time ke sath change karke mix karta hai.",
-        "C": "Yeh column ko stripping problem se bachata hai.",
-        "D": "Yeh detector ke bulk property ko measure karta hai."
+        "A": "It manually loads the sample into the loop injector.",
+        "B": "It mixes liquids from multiple solvent reservoirs by changing their ratio over time.",
+        "C": "It protects the column from stripping problems.",
+        "D": "It measures the bulk property of the detector."
       },
       "correct": "B",
-      "explanation": "Mixing valve pump se pehle ya pump ke saath connect hota hai jo different solvent reservoirs (jaise organic solvent aur water) se compositions ko blend karta hai gradient elution ke liye[span_2](start_span)[span_2](end_span)."
+      "explanation": "The mixing valve is connected before or along with the pump to blend compositions from different solvent reservoirs (such as organic solvent and water) for gradient elution[span_1](start_span)[span_1](end_span)."
     },
     {
       "id": 3,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Guard column (Pre-column) ki length typically 2-10 cm hoti hai. Iska sabse mukhya uddeshya kya hai?",
+      "question": "A guard column (pre-column) typically has a length of 2-10 cm. What is its primary purpose?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Guard Column Protection Mechanism</text><line x1='50' y1='90' x2='120' y2='90' stroke='#0284c7' stroke-width='3'/><rect x='120' y='70' width='70' height='40' rx='4' fill='#86efac' stroke='#166534' stroke-width='2'/><text x='155' y='95' font-size='11' font-weight='bold' text-anchor='middle' fill='#14532d' font-family='sans-serif'>Guard Col</text><text x='155' y='125' font-size='9' text-anchor='middle' fill='#dc2626' font-family='sans-serif'>Traps Impurities</text><line x1='190' y1='90' x2='260' y2='90' stroke='#0284c7' stroke-width='3'/><rect x='260' y='55' width='120' height='70' rx='6' fill='#fca5a5' stroke='#991b1b' stroke-width='2'/><text x='320' y='95' font-size='12' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Analytical Column</text></svg>",
       "options": {
-        "A": "Analytical column ki life ko protect karna by trapping strongly bound impurities and particulate matter.",
-        "B": "Solvent ko 6000 psi tak compress karna.",
-        "C": "Refractive index aur conductivity ko ek saath measure karna.",
-        "D": "Flow splitting valve ko control karna."
+        "A": "To protect the analytical column life by trapping strongly bound impurities and particulate matter.",
+        "B": "To compress the solvent up to 6000 psi.",
+        "C": "To measure refractive index and conductivity simultaneously.",
+        "D": "To control the flow splitting valve."
       },
       "correct": "A",
-      "explanation": "Guard column main analytical column se pehle lagaya jata hai taki jo garbage, impurities ya irreversible contaminants hain woh pehle hi ruk jayein aur main column kharab na ho[span_3](start_span)[span_3](end_span)."
+      "explanation": "The guard column is placed before the main analytical column so that debris, impurities, or irreversible contaminants are caught beforehand, preventing damage to the main column[span_2](start_span)[span_2](end_span)."
     },
     {
       "id": 4,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Agar analytical column ki dimensions 5-25 cm length aur 2-4.6 mm diameter wali stainless steel tube ki bani hain, toh iske andar separation ka mukhya aadhar kya hota hai?",
+      "question": "If an analytical column has dimensions of 5-25 cm in length and 2-4.6 mm in diameter made of a stainless steel tube, what is the core basis of separation inside it?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Stainless Steel Column (5-25 cm) - Partition Principle</text><rect x='80' y='55' width='340' height='70' rx='8' fill='#e2e8f0' stroke='#475569' stroke-width='2'/><text x='250' y='85' font-size='12' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Stationary Phase Beads (Packed Bed)</text><text x='250' y='105' font-size='10' text-anchor='middle' fill='#0284c7' font-family='sans-serif'>Mobile Phase & Solute Partitioning (K_D)</text></svg>",
       "options": {
-        "A": "Solute ka boiling point separation.",
-        "B": "Stationary phase aur mobile phase ke beech solute ka partition/distribution coefficient.",
-        "C": "Solvent reservoirs me glass capacity ka 1.2 L hona.",
-        "D": "Vacuum pump ki speed."
+        "A": "Solute boiling point separation.",
+        "B": "Partition/distribution coefficient of the solute between the stationary phase and mobile phase.",
+        "C": "Glass capacity of 1.2 L in solvent reservoirs.",
+        "D": "Vacuum pump speed."
       },
       "correct": "B",
-      "explanation": "HPLC ka core principle hi partition chromatography hai jisme solute stationary phase (column ke andar packed particles) aur mobile phase ke beech distribute hota hai[span_4](start_span)[span_4](end_span)."
+      "explanation": "The core principle of HPLC is partition chromatography, where the solute distributes between the stationary phase (packed particles inside the column) and the mobile phase[span_3](start_span)[span_3](end_span)."
     },
     {
       "id": 5,
       "section": "Analytical Chemistry & Instruments",
-      "question": "HPLC detectors ko do main categories me divide kiya gaya hai: Bulk property detectors aur Solute property detectors. Refractive index (RI) detector kis category me aata hai aur iski kya limitation hai?",
+      "question": "HPLC detectors are divided into two main categories: Bulk property detectors and Solute property detectors. Under which category does the Refractive Index (RI) detector fall, and what is its limitation?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Bulk Property vs Solute Property Detector</text><rect x='50' y='50' width='180' height='75' rx='6' fill='#fce7f3' stroke='#db2777' stroke-width='2'/><text x='140' y='80' font-size='11' font-weight='bold' text-anchor='middle' fill='#9d174d' font-family='sans-serif'>Bulk Property (RI / Cond)</text><text x='140' y='105' font-size='9' text-anchor='middle' fill='#831843' font-family='sans-serif'>Sensitive to Gradient Elution</text><rect x='270' y='50' width='180' height='75' rx='6' fill='#ccfbf1' stroke='#0d9488' stroke-width='2'/><text x='360' y='80' font-size='11' font-weight='bold' text-anchor='middle' fill='#115e59' font-family='sans-serif'>Solute Property (UV/Vis)</text><text x='360' y='105' font-size='9' text-anchor='middle' fill='#134e4a' font-family='sans-serif'>Independent of Mobile Phase</text></svg>",
       "options": {
-        "A": "Solute property detector; yeh gradient elution ke sath easily use ho sakta hai.",
-        "B": "Bulk property detector; yeh mobile phase aur solute ki physical property me difference measure karta hai aur gradient elution ke liye sensitive hota hai.",
-        "C": "Mass spectrometer; yeh sirf flow splitting valve ke baad kaam karta hai.",
-        "D": "Electrochemical detector; yeh sirf UV-active compounds ke liye hai."
+        "A": "Solute property detector; it can be easily used with gradient elution.",
+        "B": "Bulk property detector; it measures differences in physical properties between mobile phase and solute, and is sensitive/unstable for gradient elution.",
+        "C": "Mass spectrometer; it only works after the flow splitting valve.",
+        "D": "Electrochemical detector; it is strictly for UV-active compounds."
       },
       "correct": "B",
-      "explanation": "RI detector bulk property detector hai jo mobile phase ki bulk property measure karta hai. Kyunki mobile phase ka composition gradient elution me badalta hai, isliye RI detector gradient ke sath unstable hota hai[span_5](start_span)[span_5](end_span)."
+      "explanation": "The RI detector is a bulk property detector measuring the bulk property of the mobile phase. Since mobile phase composition changes during gradient elution, the RI detector is unstable with gradients[span_4](start_span)[span_4](end_span)."
     },
     {
       "id": 6,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Solvent reservoirs me organic solvents jaise methanol, Isopropanol (IPA), aur water use hote hain. Inhe use karne se pehle sonicated ya sparging with helium kyu kiya jata hai?",
+      "question": "Organic solvents like methanol, Isopropanol (IPA), and water are used in solvent reservoirs. Why are they sonicated or sparged with helium before use?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Degassing: Sonication & Helium Sparging</text><rect x='80' y='50' width='120' height='70' rx='6' fill='#dcfce7' stroke='#16a34a' stroke-width='2'/><text x='140' y='80' font-size='11' font-weight='bold' text-anchor='middle' fill='#166534' font-family='sans-serif'>Solvent Flask</text><text x='140' y='102' font-size='9' text-anchor='middle' fill='#15803d' font-family='sans-serif'>Methanol / H2O</text><path d='M 230 85 L 270 85 M 250 70 L 250 100' stroke='#ca8a04' stroke-width='3'/><text x='250' y='135' font-size='10' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Removes Dissolved Air/Gas</text><rect x='300' y='50' width='120' height='70' rx='6' fill='#e0e7ff' stroke='#4f46e5' stroke-width='2'/><text x='360' y='80' font-size='11' font-weight='bold' text-anchor='middle' fill='#3730a3' font-family='sans-serif'>Degasser Unit</text><text x='360' y='102' font-size='9' text-anchor='middle' fill='#4338ca' font-family='sans-serif'>Bubble-Free Flow</text></svg>",
       "options": {
-        "A": "Solvents ka temperature badhane ke liye.",
-        "B": "Dissolved air aur gases ko remove karne ke liye taki bubbles na bane.",
-        "C": "Solvents ko 6000 psi pressure dene ke liye.",
-        "D": "Sample injector ko automatic banane ke liye."
+        "A": "To increase the temperature of the solvents.",
+        "B": "To remove dissolved air and gases to prevent bubble formation.",
+        "C": "To supply 6000 psi pressure to the solvents.",
+        "D": "To make the sample injector automatic."
       },
       "correct": "B",
-      "explanation": "Sonication aur helium sparging degasification ka kaam karte hain jisse solvents ke andar trapped ya dissolved gases bahar nikal jati hain[span_6](start_span)[span_6](end_span)."
+      "explanation": "Sonication and helium sparging perform degasification, removing trapped or dissolved gases from inside the solvents[span_5](start_span)[span_5](end_span)."
     },
     {
       "id": 7,
       "section": "Analytical Chemistry & Instruments",
-      "question": "HPLC me sample injector ka loop injector system kya function perform karta hai?",
+      "question": "What function does the loop injector system perform as a sample injector in HPLC?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Sample Loop Injector Mechanism</text><line x1='60' y1='85' x2='180' y2='85' stroke='#0284c7' stroke-width='3'/><circle cx='230' cy='85' r='25' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='230' y='89' font-size='11' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Loop</text><line x1='280' y1='85' x2='420' y2='85' stroke='#0284c7' stroke-width='3'/><text x='250' y='130' font-size='10' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Introduces Precise Sample Volume into Flowing MP</text></svg>",
       "options": {
-        "A": "Yeh flowing mobile phase me precise sample volume introduce karta hai.",
-        "B": "Yeh column ko high pressure se bachata hai.",
-        "C": "Yeh UV aur IR spectrums record karta hai.",
-        "D": "Yeh waste ko recorder tak bhejta hai."
+        "A": "It introduces a precise sample volume into the flowing mobile phase.",
+        "B": "It protects the column from high pressure.",
+        "C": "It records UV and IR spectra.",
+        "D": "It sends waste to the recorder."
       },
       "correct": "A",
-      "explanation": "Loop injector system ka main use sample ko reproducible manner me flowing mobile phase ke andar inject karna hota hai[span_7](start_span)[span_7](end_span)."
+      "explanation": "The primary use of the loop injector system is to inject the sample into the flowing mobile phase in a reproducible manner[span_6](start_span)[span_6](end_span)."
     },
     {
       "id": 8,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Agar ek solute property detector (jaise UV-Vis detector) use kiya ja raha hai, toh iski kya khasiyat hoti hai related to mobile phase?",
+      "question": "If a solute property detector (such as a UV-Vis detector) is being used, what is its characteristic feature regarding the mobile phase?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Solute Property Detector (UV-Vis / PDA)</text><rect x='150' y='60' width='200' height='60' rx='6' fill='#bae6fd' stroke='#0284c7' stroke-width='2'/><text x='250' y='95' font-size='12' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Ideally Independent of Mobile Phase</text></svg>",
       "options": {
-        "A": "Yeh mobile phase ki bulk property par depend karta hai.",
-        "B": "Yeh ideally mobile phase ki properties se independent hota hai aur sirf solute ke specific physical/chemical response ko dekhta hai.",
-        "C": "Yeh sirf conductivity measure karta hai.",
-        "D": "Yeh column ki length ko 2 cm tak reduce kar deta hai."
+        "A": "It depends on the bulk property of the mobile phase.",
+        "B": "It is ideally independent of mobile phase properties and responds only to specific physical/chemical characteristics of the solute.",
+        "C": "It measures conductivity only.",
+        "D": "It reduces the column length to 2 cm."
       },
       "correct": "B",
-      "explanation": "Solute property detectors (jaise UV, Fluorescence, Electrochemical) target analyte ki properties ko detect karte hain aur ideally mobile phase ki background properties se independent hote hain[span_8](start_span)[span_8](end_span)."
+      "explanation": "Solute property detectors (such as UV, Fluorescence, Electrochemical) detect target analyte properties and are ideally independent of mobile phase background properties[span_7](start_span)[span_7](end_span)."
     },
     {
       "id": 9,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Flow splitting valve ka kya upyog hota hai jab kuch advanced detectors (jaise Mass Spectrometry - MS) ke sath HPLC run kiya jata hai?",
+      "question": "What is the use of the flow splitting valve when running HPLC with advanced detectors like Mass Spectrometry (MS)?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Flow Splitting Valve (Hyphenated Systems)</text><line x1='60' y1='80' x2='200' y2='80' stroke='#0284c7' stroke-width='3'/><circle cx='220' cy='80' r='12' fill='#fbcfe8' stroke='#db2777' stroke-width='2'/><text x='220' y='84' font-size='9' font-weight='bold' text-anchor='middle' fill='#be185d' font-family='sans-serif'>Split</text><line x1='232' y1='80' x2='380' y2='50' stroke='#0284c7' stroke-width='2'/><line x1='232' y1='80' x2='380' y2='110' stroke='#0284c7' stroke-width='2'/><text x='420' y='55' font-size='10' font-weight='bold' fill='#0369a1'>Main Detector</text><text x='420' y='115' font-size='10' font-weight='bold' fill='#be185d'>Sensitive MS Fraction</text></svg>",
       "options": {
-        "A": "Yeh solvent reservoirs me methanol ka level check karta hai.",
-        "B": "Yeh total flow rate ko divide karta hai taki ek chota fraction hi sensitive detector (jaise MS) tak jaye.",
-        "C": "Yeh pump ke pressure ko 6000 psi se upar maintain karta hai.",
-        "D": "Yeh guard column ko bypass kar deta hai."
+        "A": "It checks the methanol level in the solvent reservoirs.",
+        "B": "It divides the total flow rate so that only a small fraction goes to a sensitive detector (like MS).",
+        "C": "It maintains the pump pressure above 6000 psi.",
+        "D": "It bypasses the guard column."
       },
       "correct": "B",
-      "explanation": "Flow splitting valve mobile phase flow ko split karta hai, jo ki kuch detectors (jaise MS ya hyphenated systems) ke liye zaroori hota hai jahan high flow rate detector ko overload kar sakta hai[span_9](start_span)[span_9](end_span)."
+      "explanation": "The flow splitting valve splits the mobile phase flow, which is necessary for certain detectors (like MS or hyphenated systems) where high flow rates can overload the detector[span_8](start_span)[span_8](end_span)."
     },
     {
       "id": 10,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Agar HPLC system me normal flow rate 1.2 ml/min hai aur pump maximum 6000 psi pressure generate kar sakta hai, toh agar column me blockage ho jaye, toh system par kya asar padega?",
+      "question": "If the normal flow rate in an HPLC system is 1.2 ml/min and the pump can generate a maximum pressure of 6000 psi, what will happen to the system if a blockage occurs in the column?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Column Blockage & Pressure Spike (upto 6000 psi)</text><rect x='100' y='60' width='300' height='50' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/><text x='250' y='91' font-size='12' font-weight='bold' text-anchor='middle' fill='#991b1b' font-family='sans-serif'>Blockage Detected -> Pressure Drastically Increases</text></svg>",
       "options": {
-        "A": "Pump pressure drastically increase ho jayega.",
-        "B": "Flow rate apne aap double ho jayega.",
-        "C": "Solvent reservoirs ki glass capacity 2 L ho jayegi.",
-        "D": "Detector automatic off ho jayega."
+        "A": "The pump pressure will increase drastically.",
+        "B": "The flow rate will automatically double.",
+        "C": "The glass capacity of solvent reservoirs will become 2 L.",
+        "D": "The detector will automatically turn off."
       },
       "correct": "A",
-      "explanation": "Jab column ya frits me blockage hoti hai, toh fluid resistance badh jata hai, jiske karan pump ko same flow rate maintain karne ke liye pressure bahut zyada badhana padta hai[span_10](start_span)[span_10](end_span)."
+      "explanation": "When a blockage occurs in the column or frits, fluid resistance increases, forcing the pump to increase pressure significantly to maintain the same flow rate[span_9](start_span)[span_9](end_span)."
     },
     {
       "id": 11,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Glass solvent reservoirs ki typical capacity kitni hoti hai aur inka material glass kyu rakha jata hai?",
+      "question": "What is the typical capacity of glass solvent reservoirs and why is glass used as their material?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Glass Solvent Reservoir (1 - 2 Liter Capacity)</text><rect x='180' y='45' width='140' height='90' rx='10' fill='#f1f5f9' stroke='#334155' stroke-width='2'/><text x='250' y='90' font-size='12' font-weight='bold' text-anchor='middle' fill='#334155' font-family='sans-serif'>Inert Glass</text><text x='250' y='110' font-size='10' text-anchor='middle' fill='#16a34a' font-family='sans-serif'>Capacity: 1 - 2 Liters</text></svg>",
       "options": {
-        "A": "1-2 L capacity; chemical inertness aur transparency ke liye taki solvent level dikhe.",
-        "B": "10-25 cm capacity; stainless steel ki tarah strong hone ke liye.",
-        "C": "6000 psi capacity; high pressure withstand karne ke liye.",
-        "D": "1.2 ml capacity; flow rate match karne ke liye."
+        "A": "1-2 L capacity; for chemical inertness and transparency so the solvent level is visible.",
+        "B": "10-25 cm capacity; to be strong like stainless steel.",
+        "C": "6000 psi capacity; to withstand high pressure.",
+        "D": "1.2 ml capacity; to match the flow rate."
       },
       "correct": "A",
-      "explanation": "Solvent reservoirs aamtaur par 1-2 L glass ke banaye jate hain taki organic solvents se react na karein (inert rahein) aur andar ka volume easily visible ho[span_11](start_span)[span_11](end_span)."
+      "explanation": "Solvent reservoirs are typically made of 1-2 L glass so they remain inert to organic solvents and the internal volume is easily visible[span_10](start_span)[span_10](end_span)."
     },
     {
       "id": 12,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Agar ek pharmaceutical compound ki purity check karni hai jo ki UV active nahi hai lekin refractive index show karta hai, toh aap kaunsa detector choose karenge aur kyu?",
+      "question": "If you need to check the purity of a pharmaceutical compound that is not UV active but shows a refractive index, which detector would you choose and why?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Non-UV Active Compound Analysis</text><rect x='100' y='60' width='300' height='50' rx='6' fill='#e0f2fe' stroke='#0284c7' stroke-width='2'/><text x='250' y='91' font-size='12' font-weight='bold' text-anchor='middle' fill='#0369a1' font-family='sans-serif'>Use Refractive Index (RI) Bulk Detector</text></svg>",
       "options": {
-        "A": "UV-Vis detector, kyunki yeh solute property detector hai.",
-        "B": "Refractive Index (RI) detector, kyunki yeh bulk property detector hai jo non-UV active solutes ko bhi detect kar sakta hai.",
-        "C": "Fluorescence detector, kyunki yeh mobile phase se independent hota hai.",
+        "A": "UV-Vis detector, because it is a solute property detector.",
+        "B": "Refractive Index (RI) detector, because it is a bulk property detector that can detect non-UV active solutes.",
+        "C": "Fluorescence detector, because it is independent of the mobile phase.",
         "D": "Electrochemical detector with flow splitting valve."
       },
       "correct": "B",
-      "explanation": "Non-UV active compounds (jaise sugars ya polymers) ke liye UV detector kaam nahi karta, isliye bulk property detectors jaise Refractive Index (RI) detector use kiye jate hain[span_12](start_span)[span_12](end_span)."
+      "explanation": "For non-UV active compounds (like sugars or polymers), UV detectors do not work, so bulk property detectors like the Refractive Index (RI) detector are used[span_11](start_span)[span_11](end_span)."
     },
     {
       "id": 13,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Instrumentation diagram ke anusar, sample injector ke baad mobile phase aur sample kahan travel karte hain analytical column me enter hone se pehle?",
+      "question": "According to the instrumentation diagram, after the sample injector, where do the mobile phase and sample travel before entering the analytical column?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Flow Path: Injector -> Guard -> Analytical Column</text><line x1='50' y1='85' x2='150' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='150' y='65' width='80' height='40' rx='4' fill='#86efac' stroke='#166534' stroke-width='2'/><text x='190' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#14532d' font-family='sans-serif'>Guard Col</text><line x1='230' y1='85' x2='290' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='290' y='55' width='150' height='60' rx='6' fill='#fca5a5' stroke='#991b1b' stroke-width='2'/><text x='365' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#7f1d1d' font-family='sans-serif'>Analytical Column</text></svg>",
       "options": {
-        "A": "Directly detector me.",
-        "B": "Pre-column (Guard column) me.",
-        "C": "Solvent reservoirs me wapas.",
-        "D": "Vacuum pump ke andar."
+        "A": "Directly into the detector.",
+        "B": "Into the pre-column (guard column).",
+        "C": "Back into the solvent reservoirs.",
+        "D": "Inside the vacuum pump."
       },
       "correct": "B",
-      "explanation": "Sample injection ke baad, flow pre-column (guard column) se guzarta hai jo main analytical column ko impurities se bachata hai[span_13](start_span)[span_13](end_span)."
+      "explanation": "After sample injection, the flow passes through the pre-column (guard column), which protects the main analytical column from impurities[span_12](start_span)[span_12](end_span)."
     },
     {
       "id": 14,
       "section": "Analytical Chemistry & Instruments",
-      "question": "Agar HPLC system me isocratic elution ki jagah gradient elution use karna ho, toh mixing valve aur pump ka kya combination kaam karta hai?",
+      "question": "If gradient elution needs to be used instead of isocratic elution in an HPLC system, what combination of mixing valve and pump works?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Gradient Elution: Variable Solvent Mixing Ratio</text><rect x='100' y='60' width='300' height='50' rx='6' fill='#e0e7ff' stroke='#4f46e5' stroke-width='2'/><text x='250' y='91' font-size='12' font-weight='bold' text-anchor='middle' fill='#3730a3' font-family='sans-serif'>Dynamic Composition Change over Time</text></svg>",
       "options": {
-        "A": "Multiple reservoirs se solvent ka proportion dynamically change kiya jata hai run ke dauran.",
-        "B": "Sirf ek hi solvent reservoir use kiya ja sakta hai.",
-        "C": "Column ki length ko mechanically lamba kiya jata hai.",
-        "D": "Flow rate ko zero kar diya jata hai."
+        "A": "The proportion of solvents from multiple reservoirs is dynamically changed during the run.",
+        "B": "Only a single solvent reservoir can be used.",
+        "C": "The column length is mechanically lengthened.",
+        "D": "The flow rate is set to zero."
       },
       "correct": "A",
-      "explanation": "Gradient elution me mobile phase ki strength time ke sath change hoti hai, jiske liye mixing valve alag-alag reservoirs se solvents ka ratio dynamically mix karta hai[span_14](start_span)[span_14](end_span)."
+      "explanation": "In gradient elution, the mobile phase strength changes over time, for which the mixing valve dynamically mixes solvent ratios from different reservoirs[span_13](start_span)[span_13](end_span)."
     },
     {
       "id": 15,
       "section": "Analytical Chemistry & Instruments",
-      "question": "HPLC instrumentation ke final stage me detector ke baad components kahan route kiye jate hain?",
+      "question": "In the final stage of HPLC instrumentation, where are components routed after the detector?",
       "diagram": "<svg viewBox='0 0 500 160' xmlns='http://www.w3.org/2000/svg'><rect width='500' height='160' fill='#f8fafc' rx='8'/><text x='250' y='25' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b' font-family='sans-serif'>Post-Detector Route: Waste & Data Recorder</text><line x1='60' y1='85' x2='150' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='150' y='65' width='80' height='40' rx='4' fill='#93c5fd' stroke='#1d4ed8' stroke-width='2'/><text x='190' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#1e3a8a' font-family='sans-serif'>Detector</text><line x1='230' y1='85' x2='290' y2='85' stroke='#0284c7' stroke-width='3'/><rect x='290' y='65' width='70' height='40' rx='4' fill='#cbd5e1' stroke='#334155' stroke-width='2'/><text x='325' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>Waste</text><line x1='190' y1='105' x2='190' y2='130' stroke='#334155' stroke-width='2' stroke-dasharray='3'/><rect x='380' y='60' width='80' height='50' rx='4' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='420' y='90' font-size='10' font-weight='bold' text-anchor='middle' fill='#854d0e' font-family='sans-serif'>Recorder</text></svg>",
       "options": {
-        "A": "Waste container aur data recorder / screen par.",
-        "B": "Directly solvent reservoirs me recycle hone ke liye.",
-        "C": "Vacuum pump ke pressure chamber me.",
-        "D": "Sample loop injector me wapas."
+        "A": "To the waste container and data recorder / screen.",
+        "B": "Directly back into the solvent reservoirs for recycling.",
+        "C": "Into the pressure chamber of the vacuum pump.",
+        "D": "Back into the sample loop injector."
       },
       "correct": "A",
-      "explanation": "Detector se pass hone ke baad eluent ko recorder par signal plot karne ke baad waste me collect kar liya jata hai[span_15](start_span)[span_15](end_span)."
+      "explanation": "After passing through the detector, the eluent is collected in waste after plotting signals on the recorder[span_14](start_span)[span_14](end_span)."
     }
   ]
 }
