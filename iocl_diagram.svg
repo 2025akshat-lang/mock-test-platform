@@ -1,0 +1,136 @@
+<svg xmlns="http://w3.org" viewBox="0 0 850 550" width="100%" height="100%">
+  <!-- Definitions for Markers and Gradients -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4A5568" />
+    </marker>
+    <marker id="photon-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#DD6B20" />
+    </marker>
+    <marker id="electron-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 2 L 7 5 L 0 8 z" fill="#E53E3E" />
+    </marker>
+    <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EDF2F7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; fill: #2D3748; }
+    .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1A365D; }
+    .sub-label { font-size: 11px; fill: #718096; }
+    .bold-label { font-weight: bold; }
+  </style>
+
+  <!-- Title -->
+  <text x="425" y="35" class="title" text-anchor="middle">Photomultiplier Tube (PMT) Diagram</text>
+
+  <!-- Outer Glass Envelope -->
+  <rect x="120" y="80" width="600" height="200" rx="25" fill="url(#tubeGrad)" stroke="#4A5568" stroke-width="2.5" />
+
+  <!-- Photocathode -->
+  <path d="M 150 105 Q 165 180 150 255" fill="none" stroke="#3182CE" stroke-width="5" stroke-linecap="round" />
+  <text x="145" y="295" class="label bold-label" text-anchor="middle" fill="#3182CE">Photocathode</text>
+
+  <!-- Incoming Photon Wave -->
+  <path d="M 50 140 Q 70 120 90 140 T 130 140 T 152 155" fill="none" stroke="#DD6B20" stroke-width="2.5" marker-end="url(#photon-arrow)" />
+  <text x="45" y="115" class="label bold-label" fill="#DD6B20">Incoming Photon</text>
+
+  <!-- Dynodes (Zigzag structure) -->
+  <!-- Top Dynodes -->
+  <path d="M 220 120 Q 240 95 260 120" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+  <path d="M 340 120 Q 360 95 380 120" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+  <path d="M 460 120 Q 480 95 500 120" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+  <path d="M 580 120 Q 600 95 620 120" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Bottom Dynodes -->
+  <path d="M 280 240 Q 300 265 320 240" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+  <path d="M 400 240 Q 420 265 440 240" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+  <path d="M 520 240 Q 540 265 560 240" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Dynode Labels/Voltage Indicators -->
+  <text x="240" y="85" class="label sub-label" text-anchor="middle">100V</text>
+  <text x="360" y="85" class="label sub-label" text-anchor="middle">200V</text>
+  <text x="480" y="85" class="label sub-label" text-anchor="middle">300V</text>
+  <text x="600" y="85" class="label sub-label" text-anchor="middle">400V</text>
+  <text x="430" y="60" class="label bold-label" text-anchor="middle">Dynodes</text>
+
+  <!-- Anode / Electron Collector -->
+  <line x1="680" y1="120" x2="680" y2="240" stroke="#E53E3E" stroke-width="5" stroke-linecap="round" />
+  <text x="695" y="185" class="label bold-label" fill="#E53E3E">Anode</text>
+  <text x="695" y="200" class="label sub-label" fill="#E53E3E">(Collector)</text>
+
+  <!-- Electron Multiplication Paths (Red Dashed Lines) -->
+  <!-- Photoelectron to 1st Dynode -->
+  <path d="M 158 170 Q 190 150 230 115" fill="none" stroke="#E53E3E" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#electron-arrow)" />
+  
+  <!-- 1st to 2nd -->
+  <path d="M 240 115 Q 260 170 290 245" fill="none" stroke="#E53E3E" stroke-width="1.8" stroke-dasharray="3,3" marker-end="url(#electron-arrow)" />
+  <path d="M 245 115 Q 270 170 300 243" fill="none" stroke="#E53E3E" stroke-width="1.8" stroke-dasharray="3,3" />
+
+  <!-- 2nd to 3rd -->
+  <path d="M 300 245 Q 325 180 350 120" fill="none" stroke="#E53E3E" stroke-width="2.2" stroke-dasharray="3,3" marker-end="url(#electron-arrow)" />
+  <path d="M 305 245 Q 335 180 360 120" fill="none" stroke="#E53E3E" stroke-width="2.2" stroke-dasharray="3,3" />
+  <path d="M 310 245 Q 345 180 370 120" fill="none" stroke="#E53E3E" stroke-width="2.2" stroke-dasharray="3,3" />
+
+  <!-- 3rd to 4th -->
+  <path d="M 360 120 L 410 245" fill="none" stroke="#E53E3E" stroke-width="2.5" stroke-dasharray="3,3" />
+  <path d="M 370 120 L 420 245" fill="none" stroke="#E53E3E" stroke-width="2.5" stroke-dasharray="3,3" />
+  <path d="M 380 120 L 430 245" fill="none" stroke="#E53E3E" stroke-width="2.5" stroke-dasharray="3,3" marker-end="url(#electron-arrow)" />
+
+  <!-- Remaining Cascades (Dense Group) -->
+  <path d="M 420 245 L 475 120 M 430 245 L 485 120 M 440 245 L 495 120" fill="none" stroke="#E53E3E" stroke-width="2.8" stroke-dasharray="2,2" />
+  <path d="M 480 120 L 535 245 M 490 120 L 545 245 M 500 120 L 555 245" fill="none" stroke="#E53E3E" stroke-width="3" stroke-dasharray="2,2" />
+  <path d="M 540 245 L 595 120 M 550 245 L 605 120 M 560 245 L 615 120" fill="none" stroke="#E53E3E" stroke-width="3.2" stroke-dasharray="2,2" />
+  
+  <!-- Final Splash to Anode -->
+  <path d="M 600 120 L 675 160 M 605 120 L 675 175 M 610 120 L 675 190 M 615 120 L 675 205" fill="none" stroke="#E53E3E" stroke-width="3.5" stroke-dasharray="2,2" marker-end="url(#electron-arrow)" />
+
+  <!-- Circuit Connections (Pins to Exterior) -->
+  <line x1="150" y1="255" x2="150" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="240" y1="108" x2="240" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="285" y1="252" x2="285" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="360" y1="108" x2="360" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="405" y1="252" x2="405" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="480" y1="108" x2="480" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="525" y1="252" x2="525" y2="340" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="600" y1="108" x2="600" y2="340" stroke="#4A5568" stroke-width="1.5" />
+
+  <!-- Resistor Chain Box -->
+  <rect x="210" y="340" width="420" height="30" fill="#EDF2F7" stroke="#4A5568" stroke-width="2" />
+  
+  <!-- Individual Resistor Symbols/Boxes inside the chain -->
+  <rect x="250" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  <rect x="310" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  <rect x="370" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  <rect x="430" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  <rect x="490" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  <rect x="550" y="345" width="25" height="20" fill="#CBD5E0" stroke="#4A5568" />
+  
+  <!-- Main Resistor Line Connecting Everything -->
+  <line x1="150" y1="355" x2="210" y2="355" stroke="#4A5568" stroke-width="1.5" />
+  <line x1="620" y1="355" x2="650" y2="355" stroke="#4A5568" stroke-width="1.5" />
+  <text x="420" y="395" class="label bold-label" text-anchor="middle">Voltage Dropping Resistors</text>
+
+  <!-- Power Supply Block -->
+  <rect x="350" y="430" width="140" height="50" fill="#E2E8F0" stroke="#4A5568" stroke-width="2" rx="5" />
+  <text x="420" y="460" class="label bold-label" text-anchor="middle">Power Supply</text>
+  <text x="365" y="450" class="title" fill="#E53E3E">-</text>
+  <text x="475" y="460" class="title" fill="#38A169">+</text>
+
+  <!-- Wiring to Power Supply -->
+  <path d="M 150 355 L 150 455 L 350 455" fill="none" stroke="#4A5568" stroke-width="1.5" />
+  <path d="M 650 355 L 650 455 L 490 455" fill="none" stroke="#4A5568" stroke-width="1.5" />
+
+  <!-- Output Circuit from Anode -->
+  <path d="M 680 240 L 680 340" fill="none" stroke="#4A5568" stroke-width="2" />
+  
+  <!-- Output Meter (Ammeter/Galvanometer) -->
+  <circle cx="680" cy="370" r="20" fill="#FFF" stroke="#38A169" stroke-width="2.5" />
+  <text x="680" y="375" font-family="Arial" font-size="16" font-weight="bold" fill="#38A169" text-anchor="middle">I</text>
+  
+  <!-- Final Output Ground/Connection -->
+  <line x1="680" y1="390" x2="680" y2="430" stroke="#4A5568" stroke-width="2" />
+  <text x="710" y="375" class="label bold-label" fill="#38A169">Output Meter</text>
+</svg>
