@@ -66,6 +66,7 @@ body {
              /* 👈 दोनों तरफ हल्की सुरक्षित जगह */
   box-sizing: border-box;  /* 👈 स्क्रीन साइज को लॉक रखेगा */
   overflow-x: hidden;      /* 👈 साइड स्क्रॉलिंग पूरी तरह बंद */
+padding-bottom: 90px;
 }
 
 
