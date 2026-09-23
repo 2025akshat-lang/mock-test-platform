@@ -165,7 +165,7 @@ footer {
   top: 0 !important;
   right: 0 !important;
   width: 320px !important;
-  height: 100vh !important;       /* Poori screen ki height zaroori hai */
+  height: 100dvh !important;       /* Poori screen ki height zaroori hai */
   background: #ffffff !important;
   z-index: 9999 !important;
   
