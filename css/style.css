@@ -60,14 +60,29 @@ body {
 .goal-selector { background: rgba(255,255,255,0.12); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 6px; }
 .user-profile-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--primary); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; border: 2px solid #38bdf8; cursor: pointer; }
 
-/* DASHBOARD BODY */
-.dashboard-body {
-  width: 100%;
-             /* 👈 दोनों तरफ हल्की सुरक्षित जगह */
-  box-sizing: border-box;  /* 👈 स्क्रीन साइज को लॉक रखेगा */
-  overflow-x: hidden;      /* 👈 साइड स्क्रॉलिंग पूरी तरह बंद */
-padding-bottom: 90px;
+#home-dashboard {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  overflow: hidden !important;
 }
+
+/* 👈 Yahan main change hai: body ko scrollable banao aur padding do */
+.dashboard-body {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  flex: 1 !important;
+  overflow-y: auto !important;          /* Ab list yahan andar scroll hogi */
+  -webkit-overflow-scrolling: touch;
+  padding: 12px 12px 100px 12px !important; /* 👈 Yeh 100px ka bottom padding navbar ke liye space dega */
+}
+
 
 
 /* BREADCRUMB / BACK BAR */
