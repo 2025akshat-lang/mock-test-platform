@@ -52,6 +52,8 @@
       "id": 4,
       "section": "Analytical Chemistry & Instruments",
       "question": "A Photomultiplier Tube (PMT) detector is used to detect low light intensity. How does its internal amplification work?",
+      "diagram": "<svg width='100%' height='100%' viewBox='0 0 850 550'><use href='data/iocl/diagram.svg#pmt-diagram'></use></svg>",
+
       "options": {
         "A": "Repeated dynodes placed at specific angles produce secondary electrons, resulting in a cascading amplification effect.",
         "B": "Thermal energy is generated through an iron plate base and Au/Ag coating.",
