@@ -62,7 +62,8 @@
         "D": "A fine wire mesh anode cools the cathode."
       },
       "correct": "A",
-      "explanation": "The structure of a PMT contains repeated dynodes at specific angles that multiply initial electrons to provide massive internal amplification. (Note: Iron plate with Au/Ag is a specification of photovoltaic cells; P-N junctions are found in silicon photodiodes; Fine wire mesh is a feature of phototube anodes.)"
+      "explanation": "The structure of a PMT contains repeated dynodes at specific angles that multiply initial electrons to provide massive internal amplification. (Note: Iron plate with Au/Ag is a specification of photovoltaic cells; P-N junctions are found in silicon photodiodes; Fine wire mesh is a feature of phototube anodes.)<br><img src='data/iocl/diagram/Qc4/pmt_amplification.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='PMT Amplification Diagram'>"
+
     },
     {
       "id": 5,
@@ -114,7 +115,8 @@
         "D": "It dissolves the quartz cuvette."
       },
       "correct": "A",
-      "explanation": "Because the RI detector measures a bulk property and mobile phase composition changes continuously in gradient elution, baseline drift and instability occur. (Note: RI detectors are used for non-UV active compounds; RI detector is not part of a spectrophotometer; it has no relation to cuvette dissolution.)"
+      "explanation": "Because the RI detector measures a bulk property and mobile phase composition changes continuously in gradient elution, baseline drift and instability occur. (Note: RI detectors are used for non-UV active compounds; RI detector is not part of a spectrophotometer; it has no relation to cuvette dissolution.) <br><img src='data/iocl/diagram/Qc4/Refractive_Index(RI).svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Refractive Index Diagram'>"
+
     },
     {
       "id": 9,
@@ -181,7 +183,8 @@
         "D": "Light Emitting Diode (LED)"
       },
       "correct": "A",
-      "explanation": "The notes explicitly mention that the Xenon lamp has a range of 190-800 nm (UV-Visible). (Note: Deuterium lamp is for 160-375 nm UV; Tungsten lamp is for 350-3000 nm Visible/IR; LED is for 400-800 nm Visible.)"
+      "explanation": "The notes explicitly mention that the Xenon lamp has a range of 190-800 nm (UV-Visible). (Note: Deuterium lamp is for 160-375 nm UV; Tungsten lamp is for 350-3000 nm Visible/IR; LED is for 400-800 nm Visible.)<br><img src='data/iocl/diagram/Qc4/uv_lamp.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='UV Lamp Diagram'>"
+
     },
     {
       "id": 14,
@@ -286,7 +289,8 @@
         "D": "It records the absorption spectrum automatically."
       },
       "correct": "A",
-      "explanation": "Monochromators use prisms or gratings to disperse light and select a specific narrow wavelength band for analysis. (Note: Amplification is done by PMT/electronics; temperature control is by cell holders; spectrum recording is handled by software/recorder.)"
+      "explanation": "Monochromators use prisms or gratings to disperse light and select a specific narrow wavelength band for analysis. (Note: Amplification is done by PMT/electronics; temperature control is by cell holders; spectrum recording is handled by software/recorder.)<br><img src='data/iocl/diagram/Qc4/Monochromator_Setup.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Monochromator Setup Diagram'>"
+
     },
     {
       "id": 22,
@@ -299,7 +303,8 @@
         "D": "Vacuum Phototube"
       },
       "correct": "A",
-      "explanation": "Silicon photodiodes are solid-state semiconductor devices that generate photocurrent upon photon absorption without high-voltage dynode chains. (Note: PMTs and phototubes require high voltage; FID is a gas chromatography detector.)"
+      "explanation": "Silicon photodiodes are solid-state semiconductor devices that generate photocurrent upon photon absorption without high-voltage dynode chains. (Note: PMTs and phototubes require high voltage; FID is a gas chromatography detector.)<br><img src='data/iocl/diagram/Qc4/Silicon_Photodiode_Detector.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Silicon Photodiode Detector Diagram'>"
+
     },
     {
       "id": 23,
