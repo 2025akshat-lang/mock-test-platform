@@ -20,13 +20,13 @@
         "D": "Xenon lamp that emits only below 190 nm."
       },
       "correct": "B",
-      "explanation": "The Deuterium (D_2) lamp is the primary light source for the UV region (160-375 nm), as specified in the instrumentation notes. (Note: Tungsten lamp is meant for the visible and IR region 350-3000 nm; LED is for the visible region 400-800 nm; Xenon lamp spans 190-800 nm, but the deuterium lamp is standard for 160 nm.)"
+      "explanation": "The Deuterium (D_2) lamp is the primary light source for the UV region (160-375 nm), as specified in the instrumentation notes. (Note: Tungsten lamp is meant for the visible and IR region 350-3000 nm; LED is for the visible region 400-800 nm; Xenon lamp spans 190-800 nm, but the deuterium lamp is standard for 160 nm.)<br><img src='data/iocl/diagram/Qc4/Voltaic_Cell.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Photovoltaic Cell Diagram'>"
     },
     {
       "id": 2,
       "section": "Analytical Chemistry & Instruments",
       "question": "In a double-beam spectrophotometer, polychromatic light passes through a monochromator (prism/grating). If a standard borosilicate glass prism is used instead of a quartz prism and a scan is run at 200 nm, what problem will occur?",
-      "diagram": "<img src='data/iocl/diagram/Qc4/Monochromator_Setup.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Monochromator_Setup'>"
+      "diagram": "<img src='data/iocl/diagram/Qc4/Monochromator_Setup.svg' style='width:100%; max-height:350px; object-fit:contain;' alt='Monochromator_Setup'>",
       "options": {
         "A": "Glass will completely absorb the UV light, and no transmission will be observed at 200 nm.",
         "B": "The prism will convert the double light beam into a quadruple beam.",
