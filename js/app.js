@@ -301,9 +301,8 @@ const MockPanel = (() => {
       });
     } catch (e) { console.error('KaTeX render failed:', e); }
   }
-  
 
-    async function startMock(testId) {
+  async function startMock(testId) {
     const meta = currentSubCatTests.find(m => m.id === testId);
     if (!meta) {
       showFailSafe(`Test "${testId}" is no longer listed in this section.`);
@@ -328,42 +327,14 @@ const MockPanel = (() => {
       return sectionOrderMap.get(a.section) - sectionOrderMap.get(b.section);
     });
     
-    // 1. Purane dashboard aur list elements ko hide karo
-    const homeDash = document.getElementById('home-dashboard');
-    if(homeDash) homeDash.style.display = 'none';
-    
-    const navHeader = document.getElementById('nav-header-bar');
-    if(navHeader) navHeader.style.display = 'none';
-    
-    const v1 = document.getElementById('view-level-1');
-    if(v1) v1.style.display = 'none';
-    const v2 = document.getElementById('view-level-2');
-    if(v2) v2.style.display = 'none';
-    const v3 = document.getElementById('view-level-3');
-    if(v3) v3.style.display = 'none';
-
-    // 2. Exam interface ke sabhi zaroori parts ko proper display do taaki blank screen na aaye
-    const examHeader = document.getElementById('exam-header');
-    if(examHeader) examHeader.style.display = 'flex';
-
-    const sectionTabs = document.getElementById('section-tabs');
-    if(sectionTabs) sectionTabs.style.display = 'flex';
-
-    const examViewport = document.getElementById('exam-viewport');
-    if(examViewport) {
-      examViewport.style.display = 'flex';
-      examViewport.style.flexDirection = 'column';
-      examViewport.style.flex = '1';
-    }
-
+    document.getElementById('home-dashboard').style.display = 'none';
+    document.getElementById('exam-header').style.display = 'flex';
+    document.getElementById('section-tabs').style.display = 'flex';
+    document.getElementById('exam-viewport').style.display = 'flex';
     const footer = document.getElementById('exam-footer');
     if(footer) footer.style.display = 'flex';
-    
     reattemptTest();
   }
-
-    
-    
 
   function exitToHome() {
     clearInterval(timerInterval);
