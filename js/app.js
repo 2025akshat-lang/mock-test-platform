@@ -492,11 +492,18 @@ const MockPanel = (() => {
     }, 1000);
   }
 
-  function submitTestModal() {
-    if (confirm("Are you sure you want to submit the test?")) {
-      submitExam();
+    function submitTestModal() {
+    // 👇 Submit dabate hi sabse pehle palette drawer ko band kar do taaki click block na ho
+    const drawer = document.getElementById('question-palette-drawer');
+    if(drawer) {
+      drawer.style.display = 'none';
+      drawer.classList.remove('open');
     }
+
+    // Google Sites ke iframe ke liye direct submitExam chala do
+    submitExam();
   }
+
 
   function submitExam() {
     clearInterval(timerInterval);
