@@ -1,6 +1,6 @@
 {
   "id": "iocl-qc-5",
-  "title": "UV-Vis ",
+  "title": "UV-Vis Spectroscopy",
   "timeMins": 60,
   "badgeText": "NEW",
   "badgeClass": "badge-new",
@@ -12,33 +12,33 @@
     {
       "id": 1,
       "section": "UV-Vis Spectroscopy & Electronic Transitions",
-      "question": "Which of the following electronic transitions requires the highest energy and occurs at the shortest wavelength (typically in the vacuum UV region, $\\le 185\\text{ nm}$)?",
+      "question": "Which of the following electronic transitions requires the highest energy and occurs at the shortest wavelength (typically in the vacuum UV region, \\u2264 185 nm)?",
       "options": {
-        "A": "$n \\to \\pi*$",
-        "B": "$\\pi \\to \\pi*$",
-        "C": "$\\sigma \\to \\sigma*$",
-        "D": "$n \\to \\sigma*$"
+        "A": "n \\u2192 \\u03c0*",
+        "B": "\\u03c0 \\u2192 \\u03c0*",
+        "C": "\\u03c3 \\u2192 \\u03c3*",
+        "D": "n \\u2192 \\u03c3*"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. Sigma to sigma-star ($\\sigma \\to \\sigma*$) transitions involve tightly bound electrons requiring maximum excitation energy, occurring in saturated hydrocarbons below $185\\text{ nm}$ in vacuum UV[span_0](start_span)[span_0](end_span).<br>*Why others are incorrect:*<br>- **A ($n \\to \\pi*$)**: Requires lowest energy among heteroatom transitions (found in $C=O$)[span_1](start_span)[span_1](end_span).<br>- **B ($\\pi \\to \\pi*$)**: Intermediate energy found in conjugated systems[span_2](start_span)[span_2](end_span).<br>- **D ($n \\to \\sigma*$)**: Requires less energy than $\\sigma \\to \\sigma*$ due to non-bonding lone pairs[span_3](start_span)[span_3](end_span).<br><svg viewBox='0 0 350 150' xmlns='http://www.w3.org/2000/svg'><rect width='350' height='150' fill='#f8fafc' rx='6'/><text x='175' y='25' font-size='12' font-weight='bold' text-anchor='middle' fill='#334155'>Energy Hierarchy of Transitions</text><line x1='50' y1='120' x2='300' y2='120' stroke='#64748b' stroke-width='2'/><line x1='50' y1='120' x2='50' y2='40' stroke='#64748b' stroke-width='2'/><text x='175' y='140' font-size='10' text-anchor='middle' fill='#475569'>Increasing Energy $\\to$</text><text x='75' y='105' font-size='10' fill='#0f172a'>n $\\to \\pi*$</text><text x='130' y='85' font-size='10' fill='#0f172a'>$\\pi \\to \\pi*$</text><text x='190' y='65' font-size='10' fill='#0f172a'>n $\\to \\sigma*$</text><text x='250' y='45' font-size='10' font-weight='bold' fill='#dc2626'>$\\sigma \\to \\sigma*$ (Highest)</text></svg>"
+      "explanation": "Correct Answer is **C**. Sigma to sigma-star (\\u03c3 \\u2192 \\u03c3*) transitions involve tightly bound electrons requiring maximum excitation energy, occurring in saturated hydrocarbons below 185 nm in vacuum UV.<br>*Why others are incorrect:*<br>- **A (n \\u2192 \\u03c0*)**: Requires lowest energy among heteroatom transitions (found in C=O).<br>- **B (\\u03c0 \\u2192 \\u03c0*)**: Intermediate energy found in conjugated systems.<br>- **D (n \\u2192 \\u03c3*)**: Requires less energy than \\u03c3 \\u2192 \\u03c3* due to non-bonding lone pairs.<br><svg viewBox='0 0 350 150' xmlns='http://www.w3.org/2000/svg'><rect width='350' height='150' fill='#f8fafc' rx='6'/><text x='175' y='25' font-size='12' font-weight='bold' text-anchor='middle' fill='#334155'>Energy Hierarchy of Transitions</text><line x1='50' y1='120' x2='300' y2='120' stroke='#64748b' stroke-width='2'/><line x1='50' y1='120' x2='50' y2='40' stroke='#64748b' stroke-width='2'/><text x='175' y='140' font-size='10' text-anchor='middle' fill='#475569'>Increasing Energy \\u2192</text><text x='75' y='105' font-size='10' fill='#0f172a'>n \\u2192 \\u03c0*</text><text x='130' y='85' font-size='10' fill='#0f172a'>\\u03c0 \\u2192 \\u03c0*</text><text x='190' y='65' font-size='10' fill='#0f172a'>n \\u2192 \\u03c3*</text><text x='250' y='45' font-size='10' font-weight='bold' fill='#dc2626'>\\u03c3 \\u2192 \\u03c3* (Highest)</text></svg>"
     },
     {
       "id": 2,
       "section": "UV-Vis Spectroscopy & Electronic Transitions",
-      "question": "In saturated compounds containing one heteroatom with a lone pair of electrons (such as $\\text{C=O}$ or $\\text{C-Cl}$), which electronic transition typically appears at longer wavelengths and requires less energy than $\\sigma \\to \\sigma*$?",
+      "question": "In saturated compounds containing one heteroatom with a lone pair of electrons (such as C=O or C-Cl), which electronic transition typically appears at longer wavelengths and requires less energy than \\u03c3 \\u2192 \\u03c3*?",
       "options": {
-        "A": "$\\pi \\to \\pi*$",
-        "B": "$n \\to \\sigma*$",
-        "C": "$\\sigma \\to \\pi*$",
-        "D": "$n \\to \\pi*$"
+        "A": "\\u03c0 \\u2192 \\u03c0*",
+        "B": "n \\u2192 \\u03c3*",
+        "C": "\\u03c3 \\u2192 \\u03c0*",
+        "D": "n \\u2192 \\u03c0*"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. $n \\to \\sigma*$ transitions occur in saturated systems with heteroatoms possessing lone pairs (e.g., $-\\text{Cl}$, $-\\text{OH}$), requiring less energy than pure $\\sigma \\to \\sigma*$[span_4](start_span)[span_4](end_span).<br>*Why others are incorrect:*<br>- **A ($\\pi \\to \\pi*$)**: Requires unsaturated multiple bonds[span_5](start_span)[span_5](end_span).<br>- **C ($\\sigma \\to \\pi*$)**: Generally forbidden transition[span_6](start_span)[span_6](end_span).<br>- **D ($n \\to \\pi*$)**: Occurs in unsaturated systems with heteroatoms (like carbonyls), distinct from saturated heteroatom systems."
+      "explanation": "Correct Answer is **B**. n \\u2192 \\u03c3* transitions occur in saturated systems with heteroatoms possessing lone pairs (e.g., -Cl, -OH), requiring less energy than pure \\u03c3 \\u2192 \\u03c3*.<br>*Why others are incorrect:*<br>- **A (\\u03c0 \\u2192 \\u03c0*)**: Requires unsaturated multiple bonds.<br>- **C (\\u03c3 \\u2192 \\u03c0*)**: Generally forbidden transition.<br>- **D (n \\u2192 \\u03c0*)**: Occurs in unsaturated systems with heteroatoms (like carbonyls), distinct from saturated heteroatom systems."
     },
     {
       "id": 3,
       "section": "UV-Vis Spectroscopy & Electronic Transitions",
-      "question": "How does the energy requirement for the $n \\to \\sigma*$ transition vary with an increase in the size of the halogen atom in alkyl halides (e.g., comparing $\\text{CH}_3\\text{Cl}$ to $\\text{CH}_3\\text{I}$)?",
+      "question": "How does the energy requirement for the n \\u2192 \\u03c3* transition vary with an increase in the size of the halogen atom in alkyl halides (e.g., comparing CH3Cl to CH3I)?",
       "options": {
         "A": "Energy requirement increases as the atomic size increases.",
         "B": "Energy requirement decreases as the atomic size increases due to easier polarizability of larger lone-pair orbitals.",
@@ -46,33 +46,33 @@
         "D": "The transition becomes completely forbidden for iodine derivatives."
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. As atomic size increases ($\\text{Cl} \\to \text{Br} \\to \\text{I}$), the lone pair electrons are held less tightly by the nucleus, making them easier to polarize and thus reducing the excitation energy ($CH_3Cl > CH_3I$)[span_7](start_span)[span_7](end_span).<br>*Why others are incorrect:*<br>- **A**: Incorrect because bigger size means loosely held electrons, requiring less energy[span_8](start_span)[span_8](end_span).<br>- **C**: Bond length and polarizability directly change electronic energy levels[span_9](start_span)[span_9](end_span).<br>- **D**: Iodine derivatives absorb actively in near-UV."
+      "explanation": "Correct Answer is **B**. As atomic size increases (Cl \\u2192 Br \\u2192 I), the lone pair electrons are held less tightly by the nucleus, making them easier to polarize and thus reducing the excitation energy.<br>*Why others are incorrect:*<br>- **A**: Incorrect because bigger size means loosely held electrons, requiring less energy.<br>- **C**: Bond length and polarizability directly change electronic energy levels.<br>- **D**: Iodine derivatives absorb actively in near-UV."
     },
     {
       "id": 4,
       "section": "UV-Vis Spectroscopy & Electronic Transitions",
-      "question": "Which of the following electronic transitions is generally considered 'forbidden' by quantum mechanical selection rules, resulting in very low molar absorptivity values ($\\varepsilon$)?",
+      "question": "Which of the following electronic transitions is generally considered 'forbidden' by quantum mechanical selection rules, resulting in very low molar absorptivity values (\\u03b5)?",
       "options": {
-        "A": "$\\pi \\to \\pi*$",
-        "B": "$n \\to \\pi*$",
-        "C": "$\\sigma \\to \\pi*$",
-        "D": "$\\sigma \\to \\sigma*$"
+        "A": "\\u03c0 \\u2192 \\u03c0*",
+        "B": "n \\u2192 \\u03c0*",
+        "C": "\\u03c3 \\u2192 \\u03c0*",
+        "D": "\\u03c3 \\u2192 \\u03c3*"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. $\\sigma \\to \\pi*$ transitions violate orbital symmetry selection rules, making them quantum mechanically forbidden and resulting in very weak absorption bands[span_10](start_span)[span_10](end_span).<br>*Why others are incorrect:*<br>- **A & D**: Allowed transitions with high molar absorptivity[span_11](start_span)[span_11](end_span).<br>- **B**: Allowed though relatively weak, common in carbonyls[span_12](start_span)[span_12](end_span)."
+      "explanation": "Correct Answer is **C**. \\u03c3 \\u2192 \\u03c0* transitions violate orbital symmetry selection rules, making them quantum mechanically forbidden and resulting in very weak absorption bands.<br>*Why others are incorrect:*<br>- **A & D**: Allowed transitions with high molar absorptivity.<br>- **B**: Allowed though relatively weak, common in carbonyls."
     },
     {
       "id": 5,
       "section": "UV-Vis Spectroscopy & Electronic Transitions",
       "question": "What is the typical wavelength range designated for the Visible region in UV-Vis absorption spectroscopy?",
       "options": {
-        "A": "$100 - 200\\text{ nm}$",
-        "B": "$200 - 400\\text{ nm}$",
-        "C": "$400 - 800\\text{ nm}$",
-        "D": "$800 - 1200\\text{ nm}$"
+        "A": "100 - 200 nm",
+        "B": "200 - 400 nm",
+        "C": "400 - 800 nm",
+        "D": "800 - 1200 nm"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. The visible electromagnetic spectrum spans $400 - 800\\text{ nm}$ (VIBGYOR region)[span_13](start_span)[span_13](end_span).<br>*Why others are incorrect:*<br>- **A**: Vacuum UV region[span_14](start_span)[span_14](end_span).<br>- **B**: Standard UV region[span_15](start_span)[span_15](end_span).<br>- **D**: Near-Infrared (NIR) region."
+      "explanation": "Correct Answer is **C**. The visible electromagnetic spectrum spans 400 - 800 nm (VIBGYOR region).<br>*Why others are incorrect:*<br>- **A**: Vacuum UV region.<br>- **B**: Standard UV region.<br>- **D**: Near-Infrared (NIR) region."
     },
     {
       "id": 6,
@@ -85,12 +85,12 @@
         "D": "Heterolytic Oxidation Molecular Operation / Localized Ultraviolet Molecular Oscillator"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. HOMO is the Highest Occupied Molecular Orbital and LUMO is the Lowest Unoccupied Molecular Orbital between which electron promotion occurs upon photon absorption[span_16](start_span)[span_16](end_span).<br>*Why others are incorrect:*<br>- **A, C, D**: Fabricated terminologies that do not represent quantum chemical orbital definitions[span_17](start_span)[span_17](end_span)."
+      "explanation": "Correct Answer is **B**. HOMO is the Highest Occupied Molecular Orbital and LUMO is the Lowest Unoccupied Molecular Orbital between which electron promotion occurs upon photon absorption.<br>*Why others are incorrect:*<br>- **A, C, D**: Fabricated terminologies that do not represent quantum chemical orbital definitions."
     },
     {
       "id": 7,
       "section": "Solvent Effects on Absorption Spectra",
-      "question": "When the polarity of a solvent is increased, what type of spectral shift is typically observed for a $\\pi \\to \\pi*$-absorption band?",
+      "question": "When the polarity of a solvent is increased, what type of spectral shift is typically observed for a \\u03c0 \\u2192 \\u03c0*-absorption band?",
       "options": {
         "A": "Bathochromic shift (Red shift to longer wavelengths)",
         "B": "Hypsochromic shift (Blue shift to shorter wavelengths)",
@@ -98,12 +98,12 @@
         "D": "Complete quenching of the absorption peak"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Polar solvents stabilize the polar excited state of $\\pi \\to \\pi*$ systems more than the ground state, lowering the energy gap and causing a bathochromic (red) shift[span_18](start_span)[span_18](end_span).<br>*Why others are incorrect:*<br>- **B**: Hypsochromic shift occurs for $n \\to \\pi*$ transitions[span_19](start_span)[span_19](end_span).<br>- **C**: Hyperchromic effect refers to intensity jump, not solvent polarity band shift[span_20](start_span)[span_20](end_span).<br>- **D**: Solvents do not quench peaks entirely unless chemically reactive."
+      "explanation": "Correct Answer is **A**. Polar solvents stabilize the polar excited state of \\u03c0 \\u2192 \\u03c0* systems more than the ground state, lowering the energy gap and causing a bathochromic (red) shift.<br>*Why others are incorrect:*<br>- **B**: Hypsochromic shift occurs for n \\u2192 \\u03c0* transitions.<br>- **C**: Hyperchromic effect refers to intensity jump, not solvent polarity band shift.<br>- **D**: Solvents do not quench peaks entirely unless chemically reactive."
     },
     {
       "id": 8,
       "section": "Solvent Effects on Absorption Spectra",
-      "question": "For an $n \\to \\pi*$ transition (such as in carbonyl compounds), increasing solvent polarity generally causes which of the following changes?",
+      "question": "For an n \\u2192 \\u03c0* transition (such as in carbonyl compounds), increasing solvent polarity generally causes which of the following changes?",
       "options": {
         "A": "Bathochromic shift",
         "B": "Hypsochromic shift (Blue shift to shorter wavelengths)",
@@ -111,25 +111,25 @@
         "D": "Redistribution of vibrational fine structure into sharp atomic lines"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. In $n \\to \\pi*$ transitions, polar solvents form strong hydrogen bonds with ground-state unshared electrons, stabilizing the ground state more than the excited state and causing a hypsochromic (blue) shift[span_21](start_span)[span_21](end_span).<br>*Why others are incorrect:*<br>- **A**: Bathochromic shift happens for $\\pi \\to \\pi*$ transitions[span_22](start_span)[span_22](end_span).<br>- **C & D**: Solvent polarity actively shifts $\\lambda_{\\max}$ and does not preserve position or produce atomic line spectra[span_23](start_span)[span_23](end_span)."
+      "explanation": "Correct Answer is **B**. In n \\u2192 \\u03c0* transitions, polar solvents form strong hydrogen bonds with ground-state unshared electrons, stabilizing the ground state more than the excited state and causing a hypsochromic (blue) shift.<br>*Why others are incorrect:*<br>- **A**: Bathochromic shift happens for \\u03c0 \\u2192 \\u03c0* transitions.<br>- **C & D**: Solvent polarity actively shifts \\u03bb_max and does not preserve position or produce atomic line spectra."
     },
     {
       "id": 9,
       "section": "Solvent Effects on Absorption Spectra",
-      "question": "An analyst is choosing a solvent for recording the UV spectrum of an organic compound in the region of $220\\text{ nm}$. Which of the following solvents is completely **unsuitable** because it absorbs strongly above $210\\text{ nm}$?",
+      "question": "An analyst is choosing a solvent for recording the UV spectrum of an organic compound in the region of 220 nm. Which of the following solvents is completely **unsuitable** because it absorbs strongly above 210 nm?",
       "options": {
-        "A": "Water ($205\\text{ nm}$ cutoff)",
-        "B": "Ethanol ($210\\text{ nm}$ cutoff)",
-        "C": "Benzene ($280\\text{ nm}$ cutoff)",
-        "D": "Methanol ($210\\text{ nm}$ cutoff)"
+        "A": "Water (205 nm cutoff)",
+        "B": "Ethanol (210 nm cutoff)",
+        "C": "Benzene (280 nm cutoff)",
+        "D": "Methanol (210 nm cutoff)"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. Benzene absorbs strongly above $240 - 280\\text{ nm}$ due to aromatic ring $\\pi \\to \\pi*$ transitions, making it completely opaque below $280\\text{ nm}$[span_24](start_span)[span_24](end_span).<br>*Why others are incorrect:*<br>- **A, B, D**: Water ($205\\text{ nm}$), ethanol ($210\\text{ nm}$), and methanol ($210\\text{ nm}$) have low UV cutoffs, remaining transparent at $220\\text{ nm}$[span_25](start_span)[span_25](end_span)."
+      "explanation": "Correct Answer is **C**. Benzene absorbs strongly above 240 - 280 nm due to aromatic ring \\u03c0 \\u2192 \\u03c0* transitions, making it completely opaque below 280 nm.<br>*Why others are incorrect:*<br>- **A, B, D**: Water (205 nm), ethanol (210 nm), and methanol (210 nm) have low UV cutoffs, remaining transparent at 220 nm."
     },
     {
       "id": 10,
       "section": "Solvent Effects on Absorption Spectra",
-      "question": "Iodine dissolved in a non-polar solvent (like carbon tetrachloride or hexane) exhibits a purple colour (with $\\lambda_{\\max} = 540\\text{ nm}$), whereas in a polar solvent (like ethanol or water), it turns brown ($\\lambda_{\\max} = 464\\text{ nm}$). This dramatic variation arises primarily due to:",
+      "question": "Iodine dissolved in a non-polar solvent (like carbon tetrachloride or hexane) exhibits a purple colour (with \\u03bb_max = 540 nm), whereas in a polar solvent (like ethanol or water), it turns brown (\\u03bb_max = 464 nm). This dramatic variation arises primarily due to:",
       "options": {
         "A": "Chemical reaction forming stable iodic acid",
         "B": "Differential solvation and charge-transfer complex formation between iodine and polar solvent molecules",
@@ -137,20 +137,20 @@
         "D": "Precipitation of colloidal iodine particles"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Iodine forms electron-donor charge-transfer complexes with polar solvents, altering its electronic energy levels and causing a hypsochromic shift to $464\\text{ nm}$ (brown)[span_26](start_span)[span_26](end_span).<br>*Why others are incorrect:*<br>- **A, C, D**: No iodic acid is formed, iodine does not decompose thermally at room temperature, and it remains fully dissolved[span_27](start_span)[span_27](end_span)."
+      "explanation": "Correct Answer is **B**. Iodine forms electron-donor charge-transfer complexes with polar solvents, altering its electronic energy levels and causing a hypsochromic shift to 464 nm (brown).<br>*Why others are incorrect:*<br>- **A, C, D**: No iodic acid is formed, iodine does not decompose thermally at room temperature, and it remains fully dissolved."
     },
     {
       "id": 11,
       "section": "Solvent Effects on Absorption Spectra",
-      "question": "Acetone dissolved in $n$-hexane shows an absorption maximum at $\\lambda_{\\max} = 279\\text{ nm}$, whereas in water, its $\\lambda_{\\max}$ shifts to $264.5\\text{ nm}$. This shift is a classic example of solvent effect on which transition?",
+      "question": "Acetone dissolved in n-hexane shows an absorption maximum at \\u03bb_max = 279 nm, whereas in water, its \\u03bb_max shifts to 264.5 nm. This shift is a classic example of solvent effect on which transition?",
       "options": {
-        "A": "$n \\to \\pi*$ transition of the carbonyl group",
-        "B": "$\\sigma \\to \\sigma*$ transition of the methyl groups",
-        "C": "$\\pi \\to \\pi*$ transition of the carbon-carbon single bond",
-        "D": "$n \\to \\sigma*$ transition of oxygen lone pairs"
+        "A": "n \\u2192 \\u03c0* transition of the carbonyl group",
+        "B": "\\u03c3 \\u2192 \\u03c3* transition of the methyl groups",
+        "C": "\\u03c0 \\u2192 \\u03c0* transition of the carbon-carbon single bond",
+        "D": "n \\u2192 \\u03c3* transition of oxygen lone pairs"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. The $279\\text{ nm}$ band in acetone corresponds to the carbonyl $n \\to \\pi*$ transition, which experiences hydrogen-bonding stabilization in water, shifting $\\lambda_{\\max}$ to $264.5\\text{ nm}$[span_28](start_span)[span_28](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Saturated $\\sigma$ bonds and single bonds do not absorb in this near-UV region[span_29](start_span)[span_29](end_span)."
+      "explanation": "Correct Answer is **A**. The 279 nm band in acetone corresponds to the carbonyl n \\u2192 \\u03c0* transition, which experiences hydrogen-bonding stabilization in water, shifting \\u03bb_max to 264.5 nm.<br>*Why others are incorrect:*<br>- **B, C, D**: Saturated \\u03c3 bonds and single bonds do not absorb in this near-UV region."
     },
     {
       "id": 12,
@@ -158,69 +158,69 @@
       "question": "Why is 95% ethanol often preferred over pure benzene as a solvent in UV-Vis spectroscopy for examining aliphatic analytes?",
       "options": {
         "A": "Ethanol is much cheaper and less toxic than benzene.",
-        "B": "Ethanol does not absorb significantly above $210\\text{ nm}$, whereas benzene absorbs strongly in the near-UV region due to aromatic conjugation.",
+        "B": "Ethanol does not absorb significantly above 210 nm, whereas benzene absorbs strongly in the near-UV region due to aromatic conjugation.",
         "C": "Ethanol reacts chemically with the analyte to enhance absorbance intensity.",
         "D": "Benzene freezes at room temperature."
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Solvent cut-off windows dictate usability. Ethanol cuts off at $210\\text{ nm}$ allowing full spectra scans, whereas benzene absorbs heavily above $240\\text{ nm}$[span_30](start_span)[span_30](end_span).<br>*Why others are incorrect:*<br>- **A**: Toxicity is secondary to optical transparency[span_31](start_span)[span_31](end_span).<br>- **C**: Solvents should ideally be inert[span_32](start_span)[span_32](end_span).<br>- **D**: Benzene melting point is $5.5^\circ\\text{C}$."
+      "explanation": "Correct Answer is **B**. Solvent cut-off windows dictate usability. Ethanol cuts off at 210 nm allowing full spectra scans, whereas benzene absorbs heavily above 240 nm.<br>*Why others are incorrect:*<br>- **A**: Toxicity is secondary to optical transparency.<br>- **C**: Solvents should ideally be inert.<br>- **D**: Benzene melting point is 5.5\\u00b0C."
     },
     {
       "id": 13,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "According to Beer-Lambert's Law, when monochromatic light passes through an absorbing medium, the rate of decrease in light intensity with respect to path length ($-\\frac{dI}{dl}$) is proportional to:",
+      "question": "According to Beer-Lambert's Law, when monochromatic light passes through an absorbing medium, the rate of decrease in light intensity with respect to path length (-dI/dl) is proportional to:",
       "options": {
-        "A": "The square of the path length ($l^2$)",
-        "B": "The intensity of incident light ($I_0$) and path length only",
-        "C": "The concentration of the solution ($c$) and the current intensity of light ($I$)",
+        "A": "The square of the path length (l^2)",
+        "B": "The intensity of incident light (I_0) and path length only",
+        "C": "The concentration of the solution (c) and the current intensity of light (I)",
         "D": "The wavelength of the source divided by Planck's constant"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. Differential expression states $-\\frac{dI}{dl} = K \\cdot I \\cdot c$, meaning the rate of intensity loss depends on concentration $c$ and instantaneous beam intensity $I$[span_33](start_span)[span_33](end_span).<br>*Why others are incorrect:*<br>- **A, B, D**: Path length squared and source constants do not govern the primary absorption rate differential[span_34](start_span)[span_34](end_span)."
+      "explanation": "Correct Answer is **C**. Differential expression states -dI/dl = K \\u00b7 I \\u00b7 c, meaning the rate of intensity loss depends on concentration c and instantaneous beam intensity I.<br>*Why others are incorrect:*<br>- **A, B, D**: Path length squared and source constants do not govern the primary absorption rate differential."
     },
     {
       "id": 14,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "Integration of the Beer-Lambert differential equation between path length $l = 0$ and $l = l$ yields the logarithmic expression $\\log\\left(\\frac{I_0}{I}\\right) = \\frac{K}{2.303} \\cdot c \\cdot l$. What does the term $\\frac{K}{2.303}$ represent in standard spectrophotometric notation ($A = \\varepsilon c l$)?",
+      "question": "Integration of the Beer-Lambert differential equation between path length l = 0 and l = l yields the logarithmic expression log(I_0 / I) = (K / 2.303) \\u00b7 c \\u00b7 l. What does the term (K / 2.303) represent in standard spectrophotometric notation (A = \\u03b5 c l)?",
       "options": {
-        "A": "Transmittance ($T$)",
-        "B": "Molar absorptivity or extinction coefficient ($\\varepsilon$)",
+        "A": "Transmittance (T)",
+        "B": "Molar absorptivity or extinction coefficient (\\u03b5)",
         "C": "Diffusion path coefficient",
         "D": "Quantum yield"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. The constant $\\frac{K}{2.303}$ is designated as molar absorptivity $\\varepsilon$ (or extinction coefficient), converting natural log to base-10 log[span_35](start_span)[span_35](end_span).<br>*Why others are incorrect:*<br>- **A**: Transmittance is $I/I_0$[span_36](start_span)[span_36](end_span).<br>- **C & D**: Diffusion and quantum yield are unrelated parameters[span_37](start_span)[span_37](end_span)."
+      "explanation": "Correct Answer is **B**. The constant (K / 2.303) is designated as molar absorptivity \\u03b5 (or extinction coefficient), converting natural log to base-10 log.<br>*Why others are incorrect:*<br>- **A**: Transmittance is I/I_0.<br>- **C & D**: Diffusion and quantum yield are unrelated parameters."
     },
     {
       "id": 15,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "A colored metal complex solution in a cuvette of path length $1.0\\text{ cm}$ transmits $10\\%$ of the incident monochromatic light ($T = 0.10$). What is the absorbance ($A$) of this solution?",
+      "question": "A colored metal complex solution in a cuvette of path length 1.0 cm transmits 10% of the incident monochromatic light (T = 0.10). What is the absorbance (A) of this solution?",
       "options": {
-        "A": "$0.10$",
-        "B": "$0.50$",
-        "C": "$1.00$",
-        "D": "$2.00$"
+        "A": "0.10",
+        "B": "0.50",
+        "C": "1.00",
+        "D": "2.00"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. Absorbance $A = -\\log_{10}(T) = -\\log_{10}(0.10) = 1.00$[span_38](start_span)[span_38](end_span).<br>*Why others are incorrect:*<br>- **A, B, D**: Calculated incorrectly from logarithmic transformation formulas[span_39](start_span)[span_39](end_span)."
+      "explanation": "Correct Answer is **C**. Absorbance A = -log10(T) = -log10(0.10) = 1.00.<br>*Why others are incorrect:*<br>- **A, B, D**: Calculated incorrectly from logarithmic transformation formulas."
     },
     {
       "id": 16,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "An aqueous solution of potassium permanganate ($\\mathrm{KMnO_4}$) has a molar absorptivity $\\varepsilon = 2200\\text{ L mol}^{-1}\\text{ cm}^{-1}$ at $\\lambda = 525\\text{ nm}$. If a $1.0\\text{ cm}$ cuvette is used, what concentration of $\\mathrm{KMnO_4}$ will produce an absorbance reading of $0.55$?",
+      "question": "An aqueous solution of potassium permanganate (KMnO4) has a molar absorptivity \\u03b5 = 2200 L mol^-1 cm^-1 at \\u03bb = 525 nm. If a 1.0 cm cuvette is used, what concentration of KMnO4 will produce an absorbance reading of 0.55?",
       "options": {
-        "A": "$2.5 \\times 10^{-4}\\text{ M}$",
-        "B": "$1.25 \\times 10^{-3}\\text{ M}$",
-        "C": "$5.0 \\times 10^{-2}\\text{ M}$",
-        "D": "$4.0 \\times 10^{-5}\\text{ M}$"
+        "A": "2.5 \\u00d7 10^-4 M",
+        "B": "1.25 \\u00d7 10^-3 M",
+        "C": "5.0 \\u00d7 10^-2 M",
+        "D": "4.0 \\u00d7 10^-5 M"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Rearranging Beer's law: $c = \\frac{A}{\\varepsilon l} = \\frac{0.55}{2200 \\times 1.0} = 2.5 \\times 10^{-4}\\text{ M}$[span_40](start_span)[span_40](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Mathematical calculation errors in division[span_41](start_span)[span_41](end_span)."
+      "explanation": "Correct Answer is **A**. Rearranging Beer's law: c = A / (\\u03b5 \\u00b7 l) = 0.55 / (2200 \\u00d7 1.0) = 2.5 \\u00d7 10^-4 M.<br>*Why others are incorrect:*<br>- **B, C, D**: Mathematical calculation errors in division."
     },
     {
       "id": 17,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "Which of the following conditions causes **real deviations** from Beer-Lambert's Law at high analyte concentrations ($c > 0.01\\text{ M}$)?",
+      "question": "Which of the following conditions causes **real deviations** from Beer-Lambert's Law at high analyte concentrations (c > 0.01 M)?",
       "options": {
         "A": "Presence of stray light in the spectrophotometer monochromator",
         "B": "Electrostatic interactions between solute molecules being too close, altering their charge distribution and extinction coefficient",
@@ -228,7 +228,7 @@
         "D": "Chemical dissociation or association of the absorbing species due to solvent dilution"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Real deviations arise at high concentrations because solute molecules sit close together, modifying electrostatic fields and altering absorptivity[span_42](start_span)[span_42](end_span).<br>*Why others are incorrect:*<br>- **A**: Stray light causes instrumental deviations[span_43](start_span)[span_43](end_span).<br>- **C**: Lamp fluctuations cause electrical noise[span_44](start_span)[span_44](end_span).<br>- **D**: Dissociation/association causes chemical deviations[span_45](start_span)[span_45](end_span)."
+      "explanation": "Correct Answer is **B**. Real deviations arise at high concentrations because solute molecules sit close together, modifying electrostatic fields and altering absorptivity.<br>*Why others are incorrect:*<br>- **A**: Stray light causes instrumental deviations.<br>- **C**: Lamp fluctuations cause electrical noise.<br>- **D**: Dissociation/association causes chemical deviations."
     },
     {
       "id": 18,
@@ -241,7 +241,7 @@
         "D": "Using polychromatic radiation instead of strictly monochromatic light"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Chemical deviations occur when equilibrium shifts (like pH-dependent ionization) create distinct chemical species with different molar absorptivities[span_46](start_span)[span_46](end_span).<br>*Why others are incorrect:*<br>- **B**: Scratched cuvettes cause scattering/optical errors[span_47](start_span)[span_47](end_span).<br>- **C & D**: Slit width and polychromatic light cause instrumental deviations[span_48](start_span)[span_48](end_span)."
+      "explanation": "Correct Answer is **A**. Chemical deviations occur when equilibrium shifts (like pH-dependent ionization) create distinct chemical species with different molar absorptivities.<br>*Why others are incorrect:*<br>- **B**: Scratched cuvettes cause scattering/optical errors.<br>- **C & D**: Slit width and polychromatic light cause instrumental deviations."
     },
     {
       "id": 19,
@@ -251,23 +251,23 @@
         "A": "It artificially increases absorbance due to radiation scattering away from the detector.",
         "B": "It causes negative absorbance values.",
         "C": "It has zero effect because turbidity only affects infrared wavelengths.",
-        "D": "It converts transmittance directly to $100\\%$."
+        "D": "It converts transmittance directly to 100%."
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Suspended particles scatter light away from the optical path, reducing transmitted intensity and resulting in artificially high (positive) absorbance readings[span_49](start_span)[span_49](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Scattering reduces transmittance, never creates negative absorbance or zero effect[span_50](start_span)[span_50](end_span)."
+      "explanation": "Correct Answer is **A**. Suspended particles scatter light away from the optical path, reducing transmitted intensity and resulting in artificially high (positive) absorbance readings.<br>*Why others are incorrect:*<br>- **B, C, D**: Scattering reduces transmittance, never creates negative absorbance or zero effect."
     },
     {
       "id": 20,
       "section": "Beer-Lambert's Law & Derivations",
-      "question": "A solution transmits $50\\%$ of light at a certain concentration. If the concentration is doubled while keeping path length constant, what will be the new percentage transmittance ($T$)?",
+      "question": "A solution transmits 50% of light at a certain concentration. If the concentration is doubled while keeping path length constant, what will be the new percentage transmittance (T)?",
       "options": {
-        "A": "$25\\%$",
-        "B": "$12.5\\%$",
-        "C": "$5.0\\%$",
-        "D": "$0\\%$"
+        "A": "25%",
+        "B": "12.5%",
+        "C": "5.0%",
+        "D": "0%"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Initial $T_1 = 0.50 \\implies A_1 = 0.301$. Doubling concentration doubles absorbance to $0.602$. New transmittance $T_2 = 10^{-0.602} = 0.25$ or $25\\%$[span_51](start_span)[span_51](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Transmittance drops logarithmically, not linearly[span_52](start_span)[span_52](end_span)."
+      "explanation": "Correct Answer is **A**. Initial T_1 = 0.50 \\u21d2 A_1 = 0.301. Doubling concentration doubles absorbance to 0.602. New transmittance T_2 = 10^-0.602 = 0.25 or 25%.<br>*Why others are incorrect:*<br>- **B, C, D**: Transmittance drops logarithmically, not linearly."
     },
     {
       "id": 21,
@@ -280,85 +280,85 @@
         "D": "The molecular orbitals degenerate into atomic ground states."
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Extended conjugation delocalizes $\\pi$ electrons, packing energy levels closer together, which narrows the HOMO-LUMO gap and triggers a bathochromic red shift[span_53](start_span)[span_53](end_span).<br>*Why others are incorrect:*<br>- **A**: Hypsochromic shift happens when conjugation decreases[span_54](start_span)[span_54](end_span).<br>- **C & D**: Orbital energy gaps shrink reliably with extended double-bond chains[span_55](start_span)[span_55](end_span)."
+      "explanation": "Correct Answer is **B**. Extended conjugation delocalizes \\u03c0 electrons, packing energy levels closer together, which narrows the HOMO-LUMO gap and triggers a bathochromic red shift.<br>*Why others are incorrect:*<br>- **A**: Hypsochromic shift happens when conjugation decreases.<br>- **C & D**: Orbital energy gaps shrink reliably with extended double-bond chains."
     },
     {
       "id": 22,
       "section": "Advanced UV-Vis & Electronic Transitions",
-      "question": "Which structural feature in an organic compound leads to intense absorption bands with high molar absorptivity ($\\varepsilon > 10,000\\text{ L mol}^{-1}\\text{ cm}^{-1}$) typically associated with $\\pi \\to \\pi*$ transitions?",
+      "question": "Which structural feature in an organic compound leads to intense absorption bands with high molar absorptivity (\\u03b5 > 10,000 L mol^-1 cm^-1) typically associated with \\u03c0 \\u2192 \\u03c0* transitions?",
       "options": {
-        "A": "Isolated single carbon-carbon bonds ($-\\mathrm{C-C}-$)",
-        "B": "Isolated saturated hydroxyl groups ($-\\mathrm{OH}$)",
+        "A": "Isolated single carbon-carbon bonds (-C-C-)",
+        "B": "Isolated saturated hydroxyl groups (-OH)",
         "C": "Conjugated double bonds or aromatic rings",
         "D": "Quaternary ammonium salts"
       },
       "correct": "C",
-      "explanation": "Correct Answer is **C**. Conjugated double bonds and aromatic systems provide allowed $\\pi \\to \\pi*$ transitions with high molar absorptivity values[span_56](start_span)[span_56](end_span).<br>*Why others are incorrect:*<br>- **A & B**: Isolated single bonds and hydroxyl groups lack $\\pi$ electrons[span_57](start_span)[span_57](end_span).<br>- **D**: Quaternary salts do not promote intense UV bands[span_58](start_span)[span_58](end_span)."
+      "explanation": "Correct Answer is **C**. Conjugated double bonds and aromatic systems provide allowed \\u03c0 \\u2192 \\u03c0* transitions with high molar absorptivity values.<br>*Why others are incorrect:*<br>- **A & B**: Isolated single bonds and hydroxyl groups lack \\u03c0 electrons.<br>- **D**: Quaternary salts do not promote intense UV bands."
     },
     {
       "id": 23,
       "section": "Advanced UV-Vis & Electronic Transitions",
-      "question": "What is the primary reason why saturated hydrocarbons like methane or ethane show no absorption in the near-UV or visible region ($200 - 800\\text{ nm}$) ald?",
+      "question": "What is the primary reason why saturated hydrocarbons like methane or ethane show no absorption in the near-UV or visible region (200 - 800 nm)?",
       "options": {
-        "A": "They lack mobile $\\pi$ electrons and lone pairs; their lowest energy transitions are $\\sigma \\to \\sigma*$ which require vacuum UV energy.",
+        "A": "They lack mobile \\u03c0 electrons and lone pairs; their lowest energy transitions are \\u03c3 \\u2192 \\u03c3* which require vacuum UV energy.",
         "B": "They undergo rapid sublimation inside sample cuvettes.",
         "C": "Their dipole moment is strictly zero under all conditions.",
         "D": "They absorb all wavelengths equally, acting as neutral filters."
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Saturated alkanes contain only strong $\\sigma$ bonds requiring vacuum UV photons ($\\le 185\\text{ nm}$) to excite electrons[span_59](start_span)[span_59](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Alkanes do not sublime at room temp, dipole moment does not dictate UV transparency, and they do not act as neutral filters[span_60](start_span)[span_60](end_span)."
+      "explanation": "Correct Answer is **A**. Saturated alkanes contain only strong \\u03c3 bonds requiring vacuum UV photons (\\u2264 185 nm) to excite electrons.<br>*Why others are incorrect:*<br>- **B, C, D**: Alkanes do not sublime at room temp, dipole moment does not dictate UV transparency, and they do not act as neutral filters."
     },
     {
       "id": 24,
       "section": "Advanced UV-Vis & Electronic Transitions",
-      "question": "How does shifting from a non-polar solvent (like hexane) to a polar protic solvent (like water) affect the $n \\to \\pi*$ absorption band of an $\\alpha,\\beta$-unsaturated carbonyl compound?",
+      "question": "How does shifting from a non-polar solvent (like hexane) to a polar protic solvent (like water) affect the n \\u2192 \\u03c0* absorption band of an \\u03b1,\\u03b2-unsaturated carbonyl compound?",
       "options": {
         "A": "It undergoes a hypsochromic (blue) shift due to hydrogen bonding with lone pairs on oxygen.",
-        "B": "It undergoes a massive bathochromic shift beyond $800\\text{ nm}$.",
+        "B": "It undergoes a massive bathochromic shift beyond 800 nm.",
         "C": "It transforms into a sharp emission peak.",
         "D": "It completely disappears due to precipitation."
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Polar protic solvents form hydrogen bonds with carbonyl oxygen lone pairs, lowering ground-state energy and causing a hypsochromic blue shift[span_61](start_span)[span_61](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Shifts are blue, fluorescence/emission is not created, and compounds remain dissolved[span_62](start_span)[span_62](end_span)."
+      "explanation": "Correct Answer is **A**. Polar protic solvents form hydrogen bonds with carbonyl oxygen lone pairs, lowering ground-state energy and causing a hypsochromic blue shift.<br>*Why others are incorrect:*<br>- **B, C, D**: Shifts are blue, fluorescence/emission is not created, and compounds remain dissolved."
     },
     {
       "id": 25,
       "section": "Beer-Lambert's Law & Quantitative Analysis",
-      "question": "A quality control chemist analyzes an organic pollutant at $\\lambda_{\\max} = 300\\text{ nm}$. A standard solution of concentration $2.0 \\times 10^{-4}\\text{ M}$ gives an absorbance of $0.40$ in a $1.0\\text{ cm}$ cell. What is the molar absorptivity ($\\varepsilon$) of this pollutant?",
+      "question": "A quality control chemist analyzes an organic pollutant at \\u03bb_max = 300 nm. A standard solution of concentration 2.0 \\u00d7 10^-4 M gives an absorbance of 0.40 in a 1.0 cm cell. What is the molar absorptivity (\\u03b5) of this pollutant?",
       "options": {
-        "A": "$1000\\text{ L mol}^{-1}\\text{ cm}^{-1}$",
-        "B": "$2000\\text{ L mol}^{-1}\\text{ cm}^{-1}$",
-        "C": "$4000\\text{ L mol}^{-1}\\text{ cm}^{-1}$",
-        "D": "$8000\\text{ L mol}^{-1}\\text{ cm}^{-1}$"
+        "A": "1000 L mol^-1 cm^-1",
+        "B": "2000 L mol^-1 cm^-1",
+        "C": "4000 L mol^-1 cm^-1",
+        "D": "8000 L mol^-1 cm^-1"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Applying Beer's law: $\\varepsilon = \\frac{A}{c \\cdot l} = \\frac{0.40}{2.0 \\times 10^{-4} \\times 1.0} = 2000\\text{ L mol}^{-1}\\text{ cm}^{-1}$[span_63](start_span)[span_63](end_span).<br>*Why others are incorrect:*<br>- **A, C, D**: Incorrect arithmetic ratios during division[span_64](start_span)[span_64](end_span)."
+      "explanation": "Correct Answer is **B**. Applying Beer's law: \\u03b5 = A / (c \\u00b7 l) = 0.40 / (2.0 \\u00d7 10^-4 \\u00b7 1.0) = 2000 L mol^-1 cm^-1.<br>*Why others are incorrect:*<br>- **A, C, D**: Incorrect arithmetic ratios during division."
     },
     {
       "id": 26,
       "section": "Beer-Lambert's Law & Quantitative Analysis",
-      "question": "In spectrophotometric determinations, why is it generally recommended to keep measured absorbance values within the optimal range of $0.2$ to $0.8$?",
+      "question": "In spectrophotometric determinations, why is it generally recommended to keep measured absorbance values within the optimal range of 0.2 to 0.8?",
       "options": {
         "A": "Because outside this range, instrument photometric errors and noise lead to high relative uncertainties in concentration calculations.",
-        "B": "Because solutions become explosive at absorbances above $1.0$.",
-        "C": "Because cuvettes melt if absorbance exceeds $0.9$.",
-        "D": "Beer-Lambert's law is mathematically invalid for all values outside $0.5$."
+        "B": "Because solutions become explosive at absorbances above 1.0.",
+        "C": "Because cuvettes melt if absorbance exceeds 0.9.",
+        "D": "Beer-Lambert's law is mathematically invalid for all values outside 0.5."
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Photometric error analysis confirms that relative concentration uncertainty spikes when absorbance is too low ($<0.2$) or too high ($>0.8$)[span_65](start_span)[span_65](end_span).<br>*Why others are incorrect:*<br>- **B & C**: Absorbent solutions are stable and do not explode or melt cuvettes[span_66](start_span)[span_66](end_span).<br>- **D**: Beer-Lambert law remains valid over broader ranges if instrumental linearity holds[span_67](start_span)[span_67](end_span)."
+      "explanation": "Correct Answer is **A**. Photometric error analysis confirms that relative concentration uncertainty spikes when absorbance is too low (<0.2) or too high (>0.8).<br>*Why others are incorrect:*<br>- **B & C**: Absorbent solutions are stable and do not explode or melt cuvettes.<br>- **D**: Beer-Lambert law remains valid over broader ranges if instrumental linearity holds."
     },
     {
       "id": 27,
       "section": "Beer-Lambert's Law & Quantitative Analysis",
-      "question": "If a sample solution obeys Beer-Lambert's law, plotting Absorbance ($A$) versus Concentration ($c$) at a fixed path length will yield:",
+      "question": "If a sample solution obeys Beer-Lambert's law, plotting Absorbance (A) versus Concentration (c) at a fixed path length will yield:",
       "options": {
         "A": "A hyperbola asymptotic to both axes",
-        "B": "A straight line passing through the origin with slope equal to $\\varepsilon l$",
+        "B": "A straight line passing through the origin with slope equal to \\u03b5 l",
         "C": "An exponential decay curve",
         "D": "A sinusoidal wave function"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Since $A = (\\varepsilon l)c$, a plot of $A$ vs $c$ produces a direct linear graph passing through origin with slope $\\varepsilon l$[span_68](start_span)[span_68](end_span).<br>*Why others are incorrect:*<br>- **A, C, D**: Linear proportionality rules out hyperbolas, exponentials, or sinusoids[span_69](start_span)[span_69](end_span)."
+      "explanation": "Correct Answer is **B**. Since A = (\\u03b5 \\u00b7 l) \\u00b7 c, a plot of A vs c produces a direct linear graph passing through origin with slope \\u03b5 \\u00b7 l.<br>*Why others are incorrect:*<br>- **A, C, D**: Linear proportionality rules out hyperbolas, exponentials, or sinusoids."
     },
     {
       "id": 28,
@@ -371,20 +371,20 @@
         "D": "Excessive cooling of the photodetector"
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Stray light (scattered polychromatic light bypassing the sample chamber) causes negative absorbance deviations at high concentrations[span_70](start_span)[span_70](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Vacuum pressure, grating dispersion, and cooling do not cause stray light deviations when calibrated properly[span_71](start_span)[span_71](end_span)."
+      "explanation": "Correct Answer is **A**. Stray light (scattered polychromatic light bypassing the sample chamber) causes negative absorbance deviations at high concentrations.<br>*Why others are incorrect:*<br>- **B, C, D**: Vacuum pressure, grating dispersion, and cooling do not cause stray light deviations when calibrated properly."
     },
     {
       "id": 29,
       "section": "Advanced UV-Vis & Electronic Transitions",
-      "question": "What happens to the UV absorption spectrum of an organic molecule containing an ionisable group (such as phenol or aniline) when the $\\mathrm{pH}$ of the solution is drastically altered?",
+      "question": "What happens to the UV absorption spectrum of an organic molecule containing an ionisable group (such as phenol or aniline) when the pH of the solution is drastically altered?",
       "options": {
         "A": "The spectrum remains completely unaffected by pH changes.",
         "B": "A pronounced spectral shift and change in absorption intensity occurs due to conversion between ionized and unionized forms (e.g., phenol to phenoxide ion).",
         "C": "The molecule instantly polymerizes into a resin.",
-        "D": "All electronic transitions are converted entirely to $\\sigma \\to \\sigma*$."
+        "D": "All electronic transitions are converted entirely to \\u03c3 \\u2192 \\u03c3*"
       },
       "correct": "B",
-      "explanation": "Correct Answer is **B**. Changing pH alters protonation state (e.g., phenol to phenoxide ion), modifying resonance and conjugation, which shifts $\\lambda_{\\max}$ and intensity[span_72](start_span)[span_72](end_span)[span_73](start_span)[span_73](end_span).<br>*Why others are incorrect:*<br>- **A**: pH changes directly affect ionization states and spectra[span_74](start_span)[span_74](end_span)[span_75](start_span)[span_75](end_span).<br>- **C & D**: Polymerization does not occur spontaneously, and $\\sigma \\to \\sigma*$ transitions do not replace electronic UV transitions[span_76](start_span)[span_76](end_span)[span_77](start_span)[span_77](end_span)."
+      "explanation": "Correct Answer is **B**. Changing pH alters protonation state (e.g., phenol to phenoxide ion), modifying resonance and conjugation, which shifts \\u03bb_max and intensity.<br>*Why others are incorrect:*<br>- **A**: pH changes directly affect ionization states and spectra.<br>- **C & D**: Polymerization does not occur spontaneously, and \\u03c3 \\u2192 \\u03c3* transitions do not replace electronic UV transitions."
     },
     {
       "id": 30,
@@ -397,7 +397,7 @@
         "D": "Isolating them via magnetic stirring inside the cuvette."
       },
       "correct": "A",
-      "explanation": "Correct Answer is **A**. Absorbance is strictly additive; total absorbance at any wavelength equals the sum of absorbances of each individual component, enabling simultaneous multi-component linear equations[span_78](start_span)[span_78](end_span).<br>*Why others are incorrect:*<br>- **B, C, D**: Transmittances do not add up linearly, path lengths multiply only for single components, and physical stirring cannot separate overlapping molecular absorbances[span_79](start_span)[span_79](end_span)."
+      "explanation": "Correct Answer is **A**. Absorbance is strictly additive; total absorbance at any wavelength equals the sum of absorbances of each individual component, enabling simultaneous multi-component linear equations.<br>*Why others are incorrect:*<br>- **B, C, D**: Transmittances do not add up linearly, path lengths multiply only for single components, and physical stirring cannot separate overlapping molecular absorbances."
     }
   ]
 }
