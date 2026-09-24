@@ -300,28 +300,14 @@ footer {
     padding: 3px 6px;
   }
 }
-/* ⚡ मॉक टेस्ट के बीच वाले हिस्से (Question Area) को स्क्रॉल कराने के लिए */
-.quiz-container, .question-container, .test-body {
-  flex: 1 !important;
-  overflow-y: auto !important;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 80px !important; /* 👈 यह बटन्स के ऊपर एक्स्ट्रा स्पेस देगा */
-}
-/* ⚡ इसे style.css के सबसे नीचे पेस्ट करें */
-.dashboard-body, 
-[class*="question"], 
-[class*="quiz"], 
-[class*="test-content"] {
-  padding-bottom: 120px !important; /* 👈 यह 120px का स्पेस आखरी ऑप्शन को बटन से ऊपर उठा देगा */
+/* ⚡ मॉक टेस्ट के स्क्रॉलिंग बॉक्स को नीचे एक्स्ट्रा स्पेस देने के लिए */
+.question-wrapper {
+  padding-bottom: 120px !important; /* 👈 यह आखिरी ऑप्शन को बटन से काफी ऊपर ले आएगा */
   box-sizing: border-box !important;
 }
-/* पूरे पेज की बॉडी के लिए */
-body {
-  height: 100vh !important;
-  overflow: hidden !important;
+
+/* ऑप्शंस के ग्रिड को भी नीचे से सुरक्षित दूरी दें */
+.options-grid {
+  margin-bottom: 40px !important;
 }
 
-/* ऑप्शंस वाले कंटेनर के अंदर आखरी एलिमेंट के बाद स्पेस बनाने के लिए */
-.options-container, .options-list {
-  margin-bottom: 100px !important; /* बटन पैनल के लिए सुरक्षित दूरी */
-}
