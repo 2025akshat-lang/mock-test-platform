@@ -59,13 +59,30 @@ body {
 .goal-selector { background: rgba(255,255,255,0.12); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 6px; }
 .user-profile-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--primary); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; border: 2px solid #38bdf8; cursor: pointer; }
 
-/* DASHBOARD BODY */
-.dashboard-body {
+/* सिर्फ होम डैशबोर्ड व्यू के लिए */
+#home-dashboard {
   width: 100%;
-             /* 👈 दोनों तरफ हल्की सुरक्षित जगह */
-  box-sizing: border-box;  /* 👈 स्क्रीन साइज को लॉक रखेगा */
-  overflow-x: hidden;      /* 👈 साइड स्क्रॉलिंग पूरी तरह बंद */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
 }
+
+/* ⚠️ ध्यान दें: इसे सिर्फ #home-dashboard के अंदर वाली body पर लागू करें */
+#home-dashboard .dashboard-body {
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
+  overflow-y: auto;          
+  -webkit-overflow-scrolling: touch;
+  padding: 12px 12px 100px 12px; 
+}
+
 
 
 /* BREADCRUMB / BACK BAR */
