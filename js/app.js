@@ -1,4 +1,3 @@
-
 // ============================================================
 // 🎮 1. CENTRAL CONTROL PANEL (App Orchestrator)
 // ============================================================
@@ -287,20 +286,31 @@ const MockPanel = (() => {
     return out.join('');
   }
 
-  function renderMath(container) {
-    if (!container || typeof window.renderMathInElement !== 'function') return;
-    try {
-      window.renderMathInElement(container, {
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '\\[', right: '\\]', display: true },
-          { left: '$', right: '$', display: false },
-          { left: '\\(', right: '\\)', display: false }
-        ],
-        throwOnError: false
-      });
-    } catch (e) { console.error('KaTeX render failed:', e); }
+      function renderMath(container) {
+    if (!container) return;
+    
+    // Check if MathJax is available on the window object
+    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+      try {
+        // Clear any old tracking for this container if typesetClear exists
+        if (typeof window.MathJax.typesetClear === 'function') {
+          window.MathJax.typesetClear([container]);
+        }
+        // Force sync typesetting on the specific element container
+        window.MathJax.typeset([container]);
+      } catch (e) {
+        console.error('MathJax render failed:', e);
+      }
+    } else {
+      // Fallback: If MathJax script is still loading asynchronously, retry after a short delay
+      setTimeout(() => {
+        if (window.MathJax && typeof window.MathJax.typeset === 'function') {
+          window.MathJax.typeset([container]);
+        }
+      }, 300);
+    }
   }
+
 
   async function startMock(testId) {
     const meta = currentSubCatTests.find(m => m.id === testId);
@@ -482,16 +492,9 @@ const MockPanel = (() => {
     }, 1000);
   }
 
-   function submitTestModal() {
-    // Iframe ya Google Sites ke andar confirm() block ho jata hai, 
-    // isliye direct submitExam() ya safe check use karenge:
-    if (window.self !== window.top) {
-      // Agar site kisi iframe (jaise Google Sites) ke andar hai toh direct submit kar do ya custom alert rakho
+  function submitTestModal() {
+    if (confirm("Are you sure you want to submit the test?")) {
       submitExam();
-    } else {
-      if (confirm("Are you sure you want to submit the test?")) {
-        submitExam();
-      }
     }
   }
 
