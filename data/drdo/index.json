@@ -4,7 +4,7 @@
     "file": "drdo-1.json",
     "title": "DRDO CEPTAM Tier-2 Mock Test 1",
     "timeMins": 120,
-    "badgeText": "MEMORY BASED",
+    "badgeText": "PATTERN BASED",
     "badgeClass": "badge-memory",
     "questionCount": 120,
     "maxMarks": 120
