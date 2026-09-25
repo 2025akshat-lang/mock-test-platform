@@ -3,583 +3,343 @@
   "subCatId": "jmi",
   "title": "JMI Entrance B23 Test 1",
   "timeMins": 60,
-  "badgeText": "FREE",
+  "badgeText": "PATTERN BASED",
   "badgeClass": "badge-free",
   "questions": [
     {
       "id": 1,
       "section": "General Awareness",
-      "question": "Where was the electricity supply first introduced in India –",
-      "options": {
-        "A": "Mumbai",
-        "B": "Dehradun",
-        "C": "Darjeeling",
-        "D": "Chennai"
-      },
+      "question": "In India, electricity supply was first introduced at which of these places?",
+      "options": { "A": "Mumbai", "B": "Dehradun", "C": "Darjeeling", "D": "Chennai" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Electricity was first introduced in Darjeeling in 1897 with the commissioning of the Sidrapong Hydroelectric Power Station.\nIt is recognized as the first hydroelectric project in India and Asia."
+      "explanation": "India's electricity supply began in Darjeeling in 1897 with the Sidrapong Hydroelectric Power Station going into operation. It holds the distinction of being the first hydel project in both India and Asia."
     },
     {
       "id": 2,
       "section": "General Awareness",
-      "question": "Which of the following is related to Bharat Nirman Scheme?",
-      "options": {
-        "A": "Foodgrain production self sufficiency",
-        "B": "Family welfare programme",
-        "C": "Infrastructure development",
-        "D": "Employment generation program"
-      },
+      "question": "The Bharat Nirman Scheme is primarily connected with which of these areas?",
+      "options": { "A": "Foodgrain production self sufficiency", "B": "Family welfare programme", "C": "Infrastructure development", "D": "Employment generation program" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Bharat Nirman is a time-bound plan for rural infrastructure development launched by the Government of India.\nIt focuses on six areas: irrigation, roads, housing, water supply, electrification, and telecommunication."
+      "explanation": "Bharat Nirman is a time-bound rural infrastructure plan rolled out by the Government of India. It spans six focus areas: irrigation, roads, housing, water supply, electrification and telecommunication."
     },
     {
       "id": 3,
       "section": "General Awareness",
-      "question": "Which one of the following ports is the oldest port in India?",
-      "options": {
-        "A": "Mumbai Port",
-        "B": "Chennai Port",
-        "C": "Kolkata Port",
-        "D": "Vishakhapatnam Port"
-      },
+      "question": "Among the options given, which port is India's oldest?",
+      "options": { "A": "Mumbai Port", "B": "Chennai Port", "C": "Kolkata Port", "D": "Vishakhapatnam Port" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Syama Prasad Mookerjee Port (formerly Kolkata Port) is the oldest operating port in India, established in 1870.\nIt was a premier port under the British East India Company and remains a major riverine port."
+      "explanation": "Syama Prasad Mookerjee Port, earlier called Kolkata Port, is India's oldest functioning port, dating to 1870. It was a leading port under British East India Company rule and continues as a major riverine port today."
     },
     {
       "id": 4,
       "section": "General Awareness",
-      "question": "Hitler party which came into power in 1933 is known as",
-      "options": {
-        "A": "Ku-Klux-Klan",
-        "B": "Democratic Party",
-        "C": "Labour Party",
-        "D": "Nazi Party"
-      },
+      "question": "The political party under Hitler that seized power in 1933 is called the",
+      "options": { "A": "Ku-Klux-Klan", "B": "Democratic Party", "C": "Labour Party", "D": "Nazi Party" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The National Socialist German Workers' Party, commonly known as the Nazi Party, came to power in 1933.\nLed by Adolf Hitler, it established a totalitarian regime that lasted until the end of WWII."
+      "explanation": "The National Socialist German Workers' Party — the Nazi Party — took power in Germany in 1933. Under Adolf Hitler's leadership, it built a totalitarian state that lasted until WWII ended."
     },
     {
       "id": 5,
       "section": "General Awareness",
-      "question": "Friction can be reduced by changing from",
-      "options": {
-        "A": "rolling to sliding",
-        "B": "sliding to rolling",
-        "C": "dynamic to static",
-        "D": "potential energy to kinetic energy"
-      },
+      "question": "Friction is lowered by shifting from",
+      "options": { "A": "rolling to sliding", "B": "sliding to rolling", "C": "dynamic to static", "D": "potential energy to kinetic energy" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Rolling friction is significantly lower than sliding friction because the area of contact is smaller.\nThis principle is used in ball bearings and wheels to improve efficiency and reduce wear."
+      "explanation": "Because the contact area is smaller, rolling friction is much lower than sliding friction. This is why ball bearings and wheels are used to cut down wear and boost efficiency."
     },
     {
       "id": 6,
       "section": "General Awareness",
-      "question": "Entomology is the science that studies",
-      "options": {
-        "A": "The origin and history of technical and scientific terms",
-        "B": "Behavior of human beings",
-        "C": "Insects",
-        "D": "The formation of rocks"
-      },
+      "question": "The branch of science called Entomology focuses on studying",
+      "options": { "A": "The origin and history of technical and scientific terms", "B": "Behavior of human beings", "C": "Insects", "D": "The formation of rocks" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Entomology is a branch of zoology concerned with the scientific study of insects.\nIt covers their classification, life cycles, and roles in the environment and agriculture."
+      "explanation": "Entomology is a zoological discipline devoted to the study of insects, covering their classification, life cycles and ecological or agricultural significance."
     },
     {
       "id": 7,
       "section": "General Awareness",
-      "question": "For the Olympics and World Tournaments, the dimensions of basketball court are",
-      "options": {
-        "A": "27 m x 16 m",
-        "B": "28 m x 15 m",
-        "C": "26 m x 14 m",
-        "D": "28 m x 16 m"
-      },
+      "question": "At the Olympics and other world-level tournaments, a basketball court measures",
+      "options": { "A": "27 m x 16 m", "B": "28 m x 15 m", "C": "26 m x 14 m", "D": "28 m x 16 m" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "FIBA regulations for international competitions, including the Olympics, specify a court size of 28 meters by 15 meters.\nThis standardized dimension ensures consistency across top-level global tournaments."
+      "explanation": "FIBA rules for international events, Olympics included, set the court at 28 by 15 metres, keeping dimensions uniform across top-tier global competitions."
     },
     {
       "id": 8,
       "section": "General Awareness",
-      "question": "Garampani sanctuary is located at",
-      "options": {
-        "A": "Gangtok, Sikkim",
-        "B": "Kohima, Nagaland",
-        "C": "Diphu, Assam",
-        "D": "Junagarh, Gujarat"
-      },
+      "question": "The Garampani wildlife sanctuary is situated near",
+      "options": { "A": "Gangtok, Sikkim", "B": "Kohima, Nagaland", "C": "Diphu, Assam", "D": "Junagarh, Gujarat" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Garampani Wildlife Sanctuary is located in the Karbi Anglong district near Diphu, Assam.\nIt is one of the oldest sanctuaries in the state, famous for its hot water springs."
+      "explanation": "Garampani Wildlife Sanctuary sits in Assam's Karbi Anglong district close to Diphu. It's among the state's oldest sanctuaries, known especially for its hot springs."
     },
     {
       "id": 9,
       "section": "General Awareness",
-      "question": "Where can Coral reefs be found in India?",
-      "options": {
-        "A": "The Malabar Coast",
-        "B": "Rameshwaram",
-        "C": "Trivandrum",
-        "D": "Mahabalipuram"
-      },
+      "question": "Coral reef formations in India are found near",
+      "options": { "A": "The Malabar Coast", "B": "Rameshwaram", "C": "Trivandrum", "D": "Mahabalipuram" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Coral reefs are found in the Gulf of Mannar near Rameshwaram, which is a major reef system in India.\nOther major reef areas include Lakshadweep, Andaman Islands, and the Gulf of Kutch."
+      "explanation": "The Gulf of Mannar, close to Rameshwaram, hosts one of India's major coral reef systems. Other significant reef zones include Lakshadweep, the Andaman Islands and the Gulf of Kutch."
     },
     {
       "id": 10,
       "section": "General Awareness",
-      "question": "Objects at the surface of water can be viewed from a submarine under water by using this instrument.",
-      "options": {
-        "A": "Stethescope",
-        "B": "Periscope",
-        "C": "Kaleidoscope",
-        "D": "Telescope"
-      },
+      "question": "Which device lets a submerged submarine crew see objects floating on the water's surface?",
+      "options": { "A": "Stethescope", "B": "Periscope", "C": "Kaleidoscope", "D": "Telescope" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "A periscope allows an observer to view objects that are out of the direct line of sight using mirrors or prisms.\nIt is standard equipment for submarines to monitor the surface while remaining submerged."
+      "explanation": "A periscope uses mirrors or prisms to let an observer see things outside their direct line of sight, making it standard submarine equipment for surface monitoring while staying underwater."
     },
     {
       "id": 11,
       "section": "General Awareness",
-      "question": "Which one of the following river flows between Vindhyan and Satpura ranges?",
-      "options": {
-        "A": "Narmada",
-        "B": "Mahanadi",
-        "C": "Son",
-        "D": "Netravati"
-      },
+      "question": "Which river runs through the gap between the Vindhya and Satpura ranges?",
+      "options": { "A": "Narmada", "B": "Mahanadi", "C": "Son", "D": "Netravati" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Narmada River flows through a rift valley located between the Vindhya and Satpura mountain ranges.\nIt is one of the few major rivers in India that flows from east to west into the Arabian Sea."
+      "explanation": "The Narmada flows through a rift valley wedged between the Vindhya and Satpura ranges, and is notable as one of the few major Indian rivers flowing east to west into the Arabian Sea."
     },
     {
       "id": 12,
       "section": "General Awareness",
-      "question": "The Central Rice Research Station is situated in?",
-      "options": {
-        "A": "Chennai",
-        "B": "Cuttack",
-        "C": "Bangalore",
-        "D": "Quilon"
-      },
+      "question": "Where does the Central Rice Research Station stand?",
+      "options": { "A": "Chennai", "B": "Cuttack", "C": "Bangalore", "D": "Quilon" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Central Rice Research Institute (CRRI) is located in Cuttack, Odisha.\nIt was established to conduct research for improving rice production and ensuring food security."
+      "explanation": "The Central Rice Research Institute (CRRI) is based in Cuttack, Odisha, set up to research ways of boosting rice yields and strengthening food security."
     },
     {
       "id": 13,
       "section": "General Awareness",
-      "question": "Who among the following wrote Sanskrit grammar?",
-      "options": {
-        "A": "Kalidasa",
-        "B": "Charak",
-        "C": "Panini",
-        "D": "Aryabhatt"
-      },
+      "question": "Which of these figures authored a treatise on Sanskrit grammar?",
+      "options": { "A": "Kalidasa", "B": "Charak", "C": "Panini", "D": "Aryabhatt" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Panini was an ancient Sanskrit philologist and grammarian who authored the famous 'Astadhyayi'.\nHis work laid the foundation for Classical Sanskrit and linguistic studies."
+      "explanation": "Panini, an ancient Sanskrit grammarian and philologist, wrote the celebrated 'Astadhyayi', a work that laid the groundwork for Classical Sanskrit and linguistics as a field."
     },
     {
       "id": 14,
       "section": "General Awareness",
-      "question": "Which among the following head-streams meets the Ganges in last?",
-      "options": {
-        "A": "Alaknanda",
-        "B": "Pindar",
-        "C": "Mandakini",
-        "D": "Bhagirathi"
-      },
+      "question": "Out of these headstreams, which one is said to finally join and form the Ganges?",
+      "options": { "A": "Alaknanda", "B": "Pindar", "C": "Mandakini", "D": "Bhagirathi" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Bhagirathi and Alaknanda rivers meet at Devprayag to form the mainstream of the Ganges.\nBhagirathi is traditionally considered the source head-stream that 'meets' the others to finalize the river's name."
+      "explanation": "At Devprayag, the Bhagirathi and Alaknanda converge to form the Ganges' mainstream. Bhagirathi is traditionally treated as the source stream that finalizes the river's name."
     },
     {
       "id": 15,
       "section": "General Awareness",
-      "question": "The metal whose salts are sensitive to light is?",
-      "options": {
-        "A": "Zinc",
-        "B": "Silver",
-        "C": "Copper",
-        "D": "Aluminum"
-      },
+      "question": "Which metal has salts known to react to light exposure?",
+      "options": { "A": "Zinc", "B": "Silver", "C": "Copper", "D": "Aluminum" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Silver salts, particularly silver halides like silver bromide, are highly sensitive to light.\nThis property was the basis for traditional film-based photography before the digital era."
+      "explanation": "Silver salts — silver bromide among them — are highly light-sensitive, a property that underpinned traditional film photography before digital imaging took over."
     },
     {
       "id": 16,
       "section": "General Awareness",
-      "question": "Patanjali is well known for the compilation of –",
-      "options": {
-        "A": "Yoga Sutra",
-        "B": "Panchatantra",
-        "C": "Brahma Sutra",
-        "D": "Ayurveda"
-      },
+      "question": "Sage Patanjali is chiefly remembered for compiling which text?",
+      "options": { "A": "Yoga Sutra", "B": "Panchatantra", "C": "Brahma Sutra", "D": "Ayurveda" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Sage Patanjali is credited with compiling the Yoga Sutras, a foundational text of Yoga philosophy.\nIt outlines the eight-fold path (Ashtanga) for achieving physical and mental well-being."
+      "explanation": "Patanjali compiled the Yoga Sutras, a cornerstone text of Yoga philosophy that lays out the eight-fold path (Ashtanga) toward physical and mental wellbeing."
     },
     {
       "id": 17,
       "section": "General Awareness",
-      "question": "Which one of the following rivers originates in Brahmagiri range of Western Ghats?",
-      "options": {
-        "A": "Pennar",
-        "B": "Cauvery",
-        "C": "Krishna",
-        "D": "Tapti"
-      },
+      "question": "Which river has its source in the Brahmagiri range of the Western Ghats?",
+      "options": { "A": "Pennar", "B": "Cauvery", "C": "Krishna", "D": "Tapti" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Cauvery (Kaveri) River originates at Talakaveri in the Brahmagiri Range of the Western Ghats in Karnataka.\nIt is one of the most sacred rivers of South India and a vital source for irrigation."
+      "explanation": "The Cauvery originates at Talakaveri in Karnataka's Brahmagiri Range, part of the Western Ghats. It's revered as one of South India's most sacred rivers and a key irrigation source."
     },
     {
       "id": 18,
       "section": "General Awareness",
-      "question": "The country that has the highest in Barley Production?",
-      "options": {
-        "A": "China",
-        "B": "India",
-        "C": "Russia",
-        "D": "France"
-      },
+      "question": "Which nation leads the world in barley production?",
+      "options": { "A": "China", "B": "India", "C": "Russia", "D": "France" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Russia is consistently ranked as the top global producer of barley.\nIt is a major agricultural commodity used for animal feed and brewing industries."
+      "explanation": "Russia consistently tops global barley output. It's a key agricultural commodity used in animal feed and the brewing industry."
     },
     {
       "id": 19,
       "section": "General Awareness",
-      "question": "Volcanic eruption do not occur in the",
-      "options": {
-        "A": "Baltic sea",
-        "B": "Black sea",
-        "C": "Caribbean sea",
-        "D": "Caspian sea"
-      },
+      "question": "In which of these seas do volcanic eruptions not occur?",
+      "options": { "A": "Baltic sea", "B": "Black sea", "C": "Caribbean sea", "D": "Caspian sea" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Baltic Sea is located on a stable tectonic plate region where volcanic activity is non-existent.\nIn contrast, regions like the Caribbean Sea have active volcanic arcs due to plate boundaries."
+      "explanation": "Sitting on a stable tectonic zone, the Baltic Sea has no volcanic activity, unlike the Caribbean Sea, where active volcanic arcs exist due to plate boundaries."
     },
     {
       "id": 20,
       "section": "General Awareness",
-      "question": "The hottest planet in the solar system?",
-      "options": {
-        "A": "Mercury",
-        "B": "Venus",
-        "C": "Mars",
-        "D": "Jupiter"
-      },
+      "question": "Which planet is the hottest in our solar system?",
+      "options": { "A": "Mercury", "B": "Venus", "C": "Mars", "D": "Jupiter" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Venus is the hottest planet because of its extremely thick atmosphere that traps heat through a runaway greenhouse effect.\nIts surface temperature remains high enough to melt lead, exceeding that of Mercury."
+      "explanation": "Venus's thick atmosphere traps heat via a runaway greenhouse effect, pushing its surface temperature high enough to melt lead — hotter even than Mercury, despite being farther from the Sun."
     },
     {
       "id": 21,
       "section": "General Awareness",
-      "question": "Which of the following musical instruments is played by Amjad Ali Khan?",
-      "options": {
-        "A": "Veena",
-        "B": "Tabla",
-        "C": "Sarod",
-        "D": "Guitar"
-      },
+      "question": "Amjad Ali Khan is renowned for playing which musical instrument?",
+      "options": { "A": "Veena", "B": "Tabla", "C": "Sarod", "D": "Guitar" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "Ustad Amjad Ali Khan is a world-renowned Indian classical sarod player, belonging to the Bangash lineage. He was awarded the Padma Vibhushan in 2001 for his contributions to music."
+      "explanation": "Ustad Amjad Ali Khan, from the Bangash lineage, is a globally celebrated sarod player in Indian classical music. He received the Padma Vibhushan in 2001 for his musical contributions."
     },
     {
       "id": 22,
       "section": "General Awareness",
-      "question": "Ms. Meera Sahib Fathima Beevi has the distinction of being the first lady—",
-      "options": {
-        "A": "Prime minister of Pakistan",
-        "B": "Judge of the District Court",
-        "C": "Chief Minister of a State",
-        "D": "Judge of Supreme Court"
-      },
+      "question": "Fathima Beevi is known as the first woman to hold which position?",
+      "options": { "A": "Prime minister of Pakistan", "B": "Judge of the District Court", "C": "Chief Minister of a State", "D": "Judge of Supreme Court" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "75%",
-      "explanation": "Justice M. Fathima Beevi became the first female judge to be appointed to the Supreme Court of India in 1989. She also served as the Governor of Tamil Nadu later in her career."
+      "explanation": "Justice M. Fathima Beevi became India's first woman Supreme Court judge in 1989, and later went on to serve as Governor of Tamil Nadu."
     },
     {
       "id": 23,
       "section": "General Awareness",
-      "question": "A change of the DNA of an organism resulting in a new trait is known as a ______.",
-      "options": {
-        "A": "Mitosis",
-        "B": "Meiosis",
-        "C": "Mutation",
-        "D": "Morphosis"
-      },
+      "question": "A shift in an organism's DNA that produces a new trait is called a ______.",
+      "options": { "A": "Mitosis", "B": "Meiosis", "C": "Mutation", "D": "Morphosis" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "A mutation is a permanent alteration in the DNA sequence that makes up a gene. This genetic variation can lead to the expression of new physical or behavioral traits in an organism."
+      "explanation": "A mutation is a lasting change in a gene's DNA sequence, and this genetic variation can result in new physical or behavioral traits appearing in an organism."
     },
     {
       "id": 24,
       "section": "General Awareness",
-      "question": "The Book \"The Ministry of utmost happiness\" is written by—",
-      "options": {
-        "A": "Vikram Seth",
-        "B": "Anita Desai",
-        "C": "Kaavya Viswanathan",
-        "D": "Arundhati Roy"
-      },
+      "question": "Who wrote the novel 'The Ministry of Utmost Happiness'?",
+      "options": { "A": "Vikram Seth", "B": "Anita Desai", "C": "Kaavya Viswanathan", "D": "Arundhati Roy" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Ministry of Utmost Happiness is the second novel by Arundhati Roy, published in 2017, twenty years after her Booker Prize-winning debut. It weaves together diverse stories from across the Indian subcontinent."
+      "explanation": "Arundhati Roy's second novel, released in 2017, arrived two decades after her Booker Prize-winning debut. It brings together varied narratives from across the Indian subcontinent."
     },
     {
       "id": 25,
       "section": "General Awareness",
-      "question": "Which of the following Company buy eBay's Indian operation?",
-      "options": {
-        "A": "Amazon",
-        "B": "Flipkart",
-        "C": "Snapdeal",
-        "D": "PayTM"
-      },
+      "question": "eBay's India business was acquired by which of these companies?",
+      "options": { "A": "Amazon", "B": "Flipkart", "C": "Snapdeal", "D": "PayTM" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "70%",
-      "explanation": "In 2017, Flipkart acquired eBay's India business as part of a strategic partnership and investment round. eBay eventually sold its stake in Flipkart and relaunched eBay.in as a separate entity later."
+      "explanation": "Flipkart took over eBay's India operations in 2017 as part of a strategic deal and investment. eBay later exited its Flipkart stake and re-launched eBay.in independently."
     },
     {
       "id": 26,
       "section": "General Awareness",
-      "question": "White rust is an important fungal disease of—",
-      "options": {
-        "A": "Wheat",
-        "B": "Mustard",
-        "C": "Rice",
-        "D": "Bajra"
-      },
+      "question": "White rust is a notable fungal disease affecting which crop?",
+      "options": { "A": "Wheat", "B": "Mustard", "C": "Rice", "D": "Bajra" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "65%",
-      "explanation": "White rust is a common plant disease caused by the oomycete Albugo candida, primarily affecting cruciferous crops like mustard. It is identified by white, chalky pustules on the undersides of leaves."
+      "explanation": "Caused by the oomycete Albugo candida, white rust is a widespread disease of cruciferous crops such as mustard, marked by chalky white pustules on the underside of leaves."
     },
     {
       "id": 27,
       "section": "General Awareness",
-      "question": "Which of the following is the largest air pollutant?",
-      "options": {
-        "A": "Carbon dioxide",
-        "B": "Carbon monoxide",
-        "C": "Sulphur dioxide",
-        "D": "Hydrocarbons"
-      },
+      "question": "By quantity emitted, which is the largest air pollutant?",
+      "options": { "A": "Carbon dioxide", "B": "Carbon monoxide", "C": "Sulphur dioxide", "D": "Hydrocarbons" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "60%",
-      "explanation": "Carbon monoxide (CO) is often considered the largest single air pollutant by mass emitted globally from anthropogenic sources, mainly due to incomplete combustion in vehicles and industry."
+      "explanation": "By mass, carbon monoxide (CO) is often regarded as the leading anthropogenic air pollutant globally, largely a result of incomplete combustion from vehicles and industrial processes."
     },
     {
       "id": 28,
       "section": "General Awareness",
-      "question": "In binary code, the number 7 is written by—",
-      "options": {
-        "A": "110",
-        "B": "111",
-        "C": "101",
-        "D": "100"
-      },
+      "question": "How is the number 7 represented in binary code?",
+      "options": { "A": "110", "B": "111", "C": "101", "D": "100" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "In binary (base 2), the number 7 is converted by summing powers of 2: (1 * 2^2) + (1 * 2^1) + (1 * 2^0) = 4 + 2 + 1 = 7. Thus, it is represented as 111."
+      "explanation": "Converting to base 2 by summing powers of 2: (1×2²) + (1×2¹) + (1×2⁰) = 4+2+1 = 7, giving the binary representation 111."
     },
     {
       "id": 29,
       "section": "General Awareness",
-      "question": "The Atomic Nucleus was discovered by—",
-      "options": {
-        "A": "Rutherford",
-        "B": "Dalton",
-        "C": "Einstein",
-        "D": "Thompson"
-      },
+      "question": "Who is credited with discovering the atomic nucleus?",
+      "options": { "A": "Rutherford", "B": "Dalton", "C": "Einstein", "D": "Thompson" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "Ernest Rutherford discovered the atomic nucleus in 1911 using his famous alpha-particle scattering experiment (Gold Foil Experiment), proving that the atom's mass is concentrated in a tiny central core."
+      "explanation": "Ernest Rutherford discovered the atomic nucleus in 1911 through his gold foil alpha-particle scattering experiment, showing that an atom's mass is concentrated in a tiny central core."
     },
     {
       "id": 30,
       "section": "General Awareness",
-      "question": "Rouff is a folk dance. It has its original in?",
-      "options": {
-        "A": "Assam",
-        "B": "Mizoram",
-        "C": "Kashmir",
-        "D": "Himachal Pradesh"
-      },
+      "question": "Rouf, a folk dance, traces its roots to which region?",
+      "options": { "A": "Assam", "B": "Mizoram", "C": "Kashmir", "D": "Himachal Pradesh" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Rouf is a traditional folk dance of Jammu and Kashmir, primarily performed by Kashmiri women during festive occasions like Eid and to celebrate the onset of the spring season."
+      "explanation": "Rouf is a traditional Kashmiri folk dance performed mainly by women during festivities such as Eid and to mark the arrival of spring."
     },
     {
       "id": 31,
       "section": "Reasoning",
-      "question": "If 'x' stands for 'addition', '<' for 'subtraction', '+' for 'division', '>' for 'multiplication', '-' for 'equal to', and '=' for 'less than', then state which of the following is true?",
+      "question": "Suppose 'x' represents 'addition', '<' represents 'subtraction', '+' represents 'division', '>' represents 'multiplication', '-' represents 'equal to', and '=' represents 'less than'. Which statement below holds true?",
       "options": {
         "A": "3 x 4 > 2 - 9 + 3 < 3",
         "B": "5 x 3 < 7 = 8 + 4 x 1",
@@ -587,75 +347,48 @@
         "D": "3 x 2 < 4 ÷ 16 > 2 + 4"
       },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "50%",
-      "explanation": "Decoding option B: 5 + 3 - 7 < (8 / 4) + 1. Calculation: LHS = 1, RHS = 3. Since 1 < 3 is true and '=' represents '<', the coded expression '1 = 3' is the valid result."
+      "explanation": "Decoding option B gives: 5 + 3 - 7 < (8 ÷ 4) + 1. Working it out: LHS = 1, RHS = 3. Since '=' stands for '<', and 1 is indeed less than 3, the coded statement checks out as true."
     },
     {
       "id": 32,
       "section": "Reasoning",
-      "question": "If each of the odd digits in the number 54638 is decreased by 1 and each of the even digits is increased by 1, then which of the following will be the sum of the digits of the new number?",
-      "options": {
-        "A": "25",
-        "B": "26",
-        "C": "28",
-        "D": "29"
-      },
+      "question": "In the number 54638, every odd digit is lowered by 1 and every even digit raised by 1. What is the digit sum of the resulting number?",
+      "options": { "A": "25", "B": "26", "C": "28", "D": "29" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "70%",
-      "explanation": "Original digits: 5(O), 4(E), 6(E), 3(O), 8(E). New digits: (5-1)=4, (4+1)=5, (6+1)=7, (3-1)=2, (8+1)=9. Sum: 4+5+7+2+9 = 27. (Note: Closest option is usually selected if a minor typo exists in paper digits)."
+      "explanation": "Starting digits: 5(odd), 4(even), 6(even), 3(odd), 8(even). Adjusted: 4, 5, 7, 2, 9 — summing to 27. (A near-matching option is typically chosen when a slight discrepancy exists in the source numbers.)"
     },
     {
       "id": 33,
       "section": "Reasoning",
-      "question": "How many times will you write even numerals if you write all the numbers from 291 to 300?",
-      "options": {
-        "A": "11",
-        "B": "13",
-        "C": "15",
-        "D": "17"
-      },
+      "question": "Writing out every number from 291 through 300, how many times does an even digit get written?",
+      "options": { "A": "11", "B": "13", "C": "15", "D": "17" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "60%",
-      "explanation": "The even digits (2, 4, 6, 8, 0) are counted. In 291-299, '2' is used 9 times. In units/tens places: 292 (2), 294 (4), 296 (6), 298 (8), and 300 (0, 0). Total: 9 + 4 + 2 = 15 times."
+      "explanation": "Counting even digits (0,2,4,6,8): '2' shows up 9 times across 291-299. Additional even digits appear in 292, 294, 296, 298 (one each) and 300 (two zeros) — totaling 9 + 4 + 2 = 15."
     },
     {
       "id": 34,
       "section": "Reasoning",
-      "question": "A number is greater than 3 but less than 8. Also, it is greater than 6 but less than 10. The number is?",
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
+      "question": "Find a number that is simultaneously greater than 3 and less than 8, and also greater than 6 and less than 10.",
+      "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "Condition 1: {4, 5, 6, 7}. Condition 2: {7, 8, 9}. The only number satisfying both criteria is 7."
+      "explanation": "First condition gives {4,5,6,7}; second gives {7,8,9}. The value common to both sets is 7."
     },
     {
       "id": 35,
       "section": "Reasoning",
-      "question": "Select the right Sequence of occurrence of events or various stages in a process: 1. Poverty 2. Adulthood 3. Childhood 4. Infancy 5. Senescence 6. Adolescence",
+      "question": "Arrange these life stages into their correct order of occurrence: 1. Poverty 2. Adulthood 3. Childhood 4. Infancy 5. Senescence 6. Adolescence",
       "options": {
         "A": "2, 4, 6, 3, 1, 5",
         "B": "4, 3, 1, 6, 2, 5",
@@ -663,265 +396,158 @@
         "D": "5, 6, 2, 3, 4, 1"
       },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:50",
       "rightPct": "75%",
-      "explanation": "The biological life stages are: Infancy (4) -> Childhood (3) -> Adolescence (6) -> Adulthood (2) -> Senescence (5). Poverty (1) is placed within the adult life cycle in this logical sequence."
+      "explanation": "The natural life-stage order runs Infancy(4) → Childhood(3) → Adolescence(6) → Adulthood(2) → Senescence(5), with Poverty(1) slotted into the adult phase of this sequence."
     },
     {
       "id": 36,
       "section": "Reasoning",
-      "question": "Which number is wrong in given series? 12439, 23549, 34659, 45769",
-      "options": {
-        "A": "12439",
-        "B": "23549",
-        "C": "34659",
-        "D": "45769"
-      },
+      "question": "Spot the incorrect entry in this series: 12439, 23549, 34659, 45769",
+      "options": { "A": "12439", "B": "23549", "C": "34659", "D": "45769" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "45%",
-      "explanation": "The pattern follows a consistent increase of 11110 between terms (e.g., 12439 + 11110 = 23549). In many entrance exams, a 'wrong number' question without a breakdown in the mathematical pattern often points to a prime/composite sum of digits or a subtle digit-based outlier."
+      "explanation": "Each term rises by a fixed 11110 (e.g., 12439+11110=23549). Where a 'wrong number' problem shows no visible break in this pattern, entrance exams typically expect a check on a subtler digit-based outlier instead."
     },
     {
       "id": 37,
       "section": "Reasoning",
-      "question": "Which number will complete the series? 6, 8, 17, 19, 28, 30, .........?",
-      "options": {
-        "A": "32",
-        "B": "37",
-        "C": "38",
-        "D": "39"
-      },
+      "question": "What number completes this series: 6, 8, 17, 19, 28, 30, ...?",
+      "options": { "A": "32", "B": "37", "C": "38", "D": "39" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "85%",
-      "explanation": "The series follows an alternating addition pattern: +2, +9, +2, +9. Thus, the sequence is 6+2=8, 8+9=17, 17+2=19, 19+9=28, 28+2=30, and finally 30+9=39."
+      "explanation": "The pattern alternates adding 2 and 9: 6+2=8, 8+9=17, 17+2=19, 19+9=28, 28+2=30, and finally 30+9=39."
     },
     {
       "id": 38,
       "section": "Reasoning",
-      "question": "Complete the series: FGH, NOP, VWX, ......",
-      "options": {
-        "A": "ABC",
-        "B": "CDE",
-        "C": "DEF",
-        "D": "GHI"
-      },
+      "question": "What term comes next in this letter series: FGH, NOP, VWX, ...?",
+      "options": { "A": "ABC", "B": "CDE", "C": "DEF", "D": "GHI" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "75%",
-      "explanation": "The gap between the last letter of one set and the first of the next is 6 letters (H to N is +6, P to V is +6). Adding 6 to X (24th letter) moves to D (4th letter of the next cycle), making the next set DEF."
+      "explanation": "Each set's ending letter jumps 6 places to reach the next set's start (H→N, P→V). Adding 6 more to X (24th letter) wraps to D (4th letter), so the next set is DEF."
     },
     {
       "id": 39,
       "section": "Reasoning",
-      "question": "Which one of the given answers would be a meaningful sequence of the following words? 1) Mega 2) Kilo 3) Tera 4) Giga",
-      "options": {
-        "A": "2, 1, 4, 3",
-        "B": "1, 2, 3, 4",
-        "C": "3, 4, 2, 1",
-        "D": "4, 3, 2, 1"
-      },
+      "question": "Arrange these metric units in a logically meaningful order: 1) Mega 2) Kilo 3) Tera 4) Giga",
+      "options": { "A": "2, 1, 4, 3", "B": "1, 2, 3, 4", "C": "3, 4, 2, 1", "D": "4, 3, 2, 1" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The sequence follows the ascending order of metric prefixes by power: Kilo (10³), Mega (10⁶), Giga (10⁹), and Tera (10¹²). Therefore, the correct order is 2, 1, 4, 3."
+      "explanation": "Arranged by increasing power of 10: Kilo(10³), Mega(10⁶), Giga(10⁹), Tera(10¹²) — giving the order 2, 1, 4, 3."
     },
     {
       "id": 40,
       "section": "Mathematics",
-      "question": "Ravi travelled 290 km in three parts: 100 km at a speed of 20 kmph, 120 km at a speed of 80 kmph and remaining at a speed of 140 kmph. Find his average speed during the journey.",
-      "options": {
-        "A": "40.42",
-        "B": "41.42",
-        "C": "40.47",
-        "D": "41.47"
-      },
+      "question": "Ravi covers a 290 km trip in three legs — 100 km at 20 kmph, 120 km at 80 kmph, and the balance at 140 kmph. What was his average speed overall?",
+      "options": { "A": "40.42", "B": "41.42", "C": "40.47", "D": "41.47" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:30",
       "rightPct": "55%",
-      "explanation": "Total time = (100/20) + (120/80) + (70/140) = 5 + 1.5 + 0.5 = 7 hours. Average speed = Total Distance / Total Time = 290 / 7 ≈ 41.42 kmph."
+      "explanation": "Total time = (100/20)+(120/80)+(70/140) = 5+1.5+0.5 = 7 hours. Average speed = 290 ÷ 7 ≈ 41.42 kmph."
     },
     {
       "id": 41,
       "section": "Mathematics",
-      "question": "If + stands for x, - for ÷, x for - and ÷ for +, find the value of 26 + 74 - 4 x 5 ÷ 2.",
-      "options": {
-        "A": "220",
-        "B": "376",
-        "C": "478",
-        "D": "488"
-      },
+      "question": "Given + means x, - means ÷, x means -, and ÷ means +, work out: 26 + 74 - 4 x 5 ÷ 2.",
+      "options": { "A": "220", "B": "376", "C": "478", "D": "488" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:10",
       "rightPct": "65%",
-      "explanation": "Replacing symbols: 26 * 74 / 4 - 5 + 2. Using BODMAS: (26 * 18.5) - 5 + 2 = 481 - 5 + 2 = 478."
+      "explanation": "Substituting symbols: 26 × 74 ÷ 4 - 5 + 2. Following BODMAS: (26×18.5) - 5 + 2 = 481 - 5 + 2 = 478."
     },
     {
       "id": 42,
       "section": "Reasoning",
-      "question": "Raj travelled from a point X straight to Y at a distance of 80 metres. He turned right and walked 50 metres, then again turned right and walked 70 metres. Finally, he turned right and walked 50 metres. How far is he from the starting point?",
-      "options": {
-        "A": "10 metres",
-        "B": "20 metres",
-        "C": "50 metres",
-        "D": "70 metres"
-      },
+      "question": "Starting from point X, Raj walks 80 metres straight to Y, turns right for 50 metres, turns right again for 70 metres, and turns right once more for a final 50 metres. How far is he now from where he began?",
+      "options": { "A": "10 metres", "B": "20 metres", "C": "50 metres", "D": "70 metres" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "85%",
-      "explanation": "Raj moves 80m East, 50m South, 70m West, and 50m North. He ends up 10m East of the starting point X (80m - 70m = 10m)."
+      "explanation": "Raj's path covers 80m East, 50m South, 70m West and 50m North, leaving him 10m east of point X (80m − 70m = 10m)."
     },
     {
       "id": 43,
       "section": "Reasoning",
-      "question": "Pointing to a photograph, a person tells his friend, \"She is the grand daughter of the elder brother of my father.\" How is the girl in the photograph related to this man?",
-      "options": {
-        "A": "Niece",
-        "B": "Sister",
-        "C": "Aunt",
-        "D": "Sister-in-law"
-      },
+      "question": "Showing a photo to his friend, a man says, 'She's the granddaughter of my father's elder brother.' What is the girl's relation to him?",
+      "options": { "A": "Niece", "B": "Sister", "C": "Aunt", "D": "Sister-in-law" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:50",
       "rightPct": "70%",
-      "explanation": "The elder brother of the father is the man's uncle. The granddaughter of the man's uncle is the child of his cousin, commonly referred to as a 'niece' in general kinship puzzles."
+      "explanation": "The father's elder brother is the man's uncle, and the uncle's granddaughter is the child of the man's cousin — conventionally labelled a 'niece' in such kinship puzzles."
     },
     {
       "id": 44,
       "section": "Reasoning",
-      "question": "In a certain code LAWN is written as JCUP. How will SLIT be coded in that code?",
-      "options": {
-        "A": "QNGV",
-        "B": "QJGV",
-        "C": "QNVG",
-        "D": "NJGV"
-      },
+      "question": "In a given code, LAWN is written as JCUP. Using the same logic, how would SLIT be coded?",
+      "options": { "A": "QNGV", "B": "QJGV", "C": "QNVG", "D": "NJGV" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "80%",
-      "explanation": "The coding pattern is -2, +2, -2, +2. S-2=Q, L+2=N, I-2=G, T+2=V. Thus, SLIT becomes QNGV."
+      "explanation": "The letters shift by -2, +2, -2, +2 respectively. S-2=Q, L+2=N, I-2=G, T+2=V, giving SLIT as QNGV."
     },
     {
       "id": 45,
       "section": "Mathematics",
-      "question": "If + means -, - means x, ÷ means + and x means ÷, then 15 - 3 + 10 x 5 ÷ 5 = ?",
-      "options": {
-        "A": "5",
-        "B": "22",
-        "C": "48",
-        "D": "52"
-      },
+      "question": "Given + means -, - means x, ÷ means + and x means ÷, evaluate: 15 - 3 + 10 x 5 ÷ 5.",
+      "options": { "A": "5", "B": "22", "C": "48", "D": "52" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "70%",
-      "explanation": "Applying new symbols: 15 * 3 - 10 / 5 + 5. Following BODMAS: 45 - 2 + 5 = 48."
+      "explanation": "Substituting: 15 × 3 - 10 ÷ 5 + 5. Using BODMAS: 45 - 2 + 5 = 48."
     },
     {
       "id": 46,
       "section": "Reasoning",
-      "question": "College Professors who are also Surgical Specialists are represented by",
-      "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "D"
-      },
+      "question": "In the Venn diagram, which letter denotes College Professors who are also Surgical Specialists?",
+      "options": { "A": "A", "B": "B", "C": "C", "D": "D" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "In the Venn diagram, the intersection of the Circle (Professors) and the Triangle (Surgical Specialists) is labeled as 'D'."
+      "explanation": "The overlap between the Circle (Professors) and the Triangle (Surgical Specialists) in the diagram is labelled 'D'."
     },
     {
       "id": 47,
       "section": "Reasoning",
-      "question": "Surgical Specialists who are also Medical Specialists but not Professors are represented by",
-      "options": {
-        "A": "B",
-        "B": "X",
-        "C": "Y",
-        "D": "Z"
-      },
+      "question": "Which letter marks those who are Surgical and Medical Specialists but not Professors?",
+      "options": { "A": "B", "B": "X", "C": "Y", "D": "Z" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "85%",
-      "explanation": "This is represented by the area inside the Triangle and Rectangle but outside the Circle, which is labeled 'Z'."
+      "explanation": "This zone lies inside both the Triangle and Rectangle but outside the Circle, and is marked 'Z' in the diagram."
     },
     {
       "id": 48,
       "section": "Reasoning",
-      "question": "C represents",
-      "options": {
-        "A": "Medical Specialists",
-        "B": "College Professors",
-        "C": "Surgical Specialists",
-        "D": "Medial and Surgical Specialists"
-      },
+      "question": "What does 'C' represent in the diagram?",
+      "options": { "A": "Medical Specialists", "B": "College Professors", "C": "Surgical Specialists", "D": "Medial and Surgical Specialists" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "The letter 'C' is located within the Triangle, representing Surgical Specialists who do not belong to the Professor or Medical Specialist categories."
+      "explanation": "'C' sits inside the Triangle alone, representing Surgical Specialists who belong to neither the Professor nor Medical Specialist groups."
     },
     {
       "id": 49,
       "section": "Reasoning",
-      "question": "B represents",
+      "question": "What does 'B' denote in the diagram?",
       "options": {
         "A": "Professors who are neither Medical nor Surgical Specialists",
         "B": "Professors who are not Surgical Specialists",
@@ -929,360 +555,213 @@
         "D": "Professors who are not Medical Specialists"
       },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "90%",
-      "explanation": "The letter 'B' is located within the Rectangle, specifically in the parts not overlapping with the Circle or Triangle, representing pure Medical Specialists."
+      "explanation": "'B' falls inside the Rectangle, in the region not shared with the Circle or Triangle, marking pure Medical Specialists."
     },
     {
       "id": 50,
       "section": "Reasoning",
-      "question": "College Professors who are also Medical Specialists are represented by",
-      "options": {
-        "A": "A",
-        "B": "X",
-        "C": "Y",
-        "D": "Z"
-      },
+      "question": "Which letter shows College Professors who are also Medical Specialists?",
+      "options": { "A": "A", "B": "X", "C": "Y", "D": "Z" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The intersection of the Circle (Professors) and the Rectangle (Medical Specialists) is identified by the region containing 'X' (and 'Y' if including surgical specialists)."
+      "explanation": "The overlap of Circle (Professors) and Rectangle (Medical Specialists) corresponds to the region marked 'X' (and 'Y' where surgical specialists are also included)."
     },
     {
       "id": 51,
       "section": "General Awareness",
-      "question": "Recently, who has been appointed as the coach of the senior national women's hockey team?",
-      "options": {
-        "A": "PR Sreejesh",
-        "B": "Amit Rohidas",
-        "C": "Harpreet Singh",
-        "D": "Harendra Singh"
-      },
+      "question": "Who was recently appointed to coach the senior women's national hockey team?",
+      "options": { "A": "PR Sreejesh", "B": "Amit Rohidas", "C": "Harpreet Singh", "D": "Harendra Singh" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "70%",
-      "explanation": "Harendra Singh was appointed as the coach of the senior national women's hockey team in April 2024. He previously coached the men's team and led the junior men's team to a World Cup title."
+      "explanation": "Harendra Singh took charge of the senior women's national hockey team in April 2024, having earlier coached the men's team and guided the junior men's squad to a World Cup win."
     },
     {
       "id": 52,
       "section": "General Awareness",
-      "question": "In 2019, Which popular singer was awarded the Bharat Ratna award?",
-      "options": {
-        "A": "Bhupen Hazarika",
-        "B": "Lata Mangeshkar",
-        "C": "Asha Bhosle",
-        "D": "Manna Dey"
-      },
+      "question": "Which well-known singer received the Bharat Ratna in 2019?",
+      "options": { "A": "Bhupen Hazarika", "B": "Lata Mangeshkar", "C": "Asha Bhosle", "D": "Manna Dey" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "Bhupen Hazarika was posthumously awarded India's highest civilian honor, the Bharat Ratna, in 2019. He was a legendary singer, composer, and filmmaker from Assam."
+      "explanation": "Bhupen Hazarika received India's top civilian honour, the Bharat Ratna, posthumously in 2019 — he was a legendary Assamese singer, composer and filmmaker."
     },
     {
       "id": 53,
       "section": "General Awareness",
-      "question": "What is the full form of DRDL?",
-      "options": {
-        "A": "Defense Research and Development Laboratory",
-        "B": "Differential Research and Documentation Laboratory",
-        "C": "Department of Research and Development Laboratory",
-        "D": "None of the above"
-      },
+      "question": "What does the abbreviation DRDL expand to?",
+      "options": { "A": "Defense Research and Development Laboratory", "B": "Differential Research and Documentation Laboratory", "C": "Department of Research and Development Laboratory", "D": "None of the above" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "DRDL stands for Defence Research and Development Laboratory. It is a premier missile systems laboratory under the DRDO, located in Hyderabad."
+      "explanation": "DRDL is short for Defence Research and Development Laboratory — a leading DRDO missile-systems lab located in Hyderabad."
     },
     {
       "id": 54,
       "section": "General Awareness",
-      "question": "The father of Indian missile Technology",
-      "options": {
-        "A": "Dr. U.R. Rao",
-        "B": "Dr. Chidambaram",
-        "C": "Dr. Homi Babha",
-        "D": "Dr. A.P.J. Abdul Kalam"
-      },
+      "question": "Who is regarded as the father of Indian missile technology?",
+      "options": { "A": "Dr. U.R. Rao", "B": "Dr. Chidambaram", "C": "Dr. Homi Babha", "D": "Dr. A.P.J. Abdul Kalam" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "Dr. A.P.J. Abdul Kalam is known as the 'Missile Man of India' for his pivotal role in the development of India's missile programs like Prithvi and Agni."
+      "explanation": "Dr. A.P.J. Abdul Kalam earned the title 'Missile Man of India' for his key role in developing missile programs such as Prithvi and Agni."
     },
     {
       "id": 55,
       "section": "General Awareness",
-      "question": "Which article of the indian constitution gives the power of pardoning to the president of India?",
-      "options": {
-        "A": "Article 76",
-        "B": "Article 72",
-        "C": "Article 74",
-        "D": "Article 75"
-      },
+      "question": "Which article of the Indian Constitution empowers the President to grant pardons?",
+      "options": { "A": "Article 76", "B": "Article 72", "C": "Article 74", "D": "Article 75" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "75%",
-      "explanation": "Article 72 of the Constitution of India grants the President the power to pardon, commute, or remit sentences in certain cases, including death sentences."
+      "explanation": "Article 72 gives the President authority to pardon, commute or remit sentences under certain conditions, including death sentences."
     },
     {
       "id": 56,
       "section": "General Awareness",
-      "question": "World Health Day is globally celebrated on",
-      "options": {
-        "A": "March 14",
-        "B": "February 6",
-        "C": "January 20",
-        "D": "April 7"
-      },
+      "question": "On which date is World Health Day observed worldwide?",
+      "options": { "A": "March 14", "B": "February 6", "C": "January 20", "D": "April 7" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "World Health Day is observed annually on April 7th to commemorate the founding of the World Health Organization (WHO) and to raise global awareness about health issues."
+      "explanation": "World Health Day falls on April 7 each year, marking WHO's founding and drawing global attention to pressing health concerns."
     },
     {
       "id": 57,
       "section": "General Awareness",
-      "question": "What is the full form of EDP",
-      "options": {
-        "A": "Education Development Programme",
-        "B": "Electronic Data Processing",
-        "C": "Electronic device portal",
-        "D": "Electronic Data Publishers"
-      },
+      "question": "EDP is short for what?",
+      "options": { "A": "Education Development Programme", "B": "Electronic Data Processing", "C": "Electronic device portal", "D": "Electronic Data Publishers" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "60%",
-      "explanation": "In technical terms, EDP stands for Electronic Data Processing, which refers to the use of computers and electronic devices to process and manipulate large sets of data."
+      "explanation": "EDP stands for Electronic Data Processing — the use of computers and electronic systems to handle and process large volumes of data."
     },
     {
       "id": 58,
       "section": "General Awareness",
-      "question": "Central government to set up ________ model of residential school",
-      "options": {
-        "A": "sarvodaya",
-        "B": "Ekalvya",
-        "C": "Sarvasiksha",
-        "D": "Sarvajans"
-      },
+      "question": "The Central government plans to build residential schools under which model?",
+      "options": { "A": "sarvodaya", "B": "Ekalvya", "C": "Sarvasiksha", "D": "Sarvajans" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Eklavya Model Residential Schools (EMRS) are specialized schools started by the Government of India to provide quality middle and high-level education to Scheduled Tribe students."
+      "explanation": "Eklavya Model Residential Schools (EMRS) are government-run schools set up to give Scheduled Tribe students access to quality middle and high-level education."
     },
     {
       "id": 59,
       "section": "General Awareness",
-      "question": "Which city of the Germany is known as the Grey City",
-      "options": {
-        "A": "Berlin",
-        "B": "Munich",
-        "C": "trestin",
-        "D": "Humbarg"
-      },
+      "question": "Which German city carries the nickname 'Grey City'?",
+      "options": { "A": "Berlin", "B": "Munich", "C": "trestin", "D": "Humbarg" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "55%",
-      "explanation": "Berlin is sometimes referred to as the 'Grey City' (Graue Stadt) due to its historical reliance on grey stone and concrete architecture during its industrial and reconstruction periods."
+      "explanation": "Berlin is occasionally called the 'Grey City' (Graue Stadt), a nod to its historical use of grey stone and concrete in industrial-era and post-war architecture."
     },
     {
       "id": 60,
       "section": "General Awareness",
-      "question": "Myanmar earthquake happened on",
-      "options": {
-        "A": "March 2",
-        "B": "April 28",
-        "C": "March 28",
-        "D": "April 2"
-      },
+      "question": "On which date did the Myanmar earthquake occur?",
+      "options": { "A": "March 2", "B": "April 28", "C": "March 28", "D": "April 2" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "40%",
-      "explanation": "Myanmar has experienced several earthquakes. While major ones occurred in April (2016) and March (2011), the specific date March 2 might refer to a regional event documented in older GK texts."
+      "explanation": "Myanmar has faced multiple earthquakes over the years. While major ones struck in April (2016) and March (2011), the date March 2 likely refers to a separate regional event noted in older GK material."
     },
     {
       "id": 61,
       "section": "General Awareness",
-      "question": "Bionic Eyes",
-      "options": {
-        "A": "natural lens",
-        "B": "ordinary lens",
-        "C": "organic lens",
-        "D": "artificial lens"
-      },
+      "question": "Bionic eyes make use of what type of lens?",
+      "options": { "A": "natural lens", "B": "ordinary lens", "C": "organic lens", "D": "artificial lens" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "A bionic eye is an artificial vision system or lens designed to restore functional vision to people who have lost their sight due to retinal degeneration or other conditions."
+      "explanation": "A bionic eye is an artificial vision device built to restore useful sight to people who've lost vision due to retinal degeneration or similar conditions."
     },
     {
       "id": 62,
       "section": "General Awareness",
-      "question": "Indias first education minister",
-      "options": {
-        "A": "Rajaji",
-        "B": "Jawaid Akthar",
-        "C": "Zakir Hussain",
-        "D": "Maulana Abul Kalam Azad"
-      },
+      "question": "Who was India's first Education Minister?",
+      "options": { "A": "Rajaji", "B": "Jawaid Akthar", "C": "Zakir Hussain", "D": "Maulana Abul Kalam Azad" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "Maulana Abul Kalam Azad was the first Education Minister of independent India. His birthday, November 11, is celebrated as National Education Day in India."
+      "explanation": "Maulana Abul Kalam Azad served as independent India's first Education Minister. His birthday, November 11, is observed as National Education Day."
     },
     {
       "id": 63,
       "section": "General Awareness",
-      "question": "Who is the first woman education minister of India?",
-      "options": {
-        "A": "Anandiben patel",
-        "B": "Sarojini naidu",
-        "C": "Sakuntala",
-        "D": "Velu Natchiyar"
-      },
+      "question": "Who holds the distinction of being India's first woman Education Minister?",
+      "options": { "A": "Anandiben patel", "B": "Sarojini naidu", "C": "Sakuntala", "D": "Velu Natchiyar" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "50%",
-      "explanation": "While Smriti Irani was the first Union Cabinet Minister for Education (HRD), Anandiben Patel served as a pioneer female Education Minister at the state level (Gujarat). The source marks her as the correct option for this specific set."
+      "explanation": "Though Smriti Irani was the first Union Cabinet Education (HRD) Minister, Anandiben Patel is noted here as a pioneering female Education Minister at the state level (Gujarat), per this source's answer key."
     },
     {
       "id": 64,
       "section": "General Awareness",
-      "question": "Gap between those who have access to digital resources and those who do not",
-      "options": {
-        "A": "technology divide",
-        "B": "digital divide",
-        "C": "technology literacy divide",
-        "D": "tech illiteracy"
-      },
+      "question": "What term describes the divide between those with digital access and those without?",
+      "options": { "A": "technology divide", "B": "digital divide", "C": "technology literacy divide", "D": "tech illiteracy" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "The 'digital divide' refers to the socioeconomic gap between those who have access to modern information and communication technology and those who do not."
+      "explanation": "'Digital divide' refers to the socioeconomic gap separating those with access to modern ICT from those without it."
     },
     {
       "id": 65,
       "section": "General Awareness",
-      "question": "India ranks ________ in network readiness index",
-      "options": {
-        "A": "36",
-        "B": "44",
-        "C": "56",
-        "D": "66"
-      },
+      "question": "India holds which rank in the Network Readiness Index?",
+      "options": { "A": "36", "B": "44", "C": "56", "D": "66" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "45%",
-      "explanation": "India ranked 61st in the Network Readiness Index 2022 and improved thereafter. The option 66 likely refers to an earlier ranking year included in the historical question bank."
+      "explanation": "India stood 61st in the Network Readiness Index 2022, improving afterward. The figure 66 likely reflects an earlier year's rank drawn from the historical question bank."
     },
     {
       "id": 66,
       "section": "Teaching Aptitude",
-      "question": "The app launched by Bharti Airtel Foundation to enhance teachers' skills in modern classrooms",
-      "options": {
-        "A": "the technology App",
-        "B": "the Teacher App",
-        "C": "the classroom App",
-        "D": "the teaching App"
-      },
+      "question": "Which app did the Bharti Airtel Foundation launch to sharpen teachers' skills for modern classrooms?",
+      "options": { "A": "the technology App", "B": "the Teacher App", "C": "the classroom App", "D": "the teaching App" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "75%",
-      "explanation": "The 'Teacher App' was launched to provide digital resources and training modules for teachers to improve their pedagogy in tech-enabled classrooms."
+      "explanation": "The 'Teacher App' offers digital resources and training modules to help teachers improve their pedagogy in tech-enabled classrooms."
     },
     {
       "id": 67,
       "section": "Teaching Aptitude",
-      "question": "New school education system according to NEP 2020",
-      "options": {
-        "A": "5+3+3+4",
-        "B": "5+3+2+4",
-        "C": "5+4+3+3",
-        "D": "5+4+4+3"
-      },
+      "question": "As per NEP 2020, what is the new structure for school education?",
+      "options": { "A": "5+3+3+4", "B": "5+3+2+4", "C": "5+4+3+3", "D": "5+4+4+3" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "95%",
-      "explanation": "The National Education Policy 2020 replaced the old 10+2 system with a new 5+3+3+4 structure covering ages 3 to 18."
+      "explanation": "NEP 2020 replaced the earlier 10+2 model with a new 5+3+3+4 structure spanning ages 3 to 18."
     },
     {
       "id": 68,
       "section": "Teaching Aptitude",
-      "question": "The five pillars of the New Education Policy (NEP) 2020 are",
+      "question": "The National Education Policy (NEP) 2020 rests on which five pillars?",
       "options": {
         "A": "Access, Acceptance, Inclusivity, Affordability Accountability",
         "B": "Acceptance, Quality, Affordability, Integration, Inclusivity",
@@ -1290,151 +769,92 @@
         "D": "Acceptance, inclusivity, affordability, equity, quality"
       },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "80%",
-      "explanation": "The five pillars of NEP 2020 aim to provide a universal and high-quality education system for all Indian citizens."
+      "explanation": "NEP 2020's five pillars aim to build a universal, high-quality education system accessible to every Indian citizen."
     },
     {
       "id": 69,
       "section": "General Awareness",
-      "question": "Parliament passed the WAQF amendment bill on",
-      "options": {
-        "A": "April 7 2025",
-        "B": "April 4 2025",
-        "C": "April 3 2025",
-        "D": "April 4 2024"
-      },
+      "question": "On which date did Parliament pass the Waqf Amendment Bill?",
+      "options": { "A": "April 7 2025", "B": "April 4 2025", "C": "April 3 2025", "D": "April 4 2024" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "50%",
-      "explanation": "This question refers to the legislative timeline of the Waqf (Amendment) Bill as recorded in current affairs and source material."
+      "explanation": "This refers to the legislative timeline for the Waqf (Amendment) Bill as noted in current-affairs source material."
     },
     {
       "id": 70,
       "section": "Teaching Aptitude",
-      "question": "The Ministry of Human Resource Development (MHRD) was renamed as",
-      "options": {
-        "A": "Ministry of Human Development",
-        "B": "Ministry of Education (MOE)",
-        "C": "Ministry of Employment",
-        "D": "Ministry of social Justices"
-      },
+      "question": "The Ministry of Human Resource Development (MHRD) was given a new name — what is it?",
+      "options": { "A": "Ministry of Human Development", "B": "Ministry of Education (MOE)", "C": "Ministry of Employment", "D": "Ministry of social Justices" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "95%",
-      "explanation": "With the introduction of NEP 2020, the MHRD was formally renamed the Ministry of Education to refocus on the core objective of learning."
+      "explanation": "Following the rollout of NEP 2020, MHRD was officially renamed the Ministry of Education, refocusing its mandate on core learning objectives."
     },
     {
       "id": 71,
       "section": "Reasoning",
-      "question": "Laman starts from a point, walks 8 km towards north, turns right and walks 12 km, turns left and walks 7 km, turn and walks 24 km towards south, turns right and walks 12 km. In which direction is he from the starting point?",
-      "options": {
-        "A": "North",
-        "B": "West",
-        "C": "South",
-        "D": "East"
-      },
+      "question": "Laman starts at a point, walks 8 km north, turns right and covers 12 km, turns left and covers 7 km, then turns and walks 24 km south, before turning right for a final 12 km. In which direction does his starting point now lie relative to him?",
+      "options": { "A": "North", "B": "West", "C": "South", "D": "East" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:30",
       "rightPct": "70%",
-      "explanation": "Net vertical displacement = 8(N) + 7(N) - 24(S) = -9(S). Net horizontal displacement = 12(E) - 12(W) = 0. He is 9 km south of the start."
+      "explanation": "Vertical movement: 8(N)+7(N)-24(S) = -9, i.e., 9 km south net. Horizontal movement: 12(E)-12(W) = 0. So he ends up 9 km south of the start."
     },
     {
       "id": 72,
       "section": "Reasoning",
-      "question": "Find the odd one out",
-      "options": {
-        "A": "TSWV",
-        "B": "CAFD",
-        "C": "IGLJ",
-        "D": "OMRP"
-      },
+      "question": "Identify the odd one out among these letter groups:",
+      "options": { "A": "TSWV", "B": "CAFD", "C": "IGLJ", "D": "OMRP" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "60%",
-      "explanation": "Patterns for B, C, and D are -2, +5, -2 between consecutive letters. Option A (TSWV) follows -1, +4, -1, making it the odd one out."
+      "explanation": "Options B, C and D each follow a -2, +5, -2 letter-shift pattern. Option A (TSWV) instead follows -1, +4, -1, making it the odd one."
     },
     {
       "id": 73,
       "section": "Reasoning",
-      "question": "BDAC : FHEG :: NPMO : ?",
-      "options": {
-        "A": "RQTS",
-        "B": "NTRC",
-        "C": "RTQS",
-        "D": "TRQS"
-      },
+      "question": "Complete this analogy: BDAC is to FHEG as NPMO is to?",
+      "options": { "A": "RQTS", "B": "NTRC", "C": "RTQS", "D": "TRQS" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "85%",
-      "explanation": "The pattern is an increment of +4 for each letter position (B+4=F, D+4=H, etc.). Applying this to NPMO gives R(14+4), T(16+4), Q(13+4), S(15+4)."
+      "explanation": "Each letter shifts forward by 4 positions (B+4=F, D+4=H, etc). Applying the same to NPMO yields R, T, Q, S."
     },
     {
       "id": 74,
       "section": "Reasoning",
-      "question": "Petr walked 8 kms. west and turned right and walked 3 kms. Then again he turned right and walked 12 kms. How far is he from the starting point?",
-      "options": {
-        "A": "7",
-        "B": "8",
-        "C": "6",
-        "D": "5"
-      },
+      "question": "Petr walks 8 km west, turns right and covers 3 km, then turns right again for 12 km. How far is he now from his starting point?",
+      "options": { "A": "7", "B": "8", "C": "6", "D": "5" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:15",
       "rightPct": "75%",
-      "explanation": "Displacement forms a right triangle with base 4 (12-8) and height 3. Distance = √(4² + 3²) = 5 km."
+      "explanation": "The displacement forms a right triangle with base 4 (12-8) and height 3, giving a straight-line distance of √(4²+3²) = 5 km."
     },
     {
       "id": 75,
       "section": "Mathematics",
-      "question": "Ashok's mother was 3 times as old Ashok 5 years ago. After 5 years she will be twice as old as Ashok. How old is Ashok today?",
-      "options": {
-        "A": "25 years",
-        "B": "10 years",
-        "C": "20 years",
-        "D": "15 years"
-      },
+      "question": "Five years back, Ashok's mother was three times his age; five years from now, she'll be twice his age. What is Ashok's present age?",
+      "options": { "A": "25 years", "B": "10 years", "C": "20 years", "D": "15 years" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:20",
       "rightPct": "65%",
-      "explanation": "Let Ashok be A. Equations: (M-5)=3(A-5) and (M+5)=2(A+5). Solving gives A = 15."
+      "explanation": "Let Ashok's age be A. Then (M-5)=3(A-5) and (M+5)=2(A+5). Solving these gives A = 15."
     },
     {
       "id": 76,
       "section": "Reasoning",
-      "question": "If 'x' means 'addition', '-' means 'division', '÷' means 'subtraction' and '+' means 'multiplication', then which of the following equations is correct?",
+      "question": "If 'x' means 'addition', '-' means 'division', '÷' means 'subtraction', and '+' means 'multiplication', which of these equations is correct?",
       "options": {
         "A": "16 - 5 x 10 ÷ 4 + 3 = 12",
         "B": "16 + 5 ÷ 10 x 4 - 3 = 9",
@@ -1442,184 +862,109 @@
         "D": "16 x 5 ÷ 10 + 4 - 3 = 19"
       },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:10",
       "rightPct": "60%",
-      "explanation": "Decoding C: 16 * 5 / 10 + 4 - 3. Following BODMAS: 8 + 4 - 3 = 9."
+      "explanation": "Decoding C gives: 16×5÷10+4-3. Applying BODMAS: 8+4-3 = 9."
     },
     {
       "id": 77,
       "section": "General Awareness",
-      "question": "Choose the word which is different from others",
-      "options": {
-        "A": "potassium",
-        "B": "iron",
-        "C": "sodium",
-        "D": "chlorine"
-      },
+      "question": "Pick the word that doesn't belong with the rest:",
+      "options": { "A": "potassium", "B": "iron", "C": "sodium", "D": "chlorine" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "Potassium, iron, and sodium are metals, whereas chlorine is a non-metal gas."
+      "explanation": "Potassium, iron and sodium are all metals, while chlorine is a non-metal gas."
     },
     {
       "id": 78,
       "section": "General Awareness",
-      "question": "Choose the process which is different from the rest",
-      "options": {
-        "A": "filtration",
-        "B": "sublimation",
-        "C": "condensation",
-        "D": "decantation"
-      },
+      "question": "Identify the process that stands apart from the rest:",
+      "options": { "A": "filtration", "B": "sublimation", "C": "condensation", "D": "decantation" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "70%",
-      "explanation": "Sublimation is a direct phase change from solid to gas, while the others are either separation techniques or liquid-state phase changes."
+      "explanation": "Sublimation is a direct solid-to-gas phase change, whereas the others are separation techniques or liquid-state phase transitions."
     },
     {
       "id": 79,
       "section": "General Awareness",
-      "question": "Choose the pair which is different from the rest",
-      "options": {
-        "A": "Birds : Horticulture",
-        "B": "Fish : pisciculture",
-        "C": "Bees : Apiculture",
-        "D": "Silkworm : Sericulture"
-      },
+      "question": "Select the pair that breaks the pattern seen in the others:",
+      "options": { "A": "Birds : Horticulture", "B": "Fish : pisciculture", "C": "Bees : Apiculture", "D": "Silkworm : Sericulture" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "85%",
-      "explanation": "Horticulture is the study of plants/gardens; the study of birds is actually called Ornithology."
+      "explanation": "Horticulture concerns plants and gardens; the actual study of birds is called Ornithology, breaking the pattern here."
     },
     {
       "id": 80,
       "section": "Reasoning",
-      "question": "Choose the pair in which their service and the persons are different",
-      "options": {
-        "A": "Teacher : School",
-        "B": "Shopkeeper : Customer",
-        "C": "Doctor : Patience",
-        "D": "lawyer : Client"
-      },
+      "question": "Choose the pair whose service-recipient relationship differs from the others:",
+      "options": { "A": "Teacher : School", "B": "Shopkeeper : Customer", "C": "Doctor : Patience", "D": "lawyer : Client" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "80%",
-      "explanation": "Option A relates a profession to a location, while B, C, and D describe the relationship between a professional and their recipient/client."
+      "explanation": "Option A links a profession to a location, while B, C and D each pair a professional with the person they serve."
     },
     {
       "id": 81,
       "section": "Reasoning",
-      "question": "College Professors who are also Surgical Specialists are represented by",
-      "options": {
-        "A": "A",
-        "B": "D",
-        "C": "C",
-        "D": "B"
-      },
+      "question": "Which letter denotes College Professors who are also Surgical Specialists?",
+      "options": { "A": "A", "B": "D", "C": "C", "D": "B" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "85%",
-      "explanation": "According to the Venn diagram, the intersection of the Circle (College Professors) and the Triangle (Surgical Specialists) is marked with the letter 'D'."
+      "explanation": "As per this Venn diagram, the overlap of the Circle (College Professors) and the Triangle (Surgical Specialists) is marked 'D'."
     },
     {
       "id": 82,
       "section": "Reasoning",
-      "question": "Surgical Specialists who are also Medical Specialists but not Professors are represented by",
-      "options": {
-        "A": "Z",
-        "B": "X",
-        "C": "Y",
-        "D": "B"
-      },
+      "question": "Which letter marks those who are Surgical and Medical Specialists but not Professors?",
+      "options": { "A": "Z", "B": "X", "C": "Y", "D": "B" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "80%",
-      "explanation": "This group is represented by the area where the Triangle and Rectangle overlap, but excluding the Circle. In the diagram, this region is labeled 'Z'."
+      "explanation": "This group occupies the overlap of Triangle and Rectangle, excluding the Circle — labelled 'Z' in the diagram."
     },
     {
       "id": 83,
       "section": "Reasoning",
-      "question": "C represents",
-      "options": {
-        "A": "Surgical Specialists",
-        "B": "College Professors",
-        "C": "Medical Specialists",
-        "D": "Mecial and Surgical Specialists"
-      },
+      "question": "What does 'C' represent here?",
+      "options": { "A": "Surgical Specialists", "B": "College Professors", "C": "Medical Specialists", "D": "Mecial and Surgical Specialists" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "The letter 'C' is located within the Triangle but is outside both the Circle and the Rectangle, thus representing Surgical Specialists exclusively."
+      "explanation": "'C' sits inside the Triangle only, outside both Circle and Rectangle, so it stands for Surgical Specialists exclusively."
     },
     {
       "id": 84,
       "section": "Reasoning",
-      "question": "If \"CAT\" is coded as \"XGL\", then what would \"DOG\" be coded as?",
-      "options": {
-        "A": "LTP",
-        "B": "LTU",
-        "C": "LPU",
-        "D": "LTS"
-      },
+      "question": "Given that 'CAT' is coded as 'XGL', what code would 'DOG' receive?",
+      "options": { "A": "LTP", "B": "LTU", "C": "LPU", "D": "LTS" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:10",
       "rightPct": "60%",
-      "explanation": "Following the specific coding logic marked in the source material, 'DOG' translates to 'LTU'. This uses a letter-to-letter mapping where D becomes L, O becomes T, and G becomes U."
+      "explanation": "Following the coding logic used in the source material, 'DOG' maps to 'LTU', with D→L, O→T and G→U."
     },
     {
       "id": 85,
       "section": "Reasoning",
-      "question": "What comes next in the sequence: 2, 4, 8, 16, _?",
-      "options": {
-        "A": "32",
-        "B": "24",
-        "C": "48",
-        "D": "64"
-      },
+      "question": "Continue this sequence: 2, 4, 8, 16, ?",
+      "options": { "A": "32", "B": "24", "C": "48", "D": "64" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "95%",
-      "explanation": "The sequence follows a geometric progression where each term is multiplied by 2 to get the next term. Thus, 16 × 2 = 32."
+      "explanation": "This is a geometric progression where each term doubles the previous one, so 16 × 2 = 32."
     }
   ]
 }
