@@ -3,412 +3,244 @@
   "subCatId": "jmi",
   "title": "JMI Entrance B22 Mock Test",
   "timeMins": 60,
-  "badgeText": "FREE",
+  "badgeText": "PATTERN BASED",
   "badgeClass": "badge-free",
   "questions": [
     {
       "id": 1,
       "section": "Reasoning",
-      "question": "Select the number that completes the series: 4, 7, 9, 10, 16, __, 25, 16.",
-      "options": {
-        "A": "13",
-        "B": "14",
-        "C": "15",
-        "D": "21"
-      },
+      "question": "Fill in the missing term in this series: 4, 7, 9, 10, 16, __, 25, 16.",
+      "options": { "A": "13", "B": "14", "C": "15", "D": "21" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "65%",
-      "explanation": "The pattern involves two alternating additions: (4+3=7, 7+2=9, 9+1=10) and (10+6=16, 16+5=21, 21+4=25). Thus the missing number is 21."
+      "explanation": "Two alternating patterns run through the series: (4+3=7, 7+2=9, 9+1=10) and (10+6=16, 16+5=21, 21+4=25). So the missing value is 21."
     },
     {
       "id": 2,
       "section": "Reasoning",
-      "question": "Select the option that completes the letter series: PAQ, QBR, RCS, __, TEU.",
-      "options": {
-        "A": "SCT",
-        "B": "SDT",
-        "C": "TAU",
-        "D": "UBT"
-      },
+      "question": "Pick the option that fills the gap in this letter series: PAQ, QBR, RCS, __, TEU.",
+      "options": { "A": "SCT", "B": "SDT", "C": "TAU", "D": "UBT" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "The series follows a simple alphabetical increment for each position: P->Q->R->S, A->B->C->D, and Q->R->S->T. This results in 'SDT'."
+      "explanation": "Each column simply advances one letter at a time: P→Q→R→S, A→B→C→D, and Q→R→S→T, together forming 'SDT'."
     },
     {
       "id": 3,
       "section": "Reasoning",
-      "question": "Which of the following words comes last in a dictionary?",
-      "options": {
-        "A": "Obliterate",
-        "B": "Omnivorous",
-        "C": "Orange",
-        "D": "Orangutan"
-      },
+      "question": "Among these words, which appears last if arranged in dictionary order?",
+      "options": { "A": "Obliterate", "B": "Omnivorous", "C": "Orange", "D": "Orangutan" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "85%",
-      "explanation": "Alphabetically, 'Orangutan' follows 'Orange' because 't' comes after the end of the word 'Orange', making it the last entry among the choices."
+      "explanation": "'Orangutan' comes right after 'Orange' alphabetically since 't' continues past where 'Orange' ends, placing it last among the given words."
     },
     {
       "id": 4,
       "section": "Reasoning",
-      "question": "How many even numbers are preceded by an even number and followed by an odd number in this sequence (reading left to right only)? 7, 4, 2, 8, 1, 3, 15, 20, 6, 11, 13, 14, 18, 9",
-      "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
-      },
+      "question": "Reading strictly left to right in this sequence — 7, 4, 2, 8, 1, 3, 15, 20, 6, 11, 13, 14, 18, 9 — how many even numbers have an even number right before them and an odd number right after?",
+      "options": { "A": "1", "B": "2", "C": "3", "D": "4" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "60%",
-      "explanation": "The relevant triplets are (2, 8, 1), (20, 6, 11), and (14, 18, 9). In each case, the middle even number is preceded by an even and followed by an odd number."
+      "explanation": "Three triplets fit this description — (2, 8, 1), (20, 6, 11), and (14, 18, 9) — where each middle even number sits between an even predecessor and an odd successor."
     },
     {
       "id": 5,
       "section": "Reasoning",
-      "question": "In a code language: 1 2 3 = deep blue eyes; 2 7 8 = large deep well; 7 1 9 = blue large river. Which numbers represent \"deep river\"?",
-      "options": {
-        "A": "1 9",
-        "B": "2 7",
-        "C": "2 9",
-        "D": "3 8"
-      },
+      "question": "In a coded language, 1 2 3 stands for 'deep blue eyes', 2 7 8 stands for 'large deep well', and 7 1 9 stands for 'blue large river'. What numeric code represents 'deep river'?",
+      "options": { "A": "1 9", "B": "2 7", "C": "2 9", "D": "3 8" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:50",
       "rightPct": "75%",
-      "explanation": "'2' is common to the first two phrases ('deep'). In the third phrase, '1' is 'blue' and '7' is 'large', leaving '9' for 'river'. Thus, 'deep river' is '2 9'."
+      "explanation": "'2' appears in both of the first two phrases, so it must mean 'deep'. In the third phrase, '1' matches 'blue' and '7' matches 'large', leaving '9' to mean 'river' — hence 'deep river' = '2 9'."
     },
     {
       "id": 6,
       "section": "Mathematics",
-      "question": "A train departs New Delhi on 24 May 2025 at 21:05 hrs and arrives in Chennai on 26 May 2025 at 06:15 hrs. What is the total duration of the journey?",
-      "options": {
-        "A": "27 hours 20 minutes",
-        "B": "33 hours 10 minutes",
-        "C": "38 hours 50 minutes",
-        "D": "45 hours 10 minutes"
-      },
+      "question": "A train leaves New Delhi on 24 May 2025 at 21:05 hrs and reaches Chennai on 26 May 2025 at 06:15 hrs. How long did the journey take in total?",
+      "options": { "A": "27 hours 20 minutes", "B": "33 hours 10 minutes", "C": "38 hours 50 minutes", "D": "45 hours 10 minutes" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:10",
       "rightPct": "70%",
-      "explanation": "From 24th 21:05 to 25th 21:05 is 24 hours. From 25th 21:05 to 26th 06:15 is 9 hours and 10 minutes. Total: 33 hours 10 minutes."
+      "explanation": "From 24th 21:05 to 25th 21:05 is exactly 24 hours, and from there to 26th 06:15 is another 9 hours 10 minutes — a total of 33 hours 10 minutes."
     },
     {
       "id": 7,
       "section": "Reasoning",
-      "question": "Arun says, \"Rishabh's mother is the wife of my father's only brother.\" How is Arun related to Rishabh?",
-      "options": {
-        "A": "Cousin",
-        "B": "Nephew",
-        "C": "Son",
-        "D": "Uncle"
-      },
+      "question": "Arun states, 'Rishabh's mother is married to my father's only brother.' What is Arun's relationship to Rishabh?",
+      "options": { "A": "Cousin", "B": "Nephew", "C": "Son", "D": "Uncle" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:55",
       "rightPct": "65%",
-      "explanation": "Arun's father's only brother is Arun's uncle. The wife of Arun's uncle is Arun's aunt. If she is Rishabh's mother, Arun is Rishabh's uncle."
+      "explanation": "Arun's father's only brother is Arun's uncle, and that uncle's wife is Arun's aunt. If she is Rishabh's mother, then Arun is Rishabh's uncle."
     },
     {
       "id": 8,
       "section": "Reasoning",
-      "question": "'Yarn' is to 'fabric' as 'page' is to:",
-      "options": {
-        "A": "Author",
-        "B": "Book",
-        "C": "Paragraph",
-        "D": "Student"
-      },
+      "question": "Complete this analogy: 'Yarn' relates to 'fabric' the way 'page' relates to:",
+      "options": { "A": "Author", "B": "Book", "C": "Paragraph", "D": "Student" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:25",
       "rightPct": "95%",
-      "explanation": "This is a part-to-whole analogy. Yarn is a component used to create fabric, just as a page is a component used to create a book."
+      "explanation": "This is a part-to-whole relationship: just as yarn makes up fabric, a page is a building block of a book."
     },
     {
       "id": 9,
       "section": "Reasoning",
-      "question": "Identify the number that does NOT belong in the group: 130, 176, 187, 209",
-      "options": {
-        "A": "130",
-        "B": "176",
-        "C": "187",
-        "D": "209"
-      },
+      "question": "Which number does not fit with the rest of this group: 130, 176, 187, 209",
+      "options": { "A": "130", "B": "176", "C": "187", "D": "209" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "55%",
-      "explanation": "176, 187, and 209 are all multiples of 11 (11x16, 11x17, 11x19). 130 is not divisible by 11."
+      "explanation": "176, 187 and 209 are each multiples of 11 (11×16, 11×17, 11×19), whereas 130 does not divide evenly by 11."
     },
     {
       "id": 10,
       "section": "General Science",
-      "question": "Pick the odd one out: Aorta, Arteries, Heart, Lungs",
-      "options": {
-        "A": "Aorta",
-        "B": "Arteries",
-        "C": "Heart",
-        "D": "Lungs"
-      },
+      "question": "Choose the odd term from this list: Aorta, Arteries, Heart, Lungs",
+      "options": { "A": "Aorta", "B": "Arteries", "C": "Heart", "D": "Lungs" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "The Aorta, Arteries, and Heart are part of the circulatory system, whereas the Lungs are the primary organ of the respiratory system."
+      "explanation": "Aorta, Arteries and Heart all belong to the circulatory system, while the Lungs are the main organ of the respiratory system."
     },
     {
       "id": 11,
       "section": "Reasoning",
-      "question": "Which of these words has a mirror image that reads the same as the word?",
-      "options": {
-        "A": "MADAM",
-        "B": "NOON",
-        "C": "TOOT",
-        "D": "WOW"
-      },
+      "question": "Which word, when mirrored, reads identically to itself?",
+      "options": { "A": "MADAM", "B": "NOON", "C": "TOOT", "D": "WOW" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "85%",
-      "explanation": "A word reads the same in a mirror if all its individual letters (like W, O, T) are laterally symmetric. While both TOOT and WOW fit this, WOW is the intended answer in this set."
+      "explanation": "A word's mirror image matches itself only when every letter (such as W, O, T) is laterally symmetric. Both TOOT and WOW qualify, but WOW is the answer keyed here."
     },
     {
       "id": 12,
       "section": "Reasoning",
-      "question": "If the English alphabet is reversed, which letter lies midway between the 11th and 15th letters from the left?",
-      "options": {
-        "A": "K",
-        "B": "L",
-        "C": "M",
-        "D": "N"
-      },
+      "question": "If the alphabet were reversed, which letter would sit exactly between the positions of the 11th and 15th letters counted from the left?",
+      "options": { "A": "K", "B": "L", "C": "M", "D": "N" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "70%",
-      "explanation": "In a reversed alphabet, the 11th letter from the left is P (16th from normal) and the 15th is L (12th from normal). The letter midway between 12 and 16 is 14, which is N."
+      "explanation": "Reversed, the 11th letter from the left becomes P (16th normally) and the 15th becomes L (12th normally). Midway between positions 12 and 16 is 14 — the letter N."
     },
     {
       "id": 13,
       "section": "Reasoning",
-      "question": "If 'book' is called 'pen', 'pen' is called 'eraser', 'eraser' is 'sharpener', and 'sharpener' is 'powder', what is used for writing?",
-      "options": {
-        "A": "Book",
-        "B": "Eraser",
-        "C": "Pen",
-        "D": "Sharpener"
-      },
+      "question": "Suppose 'book' is renamed 'pen', 'pen' is renamed 'eraser', 'eraser' is renamed 'sharpener', and 'sharpener' is renamed 'powder'. What item is used to write?",
+      "options": { "A": "Book", "B": "Eraser", "C": "Pen", "D": "Sharpener" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "95%",
-      "explanation": "A 'pen' is traditionally used for writing. In this code language, 'pen' is called 'eraser', so the answer is Eraser."
+      "explanation": "A pen is normally what one writes with, and in this coded scheme 'pen' has been renamed 'eraser' — so the answer is Eraser."
     },
     {
       "id": 14,
       "section": "Reasoning",
-      "question": "Five friends meet for lunch. Soham arrives last. Farhan comes after Disha but before Jaskaran. Manisha comes after Farhan but before Jaskaran. Who arrives first?",
-      "options": {
-        "A": "Disha",
-        "B": "Farhan",
-        "C": "Jaskaran",
-        "D": "Manisha"
-      },
+      "question": "Five friends gather for lunch. Soham is the last to arrive. Farhan arrives after Disha but before Jaskaran, and Manisha arrives after Farhan but before Jaskaran. Who is the very first to arrive?",
+      "options": { "A": "Disha", "B": "Farhan", "C": "Jaskaran", "D": "Manisha" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:50",
       "rightPct": "80%",
-      "explanation": "The order of arrival is Disha > Farhan > Manisha > Jaskaran > Soham. Thus, Disha is the first one to arrive."
+      "explanation": "The arrival order works out to Disha > Farhan > Manisha > Jaskaran > Soham, making Disha the first to arrive."
     },
     {
       "id": 15,
       "section": "Reasoning",
-      "question": "Five friends meet for lunch. Soham arrives last. Farhan comes after Disha but before Jaskaran. Manisha comes after Farhan but before Jaskaran. Who is the second last to arrive?",
-      "options": {
-        "A": "Disha",
-        "B": "Farhan",
-        "C": "Jaskaran",
-        "D": "Manisha"
-      },
+      "question": "Using the same lunch scenario — Soham last, Farhan after Disha but before Jaskaran, Manisha after Farhan but before Jaskaran — who arrives second to last?",
+      "options": { "A": "Disha", "B": "Farhan", "C": "Jaskaran", "D": "Manisha" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "75%",
-      "explanation": "Following the sequence Disha > Farhan > Manisha > Jaskaran > Soham, Jaskaran is the fourth person to arrive, making him the second last."
+      "explanation": "Given the order Disha > Farhan > Manisha > Jaskaran > Soham, Jaskaran arrives fourth overall, making him second to last."
     },
     {
       "id": 16,
       "section": "Mathematics",
-      "question": "A car travels 60 km at 30 km/h and the next 60 km at 60 km/h. What is the average speed?",
-      "options": {
-        "A": "40 km/h",
-        "B": "45 km/h",
-        "C": "50 km/h",
-        "D": "60 km/h"
-      },
+      "question": "A car covers 60 km at 30 km/h, then another 60 km at 60 km/h. What was its average speed for the whole trip?",
+      "options": { "A": "40 km/h", "B": "45 km/h", "C": "50 km/h", "D": "60 km/h" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "70%",
-      "explanation": "Total distance is 120 km. Total time = (60/30) + (60/60) = 2 + 1 = 3 hours. Average speed = 120 / 3 = 40 km/h."
+      "explanation": "Total distance is 120 km, and total time = (60/30)+(60/60) = 2+1 = 3 hours, giving an average speed of 120÷3 = 40 km/h."
     },
     {
       "id": 17,
       "section": "Reasoning",
-      "question": "Statements: 1. All employees of X are honest. 2. Prateek is NOT an employee of X. Conclusion I: Prateek is honest. Conclusion II: Prateek is NOT honest. Which conclusion(s) follow?",
-      "options": {
-        "A": "Only I",
-        "B": "Only II",
-        "C": "Neither I nor II",
-        "D": "Both I and II"
-      },
+      "question": "Given: (1) Every employee of X is honest. (2) Prateek does not work at X. Conclusion I: Prateek is honest. Conclusion II: Prateek is not honest. Which conclusion(s) can be validly drawn?",
+      "options": { "A": "Only I", "B": "Only II", "C": "Neither I nor II", "D": "Both I and II" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "60%",
-      "explanation": "The premises only define the honesty of employees in X. Since Prateek is not in X, we have no information to conclude whether he is honest or not."
+      "explanation": "The statements only tell us about the honesty of X's employees. Since Prateek isn't one of them, nothing can be concluded about his honesty either way."
     },
     {
       "id": 18,
       "section": "Reasoning",
-      "question": "In a row, Naman is 7th from the left and Rajan is 18th from the right. After switching places, Naman is 21st from the left. How many students are in the row?",
-      "options": {
-        "A": "38",
-        "B": "39",
-        "C": "40",
-        "D": "42"
-      },
+      "question": "In a row of students, Naman stands 7th from the left while Rajan stands 18th from the right. After they swap places, Naman becomes 21st from the left. How many total students are in the row?",
+      "options": { "A": "38", "B": "39", "C": "40", "D": "42" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:10",
       "rightPct": "55%",
-      "explanation": "Naman's new position (21st from left) is the same as Rajan's original position (18th from right). Total students = (21 + 18) - 1 = 38."
+      "explanation": "Naman's new spot (21st from left) matches Rajan's original spot (18th from right). Total students = (21+18)-1 = 38."
     },
     {
       "id": 19,
       "section": "Reasoning",
-      "question": "In a class of 50 students, 30 chose gardening, 25 chose interior decoration, and 11 chose both. How many chose neither?",
-      "options": {
-        "A": "6",
-        "B": "9",
-        "C": "14",
-        "D": "16"
-      },
+      "question": "In a class of 50, 30 students opted for gardening, 25 for interior decoration, and 11 chose both. How many students picked neither activity?",
+      "options": { "A": "6", "B": "9", "C": "14", "D": "16" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "65%",
-      "explanation": "Students choosing at least one = 30 + 25 - 11 = 44. Students choosing neither = 50 - 44 = 6."
+      "explanation": "Students choosing at least one activity = 30+25-11 = 44, so those choosing neither = 50-44 = 6."
     },
     {
       "id": 20,
       "section": "Reasoning",
-      "question": "White is to peace as red is to:",
-      "options": {
-        "A": "Danger",
-        "B": "Happiness",
-        "C": "Hunger",
-        "D": "Love"
-      },
+      "question": "White symbolizes peace, much like red symbolizes:",
+      "options": { "A": "Danger", "B": "Happiness", "C": "Hunger", "D": "Love" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "90%",
-      "explanation": "This is a symbolism analogy. Just as white is a universal symbol for peace, red is the standard symbol for danger."
+      "explanation": "This is a color-symbolism analogy: white universally signals peace, and red is the conventional symbol for danger."
     },
     {
       "id": 21,
       "section": "Reasoning",
-      "question": "Shivangi was born before Ruhi. Sanya was born before Siddharth. Siddharth was born after Ruhi. Which conclusion definitely follows?",
-      "options": {
-        "A": "Ruhi is the youngest",
-        "B": "Sanya is the eldest",
-        "C": "Shivangi is the eldest",
-        "D": "Siddharth is the youngest"
-      },
+      "question": "Shivangi was born earlier than Ruhi. Sanya was born earlier than Siddharth. Siddharth was born later than Ruhi. Which of the following must be true?",
+      "options": { "A": "Ruhi is the youngest", "B": "Sanya is the eldest", "C": "Shivangi is the eldest", "D": "Siddharth is the youngest" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "75%",
-      "explanation": "Chronological order: Shivangi > Ruhi > Siddharth. Also Sanya > Siddharth. Since Siddharth is born after everyone else mentioned, he is definitely the youngest."
+      "explanation": "The order runs Shivangi > Ruhi > Siddharth, and separately Sanya > Siddharth. As Siddharth comes after everyone else named, he must be the youngest."
     },
     {
       "id": 22,
       "section": "Reasoning",
-      "question": "Which is the correct sequence of election events?",
+      "question": "Which of these correctly orders the stages of an election process?",
       "options": {
         "A": "Announcement -> Nomination -> Polling -> Counting -> Constitution of House",
         "B": "Nomination -> Announcement -> Polling -> Constitution of House -> Counting",
@@ -416,75 +248,48 @@
         "D": "Announcement -> Polling -> Nomination -> Counting -> Constitution of House"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "85%",
-      "explanation": "The logical timeline is the announcement of election dates, filing nominations, voting (polling), counting the results, and finally forming the House."
+      "explanation": "The natural sequence begins with announcing the election, followed by nominations, voting (polling), counting votes, and finally constituting the House."
     },
     {
       "id": 23,
       "section": "Reasoning",
-      "question": "If Q at (0,0), P is 16 m north of Q, R is 5 m west of Q, T is 25 m north of R, V is 10 m east of T, and J is 9 m south of V, then J is located ________ relative to P.",
-      "options": {
-        "A": "5 m East",
-        "B": "5 m West",
-        "C": "10 m Northeast",
-        "D": "10 m Northwest"
-      },
+      "question": "Q sits at (0,0). P is 16 m north of Q, R is 5 m west of Q, T is 25 m north of R, V is 10 m east of T, and J is 9 m south of V. Where is J positioned relative to P?",
+      "options": { "A": "5 m East", "B": "5 m West", "C": "10 m Northeast", "D": "10 m Northwest" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:20",
       "rightPct": "60%",
-      "explanation": "P is at (0,16). R is at (-5,0), T at (-5,25), V at (5,25), and J at (5,16). J is exactly 5 meters to the east of P."
+      "explanation": "P sits at (0,16), R at (-5,0), T at (-5,25), V at (5,25), and J at (5,16) — putting J exactly 5 metres east of P."
     },
     {
       "id": 24,
       "section": "General Science",
-      "question": "Which unit does NOT measure time?",
-      "options": {
-        "A": "Light year",
-        "B": "Month",
-        "C": "Second",
-        "D": "Year"
-      },
+      "question": "Which of these units is not used to measure time?",
+      "options": { "A": "Light year", "B": "Month", "C": "Second", "D": "Year" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "95%",
-      "explanation": "Despite the word 'year', a light year is a unit of astronomical distance (the distance light travels in a year), not a unit of time."
+      "explanation": "Despite having 'year' in its name, a light year measures astronomical distance — how far light travels in a year — not time itself."
     },
     {
       "id": 25,
       "section": "Mathematics",
-      "question": "A ₹200 note is changed into ₹10 and ₹20 notes; total notes = 14. How many ₹20 notes?",
-      "options": {
-        "A": "6",
-        "B": "8",
-        "C": "10",
-        "D": "12"
-      },
+      "question": "A ₹200 note is exchanged for a total of 14 notes of ₹10 and ₹20 denominations. How many ₹20 notes are there?",
+      "options": { "A": "6", "B": "8", "C": "10", "D": "12" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:00",
       "rightPct": "70%",
-      "explanation": "Solving 10x + 20y = 200 and x + y = 14. If y=6, then x=8. 10(8) + 20(6) = 80 + 120 = 200. Thus, there are 6 twenty-rupee notes."
+      "explanation": "Solving 10x+20y=200 with x+y=14 gives y=6 and x=8, since 10(8)+20(6)=80+120=200. So there are 6 twenty-rupee notes."
     },
     {
       "id": 26,
       "section": "Teaching Aptitude",
-      "question": "Which view of children is correct?",
+      "question": "Which of these best represents a correct understanding of how children come to school?",
       "options": {
         "A": "Children bring experiences and language useful for teaching",
         "B": "Children enter as blank slates",
@@ -492,56 +297,37 @@
         "D": "All children must learn a 'decent' language first"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "85%",
-      "explanation": "Modern pedagogy views children as active learners who bring valuable prior knowledge and linguistic backgrounds to the classroom environment."
+      "explanation": "Contemporary pedagogy sees children as active learners who arrive with meaningful prior knowledge and linguistic backgrounds worth building on."
     },
     {
       "id": 27,
       "section": "Teaching Aptitude",
-      "question": "Which statements are correct about children and society?\n(i) The children belonging to good families and backgrounds are naturally good.\n(ii) The children who come from substandard families are rowdy and undisciplined.\n(iii) All children have potential to learn.\n(iv) Different children have different set of experiences, and they can learn from each other.",
-      "options": {
-        "A": "Statements i & ii",
-        "B": "Statements i & iv",
-        "C": "Statements iii & iv",
-        "D": "All statements (i-iv)"
-      },
+      "question": "Consider these statements on children and society: (i) Children from good backgrounds are naturally well-behaved. (ii) Children from disadvantaged families tend to be rowdy and undisciplined. (iii) Every child has the potential to learn. (iv) Children carry differing experiences and can learn from one another. Which statements hold true?",
+      "options": { "A": "Statements i & ii", "B": "Statements i & iv", "C": "Statements iii & iv", "D": "All statements (i-iv)" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "82%",
-      "explanation": "Pedagogical principles state that every child has the potential to learn regardless of their socio-economic background. Valuing diverse student experiences fosters a collaborative learning environment where students learn from one another."
+      "explanation": "Educational principles hold that every child, regardless of background, has learning potential, and that valuing varied student experiences fosters mutual learning."
     },
     {
       "id": 28,
       "section": "Teaching Aptitude",
-      "question": "Which statements about group learning are true?\n(i) The Children of similar abilities should be put together in one group.\n(ii) There should be mixed grouping of children with different abilities so that they learn from one another.\n(iii) The Children do not learn in groups, they should be taught individually.\n(iv) Children learn to cooperate and collaborate in group learning.",
-      "options": {
-        "A": "ii & iv",
-        "B": "All statements",
-        "C": "Only iii",
-        "D": "i & iii"
-      },
+      "question": "Which of these statements about group learning are accurate: (i) Children of similar ability should be grouped together. (ii) Mixed-ability grouping helps children learn from each other. (iii) Group learning doesn't work — children should be taught individually. (iv) Group learning builds cooperation and collaboration skills.",
+      "options": { "A": "ii & iv", "B": "All statements", "C": "Only iii", "D": "i & iii" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "78%",
-      "explanation": "Mixed-ability grouping encourages peer tutoring and allows students to benefit from diverse perspectives. Group learning is essential for developing social skills like cooperation and shared responsibility."
+      "explanation": "Grouping children of mixed abilities supports peer learning and exposure to diverse perspectives, and group work is key to building cooperation and shared responsibility."
     },
     {
       "id": 29,
       "section": "Teaching Aptitude",
-      "question": "Which describes an ideal teacher's role?",
+      "question": "Which of these best captures the role of an ideal teacher?",
       "options": {
         "A": "Partner with students to explore knowledge and ideas",
         "B": "Deliver content but keep distance",
@@ -549,18 +335,15 @@
         "D": "Transfer knowledge as all-knowing expert"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "92%",
-      "explanation": "The modern role of a teacher is that of a facilitator who guides and partners with students in their discovery of knowledge. This approach shifts from a teacher-centered model to a student-centered learning experience."
+      "explanation": "The contemporary view positions the teacher as a facilitator who explores knowledge alongside students, moving away from a purely teacher-centered classroom."
     },
     {
       "id": 30,
       "section": "Teaching Aptitude",
-      "question": "Which statement about school-parent relations is correct?",
+      "question": "Which statement correctly reflects how schools should relate to parents?",
       "options": {
         "A": "All parents should have a voice in working of the school",
         "B": "Parents of children with criminal records should be banned",
@@ -568,18 +351,15 @@
         "D": "Only parents from \"good\" families may be requested to participate in school activities"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "85%",
-      "explanation": "Effective school management requires the active participation of all parents as primary stakeholders. Inclusive engagement ensures that the school environment reflects the needs and values of the entire community."
+      "explanation": "Sound school governance depends on involving every parent as a stakeholder, ensuring the school reflects the whole community's needs."
     },
     {
       "id": 31,
       "section": "Teaching Aptitude",
-      "question": "Which of the following classroom arrangements best supports the holistic development of children?",
+      "question": "Which seating or grouping approach best encourages children's all-round development?",
       "options": {
         "A": "Girls and boys should study together and learn to interact respectfully",
         "B": "Girls and boys should sit in separate rows to maintain discipline",
@@ -587,37 +367,26 @@
         "D": "Separate seating for girls and boys promotes moral behavior"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "88%",
-      "explanation": "Co-educational interaction is vital for developing mutual respect and understanding between genders. Holistic development includes social and emotional growth, which is enhanced through mixed-gender peer interaction."
+      "explanation": "Interaction between genders in a shared classroom nurtures mutual respect and supports the social-emotional side of holistic growth."
     },
     {
       "id": 32,
       "section": "Teaching Aptitude",
-      "question": "Which of the following statements about agencies of education is correct?\n(i) Schools are agencies of education.\n(ii) Peer group and media are agencies of education.\n(iii) Family is an agency of education.\n(iv) State through its policies is also an agency of education.",
-      "options": {
-        "A": "All statements are correct",
-        "B": "Only statements (i) and (iv) are correct",
-        "C": "Only (i) is correct",
-        "D": "Only (ii) and (iii) are correct"
-      },
+      "question": "Regarding agencies of education, consider: (i) Schools serve as agencies of education. (ii) Peer groups and media also serve this role. (iii) Family functions as an educational agency. (iv) The state, through policy, is likewise an agency of education. Which of these are correct?",
+      "options": { "A": "All statements are correct", "B": "Only statements (i) and (iv) are correct", "C": "Only (i) is correct", "D": "Only (ii) and (iii) are correct" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "75%",
-      "explanation": "Education is a comprehensive process influenced by formal (schools), informal (family, peers), and non-formal (media, state) agencies. Each agency plays a unique role in shaping an individual's knowledge, values, and social behaviors."
+      "explanation": "Education draws on formal (schools), informal (family, peers) and non-formal (media, state policy) sources, each contributing to shaping knowledge, values and behavior."
     },
     {
       "id": 33,
       "section": "Teaching Aptitude",
-      "question": "What is the most desirable practice while eating the mid-day meal in schools?",
+      "question": "What is the best practice during the mid-day meal at school?",
       "options": {
         "A": "Teachers and students should eat together to foster mutual respect",
         "B": "Teachers and students should sit separately during the meal",
@@ -625,18 +394,15 @@
         "D": "Only students from good families should serve the meal"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "Eating together (commensality) promotes social equality and helps break down barriers of caste, class, and hierarchy. It provides an informal setting for teachers to model positive social behavior and build rapport with students."
+      "explanation": "Sharing meals across roles fosters equality and dissolves barriers of caste or class, while giving teachers a natural setting to model good social behavior."
     },
     {
       "id": 34,
       "section": "Teaching Aptitude",
-      "question": "Which of the following should NOT be a feature of a good school library?",
+      "question": "Which of these would NOT be a desirable feature of a good school library?",
       "options": {
         "A": "Students can only borrow textbooks; teachers may borrow any book",
         "B": "The library includes storybooks and diverse literature",
@@ -644,18 +410,15 @@
         "D": "Interactive sessions with authors and workshops are organized"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "80%",
-      "explanation": "A school library should provide equitable access to all types of literature to encourage reading for pleasure among students. Limiting students to only textbooks undermines the goal of fostering a lifelong reading habit."
+      "explanation": "A good library gives every student equal access to a broad range of reading material; limiting students to textbooks alone works against building a reading habit."
     },
     {
       "id": 35,
       "section": "Teaching Aptitude",
-      "question": "If children fight or misbehave in class, what should the teacher do first?",
+      "question": "When children get into a fight or misbehave in class, what should a teacher do first?",
       "options": {
         "A": "Talk to the children to understand the cause of the conflict",
         "B": "Punish the children to prevent recurrence",
@@ -663,18 +426,15 @@
         "D": "Report the matter immediately to the principal"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "85%",
-      "explanation": "Understanding the root cause of a conflict is the first step toward effective and lasting resolution. Immediate dialogue helps de-escalate the situation and allows for a teaching moment regarding social interaction."
+      "explanation": "Getting to the root of a conflict through conversation is the first step to resolving it meaningfully, and it turns the moment into a lesson in social behavior."
     },
     {
       "id": 36,
       "section": "Teaching Aptitude",
-      "question": "What is the correct view regarding the role of sports, cultural, and literary activities in schools?",
+      "question": "What is the correct perspective on sports, cultural and literary activities within schools?",
       "options": {
         "A": "These are integral parts of the school curriculum.",
         "B": "These distract students from academics and are unimportant.",
@@ -682,18 +442,15 @@
         "D": "These should be conducted only outside regular school hours."
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "Modern pedagogy views co-curricular activities as essential for holistic student development, making them a core part of the overall curriculum."
+      "explanation": "Modern educational thinking treats co-curricular activities as essential to a student's overall development, making them part of the core curriculum."
     },
     {
       "id": 37,
       "section": "Teaching Aptitude",
-      "question": "Which of the following does NOT reflect the meaning of the quote: \"Education is not preparation for life, education is life itself\"?",
+      "question": "Which of these does NOT align with the idea behind, 'Education is not preparation for life, education is life itself'?",
       "options": {
         "A": "Life and education are separate compartments.",
         "B": "All life experiences are educative.",
@@ -701,18 +458,15 @@
         "D": "Schooling alone does NOT define education."
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "70%",
-      "explanation": "The quote emphasizes that education is an ongoing process integrated with living; viewing them as separate 'compartments' contradicts this philosophy."
+      "explanation": "The quote frames education as woven into living itself, so treating life and education as separate 'compartments' runs counter to that philosophy."
     },
     {
       "id": 38,
       "section": "Teaching Aptitude",
-      "question": "\"Education is what remains after one has forgotten what one has learned in school.\" What is the central idea of this quote?",
+      "question": "What idea does the statement 'Education is what remains after one has forgotten what one has learned in school' primarily convey?",
       "options": {
         "A": "True education fosters intellectual growth beyond rote learning.",
         "B": "Education is about memorizing and recalling facts.",
@@ -720,37 +474,26 @@
         "D": "Forgetting school learning means one is uneducated."
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "75%",
-      "explanation": "This quote (often attributed to Einstein) highlights that the true value of education lies in the mental habits and character formed rather than just temporary memorization."
+      "explanation": "This statement (often linked to Einstein) suggests that education's real worth lies in the mental habits and character it builds, not in temporary fact recall."
     },
     {
       "id": 39,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is LEAST relevant as a purpose of classroom group activities?",
-      "options": {
-        "A": "Peer learning opportunities",
-        "B": "Learning by doing",
-        "C": "Developing social skills",
-        "D": "Maintaining classroom discipline"
-      },
+      "question": "Which of these is the LEAST relevant purpose behind classroom group activities?",
+      "options": { "A": "Peer learning opportunities", "B": "Learning by doing", "C": "Developing social skills", "D": "Maintaining classroom discipline" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "While discipline is necessary, the primary goal of group work is collaboration and social interaction; discipline is a prerequisite or byproduct, not the core purpose."
+      "explanation": "Group work is mainly about collaboration and social interaction; discipline may accompany it, but it isn't the underlying goal."
     },
     {
       "id": 40,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is NOT a goal of classroom discussions on controversial socio-scientific issues?",
+      "question": "Which is NOT an aim of holding classroom discussions on controversial socio-scientific topics?",
       "options": {
         "A": "Forcing students to agree with each other",
         "B": "Developing critical-thinking skills.",
@@ -758,18 +501,15 @@
         "D": "Developing reasoned argumentation skills"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "90%",
-      "explanation": "Discussions on controversial issues aim to promote empathy and critical analysis of different viewpoints, not to coerce students into a single consensus."
+      "explanation": "Such discussions aim to build empathy and critical thinking about differing views, not to push everyone toward a single forced agreement."
     },
     {
       "id": 41,
       "section": "Teaching Aptitude",
-      "question": "What is the primary purpose of an aptitude test?",
+      "question": "What does an aptitude test mainly aim to assess?",
       "options": {
         "A": "To assess potential to succeed in a specific area before formal training",
         "B": "To measure proficiency after extensive learning in a subject",
@@ -777,18 +517,15 @@
         "D": "To calculate intelligence through numerical problem-solving"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "85%",
-      "explanation": "Aptitude tests are designed to predict a person's future performance or potential in a specific field rather than measuring what they have already learned."
+      "explanation": "Aptitude tests forecast how well someone might perform in a given field, rather than testing what they've already learned."
     },
     {
       "id": 42,
       "section": "Teaching Aptitude",
-      "question": "Which statement best describes the difference between a curriculum and a syllabus?",
+      "question": "Which statement best captures the distinction between curriculum and syllabus?",
       "options": {
         "A": "A syllabus outlines the content of a subject, while the curriculum covers the overall educational plan",
         "B": "A syllabus is the entire learning framework, and the curriculum is a part of it",
@@ -796,18 +533,15 @@
         "D": "A curriculum lists specific topics, while the syllabus defines general goals"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "60%",
-      "explanation": "Curriculum refers to the broader set of learning experiences and institutional goals, while a syllabus is a more specific document detailing the topics for a particular course."
+      "explanation": "Curriculum spans the broader set of learning goals and experiences an institution offers, while a syllabus zooms into the specific topics of one course."
     },
     {
       "id": 43,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is NOT a typical feature of brainstorming in the classroom?",
+      "question": "Which of these is NOT typically a feature of classroom brainstorming?",
       "options": {
         "A": "Generation of many ideas in a short period",
         "B": "Inclusion of creative and divergent thinking",
@@ -815,18 +549,15 @@
         "D": "Use of a rigid, step-by-step instructional format"
       },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "75%",
-      "explanation": "Brainstorming is intended to be a spontaneous and uninhibited process; a rigid, fixed format would be counterproductive to creative idea generation."
+      "explanation": "Brainstorming thrives on spontaneity and open thinking; a fixed, rigid format would work against generating creative ideas."
     },
     {
       "id": 44,
       "section": "Teaching Aptitude",
-      "question": "Which of the following best illustrates discovery learning?",
+      "question": "Which scenario best exemplifies discovery learning?",
       "options": {
         "A": "Students investigating factors that affect solubility through hands-on experiments",
         "B": "Students answering questions after a direct explanation of Archimedes' Principle",
@@ -834,18 +565,15 @@
         "D": "A teacher demonstrating reflection and refraction in a lab session"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:50",
       "rightPct": "65%",
-      "explanation": "Discovery learning is an inquiry-based approach where students build their own understanding through direct interaction and experimentation rather than passive reception of facts."
+      "explanation": "Discovery learning is inquiry-driven — students build understanding through direct experimentation rather than passively absorbing information."
     },
     {
       "id": 45,
       "section": "Teaching Aptitude",
-      "question": "In middle school education, what is the preferred progression in the teaching-learning process?",
+      "question": "In middle-school teaching, which progression is generally preferred?",
       "options": {
         "A": "From concrete experiences to abstract concepts",
         "B": "From unknown information to familiar knowledge",
@@ -853,18 +581,15 @@
         "D": "From logical sequencing to psychological needs"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "82%",
-      "explanation": "Effective teaching starts with what the student can physically perceive and experience (concrete) before introducing complex theoretical ideas (abstract)."
+      "explanation": "Good teaching begins with what students can directly perceive and experience before moving toward more abstract, theoretical ideas."
     },
     {
       "id": 46,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is an example of an open-ended question?",
+      "question": "Which of these qualifies as an open-ended question?",
       "options": {
         "A": "How might the disappearance of a species impact a food web?",
         "B": "What is a food chain?",
@@ -872,18 +597,15 @@
         "D": "What is the difference between a food chain and a food web?"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "88%",
-      "explanation": "Open-ended questions require higher-order thinking and elaborated answers rather than simple recall of a definition or single factual piece of information."
+      "explanation": "Open-ended questions call for higher-order reasoning and extended answers, unlike questions asking for simple definitions or recall."
     },
     {
       "id": 47,
       "section": "Teaching Aptitude",
-      "question": "A student is frequently distracted during lessons. What is the most appropriate teacher response?",
+      "question": "A student keeps getting distracted during class. What's the most suitable response for the teacher?",
       "options": {
         "A": "Initiate informal conversation to understand the reason for distraction",
         "B": "Ignore the behaviour and continue teaching",
@@ -891,37 +613,26 @@
         "D": "Ask the student to leave the class until they are attentive"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:45",
       "rightPct": "70%",
-      "explanation": "The professional pedagogical approach is to build a relationship and investigate the underlying cause of disengagement before applying disciplinary measures."
+      "explanation": "Building rapport and understanding the underlying reason for disengagement should come before any disciplinary action."
     },
     {
       "id": 48,
       "section": "Teaching Aptitude",
-      "question": "In the term MOOC, what does the letter C stand for?",
-      "options": {
-        "A": "Committee",
-        "B": "Council",
-        "C": "Course",
-        "D": "Coordination"
-      },
+      "question": "In the acronym MOOC, what does the 'C' stand for?",
+      "options": { "A": "Committee", "B": "Council", "C": "Course", "D": "Coordination" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "95%",
-      "explanation": "MOOC stands for Massive Open Online Course, a model for delivering free or low-cost learning content online to any person who wants to take it."
+      "explanation": "MOOC expands to Massive Open Online Course — a way of delivering free or affordable learning content to anyone online."
     },
     {
       "id": 49,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is the most essential quality of an effective teacher?",
+      "question": "Which quality is most essential for an effective teacher to possess?",
       "options": {
         "A": "Communicates ideas clearly and accurately",
         "B": "Uses multiple instructional aids in lessons",
@@ -929,37 +640,26 @@
         "D": "Follows textbooks without deviation"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "90%",
-      "explanation": "While many qualities are helpful, clear and accurate communication is the fundamental skill required to facilitate effective learning and knowledge transfer."
+      "explanation": "Though several traits matter, clear and accurate communication is the core skill needed to teach and transfer knowledge effectively."
     },
     {
       "id": 50,
       "section": "Teaching Aptitude",
-      "question": "Which of the following is NOT an intended objective of co-curricular activities?",
-      "options": {
-        "A": "Encouraging student creativity",
-        "B": "Promoting excessive competition over collaboration",
-        "C": "Identifying diverse student talents",
-        "D": "Fostering cooperation among peers"
-      },
+      "question": "Which of the following is NOT an intended goal of co-curricular activities?",
+      "options": { "A": "Encouraging student creativity", "B": "Promoting excessive competition over collaboration", "C": "Identifying diverse student talents", "D": "Fostering cooperation among peers" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "85%",
-      "explanation": "Co-curricular activities are meant to develop teamwork, social skills, and balanced character; excessive competition can be detrimental to these educational goals."
+      "explanation": "Co-curricular activities aim to build teamwork and rounded character; pushing excessive competition works against these very goals."
     },
     {
       "id": 51,
       "section": "General Awareness",
-      "question": "Which political party is currently in power in Tamil Nadu (as of 1st May 2025)?",
+      "question": "Which party held power in Tamil Nadu as of 1 May 2025?",
       "options": {
         "A": "Bharatiya Janata Party (BJP)",
         "B": "Dravida Munnetra Kazhagam (DMK)",
@@ -967,227 +667,136 @@
         "D": "Telugu Desam Party (TDP)"
       },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "90%",
-      "explanation": "The DMK, led by M.K. Stalin, is the ruling party in Tamil Nadu after winning the 2021 assembly elections."
+      "explanation": "The DMK under M.K. Stalin has governed Tamil Nadu since its win in the 2021 assembly elections."
     },
     {
       "id": 52,
       "section": "General Awareness",
-      "question": "Who is the current Chief Minister of Delhi (as of 1st May 2025)?",
-      "options": {
-        "A": "Arvind Kejriwal",
-        "B": "Atishi Singh",
-        "C": "Manish Sisodia",
-        "D": "Rekha Gupta"
-      },
+      "question": "As of 1 May 2025, who serves as Delhi's Chief Minister?",
+      "options": { "A": "Arvind Kejriwal", "B": "Atishi Singh", "C": "Manish Sisodia", "D": "Rekha Gupta" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:25",
       "rightPct": "85%",
-      "explanation": "Atishi Singh succeeded Arvind Kejriwal as the Chief Minister of Delhi in late 2024."
+      "explanation": "Atishi Singh took over as Delhi's Chief Minister from Arvind Kejriwal in late 2024."
     },
     {
       "id": 53,
       "section": "General Awareness",
-      "question": "Who is the Chief Justice of India as of 1st May 2025?",
-      "options": {
-        "A": "Arvind Bobde",
-        "B": "D. Y. Chandrachud",
-        "C": "Sanjeev Khanna",
-        "D": "U. U. Lalit"
-      },
+      "question": "Who holds the post of Chief Justice of India as of 1 May 2025?",
+      "options": { "A": "Arvind Bobde", "B": "D. Y. Chandrachud", "C": "Sanjeev Khanna", "D": "U. U. Lalit" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "80%",
-      "explanation": "Justice Sanjeev Khanna was appointed as the 51st Chief Justice of India, succeeding Justice D.Y. Chandrachud."
+      "explanation": "Justice Sanjeev Khanna took office as India's 51st Chief Justice, succeeding Justice D.Y. Chandrachud."
     },
     {
       "id": 54,
       "section": "General Awareness",
-      "question": "Which country hosted the 2024 Summer Olympics?",
-      "options": {
-        "A": "Australia",
-        "B": "China",
-        "C": "France",
-        "D": "United States"
-      },
+      "question": "Which nation played host to the 2024 Summer Olympics?",
+      "options": { "A": "Australia", "B": "China", "C": "France", "D": "United States" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "95%",
-      "explanation": "The 2024 Summer Olympics, officially the Games of the XXXIII Olympiad, were held in Paris, France."
+      "explanation": "The Games of the XXXIII Olympiad, held in 2024, took place in Paris, France."
     },
     {
       "id": 55,
       "section": "General Awareness",
-      "question": "Who is India's current Minister of External Affairs (as of 1st May 2025)?",
-      "options": {
-        "A": "Harsh Vardhan",
-        "B": "Rajan Mathai",
-        "C": "S. Jaishankar",
-        "D": "Vinay Kwatra"
-      },
+      "question": "As of 1 May 2025, who serves as India's Minister of External Affairs?",
+      "options": { "A": "Harsh Vardhan", "B": "Rajan Mathai", "C": "S. Jaishankar", "D": "Vinay Kwatra" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "92%",
-      "explanation": "Subrahmanyam Jaishankar has served as the Minister of External Affairs of the Government of India since 2019."
+      "explanation": "Subrahmanyam Jaishankar has held the External Affairs Ministry role in the Indian government since 2019."
     },
     {
       "id": 56,
       "section": "General Awareness",
-      "question": "Which of the following dates marks the longest day and longest night in India, respectively?",
-      "options": {
-        "A": "June 1 and December 1",
-        "B": "June 21 and December 21",
-        "C": "June 30 and December 31",
-        "D": "None of the above"
-      },
+      "question": "Which dates mark India's longest day and longest night respectively?",
+      "options": { "A": "June 1 and December 1", "B": "June 21 and December 21", "C": "June 30 and December 31", "D": "None of the above" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "88%",
-      "explanation": "June 21 is the Summer Solstice (longest day), and December 21 is the Winter Solstice (longest night) in the Northern Hemisphere."
+      "explanation": "June 21 marks the Summer Solstice (the longest day), and December 21 marks the Winter Solstice (the longest night) in the Northern Hemisphere."
     },
     {
       "id": 57,
       "section": "General Awareness",
-      "question": "Which two classical Indian texts were inscribed in UNESCO's Memory of the World Register in April 2025?",
-      "options": {
-        "A": "Arthashastra and Manusmriti",
-        "B": "Mahabharata and Upanishads",
-        "C": "Shrimad Bhagavad Gita and Natyashastra",
-        "D": "Vedas and Ramayana"
-      },
+      "question": "Which pair of classical Indian texts entered UNESCO's Memory of the World Register in April 2025?",
+      "options": { "A": "Arthashastra and Manusmriti", "B": "Mahabharata and Upanishads", "C": "Shrimad Bhagavad Gita and Natyashastra", "D": "Vedas and Ramayana" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "70%",
-      "explanation": "These major literary and cultural works were recognized by UNESCO for their global significance and heritage value."
+      "explanation": "These two texts were added to the register in recognition of their far-reaching cultural and literary significance."
     },
     {
       "id": 58,
       "section": "General Awareness",
-      "question": "Which President of India also served as Vice Chancellor of Jamia Millia Islamia?",
-      "options": {
-        "A": "A. P. J. Abdul Kalam",
-        "B": "Fakhruddin Ali Ahmed",
-        "C": "Mohammad Hidayatullah",
-        "D": "Zakir Hussain"
-      },
+      "question": "Which Indian President had earlier served as Vice Chancellor of Jamia Millia Islamia?",
+      "options": { "A": "A. P. J. Abdul Kalam", "B": "Fakhruddin Ali Ahmed", "C": "Mohammad Hidayatullah", "D": "Zakir Hussain" },
       "correct": "D",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:25",
       "rightPct": "90%",
-      "explanation": "Dr. Zakir Hussain served as the Vice Chancellor of Jamia Millia Islamia for over 20 years before becoming the 3rd President of India."
+      "explanation": "Dr. Zakir Hussain led Jamia Millia Islamia as Vice Chancellor for over two decades before going on to become India's third President."
     },
     {
       "id": 59,
       "section": "General Awareness",
-      "question": "Bihu is a major festival marking the new year in which Indian state?",
-      "options": {
-        "A": "Arunachal Pradesh",
-        "B": "Assam",
-        "C": "Nagaland",
-        "D": "Tripura"
-      },
+      "question": "Bihu marks the new year in which Indian state?",
+      "options": { "A": "Arunachal Pradesh", "B": "Assam", "C": "Nagaland", "D": "Tripura" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "95%",
-      "explanation": "Bohag Bihu, also known as Rongali Bihu, is the most important festival of Assam, celebrating the Assamese New Year."
+      "explanation": "Bohag Bihu, also called Rongali Bihu, is Assam's most significant festival, marking the Assamese New Year."
     },
     {
       "id": 60,
       "section": "General Awareness",
-      "question": "Which of the following is officially recognized as the national sport of India?",
-      "options": {
-        "A": "Cricket",
-        "B": "Hockey",
-        "C": "Kabaddi",
-        "D": "Wrestling"
-      },
+      "question": "Which sport is generally treated as India's national sport?",
+      "options": { "A": "Cricket", "B": "Hockey", "C": "Kabaddi", "D": "Wrestling" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:15",
       "rightPct": "90%",
-      "explanation": "Although India does not have an 'official' national sport declared by law, Field Hockey is traditionally regarded as such due to its historical success."
+      "explanation": "India has no legally declared national sport, but Field Hockey is traditionally treated as such given the country's historic success in the game."
     },
     {
       "id": 61,
       "section": "General Awareness",
-      "question": "How many spokes are there in the Ashoka Chakra on the Indian national flag?",
-      "options": {
-        "A": "21",
-        "B": "24",
-        "C": "31",
-        "D": "36"
-      },
+      "question": "The Ashoka Chakra on India's national flag has how many spokes?",
+      "options": { "A": "21", "B": "24", "C": "31", "D": "36" },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:10",
       "rightPct": "99%",
-      "explanation": "The 24 spokes in the Ashoka Chakra represent the 24 hours of the day and symbolize the wheel of law (Dharma)."
+      "explanation": "Its 24 spokes stand for the 24 hours in a day and symbolize the wheel of Dharma (law)."
     },
     {
       "id": 62,
       "section": "General Awareness",
-      "question": "Rajagopala Chidambaram, who recently passed away, was known for his contribution in which field?",
-      "options": {
-        "A": "Nuclear Physics",
-        "B": "Politics",
-        "C": "Social Work",
-        "D": "Sports"
-      },
+      "question": "Rajagopala Chidambaram, who passed away recently, was noted for his work in which field?",
+      "options": { "A": "Nuclear Physics", "B": "Politics", "C": "Social Work", "D": "Sports" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:30",
       "rightPct": "75%",
-      "explanation": "R. Chidambaram was a distinguished nuclear scientist who played a pivotal role in India's nuclear weapons program."
+      "explanation": "R. Chidambaram was a prominent nuclear scientist central to India's nuclear weapons development program."
     },
     {
       "id": 63,
       "section": "General Awareness",
-      "question": "Which of the following statements about Jamia Millia Islamia is NOT true?",
+      "question": "Which of these statements about Jamia Millia Islamia is FALSE?",
       "options": {
         "A": "It is a central university and a minority institution.",
         "B": "It was established in 1920 by Sir Syed Ahmad Khan as Anglo Oriental College.",
@@ -1195,56 +804,37 @@
         "D": "Its name translates to \"National Muslim University\"."
       },
       "correct": "B",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:40",
       "rightPct": "80%",
-      "explanation": "The Mohammadan Anglo-Oriental College (later AMU) was founded by Sir Syed Ahmad Khan; Jamia was founded in Aligarh in 1920."
+      "explanation": "Sir Syed Ahmad Khan actually founded the Mohammadan Anglo-Oriental College (later AMU); Jamia itself was founded separately in Aligarh in 1920."
     },
     {
       "id": 64,
       "section": "General Awareness",
-      "question": "Which country won the ICC Cricket World Cup in 2023?",
-      "options": {
-        "A": "Australia",
-        "B": "India",
-        "C": "Pakistan",
-        "D": "South Africa"
-      },
+      "question": "Which country lifted the ICC Cricket World Cup trophy in 2023?",
+      "options": { "A": "Australia", "B": "India", "C": "Pakistan", "D": "South Africa" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:20",
       "rightPct": "95%",
-      "explanation": "Australia won their sixth World Cup title by defeating India in the final at Ahmedabad in November 2023."
+      "explanation": "Australia claimed its sixth World Cup title, beating India in the Ahmedabad final in November 2023."
     },
     {
       "id": 65,
       "section": "General Awareness",
-      "question": "Which Indian state launched the digital detox initiative called \"Beyond Screens\"?",
-      "options": {
-        "A": "Karnataka",
-        "B": "Maharashtra",
-        "C": "Odisha",
-        "D": "Rajasthan"
-      },
+      "question": "Which state rolled out the digital detox program called 'Beyond Screens'?",
+      "options": { "A": "Karnataka", "B": "Maharashtra", "C": "Odisha", "D": "Rajasthan" },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:35",
       "rightPct": "70%",
-      "explanation": "Karnataka introduced this initiative to spread awareness about the risks of digital addiction and promote a healthier balance with technology."
+      "explanation": "Karnataka launched this program to raise awareness about digital addiction and encourage a healthier relationship with technology."
     },
     {
-      "id": 71,
+      "id": 66,
       "section": "General Science",
-      "question": "A solid is one which has fixed shape and volume. Talcum powder behaves as which type of substance?",
+      "question": "A solid substance keeps a fixed shape and volume. Given this, how should talcum powder be classified?",
       "options": {
         "A": "Solid",
         "B": "Liquid",
@@ -1252,32 +842,21 @@
         "D": "combination of solid and gaseous states"
       },
       "correct": "A",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "00:25",
       "rightPct": "90%",
-      "explanation": "Talcum powder consists of tiny solid particles. While it may pour like a liquid, each individual grain maintains a fixed shape and volume characteristic of a solid."
+      "explanation": "Talcum powder is made of many tiny solid particles. Though it can pour like a liquid, every individual particle still holds its own fixed shape and volume, the hallmark of a solid."
     },
     {
-      "id": 111,
+      "id": 67,
       "section": "Mathematics",
-      "question": "Determine the solution set for the system 5x - 15y = 8 and 3x - 9y = 24/5.",
-      "options": {
-        "A": "No solution",
-        "B": "Exactly one solution",
-        "C": "Infinitely many solutions",
-        "D": "Two solutions"
-      },
+      "question": "For the system of equations 5x - 15y = 8 and 3x - 9y = 24/5, how many solutions exist?",
+      "options": { "A": "No solution", "B": "Exactly one solution", "C": "Infinitely many solutions", "D": "Two solutions" },
       "correct": "C",
-      "marks": {
-        "pos": 1,
-        "neg": 0.25
-      },
+      "marks": { "pos": 1, "neg": 0.25 },
       "timeAvg": "01:15",
       "rightPct": "50%",
-      "explanation": "Dividing the first equation by 5 gives x-3y=1.6. Dividing the second by 3 gives x-3y=1.6. Since the lines are identical, there are infinitely many solutions."
+      "explanation": "Dividing the first equation by 5 gives x-3y=1.6, and dividing the second by 3 gives the same x-3y=1.6 — since both lines coincide, there are infinitely many solutions."
     }
   ]
 }
