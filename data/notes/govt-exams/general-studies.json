@@ -1,0 +1,32 @@
+{
+  "subject_id": "general-studies",
+  "subject_title": "General Studies Dynamic Track",
+  "search_sub_menus": [
+    { "label": "All Updates", "tag": "all" },
+    { "label": "🎖️ Exercises & Ranks", "tag": "dynamic-updates" }
+  ],
+  "hierarchy": [
+    {
+      "chapter_id": "global-relations-ranks",
+      "chapter_title": "Global Indices, Rankings & Def-Ex",
+      "topics": [
+        {
+          "topic_id": "military-exercises-current",
+          "topic_title": "Important Joint Military Exercises",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "gs_dyn_001",
+              "title": "Major Bilateral Def-Ex Protocols",
+              "tags": ["dynamic-updates"],
+              "basic_overview": "• <b>Malabar Exercise:</b> Quad Nations (India, USA, Japan, Australia).\n• <b>Samudra Shakti:</b> India & Indonesia bilateral naval operation.\n• <b>Vajra Prahar:</b> India & US Special Forces engagement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ec4899",
+              "extra_info_content": "📡 Quick Operational Notes:\n- Yudh Abhyas is the army exercise between India and USA.\n- Surya Kiran is conducted annually between India and Nepal.\n- Garuda Shakti (Army) vs Samudra Shakti (Navy) both involve Indonesia—don't get confused!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
