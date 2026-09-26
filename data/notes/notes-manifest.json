@@ -1,23 +1,38 @@
 {
   "exam_categories": [
     {
-      "id": "govt-exams",
-      "name": "🏛️ Government Exams (DSSSB, SSC, NTPC, UPSC)",
+      "id": "mathematics-independent",
+      "name": "🧮 Mathematics Sandbox (Formulas & Shortcuts Only)",
       "subjects": [
-        { "id": "history", "name": "History", "path": "data/notes/govt-exams/history.json" },
-        { "id": "polity", "name": "Polity", "path": "data/notes/govt-exams/polity.json" },
-        { "id": "geography", "name": "Geography", "path": "data/notes/govt-exams/geography.json" },
-        { "id": "economics", "name": "Economics", "path": "data/notes/govt-exams/economics.json" }
+        { "id": "mathematics-core", "name": "🔢 Maths Core, Shortcuts & Explanations", "path": "data/notes/govt-exams/mathematics.json" }
       ]
     },
     {
-      "id": "psu-chemistry",
-      "name": "🔬 PSU & Higher Chemistry (QC, IIT JAM, GATE)",
+      "id": "gk-gs-tree",
+      "name": "👑 General Knowledge & General Studies (The Master Tree)",
       "subjects": [
-        { "id": "inorganic", "name": "Inorganic Chemistry", "path": "data/notes/psu-chemistry/inorganic.json" },
-        { "id": "organic", "name": "Organic Chemistry", "path": "data/notes/psu-chemistry/organic.json" },
-        { "id": "physical", "name": "Physical & Statistical Chemistry", "path": "data/notes/psu-chemistry/physical.json" },
-        { "id": "instrumentation", "name": "Instrumentation & Applied", "path": "data/notes/psu-chemistry/instrumentation.json" }
+        { "id": "static-gk", "name": "🎨 Static GK (Fairs, Festivals, Dance, Gharana)", "path": "data/notes/govt-exams/static-gk.json" },
+        { "id": "general-studies", "name": "📊 General Studies (Indexes, Exercises, Appointments)", "path": "data/notes/govt-exams/general-studies.json" },
+        { "id": "general-science", "name": "🔬 General Science (Physics, Chemistry, Biology Foundations)", "path": "data/notes/govt-exams/general-science.json" }
+      ]
+    },
+    {
+      "id": "language-computer-independent",
+      "name": "💻 Core Skills & Languages",
+      "subjects": [
+        { "id": "english-grammar", "name": "🇬🇧 English Grammar & Vocabulary", "path": "data/notes/govt-exams/english.json" },
+        { "id": "hindi-vyakaran", "name": "🇮🇳 Hindi Vyakaran & Literature Concepts", "path": "data/notes/govt-exams/hindi.json" },
+        { "id": "computer-awareness", "name": "🖥️ Computer Science & IT Fundamentals", "path": "data/notes/govt-exams/computer.json" }
+      ]
+    },
+    {
+      "id": "psu-chemistry-isolated",
+      "name": "🧪 PSU & Higher Chemistry (QC, IIT JAM, GATE Domain)",
+      "subjects": [
+        { "id": "inorganic-chem", "name": "💎 Inorganic Chemistry", "path": "data/notes/psu-chemistry/inorganic.json" },
+        { "id": "organic-chem", "name": "⬡ Organic Reaction Mechanisms", "path": "data/notes/psu-chemistry/organic.json" },
+        { "id": "physical-chem", "name": "🌡️ Physical & Statistical Chemistry", "path": "data/notes/psu-chemistry/physical.json" },
+        { "id": "instrumentation-qc", "name": "⚙️ Instrumentation & Applied (General vs QC Lab)", "path": "data/notes/psu-chemistry/instrumentation.json" }
       ]
     }
   ]
