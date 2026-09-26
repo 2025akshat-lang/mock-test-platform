@@ -1,0 +1,49 @@
+{
+  "subject_id": "history",
+  "subject_title": "General Studies - History",
+  "search_sub_menus": [
+    { "label": "All Items", "tag": "all" },
+    { "label": "🔍 Only Rebellions & Movements", "tag": "rebellion" },
+    { "label": "🎩 Only Governor Generals", "tag": "governor-general" }
+  ],
+  "hierarchy": [
+    {
+      "chapter_id": "modern-history",
+      "chapter_title": "Modern Indian History",
+      "topics": [
+        {
+          "topic_id": "tribal-rebellions",
+          "topic_title": "Tribal Movements & Rebellions",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "hist_mod_001",
+              "title": "Santhal Rebellion (1855-56)",
+              "tags": ["rebellion", "movement", "modern-history"],
+              "basic_overview": "Santhal rebellion was a major tribal revolt in eastern India (Rajmahal hills) against the oppressive Zamindari system and British East India Company policies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ef4444",
+              "extra_info_content": "👉 Leaders: Sidhu, Kanhu, Chand, and Bhairav (brothers).\n👉 Region: Damin-i-koh.\n👉 Outcome: Martial law was declared, and later the British created 'Santhal Pargana' to soothe them."
+            }
+          ]
+        },
+        {
+          "topic_id": "british-executives",
+          "topic_title": "Governor Generals of India",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "hist_mod_002",
+              "title": "Warren Hastings (1773–1785)",
+              "tags": ["governor-general", "modern-history"],
+              "basic_overview": "He was the first Governor-General of Fort William (Bengal) under the Regulating Act of 1773.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#3b82f6",
+              "extra_info_content": "💡 Key Events:\n1. Abolished the Dual System of Government in Bengal.\n2. Regulating Act of 1773 passed.\n3. Founded Calcutta Madrasa (1781) for Islamic studies.\n4. Asiatic Society of Bengal formed by William Jones (1784)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
