@@ -847,14 +847,14 @@ document.addEventListener('DOMContentLoaded', () => {
       
       // अगर यूजर ने साइडबार में 'Short Study Notes' पर टैप किया है
       if (panelId === 'notes-panel' && typeof NotesEngine !== 'undefined') {
-        setTimeout(() => {
-          if (NotesEngine.currentSubjectData) {
-            NotesEngine.renderNotesTree();
-          } else {
-            NotesEngine.renderExamCategories();
-          }
-        }, 30);
-      }
+  setTimeout(() => {
+    if (NotesEngine.subjectIndexData) {
+      NotesEngine.renderChapterShells();
+    } else {
+      NotesEngine.renderExamCategories();
+    }
+  }, 30);
+}
     };
   }
 });
