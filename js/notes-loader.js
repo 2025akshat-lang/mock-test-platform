@@ -37,7 +37,7 @@ const NotesEngine = {
       
       category.subjects.forEach(subject => {
         htmlContent += `
-          <div onclick="NotesEngine.loadSubject('${subject.path}')" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.shadow='0 4px 6px rgba(0,0,0,0.05)'" onmouseout="this.style.transform='none'; this.style.shadow='0 1px 3px rgba(0,0,0,0.05)'">
+          <div onclick="NotesEngine.loadSubject('${subject.path}')" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)';" onmouseout="this.style.transform='none';">
             <div style="font-weight: 700; color: #1e293b; font-size: 1.05rem; margin-bottom: 4px;">${subject.name}</div>
             <div style="font-size: 0.8rem; color: #64748b;">📚 Tap to open notes repository</div>
           </div>
@@ -157,7 +157,7 @@ const NotesEngine = {
                 
                 <p style="margin: 0; color: #334155; font-size: 0.9rem; line-height: 1.5;">${DOMPurify.sanitize(note.basic_overview)}</p>
                 
-                <!-- हिडन एक्स्टra इन्फो बॉक्स (||| बटन दबाने पर खुलेगा) -->
+                <!-- हिडन एक्स्ट्रा इन्फो बॉक्स (||| बटन दबाने पर खुलेगा) -->
                 ${note.has_extra_info ? `
                   <div id="extra-\${note.id}" style="display: none; margin-top: 10px; padding: 10px 12px; background: #fff8e1; border-left: 4px solid \${note.extra_info_btn_color || '#2563eb'}; border-radius: 4px; font-size: 0.85rem; color: #b78103; white-space: pre-wrap; font-weight: 600;">
                     \${DOMPurify.sanitize(note.extra_info_content)}
@@ -205,7 +205,7 @@ const NotesEngine = {
 
   // ||| बटन दबाने पर एक्स्ट्रा इन्फो टॉगल करने का फंक्शन
   toggleExtraInfo: function(event, noteId) {
-    event.stopPropagation(); // क्लिक इवेंट को एक्सीडियन हेडर तक जाने से रोकना
+    event.stopPropagation(); // क्लिक इवेंट को एकॉर्डियन हेडर तक जाने से रोकना
     const extraBox = document.getElementById(`extra-${noteId}`);
     if (extraBox) {
       extraBox.style.display = extraBox.style.display === 'none' ? 'block' : 'none';
