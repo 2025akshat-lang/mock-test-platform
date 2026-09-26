@@ -817,17 +817,45 @@ const MockPanel = (() => {
 })();
 
 // ============================================================
-// 📝 3. NOTES PANEL (Independent Modules Sandbox)
+// 📝 3. NOTES PANEL (Isolated Architecture Connection Hub)
 // ============================================================
 const NotesPanel = (() => {
   function init() {
-    // Custom Notes init logic if needed
+    // अगर NotesEngine लोड हो चुका है, तो उसके manifest को इनिशियलाइज़ करें
+    if (typeof NotesEngine !== 'undefined') {
+      NotesEngine.init();
+    }
   }
   return { init };
 })();
 
 // BOOTSTRAP APP ON LOAD
 document.addEventListener('DOMContentLoaded', () => {
+  // मॉक टेस्ट और साइडबार कंट्रोल्स को लोड करने के लिए पुराना फंक्शन
   ControlPanel.init();
+  
+  // हमारे नए नोट्स आर्किटेक्चर को बैकएंड से कनेक्ट करने के लिए
   NotesPanel.init();
+
+  // साइडबार पैनल स्विच मैकेनिज्म में बिना छेड़छाड़ किए नोट्स रेंडर हुक लगाना
+  if (typeof ControlPanel !== 'undefined' && ControlPanel.switchPanel) {
+    const originalSwitchPanel = ControlPanel.switchPanel;
+    
+    ControlPanel.switchPanel = function(panelId) {
+      // पहले पुराना जो भी मॉक टेस्ट या पैनल स्विच का कोड है उसे सेफली चलने दें
+      originalSwitchPanel(panelId);
+      
+      // अगर यूजर ने साइडबार में 'Short Study Notes' पर टैप किया है
+      if (panelId === 'notes-panel' && typeof NotesEngine !== 'undefined') {
+        setTimeout(() => {
+          if (NotesEngine.currentSubjectData) {
+            NotesEngine.renderNotesTree();
+          } else {
+            NotesEngine.renderExamCategories();
+          }
+        }, 30);
+      }
+    };
+  }
 });
+
