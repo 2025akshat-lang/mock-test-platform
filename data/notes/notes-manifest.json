@@ -1,0 +1,24 @@
+{
+  "exam_categories": [
+    {
+      "id": "govt-exams",
+      "name": "🏛️ Government Exams (DSSSB, SSC, NTPC, UPSC)",
+      "subjects": [
+        { "id": "history", "name": "History", "path": "data/notes/govt-exams/history.json" },
+        { "id": "polity", "name": "Polity", "path": "data/notes/govt-exams/polity.json" },
+        { "id": "geography", "name": "Geography", "path": "data/notes/govt-exams/geography.json" },
+        { "id": "economics", "name": "Economics", "path": "data/notes/govt-exams/economics.json" }
+      ]
+    },
+    {
+      "id": "psu-chemistry",
+      "name": "🔬 PSU & Higher Chemistry (QC, IIT JAM, GATE)",
+      "subjects": [
+        { "id": "inorganic", "name": "Inorganic Chemistry", "path": "data/notes/psu-chemistry/inorganic.json" },
+        { "id": "organic", "name": "Organic Chemistry", "path": "data/notes/psu-chemistry/organic.json" },
+        { "id": "physical", "name": "Physical & Statistical Chemistry", "path": "data/notes/psu-chemistry/physical.json" },
+        { "id": "instrumentation", "name": "Instrumentation & Applied", "path": "data/notes/psu-chemistry/instrumentation.json" }
+      ]
+    }
+  ]
+}
