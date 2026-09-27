@@ -1,0 +1,26 @@
+{
+  "exam_categories": [
+    {
+      "name": "Govt Exams (SSC / RRB / UPSC / TGT)",
+      "subjects": [
+        { "name": "GK ", "index": "data/notes/govt-exam/gs/index.json" },
+        { "name": "Maths ", "index": "data/notes/govt-exam/maths/mindex.json" },
+        { "name": "English ", "index": "data/notes/govt-exam/english/eindex.json" },
+        { "name": "Hindi ", "index": "data/notes/govt-exam/hindi/hindex.json" },
+        { "name": "Reasoning", "index": "data/notes/govt-exam/reasoning/rindex.json" }
+
+      ]
+    },
+    {
+      "name": "PSU / Technical (QC / JC / GATE / JAM)",
+      "subjects": [
+        { "name": "Organic Chemistry", "index": "data/notes/psu-chemistry/organic/oindex.json" },
+        { "name": "Inorganic Chemistry", "index": "data/notes/psu-chemistry/inorganic/inoindex.json" },
+        { "name": "Physical Chemistry", "index": "data/notes/psu-chemistry/physical/pindex.json" },
+        { "name": "Instrumental Chemistry", "index": "data/notes/psu-chemistry/instrumental/insindex.json" },
+        { "name": "Applied Chemistry", "index": "data/notes/psu-chemistry/applied/appindex.json" }
+
+      ]
+    }
+  ]
+}

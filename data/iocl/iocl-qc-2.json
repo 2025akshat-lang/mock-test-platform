@@ -1,0 +1,92 @@
+{
+  "id": "iocl-qc-1",
+  "title": "IOCL Quality Control Chemist - Mock Test 1",
+  "timeMins": 60,
+  "badgeText": "NEW",
+  "badgeClass": "badge-new",
+  "instructions": [
+    "Test contains conceptual physics and numerical problems for Quality Control Chemist position.",
+    "Each question carries 1 mark. Read the explanations carefully after submitting."
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "Identify the component labeled as **$X$** which is responsible for separating the sample mixture based on the chemical equilibrium partition coefficient ($K_D$):",
+      "diagram": "<svg viewBox='0 0 500 200' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='60' width='60' height='70' rx='5' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='50' y='100' font-size='12' text-anchor='middle' fill='#0f172a' font-family='sans-serif'>Mobile Phase</text><text x='50' y='115' font-size='10' text-anchor='middle' fill='#475569' font-family='sans-serif'>$(\\text{CH}_3\\text{OH} + \\text{H}_2\\text{O})$</text><line x1='80' y1='95' x2='120' y2='95' stroke='#0284c7' stroke-width='3'/><rect x='120' y='75' width='50' height='40' rx='3' fill='#cbd5e1' stroke='#334155' stroke-width='2'/><text x='145' y='98' font-size='11' text-anchor='middle' font-weight='bold' fill='#0f172a' font-family='sans-serif'>Pump</text><line x1='170' y1='95' x2='210' y2='95' stroke='#0284c7' stroke-width='3'/><circle cx='210' cy='95' r='12' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='210' y='99' font-size='10' text-anchor='middle' font-weight='bold' fill='#854d0e' font-family='sans-serif'>Inj</text><line x1='222' y1='95' x2='260' y2='95' stroke='#0284c7' stroke-width='3'/><rect x='260' y='80' width='90' height='30' rx='4' fill='#f87171' stroke='#991b1b' stroke-width='2'/><text x='305' y='100' font-size='14' font-weight='bold' text-anchor='middle' fill='#ffffff' font-family='sans-serif'>X</text><line x1='350' y1='95' x2='390' y2='95' stroke='#0284c7' stroke-width='3'/><rect x='390' y='75' width='60' height='40' rx='3' fill='#cbd5e1' stroke='#334155' stroke-width='2'/><text x='420' y='98' font-size='11' text-anchor='middle' font-weight='bold' fill='#0f172a' font-family='sans-serif'>UV-Vis</text><line x1='420' y1='115' x2='420' y2='150' stroke='#334155' stroke-width='2' stroke-dasharray='4'/><rect x='395' y='150' width='50' height='30' rx='2' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='420' y='168' font-size='10' text-anchor='middle' fill='#334155' font-family='sans-serif'>Waste</text></svg>",
+      "options": {
+        "A": "Autosampler / Injector Loop",
+        "B": "Analytical Column (e.g., C-18 stationary phase)",
+        "C": "UV-Vis Photodiode Array (PDA) Detector",
+        "D": "Quaternary Gradient Degasser Unit"
+      },
+      "correct": "B",
+      "explanation": "In HPLC instrumentation, component **$X$** represents the **Stationary Phase / Analytical Column** (typically $\\text{C}_{18}$ silica matrix). Separation occurs inside this column based on the retention factor ($k$) and partition dynamics between mobile phase and stationary phase."
+    },
+    {
+      "id": 2,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "An analytical chemist is optimizing the separation of two moderately polar compounds, $A$ ($t_R = 8.5\\text{ min}$) and $B$ ($t_R = 9.0\\text{ min}$), on a reversed-phase HPLC column ($\text{C}_{18}$) using an isocratic mobile phase of $60\\%$ methanol and $40\\%$ water. The retention time of an unretained marker ($t_0$) is $1.5\\text{ min}$. The peak widths at base for $A$ and $B$ are both $0.4\\text{ min}$. To achieve baseline resolution ($R_s \\ge 1.5$) while minimizing total run time, the analyst considers two separate modifications:\n\n1. Increase the column length $L$ by a factor of $2.25$ keeping flow rate and mobile phase constant.\n2. Adjust the mobile phase composition to $50\\%$ methanol and $50\\%$ water (which increases retention factors $k'$ by a factor of $2.0$ without changing the selectivity factor $\\alpha$ or column efficiency $N$).\n\nWhich strategy achieves a baseline resolution ($R_s \\ge 1.5$) in the shortest total analysis time for compound $B$?",
+      "options": {
+        "A": "Modification 1, with a new retention time for B of $13.5\\text{ min}$ and $R_s = 1.50$.",
+        "B": "Modification 2, with a new retention time for B of $16.5\\text{ min}$ and $R_s = 1.50$.",
+        "C": "Modification 1, with a new retention time for B of $20.25\\text{ min}$ and $R_s = 1.88$.",
+        "D": "Modification 2, with a new retention time for B of $9.0\\text{ min}$ and $R_s = 1.88$."
+      },
+      "correct": "B",
+      "explanation": "Initial retention factor $k_B' = \\frac{t_R - t_0}{t_0} = \\frac{9.0 - 1.5}{1.5} = 5.0$. Initial resolution $R_s = \\frac{2(t_{R,B} - t_{R,A})}{W_A + W_B} = \\frac{2(9.0 - 8.5)}{0.4 + 0.4} = 1.25$.\n\n- **For Modification 1:** Increasing column length by $2.25$ increases $N$ by $2.25$. Since $R_s \\propto \\sqrt{N}$, new $R_s = 1.25 \\times \\sqrt{2.25} = 1.88$. Retention time scales linearly with $L$, so new $t_{R,B} = 2.25 \\times 9.0 = 20.25\\text{ min}$.\n- **For Modification 2:** $k_B'$ doubles from $5.0$ to $10.0$. Modifying mobile phase gives $t_{R,B,new} = t_0(1 + k_{new}') = 1.5(1 + 10) = 16.5\\text{ min}$ and achieves $R_s = 1.50$, which is faster than $20.25\\text{ min}$."
+    },
+    {
+      "id": 3,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "A trace analysis lab uses Flame Atomic Absorption Spectroscopy (FAAS) to measure $\\text{Cu}^{2+}$ in industrial wastewater using an air-acetylene flame. The hollow cathode lamp (HCL) operates at $\\lambda = 324.7\\text{ nm}$. The analyst observes severe chemical interference caused by high concentrations of phosphate ($\\text{PO}_4^{3-}$), which forms a thermally stable refractory salt with copper, decreasing atomic absorbance by $40\\%$. To eliminate this interference without using solvent extraction, the analyst adds excess Lanthanum chloride ($\\text{LaCl}_3$) as a releasing agent.\n\nIf the sample matrix contains $12.0\\text{ mM}$ of $\\text{PO}_4^{3-}$ and the association stoichiometry of the refractory complex formed is $\\text{Cu}_3(\\text{PO}_4)_2$, what is the minimum concentration of $\\text{La}^{3+}$ required to quantitatively release all $\\text{Cu}^{2+}$ ions, assuming $\\text{La}^{3+}$ forms a $\\text{LaPO}_4$ precipitate with a 1:1 stoichiometry?",
+      "options": {
+        "A": "$8.0\\text{ mM}$",
+        "B": "$12.0\\text{ mM}$",
+        "C": "$18.0\\text{ mM}$",
+        "D": "$24.0\\text{ mM}$"
+      },
+      "correct": "B",
+      "explanation": "The releasing agent ($\\text{La}^{3+}$) acts by preferentially binding the interfering species ($\\text{PO}_4^{3-}$). Since $\\text{La}^{3+}$ reacts with $\\text{PO}_4^{3-}$ in a 1:1 mole ratio to form stable $\\text{LaPO}_4$, the complete sequestration of $12.0\\text{ mM}$ of phosphate requires an equivalent molar concentration of releasing metal ions: $[\\text{La}^{3+}] = [\\text{PO}_4^{3-}] = 12.0\\text{ mM}$."
+    },
+    {
+      "id": 4,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "In Gas Chromatography (GC), a mixture containing two volatile organic compounds, X and Y, is analyzed on a $30\\text{ m}$ capillary column with an inner diameter of $0.25\\text{ mm}$. The column distribution constant for compound X is $K_x = 150$, and the phase ratio of the column is $\\beta = 100$. The carrier gas flow rate is set such that the mobile phase velocity $u = 30\\text{ cm/s}$.\n\nCalculate the retention time ($t_R$) of compound X on this column.",
+      "options": {
+        "A": "$1.67\\text{ min}$",
+        "B": "$2.50\\text{ min}$",
+        "C": "$4.17\\text{ min}$",
+        "D": "$250.0\\text{ min}$"
+      },
+      "correct": "C",
+      "explanation": "1. Dead time ($t_0$): $t_0 = \\frac{L}{u} = \\frac{3000\\text{ cm}}{30\\text{ cm/s}} = 100\\text{ s} = 1.667\\text{ min}$.\n2. Retention factor ($k'$): $k' = \\frac{K}{\\beta} = \\frac{150}{100} = 1.5$.\n3. Total retention time ($t_R$): $t_R = t_0(1 + k') = 100\\text{ s} \\times (1 + 1.5) = 250\\text{ s}$.\n4. In minutes: $\\frac{250}{60} \\approx 4.17\\text{ min}$."
+    },
+    {
+      "id": 5,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "A synthetic organic chemist isolates a pure isomer of a disubstituted aromatic derivative with molecular formula $\\text{C}_8\\text{H}_8\\text{Br}_{2}$. The $^{1}\\text{H}$-NMR spectrum recorded on a $400\\text{ MHz}$ spectrometer displays the following signals:\n\n- $\\delta = 2.35\\text{ ppm}$ $(\\text{s}, 3\\text{H})$\n- $\\delta = 7.10\\text{ ppm}$ $(\\text{d}, J = 8.2\\text{ Hz}, 1\\text{H})$\n- $\\delta = 7.35\\text{ ppm}$ $(\\text{dd}, J = 8.2, 2.0\\text{ Hz}, 1\\text{H})$\n- $\\delta = 7.55\\text{ ppm}$ $(\\text{d}, J = 2.0\\text{ Hz}, 1\\text{H})$\n\nWhich structural isomer uniquely matches this spectroscopic signature?",
+      "options": {
+        "A": "1,4-dibromo-2-ethylbenzene",
+        "B": "2,4-dibromo-1-methylbenzene",
+        "C": "3,5-dibromotoluene",
+        "D": "1,2-dibromo-4-methylbenzene"
+      },
+      "correct": "B",
+      "explanation": "1. Peak at $\\delta = 2.35\\text{ ppm}$ ($3\\text{H}$, singlet) indicates an aromatic methyl group ($-\\text{CH}_3$).\n2. The aromatic region shows 3 distinct protons, ruling out symmetric structures like 3,5-dibromotoluene.\n3. The coupling constants ($J = 8.2\\text{ Hz}$ for ortho, $J = 2.0\\text{ Hz}$ for meta) confirm a 1,2,4-trisubstituted pattern corresponding to **2,4-dibromo-1-methylbenzene**."
+    },
+    {
+      "id": 6,
+      "section": "Analytical Chemistry & Instruments",
+      "question": "A water quality control monitoring station measures atmospheric aerosol pollution using a portable Gas Chromatography-Mass Spectrometry (GC-MS) system paired with Flame Ionization Detection (FID) for quantification. During continuous monitoring of urban smog containing ethanol, benzene, and hexanesulfonic acid, hexanesulfonic acid fails to produce any detectable peak on the non-polar capillary GC column, while benzene gives a sharp peak with high sensitivity.\n\nWhy does hexanesulfonic acid fail to generate a usable signal in standard GC-FID analysis under direct injection conditions?",
+      "options": {
+        "A": "Hexanesulfonic acid undergoes complete ionization in the non-polar column, producing non-volatile ionic species that permanently bind to the stationary phase.",
+        "B": "The high polarity and low volatility of the sulfonic acid group cause strong hydrogen bonding and irreversible adsorption/thermal decomposition in the GC injector port and column.",
+        "C": "Flame Ionization Detectors (FID) are inherently insensitive to molecules containing sulfur atoms due to quenching of carbon radical ions in the hydrogen flame.",
+        "D": "Hexanesulfonic acid elutes before the solvent front ($t_R < t_0$), causing its signal to be masked completely by the solvent delay algorithm."
+      },
+      "correct": "B",
+      "explanation": "Highly polar compounds containing sulfonic acid groups ($-\\text{SO}_3\\text{H}$) form strong intermolecular hydrogen bonds, leading to extremely low volatility and high peak tailing or complete adsorption onto active sites in the injection liner/column. Prior derivatization (e.g., silylation) is mandatory for such analytes in GC."
+    }
+  ]
+}

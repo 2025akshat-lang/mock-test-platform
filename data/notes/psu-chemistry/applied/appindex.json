@@ -1,0 +1,10 @@
+{
+  "chapters": [
+    { "id": "polymer", "title": "Polymer Chemistry", "file": "data/notes/psu-chemistry/applied/polymer.json" },
+    { "id": "analytical", "title": "Analytical Chemistry", "file": "data/notes/psu-chemistry/applied/analytical.json" },
+    { "id": "industrial", "title": "Industrial Chemistry", "file": "data/notes/psu-chemistry/applied/industrial.json" }
+    
+    
+    
+  ]
+}

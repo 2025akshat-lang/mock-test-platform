@@ -1,0 +1,49 @@
+{
+  "subject_id": "instrumentation",
+  "subject_title": "Instrumentation & Applied Spectroscopy",
+  "search_sub_menus": [
+    { "label": "All Notes", "tag": "all" },
+    { "label": "⚙️ QC Troubleshooting & Working", "tag": "qc-special" },
+    { "label": "⚛️ Core Theoretical Spectrum", "tag": "theory" }
+  ],
+  "hierarchy": [
+    {
+      "chapter_id": "uv-vis-spectroscopy",
+      "chapter_title": "UV-Visible Spectroscopy",
+      "topics": [
+        {
+          "topic_id": "uv-general-theory",
+          "topic_title": "General Theory & Molecular Transitions",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "chem_inst_001",
+              "title": "Electronic Transitions & Beer-Lambert Law",
+              "tags": ["theory", "uv-vis"],
+              "basic_overview": "UV spectroscopy deals with electronic transitions ($\sigma \rightarrow \sigma^*, \pi \rightarrow \pi^*, n \rightarrow \pi^*$). Beer-Lambert Law states $A = \epsilon c l$.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#10b981",
+              "extra_info_content": "🧮 Extra Data Parameters:\n- $\epsilon$ is the molar absorptivity coefficient.\n- Auxochromes shift absorption towards longer wavelengths (Bathochromic / Red shift).\n- Absorption maximum is designated as $\lambda_{max}$."
+            }
+          ]
+        },
+        {
+          "topic_id": "uv-qc-lab",
+          "topic_title": "Quality Control (QC) Lab Operations",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "chem_inst_002",
+              "title": "UV Instrument Troubleshooting & Verification",
+              "tags": ["qc-special", "troubleshooting"],
+              "basic_overview": "Focuses on instrument calibration, stray light limits, and pharmacopoeia compliance guidelines.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🛠️ QC Troubleshooting Steps:\n1. Baseline Drift: Check lamp intensity (Deuterium lamp for UV, Tungsten for Visible).\n2. Wavelength Accuracy Check: Done using Holmium Oxide filter/solution.\n3. Stray Light Error: Sample response looks non-linear at high concentrations."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

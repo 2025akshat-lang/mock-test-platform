@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    { "id": "vyakaran", "title": "Hindi Vyakaran", "file": "data/notes/govt-exam/hindi/vyakaran.json" },
+    { "id": "gadyans", "title": "Gandyans", "file": "data/notes/govt-exam/hindi/gadyans.json" }
+    
+    
+  ]
+}

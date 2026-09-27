@@ -1,0 +1,71 @@
+{
+  "chapter_title": "History",
+  "sections": [
+    {
+      "id": "ancient",
+      "title": "Ancient History",
+      "topics": []
+    },
+    {
+      "id": "medieval",
+      "title": "Medieval History",
+      "topics": []
+    },
+    {
+      "id": "modern",
+      "title": "Modern History",
+      "filters": [
+        { "label": "🔴 Rebellions & Revolts", "tag": "rebellion" },
+        { "label": "🟢 Movements", "tag": "movement" },
+        { "label": "🔵 Governor Generals", "tag": "governor" }
+      ],
+      "topics": [
+        {
+          "topic_id": "modern-1857",
+          "topic_title": "1857 Revolt",
+          "notes_list": [
+            {
+              "id": "h001",
+              "title": "Causes of 1857 Revolt",
+              "tags": ["rebellion", "modern"],
+              "basic_overview": "Immediate cause: greased cartridges controversy. Deeper causes: annexation policies (Doctrine of Lapse), economic exploitation, and social/religious interference by the British.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Key leaders: Bahadur Shah Zafar (Delhi), Rani Lakshmibai (Jhansi), Nana Saheb (Kanpur), Tantia Tope. Suppressed by 1858; led to end of East India Company rule (Government of India Act 1858)."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-ncm",
+          "topic_title": "Non-Cooperation Movement (1920-22)",
+          "notes_list": [
+            {
+              "id": "h002",
+              "title": "Non-Cooperation Movement",
+              "tags": ["movement", "modern"],
+              "basic_overview": "Launched by Gandhi in 1920 in response to Jallianwala Bagh massacre and Khilafat issue. Involved boycott of foreign goods, schools, courts and titles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Called off after Chauri Chaura incident (Feb 1922) where a mob killed policemen, leading Gandhi to withdraw the movement citing violence."
+            }
+          ]
+        },
+        {
+          "topic_id": "governors",
+          "topic_title": "Governor Generals of India",
+          "notes_list": [
+            {
+              "id": "h003",
+              "title": "Lord Dalhousie (1848-1856)",
+              "tags": ["governor", "modern"],
+              "basic_overview": "Known for the Doctrine of Lapse, expansion of railways and telegraph, and annexation of Awadh (1856) — a major trigger for the 1857 revolt.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Major achievements/reforms: (1) Doctrine of Lapse — annexed Satara, Jaitpur, Sambalpur, Jhansi, Nagpur, Awadh. (2) First railway line (Bombay-Thane, 1853) and telegraph line laid. (3) Public Works Department established. (4) Wood's Despatch (1854) — framework for modern English education. (5) Widow Remarriage Act groundwork; postal reforms (uniform postage)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

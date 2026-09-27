@@ -1,0 +1,9 @@
+{
+  "chapters": [
+    { "id": "history", "title": "History", "file": "data/notes/govt-exam/gs/history.json" },
+    { "id": "polity", "title": "Polity", "file": "data/notes/govt-exam/gs/polity.json" },
+    { "id": "geography", "title": "Geography", "file": "data/notes/govt-exam/gs/geography.json" },
+    { "id": "economics", "title": "Economics", "file": "data/notes/govt-exam/gs/economics.json" }
+    
+  ]
+}

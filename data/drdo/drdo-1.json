@@ -1,0 +1,1930 @@
+{
+  "id": "drdo-1",
+  "subCatId": "drdo",
+  "title": "DRDO CEPTAM Tier-2 Mock Test 1",
+  "timeMins": 120,
+  "badgeText": "PATTERN BASED",
+  "badgeClass": "badge-memory",
+  "questions": [
+    {
+      "id": 1,
+      "section": "General Science",
+      "question": "An octahedral transition metal complex shows an observed magnetic moment close to 3.87 BM. Based on the spin-only formula, which electron configuration and spin state is consistent with this value?",
+      "options": {
+        "A": "d2 High Spin",
+        "B": "d3 High Spin",
+        "C": "d4 Low Spin",
+        "D": "d5 Low Spin"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "70%",
+      "explanation": "A magnetic moment of 3.87 BM corresponds to 3 unpaired electrons per the spin-only formula √[n(n+2)]. In an octahedral field, a d3 ion always has 3 unpaired electrons occupying the t2g orbitals."
+    },
+    {
+      "id": 2,
+      "section": "General Science",
+      "question": "If one Cl ligand in Cp2TiCl2 is substituted by a phosphine donor, what change would you expect in the complex's electronic behavior?",
+      "options": {
+        "A": "Increase ligand field splitting, stabilizing lower oxidation states and possibly changing electron configuration",
+        "B": "Decrease ligand field splitting and cause a high-spin configuration",
+        "C": "Have no significant effect on the electronic structure or stability",
+        "D": "Increase the metal's oxidation state and destabilize the complex"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "55%",
+      "explanation": "Phosphine ligands act as stronger σ-donors and better π-acceptors compared to chloride. This raises the ligand field splitting (Δ), favoring lower oxidation states through enhanced back-donation."
+    },
+    {
+      "id": 3,
+      "section": "General Science",
+      "question": "Among HClO, HClO2, HClO3, and HClO4, which explanation correctly accounts for the observed acid strength trend?",
+      "options": {
+        "A": "Acidity is independent of oxygen atoms and depends only on the central atom",
+        "B": "Acidity decreases with the number of oxygen atoms due to increased electron density",
+        "C": "Acidity increases with the number of oxygen atoms because of greater stabilization of the conjugate base via resonance",
+        "D": "Acidity depends solely on the size of the hydrogen atom involved"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "More oxygen atoms allow the negative charge on the conjugate base to spread out via resonance, stabilizing it further and thereby strengthening the parent acid."
+    },
+    {
+      "id": 4,
+      "section": "General Science",
+      "question": "Arrange Al, Ge, Ca, Bi, and Rb in order of rising metallic character.",
+      "options": {
+        "A": "Ge < Bi < Al < Ca < Rb",
+        "B": "Ge < Al < Bi < Ca < Rb",
+        "C": "Bi < Al < Ge < Rb < Ca",
+        "D": "Al < Bi < Ge < Ca < Rb"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "60%",
+      "explanation": "Metallic character rises down a group and falls across a period. Rubidium, an alkali metal, is most metallic; germanium, a metalloid, is least."
+    },
+    {
+      "id": 5,
+      "section": "General Science",
+      "question": "What is the reason charge-transfer bands typically appear more intense than d-d bands in transition metal electronic spectra?",
+      "options": {
+        "A": "Charge transfer involves allowed electric dipole transitions between ligand and metal orbitals, bypassing symmetry restrictions",
+        "B": "Charge transfer transitions are forbidden and thus stronger",
+        "C": "d-d transitions involve electron spin flipping inducing greater intensity",
+        "D": "d-d transitions involve higher energy photons making them weaker"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "65%",
+      "explanation": "Charge-transfer transitions are Laporte-allowed because they occur between orbitals of different parity, unlike d-d transitions within centrosymmetric complexes, giving them far greater absorptivity."
+    },
+    {
+      "id": 6,
+      "section": "General Science",
+      "question": "For a 16-electron organometallic complex that shows fluxional behavior, what mainly enables ligands to exchange dynamically without breaking bonds?",
+      "options": {
+        "A": "Involvement of π-bonded ligands that stabilize the metal center",
+        "B": "Presence of vacant orbitals allowing associative ligand substitution",
+        "C": "High oxidation state of the metal center preventing ligand dissociation",
+        "D": "Steric hindrance that locks the ligands in place preventing exchange"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:55",
+      "rightPct": "50%",
+      "explanation": "Being coordinatively unsaturated, such complexes have an empty orbital allowing an entering ligand to associate, forming an 18-electron intermediate that permits fluxional exchange."
+    },
+    {
+      "id": 7,
+      "section": "General Science",
+      "question": "Xenon reacts far less readily than its atomic size alone would suggest. What is the main reason behind this?",
+      "options": {
+        "A": "Lower polarizability and reducing ability to form compounds",
+        "B": "Lack of accessible d orbitals for bonding",
+        "C": "Stronger relativistic effects stabilizing xenon's valence orbitals",
+        "D": "Higher ionization energy than lighter noble gases"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "40%",
+      "explanation": "For heavy atoms such as xenon, relativistic contraction stabilizes the 5s/5p orbitals, raising the effective ionization energy above what simple shell models predict."
+    },
+    {
+      "id": 8,
+      "section": "General Science",
+      "question": "What mainly accounts for noble gases being chemically unreactive under normal conditions?",
+      "options": {
+        "A": "Their completely filled outer electron shells",
+        "B": "Their ability to form stable coordination compounds",
+        "C": "Their high electronegativity",
+        "D": "Their large atomic radii"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "A complete valence octet (or duet for helium) confers stability, so noble gases have little tendency to gain, lose, or share electrons under ordinary conditions."
+    },
+    {
+      "id": 9,
+      "section": "General Science",
+      "question": "What is the main cause of the lanthanide contraction seen among f-block elements?",
+      "options": {
+        "A": "Increasing atomic mass without change in electron configuration",
+        "B": "Increasing nuclear charge with poor shielding by 4f electrons",
+        "C": "Presence of electrons in the 5d orbitals",
+        "D": "High electronegativity of f-block elements"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "80%",
+      "explanation": "4f electrons shield the nuclear charge poorly, so as protons increase across the series, outer electrons get pulled in more tightly, steadily shrinking atomic size."
+    },
+    {
+      "id": 10,
+      "section": "General Science",
+      "question": "If an electron's kinetic energy is quadrupled, what happens to its de Broglie wavelength?",
+      "options": {
+        "A": "It remains the same",
+        "B": "It becomes 1/2 times the original wavelength",
+        "C": "It becomes 2 times the original wavelength",
+        "D": "It becomes 1/4 times the original wavelength"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "75%",
+      "explanation": "Since λ = h/√(2mK), quadrupling K increases the denominator by √4 = 2, so the wavelength drops to half its original value."
+    },
+    {
+      "id": 11,
+      "section": "General Science",
+      "question": "Moving left to right across a period, atomic radius typically __________.",
+      "options": {
+        "A": "fluctuates randomly",
+        "B": "remains constant",
+        "C": "decreases",
+        "D": "increases"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "90%",
+      "explanation": "Nuclear charge grows while electrons still occupy the same shell across a period, pulling electrons in tighter and shrinking atomic radius."
+    },
+    {
+      "id": 12,
+      "section": "General Science",
+      "question": "Which element's outermost electrons occupy the 3d subshell?",
+      "options": {
+        "A": "Calcium (Ca)",
+        "B": "Scandium (Sc)",
+        "C": "Krypton (Kr)",
+        "D": "Phosphorus (P)"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "Scandium ([Ar] 3d¹ 4s²) is the first 3d-series element. Calcium's last electron enters 4s, while Kr and P are p-block elements."
+    },
+    {
+      "id": 13,
+      "section": "General Science",
+      "question": "What primarily governs the rate of ligand substitution in an octahedral metal complex?",
+      "options": {
+        "A": "The electro negativity of the solvent",
+        "B": "The temperature of the reaction only",
+        "C": "The oxidation state of the metal center",
+        "D": "The molecular weight of the complex"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "65%",
+      "explanation": "The metal's oxidation state and resulting ionic radius strongly affect metal-ligand bond strength and the activation energy needed for substitution."
+    },
+    {
+      "id": 14,
+      "section": "General Science",
+      "question": "For quantum numbers n = 4, l = 2, ml = 0, which orbital is being described?",
+      "options": {
+        "A": "4dz2",
+        "B": "4dx2-y2",
+        "C": "4dxy",
+        "D": "4s"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "75%",
+      "explanation": "n=4 gives the 4th shell, l=2 signals a d-orbital, and ml=0 specifically identifies the dz2 orbital among the five d-orbitals."
+    },
+    {
+      "id": 15,
+      "section": "General Science",
+      "question": "Compared to a monodentate ligand, what advantage does a chelating ligand mainly provide in a coordination compound?",
+      "options": {
+        "A": "It donates more electrons through π-bonding",
+        "B": "It forms more than one bond with the central metal ion, increasing complex stability",
+        "C": "It always acts as a bridging ligand between two metals",
+        "D": "It decreases the coordination number of the metal center"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "85%",
+      "explanation": "Chelate rings formed between the ligand and metal ion produce the chelate effect, giving markedly greater thermodynamic stability than a monodentate ligand would."
+    },
+    {
+      "id": 16,
+      "section": "General Science",
+      "question": "Even though electron-electron repulsion rises across a period, why does ionization energy still increase overall?",
+      "options": {
+        "A": "Electron shielding decreases dramatically across a period",
+        "B": "Increase in atomic size causes higher ionization energy",
+        "C": "Increasing nuclear charge holds electrons more tightly, outweighing repulsions",
+        "D": "Electrons are added to new shells, decreasing ionization energy"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "80%",
+      "explanation": "The rising proton count across a period pulls valence electrons in more strongly, an effect that outweighs the added electron-electron repulsion."
+    },
+    {
+      "id": 17,
+      "section": "General Science",
+      "question": "During catalytic cycles involving transition-metal alkyl complexes, why do agostic interactions matter?",
+      "options": {
+        "A": "They are artifacts observed only under low-temperature spectroscopic conditions",
+        "B": "They prevent ligand substitution reactions by steric shielding",
+        "C": "They increase the overall electron count to exceed the 18-electron rule",
+        "D": "They stabilize intermediates by weak bonding between metal and C–H bonds, facilitating bond activation"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "55%",
+      "explanation": "An agostic interaction is a weak coordination of a C–H σ-bond to the metal, which lowers the barrier for steps such as oxidative addition or β-hydride elimination."
+    },
+    {
+      "id": 18,
+      "section": "General Science",
+      "question": "In octahedral transition-metal complexes, what mostly controls the energy and intensity of d-d transitions?",
+      "options": {
+        "A": "The solvent polarity without ligand changes",
+        "B": "Nature of the surrounding ligands and the ligand field strength",
+        "C": "The atomic number of the metal only",
+        "D": "The geometry having no effect on d-d transitions"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:55",
+      "rightPct": "60%",
+      "explanation": "The identity of the ligands sets the crystal field splitting (Δo), which in turn determines absorption wavelength and orbital-mixing-driven transition intensity."
+    },
+    {
+      "id": 19,
+      "section": "General Science",
+      "question": "For [Fe(CN)6]4−, metal-ligand bonding includes both σ-donation and π-backbonding. Which statement best describes the resulting effect on the metal's electronic structure and bond strength?",
+      "options": {
+        "A": "π backbonding from Fe to CN- strengthens the Fe–C bond and lowers the t2g orbital energy, increasing ligand field splitting energy",
+        "B": "Strong σ donation from CN- increases the energy of metal d orbitals, reducing the ligand field splitting energy",
+        "C": "The σ donation and π backbonding have opposing effects that cancel completely, resulting in a field strength similar to a halide ligand",
+        "D": "Weak π backbonding causes electron localization on ligands, decreasing the covalent character of bonding"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:15",
+      "rightPct": "50%",
+      "explanation": "The combined σ-donor/π-acceptor (synergistic) bonding lowers the t2g orbital energies relative to eg*, producing a large Δo and favoring a low-spin state."
+    },
+    {
+      "id": 20,
+      "section": "General Science",
+      "question": "In the spectrochemical series, which property mainly decides where a ligand ranks?",
+      "options": {
+        "A": "The metal ion's atomic number exclusively",
+        "B": "The oxidation state of the central metal ion alone",
+        "C": "The ligand's field strength determined by its σ-donor ability and π-acceptor or π-donor character",
+        "D": "The ligand's molecular mass"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "75%",
+      "explanation": "Ligand ranking reflects splitting ability: strong π-acceptors like CO give the largest Δ, while π-donors like I⁻ give the smallest."
+    },
+    {
+      "id": 21,
+      "section": "General Science",
+      "question": "Classify B6H12, B4H8, and B6H11+ as closo, nido, arachno, or hypho boranes, in that order.",
+      "options": {
+        "A": "Arachno, Nido, Closo",
+        "B": "Nido, Arachno, Closo",
+        "C": "Closo, Nido, Arachno",
+        "D": "Arachno, Closo, Nido"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:10",
+      "rightPct": "45%",
+      "explanation": "By Wade's rules: B6H12 (BnHn+6) is arachno, B4H8 (BnHn+4) is nido, and B6H11+ (isoelectronic with B6H6 2-) behaves as a closo derivative."
+    },
+    {
+      "id": 22,
+      "section": "General Science",
+      "question": "What is the coordination and spin state of iron in oxygen-bound hemoglobin?",
+      "options": {
+        "A": "hexacoordinated and in low spin state",
+        "B": "hexacoordinated and in high spin state",
+        "C": "hexacoordinated and in +3 oxidation state",
+        "D": "pentacoordinated and in +3 oxidation state"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "75%",
+      "explanation": "In oxy-hemoglobin, iron binds six groups (4 heme N, 1 proximal His N, 1 O2) and adopts a low-spin Fe(II) state."
+    },
+    {
+      "id": 23,
+      "section": "General Science",
+      "question": "Among the listed hydrogen atom electron transitions, which one absorbs the most energy?",
+      "options": {
+        "A": "One in which the electron has moved from the third to the fourth energy level",
+        "B": "One in which the electron has moved from the first to the third energy level",
+        "C": "One in which the electron has moved from the second to the fourth energy level",
+        "D": "One in which the electron has moved from the second to the third energy level"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "80%",
+      "explanation": "Energy gaps shrink as n increases; the n=1 to n=3 jump therefore spans the largest energy difference among the given options."
+    },
+    {
+      "id": 24,
+      "section": "General Science",
+      "question": "In a heteronuclear diatomic MO diagram where atom A's 2p orbitals sit much lower in energy than atom B's, what can be concluded about bonding character?",
+      "options": {
+        "A": "Bonding MO will be equally shared between both atoms",
+        "B": "Antibonding MO will have greater contribution from atom A",
+        "C": "Bonding MO will have greater contribution from atom B",
+        "D": "Bonding MO electrons will be shifted toward atom A"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "60%",
+      "explanation": "Bonding electrons concentrate near the atom whose atomic orbitals lie lower in energy — typically the more electronegative atom, here atom A."
+    },
+    {
+      "id": 25,
+      "section": "General Science",
+      "question": "In which compound does oxygen carry a positive oxidation number?",
+      "options": {
+        "A": "H2O2",
+        "B": "KO2",
+        "C": "OF2",
+        "D": "O3"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "90%",
+      "explanation": "Since fluorine is more electronegative than oxygen, oxygen takes a +2 oxidation state in oxygen difluoride (OF2)."
+    },
+    {
+      "id": 26,
+      "section": "General Science",
+      "question": "How does Al3+ typically behave in aqueous acid-base chemistry?",
+      "options": {
+        "A": "Al3+ behaves as an inert metal ion without acid-base activity",
+        "B": "Al3+ acts as a Lewis acid by accepting electron pairs and hydrolyzes water to give acidic solutions",
+        "C": "Al3+ forms complexes by donating electron pairs to ligands",
+        "D": "Al3+ acts as a Bronsted base by accepting protons"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "70%",
+      "explanation": "With its high charge density, Al3+ polarizes bound water molecules (Lewis acid behavior), releasing H+ through hydrolysis and acidifying the solution."
+    },
+    {
+      "id": 27,
+      "section": "General Science",
+      "question": "What name is given to the acid-catalyzed reaction of a carboxylic acid with an alcohol in presence of conc. H2SO4?",
+      "options": {
+        "A": "Neutralization",
+        "B": "Esterification",
+        "C": "Dehydration",
+        "D": "Saponification"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "Esterification is the acid-catalyzed reaction where a carboxylic acid and alcohol combine to give an ester plus water."
+    },
+    {
+      "id": 28,
+      "section": "General Science",
+      "question": "What causes membranes to stay semi-liquid even in cooler parts of the body?",
+      "options": {
+        "A": "Chains in membrane phospholipids are unsaturated with cis geometry",
+        "B": "Chains in membrane phospholipids are saturated",
+        "C": "Chains in membrane phospholipids are unsaturated with trans geometry",
+        "D": "Chains in membrane phospholipids are unsaturated with cis and trans geometry"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "65%",
+      "explanation": "Cis double bonds introduce kinks into fatty acid chains, preventing tight packing and preserving membrane fluidity at lower temperatures."
+    },
+    {
+      "id": 29,
+      "section": "General Science",
+      "question": "Resonance structures of the same molecule share which feature?",
+      "options": {
+        "A": "same arrangement of atoms",
+        "B": "different number of paired electrons",
+        "C": "None of these",
+        "D": "different arrangement of atoms"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "Only electron distribution differs among resonance structures; nuclear positions remain identical throughout."
+    },
+    {
+      "id": 30,
+      "section": "General Science",
+      "question": "Rank H2O, HF, and NH3 in decreasing order of boiling point.",
+      "options": {
+        "A": "HF > H2O > NH3",
+        "B": "NH3 > H2O > HF",
+        "C": "H2O > HF > NH3",
+        "D": "NH3 > HF > H2O"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "75%",
+      "explanation": "Water forms more H-bonds per molecule than HF, giving it the highest boiling point, while NH3's weaker N-H bonding gives it the lowest of the three."
+    },
+    {
+      "id": 31,
+      "section": "General Science",
+      "question": "Per Huckel's rule, how many π-electrons does an aromatic ring require?",
+      "options": {
+        "A": "2n",
+        "B": "3n",
+        "C": "4n",
+        "D": "4n+2"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "Huckel's rule requires a planar, cyclic, fully conjugated system to have (4n+2) π-electrons for aromaticity, n being a non-negative integer."
+    },
+    {
+      "id": 32,
+      "section": "General Science",
+      "question": "Natural proteins in living organisms are built mainly from which amino acid type?",
+      "options": {
+        "A": "D-amino acids",
+        "B": "Neither D nor L Amino Acids",
+        "C": "L-amino acids",
+        "D": "Both D and L Amino Acids"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "90%",
+      "explanation": "Biological systems show near-universal preference for L-configured chiral amino acids, known as biological homochirality."
+    },
+    {
+      "id": 33,
+      "section": "General Science",
+      "question": "Which listed molecule has a planar structure?",
+      "options": {
+        "A": "Ethanol",
+        "B": "Ethyl alcohol",
+        "C": "Diethyl ether",
+        "D": "Formaldehyde"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "80%",
+      "explanation": "The sp2-hybridized carbon in formaldehyde (HCHO) gives it a trigonal planar shape with roughly 120° bond angles."
+    },
+    {
+      "id": 34,
+      "section": "General Science",
+      "question": "Which amino acid's cyclic side chain makes it technically an imino acid?",
+      "options": {
+        "A": "Glycine",
+        "B": "Proline",
+        "C": "Serine",
+        "D": "Alanine"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "Proline stands apart from other amino acids because its side chain cyclizes back onto the backbone nitrogen, creating a secondary amine."
+    },
+    {
+      "id": 35,
+      "section": "General Science",
+      "question": "Regarding the NH nitrogen in the five-membered aromatic ring pyrrole, which statement holds true?",
+      "options": {
+        "A": "Nitrogen's lone pair is not available for protonation",
+        "B": "Its aromatic resonance energy is Greater than benzene",
+        "C": "It is a non-aromatic molecule",
+        "D": "Its aromatic resonance energy is Less than conjugated dienes"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "60%",
+      "explanation": "Pyrrole's nitrogen lone pair is part of its six π-electron aromatic system, so it cannot readily bond to a proton, lowering its basicity."
+    },
+    {
+      "id": 36,
+      "section": "General Science",
+      "question": "Heating phenyl propyl ether with excess concentrated HBr causes acid cleavage. What products form?",
+      "options": {
+        "A": "Bromobenzene and 1-bromopropane",
+        "B": "Bromobenzene and 1-propanol",
+        "C": "Phenol and 1-propanol",
+        "D": "Phenol and 1-bromopropane"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:10",
+      "rightPct": "55%",
+      "explanation": "Acid cleavage always breaks the weaker alkyl-oxygen bond in an aryl-alkyl ether, giving phenol and the alkyl bromide."
+    },
+    {
+      "id": 37,
+      "section": "General Science",
+      "question": "Which electrophilic substitution reaction cannot occur on pyridine?",
+      "options": {
+        "A": "Bromination",
+        "B": "Nitration",
+        "C": "Friedel craft reaction",
+        "D": "Sulphonation"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "60%",
+      "explanation": "Pyridine's nitrogen lone pair complexes with Lewis acid catalysts like AlCl3, deactivating the ring and blocking Friedel-Crafts reactions."
+    },
+    {
+      "id": 38,
+      "section": "General Science",
+      "question": "Which of these statements about ethers is false?",
+      "options": {
+        "A": "Lower ethers also act as anaesthetics",
+        "B": "Simple ethers (such as diethyl ether) are tasteless",
+        "C": "Ethers are not organic solvents",
+        "D": "The lower ethers are highly volatile and flammable"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "85%",
+      "explanation": "Ethers are widely used as organic solvents because they dissolve many non-polar substances effectively."
+    },
+    {
+      "id": 39,
+      "section": "General Science",
+      "question": "Rank HO–, CH3COO–, PhO–, and CH3O– from most to least reactive toward benzyl chloride.",
+      "options": {
+        "A": "CH3COO– > CH3O– > HO– > PhO–",
+        "B": "HO– > CH3O– > PhO– > CH3COO–",
+        "C": "HO– > PhO– > CH3O– > CH3COO–",
+        "D": "CH3O– > HO– > PhO– > CH3COO–"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:10",
+      "rightPct": "55%",
+      "explanation": "Nucleophilicity tracks basicity in the same solvent: methoxide is strongest, then hydroxide, phenoxide, and finally the resonance-stabilized acetate."
+    },
+    {
+      "id": 40,
+      "section": "General Science",
+      "question": "Treating one equivalent of 1,5-cyclooctadiene with two equivalents of KMnO4 (syn-dihydroxylation) gives how many stereoisomeric cyclooctane-1,2,5,6-tetraols?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:20",
+      "rightPct": "40%",
+      "explanation": "Since KMnO4 gives syn-hydroxylation and both double bonds in this symmetric diene are equivalent, only one meso-symmetric stereoisomer results."
+    },
+    {
+      "id": 41,
+      "section": "General Science",
+      "question": "What is the IUPAC name for CH3CH2CH(OH)CH3?",
+      "options": {
+        "A": "2-Butanone",
+        "B": "Butanol",
+        "C": "Butan-1-ol",
+        "D": "Butan-2-ol"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "The hydroxyl group sits on the second carbon of a four-carbon chain, giving the name butan-2-ol."
+    },
+    {
+      "id": 42,
+      "section": "General Science",
+      "question": "The vast majority of organic compounds rely on which type of chemical bond?",
+      "options": {
+        "A": "Metallic bond",
+        "B": "Covalent bond",
+        "C": "Dipolar bond",
+        "D": "Ionic bond"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "98%",
+      "explanation": "Carbon's tendency to share electrons and form strong, stable bonds with other atoms underlies organic chemistry's covalent framework."
+    },
+    {
+      "id": 43,
+      "section": "General Science",
+      "question": "Which pair of species share the same bond order?",
+      "options": {
+        "A": "O2 – and NO",
+        "B": "N2 – and CN –",
+        "C": "F2 and NO",
+        "D": "N2 and CO"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "70%",
+      "explanation": "N2 and CO are isoelectronic (14 electrons each), both giving a bond order of 3."
+    },
+    {
+      "id": 44,
+      "section": "General Science",
+      "question": "What product is typically obtained when electrophilic substitution occurs on plain pyrrole, furan, or thiophene?",
+      "options": {
+        "A": "Usually leads to loss of aromaticity",
+        "B": "Usually alpha substituted products",
+        "C": "Usually ring opened products",
+        "D": "Usually beta substituted products"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "65%",
+      "explanation": "Electrophiles preferentially attack the alpha (C2) position of five-membered heterocycles because the resulting intermediate has more resonance stabilization there."
+    },
+    {
+      "id": 45,
+      "section": "General Science",
+      "question": "What reaction category describes a ketone reacting with HCN to give a cyanohydrin?",
+      "options": {
+        "A": "Nucleophilic addition",
+        "B": "Electrophilic addition",
+        "C": "Nucleophilic substitution",
+        "D": "Electrophilic substitution"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "80%",
+      "explanation": "The cyanide nucleophile attacks the electrophilic carbonyl carbon, forming a cyanohydrin via nucleophilic addition."
+    },
+    {
+      "id": 46,
+      "section": "General Science",
+      "question": "Rank carbanion stability among primary, secondary, and tertiary types.",
+      "options": {
+        "A": "secondary > tertiary > primary",
+        "B": "primary > secondary > tertiary",
+        "C": "tertiary > primary > secondary",
+        "D": "tertiary > secondary > primary"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "75%",
+      "explanation": "Because alkyl groups donate electron density (+I effect), more-substituted carbanions are destabilized, so the least-substituted (primary) carbanion is most stable."
+    },
+    {
+      "id": 47,
+      "section": "General Science",
+      "question": "Which of these molecules possesses a dipole moment?",
+      "options": {
+        "A": "Cis-1, 2-dichloroethylene",
+        "B": "benzene",
+        "C": "trans-1, 2-dichloroethylene",
+        "D": "p-dichlorobenzene"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "70%",
+      "explanation": "Because the cis isomer lacks a center of symmetry, its C–Cl bond dipoles don't cancel, leaving a net molecular dipole."
+    },
+    {
+      "id": 48,
+      "section": "General Science",
+      "question": "Which of the following phenols is the weakest acid?",
+      "options": {
+        "A": "o-cresol",
+        "B": "p-nitrophenol",
+        "C": "Phenol",
+        "D": "p-chlorophenol"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "60%",
+      "explanation": "The electron-donating methyl group in o-cresol destabilizes the phenoxide anion, making it a weaker acid than phenol or the nitro/chloro substituted versions."
+    },
+    {
+      "id": 49,
+      "section": "General Science",
+      "question": "What chemical change converts glucosone into fructose?",
+      "options": {
+        "A": "reducing the aldehyde group of glucosone to a hydroxyl group",
+        "B": "reducing the keto group and oxidation of aldehyde group of glucosone",
+        "C": "oxidation of aldehyde group of glucosone to a carboxylic acid",
+        "D": "reducing the keto group of glucosone to a hydroxyl group"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:15",
+      "rightPct": "50%",
+      "explanation": "Selectively reducing glucosone's C1 aldehyde to a primary alcohol, while leaving the C2 keto group, produces fructose."
+    },
+    {
+      "id": 50,
+      "section": "General Science",
+      "question": "What type of process is the reaction between liquid NH3 and liquid SO2 best described as?",
+      "options": {
+        "A": "None of the above",
+        "B": "Acid base reaction",
+        "C": "Reduction",
+        "D": "Reaction between non aqueous solvents"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "40%",
+      "explanation": "This is best classified as an interaction between two non-aqueous solvents that can form complex addition compounds, rather than fitting a single simple category."
+    },
+    {
+      "id": 51,
+      "section": "General Science",
+      "question": "What product results when para-bromonitrobenzene reacts with methoxide ion?",
+      "options": {
+        "A": "Para nitro anisole",
+        "B": "No reaction",
+        "C": "Para bromo anisole",
+        "D": "Trisubstituted benzene"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:05",
+      "rightPct": "55%",
+      "explanation": "This is nucleophilic aromatic substitution (SNAr): the electron-withdrawing nitro group activates the ring, letting methoxide displace bromide."
+    },
+    {
+      "id": 52,
+      "section": "General Science",
+      "question": "What product forms when ethyl bromide reacts with triethylamine?",
+      "options": {
+        "A": "Ethylene and an ammonium salt",
+        "B": "Protonated amine",
+        "C": "No reaction",
+        "D": "Quaternary ammonium salt"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "75%",
+      "explanation": "Tertiary amines react with alkyl halides through SN2 to yield quaternary ammonium salts, here tetraethylammonium bromide."
+    },
+    {
+      "id": 53,
+      "section": "General Science",
+      "question": "Why does tung oil dry faster than linseed oil in paint formulations?",
+      "options": {
+        "A": "high proportion of linolenic acid and delocalized vinylic radicals",
+        "B": "high proportion of eleostearic acid and delocalized allylic radicals",
+        "C": "low proportion of eleostearic acid, non-delocalized allylic radicals",
+        "D": "high proportion of linolenic acid and non-elocalized allylic radicals"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "55%",
+      "explanation": "Tung oil's high alpha-eleostearic acid content has conjugated double bonds that form stable delocalized radicals, speeding up oxidative drying."
+    },
+    {
+      "id": 54,
+      "section": "General Science",
+      "question": "What product forms when an aqueous solution of benzene diazonium chloride is heated?",
+      "options": {
+        "A": "chlorobenzene",
+        "B": "benzene",
+        "C": "phenol",
+        "D": "aniline"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "Heating replaces the diazonium group with a hydroxyl group, releasing nitrogen gas and forming phenol."
+    },
+    {
+      "id": 55,
+      "section": "General Science",
+      "question": "Which alkane below is capable of exhibiting optical activity?",
+      "options": {
+        "A": "3–Methylhexane",
+        "B": "Neopentane",
+        "C": "Isopentane",
+        "D": "3–Methylpentane"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "60%",
+      "explanation": "3-Methylhexane has a chiral C3 carbon (bonded to H, methyl, ethyl, and propyl groups); the other options are all achiral."
+    },
+    {
+      "id": 56,
+      "section": "General Science",
+      "question": "Rank thiophene, pyrrole, furan, and pyridine by decreasing aromaticity.",
+      "options": {
+        "A": "Thiophene > Pyrrole > Furan > Pyridine",
+        "B": "Pyridine > Thiophene > Pyrrole > Furan",
+        "C": "Furan > Pyrrole > Thiophene > Pyridine",
+        "D": "Pyridine > Thiophene > Furan > Pyrrole"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:55",
+      "rightPct": "65%",
+      "explanation": "Pyridine is most aromatic, closest in structure to benzene. Among five-membered rings, thiophene ranks highest since sulfur's lower electronegativity favors better delocalization."
+    },
+    {
+      "id": 57,
+      "section": "Section C",
+      "question": "One mole of ideal gas expands from 1 L to 10 L at 300 K against a fixed external pressure of 1 atm. What work does the gas perform?",
+      "options": {
+        "A": "9 kJ",
+        "B": "6 kJ",
+        "C": "6 L atm",
+        "D": "9 L atm"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "80%",
+      "explanation": "W = P_ext × ΔV = 1 atm × (10 L − 1 L) = 9 L atm."
+    },
+    {
+      "id": 58,
+      "section": "Section C",
+      "question": "A second-order reaction proceeds at 5 × 10⁻⁵ mol L⁻¹s⁻¹ when the starting concentration is 0.4 mol L⁻¹. What is its rate constant?",
+      "options": {
+        "A": "3.1 × 10⁻⁴ M⁻¹s⁻¹",
+        "B": "2.1 × 10⁻⁴ M⁻¹s⁻¹",
+        "C": "1.1 × 10⁻⁴ M⁻¹s⁻¹",
+        "D": "4.1 × 10⁻⁴ M⁻¹s⁻¹"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:10",
+      "rightPct": "60%",
+      "explanation": "Rate = k[A]² ⟹ 5×10⁻⁵ = k(0.4)² ⟹ k ≈ 3.125×10⁻⁴ M⁻¹s⁻¹."
+    },
+    {
+      "id": 59,
+      "section": "Section C",
+      "question": "For an ideal gas, what is the value of (∂U/∂V)_T?",
+      "options": {
+        "A": "P",
+        "B": "0",
+        "C": "V",
+        "D": "RT"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "With no intermolecular forces in an ideal gas, internal pressure (∂U/∂V)_T is zero, since internal energy depends only on temperature."
+    },
+    {
+      "id": 60,
+      "section": "Section C",
+      "question": "Find the EMF at 298 K for Co(s) + Fe²⁺(aq) ⇌ Co²⁺(aq) + Fe(s), given [Co²⁺] = [Fe²⁺] = 0.6 M, E°(Fe²⁺/Fe) = −0.44 V, E°(Co²⁺/Co) = −0.28 V.",
+      "options": {
+        "A": "+ 0.72 V",
+        "B": "– 0.16 V",
+        "C": "– 0.72 V",
+        "D": "+ 0.16 V"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:30",
+      "rightPct": "55%",
+      "explanation": "E°cell = −0.44 − (−0.28) = −0.16 V. Equal concentrations make Q = 1, so log Q = 0 and EMF = E°cell = −0.16 V."
+    },
+    {
+      "id": 61,
+      "section": "Section C",
+      "question": "A reaction's rate constant grows tenfold as temperature rises from 400 K to 500 K. Roughly what is its activation energy?",
+      "options": {
+        "A": "40 kJ",
+        "B": "25 kJ",
+        "C": "400 kJ",
+        "D": "100 kJ"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:40",
+      "rightPct": "50%",
+      "explanation": "Via Arrhenius: log(k2/k1) = (Ea/2.303R)(1/T1 − 1/T2). With log10=1, T1=400, T2=500, Ea ≈ 38.3 kJ ≈ 40 kJ."
+    },
+    {
+      "id": 62,
+      "section": "Section C",
+      "question": "Benzene and toluene have vapor pressures of 385 and 139 Torr at 60°C. For a binary solution with toluene mole fraction 0.6, what is toluene's mole fraction in the vapor?",
+      "options": {
+        "A": "0.35",
+        "B": "0.65",
+        "C": "0.6",
+        "D": "0.4"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:20",
+      "rightPct": "60%",
+      "explanation": "P_tol = 139×0.6 = 83.4; P_benz = 385×0.4 = 154; total = 237.4. Y_tol = 83.4/237.4 ≈ 0.35."
+    },
+    {
+      "id": 63,
+      "section": "Section C",
+      "question": "For a unimolecular gas-phase reaction, how does the observed kinetic order behave with pressure?",
+      "options": {
+        "A": "second order kinetics at low pressures and first order kinetics at high pressures",
+        "B": "first order kinetics at low pressures and zero order kinetics at high pressures",
+        "C": "first order kinetics at all pressures",
+        "D": "first order kinetics at low pressures and second order kinetics at high pressures"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "70%",
+      "explanation": "Per Lindemann mechanism: activation is rate-limiting at low pressure (2nd order), while deactivation/product formation dominates at high pressure (1st order)."
+    },
+    {
+      "id": 64,
+      "section": "Section C",
+      "question": "According to the Hardy-Schulze rule, what is the order of flocculating power of Na+, Ba2+, and Al3+ for a negatively charged sol?",
+      "options": {
+        "A": "Na+ > Ba2+ > Al3+",
+        "B": "Ba2+ > Al3+ > Na+",
+        "C": "Al3+ > Na+ > Ba2+",
+        "D": "Al3+ > Ba2+ > Na+"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "90%",
+      "explanation": "Coagulating power rises with ion valency, so trivalent Al3+ beats divalent Ba2+, which beats monovalent Na+."
+    },
+    {
+      "id": 65,
+      "section": "Section C",
+      "question": "For A → B, a linear plot of [A] versus time indicates what reaction order?",
+      "options": {
+        "A": "Zero",
+        "B": "First",
+        "C": "Second",
+        "D": "Third"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "85%",
+      "explanation": "A straight-line [A] vs. time plot (negative slope) indicates a rate independent of concentration — a zero-order reaction."
+    },
+    {
+      "id": 66,
+      "section": "Section C",
+      "question": "Mixing 1 mole benzene with 1 mole toluene at 300 K, what is ΔG of mixing for an ideal solution?",
+      "options": {
+        "A": "0",
+        "B": "-3.4 kJ",
+        "C": "3.4 kJ",
+        "D": "-1.8 kJ"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:20",
+      "rightPct": "45%",
+      "explanation": "ΔGmix = nRT(X1lnX1 + X2lnX2). For 2 moles at X1=X2=0.5, ΔG ≈ −3.45 kJ total, or ≈ −1.8 kJ per mole of solution."
+    },
+    {
+      "id": 67,
+      "section": "Section C",
+      "question": "A Daniell cell [Zn/ZnSO4(0.01M)//CuSO4(0.01M)/Cu] at 298 K gives EMF E1. Which concentration change would keep the EMF equal to E1 (i.e., not give E1 < E2)?",
+      "options": {
+        "A": "[ZnSO4] = 0.1 M, [CuSO4] = 1.0 M",
+        "B": "[ZnSO4] = 0.1 M, [CuSO4] = 0.1 M",
+        "C": "[ZnSO4] = 0.01 M, [CuSO4] = 0.1 M",
+        "D": "[ZnSO4] = 1.0 M, [CuSO4] = 10.0 M"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:20",
+      "rightPct": "55%",
+      "explanation": "By the Nernst equation, EMF depends on [Zn2+]/[Cu2+]; keeping this ratio at 1 (option B) keeps E2 = E1."
+    },
+    {
+      "id": 68,
+      "section": "Section C",
+      "question": "At what radial distance r does electron density peak for a 1s orbital (a0 = Bohr radius)?",
+      "options": {
+        "A": "r = a₀",
+        "B": "r = 0",
+        "C": "r = a₀/2",
+        "D": "r = 2a₀"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "75%",
+      "explanation": "The wavefunction ψ peaks at the nucleus (r=0), though the radial probability density 4πr²ψ² actually peaks at r=a₀."
+    },
+    {
+      "id": 69,
+      "section": "Section C",
+      "question": "Which statement correctly relates Raoult's and Henry's laws for solutions?",
+      "options": {
+        "A": "Henry's law is valid for solvent in the range of Raoult's law is valid for solute",
+        "B": "Raoult's law is valid for solvent and solute over the entire concentration",
+        "C": "Henry's law is valid for solvent and solute over the entire concentration",
+        "D": "Raoult's law is valid for solvent in the range where Henry's law is valid for solute"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "60%",
+      "explanation": "In dilute ideal solutions, the solvent obeys Raoult's law while the dilute solute follows Henry's law."
+    },
+    {
+      "id": 70,
+      "section": "Section C",
+      "question": "In UV-Vis spectroscopy, where does an n → π* transition usually fall relative to a π → π* transition?",
+      "options": {
+        "A": "Shorter wavelength than π → π*",
+        "B": "Longer wavelength than π → π*",
+        "C": "Equal wavelength as π → π*",
+        "D": "Does not occur in organic molecules"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "70%",
+      "explanation": "n → π* excites an electron from a non-bonding to an antibonding π orbital, needing less energy and hence occurring at longer wavelength."
+    },
+    {
+      "id": 71,
+      "section": "Section C",
+      "question": "Roughly what energy per einstein is associated with 400 nm radiation?",
+      "options": {
+        "A": "200 kJ/mol",
+        "B": "400 kJ/mol",
+        "C": "300 kJ/mol",
+        "D": "100 kJ/mol"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "65%",
+      "explanation": "E = N_A h c / λ = (6.022×10²³ × 6.626×10⁻³⁴ × 3×10⁸) / (400×10⁻⁹) ≈ 300 kJ/mol."
+    },
+    {
+      "id": 72,
+      "section": "Section C",
+      "question": "Find the rms speed of an O2 molecule at 200 K (R = 8.314 J/mol·K).",
+      "options": {
+        "A": "396.4 m/s",
+        "B": "390.2 m/s",
+        "C": "394.8 m/s",
+        "D": "392.4 m/s"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:10",
+      "rightPct": "60%",
+      "explanation": "v_rms = √(3RT/M). For O2 (M=0.032 kg/mol): √(3×8.314×200/0.032) ≈ 394.8 m/s."
+    },
+    {
+      "id": 73,
+      "section": "Section C",
+      "question": "Identify the Maxwell relation below that is NOT valid.",
+      "options": {
+        "A": "(∂T/∂V)ₛ = -(∂P/∂S)ᵥ",
+        "B": "(∂T/∂P)ₛ = (∂V/∂S)ₚ",
+        "C": "(∂S/∂V)ₜ = (∂P/∂T)ᵥ",
+        "D": "(∂S/∂P)ᵥ = (∂V/∂P)ₛ"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "45%",
+      "explanation": "The four genuine Maxwell relations come from U, H, A, and G; option D does not correspond to any valid thermodynamic derivation."
+    },
+    {
+      "id": 74,
+      "section": "Section C",
+      "question": "For a reaction with equilibrium constant 10⁵, what is ΔG at equilibrium?",
+      "options": {
+        "A": "5 kJ",
+        "B": "0",
+        "C": "30 kJ",
+        "D": "-30 kJ"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "90%",
+      "explanation": "By definition, ΔG is always zero at dynamic equilibrium, regardless of the equilibrium constant's magnitude."
+    },
+    {
+      "id": 75,
+      "section": "Section C",
+      "question": "A molecule with fluorescence lifetime 4.8 ns and quantum yield 0.4 has what fluorescence rate constant?",
+      "options": {
+        "A": "8.33 × 10⁷ s⁻¹",
+        "B": "1.20 × 10⁸ s⁻¹",
+        "C": "2.08 × 10⁸ s⁻¹",
+        "D": "4.80 × 10⁷ s⁻¹"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:00",
+      "rightPct": "50%",
+      "explanation": "k_f = Φ/τ = 0.4/(4.8×10⁻⁹ s) ≈ 8.33×10⁷ s⁻¹."
+    },
+    {
+      "id": 76,
+      "section": "Section C",
+      "question": "4 moles of an ideal gas with Cp,m = 24 J mol⁻¹K⁻¹ is heated from 600 K to 800 K at constant pressure. What heat is absorbed?",
+      "options": {
+        "A": "1.92 × 10⁴ J",
+        "B": "4.80 × 10³ J",
+        "C": "9.60 × 10³ J",
+        "D": "2.40 × 10⁴ J"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:55",
+      "rightPct": "75%",
+      "explanation": "ΔH = n·Cp,m·ΔT = 4 × 24 × 200 = 19,200 J = 1.92×10⁴ J."
+    },
+    {
+      "id": 77,
+      "section": "Section C",
+      "question": "What is the ionic strength of a 0.01 molal M₂X₃-type electrolyte solution?",
+      "options": {
+        "A": "0.15 m",
+        "B": "0.03 m",
+        "C": "0.06 m",
+        "D": "0.01 m"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:05",
+      "rightPct": "50%",
+      "explanation": "I = 0.5Σmᵢzᵢ². With 2M³⁺ and 3X²⁻: I = 0.5[(0.02×9)+(0.03×4)] = 0.5(0.18+0.12) = 0.15 m."
+    },
+    {
+      "id": 78,
+      "section": "Section C",
+      "question": "Electrolyzing aqueous copper sulfate between platinum electrodes gives what product at the anode?",
+      "options": {
+        "A": "O₂",
+        "B": "Cu",
+        "C": "H₂",
+        "D": "SO₂"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "70%",
+      "explanation": "Water oxidation (2H2O → O2 + 4H+ + 4e−) occurs preferentially at the anode over sulfate oxidation, releasing oxygen gas."
+    },
+    {
+      "id": 79,
+      "section": "Section C",
+      "question": "How does viscosity of gases versus liquids change as temperature rises?",
+      "options": {
+        "A": "Viscosity of gases and liquids decrease with increase in temperature",
+        "B": "Viscosity of gases and liquids increase with temperature",
+        "C": "Viscosity of gases decrease with temperature but viscosity of liquids increase with temperature",
+        "D": "Viscosity of gases increase with temperature but viscosity of liquids decrease with increase in temperature"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "80%",
+      "explanation": "Gas viscosity rises with temperature due to increased molecular momentum transfer, while liquid viscosity falls as thermal energy overcomes intermolecular attraction."
+    },
+    {
+      "id": 80,
+      "section": "Section C",
+      "question": "A liquid has vapor pressure 2.0 Torr at 100 K. At what temperature does its vapor pressure reach 4 Torr, given ΔHvap = 230R?",
+      "options": {
+        "A": "303 K",
+        "B": "201 K",
+        "C": "143 K",
+        "D": "402 K"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:15",
+      "rightPct": "55%",
+      "explanation": "Using Clausius-Clapeyron: ln(P2/P1) = (ΔH/R)(1/T1 − 1/T2). Solving gives T2 ≈ 143 K."
+    },
+    {
+      "id": 81,
+      "section": "Section C",
+      "question": "How many radial nodes does a 4d orbital have?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "85%",
+      "explanation": "Radial nodes = n − l − 1. For 4d (n=4, l=2): 4−2−1 = 1."
+    },
+    {
+      "id": 82,
+      "section": "Section C",
+      "question": "A substance Y is irradiated at 2000 Å and 1×10⁻² mole decomposes, with quantum efficiency 6. How many photons were absorbed?",
+      "options": {
+        "A": "1.0 × 10²¹",
+        "B": "6.0 × 10²³",
+        "C": "1.0 × 10²³",
+        "D": "3.6 × 10²²"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:20",
+      "rightPct": "45%",
+      "explanation": "Φ = moles decomposed / moles photons absorbed. 6 = 0.01/n ⟹ n = (0.01/6) mol ⟹ photons = (0.01/6)×6.022×10²³ ≈ 1.0×10²¹."
+    },
+    {
+      "id": 83,
+      "section": "Section C",
+      "question": "Seawater's average osmotic pressure is 25 atm at 25°C. What sucrose molality gives an isotonic solution (R=0.0821 L·atm/mol·K)?",
+      "options": {
+        "A": "1.22 m",
+        "B": "2.22 m",
+        "C": "1.02 m",
+        "D": "2.02 m"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:15",
+      "rightPct": "60%",
+      "explanation": "π = MRT ⟹ 25 = M(0.0821)(298) ⟹ M ≈ 1.02 mol/L, approximately equal to molality in a dilute solution."
+    },
+    {
+      "id": 84,
+      "section": "Section C",
+      "question": "Copper's FCC lattice has edge length a = 3.6 Å. What is the atomic radius?",
+      "options": {
+        "A": "1.40",
+        "B": "1.30",
+        "C": "1.27",
+        "D": "1.34"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:50",
+      "rightPct": "75%",
+      "explanation": "In FCC, atoms touch along the face diagonal: 4r = √2 a ⟹ r = (1.414×3.6)/4 ≈ 1.27 Å."
+    },
+    {
+      "id": 85,
+      "section": "Section C",
+      "question": "What is the smallest number of components needed for three phases to coexist in equilibrium?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "70%",
+      "explanation": "By the Gibbs phase rule (F=C−P+2), a triple point (P=3, F=0) requires C=1 component."
+    },
+    {
+      "id": 86,
+      "section": "Section C",
+      "question": "The Stern-Volmer equation applies to which photophysical process?",
+      "options": {
+        "A": "Photodissocation",
+        "B": "Quenching of fluorescence",
+        "C": "Chemiluminescence",
+        "D": "Phosphorescene"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "80%",
+      "explanation": "The Stern-Volmer relation models how a quencher molecule reduces a fluorophore's fluorescence intensity through quenching kinetics."
+    },
+    {
+      "id": 87,
+      "section": "Section D",
+      "question": "What bond joins successive nucleotides in a DNA strand?",
+      "options": {
+        "A": "Hydrogen Bond",
+        "B": "Peptide bond",
+        "C": "Glycosidic bond",
+        "D": "Phosphodiester bond"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "3'-5' phosphodiester bonds covalently link one nucleotide's phosphate to the next sugar, forming DNA's backbone."
+    },
+    {
+      "id": 88,
+      "section": "Section D",
+      "question": "What stabilizes the α-helix secondary structure in proteins?",
+      "options": {
+        "A": "H-bond between CO and NH of the backbone",
+        "B": "Ionic interactions",
+        "C": "H-bond between side chains",
+        "D": "Disulfide linkages between the side chain of Cysteine"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "90%",
+      "explanation": "Backbone hydrogen bonds between a residue's C=O and the N-H four residues down the chain stabilize the α-helix."
+    },
+    {
+      "id": 89,
+      "section": "Section D",
+      "question": "How is Nylon 66 synthesized?",
+      "options": {
+        "A": "Synthesized by condensation of adipic acid with hexamethylene diamine",
+        "B": "Synthesized by condensation of terephthalic acid with hexamethylene diamine",
+        "C": "A polyester",
+        "D": "Synthesized by condensation of adipic acid with ethylene glycol"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "90%",
+      "explanation": "Nylon 66 forms through condensation of a 6-carbon diacid (adipic acid) with a 6-carbon diamine (hexamethylenediamine)."
+    },
+    {
+      "id": 90,
+      "section": "Section D",
+      "question": "For 2NaCl + H2SO4 → 2HCl + Na2SO4, what is the atom economy toward HCl?",
+      "options": {
+        "A": "Less than 15%",
+        "B": "More than 50%",
+        "C": "100%",
+        "D": "Less than 35%"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "01:30",
+      "rightPct": "55%",
+      "explanation": "%AE = (MW product/MW all reactants)×100 = (73/215)×100 ≈ 34%, i.e., less than 35%."
+    },
+    {
+      "id": 91,
+      "section": "Section D",
+      "question": "Which electronic transition shows the greatest intensity in UV-Vis spectroscopy?",
+      "options": {
+        "A": "n → π*",
+        "B": "π → σ*",
+        "C": "n → σ*",
+        "D": "π → π*"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "80%",
+      "explanation": "Being Laporte-allowed, π→π* transitions in conjugated systems show much higher molar absorptivity than n→π* transitions."
+    },
+    {
+      "id": 92,
+      "section": "Section D",
+      "question": "Which compound serves as the standard chemical shift reference in 1H NMR?",
+      "options": {
+        "A": "Benzene",
+        "B": "CDCl3",
+        "C": "DMSO",
+        "D": "TMS"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "95%",
+      "explanation": "TMS's 12 equivalent protons give one sharp upfield peak defined as 0 ppm, making it the universal NMR reference."
+    },
+    {
+      "id": 93,
+      "section": "Section D",
+      "question": "Which of these represents a prosthetic group?",
+      "options": {
+        "A": "Apoenzyme",
+        "B": "Non-covalently bound conenzyme",
+        "C": "Peptide",
+        "D": "Heme"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "A prosthetic group is a tightly/covalently bound non-protein component essential for function — heme in hemoglobin is a classic case."
+    },
+    {
+      "id": 94,
+      "section": "Section D",
+      "question": "Which monomer below best suits radical polymerization?",
+      "options": {
+        "A": "Ethylene glycol",
+        "B": "Ethylene",
+        "C": "hexamethylene diamine",
+        "D": "Adipic acid"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "80%",
+      "explanation": "Radical polymerization needs vinyl monomers with C=C double bonds like ethylene; the others are condensation-polymer monomers."
+    },
+    {
+      "id": 95,
+      "section": "Section D",
+      "question": "How is the Beer-Lambert law expressed?",
+      "options": {
+        "A": "A = εcl",
+        "B": "A = log(I₀/I)",
+        "C": "I = I₀e^cl",
+        "D": "I = I₀e^-cl"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "95%",
+      "explanation": "Beer-Lambert's law states absorbance A equals the product of molar absorptivity ε, concentration c, and path length l."
+    },
+    {
+      "id": 96,
+      "section": "Section D",
+      "question": "How would you define thermoplastics?",
+      "options": {
+        "A": "Which are permanently hard",
+        "B": "Which hardens upon heating",
+        "C": "Which softens when heated and hardens upon cooling",
+        "D": "Which decompose upon heating"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "92%",
+      "explanation": "Thermoplastics soften reversibly on heating and harden on cooling, allowing repeated remolding."
+    },
+    {
+      "id": 97,
+      "section": "Section D",
+      "question": "What happens when a triglyceride undergoes base hydrolysis?",
+      "options": {
+        "A": "Reacts with methanol to yield carboxylic acid",
+        "B": "Undergoes hydrolysis in the presence of a base to yield soap",
+        "C": "Is an anhydride",
+        "D": "Is an ether"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "85%",
+      "explanation": "Alkaline hydrolysis (saponification) of a triglyceride yields glycerol and fatty-acid salts, i.e., soap."
+    },
+    {
+      "id": 98,
+      "section": "Section D",
+      "question": "Which option below illustrates heterogeneous catalysis?",
+      "options": {
+        "A": "Decomposition of H2O2 using MnO2",
+        "B": "Esterification reaction",
+        "C": "Hydrolysis of an ester in an acidic solution",
+        "D": "Inversion of sugar"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "80%",
+      "explanation": "Solid MnO2 catalyzing aqueous H2O2 decomposition is a classic heterogeneous catalysis example, since catalyst and reactant are in different phases."
+    },
+    {
+      "id": 99,
+      "section": "Section D",
+      "question": "Which sugar makes up the RNA backbone?",
+      "options": {
+        "A": "Glucose",
+        "B": "Deoxyribose",
+        "C": "Ribose",
+        "D": "Fructose"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "98%",
+      "explanation": "RNA (ribonucleic acid) contains D-ribose, while DNA uses 2-deoxyribose."
+    },
+    {
+      "id": 100,
+      "section": "Section D",
+      "question": "By the n+1 rule, how does a proton with two equivalent neighboring protons appear in a 1D 1H NMR spectrum?",
+      "options": {
+        "A": "Triplet",
+        "B": "Quartet",
+        "C": "Doublet",
+        "D": "Singlet"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "92%",
+      "explanation": "n+1 splitting: with n=2 neighboring protons, the signal splits into 2+1 = 3 peaks, a triplet."
+    },
+    {
+      "id": 101,
+      "section": "Section D",
+      "question": "What polymer category does a block polymer fall under?",
+      "options": {
+        "A": "Copolymer",
+        "B": "Coordination polymer",
+        "C": "Living polymer",
+        "D": "Cis-1,4-polyisoprene"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "85%",
+      "explanation": "Block polymers contain covalently joined repeating blocks of different monomers, making them a specific copolymer type."
+    },
+    {
+      "id": 102,
+      "section": "Section D",
+      "question": "Which energy source below is considered greener than conventional heating methods in synthesis?",
+      "options": {
+        "A": "Micro waves",
+        "B": "Radio waves",
+        "C": "Ultra violet waves",
+        "D": "Electromagnetic waves"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "88%",
+      "explanation": "Microwave-assisted synthesis is a green chemistry tool offering efficient heating, shorter reaction times, and lower energy use."
+    },
+    {
+      "id": 103,
+      "section": "Section D",
+      "question": "The Tyndall effect describes which phenomenon?",
+      "options": {
+        "A": "Adsorption",
+        "B": "Scattering of light by colloidal particles",
+        "C": "Brownian motion",
+        "D": "Catalysis"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "95%",
+      "explanation": "The Tyndall effect is light scattering by particles suspended in a colloid, which makes the light beam's path visible."
+    },
+    {
+      "id": 104,
+      "section": "Section D",
+      "question": "What causes spin-spin splitting patterns observed in 1H NMR?",
+      "options": {
+        "A": "Chemical shift anisotropy",
+        "B": "Isotope effect",
+        "C": "Interaction of nuclear spins with neighboring spins",
+        "D": "Instrument noise"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "88%",
+      "explanation": "Spin-spin coupling arises from scalar magnetic interactions transmitted via bonding electrons between neighboring non-equivalent nuclei."
+    },
+    {
+      "id": 105,
+      "section": "Section D",
+      "question": "Which polymer among the following is formed via step-growth polymerization?",
+      "options": {
+        "A": "Polypropylene",
+        "B": "Nylon",
+        "C": "Polyethylene",
+        "D": "Polystyrene"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "82%",
+      "explanation": "Nylon forms via condensation (step-growth) of diamines with dicarboxylic acids, unlike the chain-growth polymers listed."
+    },
+    {
+      "id": 106,
+      "section": "Section D",
+      "question": "Adsorption falls under which category of phenomenon?",
+      "options": {
+        "A": "Surface phenomenon",
+        "B": "Thermal phenomenon",
+        "C": "Chemical reaction",
+        "D": "Bulk phenomenon"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "96%",
+      "explanation": "Adsorption occurs strictly on a surface, unlike absorption, which is a bulk process."
+    },
+    {
+      "id": 107,
+      "section": "Section D",
+      "question": "Which amino acid is called a 'helix breaker'?",
+      "options": {
+        "A": "Glycine",
+        "B": "Valine",
+        "C": "Proline",
+        "D": "Tryptophan"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "88%",
+      "explanation": "Proline's rigid ring locks its backbone angle and blocks H-bonding, introducing a kink that disrupts alpha-helices."
+    },
+    {
+      "id": 108,
+      "section": "Section D",
+      "question": "In both traditional and green petrochemical routes, what is the first intermediate produced?",
+      "options": {
+        "A": "Methyl methacrylate",
+        "B": "Ethanol",
+        "C": "2-ethyl benzene",
+        "D": "2-methyl propyl benzene"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:45",
+      "rightPct": "50%",
+      "explanation": "2-methylpropylbenzene (isobutylbenzene) is the key first intermediate in both conventional and green routes to drugs like ibuprofen."
+    },
+    {
+      "id": 109,
+      "section": "Section D",
+      "question": "Which listed colloid is lyophobic?",
+      "options": {
+        "A": "Starch in water",
+        "B": "Gold sol",
+        "C": "Soap solution",
+        "D": "Gelatin in water"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "80%",
+      "explanation": "Metal sols such as gold sol repel solvent (lyophobic) and require stabilizers, unlike simply-mixed lyophilic colloids."
+    },
+    {
+      "id": 110,
+      "section": "Section D",
+      "question": "By what alternate name is green chemistry also known?",
+      "options": {
+        "A": "Environmental chemistry",
+        "B": "Sustainable chemistry",
+        "C": "System chemistry",
+        "D": "Life chemistry"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:15",
+      "rightPct": "95%",
+      "explanation": "Green chemistry is also termed sustainable chemistry, as it aims to minimize hazardous substances in chemical processes."
+    },
+    {
+      "id": 111,
+      "section": "Section D",
+      "question": "How does a polymer sample's mass-average molar mass relate to its number-average molar mass?",
+      "options": {
+        "A": "Can equal to number average molar mass in a monodisperse sample",
+        "B": "Is less than number average molar mass",
+        "C": "Is always less than the number average molar mass",
+        "D": "Can be either less or more than the number average molar mass"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:40",
+      "rightPct": "70%",
+      "explanation": "Mw ≥ Mn always; in a monodisperse polymer, all chains are equal length, giving polydispersity index = 1, so Mw = Mn."
+    },
+    {
+      "id": 112,
+      "section": "Section D",
+      "question": "Which adsorption type relies on weak van der Waals forces?",
+      "options": {
+        "A": "Activated adsorption",
+        "B": "Ionic adsorption",
+        "C": "Chemisorption",
+        "D": "Physisorption"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "92%",
+      "explanation": "Physisorption involves weak, non-specific van der Waals attraction between adsorbate and adsorbent, unlike stronger chemisorption bonds."
+    },
+    {
+      "id": 113,
+      "section": "Section D",
+      "question": "What defines the base peak in a mass spectrum?",
+      "options": {
+        "A": "The smallest m/z value",
+        "B": "The isotope peak",
+        "C": "The most intense peak",
+        "D": "The molecular ion peak"
+      },
+      "correct": "C",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:20",
+      "rightPct": "90%",
+      "explanation": "The base peak is defined as the most intense signal in the spectrum, arbitrarily assigned 100% relative abundance."
+    },
+    {
+      "id": 114,
+      "section": "Section D",
+      "question": "For C2H4 + 1/2 O2 → C2H4O (ethylene oxide) with a catalyst, what is the percent atom economy?",
+      "options": {
+        "A": "100%",
+        "B": "25%",
+        "C": "50%",
+        "D": "75%"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "85%",
+      "explanation": "Every reactant atom ends up in the single product with no byproducts, giving 100% atom economy for this addition reaction."
+    },
+    {
+      "id": 115,
+      "section": "Section D",
+      "question": "What does the vulcanization process for rubber involve?",
+      "options": {
+        "A": "Heating the natural rubber with elemental sulphur to induces disulfide bonds",
+        "B": "Heating the natural rubber with magnesium",
+        "C": "Heating the natural rubber with a peroxide",
+        "D": "Heating the natural rubber with disulfide"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "90%",
+      "explanation": "Vulcanization heats natural rubber with elemental sulfur, forming disulfide cross-links between chains that improve strength and elasticity."
+    },
+    {
+      "id": 116,
+      "section": "Section D",
+      "question": "What primarily causes a downfield shift in a 1H NMR spectrum?",
+      "options": {
+        "A": "A decrease in electronic density",
+        "B": "A change in the 1H magnetic moment",
+        "C": "A change in the applied magnetic field",
+        "D": "An increase in electronic density"
+      },
+      "correct": "A",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "80%",
+      "explanation": "Reduced electron density around a proton lowers its local shielding (deshielding), pushing its signal downfield to a higher ppm value."
+    },
+    {
+      "id": 117,
+      "section": "Section A",
+      "question": "Which of these listed reactions is NOT a redox reaction?",
+      "options": {
+        "A": "Burning of candle",
+        "B": "Zn + 2HCl → ZnCl₂ + H₂",
+        "C": "Rusting of iron",
+        "D": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:25",
+      "rightPct": "90%",
+      "explanation": "This double displacement/precipitation reaction involves no oxidation-state changes for any atom, so it is not a redox process."
+    },
+    {
+      "id": 118,
+      "section": "Section A",
+      "question": "Which step below is NOT part of the Dow process for producing magnesium?",
+      "options": {
+        "A": "The precipitation of Mg(OH)₂",
+        "B": "The decomposition of CaCO₃",
+        "C": "The formation of MgCl₂",
+        "D": "The electrolysis of H₂O"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:35",
+      "rightPct": "80%",
+      "explanation": "The Dow process precipitates Mg(OH)2 from seawater using lime, converts it to MgCl2, then electrolyzes molten MgCl2 (not H2O) to extract magnesium metal."
+    },
+    {
+      "id": 119,
+      "section": "Section A",
+      "question": "Why is the 18-electron rule a useful guideline in organometallic chemistry?",
+      "options": {
+        "A": "Only applies to complexes with alkyl ligands",
+        "B": "Ensures the complex has a full valence shell, leading to increased stability",
+        "C": "Predicts the exact geometry of organometallic complexes",
+        "D": "Applies universally to all transition metal complexes without exception"
+      },
+      "correct": "B",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "85%",
+      "explanation": "When metal valence electrons plus ligand-donated electrons total 18, the complex reaches a closed noble-gas-like configuration, boosting stability."
+    },
+    {
+      "id": 120,
+      "section": "Section A",
+      "question": "In the associative substitution mechanism for octahedral complexes, what intermediate typically forms?",
+      "options": {
+        "A": "A dissociated ligand",
+        "B": "A five-coordinate complex",
+        "C": "A free metal ion",
+        "D": "A seven-coordinate complex"
+      },
+      "correct": "D",
+      "marks": { "pos": 1, "neg": 0.25 },
+      "timeAvg": "00:30",
+      "rightPct": "82%",
+      "explanation": "In an associative mechanism, the incoming ligand binds before the original one departs, generating a higher-coordinate (7-coordinate) intermediate."
+    }
+  ]
+}

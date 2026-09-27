@@ -1,0 +1,688 @@
+{
+  "chapter_title": "Maths Formulas (SSC / DSSSB / State PSC)",
+  "sections": [
+    {
+      "id": "number-system",
+      "title": "Number System",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" },
+        { "label": "🔢 Divisibility", "tag": "divisibility" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ns-basic",
+          "topic_title": "Basic Sum Formulas",
+          "notes_list": [
+            {
+              "id": "ns001",
+              "title": "Sum of first n natural numbers",
+              "tags": ["important"],
+              "basic_overview": "$$\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$$"
+            },
+            {
+              "id": "ns002",
+              "title": "Sum of squares of first n natural numbers",
+              "tags": ["important"],
+              "basic_overview": "$$\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$$"
+            },
+            {
+              "id": "ns003",
+              "title": "Sum of cubes of first n natural numbers",
+              "basic_overview": "$$\\sum_{k=1}^{n} k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2$$"
+            },
+            {
+              "id": "ns004",
+              "title": "Sum of first n odd numbers",
+              "basic_overview": "$$1 + 3 + 5 + \\dots + (2n-1) = n^2$$"
+            },
+            {
+              "id": "ns005",
+              "title": "Sum of first n even numbers",
+              "basic_overview": "$$2 + 4 + 6 + \\dots + 2n = n(n+1)$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "ns-divisibility",
+          "topic_title": "Divisibility Rules",
+          "notes_list": [
+            {
+              "id": "ns006",
+              "title": "Divisibility by 2, 3, 4, 5, 6",
+              "tags": ["divisibility", "important"],
+              "basic_overview": "2: last digit even. 3: sum of digits divisible by 3. 4: last two digits divisible by 4. 5: last digit 0 or 5. 6: divisible by both 2 and 3."
+            },
+            {
+              "id": "ns007",
+              "title": "Divisibility by 8, 9, 10, 11",
+              "tags": ["divisibility", "important"],
+              "basic_overview": "8: last three digits divisible by 8. 9: sum of digits divisible by 9. 10: last digit 0. 11: (sum of digits at odd places) − (sum of digits at even places) divisible by 11.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Trick for 7: double the last digit, subtract it from the remaining number, repeat until a 2-digit result — if that result is divisible by 7, the whole number is too."
+            }
+          ]
+        },
+        {
+          "topic_id": "ns-hcflcm",
+          "topic_title": "HCF & LCM",
+          "notes_list": [
+            {
+              "id": "ns008",
+              "title": "Product relation",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{HCF} \\times \\text{LCM} = \\text{Product of the two numbers}$$ (only true for exactly two numbers)"
+            },
+            {
+              "id": "ns009",
+              "title": "HCF and LCM of fractions",
+              "basic_overview": "$$\\text{HCF} = \\frac{\\text{HCF of numerators}}{\\text{LCM of denominators}}, \\quad \\text{LCM} = \\frac{\\text{LCM of numerators}}{\\text{HCF of denominators}}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "percentage",
+      "title": "Percentage",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" }
+      ],
+      "topics": [
+        {
+          "topic_id": "pct-basic",
+          "topic_title": "Basic Percentage",
+          "notes_list": [
+            {
+              "id": "p001",
+              "title": "Value as a percentage",
+              "tags": ["important"],
+              "basic_overview": "$$x\\% \\text{ of } y = \\frac{x}{100} \\times y$$"
+            },
+            {
+              "id": "p002",
+              "title": "Fraction to percentage (common values)",
+              "basic_overview": "$\\frac{1}{2}=50\\%,\\ \\frac{1}{3}=33.33\\%,\\ \\frac{1}{4}=25\\%,\\ \\frac{1}{5}=20\\%,\\ \\frac{1}{6}=16.67\\%,\\ \\frac{1}{7}=14.28\\%,\\ \\frac{1}{8}=12.5\\%,\\ \\frac{1}{9}=11.11\\%$"
+            },
+            {
+              "id": "p003",
+              "title": "Percentage increase/decrease",
+              "tags": ["important"],
+              "basic_overview": "$$\\% \\text{ change} = \\frac{\\text{Change}}{\\text{Original Value}} \\times 100$$"
+            },
+            {
+              "id": "p004",
+              "title": "New value after % change",
+              "basic_overview": "Increase by x%: $\\text{New} = \\text{Old} \\times \\left(1 + \\frac{x}{100}\\right)$. Decrease by x%: $\\text{New} = \\text{Old} \\times \\left(1 - \\frac{x}{100}\\right)$"
+            },
+            {
+              "id": "p005",
+              "title": "If A is x% more than B",
+              "tags": ["important"],
+              "basic_overview": "then B is less than A by $$\\left(\\frac{x}{100+x}\\right) \\times 100\\%$$",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Conversely, if A is x% less than B, then B is more than A by $\\left(\\frac{x}{100-x}\\right)\\times 100\\%$."
+            },
+            {
+              "id": "p006",
+              "title": "Successive percentage change",
+              "basic_overview": "Two successive changes of x% and y%: $$\\text{Net \\% change} = x + y + \\frac{xy}{100}$$ (use negative sign for decrease)"
+            },
+            {
+              "id": "p007",
+              "title": "Population growth/decrease (compound)",
+              "basic_overview": "$$P_n = P\\left(1 \\pm \\frac{r}{100}\\right)^n$$ (+ for growth, − for decrease, r = rate %, n = years)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profit-loss-discount",
+      "title": "Profit, Loss & Discount",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" }
+      ],
+      "topics": [
+        {
+          "topic_id": "pl-basic",
+          "topic_title": "Basic Profit & Loss",
+          "notes_list": [
+            {
+              "id": "pl001",
+              "title": "Profit and Loss %",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{Profit \\%} = \\frac{\\text{SP} - \\text{CP}}{\\text{CP}} \\times 100, \\qquad \\text{Loss \\%} = \\frac{\\text{CP} - \\text{SP}}{\\text{CP}} \\times 100$$"
+            },
+            {
+              "id": "pl002",
+              "title": "Selling Price from Profit/Loss %",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{SP} = \\text{CP}\\left(1 + \\frac{\\text{Profit\\%}}{100}\\right), \\qquad \\text{SP} = \\text{CP}\\left(1 - \\frac{\\text{Loss\\%}}{100}\\right)$$"
+            },
+            {
+              "id": "pl003",
+              "title": "Cost Price from SP",
+              "basic_overview": "$$\\text{CP} = \\frac{\\text{SP} \\times 100}{100 + \\text{Profit\\%}} \\quad \\text{or} \\quad \\text{CP} = \\frac{\\text{SP} \\times 100}{100 - \\text{Loss\\%}}$$"
+            },
+            {
+              "id": "pl004",
+              "title": "Discount formulas",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{Discount} = \\text{MP} - \\text{SP}, \\qquad \\text{Discount\\%} = \\frac{\\text{MP} - \\text{SP}}{\\text{MP}} \\times 100$$"
+            },
+            {
+              "id": "pl005",
+              "title": "Successive discounts",
+              "basic_overview": "Two successive discounts of x% and y% are equivalent to a single discount of $$\\left(x + y - \\frac{xy}{100}\\right)\\%$$"
+            },
+            {
+              "id": "pl006",
+              "title": "False weight trick",
+              "basic_overview": "If a shopkeeper uses a false weight to claim a normal profit %, actual gain % $$= \\frac{\\text{True Weight} - \\text{False Weight}}{\\text{False Weight}} \\times 100$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interest",
+      "title": "Simple & Compound Interest",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" }
+      ],
+      "topics": [
+        {
+          "topic_id": "int-si",
+          "topic_title": "Simple Interest",
+          "notes_list": [
+            {
+              "id": "i001",
+              "title": "Simple Interest",
+              "tags": ["important"],
+              "basic_overview": "$$SI = \\frac{P \\times R \\times T}{100}$$ where P = Principal, R = rate % per annum, T = time in years"
+            },
+            {
+              "id": "i002",
+              "title": "Amount under SI",
+              "basic_overview": "$$A = P + SI = P\\left(1 + \\frac{RT}{100}\\right)$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "int-ci",
+          "topic_title": "Compound Interest",
+          "notes_list": [
+            {
+              "id": "i003",
+              "title": "Amount under CI (annual compounding)",
+              "tags": ["important"],
+              "basic_overview": "$$A = P\\left(1 + \\frac{R}{100}\\right)^n$$, and $$CI = A - P$$"
+            },
+            {
+              "id": "i004",
+              "title": "CI compounded half-yearly / quarterly",
+              "basic_overview": "Half-yearly: $A = P\\left(1+\\dfrac{R/2}{100}\\right)^{2n}$. Quarterly: $A = P\\left(1+\\dfrac{R/4}{100}\\right)^{4n}$"
+            },
+            {
+              "id": "i005",
+              "title": "Relation between CI and SI (2 years)",
+              "tags": ["important"],
+              "basic_overview": "$$CI - SI = P\\left(\\frac{R}{100}\\right)^2$$ (for time = 2 years)",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "For 3 years: $CI - SI = \\dfrac{PR^2}{100^2}\\left(\\dfrac{300+R}{100}\\right)$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ratio-proportion-average",
+      "title": "Ratio, Proportion & Average",
+      "topics": [
+        {
+          "topic_id": "rp-basic",
+          "topic_title": "Ratio & Proportion",
+          "notes_list": [
+            {
+              "id": "r001",
+              "title": "If a:b = m:n",
+              "basic_overview": "then $$a = \\frac{m}{m+n} \\times (a+b), \\qquad b = \\frac{n}{m+n} \\times (a+b)$$"
+            },
+            {
+              "id": "r002",
+              "title": "Fourth proportional",
+              "basic_overview": "If a : b :: c : d, then $$d = \\frac{b \\times c}{a}$$"
+            },
+            {
+              "id": "r003",
+              "title": "Mean proportional",
+              "basic_overview": "Mean proportional between a and b $$= \\sqrt{ab}$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "rp-average",
+          "topic_title": "Average",
+          "notes_list": [
+            {
+              "id": "r004",
+              "title": "Average",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{Average} = \\frac{\\text{Sum of observations}}{\\text{Number of observations}}$$"
+            },
+            {
+              "id": "r005",
+              "title": "Average of first n natural numbers",
+              "basic_overview": "$$\\frac{n+1}{2}$$"
+            },
+            {
+              "id": "r006",
+              "title": "New average after replacing a value",
+              "basic_overview": "If an item is replaced and average changes by d: $$\\text{New item} = \\text{Old item} + n \\times d$$ (n = number of items, d can be negative for decrease)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-speed-distance",
+      "title": "Time, Speed & Distance",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" },
+        { "label": "🚂 Trains", "tag": "trains" },
+        { "label": "🚤 Boats", "tag": "boats" }
+      ],
+      "topics": [
+        {
+          "topic_id": "tsd-basic",
+          "topic_title": "Basic Formulas",
+          "notes_list": [
+            {
+              "id": "t001",
+              "title": "Speed, Distance, Time",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}$$"
+            },
+            {
+              "id": "t002",
+              "title": "km/hr to m/s conversion",
+              "tags": ["important"],
+              "basic_overview": "$$x \\text{ km/hr} = x \\times \\frac{5}{18} \\text{ m/s}, \\qquad x \\text{ m/s} = x \\times \\frac{18}{5} \\text{ km/hr}$$"
+            },
+            {
+              "id": "t003",
+              "title": "Average speed for equal distances",
+              "basic_overview": "If equal distance is covered at speeds $s_1$ and $s_2$: $$\\text{Average speed} = \\frac{2 s_1 s_2}{s_1 + s_2}$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "tsd-trains",
+          "topic_title": "Trains",
+          "notes_list": [
+            {
+              "id": "t004",
+              "title": "Train crossing a stationary object (pole/man)",
+              "tags": ["trains"],
+              "basic_overview": "Time to cross $$= \\frac{\\text{Length of train}}{\\text{Speed of train}}$$"
+            },
+            {
+              "id": "t005",
+              "title": "Train crossing a platform/bridge",
+              "tags": ["trains", "important"],
+              "basic_overview": "Time to cross $$= \\frac{\\text{Length of train} + \\text{Length of platform}}{\\text{Speed of train}}$$"
+            },
+            {
+              "id": "t006",
+              "title": "Two trains crossing each other",
+              "tags": ["trains"],
+              "basic_overview": "Same direction: relative speed $= s_1 - s_2$. Opposite direction: relative speed $= s_1 + s_2$. Time $= \\dfrac{L_1+L_2}{\\text{relative speed}}$"
+            }
+          ]
+        },
+        {
+          "topic_id": "tsd-boats",
+          "topic_title": "Boats & Streams",
+          "notes_list": [
+            {
+              "id": "t007",
+              "title": "Downstream and Upstream speed",
+              "tags": ["boats", "important"],
+              "basic_overview": "$$\\text{Downstream speed} = u + v, \\qquad \\text{Upstream speed} = u - v$$ (u = speed of boat in still water, v = speed of stream)"
+            },
+            {
+              "id": "t008",
+              "title": "Speed of boat and stream from up/down speed",
+              "tags": ["boats"],
+              "basic_overview": "$$u = \\frac{1}{2}(\\text{Downstream} + \\text{Upstream}), \\qquad v = \\frac{1}{2}(\\text{Downstream} - \\text{Upstream})$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-work",
+      "title": "Time & Work",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" },
+        { "label": "🚰 Pipes & Cisterns", "tag": "pipes" }
+      ],
+      "topics": [
+        {
+          "topic_id": "tw-basic",
+          "topic_title": "Basic Formulas",
+          "notes_list": [
+            {
+              "id": "w001",
+              "title": "Work and time relation",
+              "tags": ["important"],
+              "basic_overview": "If A can finish a work in n days, A's 1-day work $$= \\frac{1}{n}$$"
+            },
+            {
+              "id": "w002",
+              "title": "Combined work of A and B",
+              "tags": ["important"],
+              "basic_overview": "If A and B take $a$ and $b$ days respectively, together they finish it in $$\\frac{ab}{a+b} \\text{ days}$$"
+            },
+            {
+              "id": "w003",
+              "title": "Work and wages",
+              "basic_overview": "Wages are distributed in the ratio of work done, i.e. in the ratio of (1-day work) × (number of days worked)."
+            }
+          ]
+        },
+        {
+          "topic_id": "tw-pipes",
+          "topic_title": "Pipes & Cisterns",
+          "notes_list": [
+            {
+              "id": "w004",
+              "title": "Two pipes filling/emptying together",
+              "tags": ["pipes", "important"],
+              "basic_overview": "If a filling pipe takes $a$ hrs and an emptying pipe takes $b$ hrs, net time to fill (a < b, both open) $$= \\frac{ab}{b-a} \\text{ hrs}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixture-alligation",
+      "title": "Mixture & Alligation",
+      "topics": [
+        {
+          "topic_id": "mix-basic",
+          "topic_title": "Alligation Rule",
+          "notes_list": [
+            {
+              "id": "m001",
+              "title": "Rule of Alligation",
+              "tags": ["important"],
+              "basic_overview": "For cheaper (C) and dearer (D) quantities mixed to get a mean price (M): $$\\frac{\\text{Quantity of Cheaper}}{\\text{Quantity of Dearer}} = \\frac{D - M}{M - C}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" }
+      ],
+      "topics": [
+        {
+          "topic_id": "alg-identities",
+          "topic_title": "Basic Identities",
+          "notes_list": [
+            {
+              "id": "a001",
+              "title": "(a+b)² and (a−b)²",
+              "tags": ["important"],
+              "basic_overview": "$$(a+b)^2 = a^2 + 2ab + b^2, \\qquad (a-b)^2 = a^2 - 2ab + b^2$$"
+            },
+            {
+              "id": "a002",
+              "title": "a² − b²",
+              "tags": ["important"],
+              "basic_overview": "$$a^2 - b^2 = (a+b)(a-b)$$"
+            },
+            {
+              "id": "a003",
+              "title": "(a+b)³ and (a−b)³",
+              "basic_overview": "$$(a+b)^3 = a^3 + b^3 + 3ab(a+b), \\qquad (a-b)^3 = a^3 - b^3 - 3ab(a-b)$$"
+            },
+            {
+              "id": "a004",
+              "title": "a³ + b³ and a³ − b³",
+              "basic_overview": "$$a^3 + b^3 = (a+b)(a^2 - ab + b^2), \\qquad a^3 - b^3 = (a-b)(a^2 + ab + b^2)$$"
+            },
+            {
+              "id": "a005",
+              "title": "a² + b² from (a+b) and ab",
+              "basic_overview": "$$a^2 + b^2 = (a+b)^2 - 2ab$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "alg-quadratic",
+          "topic_title": "Quadratic Equations",
+          "notes_list": [
+            {
+              "id": "a006",
+              "title": "Quadratic formula",
+              "tags": ["important"],
+              "basic_overview": "For $ax^2+bx+c=0$: $$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+            },
+            {
+              "id": "a007",
+              "title": "Sum and product of roots",
+              "tags": ["important"],
+              "basic_overview": "$$\\text{Sum of roots} = -\\frac{b}{a}, \\qquad \\text{Product of roots} = \\frac{c}{a}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" }
+      ],
+      "topics": [
+        {
+          "topic_id": "trig-ratios",
+          "topic_title": "Basic Ratios & Identities",
+          "notes_list": [
+            {
+              "id": "tr001",
+              "title": "Basic ratios",
+              "tags": ["important"],
+              "basic_overview": "$$\\sin\\theta = \\frac{\\text{Perpendicular}}{\\text{Hypotenuse}}, \\ \\cos\\theta = \\frac{\\text{Base}}{\\text{Hypotenuse}}, \\ \\tan\\theta = \\frac{\\text{Perpendicular}}{\\text{Base}}$$"
+            },
+            {
+              "id": "tr002",
+              "title": "Pythagorean identities",
+              "tags": ["important"],
+              "basic_overview": "$$\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta$$"
+            },
+            {
+              "id": "tr003",
+              "title": "Standard angle values table",
+              "basic_overview": "θ = 0°, 30°, 45°, 60°, 90° → sinθ = 0, 1/2, 1/√2, √3/2, 1 and cosθ = 1, √3/2, 1/√2, 1/2, 0"
+            }
+          ]
+        },
+        {
+          "topic_id": "trig-heights",
+          "topic_title": "Heights & Distances",
+          "notes_list": [
+            {
+              "id": "tr004",
+              "title": "Angle of elevation/depression setup",
+              "basic_overview": "$$\\tan\\theta = \\frac{\\text{Height of object}}{\\text{Distance from object}}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mensuration",
+      "title": "Mensuration",
+      "filters": [
+        { "label": "⭐ Important", "tag": "important" },
+        { "label": "◼️ 2D", "tag": "2d" },
+        { "label": "🧊 3D", "tag": "3d" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mens-2d",
+          "topic_title": "2D Figures",
+          "notes_list": [
+            {
+              "id": "me001",
+              "title": "Square",
+              "tags": ["2d", "important"],
+              "basic_overview": "Area $= a^2$, Perimeter $= 4a$, Diagonal $= a\\sqrt{2}$"
+            },
+            {
+              "id": "me002",
+              "title": "Rectangle",
+              "tags": ["2d", "important"],
+              "basic_overview": "Area $= l \\times b$, Perimeter $= 2(l+b)$, Diagonal $= \\sqrt{l^2+b^2}$"
+            },
+            {
+              "id": "me003",
+              "title": "Triangle",
+              "tags": ["2d", "important"],
+              "basic_overview": "Area $= \\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Using all sides (Heron's formula): $$\\text{Area} = \\sqrt{s(s-a)(s-b)(s-c)}, \\ s = \\frac{a+b+c}{2}$$"
+            },
+            {
+              "id": "me004",
+              "title": "Equilateral triangle",
+              "tags": ["2d"],
+              "basic_overview": "Area $= \\dfrac{\\sqrt{3}}{4}a^2$, Height $= \\dfrac{\\sqrt{3}}{2}a$"
+            },
+            {
+              "id": "me005",
+              "title": "Circle",
+              "tags": ["2d", "important"],
+              "basic_overview": "Area $= \\pi r^2$, Circumference $= 2\\pi r$"
+            },
+            {
+              "id": "me006",
+              "title": "Parallelogram & Rhombus",
+              "tags": ["2d"],
+              "basic_overview": "Parallelogram: Area $= \\text{base} \\times \\text{height}$. Rhombus: Area $= \\dfrac{1}{2} d_1 d_2$ (diagonals)"
+            },
+            {
+              "id": "me007",
+              "title": "Trapezium",
+              "tags": ["2d"],
+              "basic_overview": "$$\\text{Area} = \\frac{1}{2} (a+b) \\times h$$ (a, b = parallel sides, h = height)"
+            }
+          ]
+        },
+        {
+          "topic_id": "mens-3d",
+          "topic_title": "3D Figures",
+          "notes_list": [
+            {
+              "id": "me008",
+              "title": "Cube",
+              "tags": ["3d", "important"],
+              "basic_overview": "Volume $= a^3$, Total Surface Area $= 6a^2$, Diagonal $= a\\sqrt{3}$"
+            },
+            {
+              "id": "me009",
+              "title": "Cuboid",
+              "tags": ["3d", "important"],
+              "basic_overview": "Volume $= l \\times b \\times h$, Total Surface Area $= 2(lb + bh + hl)$, Diagonal $= \\sqrt{l^2+b^2+h^2}$"
+            },
+            {
+              "id": "me010",
+              "title": "Cylinder",
+              "tags": ["3d", "important"],
+              "basic_overview": "Volume $= \\pi r^2 h$, Curved Surface Area $= 2\\pi r h$, Total Surface Area $= 2\\pi r(r+h)$"
+            },
+            {
+              "id": "me011",
+              "title": "Cone",
+              "tags": ["3d", "important"],
+              "basic_overview": "Volume $= \\dfrac{1}{3}\\pi r^2 h$, Curved Surface Area $= \\pi r l$, where slant height $l = \\sqrt{r^2+h^2}$"
+            },
+            {
+              "id": "me012",
+              "title": "Sphere & Hemisphere",
+              "tags": ["3d", "important"],
+              "basic_overview": "Sphere: Volume $= \\dfrac{4}{3}\\pi r^3$, Surface Area $= 4\\pi r^2$. Hemisphere: Volume $= \\dfrac{2}{3}\\pi r^3$, Curved SA $= 2\\pi r^2$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "topics": [
+        {
+          "topic_id": "geo-triangle",
+          "topic_title": "Triangles",
+          "notes_list": [
+            {
+              "id": "g001",
+              "title": "Angle sum property",
+              "basic_overview": "Sum of interior angles of a triangle $$= 180°$$"
+            },
+            {
+              "id": "g002",
+              "title": "Pythagoras theorem",
+              "tags": ["important"],
+              "basic_overview": "In a right triangle: $$(\\text{Hypotenuse})^2 = (\\text{Base})^2 + (\\text{Perpendicular})^2$$"
+            },
+            {
+              "id": "g003",
+              "title": "Centroid divides median",
+              "basic_overview": "The centroid divides each median in the ratio $$2:1$$ from the vertex"
+            }
+          ]
+        },
+        {
+          "topic_id": "geo-circle",
+          "topic_title": "Circles",
+          "notes_list": [
+            {
+              "id": "g004",
+              "title": "Angle in a semicircle",
+              "basic_overview": "Angle subtended by a diameter on the circle $$= 90°$$"
+            },
+            {
+              "id": "g005",
+              "title": "Angle subtended at centre vs circumference",
+              "basic_overview": "Angle at the centre $$= 2 \\times$$ angle at the circumference (same arc)"
+            }
+          ]
+        },
+        {
+          "topic_id": "geo-polygon",
+          "topic_title": "Polygons",
+          "notes_list": [
+            {
+              "id": "g006",
+              "title": "Sum of interior angles of a polygon",
+              "basic_overview": "$$(n-2) \\times 180°$$ where n = number of sides"
+            },
+            {
+              "id": "g007",
+              "title": "Each interior angle of a regular polygon",
+              "basic_overview": "$$\\frac{(n-2) \\times 180°}{n}$$"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

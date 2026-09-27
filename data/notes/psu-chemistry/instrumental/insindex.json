@@ -1,0 +1,13 @@
+{
+  "chapters": [
+    { "id": "uv", "title": "UV Vis Spectroscopy", "file": "data/notes/psu-chemistry/instrumental/uv.json" },
+    { "id": "nmr", "title": "NMR Spectroscopy", "file": "data/notes/psu-chemistry/instrumental/nmr.json" },
+    { "id": "ir", "title": "Infrared Spectroscopy", "file": "data/notes/psu-chemistry/instrumental/ir.json" },
+    { "id": "gcms", "title": "Gas Chromatograhpy Mass Spectroscopy", "file": "data/notes/psu-chemistry/instrumental/gcms.json" },
+    { "id": "hplc", "title": "HPLC", "file": "data/notes/psu-chemistry/instrumental/hplc.json" }
+    
+    
+    
+    
+  ]
+}

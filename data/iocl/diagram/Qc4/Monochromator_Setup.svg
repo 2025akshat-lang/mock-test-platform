@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="100%" height="100%">
+  <!-- Definitions for Gradients and Arrows -->
+  <defs>
+    <!-- Rainbow / Polychromatic Beam Gradient -->
+    <linearGradient id="polyBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Dispersed Beam Gradients -->
+    <linearGradient id="beamBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="beamGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="beamRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F87171" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Final Selected Monochromatic Light -->
+    <linearGradient id="selectedMono" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4B5563" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1E3A8A; }
+    .label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #1F2937; }
+    .sub-label { font-size: 11px; fill: #64748B; font-weight: normal; }
+    .slit-plate { fill: #374151; stroke: #1F2937; stroke-width: 1.5; }
+    .ray-edge { stroke-dasharray: 3,3; stroke-width: 0.8; }
+  </style>
+
+  <!-- Background Accent -->
+  <rect width="750" height="480" fill="#FAFAFA" rx="12"/>
+
+  <!-- Title -->
+  <text x="375" y="45" class="title" text-anchor="middle">Monochromator Optical Setup</text>
+
+  <!-- Outer Protective Housing / Box Boundary -->
+  <rect x="50" y="80" width="650" height="340" fill="none" stroke="#3B82F6" stroke-width="2" stroke-dasharray="6,4" rx="8"/>
+  <text x="65" y="105" class="label" fill="#3B82F6">Monochromator Box</text>
+
+  <!-- ================= 1. ENTRANCE SLIT (Slit 1) ================= -->
+  <g id="entrance-slit">
+    <rect x="90" y="110" width="12" height="100" class="slit-plate"/>
+    <rect x="90" y="250" width="12" height="100" class="slit-plate"/>
+    <text x="96" y="98" class="label" text-anchor="middle">Entrance Slit</text>
+    <text x="96" y="375" class="label sub-label" text-anchor="middle">(Slit 1)</text>
+  </g>
+
+  <!-- Incoming Polychromatic Light Beam -->
+  <polygon points="10,218 85,215 85,245 10,242" fill="url(#polyBeam)"/>
+  <text x="15" y="195" class="label" fill="#D97706">Polychromatic Light</text>
+  <text x="15" y="210" class="sub-label">(White Light / Multi-λ)</text>
+
+  <!-- Beam from Entrance Slit to Prism -->
+  <polygon points="103,212 250,190 250,270 103,248" fill="url(#polyBeam)"/>
+
+  <!-- ================= 2. DISPERSING ELEMENT (Prism) ================= -->
+  <g id="prism-component">
+    <polygon points="290,150 250,270 330,270" fill="#EFF6FF" stroke="#2563EB" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="290" y="295" class="label" text-anchor="middle">Prism</text>
+    <text x="290" y="312" class="sub-label" text-anchor="middle">(Quartz / Silica)</text>
+  </g>
+
+  <!-- ================= 3. DISPERSION / RAINBOW PATHS ================= -->
+  <!-- Blue Rays -->
+  <polygon points="290,210 540,140 540,170 290,220" fill="url(#beamBlue)"/>
+  <line x1="290" y1="210" x2="540" y2="140" stroke="#3B82F6" class="ray-edge"/>
+  
+  <!-- Green Rays -->
+  <polygon points="290,220 540,215 540,245 290,230" fill="url(#beamGreen)"/>
+  <line x1="290" y1="220" x2="540" y2="215" stroke="#10B981" class="ray-edge"/>
+  
+  <!-- Red Rays -->
+  <polygon points="290,230 540,290 540,320 290,240" fill="url(#beamRed)"/>
+  <line x1="290" y1="240" x2="540" y2="320" stroke="#EF4444" class="ray-edge"/>
+
+  <text x="440" y="145" class="sub-label text-bold" fill="#2563EB" transform="rotate(-15, 440, 145)">Blue (Short λ)</text>
+  <text x="440" y="315" class="sub-label text-bold" fill="#DC2626" transform="rotate(15, 440, 315)">Red (Long λ)</text>
+
+  <!-- ================= 4. EXIT SLIT (Slit 2) ================= -->
+  <g id="exit-slit">
+    <rect x="540" y="110" width="12" height="102" class="slit-plate"/>
+    <rect x="540" y="248" width="12" height="102" class="slit-plate"/>
+    <text x="546" y="98" class="label" text-anchor="middle">Exit Slit</text>
+    <text x="546" y="375" class="label sub-label" text-anchor="middle">(Slit 2)</text>
+  </g>
+
+  <!-- ================= 5. EMERGING MONOCHROMATIC LIGHT ================= -->
+  <polygon points="553,217 720,217 720,243 553,243" fill="url(#selectedMono)"/>
+  <line x1="553" y1="217" x2="720" y2="217" stroke="#059669" class="ray-edge"/>
+  <line x1="553" y1="243" x2="720" y2="243" stroke="#059669" class="ray-edge"/>
+  
+  <text x="640" y="205" class="label" fill="#059669" text-anchor="middle">Monochromatic Light</text>
+  <text x="640" y="262" class="sub-label" text-anchor="middle">(Single Selected λ)</text>
+
+  <!-- Function Text Box -->
+  <rect x="180" y="435" width="390" height="35" fill="#F1F5F9" stroke="#E2E8F0" rx="4" />
+  <text x="375" y="457" class="label sub-label text-bold" fill="#334155" text-anchor="middle">Function: Converts Polychromatic Light to Monochromatic Light</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    { "id": "verbal", "title": "Verbal Reasoning", "file": "data/notes/govt-exam/reasoning/verbal.json" },
+    { "id": "nonverbal", "title": "Non Verbal Reasoning", "file": "data/notes/govt-exam/reasoning/nonverbal.json" },
+    { "id": "logical", "title": "Logical Reasoning", "file": "data/notes/govt-exam/reasoning/logical.json" }
+    
+  ]
+}

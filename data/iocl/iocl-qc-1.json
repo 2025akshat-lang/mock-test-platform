@@ -1,0 +1,406 @@
+{
+  "id": "iocl-qc-1",
+  "title": "IOCL Quality Control Chemist - Mock Test 1",
+  "timeMins": 60,
+  "badgeText": "NEW",
+  "badgeClass": "badge-new",
+  "instructions": [
+    "Test contains conceptual physics and numerical problems for Quality Control Chemist position.",
+    "Each question carries 1 mark. Read the explanations carefully after submitting."
+  ],
+  "questions": [
+  {
+    "id": 1,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "During a gas chromatographic analysis of a refinery naphtha stream containing highly polar trace oxygenates, severe peak tailing for ethanol and methanol is observed on a non-polar methyl silicone capillary column. Which micro-level phenomenon is the primary cause, and what is the most technically robust corrective action?",
+    "options": {
+      "A": "Thermal degradation of analytes in the inlet; lower the splitless injection port temperature by 30°C.",
+      "B": "Irreversible silanol activity on the fused-silica column wall; replace or end-cap the column with a high-polarity PEG stationary phase.",
+      "C": "Carrier gas linear velocity being too low; increase the column head pressure past the optimal van Deemter velocity.",
+      "D": "Overloading of the Flame Ionization Detector (FID) jet collector; reduce the hydrogen fuel gas flow rate."
+    },
+    "correct": "B",
+    "explanation": "Polar oxygenates like alcohols undergo non-specific hydrogen bonding with un-endcapped active silanol groups (Si-OH) on non-polar silica column walls, leading to slow desorption kinetics and asymmetric peak tailing. Switching to a polar polyethylene glycol (PEG) column or chemically deactivating silanols eliminates these active sites."
+  },
+  {
+    "id": 2,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A Quality Control Chemist is determining the water content of a high-acid crude oil fraction using Coulometric Karl Fischer (KF) titration. The sample contains significant quantities of volatile mercaptans (R-SH) and ketones. The resulting moisture readings are erroneously high and show no stable end-point. What dual chemical interference mechanism is occurring?",
+    "options": {
+      "A": "Mercaptans oxidize Karl Fischer reagent components, while ketones form water by reacting with methanol in the titration solvent to yield ketals.",
+      "B": "Mercaptans reduce iodine to iodide directly; ketones undergo condensation with sulfur dioxide to release stoichiometric water.",
+      "C": "Mercaptans consume anodically generated iodine (2 R-SH + I2 -> R-SS-R + 2 HI), mimicking water consumption; ketones react with methanol solvent yielding water via ketalization.",
+      "D": "Mercaptans decompose the imidazole buffer; ketones form insoluble polymers that coat the indicator electrode."
+    },
+    "correct": "C",
+    "explanation": "Two distinct side reactions occur: (1) Mercaptans oxidized by I2 consume iodine anodically generated for water titration, registering as false moisture. (2) Ketones react with methanol to form ketals (R2CO + 2 CH3OH -> R2C(OCH3)2 + H2O), producing actual water during the titration."
+  },
+  {
+    "id": 3,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "In a reversed-phase HPLC separation of polycyclic aromatic hydrocarbons (PAHs) using a C18 stationary phase, switching the organic modifier from Acetonitrile to Tetrahydrofuran (THF) while maintaining equal solvent strength results in a dramatic alteration of elution selectivity. What specific intermolecular interaction accounts for this shift?",
+    "options": {
+      "A": "THF acts as a strong hydrogen-bond donor compared to Acetonitrile.",
+      "B": "THF acts as a strong dipole-dipole acceptor, whereas Acetonitrile exhibits strong hydrogen-bonding acidity.",
+      "C": "THF acts as a proton acceptor and localized Lewis base, interacting preferentially with pi-electron clouds of condensed aromatic rings.",
+      "D": "Acetonitrile increases the hydrophobic retention factor compared to THF due to lower viscosity."
+    },
+    "correct": "C",
+    "explanation": "THF provides strong n-electron donor capability (lone pair on oxygen) that selectively interacts with pi-electron systems of aromatic solutes, selectively altering relative retention times compared to Acetonitrile (dipolar) or Methanol (protic)."
+  },
+  {
+    "id": 4,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "When quantifying trace Calcium in heavy fuel oil ash using Flame Atomic Absorption Spectrometry (FAAS) with an air-acetylene flame, severe negative chemical interference is observed in the presence of Phosphate ions. Which chemical modifier must be added to eliminate this interference?",
+    "options": {
+      "A": "Sodium chloride (Ionization suppressor)",
+      "B": "Lanthanum chloride (Releasing agent)",
+      "C": "EDTA (Complexing mask for background matrix)",
+      "D": "Cesium nitrate (Radiation buffer)"
+    },
+    "correct": "B",
+    "explanation": "Phosphate forms thermally stable calcium pyrophosphate (Ca2P2O7) in air-acetylene flames, preventing atomization of Ca. Lanthanum acts as a releasing agent because La has a higher affinity for phosphate than Ca, forming stable LaPO4 and freeing Ca for atomization."
+  },
+  {
+    "id": 5,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A used turbine oil sample shows a sharp absorption band appearing at 1710 cm^-1 and a broad peak spanning 3200-3500 cm^-1 in its FTIR spectrum. Comparing this with fresh oil, what degradation pathway and secondary product formation are explicitly indicated?",
+    "options": {
+      "A": "Base stock nitration yielding aliphatic nitro compounds and free amines.",
+      "B": "Oxidative degradation yielding carboxylic acids, hydroperoxides, and secondary alcohols.",
+      "C": "Thermal cracking yielding unreacted conjugated dienes and poly-aromatics.",
+      "D": "Additive depletion leading to zinc dithiophosphate (ZDDP) precipitation."
+    },
+    "correct": "B",
+    "explanation": "Absorption at ~1710 cm^-1 corresponds to C=O stretching of carbonyl compounds (carboxylic acids/ketones formed via oxidation). The broad peak at 3200-3500 cm^-1 corresponds to O-H stretching of carboxylic acids, alcohols, and hydroperoxides."
+  },
+  {
+    "id": 6,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "During trace element analysis of wear metals in lubricating oil using Inductively Coupled Plasma Optical Emission Spectrometry (ICP-OES), severe spectral overlap occurs on the primary Iron emission line (259.940 nm). What is the most effective instrumental strategy to resolve this without sacrificing detection limits?",
+    "options": {
+      "A": "Increase RF generator power to 1500 W to suppress emission.",
+      "B": "Select an alternative interference-free atomic/ionic line for Iron (e.g., Fe 238.204 nm) and apply Off-Peak Background Correction.",
+      "C": "Switch carrier gas from Argon to Nitrogen.",
+      "D": "Dilute the sample 1000-fold in kerosene to eliminate the spectral line."
+    },
+    "correct": "B",
+    "explanation": "Spectral interferences in ICP-OES are solved by choosing an alternative wavelength for the analyte that is free from overlapping lines of matrix elements, combined with background correction points set on either side of the peak."
+  },
+  {
+    "id": 7,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A QC lab measures ultra-low sulfur diesel (ULSD, target <10 ppm). Testing via X-ray Fluorescence (EDXRF, ASTM D4294) yields 25 ppm, whereas Oxidative Microcoulometry (ASTM D3120) yields 8 ppm. The sample contains high concentrations of Silicon-based anti-foam additives. Which technique is accurate and why?",
+    "options": {
+      "A": "EDXRF is correct; microcoulometry underestimates sulfur due to incomplete combustion.",
+      "B": "Microcoulometry is correct; Silicon emissions overlap spectrally with Sulfur K-alpha X-rays in EDXRF, producing a false high reading.",
+      "C": "EDXRF is correct because it measures total elemental sulfur regardless of chemical state.",
+      "D": "Both methods are inaccurate; sulfur can only be measured via Gravimetric Barium Sulfate precipitation."
+    },
+    "correct": "B",
+    "explanation": "Silicon K-alpha X-ray emission (1.74 keV) is close to Sulfur K-alpha emission (2.31 keV). In low-resolution EDXRF instruments, Silicon presence causes severe positive spectral overlap on the sulfur peak, inflating 8 ppm sulfur up to 25 ppm."
+  },
+  {
+    "id": 8,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "An engine laboratory evaluates two blend components for high-octane gasoline: Component X (pure Iso-octane, RON = 100, MON = 100) and Component Y (pure Toluene, RON = 120, MON = 103). Under severe high-speed, high-load turbocharged driving conditions (MON test conditions), why does Component Y show a drastic decrease in anti-knock performance relative to its RON value, whereas Component X remains identical?",
+    "options": {
+      "A": "Toluene undergoes high-temperature radical auto-ignition faster due to the high C-H bond dissociation energy of the aromatic ring under high manifold temperatures.",
+      "B": "Toluene exhibits high Octane Sensitivity (RON - MON = 17) due to its temperature-sensitive aromatic auto-ignition kinetics, making it less effective in high-thermal-stress MON conditions.",
+      "C": "Iso-octane forms stable peroxide intermediates under high-speed MON conditions that absorb free radicals, boosting its MON relative to RON.",
+      "D": "The low vapor pressure of Component Y causes incomplete vaporization in the intake manifold, leading to localized lean-burn detonation."
+    },
+    "correct": "B",
+    "explanation": "Octane Sensitivity is defined as Sensitivity = RON - MON. Alkylbenzenes like Toluene have high sensitivity (~17) because their ignition delay times drop rapidly under elevated temperature and pressure conditions (MON test parameters) compared to standard RON conditions. Iso-octane is the reference standard where RON=MON=100 (Sensitivity = 0)."
+  },
+  {
+    "id": 9,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "Two base oil samples, Oil M and Oil N, have identical kinematic viscosities at 100°C (10.0 cSt). However, at 40°C, Oil M measures 60 cSt while Oil N measures 110 cSt. Based on ASTM D2270 guidelines, which conclusion regarding their molecular composition and Viscosity Index (VI) is correct?",
+    "options": {
+      "A": "Oil M has a lower VI than Oil N, indicating a higher concentration of naphthenic and aromatic hydrocarbons.",
+      "B": "Oil M has a higher VI than Oil N, indicating a higher paraffinic hydrocarbon content.",
+      "C": "Oil N has a higher VI because its viscosity changes more rapidly with temperature.",
+      "D": "Both oils have identical VI values because their viscosities match at 100°C."
+    },
+    "correct": "B",
+    "explanation": "Viscosity Index measures the rate of viscosity change with temperature. A smaller drop in viscosity from 100°C down to 40°C (Oil M: 10 to 60 cSt vs Oil N: 10 to 110 cSt) signifies a higher VI. High paraffin content provides higher VI, whereas aromatics/naphthenes reduce VI."
+  },
+  {
+    "id": 10,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "A refinery blend of Aviation Turbine Fuel (Jet A-1) is contaminated with 0.5 vol% of light Naphtha. How will this minor contamination affect the Flash Point (ASTM D93) and Reid Vapor Pressure (RVP, ASTM D323) of the final jet fuel batch?",
+    "options": {
+      "A": "Flash point will decrease drastically; RVP will show a negligible to minor increase.",
+      "B": "Flash point will increase slightly; RVP will double.",
+      "C": "Both Flash point and RVP will remain strictly within ASTM specifications due to high dilution.",
+      "D": "Flash point will decrease linearly; RVP will drop due to vapor phase suppression."
+    },
+    "correct": "A",
+    "explanation": "Flash point is extremely sensitive to trace volatile components because the lower explosive limit (LEL) in the headspace is governed by the highest volatility fraction (Naphtha). Contaminating heavy fuel with 0.5% naphtha causes a large drop in flash point, whereas overall RVP (measured at 37.8°C) increases only slightly due to low total volume fraction."
+  },
+  {
+    "id": 11,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "A diesel sample treated with a Cold Flow Improver (CFI) polymeric additive shows a Pour Point reduction from -3°C down to -18°C. However, its Cloud Point remains unchanged at +2°C. What micro-structural mechanism explains why CFI additives depress Pour Point without altering Cloud Point?",
+    "options": {
+      "A": "CFI additives dissolve pre-existing paraffin wax crystals upon cooling.",
+      "B": "CFI additives inhibit the nucleation of paraffin wax, preventing crystals from forming at the Cloud Point.",
+      "C": "CFI additives co-crystallize with growing paraffin wax crystals, modifying crystal morphology to prevent interlocking network formation without changing initial wax precipitation temperature.",
+      "D": "CFI additives increase the overall dielectric constant of the hydrocarbon matrix, suppressing wax solubility limits."
+    },
+    "correct": "C",
+    "explanation": "Cloud Point is the temperature where n-paraffins first nucleate and precipitate out of solution (thermodynamic solubility limit). Pour Point is the temperature where wax crystals interlock into a 3D gel matrix that stops fluid flow. CFI additives do not change wax solubility (Cloud Point unchanged); they adsorb onto crystal faces to prevent growth and interlocking (Pour Point depressed)."
+  },
+  {
+    "id": 12,
+    "section": "Core Chemistry Principles",
+    "question": "Consider the gas-phase synthesis of methanol from synthesis gas: CO(g) + 2H2(g) <=> CH3OH(g) (ΔH° = -90.5 kJ/mol). The reaction reaches equilibrium in a rigid, insulated vessel. If an inert gas (Argon) is injected at constant volume, followed by a slight continuous condensation of liquid CH3OH, how do the equilibrium position and the partial pressure of H2 shift?",
+    "options": {
+      "A": "Argon injection shifts the equilibrium toward reactants; condensation shifts it toward products, maintaining constant P_H2.",
+      "B": "Argon injection causes no shift; condensation selectively removes product, shifting equilibrium to the right and decreasing P_H2.",
+      "C": "Argon increases total pressure, shifting equilibrium to the side with fewer gas moles (CH3OH), decreasing P_H2.",
+      "D": "Argon injection decreases partial pressures of reactants; condensation counteracts this, resulting in no net change."
+    },
+    "correct": "B",
+    "explanation": "Adding an inert gas at constant volume increases total pressure but DOES NOT change the partial pressures or concentrations of the reacting species; thus, it causes NO shift in equilibrium. Condensing CH3OH(g) removes gaseous product, forcing a shift to the right which consumes H2 and decreases its partial pressure."
+  },
+  {
+    "id": 13,
+    "section": "Core Chemistry Principles",
+    "question": "The vapor pressure of a purified refinery hydrocarbon stream doubles when the temperature increases from 300 K to 320 K. Assuming the enthalpy of vaporization (ΔH_vap) is temperature-independent over this range, what is ΔH_vap for this hydrocarbon? (R = 8.314 J/mol·K, ln 2 = 0.693)",
+    "options": {
+      "A": "18.4 kJ/mol",
+      "B": "27.6 kJ/mol",
+      "C": "34.6 kJ/mol",
+      "D": "55.3 kJ/mol"
+    },
+    "correct": "B",
+    "explanation": "Using Clausius-Clapeyron: ln(P2/P1) = (ΔH_vap / R) * (1/T1 - 1/T2). ln(2) = (ΔH_vap / 8.314) * (1/300 - 1/320) = (ΔH_vap / 8.314) * (20 / 96000). 0.693 = ΔH_vap * (2.0833e-4 / 8.314). ΔH_vap = 0.693 * 8.314 / 2.0833e-4 = 27,654 J/mol ≈ 27.6 kJ/mol."
+  },
+  {
+    "id": 14,
+    "section": "Core Chemistry Principles",
+    "question": "The thermal cracking of a heavy gas oil fraction follows first-order kinetics. The rate constant double when the reaction temperature is raised from 450°C (723 K) to 480°C (753 K). What is the activation energy (Ea) for this cracking reaction? (R = 8.314 J/mol·K, ln 2 = 0.693)",
+    "options": {
+      "A": "104.2 kJ/mol",
+      "B": "135.8 kJ/mol",
+      "C": "162.4 kJ/mol",
+      "D": "210.5 kJ/mol"
+    },
+    "correct": "A",
+    "explanation": "Using Arrhenius Equation: ln(k2/k1) = (Ea / R) * (1/T1 - 1/T2). Substituting values yields Ea ≈ 104.2 kJ/mol."
+  },
+  {
+    "id": 15,
+    "section": "Core Chemistry Principles",
+    "question": "In a fuel storage tank, an iron structural component undergoes localized corrosion due to a differential aeration cell: Iron in contact with low-oxygen sludge ([O2] = 1.0 x 10^-6 M) vs Iron in contact with aerated fuel ([O2] = 1.0 x 10^-3 M). Assuming standard temperature (298 K) and n = 4 electron transfer for oxygen reduction, what is the potential difference (E_cell) generated between the two regions?",
+    "options": {
+      "A": "0.044 V",
+      "B": "0.089 V",
+      "C": "0.177 V",
+      "D": "0.355 V"
+    },
+    "correct": "A",
+    "explanation": "Using Nernst equation for concentration cell: E_cell = (RT / nF) * ln([O2]_high / [O2]_low) = (0.0591 / 4) * log10(10^-3 / 10^-6) = 0.01477 * log10(1000) = 0.0443 V."
+  },
+  {
+    "id": 16,
+    "section": "Core Chemistry Principles",
+    "question": "Refinery hydrotreating catalysts often utilize Nickel-Molybdenum (Ni-Mo) complexes. In terms of Crystal Field Theory (CFT), why does substituting a strong-field ligand like Cyanide (CN-) for a weak-field ligand like Chloride (Cl-) in a nickel complex cause a dramatic shift in the UV-Vis absorption spectrum from red-shifted to blue-shifted wavelengths?",
+    "options": {
+      "A": "CN- decreases Δ_o (crystal field splitting energy), resulting in lower-energy photon absorption.",
+      "B": "CN- increases Δ_o, causing the complex to absorb higher-energy, shorter-wavelength photons (blue shift).",
+      "C": "Cl- forms low-spin diamagnetic complexes that absorb in the ultraviolet region.",
+      "D": "Ligand substitution changes the oxidation state of Nickel from +2 to +4."
+    },
+    "correct": "B",
+    "explanation": "According to the spectrochemical series, CN- is a strong-field ligand that causes a large d-orbital splitting energy (Δ_o). Since Δ_o = h*c / λ, a larger energy gap requires a shorter wavelength photon for d-d electronic transitions, causing a blue shift."
+  },
+  {
+    "id": 17,
+    "section": "General Aptitude & Reasoning",
+    "question": "Four laboratory technicians (A, B, C, D) run repeatability tests for Diesel Flash Point (ASTM D93 PMCC). A's result is higher than B's. C's result is lower than D's. B's result is higher than D's. A systematic error introduces a +2°C bias in C's apparatus, while A's thermometer has a -3°C error. If the corrected value of A is strictly greater than the corrected value of C, which statement MUST be true regarding their uncorrected readings?",
+    "options": {
+      "A": "Uncorrected A is at least 6°C greater than Uncorrected C.",
+      "B": "Uncorrected A is strictly greater than Uncorrected C by more than 5°C.",
+      "C": "Uncorrected A is greater than Uncorrected C (A_u - C_u > -5).",
+      "D": "Uncorrected C is greater than Uncorrected A before correction."
+    },
+    "correct": "C",
+    "explanation": "Corrected values: A_c = A_u + 3 (since thermometer read 3°C low) and C_c = C_u - 2. Given A_c > C_c => A_u + 3 > C_u - 2 => A_u - C_u > -5. Combined with the baseline ranking A_u > B_u > D_u > C_u, A_u - C_u > 0."
+  },
+  {
+    "id": 18,
+    "section": "General Aptitude & Reasoning",
+    "question": "A refinery blending tank contains 5,000 liters of fuel oil with 2.0 wt% sulfur. Stream A containing 0.5 wt% sulfur flows into the tank at 100 L/min, while Stream B containing 3.0 wt% sulfur flows in at 50 L/min. Simultaneously, the thoroughly mixed blend is drained at 150 L/min. What will be the sulfur content in the tank after 50 minutes?",
+    "options": {
+      "A": "1.33 wt%",
+      "B": "1.75 wt%",
+      "C": "2.00 wt%",
+      "D": "2.25 wt%"
+    },
+    "correct": "C",
+    "explanation": "Total inflow rate = 100 + 50 = 150 L/min. Outflow rate = 150 L/min. Differential equation resolution yields the equilibrium state over continuous dilution dynamics."
+  },
+  {
+    "id": 19,
+    "section": "General Aptitude & Reasoning",
+    "question": "A QC lab tests four fuel properties: Flash Point (FP), Sulfur (S), Density (D), and Viscosity (V). \n1. If FP is off-spec, then S is off-spec.\n2. If D is off-spec, then V is off-spec.\n3. Either S is within spec OR V is off-spec (but not both).\nIf Viscosity (V) is tested and found to be strictly WITHIN SPEC, which conclusion MUST be true?",
+    "options": {
+      "A": "Density (D) is off-spec and Sulfur (S) is off-spec.",
+      "B": "Density (D) is within spec and Flash Point (FP) is within spec.",
+      "C": "Flash Point (FP) is off-spec.",
+      "D": "Sulfur (S) must be off-spec."
+    },
+    "correct": "B",
+    "explanation": "Logic: (2) D_off -> V_off. Contrapositive: V_within -> D_within. Thus Density is within spec. (3) 'S_within OR V_off (not both)'. Since V is within spec, V_off is FALSE. Therefore, S_within MUST BE TRUE. (1) FP_off -> S_off. Contrapositive: S_within -> FP_within. Thus Flash Point is within spec."
+  },
+  {
+    "id": 20,
+    "section": "General Aptitude & Reasoning",
+    "question": "Select the word that best completes the technical sentence: 'To prevent volatile light-end losses during sampling, the operator must __________ seal the sample container immediately after collection, ensuring zero headspace egress.'",
+    "options": {
+      "A": "hermetically",
+      "B": "porously",
+      "C": "viscous",
+      "D": "capriciously"
+    },
+    "correct": "A",
+    "explanation": "'Hermetically' means in a complete and airtight manner, which is the precise technical term for sealing containers against volatile gas loss."
+  },
+  {
+    "id": 21,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A Quality Control laboratory analyzes a reformate sample containing aromatic hydrocarbons, oxygenates (methanol, MTBE), and paraffinic matrix components using a Flame Ionization Detector (FID) coupled to a Gas Chromatograph. When calculating mass percentages using raw peak area percentages without applying theoretical relative response factors (RRF), which analyte class will yield the most severely underestimated mass concentration, and what chemical mechanism explains this reduced FID response?",
+    "options": {
+      "A": "Toluene; because the aromatic ring absorbs thermal energy, lowering the rate of ion formation in the hydrogen flame.",
+      "B": "Methanol; because its carbon atom is already partially oxidized, generating fewer CHO+ ions per mole of carbon during pyrolysis.",
+      "C": "Iso-octane; because branched alkanes undergo steric hindrance, preventing complete combustion at the FID jet tip.",
+      "D": "MTBE; because the ether oxygen atom traps thermal electrons, causing signficant signal quenching in the collector electrode."
+    },
+    "correct": "B",
+    "explanation": "FID response is proportional to the number of reduced carbon atoms entering the flame. Carbon atoms bound to oxygen (like in methanol, CH3OH) are already partially oxidized and form far fewer CHO+ ions during hydrogen-oxygen flame pyrolysis. As a result, methanol has a very low Effective Carbon Number (ECN ≈ 0.55), causing its raw peak area percentage to drastically underestimate its true mass concentration."
+  },
+  {
+    "id": 22,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "A refinery blends motor gasoline for hot summer distribution. During quality certification, the sample meets the Reid Vapor Pressure (RVP) limit of 60 kPa (ASTM D323), but fails the Vapor-Liquid Ratio test (V/L = 20 at 56°C, ASTM D5188). Analyzing the ASTM D86 atmospheric distillation curve reveals an exceptionally steep slope between the Initial Boiling Point (IBP) and the 10% evaporation point (T10). What operational failure in the blending process caused this specific discrepancy?",
+    "options": {
+      "A": "Excessive addition of heavy reformate, raising the T90 distillation temperature and causing secondary vapor formation.",
+      "B": "Over-blending with butane (C4 light ends), creating a high front-end volatility spike that triggers premature vapor lock despite acceptable overall RVP.",
+      "C": "Insufficient addition of fluid catalytic cracking (FCC) naphtha, suppressing the mid-fill T50 evaporation profile.",
+      "D": "High concentration of alkylate components, increasing the flash point beyond acceptable vapor-liquid equilibrium limits."
+    },
+    "correct": "B",
+    "explanation": "RVP measures vapor pressure at 37.8°C at a 4:1 V/L ratio, whereas the ASTM D5188 V/L = 20 test evaluates vapor lock tendency under actual engine operating temperatures (56°C). A steep drop between IBP and T10 indicates localized concentration of highly volatile butane (C4). While RVP might just pass near the upper limit, the excess light ends flash off rapidly at 56°C under the higher V/L ratio (20:1), exceeding the temperature threshold and causing vapor lock."
+  },
+  {
+    "id": 23,
+    "section": "Core Chemistry Principles",
+    "question": "A chemist performs a non-aqueous potentiometric titration of weak petroleum acids (naphthenic acids) in a toluene-isopropanol matrix using potassium hydroxide in isopropanol as the titrant. The glass combination pH electrode exhibits a sluggish response and significant potential drift near the end-point. Which microscopic interfacial phenomenon is primarily responsible, and how can it be mitigated?",
+    "options": {
+      "A": "Dehydration of the hydrated glass membrane gel layer due to the organic solvent; rehydrate the glass electrode in aqueous KCl solution.",
+      "B": "Irreversible oxidation of the internal Ag/AgCl reference element by toluene; replace the internal electrolyte with perchloric acid.",
+      "C": "Precipitation of potassium naphthenate onto the platinum indicator ring; clean with concentrated nitric acid.",
+      "D": "Phase separation of the organic solvent into the aqueous reference junction; replace the porous ceramic frit with a liquid junction."
+    },
+    "correct": "A",
+    "explanation": "Glass electrodes require a hydrated gel layer on the outer surface of the SiO2 membrane to facilitate H+ ion exchange. Prolonged exposure to non-aqueous organic solvents (toluene/isopropanol) dehydrates this gel layer, causing extremely high electrical resistance, unstable liquid junction potentials, and endpoint drift. Periodically soaking the electrode in aqueous buffer/KCl rehydrates the membrane, restoring Nernstian response."
+  },
+  {
+    "id": 24,
+    "section": "General Aptitude",
+    "question": "In a refinery QC laboratory, density measurements for a certified reference material (CRM) are plotted daily on an X-bar control chart (target mean μ = 0.8500 g/mL, upper control limit UCL = 0.8530 g/mL, lower control limit LCL = 0.8470 g/mL). Over 8 consecutive days, all density values fall strictly between 0.8505 g/mL and 0.8525 g/mL (above the mean, but well within the UCL). Applying Western Electric Control Rules, what action must the Quality Manager take?",
+    "options": {
+      "A": "Take no action; the process is in statistical control because zero points have breached the 3-sigma control limits (UCL/LCL).",
+      "B": "Declare the measurement process out of statistical control due to a systematic bias (8 consecutive points on one side of the center line), and initiate instrument recalibration.",
+      "C": "Adjust the target mean μ to 0.8515 g/mL immediately to align with the new statistical average.",
+      "D": "Increase the measurement frequency fourfold because the process dispersion (standard deviation) has expanded."
+    },
+    "correct": "B",
+    "explanation": "According to Western Electric Rule 2 (or ISO 7870 standard rules), 8 consecutive points plotting on one side of the center line (mean) indicates a statistically significant run/shift (systematic bias), even if none of the points cross the 3-sigma limits. The probability of this occurring randomly is (0.5)^8 ≈ 0.0039 (0.39%). Thus, the process is out of statistical control and requires investigation/recalibration."
+  },
+  {
+    "id": 25,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A chemist attempts to quantify trace phenol in refinery wastewater using UV-Vis Spectrophotometry at 270 nm. When constructing the calibration curve across concentrations from 0.001 M to 0.5 M, the absorbance curve flattens significantly at higher concentrations (negative deviation from Beer-Lambert Law). Path length and monochromatic slit width are confirmed constant. What fundamental chemical mechanism accounts for this negative deviation?",
+    "options": {
+      "A": "Increased solute-solute intermolecular interactions at high concentration altering the molar absorptivity (ε) via refractive index shifts and molecular dimerization.",
+      "B": "Photo-bleaching of phenol molecules caused by prolonged exposure to high-intensity deuterium lamp radiation.",
+      "C": "Shift of deuterium emission spectra from continuous continuum to discrete line spectra at high absorbance.",
+      "D": "Solvent fluorescence emitting secondary photons directly into the sample photodiode detector."
+    },
+    "correct": "A",
+    "explanation": "Beer-Lambert Law (A = εbc) assumes dilute solutions (<0.01 M). At high concentrations (>0.1 M), close proximity of solute molecules causes electrostatic/hydrogen-bonding interactions, changing electron charge distribution and dimerization states. Additionally, high solute concentrations alter the refractive index (n) of the medium. Since molar absorptivity depends on refractive index [ε · n/(n²+2)²], this induces real chemical deviations leading to a negative curve flattening."
+  },
+  {
+    "id": 26,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "During quality testing of a Lithium 12-Hydroxystearate complex grease for high-temperature automotive bearings, the sample exhibits catastrophic oil separation (bleeding) and structural softening upon mechanical shearing in a ASTM D217 Worked Penetration test (100,000 strokes). Which structural defect in the soap-fiber matrix accounts for this shear instability?",
+    "options": {
+      "A": "Complete hydrolysis of the lithium soap into free fatty acids and lithium hydroxide caused by trace alkaline water.",
+      "B": "Disruption of the 3D entangled fibrous soap network, releasing mechanically trapped base oil due to weak inter-fiber van der Waals forces.",
+      "C": "Crystallization of synthetic polyalphaolefin (PAO) base stock within the soap fibrils, forcing phase separation.",
+      "D": "Thermal oxidation of antioxidant additives creating high-molecular-weight sludge that dissolves the thickener."
+    },
+    "correct": "B",
+    "explanation": "Grease is a colloidal suspension where liquid lubricating oil is physically held within a 3D fibrous network of soap thickener molecules via capillary action and weak inter-fiber van der Waals interactions. Excessive mechanical shear breaks down the physical entanglement of these soap fibers, destroying their ability to hold oil and causing structural softening (higher penetration) and oil bleed."
+  },
+  {
+    "id": 27,
+    "section": "Core Chemistry Principles",
+    "question": "The catalytic hydrodesulfurization (HDS) of thiophene over a Co-Mo/Al2O3 catalyst follows Langmuir-Hinshelwood kinetics: Reaction rate r = (k · K_T · P_T · K_H · P_H) / (1 + K_T · P_T + K_H · P_H)^2. If the partial pressure of thiophene (P_T) is increased to extremely high levels while hydrogen partial pressure (P_H) is held moderately constant, how does the reaction order with respect to thiophene transition?",
+    "options": {
+      "A": "Transitions from 1st-order to zero-order, with rate becoming independent of P_T.",
+      "B": "Transitions from 1st-order to an apparent negative 1st-order, where increasing P_T depresses the overall reaction rate.",
+      "C": "Transitions from 2nd-order to 1st-order due to active site regeneration.",
+      "D": "Remains strictly 1st-order across all partial pressure regimes."
+    },
+    "correct": "B",
+    "explanation": "In the dual-site Langmuir-Hinshelwood mechanism, both reactants compete for/occupy catalytic surface sites. When P_T becomes very high, K_T · P_T >> (1 + K_H · P_H). The denominator becomes dominated by (K_T · P_T)^2. Thus, rate r ≈ (k · K_T · P_T · K_H · P_H) / (K_T · P_T)^2 = (k · K_H · P_H) / (K_T · P_T). The rate becomes inversely proportional to P_T (apparent -1 order), as excess thiophene blocks the surface sites required for hydrogen adsorption."
+  },
+  {
+    "id": 28,
+    "section": "General Aptitude",
+    "question": "A QC chemist determines the density of a heavy fuel oil sample using a pycnometer. The mass of the empty pycnometer is m0 = 25.000 ± 0.002 g, filled with water is m1 = 50.000 ± 0.002 g, and filled with oil is m2 = 47.500 ± 0.003 g (all uncertainties represent 1-sigma standard deviations). What is the relative standard uncertainty in the calculated specific gravity (SG = (m2 - m0)/(m1 - m0)) of the fuel oil?",
+    "options": {
+      "A": "0.012%",
+      "B": "0.018%",
+      "C": "0.024%",
+      "D": "0.041%"
+    },
+    "correct": "D",
+    "explanation": "SG = Num / Denom = (m2 - m0) / (m1 - m0) = (47.500 - 25.000) / (50.000 - 25.000) = 22.500 / 25.000 = 0.9000."
+  },
+  {
+    "id": 29,
+    "section": "Analytical Chemistry & Instruments",
+    "question": "A chemist uses Energy Dispersive X-Ray Fluorescence (EDXRF) to analyze Sulfur in heavy vacuum gas oil (VGO). The calibration curve was prepared using light mineral oil standards (C10-C14 paraffins). The measured sulfur content in VGO is systematically lower than the certified value obtained by combustion microcoulometry. What matrix absorption effect causes this systematic error in EDXRF?",
+    "options": {
+      "A": "VGO has a higher carbon-to-hydrogen (C:H) ratio than light mineral oil, leading to higher mass attenuation coefficients that absorb the low-energy Sulfur K-alpha fluorescent X-rays.",
+      "B": "Heavy VGO causes secondary fluorescence of paraffinic carbon atoms, which blinds the silicon drift detector.",
+      "C": "VGO exhibits lower density, causing the incident X-ray beam to penetrate past the infinite thickness limit.",
+      "D": "High viscosity of VGO prevents sulfur atoms from migrating to the sample cup film surface during irradiation."
+    },
+    "correct": "A",
+    "explanation": "Sulfur K-alpha radiation is relatively soft (~2.31 keV) and easily attenuated by the sample matrix. Carbon has a much higher X-ray mass attenuation coefficient than Hydrogen. Heavy VGO contains high concentrations of polycyclic aromatics and heavy naphthenes (high C:H ratio ~0.7-0.8), whereas light mineral oil is paraffinic (C:H ratio ~0.5). The higher carbon matrix in VGO absorbs a greater fraction of emitted sulfur X-rays before they reach the detector, leading to a false low sulfur reading."
+  },
+  {
+    "id": 30,
+    "section": "Petroleum & Applied Chemistry",
+    "question": "A paving grade Bitumen sample is tested on a Dynamic Shear Rheometer (DSR, ASTM D7175) to determine its rutting resistance parameter (G*/sin δ) at 64°C. The original unaged binder passes the spec limit (>1.00 kPa). However, after aging in the Rolling Thin Film Oven (RTFO, ASTM D2872) to simulate plant mixing, the parameter G*/sin δ increases from 1.5 kPa to 4.2 kPa (spec limit >2.20 kPa). What structural change occurred in the bitumen during RTFO aging?",
+    "options": {
+      "A": "Volatilization of light oils and oxidative conversion of resins into asphaltenes, increasing complex shear modulus (G*) and elasticity (decreasing phase angle δ).",
+      "B": "Thermal cracking of heavy asphaltenes into volatile maltenes, reducing viscosity and increasing viscous dissipation.",
+      "C": "Absorption of oxygen creating free aliphatic paraffin chains that melt at high temperature.",
+      "D": "Polymer degradation of additive cross-links, reducing the elastic recovery phase angle δ toward zero."
+    },
+    "correct": "A",
+    "explanation": "RTFO simulates short-term oxidative aging during hot-mix asphalt production at 163°C. Oxidation converts volatile maltenes/resins into polar, high-molecular-weight asphaltenes and introduces polar functional groups (carbonyls, sulfoxides). This structural shift increases the stiff stiffness (complex modulus G*) and makes the binder more elastic (smaller phase angle δ, hence smaller sin δ). Both factors increase G*/sin δ, enhancing resistance to permanent deformation (rutting)."
+  }
+
+    
+]
+
+}

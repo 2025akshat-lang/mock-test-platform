@@ -1,0 +1,33 @@
+{
+  "subject_id": "static-gk",
+  "subject_title": "Static General Knowledge Central Repository",
+  "search_sub_menus": [
+    { "label": "All Items", "tag": "all" },
+    { "label": "💃 Fairs & Dances", "tag": "culture" },
+    { "label": "🎵 Gharanas", "tag": "music" }
+  ],
+  "hierarchy": [
+    {
+      "chapter_id": "art-and-culture",
+      "chapter_title": "Indian Art, Culture & Heritage",
+      "topics": [
+        {
+          "topic_id": "indian-dance-forms",
+          "topic_title": "Classical & Folk Dance Systems",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_001",
+              "title": "Kathak & Major Gharanas",
+              "tags": ["culture", "music"],
+              "basic_overview": "• <b>Kathak:</b> Primary classical dance form of Northern India.\n• <b>Core Gharanas:</b> Lucknow Gharana (Bhava/Expression), Jaipur Gharana (Speed/Footwork), Banaras Gharana.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#8b5cf6",
+              "extra_info_content": "👑 Revision Extra Info:\n- Lucknow Gharana was patronized by Nawab Wajid Ali Shah.\n- Prominent Exponents: Birju Maharaj, Lacchu Maharaj.\n- Raigarh Gharana is also associated with Kathak, established by Raja Chakradhar Singh."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

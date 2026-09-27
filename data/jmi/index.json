@@ -1,0 +1,32 @@
+[
+  {
+    "id": "jmi-1",
+    "file": "jmi-1.json",
+    "title": "JMI Entrance B23 Test 1",
+    "timeMins": 60,
+    "badgeText": "FREE",
+    "badgeClass": "badge-free",
+    "questionCount": 85,
+    "maxMarks": 85
+  },
+  {
+    "id": "jmi-2",
+    "file": "jmi-2.json",
+    "title": "JMI Entrance B22 Mock Test",
+    "timeMins": 60,
+    "badgeText": "FREE",
+    "badgeClass": "badge-free",
+    "questionCount": 67,
+    "maxMarks": 67
+  },
+  {
+    "id": "jmi-3",
+    "file": "jmi-3.json",
+    "title": "JMI Entrance B99 Mock Test",
+    "timeMins": 60,
+    "badgeText": "FREE",
+    "badgeClass": "badge-free",
+    "questionCount": 199,
+    "maxMarks": 199
+  }
+]

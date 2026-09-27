@@ -1,0 +1,86 @@
+{
+  "id": "school-6-1",
+  "subCatId": "class-6",
+  "title": "Class 6th Science - Ch 1 Components of Food",
+  "timeMins": 20,
+  "badgeText": "CLASS 6th",
+  "badgeClass": "badge-new",
+  "questions": [
+    {
+      "id": 1,
+      "section": "Science",
+      "question": "Which nutrient gives maximum energy per gram?",
+      "options": {
+        "A": "Carbohydrates",
+        "B": "Proteins",
+        "C": "Fats",
+        "D": "Vitamins"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0
+      },
+      "timeAvg": "00:12",
+      "rightPct": "90%",
+      "explanation": "Fats provide more than double the energy per gram compared to carbohydrates."
+    },
+    {
+      "id": 2,
+      "section": "Science",
+      "question": "Scurvy is caused due to deficiency of:",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin B1",
+        "C": "Vitamin C",
+        "D": "Vitamin D"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0
+      },
+      "timeAvg": "00:15",
+      "rightPct": "94%",
+      "explanation": "Deficiency of Vitamin C leads to bleeding gums and Scurvy."
+    },
+    {
+      "id": 3,
+      "section": "Science",
+      "question": "Iodine test is used to detect the presence of:",
+      "options": {
+        "A": "Starch",
+        "B": "Protein",
+        "C": "Fat",
+        "D": "Sugar"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0
+      },
+      "timeAvg": "00:18",
+      "rightPct": "88%",
+      "explanation": "Blue-black color with iodine solution confirms Starch."
+    },
+    {
+      "id": 4,
+      "section": "Science",
+      "question": "Which mineral is required for strong bones?",
+      "options": {
+        "A": "Iron",
+        "B": "Calcium",
+        "C": "Sodium",
+        "D": "Iodine"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0
+      },
+      "timeAvg": "00:10",
+      "rightPct": "99%",
+      "explanation": "Calcium is essential for healthy bones and teeth."
+    }
+  ]
+}

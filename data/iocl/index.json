@@ -1,0 +1,49 @@
+[
+  {
+    "id": "iocl-qc-1",
+    "file": "iocl-qc-1.json",
+    "title": "IOCL Quality Control Chemist - Mock Test 1",
+    "timeMins": 60,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 30,
+    "maxMarks": 30.0
+  },{
+    "id": "iocl-qc-2",
+    "file": "iocl-qc-2.json",
+    "title": "Instrumentation QA QC- Mock Test",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 6,
+    "maxMarks": 6.0
+  },{
+    "id": "iocl-qc-3",
+    "file": "iocl-qc-3.json",
+    "title": "HPLC Mock Test ",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 15,
+    "maxMarks": 15.0
+  },{
+    "id": "iocl-qc-4",
+    "file": "iocl-qc-4.json",
+    "title": "UV-Visible ",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 30,
+    "maxMarks": 30.0
+  },
+  {
+    "id": "iocl-qc-5",
+    "file": "iocl-qc-5.json",
+    "title": "UV-Vis 2.0 ",
+    "timeMins": 30,
+    "badgeText": "NEW",
+    "badgeClass": "badge-new",
+    "questionCount": 30,
+    "maxMarks": 30.0
+  }
+]
