@@ -12,27 +12,34 @@
   <!-- 1. MathJax कॉन्फ़िगरेशन (ऑटो-रेंडर चालू करने के लिए) -->
   <script>
     window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        processEscapes: true
-      },
-      options: {
-        enableMenu: false
-      },
-      startup: {
-        ready: () => {
-          MathJax.startup.defaultReady();
-          // स्क्रीन पर हो रहे हर बदलाव को ट्रैक करने के लिए ऑब्जर्वर
-          const observer = new MutationObserver((mutations) => {
-            MathJax.typesetPromise();
-          });
-          observer.observe(document.body, {
-            childList: true,
-            subtree: true
-          });
-        }
-      }
-    };
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    processEscapes: true
+  },
+  options: {
+    enableMenu: false
+  },
+  startup: {
+    ready: () => {
+      MathJax.startup.defaultReady();
+      window._mathJaxReady = true;
+      (window._mathJaxPending || []).forEach(el => {
+        MathJax.typesetPromise([el]).catch(err => console.error('MathJax typeset error:', err));
+      });
+      window._mathJaxPending = [];
+      // ❌ MutationObserver poori tarah HATA diya — yehi loop ka source tha
+    }
+  }
+};
+
+window.typesetMath = function (el) {
+  if (window._mathJaxReady && window.MathJax && typeof MathJax.typesetPromise === 'function') {
+    MathJax.typesetPromise([el]).catch(err => console.error('MathJax typeset error:', err));
+  } else {
+    window._mathJaxPending = window._mathJaxPending || [];
+    window._mathJaxPending.push(el);
+  }
+};
   </script>
 
   <!-- MathJax Script (Corrected CDN) -->

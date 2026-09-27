@@ -483,9 +483,9 @@ const NotesEngine = {
       this._restoreOpenTopics();
     }
 
-    if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
-      MathJax.typesetPromise([body]).catch(err => console.error('MathJax typeset error:', err));
-    }
+   if (window.typesetMath) {
+  window.typesetMath(body);
+}
 
     return chapterHasMatch;
   },
@@ -902,8 +902,7 @@ const NotesEngine = {
     });
     topicSelect.disabled = false;
   },
-
-  _onQuickJumpTopicChange: async function () {
+_onQuickJumpTopicChange: async function () {
     const chapterSelect = document.getElementById('qj-chapter');
     const sectionSelect = document.getElementById('qj-section');
     const topicSelect = document.getElementById('qj-topic');
@@ -915,12 +914,16 @@ const NotesEngine = {
 
     const file = chapterSelect.options[chapterSelect.selectedIndex].dataset.file;
 
-    // Clear any active search so this result isn't hidden by search-mode filtering
     const searchInput = document.getElementById('note-search');
-    if (searchInput && searchInput.value) searchInput.value = '';
+    const wasSearching = !!(searchInput && searchInput.value);
+    if (wasSearching) searchInput.value = '';
 
     if (this.activeChapterId !== chapterId) {
       await this.toggleChapter(chapterId, file);
+    } else if (wasSearching) {
+      this.renderChapterBody(chapterId);
+      const body = document.getElementById(`chbody-${chapterId}`);
+      if (body) body.dataset.rendered = 'true';
     }
 
     let topicKey;
@@ -942,3 +945,4 @@ const NotesEngine = {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 };
+  

@@ -286,30 +286,21 @@ const MockPanel = (() => {
     return out.join('');
   }
 
-      function renderMath(container) {
+ function renderMath(container) {
     if (!container) return;
-    
-    // Check if MathJax is available on the window object
-    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
-      try {
-        // Clear any old tracking for this container if typesetClear exists
-        if (typeof window.MathJax.typesetClear === 'function') {
-          window.MathJax.typesetClear([container]);
-        }
-        // Force sync typesetting on the specific element container
-        window.MathJax.typeset([container]);
-      } catch (e) {
-        console.error('MathJax render failed:', e);
-      }
-    } else {
-      // Fallback: If MathJax script is still loading asynchronously, retry after a short delay
-      setTimeout(() => {
-        if (window.MathJax && typeof window.MathJax.typeset === 'function') {
-          window.MathJax.typeset([container]);
-        }
-      }, 300);
+    if (window.typesetMath) {
+      // Shared safe helper: async, queues if MathJax isn't ready yet,
+      // and only touches this one container — never the whole document.
+      requestAnimationFrame(() => window.typesetMath(container));
+      return;
     }
-  }
+    // Fallback only if index.html hasn't been patched yet
+    if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
+      requestAnimationFrame(() => {
+        MathJax.typesetPromise([container]).catch(err => console.error('MathJax render failed:', err));
+      });
+    }
+  }   
 
 
   async function startMock(testId) {
@@ -383,14 +374,22 @@ const MockPanel = (() => {
     startTimers();
   }
 
- 
+ // Escapes a string so it's safe to drop inside a single-quoted JS
+  // string literal within an inline onclick="..." attribute. Without
+  // this, any section/title containing an apostrophe (e.g. "Beer-
+  // Lambert's Law") breaks the onclick's JS syntax and the button
+  // silently does nothing when tapped.
+  function escJS(str) {
+    return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  }
+
   function renderSections() {
     const secs = [...new Set(rawQuizData.map(q => q.section))];
     const currentSec = rawQuizData[currentQIdx].section;
     const tabsContainer = document.getElementById('section-tabs');
     if(tabsContainer) {
       tabsContainer.innerHTML = secs.map(sec => `
-        <button class="tab-btn ${sec === currentSec ? 'active' : ''}" onclick="MockPanel.switchSection('${sec}')">${sec}</button>
+        <button class="tab-btn ${sec === currentSec ? 'active' : ''}" onclick="MockPanel.switchSection('${escJS(sec)}')">${sec}</button>
       `).join('');
     }
   }
