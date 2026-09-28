@@ -1,0 +1,8 @@
+{
+  "id": "good-governance-day",
+  "title": "Good Governance Day",
+  "subtitle": "25 December",
+  "blurb": "Accountability, Transparency & Citizen-Centric Governance",
+  "type": "National Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='govBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#1e3a8a'/></linearGradient><linearGradient id='govGlow' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#38bdf8'/><stop offset='100%' stop-color='#818cf8'/></linearGradient><style>@keyframes pulseGov { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-gov { animation: pulseGov 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#govBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#govGlow)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-gov'/><path d='M135 72 L165 72 L168 82 L132 82 Z' fill='#3b82f6'/><path d='M150 36 L168 50 L132 50 Z' fill='#60a5fa'/><rect x='142' y='50' width='16' height='22' fill='#93c5fd'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>GOOD GOVERNANCE DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Accountability, Transparency &amp; Citizen-Centric</text></svg>"
+}

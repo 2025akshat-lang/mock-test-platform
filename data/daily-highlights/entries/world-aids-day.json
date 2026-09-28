@@ -1,0 +1,8 @@
+{
+  "id": "world-aids-day",
+  "title": "World AIDS Day",
+  "subtitle": "1 December",
+  "blurb": "Global Solidarity & Awareness",
+  "type": "Global Health Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='aidsBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#450a0a'/></linearGradient><linearGradient id='redRibbon' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#ef4444'/><stop offset='100%' stop-color='#991b1b'/></linearGradient><style>@keyframes pulseRibbon { 0% { transform: scale(0.96); opacity: 0.8; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.8; } } .animated-ribbon { animation: pulseRibbon 2.5s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#aidsBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='#f87171' stroke-width='1.5' stroke-dasharray='5 3' opacity='0.6'/><g class='animated-ribbon'><path d='M150 30 C140 30 135 45 145 60 C150 67 150 75 147 85 L153 85 C150 75 150 67 155 60 C165 45 160 30 150 30 Z' fill='url(#redRibbon)'/><circle cx='150' cy='33' r='5' fill='#fca5a5'/></g><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>WORLD AIDS DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Global Solidarity &amp; Awareness</text></svg>"
+}

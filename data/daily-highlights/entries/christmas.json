@@ -1,0 +1,8 @@
+{
+  "id": "christmas",
+  "title": "Christmas",
+  "subtitle": "25 December",
+  "blurb": "Joy, Peace & Goodwill to All",
+  "type": "Global Festival",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='xmasBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#7f1d1d'/></linearGradient><linearGradient id='goldStar' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#f59e0b'/><stop offset='100%' stop-color='#fbbf24'/></linearGradient><style>@keyframes pulseXmas { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-xmas { animation: pulseXmas 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#xmasBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldStar)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-xmas'/><path d='M150 35 L156 50 L172 52 L160 63 L164 78 L150 70 L136 78 L140 63 L128 52 L144 50 Z' fill='#fbbf24' opacity='0.9'/><path d='M130 82 L170 82 L174 89 L126 89 Z' fill='#b91c1c'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>CHRISTMAS</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Joy, Peace &amp; Goodwill to All</text></svg>"
+}

@@ -4,7 +4,7 @@
       "name": "Govt Exams (SSC / RRB / UPSC / TGT)",
       "subjects": [
         { "name": "GK ", "index": "data/notes/govt-exam/gs/index.json" },
-        { "name": "Maths ", "index": "data/notes/govt-exam/maths/mindex.json" },
+        { "name": "Quantitative aptitude  ", "index": "data/notes/govt-exam/maths/mindex.json" },
         { "name": "English ", "index": "data/notes/govt-exam/english/eindex.json" },
         { "name": "Hindi ", "index": "data/notes/govt-exam/hindi/hindex.json" },
         { "name": "Reasoning", "index": "data/notes/govt-exam/reasoning/rindex.json" }

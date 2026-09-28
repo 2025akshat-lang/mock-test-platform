@@ -33,7 +33,7 @@
 
   const STYLE_ID = "icl-bg-style";
   const WRAP_ID = "icl-bg-wrap";
-  const VISIBLE_OPACITY = 0.42; // 👈 halka fade — badhana/ghatana ho to sirf yeh number change karo
+  const VISIBLE_OPACITY = 0.38; // 👈 halka fade — badhana/ghatana ho to sirf yeh number change karo
 
   function injectStyles() {
     if (document.getElementById(STYLE_ID)) return;
@@ -330,15 +330,16 @@
      #home-dashboard hidden na ho. Yeh exam/analysis/notes/
      future panel — sab jagah automatically FALSE ho jaata
      hai bina kisi extra hook ke. */
-  function isHomeVisible() {
-    const home = document.getElementById("home-dashboard");
-    const mockPanel = document.getElementById("mock-panel");
-    if (!home || !mockPanel) return true; // safe fallback agar structure na mile
-    const mockActive = mockPanel.classList.contains("active");
-    const homeShown = window.getComputedStyle(home).display !== "none";
-    return mockActive && homeShown;
-  }
-
+function isHomeVisible() {
+  const home = document.getElementById("home-dashboard");
+  const mockPanel = document.getElementById("mock-panel");
+  const level1 = document.getElementById("view-level-1");
+  if (!home || !mockPanel || !level1) return true;
+  const mockActive = mockPanel.classList.contains("active");
+  const homeShown = window.getComputedStyle(home).display !== "none";
+  const onLevel1 = window.getComputedStyle(level1).display !== "none";
+  return mockActive && homeShown && onLevel1;
+}
   function watchVisibility(wrap) {
     const sync = () => {
       wrap.classList.toggle("icl-bg-visible", isHomeVisible());
@@ -351,6 +352,10 @@
     if (home) {
       new MutationObserver(sync).observe(home, { attributes: true, attributeFilter: ["style"] });
     }
+    ["view-level-1", "view-level-2", "view-level-3"].forEach((id) => {
+  const el = document.getElementById(id);
+  if (el) new MutationObserver(sync).observe(el, { attributes: true, attributeFilter: ["style"] });
+});
     if (mockPanel) {
       new MutationObserver(sync).observe(mockPanel, { attributes: true, attributeFilter: ["class"] });
     }

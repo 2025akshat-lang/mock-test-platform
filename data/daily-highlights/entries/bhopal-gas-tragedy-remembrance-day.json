@@ -1,0 +1,8 @@
+{
+  "id": "bhopal-gas-tragedy-remembrance-day",
+  "title": "Bhopal Gas Tragedy Remembrance Day",
+  "subtitle": "3 December",
+  "blurb": "Never Forget",
+  "type": "Memorial Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='bhopalBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#334155'/></linearGradient><linearGradient id='candleGlow' x1='0%' y1='100%' x2='0%' y2='0%'><stop offset='0%' stop-color='#f97316'/><stop offset='100%' stop-color='#fde047'/></linearGradient><style>@keyframes flickerCandle { 0% { opacity: 0.8; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } 100% { opacity: 0.8; transform: scale(1); } } .animated-candle { animation: flickerCandle 1.5s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#bhopalBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='5 3' opacity='0.6'/><g class='animated-candle'><path d='M150 32 Q156 45 150 58 Q144 45 150 32 Z' fill='url(#candleGlow)'/></g><path d='M146 58 L154 58 L156 82 L144 82 Z' fill='#cbd5e1'/><path d='M132 82 L168 82 L172 90 L128 90 Z' fill='#64748b'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>BHOPAL GAS TRAGEDY REMEMBRANCE</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Never Forget</text></svg>"
+}

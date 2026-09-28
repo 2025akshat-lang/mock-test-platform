@@ -1,0 +1,8 @@
+{
+  "id": "janajatiya-gaurav-diwas",
+  "title": "Janajatiya Gaurav Diwas",
+  "subtitle": "15 November",
+  "blurb": "Celebrating Tribal Pride & Heritage",
+  "type": "National Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='jgBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#7c2d12'/></linearGradient><linearGradient id='goldFeather' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#f59e0b'/><stop offset='100%' stop-color='#fbbf24'/></linearGradient><style>@keyframes pulseJg { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-jg { animation: pulseJg 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#jgBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldFeather)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-jg'/><path d='M150 35 Q162 55 150 80 Q138 55 150 35 Z' fill='#fbbf24'/><path d='M132 80 L168 80 L172 87 L128 87 Z' fill='#b45309'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>JANAJATIYA GAURAV DIWAS</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Celebrating Tribal Pride &amp; Heritage</text></svg>"
+}

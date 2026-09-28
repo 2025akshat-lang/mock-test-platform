@@ -1,12 +1,48 @@
 // ============================================================
-// 🎮 1. CENTRAL CONTROL PANEL (App Orchestrator)
+// 🔒 0. SAFE STORAGE (Fix #6, #2) - localStorage blocked ho to crash nahi
+// ============================================================
+const Store = {
+  get(key, fallback = '') {
+    try {
+      const v = localStorage.getItem(key);
+      return v === null ? fallback : v;
+    } catch (e) {
+      console.warn('Storage blocked:', e);
+      return fallback;
+    }
+  },
+  set(key, value) {
+    try {
+      localStorage.setItem(key, value);
+      return true;
+    } catch (e) {
+      console.warn('Storage blocked:', e);
+      return false;
+    }
+  }
+};
+
+// ============================================================
+// 🎮 1. CENTRAL CONTROL PANEL (Switch Board only)
 // ============================================================
 const ControlPanel = (() => {
   let activePanelId = 'mock-panel';
+  const panelHooks = {}; // { panelId: { onShow, onHide } }
+
+  // Har panel apne hooks yahan register karta hai (Fix #9, #13)
+  function registerPanel(panelId, hooks) {
+    panelHooks[panelId] = hooks || {};
+  }
+
+  function safeCall(fn, label) {
+    if (typeof fn !== 'function') return;
+    try { fn(); } catch (e) { console.error(`[${label}] failed:`, e); }
+  }
 
   function init() {
-    MockPanel.init();
-    console.log("Central Control Panel: All Modules Hooked Up Securely.");
+    // Har module alag try/catch me: ek fail ho to baaki chalein (Fix #13)
+    safeCall(() => MockPanel.init(), 'MockPanel.init');
+    console.log("Central Control Panel: Modules hooked.");
   }
 
   function toggleSidebar() {
@@ -19,27 +55,31 @@ const ControlPanel = (() => {
   }
 
   function switchPanel(panelId) {
-    activePanelId = panelId;
-    
-    document.querySelectorAll('.app-panel-wrapper').forEach(el => {
-      el.classList.remove('active');
-    });
-    
-    const targetPanel = document.getElementById(panelId);
-    if (targetPanel) {
-      targetPanel.classList.add('active');
+    const prevId = activePanelId;
+
+    if (prevId !== panelId) {
+      const prev = panelHooks[prevId];
+      if (prev) safeCall(prev.onHide, `${prevId}.onHide`);
     }
 
-    document.querySelectorAll('.sidebar-menu .menu-item').forEach(btn => {
-      btn.classList.remove('active');
-    });
+    activePanelId = panelId;
+    
+
+    document.querySelectorAll('.app-panel-wrapper').forEach(el => el.classList.remove('active'));
+    const targetPanel = document.getElementById(panelId);
+    if (targetPanel) targetPanel.classList.add('active');
+
+    document.querySelectorAll('.sidebar-menu .menu-item').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.getElementById(`menu-btn-${panelId}`);
     if (activeBtn) activeBtn.classList.add('active');
 
     toggleSidebar();
+
+    const next = panelHooks[panelId];
+    if (next) safeCall(next.onShow, `${panelId}.onShow`);
   }
 
-  return { init, toggleSidebar, switchPanel };
+  return { init, toggleSidebar, switchPanel, registerPanel };
 })();
 
 // ============================================================
@@ -55,13 +95,17 @@ const MockPanel = (() => {
   let currentActiveTest = null;
   let rawQuizData = [];
   let currentQIdx = 0, overallTime = 1800, timerInterval = null;
+  let examActive = false; // Fix #9: exam chal raha hai ya nahi
   let userState = [];
   let attemptHistory = {};
   let revealedSolutions = new Set();
-  let registeredEmail = localStorage.getItem('user_email') || '';
+  // Fix #2: namespaced key (purani key se fallback)
+  let registeredEmail = Store.get('mock:user_email', Store.get('user_email', ''));
+  let currentSolutionIndex = 0;
 
+  // Fix #14: sirf mock panel ke andar ke screens chhupao
   function showFailSafe(message) {
-    document.querySelectorAll('.app-screen').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('#mock-panel .app-screen').forEach(el => el.style.display = 'none');
     const examHeader = document.getElementById('exam-header');
     if(examHeader) examHeader.style.display = 'none';
     const sectionTabs = document.getElementById('section-tabs');
@@ -76,11 +120,14 @@ const MockPanel = (() => {
     const errScreen = document.getElementById('error-screen');
     if(errScreen) errScreen.style.display = 'flex';
   }
+
   function goToHome() {
+    examActive = false;
+    clearInterval(timerInterval);
+
     const errScreen = document.getElementById('error-screen');
     if(errScreen) errScreen.style.display = 'none';
-    
-    // 👇 Yeh add karna zaroori hai taaki exam/analysis screen agar khuli ho toh band ho jaye
+
     const examHeader = document.getElementById('exam-header');
     if(examHeader) examHeader.style.display = 'none';
     const sectionTabs = document.getElementById('section-tabs');
@@ -104,7 +151,7 @@ const MockPanel = (() => {
     const navHeader = document.getElementById('nav-header-bar');
     if(navHeader) navHeader.style.display = 'none';
     renderLevel1();
-    
+
     const v1 = document.getElementById('view-level-1');
     const v2 = document.getElementById('view-level-2');
     const v3 = document.getElementById('view-level-3');
@@ -128,7 +175,16 @@ const MockPanel = (() => {
     goToHome();
   }
 
-  
+  // Fix #9: Notes par switch karte hi timer pause, wapas aane par resume
+  function pauseTimer() {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+
+  function resumeTimer() {
+    if (examActive && !timerInterval) startTimers();
+  }
+
   function renderLevel1() {
     const container = document.getElementById('view-level-1');
     if (!container) return;
@@ -249,7 +305,7 @@ const MockPanel = (() => {
     const email = prompt("Enter account email to sync score & dispatch reports:", registeredEmail || "axat@prepzone.com");
     if (email) {
       registeredEmail = email;
-      localStorage.setItem('user_email', email);
+      Store.set('mock:user_email', email);
       alert(`Account synced with: ${email}`);
     }
   }
@@ -286,22 +342,18 @@ const MockPanel = (() => {
     return out.join('');
   }
 
- function renderMath(container) {
+  function renderMath(container) {
     if (!container) return;
     if (window.typesetMath) {
-      // Shared safe helper: async, queues if MathJax isn't ready yet,
-      // and only touches this one container — never the whole document.
       requestAnimationFrame(() => window.typesetMath(container));
       return;
     }
-    // Fallback only if index.html hasn't been patched yet
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
       requestAnimationFrame(() => {
         MathJax.typesetPromise([container]).catch(err => console.error('MathJax render failed:', err));
       });
     }
-  }   
-
+  }
 
   async function startMock(testId) {
     const meta = currentSubCatTests.find(m => m.id === testId);
@@ -327,7 +379,7 @@ const MockPanel = (() => {
     rawQuizData = normalized.sort((a, b) => {
       return sectionOrderMap.get(a.section) - sectionOrderMap.get(b.section);
     });
-    
+
     document.getElementById('home-dashboard').style.display = 'none';
     document.getElementById('exam-header').style.display = 'flex';
     document.getElementById('section-tabs').style.display = 'flex';
@@ -338,7 +390,9 @@ const MockPanel = (() => {
   }
 
   function exitToHome() {
+    examActive = false;
     clearInterval(timerInterval);
+    timerInterval = null;
     const overlay = document.getElementById('test-analysis-screen');
     if(overlay) overlay.style.display = 'none';
     document.getElementById('exam-header').style.display = 'none';
@@ -348,13 +402,14 @@ const MockPanel = (() => {
     if(footer) footer.style.display = 'none';
     document.getElementById('home-dashboard').style.display = 'flex';
   }
+
   function reattemptTest() {
     clearInterval(timerInterval);
-    overallTime = currentActiveTest.timeMins * 60; 
+    timerInterval = null;
+    overallTime = currentActiveTest.timeMins * 60;
     currentQIdx = 0;
     userState = rawQuizData.map(() => ({ selectedOption: null, status: 'not-visited' }));
-    
-    // 👇 Analysis screen aur home dashboard ko band karke exam elements ko wapas visible karo
+
     const analysisScreen = document.getElementById('test-analysis-screen');
     if(analysisScreen) analysisScreen.style.display = 'none';
     const homeDash = document.getElementById('home-dashboard');
@@ -369,16 +424,13 @@ const MockPanel = (() => {
     const examFooter = document.getElementById('exam-footer');
     if(examFooter) examFooter.style.display = 'flex';
 
-    renderSections(); 
-    loadQuestion(0); 
+    examActive = true;
+    renderSections();
+    loadQuestion(0);
     startTimers();
   }
 
- // Escapes a string so it's safe to drop inside a single-quoted JS
-  // string literal within an inline onclick="..." attribute. Without
-  // this, any section/title containing an apostrophe (e.g. "Beer-
-  // Lambert's Law") breaks the onclick's JS syntax and the button
-  // silently does nothing when tapped.
+  // Inline onclick ke single-quote string me apostrophe safe karne ke liye
   function escJS(str) {
     return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
   }
@@ -400,14 +452,14 @@ const MockPanel = (() => {
   }
 
   function loadQuestion(idx) {
-    currentQIdx = idx; 
-    const q = rawQuizData[idx]; 
+    currentQIdx = idx;
+    const q = rawQuizData[idx];
     const state = userState[idx];
     if (state.status === 'not-visited') state.status = 'not-answered';
-    
+
     const qNumEl = document.getElementById('display-q-num');
     if(qNumEl) qNumEl.innerText = idx + 1;
-    
+
     const qContainer = document.getElementById('question-container');
     if(qContainer) {
       qContainer.innerHTML = `
@@ -432,14 +484,14 @@ const MockPanel = (() => {
     renderPalette();
   }
 
-  function selectOption(k) { 
-    userState[currentQIdx].selectedOption = k; 
-    loadQuestion(currentQIdx); 
+  function selectOption(k) {
+    userState[currentQIdx].selectedOption = k;
+    loadQuestion(currentQIdx);
   }
 
-  function clearResponse() { 
-    userState[currentQIdx].selectedOption = null; 
-    loadQuestion(currentQIdx); 
+  function clearResponse() {
+    userState[currentQIdx].selectedOption = null;
+    loadQuestion(currentQIdx);
   }
 
   function saveAndNext() {
@@ -459,10 +511,9 @@ const MockPanel = (() => {
     if (currentQIdx > 0) loadQuestion(currentQIdx - 1);
   }
 
-    function toggleDrawer() { 
+  function toggleDrawer() {
     const drawer = document.getElementById('question-palette-drawer');
     if(drawer) {
-      // Yahan check karke isko 'flex' karenge taaki scrollable grid theek se kaam kare
       const currentDisp = window.getComputedStyle(drawer).display;
       drawer.style.display = (currentDisp === 'none' || drawer.style.display === 'none') ? 'flex' : 'none';
     }
@@ -478,6 +529,7 @@ const MockPanel = (() => {
   }
 
   function startTimers() {
+    clearInterval(timerInterval); // double interval na bane
     timerInterval = setInterval(() => {
       if (overallTime > 0) {
         overallTime--;
@@ -491,21 +543,19 @@ const MockPanel = (() => {
     }, 1000);
   }
 
-    function submitTestModal() {
-    // 👇 Submit dabate hi sabse pehle palette drawer ko band kar do taaki click block na ho
+  function submitTestModal() {
     const drawer = document.getElementById('question-palette-drawer');
     if(drawer) {
       drawer.style.display = 'none';
       drawer.classList.remove('open');
     }
-
-    // Google Sites ke iframe ke liye direct submitExam chala do
     submitExam();
   }
 
-
   function submitExam() {
+    examActive = false;
     clearInterval(timerInterval);
+    timerInterval = null;
     let score = 0, attempted = 0, correct = 0, incorrect = 0, unattempted = 0;
     rawQuizData.forEach((q, i) => {
       const sel = userState[i].selectedOption;
@@ -522,7 +572,7 @@ const MockPanel = (() => {
     const rank = Math.max(1, Math.floor((1 - (score / maxMarks)) * 100) + 12);
     const percentile = (((totalStudents - rank) / totalStudents) * 100).toFixed(1);
     const accuracy = attempted ? Math.round((correct / attempted) * 100) : 0;
-    
+
     if (currentActiveTest) {
       attemptHistory[currentActiveTest.id] = {
         testTitle: currentActiveTest.title,
@@ -535,9 +585,6 @@ const MockPanel = (() => {
         userState: JSON.parse(JSON.stringify(userState)),
         questionsData: rawQuizData
       };
-       
-
-    
       renderAnalyticsView(currentActiveTest.id);
     }
   }
@@ -605,6 +652,7 @@ const MockPanel = (() => {
     }
   }
 
+  // Fix #7: .notes-card (Notes ki class) hata di, mock ki apni class + inline style
   function renderSolutionsList() {
     const container = document.getElementById('solutions-list-container');
     if(!container) return;
@@ -613,7 +661,7 @@ const MockPanel = (() => {
       const isCorrect = state.selectedOption === q.correct;
       const isUnattempted = !state.selectedOption;
       return `
-        <div class="notes-card" onclick="MockPanel.openSolutionDetail(${i})" style="cursor:pointer; margin-bottom:10px;">
+        <div class="mock-sol-card" onclick="MockPanel.openSolutionDetail(${i})" style="cursor:pointer; margin-bottom:10px; background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:12px;">
           <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:#64748b; margin-bottom:5px;">
             <span>⏱️ Time: ${q.timeAvg}</span>
             <span style="font-weight:bold; color:${isCorrect ? '#22c55e' : isUnattempted ? '#64748b' : '#ef4444'}">
@@ -627,91 +675,25 @@ const MockPanel = (() => {
     renderMath(container);
   }
 
-    function openSolutionDetail(i) {
-    const q = rawQuizData[i];
-    const state = userState[i];
-    const overlay = document.getElementById('solution-detail-overlay');
-    if(overlay) overlay.classList.add('active');
-
-    document.getElementById('sol-meta').innerText = `Question ${i + 1} (${q.section || ''})`;
-    document.getElementById('sol-question-text').innerHTML = q.question;
-    
-    // 👇 Options ko generate karne ka code jo pehle missing tha
-    const optionsContainerId = document.getElementById('sol-options-container');
-    if (optionsContainerId && q.options) {
-      optionsContainerId.innerHTML = Object.keys(q.options).map(key => {
-        const isCorrectOpt = (key === q.correct);
-        const isUserSelected = (key === state.selectedOption);
-        
-        let optStyle = "display:flex; gap:10px; padding:10px; margin-bottom:8px; border:1px solid #cbd5e1; border-radius:6px;";
-        
-        // Agar option sahi hai toh green background/border
-        if (isCorrectOpt) {
-          optStyle += " background-color: #dcfce7; border-color: #22c55e; color: #166534;";
-        } 
-        // Agar user ne galat select kiya tha toh red background
-        else if (isUserSelected && !isCorrectOpt) {
-          optStyle += " background-color: #fee2e2; border-color: #ef4444; color: #991b1b;";
-        }
-
-        return `
-          <div style="${optStyle}">
-            <div style="font-weight:bold;">${key}.</div>
-            <div>${q.options[key]} ${isUserSelected ? '<strong>(Your Answer)</strong>' : ''} ${isCorrectOpt ? '<strong>(Correct Answer)</strong>' : ''}</div>
-          </div>
-        `;
-      }).join('');
-    } else if (document.getElementById('sol-correct-answer')) {
-      // Fallback agar options container na ho HTML mein
-      document.getElementById('sol-correct-answer').innerHTML = `Correct Answer: <u>${q.correct}</u> (Your Answer: ${state.selectedOption || 'None'})`;
-    }
-
-    document.getElementById('sol-explanation-text').innerHTML = renderMarkdownLite(q.explanation);
-
-    renderSolutionDetailNav(i);
-    renderMath(overlay);
-  }
-
-  function closeSolutionDetail() {
-    const overlay = document.getElementById('solution-detail-overlay');
-    if(overlay) overlay.classList.remove('active');
-  }
-
-  function renderSolutionDetailNav(activeIdx) {
-    const nav = document.getElementById('sol-detail-nav');
-    if(!nav) return;
-    nav.innerHTML = rawQuizData.map((q, i) => {
-      const st = userState[i];
-      const unattempted = !st.selectedOption;
-      const correct = st.selectedOption === q.correct;
-      const cls = unattempted ? 'nav-unattempted' : (correct ? 'nav-correct' : 'nav-incorrect');
-      return `<div class="sol-nav-node ${cls} ${i === activeIdx ? 'active' : ''}" onclick="MockPanel.openSolutionDetail(${i})">${i + 1}</div>`;
-    }).join('');
-  }
-    let currentSolutionIndex = 0;
-
-  // 1. Solution detail kholne ke liye
+  // Fix #8: duplicate/dead versions hata diye, sirf yeh ek version rakha
   function openSolutionDetail(i) {
     currentSolutionIndex = i;
-    const overlay = document.getElementById('solution-dataset-overlay') || document.getElementById('solution-detail-overlay');
+    const overlay = document.getElementById('solution-detail-overlay');
     if(overlay) overlay.classList.add('active');
     renderSolutionQuestionView(currentSolutionIndex);
   }
 
-  // 2. Question, Options aur Explanation render karne ke liye
   function renderSolutionQuestionView(i) {
     currentSolutionIndex = i;
     const q = rawQuizData[i];
     const state = userState[i] || {};
 
-    // Meta details update karo
     const timeMeta = document.getElementById('sol-time-meta');
     if(timeMeta) timeMeta.innerHTML = `⏱️ Time: ${q.timeAvg || '00:15'} | 🎯 Section: ${q.section || 'General'}`;
 
     const qText = document.getElementById('sol-question-text');
     if(qText) qText.innerHTML = `Q${i + 1}. ${q.question}`;
 
-    // Options render karo
     const optionsContainer = document.getElementById('sol-options-container');
     if (optionsContainer && q.options) {
       optionsContainer.innerHTML = Object.keys(q.options).map(key => {
@@ -726,7 +708,7 @@ const MockPanel = (() => {
           optBg = "#dcfce7";
           optBorder = "#22c55e";
           icon = " ✅ (Correct)";
-        } else if (isUserSelected && !isCorrectOpt) {
+        } else if (isUserSelected) {
           optBg = "#fee2e2";
           optBorder = "#ef4444";
           icon = " ❌ (Your Answer)";
@@ -741,44 +723,34 @@ const MockPanel = (() => {
       }).join('');
     }
 
-    // Shuru mein solution box hide rahega aur View Solution button dikhega
     const revealBox = document.getElementById('solution-reveal-box');
     const btnContainer = document.getElementById('view-solution-btn-container');
-    
     if(revealBox) revealBox.style.display = 'none';
     if(btnContainer) btnContainer.style.display = 'block';
 
-    // JSON se explanation yahan set hoga
     const correctText = document.getElementById('sol-correct-text');
-    if(correctText) correctText.innerHTML = `Correct Answer: ${q.correct} - ${q.options[q.correct] || ''}`;
+    if(correctText) correctText.innerHTML = `Correct Answer: ${q.correct} - ${(q.options && q.options[q.correct]) || ''}`;
 
     const expText = document.getElementById('sol-explanation-text');
     if(expText) expText.innerHTML = renderMarkdownLite(q.explanation || 'No explanation available.');
 
     renderSolutionDetailNav(i);
-    if(typeof renderMath === 'function') renderMath(document.getElementById('solution-detail-overlay'));
+    renderMath(document.getElementById('solution-detail-overlay'));
   }
 
-  // 3. 'View Solution' button click hone par chalega
   function revealCurrentSolution() {
     const revealBox = document.getElementById('solution-reveal-box');
     const btnContainer = document.getElementById('view-solution-btn-container');
-    
     if(revealBox) revealBox.style.display = 'block';
     if(btnContainer) btnContainer.style.display = 'none';
   }
 
-  // 4. Prev / Next Navigation buttons ke liye
   function prevSolutionQuestion() {
-    if (currentSolutionIndex > 0) {
-      renderSolutionQuestionView(currentSolutionIndex - 1);
-    }
+    if (currentSolutionIndex > 0) renderSolutionQuestionView(currentSolutionIndex - 1);
   }
 
   function nextSolutionQuestion() {
-    if (currentSolutionIndex < rawQuizData.length - 1) {
-      renderSolutionQuestionView(currentSolutionIndex + 1);
-    }
+    if (currentSolutionIndex < rawQuizData.length - 1) renderSolutionQuestionView(currentSolutionIndex + 1);
   }
 
   function closeSolutionDetail() {
@@ -803,58 +775,56 @@ const MockPanel = (() => {
     }).join('');
   }
 
-
-    return {
+  return {
     init, openLevel2, openLevel3, startMock, loadQuestion, selectOption,
     saveAndNext, submitExam, goToHome, goBackStep, promptUserEmail,
     openAttemptedList, exitToHome, toggleDrawer, clearResponse,
     markReview, prevQuestion, reattemptTest, switchSection,
     switchAnalysisTab, openSolutionDetail, closeSolutionDetail, submitTestModal,
-    revealCurrentSolution, prevSolutionQuestion, nextSolutionQuestion
+    revealCurrentSolution, prevSolutionQuestion, nextSolutionQuestion,
+    viewPreviousAttempt, pauseTimer, resumeTimer
   };
 
 })();
 
 // ============================================================
-// 📝 3. NOTES PANEL (Isolated Architecture Connection Hub)
+// 📝 3. NOTES PANEL (Isolated Hub - logic notes-loader.js me)
 // ============================================================
 const NotesPanel = (() => {
   function init() {
-    // अगर NotesEngine लोड हो चुका है, तो उसके manifest को इनिशियलाइज़ करें
     if (typeof NotesEngine !== 'undefined') {
       NotesEngine.init();
     }
   }
-  return { init };
+
+  function onShow() {
+    if (typeof NotesEngine === 'undefined') return;
+    setTimeout(() => {
+      try {
+        if (NotesEngine.subjectIndexData) NotesEngine.renderChapterShells();
+        else NotesEngine.renderExamCategories();
+      } catch (e) {
+        console.error('Notes render failed:', e);
+      }
+    }, 30);
+  }
+
+  return { init, onShow };
 })();
 
-// BOOTSTRAP APP ON LOAD
+// ============================================================
+// 🚀 BOOTSTRAP (Fix #13: har module alag try/catch)
+// ============================================================
 document.addEventListener('DOMContentLoaded', () => {
-  // मॉक टेस्ट और साइडबार कंट्रोल्स को लोड करने के लिए पुराना फंक्शन
-  ControlPanel.init();
-  
-  // हमारे नए नोट्स आर्किटेक्चर को बैकएंड से कनेक्ट करने के लिए
-  NotesPanel.init();
+  // Hooks pehle register: koi init fail ho tab bhi switching chalti rahe
+  ControlPanel.registerPanel('mock-panel', {
+    onHide: () => MockPanel.pauseTimer(),
+    onShow: () => MockPanel.resumeTimer()
+  });
+  ControlPanel.registerPanel('notes-panel', {
+    onShow: () => NotesPanel.onShow()
+  });
 
-  // साइडबार पैनल स्विच मैकेनिज्म में बिना छेड़छाड़ किए नोट्स रेंडर हुक लगाना
-  if (typeof ControlPanel !== 'undefined' && ControlPanel.switchPanel) {
-    const originalSwitchPanel = ControlPanel.switchPanel;
-    
-    ControlPanel.switchPanel = function(panelId) {
-      // पहले पुराना जो भी मॉक टेस्ट या पैनल स्विच का कोड है उसे सेफली चलने दें
-      originalSwitchPanel(panelId);
-      
-      // अगर यूजर ने साइडबार में 'Short Study Notes' पर टैप किया है
-      if (panelId === 'notes-panel' && typeof NotesEngine !== 'undefined') {
-  setTimeout(() => {
-    if (NotesEngine.subjectIndexData) {
-      NotesEngine.renderChapterShells();
-    } else {
-      NotesEngine.renderExamCategories();
-    }
-  }, 30);
-}
-    };
-  }
+  try { ControlPanel.init(); } catch (e) { console.error('ControlPanel.init failed:', e); }
+  try { NotesPanel.init(); } catch (e) { console.error('NotesPanel.init failed:', e); }
 });
-

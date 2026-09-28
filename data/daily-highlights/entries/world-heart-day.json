@@ -1,0 +1,8 @@
+{
+  "id": "world-heart-day",
+  "title": "World Heart Day",
+  "subtitle": "29 September",
+  "blurb": "Use Heart for Action, Beat Cardiovascular Disease",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='heartBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#881337'/></linearGradient><linearGradient id='goldHeart' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#f43f5e'/><stop offset='100%' stop-color='#fb7185'/></linearGradient><style>@keyframes pulseHeart { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-heart { animation: pulseHeart 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#heartBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldHeart)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-heart'/><path d='M150 76 C138 64 128 54 135 44 C140 38 148 42 150 48 C152 42 160 38 165 44 C172 54 162 64 150 76 Z' fill='#fb7185'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>WORLD HEART DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Use Heart for Action, Beat Cardiovascular Disease</text></svg>"
+}

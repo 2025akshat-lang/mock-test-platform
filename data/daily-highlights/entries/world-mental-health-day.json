@@ -1,0 +1,8 @@
+{
+  "id": "world-mental-health-day",
+  "title": "World Mental Health Day",
+  "subtitle": "10 October",
+  "blurb": "Mental Health is a Universal Human Right",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='mentalBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#0f766e'/></linearGradient><linearGradient id='goldMental' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#2dd4bf'/><stop offset='100%' stop-color='#38bdf8'/></linearGradient><style>@keyframes pulseMental { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-mental { animation: pulseMental 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#mentalBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldMental)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-mental'/><path d='M150 42 C140 34 125 44 134 56 L150 72 L166 56 C175 44 160 34 150 42 Z' fill='#2dd4bf'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>WORLD MENTAL HEALTH DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Mental Health is a Universal Human Right</text></svg>"
+}

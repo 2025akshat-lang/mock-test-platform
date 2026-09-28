@@ -1,0 +1,8 @@
+{
+  "id": "teachers-day-india",
+  "title": "Happy Teachers' Day",
+  "subtitle": "India — 5 September",
+  "type": "National Day",
+  "blurb": "Celebrated on the birth anniversary of Dr. Sarvepalli Radhakrishnan, philosopher, scholar and India's second President.",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='150' fill='#ecfdf5'/><rect x='110' y='55' width='80' height='14' rx='2' fill='#16a34a'/><polygon points='150,35 190,55 150,75 110,55' fill='#15803d'/><rect x='145' y='75' width='10' height='4' fill='#166534'/><text x='150' y='115' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='800' fill='#0f172a'>Happy Teachers' Day</text><text x='150' y='133' text-anchor='middle' font-family='sans-serif' font-size='10' fill='#475569'>In honour of Dr. Sarvepalli Radhakrishnan</text></svg>"
+}

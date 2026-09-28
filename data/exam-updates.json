@@ -1,0 +1,11 @@
+{
+  "_note": "Kept separate from calendar.json on purpose — this file will change often (new exam dates, notifications), while calendar.json (festivals/days/scientists) barely changes. Editing this file should never risk breaking the daily-highlight history data. Not wired into the UI yet — ask when you want this rendered somewhere.",
+  "updates": [
+    {
+      "id": "example-update",
+      "title": "Example: RRB Section Controller 2026",
+      "detail": "Exam date: 12 & 13 Oct — CBT + CBAT",
+      "tag": "NEW"
+    }
+  ]
+}

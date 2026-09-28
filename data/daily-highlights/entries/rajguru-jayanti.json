@@ -1,0 +1,8 @@
+{
+  "id": "rajguru-jayanti",
+  "title": "Rajguru Jayanti",
+  "subtitle": "24 August",
+  "blurb": "Saluting the Fearless Patriot and Revolutionary",
+  "type": "National Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='rajguruBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#7c2d12'/></linearGradient><linearGradient id='goldRajguru' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#f59e0b'/><stop offset='100%' stop-color='#fbbf24'/></linearGradient><style>@keyframes pulseRajguru { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-rajguru { animation: pulseRajguru 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#rajguruBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldRajguru)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-rajguru'/><path d='M138 70 L150 42 L162 70 Z' fill='#fbbf24'/><circle cx='150' cy='46' r='6' fill='#d97706'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>RAJGURU JAYANTI</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Saluting the Fearless Patriot and Revolutionary</text></svg>"
+}

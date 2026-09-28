@@ -23,6 +23,12 @@
  *  - Chapter-level and nested-section-level accordions remain
  *    EXCLUSIVE (only one open at a time) for normal manual browsing,
  *    same as v3. Topic/notes level is still non-exclusive.
+ *
+ * Post-v4 fixes:
+ *  - #10: renderExamCategories guards against missing manifestData.
+ *  - #11: one broken chapter no longer breaks the whole search
+ *         (try/catch around renderChapterBody + null-safe title/overview).
+ *  - #12: renderChapterShells resets state along with the DOM.
  * ============================================================
  */
 
@@ -38,7 +44,7 @@
 // TO TURN OFF : comment out the "true" line below, uncomment "false" (default)
 // ============================================================
 // const NOTES_MAINTENANCE_MODE = true;
-const NOTES_MAINTENANCE_MODE = true;
+const NOTES_MAINTENANCE_MODE = false;
 
 const NotesEngine = {
   manifestData: null,        // data/notes/manifest.json (exam categories -> subjects)
@@ -214,6 +220,7 @@ const NotesEngine = {
   // 2. Level 1: Exam categories -> Subjects
   // ------------------------------------------------------------
   renderExamCategories: function () {
+    if (!this.manifestData) return;
     this.subjectIndexData = null;
     this.chapterCache = {};
     this.chapterFilters = {};
@@ -303,6 +310,11 @@ const NotesEngine = {
   renderChapterShells: function () {
     const grid = document.getElementById('notes-grid');
     if (!grid || !this.subjectIndexData) return;
+
+    this.openChapters = new Set();
+    this.openTopics = new Set();
+    this.activeChapterId = null;
+    this.activeSectionKey = null;
 
     const fragment = document.createDocumentFragment();
 
@@ -589,7 +601,7 @@ const NotesEngine = {
 
     (topics || []).forEach(topic => {
       const filteredNotes = (topic.notes_list || []).filter(note => {
-        const matchesSearch = !query || note.title.toLowerCase().includes(query) || note.basic_overview.toLowerCase().includes(query);
+        const matchesSearch = !query || String(note.title || '').toLowerCase().includes(query) || String(note.basic_overview || '').toLowerCase().includes(query);
         const matchesTag = activeTag === 'all' || (note.tags || []).includes(activeTag);
         return matchesSearch && matchesTag;
       });
@@ -728,7 +740,12 @@ const NotesEngine = {
         return;
       }
 
-      const hasMatch = this.renderChapterBody(ch.id);
+      let hasMatch = false;
+      try {
+        hasMatch = this.renderChapterBody(ch.id);
+      } catch (err) {
+        console.error('Search: chapter render failed', ch.id, err);
+      }
 
       if (!hasMatch) {
         if (wrap) wrap.style.display = 'none';
@@ -945,4 +962,3 @@ _onQuickJumpTopicChange: async function () {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 };
-  
