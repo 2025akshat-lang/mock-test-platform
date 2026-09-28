@@ -44,7 +44,7 @@
 // TO TURN OFF : comment out the "true" line below, uncomment "false" (default)
 // ============================================================
 // const NOTES_MAINTENANCE_MODE = true;
-const NOTES_MAINTENANCE_MODE = false;
+const NOTES_MAINTENANCE_MODE = true;
 
 const NotesEngine = {
   manifestData: null,        // data/notes/manifest.json (exam categories -> subjects)
