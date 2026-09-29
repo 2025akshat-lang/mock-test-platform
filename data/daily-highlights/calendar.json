@@ -128,7 +128,7 @@
   "06-29": ["national-statistics-day.json"],
   "06-30": ["world-asteroid-day.json"],
   
-  "07-01": ["doctors-day.json", "chartered-accountants-day.json", "gst-day.json"],
+"07-01": ["doctors-day.json", "chartered-accountants-day.json", "gst-day.json"],
   "07-04": ["usa-independence-day.json", "swami-vivekananda-punyatithi.json"],
   "07-05": ["international-day-of-cooperatives.json"],
   "07-06": ["world-zoonoses-day.json"],
@@ -142,8 +142,7 @@
   "07-26": ["kargil-vijay-diwas.json"],
   "07-27": ["crpf-raising-day.json"],
   "07-28": ["world-nature-conservation-day.json", "world-hepatitis-day.json"],
-  "07-29": ["international-tiger-day.json"],
-  
+  "07-29": ["international-tiger-day.json"]
   "08-01": ["tilak-punyatithi.json"],
   "08-06": ["hiroshima-day.json"],
   "08-07": ["national-handloom-day.json"],
