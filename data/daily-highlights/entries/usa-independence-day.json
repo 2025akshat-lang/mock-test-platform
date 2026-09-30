@@ -1,0 +1,8 @@
+{
+  "id": "usa-independence-day",
+  "title": "USA Independence Day",
+  "subtitle": "4 July",
+  "blurb": "Celebrating Liberty, Freedom, and the American Spirit",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='usaBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#1e3a8a'/></linearGradient><linearGradient id='goldUsa' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#ef4444'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseUsa { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-usa { animation: pulseUsa 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#usaBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldUsa)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-usa'/><polygon points='150,42 154,54 167,54 156,62 160,74 150,66 140,74 144,62 133,54 146,54' fill='#ef4444'/><circle cx='150' cy='60' r='3' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>USA INDEPENDENCE DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Celebrating Liberty and Freedom</text></svg>"
+}
