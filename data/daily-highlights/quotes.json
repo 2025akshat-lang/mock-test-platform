@@ -1,9 +1,82 @@
 [
-  "Ek din ka mehnat bhi tumhe kal se ek kadam aage le jaata hai — lage raho.",
-  "Consistency beats intensity — thoda thoda roz padhna, bahut zyada ek din padhne se behtar hai.",
-  "Har mushkil topic pehli baar mushkil hi lagta hai — dusri baar wahi aasan lagta hai.",
-  "Tumhara best abhi tak nahi aaya — woh agla mock test ho sakta hai.",
-  "Break lena bhi padhai ka hissa hai — khud par meherbaan raho.",
-  "Jo aaj revise kiya, woh exam hall me tumhara sabse bada hathiyar banega.",
-  "Chhoti jeet bhi jeet hoti hai — aaj ka ek chapter bhi ek jeet hai."
+  {
+    "text": "Ek din ka mehnat bhi tumhe kal se ek kadam aage le jaata hai — lage raho.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M9 26h4v-4H9v4zm7 0h4v-8h-4v8zm7 0h4v-13h-4v13z' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Consistency beats intensity — thoda thoda roz padhna, bahut zyada ek din padhne se behtar hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><rect x='9' y='10' width='18' height='16' rx='2' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M9 15h18' stroke='#2563eb' stroke-width='2'/><path d='M13 20l2.5 2.5L20 17' stroke='#2563eb' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+  },
+  {
+    "text": "Har mushkil topic pehli baar mushkil hi lagta hai — dusri baar wahi aasan lagta hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M14 12c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.7-1 2.6-2 3.4-.8.7-1.5 1.3-1.5 2.6v.5h-1v-.5c0-1.8 1-2.7 1.9-3.5.8-.7 1.6-1.4 1.6-2.5 0-1.3-1-2.5-2.5-2.5S15.5 10.7 15.5 12h-1.5z' fill='#2563eb'/><rect x='17.2' y='20' width='1.6' height='1.6' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Tumhara best abhi tak nahi aaya — woh agla mock test ho sakta hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 8c3 3 4 6.5 4 9.5 0 3-1.5 5-4 6.5-2.5-1.5-4-3.5-4-6.5 0-3 1-6.5 4-9.5z' fill='#2563eb'/><path d='M16 24l-2.5 4M20 24l2.5 4' stroke='#2563eb' stroke-width='1.8' stroke-linecap='round'/><circle cx='18' cy='16' r='1.6' fill='#eff6ff'/></svg>"
+  },
+  {
+    "text": "Break lena bhi padhai ka hissa hai — khud par meherbaan raho.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 10c-4 2-7 5-7 9 0 4 3.5 7 7 8 3.5-1 7-4 7-8 0-4-3-7-7-9z' fill='#2563eb'/><path d='M18 14v9M15 20c1 1 2 1.5 3 1.5s2-.5 3-1.5' stroke='#eff6ff' stroke-width='1.3' stroke-linecap='round' fill='none'/></svg>"
+  },
+  {
+    "text": "Jo aaj revise kiya, woh exam hall me tumhara sabse bada hathiyar banega.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 9l2.5 5.5L26 15l-4.2 3.7L23 24l-5-3-5 3 1.2-5.3L10 15l5.5-.5z' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Chhoti jeet bhi jeet hoti hai — aaj ka ek chapter bhi ek jeet hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='15' r='6' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M14.5 15l2.3 2.3L21.5 12.8' stroke='#2563eb' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M15 20.5l-1.5 6 4.5-2 4.5 2-1.5-6' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Galat answer bhi seekhata hai — sahi jawab se zyada, galti yaad rehti hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='18' r='8' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M15 15l6 6M21 15l-6 6' stroke='#2563eb' stroke-width='2' stroke-linecap='round'/></svg>"
+  },
+  {
+    "text": "Result se pehle process pe bharosa rakho — number apne aap aa jaayenge.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 11a7 7 0 100 14 7 7 0 000-14zm0 1.6v2M18 21.4v2M11.6 18h2M22.4 18h2' stroke='#2563eb' stroke-width='1.6' stroke-linecap='round'/><circle cx='18' cy='18' r='3' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Jo log ruke nahi, unhi ka naam list me sabse upar aata hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 10l3 3h-2v6h-2v-6h-2z' fill='#2563eb'/><rect x='12' y='21' width='12' height='2' rx='1' fill='#2563eb'/><rect x='13.5' y='24.5' width='9' height='1.6' rx='0.8' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Aaj ka mock test tumhari kamzori dhoondhne ke liye hai, tumhe judge karne ke liye nahi.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='16' cy='16' r='6' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M20.5 20.5L26 26' stroke='#2563eb' stroke-width='2.2' stroke-linecap='round'/></svg>"
+  },
+  {
+    "text": "Neend poori lo — thaka hua dimaag revise nahi, sirf ratta maarta hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M23 13a7 7 0 100 12A8.5 8.5 0 0114 15a8.5 8.5 0 019-2z' fill='#2563eb'/><circle cx='24' cy='12' r='0.8' fill='#2563eb'/><circle cx='26.5' cy='14.5' r='0.6' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Doosron ki speed mat dekho, apni consistency dekho.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='18' r='8' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M18 18l3.5-2' stroke='#2563eb' stroke-width='2' stroke-linecap='round'/><circle cx='18' cy='18' r='1.4' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Jitni baar giroge, utni baar uthna hi tumhe champion banayega.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M9 26l6-12 4 6 3-5 5 11z' fill='#2563eb'/><circle cx='23' cy='11' r='2' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Syllabus lamba hai, par ek din me sirf ek topic hi karna hai — bas woh karo.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><rect x='10' y='11' width='11' height='14' rx='1.5' fill='none' stroke='#2563eb' stroke-width='1.8'/><rect x='14' y='9' width='11' height='14' rx='1.5' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Confidence result se nahi, preparation se aata hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><path d='M18 9l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9v-6z' fill='#2563eb'/><path d='M14.5 18l2.3 2.3L21.5 15.8' stroke='#eff6ff' stroke-width='1.7' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+  },
+  {
+    "text": "Aaj ka avoid kiya hua chapter, kal ka pachtava banta hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='18' r='8' fill='none' stroke='#2563eb' stroke-width='2'/><path d='M18 14v4.5l3 2' stroke='#2563eb' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>"
+  },
+  {
+    "text": "Tumhara competition sirf tumhara kal wala version hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='14' cy='14' r='3.2' fill='#2563eb'/><path d='M9 25c0-3.5 2.2-6 5-6s5 2.5 5 6' fill='none' stroke='#2563eb' stroke-width='1.8' stroke-linecap='round'/><circle cx='23' cy='14' r='3.2' fill='none' stroke='#2563eb' stroke-width='1.8'/><path d='M18 25c0-3.5 2.2-6 5-6s5 2.5 5 6' fill='none' stroke='#2563eb' stroke-width='1.8' stroke-linecap='round' stroke-dasharray='2 2'/></svg>"
+  },
+  {
+    "text": "Mock test me fail hona real exam me safal hone ki practice hai.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='18' r='8' fill='none' stroke='#2563eb' stroke-width='1.8'/><circle cx='18' cy='18' r='5' fill='none' stroke='#2563eb' stroke-width='1.8'/><circle cx='18' cy='18' r='2' fill='#2563eb'/></svg>"
+  },
+  {
+    "text": "Speed baad me aayegi, pehle accuracy pakki karo.",
+    "svg": "<svg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'><circle cx='18' cy='18' r='18' fill='#eff6ff'/><circle cx='18' cy='18' r='8' fill='none' stroke='#2563eb' stroke-width='1.8'/><path d='M18 12v6l4 2' stroke='#2563eb' stroke-width='1.8' stroke-linecap='round' fill='none'/></svg>"
+  }
 ]
