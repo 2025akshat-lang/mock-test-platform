@@ -1,0 +1,1770 @@
+{
+  "chapter_title": "High Performance Liquid Chromatography (HPLC): Theory, Instrumentation, Method Development, QC & Troubleshooting",
+  "sections": [
+    {
+      "id": "hplc-fundamentals",
+      "title": "HPLC Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🟢 Exam", "tag": "exam" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hplc-basic-principle",
+          "topic_title": "Basic Principle of HPLC",
+          "notes_list": [
+            {
+              "id": "hplc001",
+              "title": "HPLC क्या है?",
+              "tags": ["basics", "concept", "msc", "gate"],
+              "basic_overview": "High Performance Liquid Chromatography एक analytical separation technique है जिसमें liquid mobile phase को high pressure पर stationary phase से भरे column के through pass कराया जाता है। Components stationary और mobile phase के बीच अलग-अलग interaction के कारण अलग retention times पर elute होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Core idea: अलग compounds की stationary phase के प्रति affinity अलग होती है। Stronger interaction generally longer retention और larger retention time देती है, जबकि exact behaviour separation mode पर depend करता है।"
+            },
+            {
+              "id": "hplc002",
+              "title": "HPLC का Main Objective",
+              "tags": ["concept", "applications"],
+              "basic_overview": "HPLC का उपयोग mixture के components को separate, identify और quantify करने के लिए किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Major applications: assay, impurity profiling, related substances, degradation products, stability studies, reaction monitoring, pharmaceutical QC, environmental analysis और biochemical analysis."
+            },
+            {
+              "id": "hplc003",
+              "title": "HPLC में Separation क्यों होती है?",
+              "tags": ["separation", "concept"],
+              "basic_overview": "Separation compounds की physicochemical properties और stationary/mobile phase के साथ अलग-अलग interactions के कारण होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important properties: polarity, hydrophobicity, ionic character, molecular size, hydrogen bonding, adsorption और partition behaviour."
+            }
+          ]
+        },
+        {
+          "topic_id": "hplc-types",
+          "topic_title": "Major HPLC Modes",
+          "notes_list": [
+            {
+              "id": "hplc004",
+              "title": "Normal Phase HPLC",
+              "tags": ["normal-phase", "concept"],
+              "basic_overview": "Normal phase में stationary phase relatively polar और mobile phase comparatively non-polar होती है। Separation mainly adsorption/polar interactions पर आधारित होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical stationary phase: silica. Increasing mobile-phase polarity often increases elution strength in normal-phase systems, but exact behaviour depends on solvent and analyte chemistry."
+            },
+            {
+              "id": "hplc005",
+              "title": "Reverse Phase HPLC",
+              "tags": ["reverse-phase", "rp-hplc", "high-yield"],
+              "basic_overview": "Reverse phase HPLC में stationary phase non-polar/hydrophobic और mobile phase comparatively polar होती है। C18 सबसे widely used stationary phase में से एक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Shortcut: RP-HPLC = non-polar stationary phase + relatively polar mobile phase. Hydrophobic compounds generally stronger retention दिखाते हैं."
+            },
+            {
+              "id": "hplc006",
+              "title": "Ion Exchange HPLC",
+              "tags": ["ion-exchange", "concept"],
+              "basic_overview": "Ion-exchange chromatography charged stationary phase और analyte ions के electrostatic interactions के आधार पर separation करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Retention को pH, ionic strength, counter-ion और analyte charge state strongly affect करते हैं।"
+            },
+            {
+              "id": "hplc007",
+              "title": "Size Exclusion Chromatography",
+              "tags": ["sec", "gel-filtration", "gel-permeation"],
+              "basic_overview": "Size exclusion chromatography molecules को उनके hydrodynamic size के आधार पर separate करती है और ideally analyte-stationary phase chemical interaction minimal होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Large molecules pores में कम enter करती हैं और generally earlier elute करती हैं; smaller molecules अधिक pore volume access करके later elute करती हैं।"
+            },
+            {
+              "id": "hplc008",
+              "title": "Affinity Chromatography",
+              "tags": ["affinity", "biochemistry"],
+              "basic_overview": "Affinity chromatography specific biological or molecular recognition interaction पर आधारित highly selective separation technique है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: antibody-antigen, enzyme-substrate analogue, receptor-ligand interactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-instrumentation",
+      "title": "HPLC Instrumentation",
+      "filters": [
+        { "label": "🔬 Instrument", "tag": "instrumentation" },
+        { "label": "⚙️ Components", "tag": "component" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hplc-flow-path",
+          "topic_title": "HPLC Flow Path",
+          "notes_list": [
+            {
+              "id": "hplc009",
+              "title": "Complete HPLC Flow Path",
+              "tags": ["instrumentation", "flow-path"],
+              "basic_overview": "Typical HPLC flow path: solvent reservoir → degasser → pump → mixer → injector/autosampler → column → detector → data system/waste.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory Chain: Reservoir → Degasser → Pump → Mixer → Injector → Column → Detector → Data System. Exact plumbing instrument architecture के अनुसार vary कर सकती है।"
+            },
+            {
+              "id": "hplc010",
+              "title": "Solvent Reservoir",
+              "tags": ["reservoir", "instrumentation"],
+              "basic_overview": "Solvent reservoir mobile phase को hold करता है और system को controlled solvent supply देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC checks: Correct solvent, correct composition, sufficient volume, clean bottle, compatible tubing और contamination-free preparation."
+            },
+            {
+              "id": "hplc011",
+              "title": "Degasser",
+              "tags": ["degasser", "instrumentation"],
+              "basic_overview": "Degasser mobile phase में dissolved gases को reduce करता है ताकि bubbles और detector/pump-related problems कम हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Symptoms of inadequate degassing can include pump instability, baseline noise/drift, pressure fluctuations and detector bubbles."
+            },
+            {
+              "id": "hplc012",
+              "title": "HPLC Pump",
+              "tags": ["pump", "instrumentation"],
+              "basic_overview": "Pump mobile phase को controlled flow rate और high pressure पर column तक deliver करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Pump requirements: stable flow, low pulsation, chemical compatibility, accurate flow delivery और pressure handling."
+            },
+            {
+              "id": "hplc013",
+              "title": "Injector और Autosampler",
+              "tags": ["injector", "autosampler"],
+              "basic_overview": "Injector sample को mobile phase stream में reproducible तरीके से introduce करता है। Autosampler programmed sample injection और sequence automation allow करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Injection errors can cause area variability, carryover, split peaks, missing peaks or wrong sample identification."
+            },
+            {
+              "id": "hplc014",
+              "title": "HPLC Column",
+              "tags": ["column", "stationary-phase"],
+              "basic_overview": "Column में stationary phase packed होती है और यही chromatographic separation का primary environment प्रदान करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Column parameters: chemistry, length, internal diameter, particle size, pore size, temperature limit and pressure limit."
+            },
+            {
+              "id": "hplc015",
+              "title": "Detector",
+              "tags": ["detector", "instrumentation"],
+              "basic_overview": "Detector column से eluting analytes को measurable signal में convert करता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Common HPLC detectors: UV/Vis, PDA/DAD, fluorescence, refractive index, electrochemical और mass spectrometric detectors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-pump",
+      "title": "HPLC Pump & Pressure System",
+      "filters": [
+        { "label": "⚙️ Pump", "tag": "pump" },
+        { "label": "📈 Pressure", "tag": "pressure" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "pump-types",
+          "topic_title": "Pump Types",
+          "notes_list": [
+            {
+              "id": "hplc016",
+              "title": "Reciprocating Pump",
+              "tags": ["pump", "instrumentation"],
+              "basic_overview": "Reciprocating pumps piston movement द्वारा solvent को high pressure पर deliver करती हैं और modern HPLC systems में widely used हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Dual-piston arrangements flow pulsation reduce करने और continuous delivery improve करने में मदद करते हैं।"
+            },
+            {
+              "id": "hplc017",
+              "title": "Isocratic Pumping",
+              "tags": ["isocratic", "pump"],
+              "basic_overview": "Isocratic HPLC में mobile-phase composition run के दौरान constant रहती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Useful when mixture relatively simple हो और all analytes acceptable retention तथा resolution के साथ isocratic conditions में separate हो जाएं।"
+            },
+            {
+              "id": "hplc018",
+              "title": "Gradient Pumping",
+              "tags": ["gradient", "pump"],
+              "basic_overview": "Gradient HPLC में mobile-phase composition समय के साथ programmed तरीके से change होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Gradient का major advantage: complex mixtures में strongly retained compounds की elution accelerate करना और broad separation window को compress करना।"
+            }
+          ]
+        },
+        {
+          "topic_id": "pressure",
+          "topic_title": "HPLC Pressure",
+          "notes_list": [
+            {
+              "id": "hplc019",
+              "title": "Column Pressure किन Factors पर Depend करता है?",
+              "tags": ["pressure", "column", "numerical"],
+              "basic_overview": "Pressure flow rate, mobile-phase viscosity, column length, column internal diameter, particle size और column permeability से strongly affected होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "General relationship for packed beds: pressure drop increases with flow and viscosity and approximately scales strongly with inverse square of particle diameter and column ID under simplified assumptions."
+            },
+            {
+              "id": "hplc020",
+              "title": "Flow Rate बढ़ाने पर Pressure",
+              "tags": ["pressure", "flow-rate"],
+              "basic_overview": "बाकी conditions constant होने पर flow rate बढ़ाने से pressure generally बढ़ता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Troubleshooting: Pressure doubles unexpectedly after flow increase → first verify whether increase is physically expected before diagnosing a blockage."
+            },
+            {
+              "id": "hplc021",
+              "title": "Particle Size का Effect",
+              "tags": ["particle-size", "pressure"],
+              "basic_overview": "Smaller column particles separation efficiency improve कर सकती हैं लेकिन pressure drop substantially increase कर सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_content": "Exam Concept: Smaller particles → higher efficiency potential + higher backpressure. यही UHPLC development में important trade-off है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-column",
+      "title": "HPLC Columns & Stationary Phase",
+      "filters": [
+        { "label": "🧪 Column", "tag": "column" },
+        { "label": "⚗️ Stationary Phase", "tag": "stationary-phase" },
+        { "label": "🎯 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "c18-column",
+          "topic_title": "C18 / ODS Column",
+          "notes_list": [
+            {
+              "id": "hplc022",
+              "title": "C18 Column क्या है?",
+              "tags": ["c18", "reverse-phase", "column"],
+              "basic_overview": "C18 या ODS column में octadecyl-bonded hydrophobic stationary phase होती है और यह reverse-phase HPLC में widely used है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "RP-C18 is commonly selected for pharmaceuticals, small organic molecules और moderately hydrophobic analytes."
+            },
+            {
+              "id": "hplc023",
+              "title": "C8 vs C18",
+              "tags": ["c8", "c18", "method-development"],
+              "basic_overview": "C8 और C18 दोनों hydrophobic bonded phases हैं। C18 generally अधिक hydrophobic retention प्रदान कर सकती है, जबकि C8 कई cases में shorter retention देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Method-development idea: यदि C18 पर analytes बहुत strongly retained हैं, तो C8 या stronger organic mobile phase consider किया जा सकता है, subject to resolution."
+            },
+            {
+              "id": "hplc024",
+              "title": "Column Length का Effect",
+              "tags": ["column", "resolution"],
+              "basic_overview": "Longer column generally more theoretical plates दे सकती है और resolution improve कर सकती है, लेकिन analysis time और pressure भी increase हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trade-off: Length ↑ → potential efficiency/resolution ↑, analysis time ↑, pressure ↑."
+            },
+            {
+              "id": "hplc025",
+              "title": "Column Internal Diameter",
+              "tags": ["column", "flow-rate"],
+              "basic_overview": "Smaller internal diameter columns lower solvent consumption दे सकती हैं लेकिन flow-rate optimization और extra-column effects more critical हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For similar linear velocity, flow scales approximately with cross-sectional area, so ID changes require flow adjustment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-retention",
+      "title": "Retention & Chromatographic Parameters",
+      "filters": [
+        { "label": "📊 Parameters", "tag": "concept" },
+        { "label": "🧮 Formula", "tag": "formula" },
+        { "label": "🎯 Numericals", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "retention-time",
+          "topic_title": "Retention Time & Dead Time",
+          "notes_list": [
+            {
+              "id": "hplc026",
+              "title": "Retention Time (tR)",
+              "tags": ["retention-time", "formula"],
+              "basic_overview": "Retention time tR वह समय है जो injection से analyte peak maximum तक पहुंचने में लगता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Retention time identification में useful है लेकिन अकेले definitive identity proof नहीं है; reference standard और orthogonal evidence important हैं।"
+            },
+            {
+              "id": "hplc027",
+              "title": "Dead Time / Void Time (t0)",
+              "tags": ["dead-time", "void-time"],
+              "basic_overview": "t0 या dead time approximately unretained species को column से pass होने में लगने वाला time है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "tR > t0 for retained analytes. t0 retention factor और related chromatographic calculations में use होता है।"
+            },
+            {
+              "id": "hplc028",
+              "title": "Retention Factor k",
+              "tags": ["retention-factor", "formula", "gate"],
+              "basic_overview": "Retention factor k = (tR − t0) / t0.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: tR = 6 min और t0 = 2 min → k = (6−2)/2 = 2. k जितना बड़ा होगा, analyte उतना अधिक retained है।"
+            },
+            {
+              "id": "hplc029",
+              "title": "Selectivity Factor α",
+              "tags": ["selectivity", "formula"],
+              "basic_overview": "दो analytes के लिए selectivity factor α = k₂/k₁, जहाँ k₂ > k₁.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "α > 1 होना आवश्यक है। Resolution improve करने के लिए selectivity optimization often very powerful strategy है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-efficiency",
+      "title": "Column Efficiency & Theoretical Plates",
+      "filters": [
+        { "label": "📐 Theory", "tag": "theory" },
+        { "label": "🧮 Numericals", "tag": "numerical" },
+        { "label": "🎯 GATE", "tag": "gate" }
+      ],
+      "topics": [
+        {
+          "topic_id": "theoretical-plates",
+          "topic_title": "Number of Theoretical Plates",
+          "notes_list": [
+            {
+              "id": "hplc030",
+              "title": "Theoretical Plate Number N",
+              "tags": ["plates", "efficiency", "formula"],
+              "basic_overview": "Theoretical plate number N column efficiency का measure है। Higher N generally sharper peaks और better efficiency indicate करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common equations: N = 16(tR/W)² using baseline width W, or N = 5.54(tR/W1/2)² using half-height width W1/2."
+            },
+            {
+              "id": "hplc031",
+              "title": "HETP",
+              "tags": ["hetp", "efficiency"],
+              "basic_overview": "Height Equivalent to a Theoretical Plate H = L/N होती है। Lower H generally higher column efficiency indicate करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: L = 150 mm और N = 10000 → H = 0.015 mm = 15 µm."
+            },
+            {
+              "id": "hplc032",
+              "title": "Peak Width और Efficiency",
+              "tags": ["peak-width", "efficiency"],
+              "basic_overview": "Narrower peaks generally higher chromatographic efficiency indicate करते हैं, provided retention time and measurement method comparable हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Broadening sources: eddy diffusion, longitudinal diffusion, mass-transfer resistance, injection volume, extra-column volume और poor packing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-van-deemter",
+      "title": "Van Deemter Theory",
+      "filters": [
+        { "label": "📐 Theory", "tag": "theory" },
+        { "label": "🧮 Equation", "tag": "formula" },
+        { "label": "⚙️ Optimization", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "van-deemter",
+          "topic_title": "Van Deemter Equation",
+          "notes_list": [
+            {
+              "id": "hplc033",
+              "title": "Van Deemter Equation",
+              "tags": ["van-deemter", "formula", "gate"],
+              "basic_overview": "H = A + B/u + Cu, जहाँ H plate height और u mobile-phase linear velocity है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A = eddy diffusion, B/u = longitudinal diffusion, Cu = mass-transfer contribution. Optimum velocity पर H minimum होता है।"
+            },
+            {
+              "id": "hplc034",
+              "title": "A Term: Eddy Diffusion",
+              "tags": ["van-deemter", "eddy-diffusion"],
+              "basic_overview": "A term packed bed में different flow paths के कारण band broadening को represent करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Better packing uniformity और smaller particles A-term related dispersion को reduce कर सकते हैं।"
+            },
+            {
+              "id": "hplc035",
+              "title": "B Term: Longitudinal Diffusion",
+              "tags": ["van-deemter", "diffusion"],
+              "basic_overview": "Longitudinal diffusion concentration gradient के कारण analyte molecules का axial diffusion है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "B/u term low flow velocities पर अधिक significant होती है। Liquid chromatography में diffusion relatively slow होने के कारण B term का contribution gas chromatography की तुलना में कम prominent हो सकता है।"
+            },
+            {
+              "id": "hplc036",
+              "title": "C Term: Mass Transfer",
+              "tags": ["van-deemter", "mass-transfer"],
+              "basic_overview": "C term analyte equilibration between mobile and stationary phases की finite rate को represent करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "High flow rate पर mass-transfer limitation increase होती है, जिससे H बढ़ सकती है और peaks broaden हो सकती हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-resolution",
+      "title": "Resolution & Peak Separation",
+      "filters": [
+        { "label": "📊 Resolution", "tag": "resolution" },
+        { "label": "🧮 Formula", "tag": "formula" },
+        { "label": "🧪 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "resolution",
+          "topic_title": "Chromatographic Resolution",
+          "notes_list": [
+            {
+              "id": "hplc037",
+              "title": "Resolution Rs",
+              "tags": ["resolution", "formula", "gate"],
+              "basic_overview": "Two peaks की separation को quantify करने के लिए resolution Rs use होती है। Baseline-width form में Rs = 2(tR2−tR1)/(W1+W2).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General practical interpretation: Rs around 1.5 अक्सर baseline separation के लिए target माना जाता है, लेकिन acceptance method-specific होनी चाहिए।"
+            },
+            {
+              "id": "hplc038",
+              "title": "Resolution को कैसे Improve करें?",
+              "tags": ["resolution", "method-development"],
+              "basic_overview": "Resolution improve करने के major levers हैं selectivity, efficiency और retention को optimize करना।",
+              "has_extra_info": true,
+              "extra_info_content": "Practical order: mobile-phase chemistry/pH बदलकर selectivity optimize करें → column chemistry consider करें → temperature/flow optimize करें → efficiency improve करें."
+            },
+            {
+              "id": "hplc039",
+              "title": "Resolution में Selectivity का महत्व",
+              "tags": ["selectivity", "resolution"],
+              "basic_overview": "Closely eluting compounds के लिए selectivity change अक्सर केवल plate number बढ़ाने की तुलना में अधिक powerful हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_content": "If two peaks overlap: blindly flow reduce न करें। पहले analyte chemistry, pH, organic modifier और stationary phase selectivity देखें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-mobile-phase",
+      "title": "Mobile Phase",
+      "filters": [
+        { "label": "🧪 Solvent", "tag": "mobile-phase" },
+        { "label": "⚗️ pH", "tag": "pH" },
+        { "label": "🔬 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mobile-phase-selection",
+          "topic_title": "Mobile Phase Selection",
+          "notes_list": [
+            {
+              "id": "hplc040",
+              "title": "Common HPLC Solvents",
+              "tags": ["mobile-phase", "solvent"],
+              "basic_overview": "Common reversed-phase solvents में water, acetonitrile और methanol widely used हैं। Buffer या additives analyte ionization और peak shape control के लिए use किए जा सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Solvent selection depends on analyte solubility, polarity, UV transparency, viscosity, pressure, detector compatibility और stationary-phase stability."
+            },
+            {
+              "id": "hplc041",
+              "title": "Acetonitrile vs Methanol",
+              "tags": ["acetonitrile", "methanol", "method-development"],
+              "basic_overview": "Acetonitrile और methanol दोनों common organic modifiers हैं लेकिन उनकी elution strength, viscosity, selectivity और UV properties अलग होती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Method-development tip: ACN और MeOH interchangeable मानकर replace न करें; selectivity और pressure दोनों change हो सकते हैं।"
+            },
+            {
+              "id": "hplc042",
+              "title": "Buffer का Role",
+              "tags": ["buffer", "mobile-phase", "pH"],
+              "basic_overview": "Buffer mobile-phase pH को controlled range में maintain करता है और ionizable analytes की retention तथा peak shape को influence कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For ionizable compounds, pH selection analyte pKa के relative position से strongly connected है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-ph",
+      "title": "pH, pKa & Ionization",
+      "filters": [
+        { "label": "🧪 pH", "tag": "pH" },
+        { "label": "⚗️ pKa", "tag": "pKa" },
+        { "label": "🎯 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ionization",
+          "topic_title": "Ionization and Retention",
+          "notes_list": [
+            {
+              "id": "hplc043",
+              "title": "Ionizable Compounds in RP-HPLC",
+              "tags": ["ionization", "reverse-phase"],
+              "basic_overview": "RP-HPLC में neutral और ionized forms की hydrophobicity अलग होती है, इसलिए pH बदलने से retention dramatically बदल सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General principle: More ionized form अक्सर more polar होती है और RP stationary phase में weaker retention दिखा सकती है, although exceptions and specific chemistry matter."
+            },
+            {
+              "id": "hplc044",
+              "title": "Weak Acid के लिए pH Effect",
+              "tags": ["weak-acid", "pH", "method-development"],
+              "basic_overview": "Weak acid का ionization pH बढ़ने पर generally increase होता है। RP-HPLC में इससे retention अक्सर decrease हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Method-development tip: Stable retention और reproducible peak shape के लिए pH को analyte pKa से पर्याप्त distance पर control किया जा सकता है, provided column compatibility allows."
+            },
+            {
+              "id": "hplc045",
+              "title": "Weak Base के लिए pH Effect",
+              "tags": ["weak-base", "pH", "method-development"],
+              "basic_overview": "Weak base lower pH पर अधिक protonated/ionized और higher pH पर comparatively neutral हो सकती है। RP retention अक्सर ionization state के साथ change होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Always draw the acid-base equilibrium before predicting retention. This avoids memorization errors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-gradient",
+      "title": "Isocratic & Gradient Elution",
+      "filters": [
+        { "label": "📈 Gradient", "tag": "gradient" },
+        { "label": "🔵 Isocratic", "tag": "isocratic" },
+        { "label": "⚙️ Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gradient-basics",
+          "topic_title": "Gradient HPLC",
+          "notes_list": [
+            {
+              "id": "hplc046",
+              "title": "Gradient Elution क्या है?",
+              "tags": ["gradient", "concept"],
+              "basic_overview": "Gradient elution में mobile-phase composition समय के साथ programmed तरीके से बदलती है ताकि analytes की retention और separation dynamically control हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical RP example: Organic solvent percentage time के साथ increase किया जाता है ताकि strongly retained hydrophobic analytes जल्दी elute हों।"
+            },
+            {
+              "id": "hplc047",
+              "title": "Gradient क्यों Use करते हैं?",
+              "tags": ["gradient", "method-development"],
+              "basic_overview": "Complex mixtures में analytes की wide polarity range होने पर gradient analysis time reduce और peak distribution improve कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Symptoms favouring gradient: early peaks clustered together + late peaks excessively retained or broad."
+            },
+            {
+              "id": "hplc048",
+              "title": "Gradient Dwell Volume",
+              "tags": ["gradient", "dwell-volume", "advanced"],
+              "basic_overview": "Gradient dwell volume वह system volume है जिसके कारण programmed solvent composition और column inlet पर actual composition के बीच time delay हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Important in method transfer: Different instruments can have different dwell volumes, causing gradient timing and retention shifts even with identical nominal methods."
+            },
+            {
+              "id": "hplc049",
+              "title": "Gradient Re-equilibration",
+              "tags": ["gradient", "equilibration"],
+              "basic_overview": "Gradient run के बाद column को starting mobile-phase conditions पर sufficiently re-equilibrate करना जरूरी होता है ताकि next injection reproducible retention दे।",
+              "has_extra_info": true,
+              "extra_info_content": "Failure symptom: Injection-to-injection retention drift, especially early peaks. Cause may be incomplete column re-equilibration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-detectors",
+      "title": "HPLC Detectors",
+      "filters": [
+        { "label": "🔬 Detector", "tag": "detector" },
+        { "label": "📊 Signal", "tag": "analytical" },
+        { "label": "🎯 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "uv-detector",
+          "topic_title": "UV/Vis Detector",
+          "notes_list": [
+            {
+              "id": "hplc050",
+              "title": "UV Detector",
+              "tags": ["uv", "detector"],
+              "basic_overview": "UV detector analyte द्वारा UV/visible radiation के absorption को measure करता है और HPLC में सबसे common detector types में से एक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Suitable analytes: chromophores वाले compounds. Detector wavelength analyte absorption और mobile-phase transparency के आधार पर select की जाती है।"
+            },
+            {
+              "id": "hplc051",
+              "title": "Beer-Lambert Law in HPLC",
+              "tags": ["uv", "beer-lambert", "formula"],
+              "basic_overview": "Suitable linear conditions में absorbance A = εbc होती है। HPLC detector में concentration और path length के साथ detector response related हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "At excessive concentration detector response non-linear हो सकती है। Quantitative method में linearity range experimentally establish करनी होती है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "pda-detector",
+          "topic_title": "PDA/DAD Detector",
+          "notes_list": [
+            {
+              "id": "hplc052",
+              "title": "PDA/DAD क्या है?",
+              "tags": ["pda", "dad", "detector"],
+              "basic_overview": "Photodiode array detector एक साथ multiple wavelengths का spectral information acquire कर सकता है और chromatographic peaks के साथ UV spectra provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Advantage: Peak purity assessment, spectral comparison और wavelength optimization में useful."
+            },
+            {
+              "id": "hplc053",
+              "title": "Peak Purity by PDA",
+              "tags": ["pda", "peak-purity", "qc"],
+              "basic_overview": "PDA spectral comparison के माध्यम से chromatographic peak के भीतर spectral consistency assess करने में मदद कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important limitation: PDA-based peak purity evidence co-eluting compounds के सभी cases को conclusively rule out नहीं करता; method sensitivity and spectral similarity matter."
+            }
+          ]
+        },
+        {
+          "topic_id": "fluorescence-detector",
+          "topic_title": "Fluorescence Detector",
+          "notes_list": [
+            {
+              "id": "hplc054",
+              "title": "Fluorescence Detector",
+              "tags": ["fluorescence", "detector"],
+              "basic_overview": "Fluorescence detector fluorescent analytes या derivatized analytes के emission को measure करता है और suitable compounds के लिए high sensitivity दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Selectivity often UV से higher हो सकती है क्योंकि excitation/emission wavelengths दोनों exploit किए जाते हैं।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ri-detector",
+          "topic_title": "Refractive Index Detector",
+          "notes_list": [
+            {
+              "id": "hplc055",
+              "title": "RI Detector",
+              "tags": ["ri", "detector"],
+              "basic_overview": "Refractive index detector mobile phase और column effluent के refractive index difference को measure करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Major limitation: Temperature-sensitive और gradient-compatible नहीं या poorly compatible in many conventional applications क्योंकि changing mobile-phase composition baseline response change करती है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ms-detector",
+          "topic_title": "LC-MS Detector",
+          "notes_list": [
+            {
+              "id": "hplc056",
+              "title": "Mass Spectrometric Detection",
+              "tags": ["lc-ms", "mass-spectrometry", "advanced"],
+              "basic_overview": "LC-MS chromatographic separation को mass-to-charge based detection के साथ combine करता है, जिससे molecular mass और structural information प्राप्त की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common ionization interfaces include ESI and APCI. LC-MS method development में mobile-phase additives, volatility और source compatibility critical हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-peak-shape",
+      "title": "Peak Shape & Chromatographic Problems",
+      "filters": [
+        { "label": "📈 Peak Shape", "tag": "peak-shape" },
+        { "label": "🔧 Debugging", "tag": "troubleshooting" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "tailing",
+          "topic_title": "Peak Tailing",
+          "notes_list": [
+            {
+              "id": "hplc057",
+              "title": "Peak Tailing क्या है?",
+              "tags": ["tailing", "peak-shape"],
+              "basic_overview": "Peak tailing में chromatographic peak का trailing edge elongated हो जाता है और asymmetry increase होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Possible causes: secondary interactions, active silanol sites, overloaded column, contaminated column, unsuitable pH, dead volumes या sample-solvent mismatch."
+            },
+            {
+              "id": "hplc058",
+              "title": "Tailing Factor",
+              "tags": ["tailing-factor", "formula", "qc"],
+              "basic_overview": "Tailing factor peak asymmetry quantify करने के लिए use किया जाता है। Exact formula pharmacopoeial or software convention पर depend कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "USP-style tailing factor commonly 5% peak height पर distances use करता है: T = W0.05/(2f), जहाँ W0.05 = width at 5% height और f = front half-width."
+            }
+          ]
+        },
+        {
+          "topic_id": "fronting",
+          "topic_title": "Peak Fronting",
+          "notes_list": [
+            {
+              "id": "hplc059",
+              "title": "Peak Fronting",
+              "tags": ["fronting", "troubleshooting"],
+              "basic_overview": "Peak fronting में peak का leading edge distorted/extended हो सकता है। Column overload एक common cause है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Sample concentration/injection volume reduce करें, column condition check करें और injection solvent strength mismatch evaluate करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "split-peaks",
+          "topic_title": "Split Peaks",
+          "notes_list": [
+            {
+              "id": "hplc060",
+              "title": "Peak Splitting के Causes",
+              "tags": ["split-peak", "troubleshooting"],
+              "basic_overview": "Peak splitting injection problems, column connection/fitting issues, voids, incompatible sample solvent या partially blocked/poorly packed column से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug order: Injection system → tubing/fittings → guard column → column inlet → sample solvent → column integrity."
+            }
+          ]
+        },
+        {
+          "topic_id": "broad-peaks",
+          "topic_title": "Broad Peaks",
+          "notes_list": [
+            {
+              "id": "hplc061",
+              "title": "Peak Broadening",
+              "tags": ["broadening", "efficiency"],
+              "basic_overview": "Broad peaks lower efficiency, resolution और sensitivity का कारण बन सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Possible causes: low efficiency column, excessive injection volume, slow mass transfer, wrong flow rate, extra-column volume, column aging or temperature effects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-pressure-troubleshooting",
+      "title": "Pressure Troubleshooting",
+      "filters": [
+        { "label": "📈 High Pressure", "tag": "pressure" },
+        { "label": "📉 Low Pressure", "tag": "pressure" },
+        { "label": "🔧 Debug", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "high-pressure",
+          "topic_title": "Unexpected High Pressure",
+          "notes_list": [
+            {
+              "id": "hplc062",
+              "title": "High Pressure के Common Causes",
+              "tags": ["high-pressure", "troubleshooting"],
+              "basic_overview": "High pressure blocked tubing, frit, guard column, analytical column, precipitated buffer, contaminated mobile phase या excessive viscosity से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Systematic debug: Column disconnect करके pressure compare करें → guard/filter isolate करें → tubing blockage identify करें → mobile phase viscosity/composition verify करें।"
+            },
+            {
+              "id": "hplc063",
+              "title": "Pressure अचानक बढ़ गया",
+              "tags": ["pressure", "debugging"],
+              "basic_overview": "Sudden pressure increase अक्सर blockage, precipitate या particle accumulation की ओर संकेत करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "If buffer + high organic mixing caused precipitation, salt precipitation can block frit/tubing. Mobile phase compatibility हमेशा verify करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "low-pressure",
+          "topic_title": "Unexpected Low Pressure",
+          "notes_list": [
+            {
+              "id": "hplc064",
+              "title": "Low Pressure के Causes",
+              "tags": ["low-pressure", "troubleshooting"],
+              "basic_overview": "Low pressure leaks, empty reservoir, air entering pump, open purge valve, disconnected tubing या pump malfunction से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Solvent level → leaks → pump prime → purge valve → inlet tubing → degasser → pump seals/check valves inspect करें।"
+            },
+            {
+              "id": "hplc065",
+              "title": "Pressure Pulsation",
+              "tags": ["pressure", "pump"],
+              "basic_overview": "Pressure pulsation pump check valves, air bubbles, degassing issues या mechanical problems से associated हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Check solvent degassing, pump priming, inlet frit and check-valve condition before assuming column failure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-baseline-troubleshooting",
+      "title": "Baseline & Detector Troubleshooting",
+      "filters": [
+        { "label": "📊 Baseline", "tag": "baseline" },
+        { "label": "🔧 Detector", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "baseline",
+          "topic_title": "Baseline Problems",
+          "notes_list": [
+            {
+              "id": "hplc066",
+              "title": "Baseline Drift",
+              "tags": ["baseline", "troubleshooting"],
+              "basic_overview": "Baseline drift temperature changes, mobile-phase composition changes, detector equilibration, contamination, flow instability या gradient effects से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "UV detector में mobile-phase absorbance differences, lamp warm-up और temperature changes baseline behaviour को affect कर सकते हैं।"
+            },
+            {
+              "id": "hplc067",
+              "title": "Baseline Noise",
+              "tags": ["noise", "detector"],
+              "basic_overview": "Noise electrical instability, bubbles, dirty flow cell, lamp problems, pump pulsation या environmental interference से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Observe noise with no injection → check flow cell, degassing, pump stability, detector lamp status and mobile-phase cleanliness."
+            },
+            {
+              "id": "hplc068",
+              "title": "Negative Peaks",
+              "tags": ["negative-peak", "detector", "troubleshooting"],
+              "basic_overview": "Negative peaks detector reference और sample mobile-phase mismatch, refractive index effects, wavelength/solvent absorbance या gradient behaviour से arise हो सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "RI detectors में solvent composition changes particularly important हैं। UV systems में sample diluent और mobile phase absorbance mismatch भी inspect करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-mobile-phase-preparation",
+      "title": "Mobile Phase Preparation & Degassing",
+      "filters": [
+        { "label": "🧪 Preparation", "tag": "mobile-phase" },
+        { "label": "⚠️ QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mobile-phase-quality",
+          "topic_title": "Mobile Phase Quality",
+          "notes_list": [
+            {
+              "id": "hplc069",
+              "title": "HPLC Grade Solvents",
+              "tags": ["solvent", "qc"],
+              "basic_overview": "HPLC-grade solvents low particulate, controlled impurity और suitable UV/chemical quality के कारण chromatography में preferred होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Solvent selection should consider detector wavelength, purity, viscosity, miscibility and compatibility with column/method."
+            },
+            {
+              "id": "hplc070",
+              "title": "Filtration",
+              "tags": ["filtration", "mobile-phase", "qc"],
+              "basic_overview": "Mobile phase और samples को appropriate filtration से particulates reduce किए जा सकते हैं, जिससे column और instrument blockage risk कम होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Filter material must be chemically compatible with solvent and analyte. Sample filtration method adsorption losses भी introduce कर सकती है, इसलिए recovery verify करें।"
+            },
+            {
+              "id": "hplc071",
+              "title": "Degassing Methods",
+              "tags": ["degassing", "mobile-phase"],
+              "basic_overview": "Mobile phase degassing vacuum, helium sparging, ultrasonication या online membrane degasser जैसे approaches से किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Modern systems commonly use online vacuum membrane degassers. Ultrasonication alone may not provide long-term degassing during a run."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-sample-preparation",
+      "title": "Sample Preparation",
+      "filters": [
+        { "label": "🧪 Sample", "tag": "sample-preparation" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "sample-prep",
+          "topic_title": "HPLC Sample Preparation",
+          "notes_list": [
+            {
+              "id": "hplc072",
+              "title": "Sample Dilution",
+              "tags": ["sample-preparation", "dilution"],
+              "basic_overview": "Sample concentration detector linear range और column loading के अनुरूप रखनी चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Over-concentrated sample → overload/fronting. Very dilute sample → poor sensitivity/SNR. Dilution factor accurately record करें।"
+            },
+            {
+              "id": "hplc073",
+              "title": "Sample Filtration",
+              "tags": ["filtration", "sample"],
+              "basic_overview": "Sample filtration particulates को remove करके column blockage और pressure increase risk कम करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Filter compatibility and analyte recovery check करें। Adsorptive filters कुछ analytes की concentration reduce कर सकते हैं।"
+            },
+            {
+              "id": "hplc074",
+              "title": "Sample Solvent Mismatch",
+              "tags": ["sample-solvent", "peak-shape"],
+              "basic_overview": "Sample solvent mobile phase से बहुत stronger या incompatible होने पर distorted peak shape, splitting या fronting हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_content": "RP-HPLC में sample को unnecessarily high-organic solvent में dissolve करके inject करने से early peaks distort हो सकती हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-system-suitability",
+      "title": "System Suitability Testing",
+      "filters": [
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "📊 SST", "tag": "sst" },
+        { "label": "📐 Parameters", "tag": "formula" }
+      ],
+      "topics": [
+        {
+          "topic_id": "sst",
+          "topic_title": "System Suitability Parameters",
+          "notes_list": [
+            {
+              "id": "hplc075",
+              "title": "System Suitability क्या है?",
+              "tags": ["sst", "qc"],
+              "basic_overview": "System suitability testing यह verify करती है कि analytical system और method run के समय required performance दे रहे हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common SST parameters: retention time, area precision, theoretical plates, resolution, tailing factor और sometimes signal-to-noise, depending on method."
+            },
+            {
+              "id": "hplc076",
+              "title": "Area %RSD",
+              "tags": ["rsd", "sst", "qc"],
+              "basic_overview": "Repeated standard injections में peak area precision को %RSD से assess किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "%RSD = (standard deviation / mean) × 100. Acceptance criterion method/SOP/regulatory context specific होती है।"
+            },
+            {
+              "id": "hplc077",
+              "title": "Resolution SST",
+              "tags": ["resolution", "sst"],
+              "basic_overview": "Critical pair के बीच resolution method की separation capability assess करने के लिए use होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Baseline separation के लिए Rs approximately 1.5 commonly referenced है, लेकिन actual method specification follow करनी चाहिए।"
+            },
+            {
+              "id": "hplc078",
+              "title": "Plate Count SST",
+              "tags": ["plates", "sst"],
+              "basic_overview": "Theoretical plates column efficiency monitor करने में help करती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Unexpected decrease in N may indicate column aging, contamination, dead volume, inappropriate flow or extra-column dispersion."
+            },
+            {
+              "id": "hplc079",
+              "title": "Tailing Factor SST",
+              "tags": ["tailing", "sst"],
+              "basic_overview": "Tailing factor peak symmetry monitor करने के लिए use होता है। Excessive tailing quantification accuracy और resolution दोनों affect कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Do not troubleshoot tailing only by software integration. First investigate column chemistry, contamination, pH and system connections."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-quantification",
+      "title": "Quantitative HPLC Analysis",
+      "filters": [
+        { "label": "🧮 Quantification", "tag": "quantitative" },
+        { "label": "📊 Calibration", "tag": "calibration" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "external-standard",
+          "topic_title": "External Standard Method",
+          "notes_list": [
+            {
+              "id": "hplc080",
+              "title": "External Standard Calibration",
+              "tags": ["quantification", "calibration"],
+              "basic_overview": "External standard method में known concentration standards से calibration relationship establish करके unknown sample concentration calculate की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical workflow: Prepare standards → inject → plot response vs concentration → regression → analyze sample → calculate concentration with dilution factors."
+            },
+            {
+              "id": "hplc081",
+              "title": "Calibration Curve",
+              "tags": ["calibration", "linearity"],
+              "basic_overview": "Calibration curve detector response और analyte concentration के बीच empirical relationship establish करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Do not rely only on R². Residuals, range, weighting, back-calculated accuracy and response behaviour should also be evaluated where appropriate."
+            }
+          ]
+        },
+        {
+          "topic_id": "internal-standard",
+          "topic_title": "Internal Standard Method",
+          "notes_list": [
+            {
+              "id": "hplc082",
+              "title": "Internal Standard",
+              "tags": ["internal-standard", "quantification"],
+              "basic_overview": "Internal standard method में sample और standards में known amount का अलग compound add किया जाता है और analyte/internal-standard response ratio use किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Good internal standard should behave similarly during sample preparation and injection but remain chromatographically distinguishable from analyte and matrix components."
+            },
+            {
+              "id": "hplc083",
+              "title": "Response Factor",
+              "tags": ["response-factor", "quantification"],
+              "basic_overview": "Response factor analyte और reference/internal standard के detector responses को concentration relationship में account करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Response factors detector type, wavelength and compound chemistry पर depend करते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-method-validation",
+      "title": "HPLC Method Validation",
+      "filters": [
+        { "label": "📋 Validation", "tag": "validation" },
+        { "label": "🏭 Pharma QC", "tag": "qc" },
+        { "label": "🎯 Interview", "tag": "interview" }
+      ],
+      "topics": [
+        {
+          "topic_id": "validation-parameters",
+          "topic_title": "Validation Characteristics",
+          "notes_list": [
+            {
+              "id": "hplc084",
+              "title": "Specificity",
+              "tags": ["validation", "specificity"],
+              "basic_overview": "Specificity यह demonstrate करती है कि method analyte को relevant impurities, degradation products, matrix या other components की presence में appropriately distinguish कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical evidence: blank, placebo, standard, sample, impurity-spiked and stressed samples as appropriate to method purpose."
+            },
+            {
+              "id": "hplc085",
+              "title": "Accuracy",
+              "tags": ["validation", "accuracy"],
+              "basic_overview": "Accuracy measured result की accepted/reference value के निकटता को represent करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Often evaluated through recovery studies at suitable concentration levels, depending on analytical purpose."
+            },
+            {
+              "id": "hplc086",
+              "title": "Precision",
+              "tags": ["validation", "precision"],
+              "basic_overview": "Precision repeated measurements के बीच agreement को describe करती है। Repeatability और intermediate precision commonly considered हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Precision is commonly expressed as SD or %RSD."
+            },
+            {
+              "id": "hplc087",
+              "title": "Linearity",
+              "tags": ["validation", "linearity"],
+              "basic_overview": "Linearity analytical response और analyte concentration के बीच suitable relationship establish करती है over a defined range.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Evaluate calibration model using appropriate statistical and graphical evidence rather than relying only on correlation coefficient."
+            },
+            {
+              "id": "hplc088",
+              "title": "Range",
+              "tags": ["validation", "range"],
+              "basic_overview": "Range वह concentration interval है जिसमें method required accuracy, precision और response characteristics के साथ suitable performance देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Range method purpose पर depend करता है: assay, impurity, dissolution etc. के लिए ranges अलग हो सकती हैं।"
+            },
+            {
+              "id": "hplc089",
+              "title": "LOD और LOQ",
+              "tags": ["lod", "loq", "validation"],
+              "basic_overview": "LOD lowest level of analyte detection से related है जबकि LOQ वह lower level है जहाँ analyte को suitable quantitative precision/accuracy के साथ quantify किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common signal-to-noise concepts: LOD around 3:1 and LOQ around 10:1 are often cited as approximate approaches, but validated calculation procedures may vary."
+            },
+            {
+              "id": "hplc090",
+              "title": "Robustness",
+              "tags": ["validation", "robustness"],
+              "basic_overview": "Robustness method की small deliberate variations के प्रति performance stability evaluate करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Variables can include pH, flow, organic percentage, temperature, wavelength or column-related parameters, depending on method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-system-development",
+      "title": "HPLC Method Development",
+      "filters": [
+        { "label": "⚙️ Development", "tag": "method-development" },
+        { "label": "🧪 Chemistry", "tag": "chemistry" },
+        { "label": "📈 Optimization", "tag": "optimization" }
+      ],
+      "topics": [
+        {
+          "topic_id": "method-development-workflow",
+          "topic_title": "Method Development Workflow",
+          "notes_list": [
+            {
+              "id": "hplc091",
+              "title": "Method Development का First Step",
+              "tags": ["method-development", "strategy"],
+              "basic_overview": "Analyte properties, target compounds, impurities, concentration range, detector response और required resolution को पहले define करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Collect: molecular structure, pKa, logP/logD, solubility, UV spectrum, stability, likely impurities and sample matrix."
+            },
+            {
+              "id": "hplc092",
+              "title": "Column Selection",
+              "tags": ["column", "method-development"],
+              "basic_overview": "Column chemistry selection analyte polarity, hydrophobicity, ionization, selectivity requirement और sample complexity के आधार पर की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "RP screening में C18 common starting point है, लेकिन phenyl, cyano, polar-embedded, mixed-mode या other phases specific selectivity problems solve कर सकती हैं।"
+            },
+            {
+              "id": "hplc093",
+              "title": "Organic Modifier Optimization",
+              "tags": ["organic-modifier", "method-development"],
+              "basic_overview": "Organic solvent percentage retention, selectivity और analysis time को strongly influence करती है।",
+              "has_extra_info": true,
+              "extra_info_content": "RP-HPLC में organic percentage increase करने से many hydrophobic analytes की retention generally decrease होती है। Exact selectivity may also change."
+            },
+            {
+              "id": "hplc094",
+              "title": "Temperature का Effect",
+              "tags": ["temperature", "method-development"],
+              "basic_overview": "Column temperature mobile-phase viscosity, analyte-stationary phase interactions, retention और selectivity को affect कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_content": "Higher temperature अक्सर viscosity और pressure reduce कर सकती है, लेकिन selectivity और analyte stability भी change हो सकती है।"
+            },
+            {
+              "id": "hplc095",
+              "title": "Flow Rate Optimization",
+              "tags": ["flow-rate", "method-development"],
+              "basic_overview": "Flow rate retention time, efficiency, pressure और analysis time को simultaneously affect करता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Use Van Deemter logic rather than simply choosing maximum or minimum flow. Optimize around suitable efficiency/pressure/time balance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-column-care",
+      "title": "Column Care & Maintenance",
+      "filters": [
+        { "label": "🧪 Column Care", "tag": "maintenance" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "column-maintenance",
+          "topic_title": "Column Maintenance",
+          "notes_list": [
+            {
+              "id": "hplc096",
+              "title": "Column को Directly Damage करने वाली Practices",
+              "tags": ["column-care", "maintenance"],
+              "basic_overview": "Incompatible solvents, precipitating buffers, excessive pressure, inappropriate pH या particulate contamination column lifetime reduce कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Always check manufacturer specifications for pH range, temperature, pressure and solvent compatibility before changing conditions."
+            },
+            {
+              "id": "hplc097",
+              "title": "Column Flushing",
+              "tags": ["flushing", "maintenance"],
+              "basic_overview": "Column flushing strongly retained contaminants और accumulated residues remove करने में मदद कर सकती है, provided the flushing solvent is compatible with column chemistry.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important: Buffer-containing mobile phase को high-organic solvent से directly replace करने पर precipitation हो सकती है। Transition solvent compatibility check करें।"
+            },
+            {
+              "id": "hplc098",
+              "title": "Column Storage",
+              "tags": ["storage", "maintenance"],
+              "basic_overview": "Column को manufacturer-recommended solvent में appropriately capped और stored रखना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_content": "Never assume water storage is universally safe. Column chemistry-specific storage recommendation follow करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-artifacts",
+      "title": "Common HPLC Artifacts",
+      "filters": [
+        { "label": "⚠️ Artifact", "tag": "artifact" },
+        { "label": "🔧 Diagnosis", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "artifacts",
+          "topic_title": "Chromatographic Artifacts",
+          "notes_list": [
+            {
+              "id": "hplc099",
+              "title": "Ghost Peaks",
+              "tags": ["ghost-peaks", "artifact"],
+              "basic_overview": "Ghost peaks ऐसे unexpected peaks हैं जो previous injections, carryover, contamination या system memory effects से appear हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Blank injection → wash cycle → needle/loop cleaning → column/system flush → mobile phase contamination check."
+            },
+            {
+              "id": "hplc100",
+              "title": "Carryover",
+              "tags": ["carryover", "autosampler"],
+              "basic_overview": "Carryover में previous high-concentration sample का residual analyte subsequent injection में appear होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Solutions may include optimized needle wash, stronger wash solvent, injection path cleaning, lower sample concentration and system suitability checks."
+            },
+            {
+              "id": "hplc101",
+              "title": "Solvent Front / Injection Disturbance",
+              "tags": ["artifact", "injection"],
+              "basic_overview": "Very early disturbance injection solvent, refractive index effects, detector mismatch या sample solvent composition से related हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Do not automatically assign every early signal as an analyte peak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-special-techniques",
+      "title": "Advanced HPLC Techniques",
+      "filters": [
+        { "label": "🚀 Advanced", "tag": "advanced" },
+        { "label": "🔬 UHPLC", "tag": "uhplc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "uhplc",
+          "topic_title": "UHPLC",
+          "notes_list": [
+            {
+              "id": "hplc102",
+              "title": "UHPLC क्या है?",
+              "tags": ["uhplc", "advanced"],
+              "basic_overview": "Ultra High Performance Liquid Chromatography smaller particles और higher operating pressures का उपयोग करके high efficiency और fast separations achieve कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Trade-off: Higher pressure capability, optimized low-dispersion system और suitable column hardware required होता है।"
+            },
+            {
+              "id": "hplc103",
+              "title": "HPLC vs UHPLC",
+              "tags": ["hplc", "uhplc", "comparison"],
+              "basic_overview": "UHPLC generally smaller particles, higher pressure capability और lower system dispersion के साथ higher efficiency/faster analysis enable कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Point: UHPLC को केवल 'high pressure HPLC' कहना incomplete है; particle size, system dispersion, column dimensions और optimized instrumentation सभी important हैं।"
+            }
+          ]
+        },
+        {
+          "topic_id": "two-dimensional-lc",
+          "topic_title": "2D-LC",
+          "notes_list": [
+            {
+              "id": "hplc104",
+              "title": "Two-Dimensional Liquid Chromatography",
+              "tags": ["2d-lc", "advanced"],
+              "basic_overview": "2D-LC दो chromatographic separation dimensions को combine करके complex samples के लिए peak capacity improve कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Concept: First dimension एक selectivity mechanism use करती है और second dimension complementary separation provide कर सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-pharma",
+      "title": "Pharmaceutical & QC Applications",
+      "filters": [
+        { "label": "💊 Pharma", "tag": "pharma" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "🧪 Analytical", "tag": "analytical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "pharma-applications",
+          "topic_title": "Pharmaceutical HPLC",
+          "notes_list": [
+            {
+              "id": "hplc105",
+              "title": "Assay",
+              "tags": ["assay", "pharma", "qc"],
+              "basic_overview": "HPLC assay method drug substance/product में target active ingredient की quantity determine करने के लिए use की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical workflow: standard preparation → sample preparation → SST → injections → calculation → system/method acceptance."
+            },
+            {
+              "id": "hplc106",
+              "title": "Related Substances / Impurity Profiling",
+              "tags": ["impurity", "related-substances"],
+              "basic_overview": "HPLC closely related impurities और degradation products को separate और quantify करने के लिए widely used है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Method को critical impurity pairs के लिए adequate specificity and resolution provide करनी चाहिए।"
+            },
+            {
+              "id": "hplc107",
+              "title": "Stability-Indicating HPLC",
+              "tags": ["stability", "degradation", "pharma"],
+              "basic_overview": "Stability-indicating method को active analyte को relevant degradation products से distinguish करने की क्षमता demonstrate करनी चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Forced degradation studies method specificity/degradation behaviour understand करने के लिए method development में useful हो सकती हैं."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-calculations",
+      "title": "Important HPLC Calculations",
+      "filters": [
+        { "label": "🧮 Numerical", "tag": "numerical" },
+        { "label": "📐 Formula", "tag": "formula" },
+        { "label": "🎯 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "calculation-formulas",
+          "topic_title": "High-Yield HPLC Formulae",
+          "notes_list": [
+            {
+              "id": "hplc108",
+              "title": "Retention Factor Calculation",
+              "tags": ["numerical", "formula"],
+              "basic_overview": "k = (tR − t0)/t0.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: tR=8 min, t0=2 min → k=(8−2)/2=3."
+            },
+            {
+              "id": "hplc109",
+              "title": "Plate Number Calculation",
+              "tags": ["numerical", "plates"],
+              "basic_overview": "Baseline width method: N = 16(tR/W)². Half-height method: N = 5.54(tR/W1/2)².",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Be careful: width units must match retention-time units."
+            },
+            {
+              "id": "hplc110",
+              "title": "HETP Calculation",
+              "tags": ["hetp", "numerical"],
+              "basic_overview": "HETP = column length / theoretical plate number = L/N.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Lower HETP generally indicates better efficiency."
+            },
+            {
+              "id": "hplc111",
+              "title": "Resolution Calculation",
+              "tags": ["resolution", "numerical"],
+              "basic_overview": "Rs = 2(tR2−tR1)/(W1+W2) for baseline-width convention.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Always identify which peak-width convention the question provides before applying the formula."
+            },
+            {
+              "id": "hplc112",
+              "title": "%RSD Calculation",
+              "tags": ["rsd", "numerical", "qc"],
+              "basic_overview": "%RSD = (standard deviation / mean) × 100.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Mean area 100000, SD 500 → %RSD = 0.5%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-exam-tricks",
+      "title": "MSc Entrance, GATE, PSU & Interview Tricks",
+      "filters": [
+        { "label": "🎓 MSc", "tag": "msc" },
+        { "label": "🎯 GATE", "tag": "gate" },
+        { "label": "🏭 PSU", "tag": "psu" },
+        { "label": "💼 Interview", "tag": "interview" }
+      ],
+      "topics": [
+        {
+          "topic_id": "exam-tricks",
+          "topic_title": "High-Yield Exam Concepts",
+          "notes_list": [
+            {
+              "id": "hplc113",
+              "title": "RP-HPLC का One-Line Rule",
+              "tags": ["gate", "msc", "trick"],
+              "basic_overview": "Reverse phase = non-polar stationary phase + relatively polar mobile phase.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "C18 is a classic RP stationary phase."
+            },
+            {
+              "id": "hplc114",
+              "title": "Small Particle Trade-Off",
+              "tags": ["gate", "column", "trick"],
+              "basic_overview": "Smaller particles generally improve efficiency potential but increase pressure drop.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: Small particles → high efficiency + high pressure."
+            },
+            {
+              "id": "hplc115",
+              "title": "Gradient Memory Trick",
+              "tags": ["gradient", "trick"],
+              "basic_overview": "RP gradient में organic percentage increase करने पर strongly retained hydrophobic compounds generally जल्दी elute होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical RP order: weak organic at start → stronger organic later."
+            },
+            {
+              "id": "hplc116",
+              "title": "High Pressure Debug Rule",
+              "tags": ["troubleshooting", "psu", "interview"],
+              "basic_overview": "High pressure में सबसे पहले blockage, frit, guard column, tubing, precipitated buffer और viscosity check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Never immediately blame the analytical column. Isolate the pressure source systematically."
+            },
+            {
+              "id": "hplc117",
+              "title": "Low Pressure Debug Rule",
+              "tags": ["troubleshooting", "interview"],
+              "basic_overview": "Low pressure में leaks, empty reservoir, air, open purge path, pump priming और pump hardware check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Low pressure + unstable flow strongly suggests solvent delivery issue before column separation issue."
+            },
+            {
+              "id": "hplc118",
+              "title": "Tailing Debug Rule",
+              "tags": ["tailing", "interview"],
+              "basic_overview": "Tailing में column chemistry, secondary interactions, contamination, pH, overload और system dead volume investigate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Basic exam distinction: overload can cause fronting; active-site/secondary-interaction problems often contribute to tailing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-case-studies",
+      "title": "Real-World HPLC Debugging Case Studies",
+      "filters": [
+        { "label": "🔧 Case Study", "tag": "troubleshooting" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "🧠 Diagnosis", "tag": "problem-solving" }
+      ],
+      "topics": [
+        {
+          "topic_id": "case-study-1",
+          "topic_title": "Case: Retention Time Suddenly Increased",
+          "notes_list": [
+            {
+              "id": "hplc119",
+              "title": "RT Drift to Higher Time",
+              "tags": ["retention-time", "troubleshooting"],
+              "basic_overview": "Retention time अचानक बढ़ने पर mobile-phase composition, flow rate, temperature, pH, column condition और gradient equilibration investigate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "RP-HPLC checklist: organic percentage correct? pump delivering correct flow? buffer pH correct? column equilibrated? temperature stable? gradient dwell/solvent mixing correct?"
+            }
+          ]
+        },
+        {
+          "topic_id": "case-study-2",
+          "topic_title": "Case: Peak Area Decreasing",
+          "notes_list": [
+            {
+              "id": "hplc120",
+              "title": "Response Loss",
+              "tags": ["area", "detector", "troubleshooting"],
+              "basic_overview": "Peak area decrease detector sensitivity, sample degradation, injection problem, adsorption, concentration error या mobile-phase/sample preparation change से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Diagnosis: Check standard response → injection precision → detector wavelength/lamp → sample stability → dilution calculation → autosampler path."
+            }
+          ]
+        },
+        {
+          "topic_id": "case-study-3",
+          "topic_title": "Case: Resolution अचानक खराब",
+          "tags": ["resolution", "troubleshooting"],
+          "notes_list": [
+            {
+              "id": "hplc121",
+              "title": "Critical Pair No Longer Separated",
+              "tags": ["resolution", "column", "debugging"],
+              "basic_overview": "Resolution loss column efficiency, selectivity change, mobile-phase pH/composition, temperature, flow rate या column aging/contamination से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Compare SST history: N decreased? tailing increased? retention changed? If yes, determine whether problem is efficiency, selectivity or retention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-advanced-theory",
+      "title": "Advanced Chromatographic Theory",
+      "filters": [
+        { "label": "🚀 Advanced", "tag": "advanced" },
+        { "label": "📐 Theory", "tag": "theory" }
+      ],
+      "topics": [
+        {
+          "topic_id": "capacity-selectivity-resolution",
+          "topic_title": "Relationship Between k, α, N and Rs",
+          "notes_list": [
+            {
+              "id": "hplc122",
+              "title": "Resolution Equation",
+              "tags": ["resolution", "advanced"],
+              "basic_overview": "Chromatographic resolution approximately retention, selectivity और efficiency के combined effects पर depend करती है। A common expression is Rs = (√N/4) × ((α−1)/α) × (k₂/(1+k₂)).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Insight: N बढ़ाने से resolution improve होती है, लेकिन α को slightly change करना कई situations में much larger impact दे सकता है। k बहुत low होने पर retention insufficient और excessively high होने पर analysis unnecessarily long हो सकती है।"
+            },
+            {
+              "id": "hplc123",
+              "title": "Capacity Factor और Elution",
+              "tags": ["capacity-factor", "retention"],
+              "basic_overview": "k analyte retention को quantify करता है। Very low k में peaks solvent front के पास होती हैं, जबकि very high k में analysis unnecessarily लंबा हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Method development का objective केवल maximum retention नहीं, बल्कि suitable retention + selectivity + efficiency + practical run time है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hplc-quick-revision",
+      "title": "HPLC Rapid Revision",
+      "filters": [
+        { "label": "⚡ One-Liners", "tag": "revision" },
+        { "label": "🎯 Exam Hall", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "rapid-revision",
+          "topic_title": "One-Minute HPLC Revision",
+          "notes_list": [
+            {
+              "id": "hplc124",
+              "title": "RP-HPLC",
+              "tags": ["revision"],
+              "basic_overview": "Non-polar stationary phase + polar mobile phase.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "C18 = classic reverse-phase stationary phase."
+            },
+            {
+              "id": "hplc125",
+              "title": "Retention Factor",
+              "tags": ["revision", "formula"],
+              "basic_overview": "k = (tR−t0)/t0.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "k tells how strongly an analyte is retained relative to an unretained species."
+            },
+            {
+              "id": "hplc126",
+              "title": "Resolution",
+              "tags": ["revision", "formula"],
+              "basic_overview": "Rs measures separation between two chromatographic peaks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Rs ≈ 1.5 is commonly associated with baseline separation, subject to method-specific requirements."
+            },
+            {
+              "id": "hplc127",
+              "title": "Efficiency",
+              "tags": ["revision"],
+              "basic_overview": "Higher N and lower HETP generally indicate better column efficiency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "N = 16(tR/W)² or 5.54(tR/W1/2)²."
+            },
+            {
+              "id": "hplc128",
+              "title": "Van Deemter",
+              "tags": ["revision"],
+              "basic_overview": "H = A + B/u + Cu.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A = eddy diffusion; B/u = longitudinal diffusion; Cu = mass transfer."
+            },
+            {
+              "id": "hplc129",
+              "title": "High Pressure",
+              "tags": ["revision", "troubleshooting"],
+              "basic_overview": "First investigate blockage, frit, guard column, tubing, precipitated buffer, viscosity and flow conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Isolate the system section rather than immediately replacing the analytical column."
+            },
+            {
+              "id": "hplc130",
+              "title": "Low Pressure",
+              "tags": ["revision", "troubleshooting"],
+              "basic_overview": "Check solvent supply, leaks, air, purge path, pump priming and pump hardware.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Low pressure usually points toward solvent-delivery problems rather than a packed-column blockage."
+            },
+            {
+              "id": "hplc131",
+              "title": "Tailing vs Fronting",
+              "tags": ["revision", "peak-shape"],
+              "basic_overview": "Tailing = extended trailing edge; fronting = extended leading edge.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fronting often suggests overload; tailing can arise from secondary interactions, active sites, contamination or system issues."
+            },
+            {
+              "id": "hplc132",
+              "title": "FTIR नहीं, HPLC में Main Separation Driver",
+              "tags": ["revision", "concept"],
+              "basic_overview": "HPLC separation stationary phase और mobile phase के बीच analyte interactions के differences से होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Always think: analyte chemistry → stationary phase interaction → mobile phase strength → retention → selectivity → resolution."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

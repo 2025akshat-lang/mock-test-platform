@@ -1,0 +1,924 @@
+{
+  "chapter_title": "English Vocabulary: Exam Tips & Tricks",
+  "sections": [
+    {
+      "id": "vocab-basics",
+      "title": "Vocabulary Fundamentals",
+      "filters": [
+        {
+          "label": "📚 Vocabulary Basics",
+          "tag": "vocab-basics"
+        },
+        {
+          "label": "🎯 SSC",
+          "tag": "ssc"
+        },
+        {
+          "label": "🏛️ DSSSB",
+          "tag": "dsssb"
+        },
+        {
+          "label": "📖 UPSC",
+          "tag": "upsc"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-basics-01",
+          "topic_title": "How to Approach Vocabulary Questions",
+          "notes_list": [
+            {
+              "id": "v001",
+              "title": "Context Before Dictionary Meaning",
+              "tags": ["vocab-basics", "context"],
+              "basic_overview": "• Never depend only on the first dictionary meaning of a word.<br>• Read the complete sentence and identify the contextual meaning.<br>• Check whether the word is being used positively, negatively, literally or figuratively.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 In competitive exams, a familiar word may be used in an unfamiliar sense. Context should be the first source of interpretation."
+            },
+            {
+              "id": "v002",
+              "title": "Do Not Memorise Words in Isolation",
+              "tags": ["vocab-basics"],
+              "basic_overview": "• Learn a word with its meaning, synonym, antonym, common collocation and one example sentence.<br>• Group related words instead of memorising random lists.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: abundant → plentiful → scarce as antonym → abundant resources. Learning the word network improves recall."
+            },
+            {
+              "id": "v003",
+              "title": "Active vs Passive Vocabulary",
+              "tags": ["vocab-basics"],
+              "basic_overview": "• <b>Passive vocabulary:</b> words recognised while reading.<br>• <b>Active vocabulary:</b> words that can be correctly used in speech or writing.<br>• Competitive exams mainly test recognition, meaning and usage, but active practice strengthens recall.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 Write short original sentences using difficult words to convert recognition into usable knowledge."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synonyms",
+      "title": "Synonyms",
+      "filters": [
+        {
+          "label": "🔄 Synonyms",
+          "tag": "synonyms"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-synonyms-01",
+          "topic_title": "Synonym Solving Strategy",
+          "notes_list": [
+            {
+              "id": "v101",
+              "title": "Meaning First, Option Second",
+              "tags": ["synonyms"],
+              "basic_overview": "• First determine the meaning of the given word.<br>• Then compare the options with that meaning.<br>• Do not simply choose an option that looks familiar.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎯 If the exact meaning is uncertain, identify whether the word expresses a positive, negative, neutral, intense or mild idea."
+            },
+            {
+              "id": "v102",
+              "title": "Degree of Meaning",
+              "tags": ["synonyms"],
+              "basic_overview": "• Two words can be related but differ in intensity.<br>• Select the option closest in meaning and grammatical usage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: angry and furious are related, but furious indicates stronger intensity."
+            },
+            {
+              "id": "v103",
+              "title": "Part of Speech Check",
+              "tags": ["synonyms"],
+              "basic_overview": "• Check whether the question word is a noun, verb, adjective or adverb.<br>• Prefer an option that matches both meaning and grammatical category.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: rapid is an adjective, while rapidly is an adverb. A synonym must fit the required grammatical role."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-synonyms-02",
+          "topic_title": "Unknown Synonym Strategy",
+          "notes_list": [
+            {
+              "id": "v104",
+              "title": "Root Word Method",
+              "tags": ["synonyms", "roots"],
+              "basic_overview": "• Break unfamiliar words into familiar roots, prefixes and suffixes.<br>• Use the likely meaning to eliminate unrelated options.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: bene- relates to good/well; mal- relates to bad; anti- indicates against; pre- indicates before."
+            },
+            {
+              "id": "v105",
+              "title": "Positive-Negative Elimination",
+              "tags": ["synonyms", "elimination"],
+              "basic_overview": "• If the exact meaning is unknown, first determine the emotional or semantic direction of the word.<br>• Eliminate options with the opposite direction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 This method does not guarantee the answer, but it can reduce the options when exact recall fails."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antonyms",
+      "title": "Antonyms",
+      "filters": [
+        {
+          "label": "↔️ Antonyms",
+          "tag": "antonyms"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-antonyms-01",
+          "topic_title": "Antonym Solving Strategy",
+          "notes_list": [
+            {
+              "id": "v201",
+              "title": "Understand the Exact Meaning",
+              "tags": ["antonyms"],
+              "basic_overview": "• Identify the exact sense of the given word before searching for its opposite.<br>• A word can have different antonyms depending on context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: 'light' may oppose heavy, dark or serious depending on its context."
+            },
+            {
+              "id": "v202",
+              "title": "True Opposite vs Related Word",
+              "tags": ["antonyms"],
+              "basic_overview": "• A related word is not necessarily an antonym.<br>• Look for a word that reverses or directly contrasts the relevant meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: generous and kind are related ideas, but neither is necessarily the direct antonym of the other."
+            },
+            {
+              "id": "v203",
+              "title": "Prefix-Based Antonyms",
+              "tags": ["antonyms"],
+              "basic_overview": "• Some opposites are formed using prefixes such as un-, in-, im-, ir-, il-, dis- and non-.<br>• However, not every word accepts every negative prefix.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Examples: possible → impossible, regular → irregular, legal → illegal, honest → dishonest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-word-substitution",
+      "title": "One Word Substitution",
+      "filters": [
+        {
+          "label": "🧩 One Word Substitution",
+          "tag": "one-word"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-oneword-01",
+          "topic_title": "One Word Identification",
+          "notes_list": [
+            {
+              "id": "v301",
+              "title": "Identify the Core Definition",
+              "tags": ["one-word"],
+              "basic_overview": "• Read the complete definition carefully.<br>• Identify the key concept, person, action, place or condition being described.<br>• Then match it with the exact vocabulary term.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: One who loves mankind → philanthropist. One who hates mankind → misanthrope."
+            },
+            {
+              "id": "v302",
+              "title": "Person-Based One Word Substitutions",
+              "tags": ["one-word"],
+              "basic_overview": "• One who speaks many languages → polyglot.<br>• One who knows everything → omniscient.<br>• One who loves books → bibliophile.<br>• One who hates mankind → misanthrope.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📚 Learn one-word substitutions in semantic groups rather than alphabetically."
+            },
+            {
+              "id": "v303",
+              "title": "Place, Practice & Concept Based Words",
+              "tags": ["one-word"],
+              "basic_overview": "• Place-related, practice-related and concept-related substitutions should be learned separately.<br>• Pay attention to subtle differences between similar definitions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 Grouping improves recall: government, professions, places, beliefs, habits, time periods and conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idioms",
+      "title": "Idioms & Phrases",
+      "filters": [
+        {
+          "label": "💬 Idioms",
+          "tag": "idioms"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-idioms-01",
+          "topic_title": "How to Solve Idiom Questions",
+          "notes_list": [
+            {
+              "id": "v401",
+              "title": "Do Not Interpret Literally",
+              "tags": ["idioms"],
+              "basic_overview": "• Idioms often have meanings different from the literal meanings of their individual words.<br>• Learn the complete expression as a unit.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Example: 'Break the ice' means to initiate conversation or reduce social tension, not literally break ice."
+            },
+            {
+              "id": "v402",
+              "title": "Use the Sentence Context",
+              "tags": ["idioms"],
+              "basic_overview": "• Read the sentence containing the idiom.<br>• Determine what meaning fits the situation, action and tone.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "📌 Context can distinguish between options that look similar in meaning."
+            },
+            {
+              "id": "v403",
+              "title": "Idioms as Situations",
+              "tags": ["idioms"],
+              "basic_overview": "• Memorise an idiom together with the situation in which it is used.<br>• This is more effective than memorising only its Hindi translation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Example: 'Once in a blue moon' → something happening very rarely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "title": "Phrasal Verbs",
+      "filters": [
+        {
+          "label": "🔧 Phrasal Verbs",
+          "tag": "phrasal-verbs"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-phrasal-01",
+          "topic_title": "Common Phrasal Verb Strategy",
+          "notes_list": [
+            {
+              "id": "v501",
+              "title": "Verb + Particle Changes Meaning",
+              "tags": ["phrasal-verbs"],
+              "basic_overview": "• A phrasal verb consists of a verb plus a particle or preposition.<br>• The combination may have a meaning different from the original verb.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Examples: give up = quit; look after = take care of; carry on = continue."
+            },
+            {
+              "id": "v502",
+              "title": "Separable & Inseparable Phrasal Verbs",
+              "tags": ["phrasal-verbs"],
+              "basic_overview": "• Some phrasal verbs allow the object to come between the verb and particle.<br>• Others do not.<br>• Pronoun objects often follow specific placement rules.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: turn off the light / turn the light off / turn it off. Not: turn off it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spellings",
+      "title": "Spelling & Spelling Errors",
+      "filters": [
+        {
+          "label": "✍️ Spelling",
+          "tag": "spelling"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-spelling-01",
+          "topic_title": "Competitive Exam Spelling Strategy",
+          "notes_list": [
+            {
+              "id": "v601",
+              "title": "Look for Letter Patterns",
+              "tags": ["spelling"],
+              "basic_overview": "• Pay attention to common spelling patterns, silent letters, double consonants and vowel combinations.<br>• Compare every option letter by letter when necessary.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Commonly tested examples include accommodation, separate, necessary, privilege, pronunciation and questionnaire."
+            },
+            {
+              "id": "v602",
+              "title": "Double Letter Traps",
+              "tags": ["spelling"],
+              "basic_overview": "• Many spelling questions test whether a consonant or vowel is doubled correctly.<br>• Break the word into syllables and compare familiar word families.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: accommodation has double c and double m."
+            },
+            {
+              "id": "v603",
+              "title": "British & Exam-Oriented Spellings",
+              "tags": ["spelling"],
+              "basic_overview": "• Competitive exams in India may use British/Indian English conventions.<br>• Be familiar with common forms such as colour, centre, labour and programme.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📌 Always follow the spelling convention used by the particular examination and question source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confusing-words",
+      "title": "Confusing Words",
+      "filters": [
+        {
+          "label": "⚠️ Confusing Words",
+          "tag": "confusing-words"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-confusing-01",
+          "topic_title": "Commonly Confused Word Pairs",
+          "notes_list": [
+            {
+              "id": "v701",
+              "title": "Accept & Except",
+              "tags": ["confusing-words"],
+              "basic_overview": "• <b>Accept:</b> receive or agree to.<br>• <b>Except:</b> excluding.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Example: I accept your proposal. Everyone came except Ravi."
+            },
+            {
+              "id": "v702",
+              "title": "Affect & Effect",
+              "tags": ["confusing-words"],
+              "basic_overview": "• <b>Affect:</b> commonly used as a verb meaning influence.<br>• <b>Effect:</b> commonly used as a noun meaning result.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Example: The decision affected the result. The effect was significant."
+            },
+            {
+              "id": "v703",
+              "title": "Principal & Principle",
+              "tags": ["confusing-words"],
+              "basic_overview": "• <b>Principal:</b> chief/head or a sum of money.<br>• <b>Principle:</b> fundamental rule or belief.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Memory aid: principal can be a person or principal amount; principle is a rule or belief."
+            },
+            {
+              "id": "v704",
+              "title": "Compliment & Complement",
+              "tags": ["confusing-words"],
+              "basic_overview": "• <b>Compliment:</b> praise.<br>• <b>Complement:</b> something that completes or goes well with something else.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Example: She complimented my work. The sauce complements the dish."
+            },
+            {
+              "id": "v705",
+              "title": "Stationary & Stationery",
+              "tags": ["confusing-words"],
+              "basic_overview": "• <b>Stationary:</b> not moving.<br>• <b>Stationery:</b> writing materials.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Memory aid: stationery → e for envelopes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-words",
+      "title": "Root Words, Prefixes & Suffixes",
+      "filters": [
+        {
+          "label": "🌱 Root Words",
+          "tag": "roots"
+        },
+        {
+          "label": "➕ Prefix",
+          "tag": "prefix"
+        },
+        {
+          "label": "🔚 Suffix",
+          "tag": "suffix"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-roots-01",
+          "topic_title": "Important Root Words",
+          "notes_list": [
+            {
+              "id": "v801",
+              "title": "Common Latin & Greek Roots",
+              "tags": ["roots"],
+              "basic_overview": "• bio → life<br>• geo → earth<br>• chron → time<br>• graph → write/record<br>• phon → sound<br>• scope → look/examine<br>• dict → say/speak<br>• aud → hear",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: biography, geography, chronology, autograph, telephone, microscope, predict, audible."
+            },
+            {
+              "id": "v802",
+              "title": "Use Roots to Guess Meaning",
+              "tags": ["roots"],
+              "basic_overview": "• When a word is unfamiliar, identify any familiar root.<br>• Combine the root meaning with the context to estimate the word's meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Root analysis is an elimination tool, not a guarantee. English words can develop meanings that differ from their original roots."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-roots-02",
+          "topic_title": "Prefixes",
+          "notes_list": [
+            {
+              "id": "v803",
+              "title": "Common Prefixes",
+              "tags": ["prefix"],
+              "basic_overview": "• anti- → against<br>• pre- → before<br>• post- → after<br>• inter- → between<br>• trans- → across/change<br>• sub- → under<br>• super- → above/beyond<br>• mis- → wrongly",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples: antisocial, preview, postgraduate, international, transport, submarine, supernatural, misunderstand."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-roots-03",
+          "topic_title": "Suffixes",
+          "notes_list": [
+            {
+              "id": "v804",
+              "title": "Common Suffixes",
+              "tags": ["suffix"],
+              "basic_overview": "• -less → without<br>• -ful → full of<br>• -able → capable of<br>• -tion → action/process<br>• -ness → state/quality<br>• -ment → result/process<br>• -ist → person associated with an activity or belief",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples: hopeless, useful, readable, education, kindness, development, scientist."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context-clues",
+      "title": "Context Clues",
+      "filters": [
+        {
+          "label": "🔍 Context Clues",
+          "tag": "context"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-context-01",
+          "topic_title": "Types of Context Clues",
+          "notes_list": [
+            {
+              "id": "v901",
+              "title": "Definition Clue",
+              "tags": ["context"],
+              "basic_overview": "• Sometimes the sentence directly explains an unfamiliar word through a definition or restatement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Look for signals such as 'that is', 'meaning', 'in other words' and explanatory phrases."
+            },
+            {
+              "id": "v902",
+              "title": "Example Clue",
+              "tags": ["context"],
+              "basic_overview": "• Examples following an unfamiliar word can reveal its meaning.<br>• Look for phrases such as for example, such as and for instance.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example-based clues are especially useful in reading comprehension and cloze tests."
+            },
+            {
+              "id": "v903",
+              "title": "Contrast Clue",
+              "tags": ["context"],
+              "basic_overview": "• Contrast markers can reveal the approximate opposite or contrasting meaning of an unfamiliar word.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Watch for however, but, although, unlike, whereas, in contrast and nevertheless."
+            },
+            {
+              "id": "v904",
+              "title": "Cause & Effect Clue",
+              "tags": ["context"],
+              "basic_overview": "• The cause or consequence of an unfamiliar word can help identify its meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Look for because, therefore, hence, as a result, due to and consequently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze-test",
+      "title": "Vocabulary in Cloze Test",
+      "filters": [
+        {
+          "label": "🧩 Cloze Test",
+          "tag": "cloze"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-cloze-01",
+          "topic_title": "Cloze Test Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1001",
+              "title": "Read the Whole Passage First",
+              "tags": ["cloze", "ssc", "banking"],
+              "basic_overview": "• Do not solve every blank independently.<br>• Read enough surrounding text to understand the overall theme and logical direction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 A later sentence may provide a clue for an earlier blank."
+            },
+            {
+              "id": "v1002",
+              "title": "Grammar + Vocabulary Together",
+              "tags": ["cloze"],
+              "basic_overview": "• Determine whether the blank requires a noun, verb, adjective, adverb, preposition or conjunction.<br>• Then select the option that fits both grammar and meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 A word can be semantically suitable but grammatically impossible."
+            },
+            {
+              "id": "v1003",
+              "title": "Collocation Check",
+              "tags": ["cloze"],
+              "basic_overview": "• Some words naturally occur together.<br>• Check whether the option forms a standard English expression with neighbouring words.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: make a decision, heavy rain, strong argument, deeply concerned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collocations",
+      "title": "Collocations & Word Usage",
+      "filters": [
+        {
+          "label": "🔗 Collocations",
+          "tag": "collocations"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-collocations-01",
+          "topic_title": "Common Collocation Patterns",
+          "notes_list": [
+            {
+              "id": "v1101",
+              "title": "Make vs Do",
+              "tags": ["collocations"],
+              "basic_overview": "• Common combinations with <b>make</b>: make a decision, make a mistake, make an effort, make progress.<br>• Common combinations with <b>do</b>: do work, do homework, do business, do research.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Learn collocations as complete chunks rather than isolated verb meanings."
+            },
+            {
+              "id": "v1102",
+              "title": "Strong & Heavy Collocations",
+              "tags": ["collocations"],
+              "basic_overview": "• Common expressions: strong argument, strong evidence, strong possibility, heavy rain, heavy traffic, heavy burden.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎯 Collocation knowledge helps in fillers, sentence improvement, cloze tests and vocabulary questions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-strategy",
+      "title": "Exam-Specific Vocabulary Strategy",
+      "filters": [
+        {
+          "label": "🎯 SSC",
+          "tag": "ssc"
+        },
+        {
+          "label": "🏛️ DSSSB",
+          "tag": "dsssb"
+        },
+        {
+          "label": "📖 UPSC",
+          "tag": "upsc"
+        },
+        {
+          "label": "🏦 Banking",
+          "tag": "banking"
+        },
+        {
+          "label": "🚆 Railway",
+          "tag": "railway"
+        },
+        {
+          "label": "🛡️ Defence",
+          "tag": "defence"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-exam-01",
+          "topic_title": "SSC Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1201",
+              "title": "SSC Vocabulary Approach",
+              "tags": ["ssc"],
+              "basic_overview": "• Prioritise synonyms, antonyms, one-word substitutions, idioms, spelling and contextual vocabulary.<br>• Build a revision list from repeated mistakes.<br>• Use elimination when exact recall is unavailable.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 For vocabulary questions, speed matters because many questions can be solved quickly when the word is familiar."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-exam-02",
+          "topic_title": "DSSSB Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1202",
+              "title": "DSSSB Vocabulary Approach",
+              "tags": ["dsssb"],
+              "basic_overview": "• Focus on practical vocabulary, synonyms, antonyms, idioms, spelling and usage.<br>• Read the full sentence before selecting a contextual meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Keep separate revision groups for direct vocabulary and vocabulary appearing inside passages."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-exam-03",
+          "topic_title": "UPSC CSAT Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1203",
+              "title": "UPSC Context-Based Vocabulary",
+              "tags": ["upsc"],
+              "basic_overview": "• Context and comprehension are more important than memorising very large isolated word lists.<br>• Identify how a word functions in the author's argument.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 When vocabulary appears inside comprehension, prioritise the meaning supported by the passage rather than a memorised definition."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-exam-04",
+          "topic_title": "Banking Exam Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1204",
+              "title": "Banking Vocabulary Approach",
+              "tags": ["banking"],
+              "basic_overview": "• Give special attention to contextual vocabulary, cloze tests, fillers, synonyms, antonyms and word usage.<br>• Learn common collocations and formal English expressions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Editorial-style English frequently rewards understanding of context, tone and collocation."
+            }
+          ]
+        },
+        {
+          "topic_id": "vocab-exam-05",
+          "topic_title": "Railway & Defence Vocabulary Strategy",
+          "notes_list": [
+            {
+              "id": "v1205",
+              "title": "Fast Vocabulary Method",
+              "tags": ["railway", "defence"],
+              "basic_overview": "• Build high-frequency vocabulary.<br>• Practise direct meaning, synonym, antonym, spelling and idiom questions.<br>• Use elimination for unfamiliar words.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🎯 Maintain a short revision notebook containing only repeatedly missed or frequently tested words."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elimination",
+      "title": "Vocabulary Elimination Techniques",
+      "filters": [
+        {
+          "label": "✂️ Elimination",
+          "tag": "elimination"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-elimination-01",
+          "topic_title": "Option Elimination",
+          "notes_list": [
+            {
+              "id": "v1301",
+              "title": "Opposite Meaning Elimination",
+              "tags": ["elimination"],
+              "basic_overview": "• If the question asks for a synonym and an option is clearly opposite in meaning, eliminate it.<br>• The same principle applies in reverse for antonyms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📌 First eliminate clearly incompatible options, then compare the remaining choices."
+            },
+            {
+              "id": "v1302",
+              "title": "Wrong Part of Speech",
+              "tags": ["elimination"],
+              "basic_overview": "• Eliminate an option if its grammatical category does not match the required word.<br>• Check noun, verb, adjective and adverb forms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: beauty and beautiful are related but cannot always replace each other because their grammatical roles differ."
+            },
+            {
+              "id": "v1303",
+              "title": "Wrong Intensity",
+              "tags": ["elimination"],
+              "basic_overview": "• A word may be related in meaning but too weak or too strong for the question.<br>• Compare intensity and semantic precision.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: irritated, angry and furious express increasing intensity in many contexts."
+            },
+            {
+              "id": "v1304",
+              "title": "Context Mismatch",
+              "tags": ["elimination"],
+              "basic_overview": "• An option may be a valid dictionary meaning but unsuitable in the given sentence.<br>• Reject options that do not fit the surrounding context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🎯 Context mismatch is especially important in passage, cloze and sentence-based vocabulary questions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory-techniques",
+      "title": "Vocabulary Memory Techniques",
+      "filters": [
+        {
+          "label": "🧠 Memory Techniques",
+          "tag": "memory"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-memory-01",
+          "topic_title": "How to Remember Vocabulary",
+          "notes_list": [
+            {
+              "id": "v1401",
+              "title": "Word Family Method",
+              "tags": ["memory"],
+              "basic_overview": "• Learn related forms together.<br>• Example: decide → decision → decisive → decisively.<br>• This builds multiple usable forms from one root.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "🎯 Word families are useful for error detection, fillers, cloze tests and sentence improvement."
+            },
+            {
+              "id": "v1402",
+              "title": "Synonym-Antonym Pairing",
+              "tags": ["memory"],
+              "basic_overview": "• Learn a difficult word together with at least one synonym and one antonym whenever possible.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Example: abundant → plentiful → scarce as antonym."
+            },
+            {
+              "id": "v1403",
+              "title": "Sentence Association",
+              "tags": ["memory"],
+              "basic_overview": "• Create a short meaningful sentence using the new word.<br>• Personal or familiar situations can make recall easier.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "📌 A word remembered through meaning + usage is generally easier to recognise later than a word memorised only through translation."
+            },
+            {
+              "id": "v1404",
+              "title": "Spaced Revision",
+              "tags": ["memory"],
+              "basic_overview": "• Revise difficult vocabulary at increasing intervals rather than repeatedly reading the same list in one sitting.<br>• Keep separate lists for new, uncertain and mastered words.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Suggested cycle: same day → next day → several days later → weekly review → periodic mixed revision."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-practice",
+      "title": "Daily Vocabulary Practice",
+      "filters": [
+        {
+          "label": "📅 Daily Practice",
+          "tag": "daily-practice"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-daily-01",
+          "topic_title": "Vocabulary Practice Routine",
+          "notes_list": [
+            {
+              "id": "v1501",
+              "title": "Daily Word Learning",
+              "tags": ["daily-practice"],
+              "basic_overview": "• Learn a manageable number of new words.<br>• Revise previously learned words.<br>• Solve synonym, antonym and contextual questions.<br>• Record mistakes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎯 Consistency is more useful than memorising a very large list once and never revising it."
+            },
+            {
+              "id": "v1502",
+              "title": "Error Notebook",
+              "tags": ["daily-practice"],
+              "basic_overview": "• Record words answered incorrectly or guessed incorrectly.<br>• Write meaning, synonym, antonym, example sentence and the reason for the mistake.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 The error notebook should contain personal weak areas rather than reproducing an entire dictionary."
+            },
+            {
+              "id": "v1503",
+              "title": "Mixed Revision",
+              "tags": ["daily-practice"],
+              "basic_overview": "• Mix synonyms, antonyms, idioms, one-word substitutions, spellings, phrasal verbs and contextual vocabulary during revision.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🧠 Mixed practice improves the ability to identify which vocabulary rule a question is testing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-revision",
+      "title": "Quick Vocabulary Revision",
+      "filters": [
+        {
+          "label": "⚡ Quick Revision",
+          "tag": "quick-revision"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "vocab-revision-01",
+          "topic_title": "Exam Hall Vocabulary Checklist",
+          "notes_list": [
+            {
+              "id": "v1601",
+              "title": "Before Selecting an Option",
+              "tags": ["quick-revision"],
+              "basic_overview": "• What is the exact meaning of the word?<br>• What is its part of speech?<br>• What is the context?<br>• Is the option a true synonym/antonym?<br>• Is the intensity appropriate?<br>• Does the option fit grammatically?",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 Meaning → Context → Part of Speech → Intensity → Option comparison."
+            },
+            {
+              "id": "v1602",
+              "title": "If the Word Is Unknown",
+              "tags": ["quick-revision"],
+              "basic_overview": "• Look for a familiar root.<br>• Check prefix/suffix.<br>• Determine positive/negative/neutral sense.<br>• Use nearby context.<br>• Eliminate clearly incompatible options.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "⚠️ Guessing should be evidence-based rather than purely random."
+            },
+            {
+              "id": "v1603",
+              "title": "Golden Vocabulary Rule",
+              "tags": ["quick-revision"],
+              "basic_overview": "• <b>Do not learn vocabulary only by translation.</b><br>• Learn word + meaning + usage + synonym + antonym + context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📚 The objective is recognition and correct usage in the kinds of contexts encountered in competitive examinations."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

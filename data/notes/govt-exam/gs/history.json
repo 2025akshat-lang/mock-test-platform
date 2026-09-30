@@ -4,12 +4,307 @@
     {
       "id": "ancient",
       "title": "Ancient History",
-      "topics": []
+      "filters": [
+        { "label": "🟤 Indus Valley Civilization", "tag": "indus" },
+        { "label": "🟠 Vedic Age", "tag": "vedic" },
+        { "label": "🟡 Mahajanapadas", "tag": "mahajanapada" },
+        { "label": "🟢 Buddhism & Jainism", "tag": "religion" },
+        { "label": "🔵 Mauryan Empire", "tag": "maurya" },
+        { "label": "🟣 Gupta Empire", "tag": "gupta" },
+        { "label": "🟤 South Indian Kingdoms", "tag": "south-india" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ancient-indus",
+          "topic_title": "Indus Valley Civilization",
+          "notes_list": [
+            {
+              "id": "h101",
+              "title": "Harappan Civilization",
+              "tags": ["indus", "ancient"],
+              "basic_overview": "The Indus Valley Civilization flourished mainly during the Mature Harappan phase around 2600–1900 BCE. Major sites include Harappa, Mohenjo-daro, Dholavira, Lothal and Kalibangan.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Important features include planned cities, drainage systems, standardized weights and measures, craft production and long-distance trade. The script remains undeciphered."
+            },
+            {
+              "id": "h102",
+              "title": "Town Planning and Drainage",
+              "tags": ["indus", "ancient"],
+              "basic_overview": "Harappan cities were characterized by planned streets, baked-brick structures, drainage networks and organized residential and public areas.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Mohenjo-daro is known for the Great Bath, while Dholavira is noted for sophisticated water-management structures."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-vedic",
+          "topic_title": "Vedic Age",
+          "notes_list": [
+            {
+              "id": "h103",
+              "title": "Early Vedic Period",
+              "tags": ["vedic", "ancient"],
+              "basic_overview": "The Early Vedic period is associated with the Rigveda and communities primarily located in the north-western part of the Indian subcontinent.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Political units included jana and vis. Sabha and samiti were important assemblies. Cattle played a significant role in the economy."
+            },
+            {
+              "id": "h104",
+              "title": "Later Vedic Period",
+              "tags": ["vedic", "ancient"],
+              "basic_overview": "During the Later Vedic period, settlements expanded towards the western Ganga-Yamuna region and agriculture became increasingly important.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Iron technology became more significant, larger territorial units emerged and social stratification became more pronounced."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-mahajanapadas",
+          "topic_title": "Mahajanapadas",
+          "notes_list": [
+            {
+              "id": "h105",
+              "title": "Sixteen Mahajanapadas",
+              "tags": ["mahajanapada", "ancient"],
+              "basic_overview": "By the sixth century BCE, sixteen major states known as Mahajanapadas are mentioned in Buddhist and Jain sources.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Important Mahajanapadas included Magadha, Kosala, Vatsa, Avanti, Vajji, Anga and Kuru. Magadha eventually became the dominant power in northern India."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-buddhism-jainism",
+          "topic_title": "Buddhism and Jainism",
+          "notes_list": [
+            {
+              "id": "h106",
+              "title": "Gautama Buddha",
+              "tags": ["religion", "ancient"],
+              "basic_overview": "Gautama Buddha taught a path centered on understanding suffering, its causes and its cessation. His teachings became the foundation of Buddhism.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Key teachings include the Four Noble Truths and the Eightfold Path. Major Buddhist councils were held at different locations under various rulers."
+            },
+            {
+              "id": "h107",
+              "title": "Mahavira and Jainism",
+              "tags": ["religion", "ancient"],
+              "basic_overview": "Vardhamana Mahavira was the 24th Tirthankara of Jain tradition and emphasized non-violence, truth, non-possession and self-discipline.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Jainism developed major monastic traditions and emphasized ahimsa, aparigraha and spiritual liberation through disciplined conduct."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-maurya",
+          "topic_title": "Mauryan Empire",
+          "notes_list": [
+            {
+              "id": "h108",
+              "title": "Chandragupta Maurya",
+              "tags": ["maurya", "ancient"],
+              "basic_overview": "Chandragupta Maurya founded the Mauryan Empire in the late fourth century BCE and established a large centralized state.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Chandragupta was associated with Chanakya. The Mauryan state developed an extensive administrative system and maintained diplomatic relations with Hellenistic kingdoms."
+            },
+            {
+              "id": "h109",
+              "title": "Ashoka",
+              "tags": ["maurya", "ancient"],
+              "basic_overview": "Ashoka was a major Mauryan ruler whose reign is especially associated with the Kalinga War, inscriptions and the propagation of Dhamma.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Ashokan inscriptions are among the most important sources for Mauryan history. After the Kalinga War, his public policies emphasized Dhamma, welfare and ethical conduct."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-gupta",
+          "topic_title": "Gupta Empire",
+          "notes_list": [
+            {
+              "id": "h110",
+              "title": "Gupta Period",
+              "tags": ["gupta", "ancient"],
+              "basic_overview": "The Gupta period witnessed important developments in literature, mathematics, astronomy, art, architecture and political organization.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Important rulers include Chandragupta I, Samudragupta and Chandragupta II. The period is associated with works of Kalidasa and advances in mathematics and astronomy."
+            }
+          ]
+        },
+        {
+          "topic_id": "ancient-south-india",
+          "topic_title": "South Indian Kingdoms",
+          "notes_list": [
+            {
+              "id": "h111",
+              "title": "Sangam Age",
+              "tags": ["south-india", "ancient"],
+              "basic_overview": "The Sangam tradition provides important literary evidence about early historic Tamil society and the Chera, Chola and Pandya polities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Sangam literature contains information about political life, trade, warfare, social groups and cultural practices in ancient Tamilakam."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "medieval",
       "title": "Medieval History",
-      "topics": []
+      "filters": [
+        { "label": "🔴 Delhi Sultanate", "tag": "sultanate" },
+        { "label": "🟢 Mughal Empire", "tag": "mughal" },
+        { "label": "🔵 Bhakti Movement", "tag": "bhakti" },
+        { "label": "🟣 Sufi Tradition", "tag": "sufi" },
+        { "label": "🟠 Marathas", "tag": "maratha" },
+        { "label": "🟤 Vijayanagara", "tag": "vijayanagara" }
+      ],
+      "topics": [
+        {
+          "topic_id": "medieval-sultanate",
+          "topic_title": "Delhi Sultanate",
+          "notes_list": [
+            {
+              "id": "h201",
+              "title": "Foundation of Delhi Sultanate",
+              "tags": ["sultanate", "medieval"],
+              "basic_overview": "The Delhi Sultanate developed from the early thirteenth century and included the Mamluk, Khalji, Tughlaq, Sayyid and Lodi dynasties.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Qutb-ud-din Aibak established the Mamluk line. Iltutmish consolidated the Sultanate, while Alauddin Khalji and Muhammad bin Tughlaq introduced significant administrative and economic measures."
+            },
+            {
+              "id": "h202",
+              "title": "Alauddin Khalji",
+              "tags": ["sultanate", "medieval"],
+              "basic_overview": "Alauddin Khalji expanded the Sultanate and introduced important market and revenue measures.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "His administration regulated prices and markets in Delhi and maintained a large army. His reign also witnessed campaigns into parts of the Deccan."
+            },
+            {
+              "id": "h203",
+              "title": "Muhammad bin Tughlaq",
+              "tags": ["sultanate", "medieval"],
+              "basic_overview": "Muhammad bin Tughlaq is associated with several ambitious administrative experiments, including the transfer of the capital and introduction of token currency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The attempted capital transfer involved Delhi and Daulatabad. The token currency experiment faced practical difficulties and was eventually withdrawn."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-mughal",
+          "topic_title": "Mughal Empire",
+          "notes_list": [
+            {
+              "id": "h204",
+              "title": "Babur and Foundation of Mughal Rule",
+              "tags": ["mughal", "medieval"],
+              "basic_overview": "Babur defeated Ibrahim Lodi at the First Battle of Panipat in 1526 and established Mughal rule in northern India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Babur later defeated Rana Sanga at Khanwa in 1527. His memoir, Baburnama, is an important source for his reign."
+            },
+            {
+              "id": "h205",
+              "title": "Akbar",
+              "tags": ["mughal", "medieval"],
+              "basic_overview": "Akbar expanded and consolidated the Mughal Empire and developed administrative and revenue systems.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important features included the mansabdari system, revenue reforms associated with Todar Mal and policies of imperial integration."
+            },
+            {
+              "id": "h206",
+              "title": "Shah Jahan",
+              "tags": ["mughal", "medieval"],
+              "basic_overview": "Shah Jahan's reign is associated with major Mughal architectural projects and continued imperial expansion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Major monuments associated with his reign include the Taj Mahal, Red Fort and Jama Masjid of Delhi."
+            },
+            {
+              "id": "h207",
+              "title": "Aurangzeb",
+              "tags": ["mughal", "medieval"],
+              "basic_overview": "Aurangzeb ruled the Mughal Empire for nearly half a century and expanded Mughal territorial control significantly into the Deccan.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "His reign involved prolonged Deccan campaigns and increasing administrative and military pressures on the empire."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-bhakti",
+          "topic_title": "Bhakti Movement",
+          "notes_list": [
+            {
+              "id": "h208",
+              "title": "Bhakti Tradition",
+              "tags": ["bhakti", "medieval"],
+              "basic_overview": "The Bhakti tradition emphasized personal devotion to a chosen deity and developed through diverse regional traditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important figures associated with different Bhakti traditions include Kabir, Guru Nanak, Mirabai, Tulsidas, Surdas, Chaitanya and Namdev."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-sufi",
+          "topic_title": "Sufi Tradition",
+          "notes_list": [
+            {
+              "id": "h209",
+              "title": "Sufi Orders in India",
+              "tags": ["sufi", "medieval"],
+              "basic_overview": "Sufi traditions developed through various silsilas or orders and played an important role in the religious and cultural history of medieval India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Chishti order became particularly influential in India. Important Sufi figures included Muinuddin Chishti and Nizamuddin Auliya."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-vijayanagara",
+          "topic_title": "Vijayanagara Empire",
+          "notes_list": [
+            {
+              "id": "h210",
+              "title": "Vijayanagara Empire",
+              "tags": ["vijayanagara", "medieval"],
+              "basic_overview": "The Vijayanagara Empire was founded in the fourteenth century and became a major political and cultural power in southern India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Hampi was the imperial capital. Krishnadevaraya was one of the most prominent rulers. The empire was defeated in the Battle of Talikota in 1565."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-maratha",
+          "topic_title": "Maratha Power",
+          "notes_list": [
+            {
+              "id": "h211",
+              "title": "Shivaji",
+              "tags": ["maratha", "medieval"],
+              "basic_overview": "Shivaji established an important Maratha state in western India and developed a system of administration and military organization.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Shivaji was crowned at Raigad in 1674. His administration included the Ashtapradhan council and his military strategy made extensive use of forts and mobile warfare."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "modern",
@@ -17,9 +312,60 @@
       "filters": [
         { "label": "🔴 Rebellions & Revolts", "tag": "rebellion" },
         { "label": "🟢 Movements", "tag": "movement" },
-        { "label": "🔵 Governor Generals", "tag": "governor" }
+        { "label": "🔵 Governor Generals", "tag": "governor" },
+        { "label": "🟣 Acts & Policies", "tag": "act" },
+        { "label": "🟠 Congress & Nationalism", "tag": "congress" },
+        { "label": "🟤 British Expansion", "tag": "expansion" }
       ],
       "topics": [
+        {
+          "topic_id": "modern-british-expansion",
+          "topic_title": "British Expansion in India",
+          "notes_list": [
+            {
+              "id": "h301",
+              "title": "Battle of Plassey (1757)",
+              "tags": ["expansion", "modern"],
+              "basic_overview": "The Battle of Plassey in 1757 marked an important stage in the expansion of East India Company political influence in Bengal.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Robert Clive led the Company forces against Siraj ud-Daulah. The Company's victory strengthened its position in Bengal."
+            },
+            {
+              "id": "h302",
+              "title": "Battle of Buxar (1764)",
+              "tags": ["expansion", "modern"],
+              "basic_overview": "The Battle of Buxar was fought between the East India Company and the combined forces of Mir Qasim, Shuja-ud-Daulah and Shah Alam II.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "The Company's victory was followed by the Treaty of Allahabad and contributed to the Company obtaining Diwani rights in Bengal, Bihar and Orissa."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-acts",
+          "topic_title": "British Acts and Policies",
+          "notes_list": [
+            {
+              "id": "h303",
+              "title": "Regulating Act (1773)",
+              "tags": ["act", "modern"],
+              "basic_overview": "The Regulating Act of 1773 was an important step in increasing parliamentary control over the East India Company's administration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Act established the office of Governor-General of Bengal and created a Supreme Court at Calcutta."
+            },
+            {
+              "id": "h304",
+              "title": "Government of India Act (1858)",
+              "tags": ["act", "modern"],
+              "basic_overview": "The Government of India Act 1858 transferred the administration of India from the East India Company to the British Crown.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Secretary of State for India was created and the Governor-General also served as the Viceroy representing the Crown."
+            }
+          ]
+        },
         {
           "topic_id": "modern-1857",
           "topic_title": "1857 Revolt",
@@ -28,10 +374,43 @@
               "id": "h001",
               "title": "Causes of 1857 Revolt",
               "tags": ["rebellion", "modern"],
-              "basic_overview": "Immediate cause: greased cartridges controversy. Deeper causes: annexation policies (Doctrine of Lapse), economic exploitation, and social/religious interference by the British.",
+              "basic_overview": "The Revolt of 1857 had multiple political, economic, military and social causes. The immediate military trigger was the controversy surrounding the cartridges used with the new Enfield rifle.",
               "has_extra_info": true,
               "extra_info_btn_color": "#dc2626",
-              "extra_info_content": "Key leaders: Bahadur Shah Zafar (Delhi), Rani Lakshmibai (Jhansi), Nana Saheb (Kanpur), Tantia Tope. Suppressed by 1858; led to end of East India Company rule (Government of India Act 1858)."
+              "extra_info_content": "Important leaders included Bahadur Shah Zafar in Delhi, Rani Lakshmibai in Jhansi, Nana Saheb in Kanpur and Tantia Tope. The revolt was suppressed by 1858 and was followed by the end of East India Company rule."
+            },
+            {
+              "id": "h305",
+              "title": "Major Centres and Leaders of 1857",
+              "tags": ["rebellion", "modern"],
+              "basic_overview": "The revolt spread across several regions, with different leaders and centres playing important roles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Delhi was associated with Bahadur Shah Zafar, Kanpur with Nana Saheb, Lucknow with Begum Hazrat Mahal, Jhansi with Rani Lakshmibai and Bihar with Kunwar Singh."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-congress",
+          "topic_title": "Indian National Congress",
+          "notes_list": [
+            {
+              "id": "h306",
+              "title": "Formation of Indian National Congress",
+              "tags": ["congress", "modern"],
+              "basic_overview": "The Indian National Congress was founded in 1885 and became a major platform for Indian political activity during the colonial period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "The first session was held in Bombay in 1885 and presided over by Womesh Chandra Bonnerjee. A. O. Hume played an important role in its formation."
+            },
+            {
+              "id": "h307",
+              "title": "Swadeshi Movement",
+              "tags": ["movement", "modern"],
+              "basic_overview": "The Swadeshi Movement developed in response to the partition of Bengal announced in 1905 and promoted the use of indigenous goods and institutions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The movement included boycott of foreign goods, promotion of indigenous industries and national education initiatives."
             }
           ]
         },
@@ -43,25 +422,97 @@
               "id": "h002",
               "title": "Non-Cooperation Movement",
               "tags": ["movement", "modern"],
-              "basic_overview": "Launched by Gandhi in 1920 in response to Jallianwala Bagh massacre and Khilafat issue. Involved boycott of foreign goods, schools, courts and titles.",
+              "basic_overview": "The Non-Cooperation Movement was launched under Gandhi's leadership in 1920 and involved non-cooperation with colonial institutions and promotion of swadeshi.",
               "has_extra_info": true,
               "extra_info_btn_color": "#16a34a",
-              "extra_info_content": "Called off after Chauri Chaura incident (Feb 1922) where a mob killed policemen, leading Gandhi to withdraw the movement citing violence."
+              "extra_info_content": "The movement was withdrawn in 1922 after the Chauri Chaura incident, in which a police station was attacked and policemen were killed."
             }
           ]
         },
         {
-          "topic_id": "governors",
+          "topic_id": "modern-civil-disobedience",
+          "topic_title": "Civil Disobedience Movement",
+          "notes_list": [
+            {
+              "id": "h308",
+              "title": "Salt March and Civil Disobedience",
+              "tags": ["movement", "modern"],
+              "basic_overview": "The Civil Disobedience Movement began in 1930 with Gandhi's Salt March from Sabarmati Ashram to Dandi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The movement challenged colonial laws, particularly the salt laws, and involved participation by people in different regions and social groups."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-quit-india",
+          "topic_title": "Quit India Movement",
+          "notes_list": [
+            {
+              "id": "h309",
+              "title": "Quit India Movement (1942)",
+              "tags": ["movement", "modern"],
+              "basic_overview": "The Quit India Movement was launched by the Indian National Congress in August 1942 demanding an end to British rule in India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The movement began after the failure of the Cripps Mission. Many national leaders were arrested soon after the launch, while protests and underground activities continued in several regions."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-governors",
           "topic_title": "Governor Generals of India",
           "notes_list": [
             {
               "id": "h003",
               "title": "Lord Dalhousie (1848-1856)",
               "tags": ["governor", "modern"],
-              "basic_overview": "Known for the Doctrine of Lapse, expansion of railways and telegraph, and annexation of Awadh (1856) — a major trigger for the 1857 revolt.",
+              "basic_overview": "Lord Dalhousie's administration was associated with territorial expansion, the Doctrine of Lapse and major infrastructure developments such as railways and telegraph.",
               "has_extra_info": true,
               "extra_info_btn_color": "#7c3aed",
-              "extra_info_content": "Major achievements/reforms: (1) Doctrine of Lapse — annexed Satara, Jaitpur, Sambalpur, Jhansi, Nagpur, Awadh. (2) First railway line (Bombay-Thane, 1853) and telegraph line laid. (3) Public Works Department established. (4) Wood's Despatch (1854) — framework for modern English education. (5) Widow Remarriage Act groundwork; postal reforms (uniform postage)."
+              "extra_info_content": "Important developments during his tenure included the first passenger railway line between Bombay and Thane in 1853, expansion of telegraph communications, establishment of the Public Works Department and reforms in postal administration. The annexation of Awadh in 1856 contributed to political tensions before the Revolt of 1857."
+            },
+            {
+              "id": "h310",
+              "title": "Lord William Bentinck",
+              "tags": ["governor", "modern"],
+              "basic_overview": "Lord William Bentinck served as Governor-General from 1828 to 1835 and is associated with several administrative and social reforms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "His tenure is associated with the abolition of sati in 1829, measures against thuggee and the promotion of English education following the educational debates of the period."
+            },
+            {
+              "id": "h311",
+              "title": "Lord Canning",
+              "tags": ["governor", "modern"],
+              "basic_overview": "Lord Canning was the last Governor-General under Company rule and the first Viceroy of India after the transfer of power to the British Crown.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "He served during the Revolt of 1857 and continued as Viceroy after the Government of India Act 1858."
+            }
+          ]
+        },
+        {
+          "topic_id": "modern-independence",
+          "topic_title": "Towards Independence",
+          "notes_list": [
+            {
+              "id": "h312",
+              "title": "Cabinet Mission Plan",
+              "tags": ["modern", "congress"],
+              "basic_overview": "The Cabinet Mission arrived in India in 1946 to discuss the transfer of power and constitutional arrangements.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "The Mission proposed a constitutional framework involving a Union with limited subjects and provincial groupings. Its proposals became part of the negotiations preceding independence."
+            },
+            {
+              "id": "h313",
+              "title": "Indian Independence Act (1947)",
+              "tags": ["act", "modern"],
+              "basic_overview": "The Indian Independence Act 1947 provided for the creation of two independent dominions, India and Pakistan, from British India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Act received Royal Assent in July 1947 and came into effect in August 1947, ending British constitutional authority over the newly independent dominions."
             }
           ]
         }

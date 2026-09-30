@@ -1,0 +1,1256 @@
+{
+  "chapter_title": "Logical Reasoning: Competitive Exam Tips & Tricks",
+  "sections": [
+    {
+      "id": "logical-basics",
+      "title": "Logical Reasoning Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🟢 Tips & Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logic-basics",
+          "topic_title": "Basics of Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "lr001",
+              "title": "Logical Reasoning क्या है?",
+              "tags": ["basics", "concept"],
+              "basic_overview": "Logical reasoning में दी गई information के आधार पर valid relationship, inference, conclusion या decision identify किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: हर question में तीन चीजें पहचानें—Given Information, Required Answer और Applicable Logic. Example: यदि A > B और B > C, तो A > C logically follows करता है।"
+            },
+            {
+              "id": "lr002",
+              "title": "Fact और Inference में अंतर",
+              "tags": ["basics", "concept"],
+              "basic_overview": "Fact directly given information है, जबकि inference given facts से logically derived information है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Fact: 'All employees entered the building.' Inference: 'Some employees are inside the building.' Inference को केवल given information से support होना चाहिए।"
+            },
+            {
+              "id": "lr003",
+              "title": "Assumption न जोड़ें",
+              "tags": ["basics", "trick"],
+              "basic_overview": "Reasoning questions में ऐसी information assume नहीं करनी चाहिए जो statement में दी या logically implied नहीं है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Real-life knowledge और personal opinion को अलग रखें। Question की internal logic को priority दें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-deduction",
+      "title": "Logical Deduction",
+      "filters": [
+        { "label": "🔵 Deduction", "tag": "concept" },
+        { "label": "🟢 Rules", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "deduction",
+          "topic_title": "Deductive Reasoning",
+          "notes_list": [
+            {
+              "id": "lr004",
+              "title": "Deduction का मूल नियम",
+              "tags": ["deduction", "concept"],
+              "basic_overview": "Deductive reasoning में general rule या given premises से specific conclusion निकाला जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: All mammals breathe. Whale is a mammal. Therefore, whale breathes. Conclusion दोनों premises से logically follows करता है।"
+            },
+            {
+              "id": "lr005",
+              "title": "Necessary Conclusion",
+              "tags": ["deduction", "trick"],
+              "basic_overview": "Valid deduction में conclusion ऐसा होना चाहिए जो premises true होने पर necessarily true हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: पूछें—'क्या premises को true मानने पर conclusion false हो सकता है?' यदि हाँ, तो conclusion necessarily follows नहीं करता।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inductive-reasoning",
+      "title": "Inductive Reasoning",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Exam Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "induction",
+          "topic_title": "Inductive Reasoning",
+          "notes_list": [
+            {
+              "id": "lr006",
+              "title": "Inductive Reasoning क्या है?",
+              "tags": ["induction", "concept"],
+              "basic_overview": "Inductive reasoning में specific observations से general pattern या probable conclusion बनाया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: कई observed metals heat पर expand करते हैं, इसलिए general expectation बनाया जा सकता है कि metals heating पर expand करते हैं। यह deduction की तरह logically guaranteed नहीं होता।"
+            },
+            {
+              "id": "lr007",
+              "title": "Pattern से General Rule",
+              "tags": ["induction", "trick"],
+              "basic_overview": "Repeated observations में consistent pattern identify करके probable rule बनाया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: जितने अधिक relevant observations और जितने कम counterexamples हों, induction उतना stronger हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syllogism",
+      "title": "Syllogism & Categorical Logic",
+      "filters": [
+        { "label": "🔵 Rules", "tag": "concept" },
+        { "label": "🟢 Venn Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "syllogism",
+          "topic_title": "Syllogism",
+          "notes_list": [
+            {
+              "id": "lr008",
+              "title": "All, No और Some",
+              "tags": ["syllogism", "concept"],
+              "basic_overview": "Syllogism में categorical statements जैसे All A are B, No A is B और Some A are B से conclusions निकाले जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: All doctors are educated. Some doctors are writers. Therefore, some writers are educated. यह conclusion follows करता है।"
+            },
+            {
+              "id": "lr009",
+              "title": "Venn Diagram Method",
+              "tags": ["syllogism", "trick"],
+              "basic_overview": "Complex syllogism में categories को circles के रूप में represent करके conclusion test किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Rule: All A are B → A circle B के अंदर। No A is B → दोनों अलग। Some A are B → दोनों circles overlap।"
+            },
+            {
+              "id": "lr010",
+              "title": "Some और All को Mix न करें",
+              "tags": ["syllogism", "trick"],
+              "basic_overview": "Some statement केवल existence बताता है; उससे universal conclusion automatically नहीं निकाला जा सकता।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: Some A are B से All A are B conclude नहीं किया जा सकता। 'Some' को 'All' में convert न करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propositional-logic",
+      "title": "Proposition & Logical Statements",
+      "filters": [
+        { "label": "🔵 Proposition", "tag": "concept" },
+        { "label": "🟢 Logic Rules", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "proposition",
+          "topic_title": "Propositions",
+          "notes_list": [
+            {
+              "id": "lr011",
+              "title": "Proposition क्या है?",
+              "tags": ["proposition", "concept"],
+              "basic_overview": "A proposition एक declarative statement है जिसे true या false determine किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'Delhi is in India' is a proposition. 'Close the door' proposition नहीं है क्योंकि यह command है और true/false value नहीं रखता।"
+            },
+            {
+              "id": "lr012",
+              "title": "AND और OR",
+              "tags": ["proposition", "trick"],
+              "basic_overview": "AND में दोनों conditions true होनी चाहिए; OR में कम से कम एक condition true होनी चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: P AND Q तभी true है जब P और Q दोनों true हों। P OR Q तब false है जब दोनों false हों।"
+            },
+            {
+              "id": "lr013",
+              "title": "NOT Operator",
+              "tags": ["proposition", "concept"],
+              "basic_overview": "NOT किसी proposition की truth value को reverse करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि P = 'It is raining' true है, तो NOT P = 'It is not raining' false होगा।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditional-logic",
+      "title": "Conditional Logic",
+      "filters": [
+        { "label": "➡️ If-Then", "tag": "concept" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "conditional",
+          "topic_title": "If-Then Statements",
+          "notes_list": [
+            {
+              "id": "lr014",
+              "title": "If P then Q",
+              "tags": ["conditional", "concept"],
+              "basic_overview": "Conditional statement 'If P, then Q' का अर्थ है कि P होने पर Q होना आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: If it rains, roads become wet. Rain = sufficient condition for the stated implication; wet roads अकेले rain को prove नहीं करते।"
+            },
+            {
+              "id": "lr015",
+              "title": "Converse Error",
+              "tags": ["conditional", "trick"],
+              "basic_overview": "If P then Q से Q then P automatically conclude नहीं किया जा सकता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If a number is divisible by 4, it is even. लेकिन even number होने से वह necessarily divisible by 4 नहीं है।"
+            },
+            {
+              "id": "lr016",
+              "title": "Contrapositive",
+              "tags": ["conditional", "concept"],
+              "basic_overview": "P → Q का logically equivalent contrapositive है NOT Q → NOT P.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If a number is divisible by 4, it is even. Therefore, if a number is not even, it cannot be divisible by 4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cause-effect",
+      "title": "Cause & Effect",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Analysis Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "cause-effect",
+          "topic_title": "Cause and Effect",
+          "notes_list": [
+            {
+              "id": "lr017",
+              "title": "Cause और Effect पहचानना",
+              "tags": ["cause-effect", "concept"],
+              "basic_overview": "Cause वह घटना या condition है जो effect उत्पन्न करती है या उसमें योगदान देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Heavy rain can cause flooding. Heavy rain = cause; flooding = effect."
+            },
+            {
+              "id": "lr018",
+              "title": "Correlation को Cause न मानें",
+              "tags": ["cause-effect", "trick"],
+              "basic_overview": "दो घटनाएँ साथ occur करें तो यह जरूरी नहीं कि एक दूसरी की cause हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Temporal order + logical mechanism + given evidence check करें। केवल साथ-साथ occurrence पर्याप्त नहीं है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-conclusion",
+      "title": "Statement & Conclusion",
+      "filters": [
+        { "label": "🔵 Logic", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "statement-conclusion",
+          "topic_title": "Statement and Conclusion",
+          "notes_list": [
+            {
+              "id": "lr019",
+              "title": "Conclusion कब Follow करता है?",
+              "tags": ["statement-conclusion", "concept"],
+              "basic_overview": "Conclusion तभी follow करता है जब वह statement की information से logically supported हो और additional assumption की जरूरत न पड़े।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Statement: All registered vehicles have valid registration. Conclusion: Some registered vehicles have valid registration. यह statement से supported है।"
+            },
+            {
+              "id": "lr020",
+              "title": "Outside Knowledge से बचें",
+              "tags": ["statement-conclusion", "trick"],
+              "basic_overview": "Statement-based reasoning में answer given facts पर आधारित होना चाहिए, जब तक question explicitly external knowledge न मांगे।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: 'क्या यह statement से निकलता है?' को 'क्या यह real life में सही है?' से अलग रखें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-assumption",
+      "title": "Statement & Assumption",
+      "filters": [
+        { "label": "🔵 Assumption", "tag": "concept" },
+        { "label": "🟢 Negation Test", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "statement-assumption",
+          "topic_title": "Assumption",
+          "notes_list": [
+            {
+              "id": "lr021",
+              "title": "Implicit Assumption",
+              "tags": ["assumption", "concept"],
+              "basic_overview": "Assumption वह unstated belief या condition है जिसे statement meaningful बनाने के लिए implicitly accept किया गया है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'Take an umbrella to avoid getting wet.' Assumption = umbrella rain से protection दे सकती है।"
+            },
+            {
+              "id": "lr022",
+              "title": "Negation Test",
+              "tags": ["assumption", "trick"],
+              "basic_overview": "Assumption को negate करके देखें कि statement का purpose या reasoning substantially टूट जाता है या नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: यदि assumption false होने पर statement की recommendation या argument meaningless हो जाता है, तो assumption relevant हो सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-argument",
+      "title": "Statement & Argument",
+      "filters": [
+        { "label": "🔵 Arguments", "tag": "concept" },
+        { "label": "🟢 Evaluation Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "statement-argument",
+          "topic_title": "Strong & Weak Arguments",
+          "notes_list": [
+            {
+              "id": "lr023",
+              "title": "Strong Argument",
+              "tags": ["argument", "concept"],
+              "basic_overview": "Strong argument relevant, logically connected और issue को directly address करने वाला होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Strong argument केवल emotional नहीं होता; उसमें relevant reason, evidence या practical implication हो सकता है।"
+            },
+            {
+              "id": "lr024",
+              "title": "Weak Argument पहचानना",
+              "tags": ["argument", "trick"],
+              "basic_overview": "Irrelevant, extreme, vague या purely emotional reasoning सामान्यतः weak argument की ओर संकेत करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 'Should schools have libraries?' Argument: 'Yes, because books support learning.' Relevant. 'Yes, because libraries look nice.' comparatively less relevant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assertion-reason",
+      "title": "Assertion & Reason",
+      "filters": [
+        { "label": "🔵 Assertion", "tag": "concept" },
+        { "label": "🟢 Testing Method", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "assertion-reason",
+          "topic_title": "Assertion and Reason",
+          "notes_list": [
+            {
+              "id": "lr025",
+              "title": "Three-Step Test",
+              "tags": ["assertion-reason", "trick"],
+              "basic_overview": "Assertion और Reason questions में Assertion की truth, Reason की truth और दोनों के explanatory relationship को separately test करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Method: Step 1—Assertion true/false. Step 2—Reason true/false. Step 3—यदि दोनों true हैं, check करें कि Reason Assertion को explain करता है या नहीं।"
+            },
+            {
+              "id": "lr026",
+              "title": "True Reason ≠ Correct Explanation",
+              "tags": ["assertion-reason", "concept"],
+              "basic_overview": "Reason का independently true होना यह guarantee नहीं करता कि वह Assertion का correct explanation भी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Tip: 'R is true' और 'R correctly explains A' दो अलग checks हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inequality",
+      "title": "Logical Inequality",
+      "filters": [
+        { "label": "🔢 Relations", "tag": "concept" },
+        { "label": "🟢 Chain Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-inequality",
+          "topic_title": "Inequality Logic",
+          "notes_list": [
+            {
+              "id": "lr027",
+              "title": "Basic Inequality Chain",
+              "tags": ["inequality", "concept"],
+              "basic_overview": ">, <, ≥, ≤ और = relations को combine करके two variables के बीच final relation निकाला जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A > B and B ≥ C → A > C. यदि A ≥ B और B ≥ C → A ≥ C."
+            },
+            {
+              "id": "lr028",
+              "title": "Opposite Inequality से बचें",
+              "tags": ["inequality", "trick"],
+              "basic_overview": "Chain बनाते समय signs को exactly preserve करें; ≥ को > या ≤ को < में बिना कारण convert न करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A ≥ B और B ≥ C से केवल A ≥ C निश्चित है; A > C जरूरी नहीं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-puzzles",
+      "title": "Logical Puzzles",
+      "filters": [
+        { "label": "🧩 Puzzle", "tag": "concept" },
+        { "label": "🟢 Arrangement", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logic-puzzle",
+          "topic_title": "Basic Logical Puzzles",
+          "notes_list": [
+            {
+              "id": "lr029",
+              "title": "Puzzle को Variables में बदलें",
+              "tags": ["puzzle", "concept"],
+              "basic_overview": "Complex puzzle को persons, positions, objects, days या attributes जैसे variables में break करके solve करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: हर condition को छोटा symbolic statement बनाएं। Example: A before B → A < B; C is not Monday → C ≠ Monday."
+            },
+            {
+              "id": "lr030",
+              "title": "Fixed Information पहले रखें",
+              "tags": ["puzzle", "trick"],
+              "basic_overview": "जो information निश्चित position या value देती है उसे पहले place करें और बाकी conditions उसके around arrange करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Strategy: Fixed → Restricted → Relative → Remaining positions. इससे possibilities तेजी से reduce होती हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seating-arrangement",
+      "title": "Logical Seating Arrangement",
+      "filters": [
+        { "label": "🪑 Arrangement", "tag": "concept" },
+        { "label": "🟢 Diagram Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "seating-arrangement",
+          "topic_title": "Seating Arrangement Logic",
+          "notes_list": [
+            {
+              "id": "lr031",
+              "title": "Linear Arrangement",
+              "tags": ["seating", "concept"],
+              "basic_overview": "Linear arrangement में persons को left-to-right या right-to-left positions पर place करके relative conditions solve की जाती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A sits left of B और C sits right of B → order A-B-C हो सकता है, subject to other conditions."
+            },
+            {
+              "id": "lr032",
+              "title": "Circular Arrangement",
+              "tags": ["seating", "trick"],
+              "basic_overview": "Circular arrangement में orientation और facing direction के अनुसार left/right बदल सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Circle में पहले एक person को reference position पर fix करें। फिर clockwise/anticlockwise relationships place करें।"
+            },
+            {
+              "id": "lr033",
+              "title": "Facing Direction Rule",
+              "tags": ["seating", "trick"],
+              "basic_overview": "Circular arrangement में centre की ओर face करने और बाहर की ओर face करने पर left-right interpretation बदलती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: Centre-facing person का right clockwise direction में हो सकता है, जबकि outward-facing person का right opposite orientation में होगा।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floor-puzzle",
+      "title": "Floor & Building Logic",
+      "filters": [
+        { "label": "🏢 Floors", "tag": "concept" },
+        { "label": "🟢 Ordering Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "floor-puzzle",
+          "topic_title": "Floor Based Puzzles",
+          "notes_list": [
+            {
+              "id": "lr034",
+              "title": "Floor Numbering",
+              "tags": ["floor", "concept"],
+              "basic_overview": "Floor puzzles में people को different floors पर place करना होता है, usually with relative or exclusion conditions।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Floors को नीचे से ऊपर numerical order में लिखें और fixed positions पहले mark करें।"
+            },
+            {
+              "id": "lr035",
+              "title": "Above-Below Relations",
+              "tags": ["floor", "trick"],
+              "basic_overview": "A lives above B का अर्थ A की floor number B से greater है; exact floor तभी तय होगा जब additional condition हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A above B, B above C → A > B > C in floor order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "order-ranking",
+      "title": "Ordering & Ranking Logic",
+      "filters": [
+        { "label": "🔢 Ranking", "tag": "concept" },
+        { "label": "🟢 Formula", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "order-ranking",
+          "topic_title": "Ranking and Ordering",
+          "notes_list": [
+            {
+              "id": "lr036",
+              "title": "Total Persons Formula",
+              "tags": ["ranking", "formula"],
+              "basic_overview": "यदि rank ऊपर से और नीचे से दी गई हो तो total persons = top rank + bottom rank - 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 11th from top और 17th from bottom → total = 11 + 17 - 1 = 27."
+            },
+            {
+              "id": "lr037",
+              "title": "Between Persons Formula",
+              "tags": ["ranking", "formula"],
+              "basic_overview": "Same direction से दी गई दो ranks के बीच persons = larger rank - smaller rank - 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 7th और 13th rank के बीच = 13 - 7 - 1 = 5 persons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-sufficiency",
+      "title": "Data Sufficiency",
+      "filters": [
+        { "label": "🔵 Sufficiency", "tag": "concept" },
+        { "label": "🟢 Exam Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "data-sufficiency",
+          "topic_title": "Data Sufficiency",
+          "notes_list": [
+            {
+              "id": "lr038",
+              "title": "Answer नहीं, Sufficiency Check करें",
+              "tags": ["data-sufficiency", "concept"],
+              "basic_overview": "Data sufficiency में objective question को fully solve करना नहीं बल्कि यह determine करना है कि answer uniquely determine हो सकता है या नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Method: Statement I alone → Statement II alone → दोनों together. हर stage पर पूछें: 'क्या definite answer मिल रहा है?'"
+            },
+            {
+              "id": "lr039",
+              "title": "Unnecessary Calculation से बचें",
+              "tags": ["data-sufficiency", "trick"],
+              "basic_overview": "यदि किसी statement की sufficiency जल्दी establish हो जाए तो full numerical calculation करना जरूरी नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Data sufficiency speed questions में minimum work principle अपनाएँ।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "title": "Decision Making",
+      "filters": [
+        { "label": "🔵 Conditions", "tag": "concept" },
+        { "label": "🟢 Checklist", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "decision-making",
+          "topic_title": "Decision Making Logic",
+          "notes_list": [
+            {
+              "id": "lr040",
+              "title": "All Conditions Check करें",
+              "tags": ["decision-making", "concept"],
+              "basic_overview": "Decision-making questions में eligibility या decision criteria की सभी mandatory conditions satisfy होनी चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Age ✓, qualification ✓, experience ✗. यदि तीनों mandatory हैं, candidate qualify नहीं करेगा।"
+            },
+            {
+              "id": "lr041",
+              "title": "Condition Table",
+              "tags": ["decision-making", "trick"],
+              "basic_overview": "Multiple conditions वाले cases में ✓/✗ table बनाकर candidates या cases compare करना आसान होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Conditions को क्रमांक दें और हर candidate के सामने pass/fail mark करें। इससे एक condition miss होने की संभावना कम होती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-connectives",
+      "title": "Logical Connectives",
+      "filters": [
+        { "label": "🔗 Connectives", "tag": "concept" },
+        { "label": "🟢 Meaning", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "connectives",
+          "topic_title": "AND, OR, IF, ONLY IF, UNLESS",
+          "notes_list": [
+            {
+              "id": "lr042",
+              "title": "Only If का सही अर्थ",
+              "tags": ["connectives", "concept"],
+              "basic_overview": "'P only if Q' का logical meaning P → Q है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'You can enter only if you have a ticket.' Entry → Ticket. Ticket होने से entry necessarily guaranteed नहीं होती।"
+            },
+            {
+              "id": "lr043",
+              "title": "If और Only If में अंतर",
+              "tags": ["connectives", "trick"],
+              "basic_overview": "'If P, then Q' एक directional implication है, जबकि 'P if and only if Q' दोनों directions को imply करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: P iff Q = P → Q AND Q → P."
+            },
+            {
+              "id": "lr044",
+              "title": "Unless का Interpretation",
+              "tags": ["connectives", "concept"],
+              "basic_overview": "'P unless Q' को सामान्य logical reading में Q false होने पर P की condition के रूप में interpret किया जा सकता है; exact wording और context देखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 'You cannot enter unless you have permission.' Permission is required for entry; entry → permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-paradox",
+      "title": "Paradox & Contradiction",
+      "filters": [
+        { "label": "🔵 Contradiction", "tag": "concept" },
+        { "label": "🟢 Detection Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "contradiction",
+          "topic_title": "Contradiction Detection",
+          "notes_list": [
+            {
+              "id": "lr045",
+              "title": "Contradictory Statements",
+              "tags": ["contradiction", "concept"],
+              "basic_overview": "दो statements contradictory तब होते हैं जब दोनों एक ही conditions में simultaneously true नहीं हो सकते।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'All A are B' और 'Some A are not B' directly conflict करते हैं यदि दोनों same universe और same interpretation में हों।"
+            },
+            {
+              "id": "lr046",
+              "title": "Contradiction Search",
+              "tags": ["contradiction", "trick"],
+              "basic_overview": "Complex puzzle में पहले mutually exclusive conditions identify करें क्योंकि वे possibilities को जल्दी eliminate कर सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: 'cannot', 'never', 'only', 'none', 'exactly' जैसे restrictive words पर विशेष ध्यान दें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-series",
+      "title": "Logical Number & Pattern Series",
+      "filters": [
+        { "label": "🔢 Pattern", "tag": "pattern" },
+        { "label": "🟢 Shortcuts", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-series",
+          "topic_title": "Number and Pattern Logic",
+          "notes_list": [
+            {
+              "id": "lr047",
+              "title": "Difference Method",
+              "tags": ["series", "pattern"],
+              "basic_overview": "Number series में consecutive terms का difference निकालना सबसे पहला useful check है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 3, 7, 11, 15, ? → differences +4,+4,+4, इसलिए answer 19."
+            },
+            {
+              "id": "lr048",
+              "title": "Second Difference",
+              "tags": ["series", "trick"],
+              "basic_overview": "यदि first differences constant नहीं हैं तो differences के differences को check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 2, 5, 10, 17, 26 → differences 3,5,7,9; second differences +2 हैं।"
+            },
+            {
+              "id": "lr049",
+              "title": "Multiplication Pattern",
+              "tags": ["series", "trick"],
+              "basic_overview": "Series में ×2, ×3, ×n या multiplication plus/minus constant pattern भी हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 2, 5, 11, 23, ? → ×2+1 pattern; next = 47."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-analogy",
+      "title": "Logical Analogy",
+      "filters": [
+        { "label": "🔗 Relationship", "tag": "concept" },
+        { "label": "🟢 Method", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-analogy",
+          "topic_title": "Analytical Analogy",
+          "notes_list": [
+            {
+              "id": "lr050",
+              "title": "Exact Relationship",
+              "tags": ["analogy", "concept"],
+              "basic_overview": "Analogy में surface similarity के बजाय exact logical relationship identify करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Thermometer : Temperature :: Barometer : Pressure. दोनों instrument और measured quantity का relation है।"
+            },
+            {
+              "id": "lr051",
+              "title": "Relationship Sentence Trick",
+              "tags": ["analogy", "trick"],
+              "basic_overview": "पहले pair को एक short sentence में describe करें और वही sentence दूसरे pair पर apply करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 'A thermometer measures temperature.' इसलिए 'A barometer measures pressure.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-classification",
+      "title": "Logical Classification",
+      "filters": [
+        { "label": "🔵 Category", "tag": "concept" },
+        { "label": "🟢 Elimination", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-classification",
+          "topic_title": "Classification Logic",
+          "notes_list": [
+            {
+              "id": "lr052",
+              "title": "Common Property Method",
+              "tags": ["classification", "concept"],
+              "basic_overview": "Options में common property identify करें और जो option उस property से बाहर है उसे classify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Mercury, Venus, Earth, Moon → Moon अलग है क्योंकि बाकी planets हैं जबकि Moon natural satellite है।"
+            },
+            {
+              "id": "lr053",
+              "title": "Multiple Possible Categories",
+              "tags": ["classification", "trick"],
+              "basic_overview": "यदि एक से अधिक common properties दिखें तो सबसे specific और logically consistent category चुनें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: केवल spelling या superficial appearance पर आधारित category से पहले functional या conceptual relationship check करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical-reasoning",
+      "title": "Critical Reasoning",
+      "filters": [
+        { "label": "🧠 Analysis", "tag": "concept" },
+        { "label": "🟢 Exam Strategy", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "critical-reasoning",
+          "topic_title": "Critical Reasoning Basics",
+          "notes_list": [
+            {
+              "id": "lr054",
+              "title": "Argument Structure",
+              "tags": ["critical-reasoning", "concept"],
+              "basic_overview": "Critical reasoning में conclusion, premises, assumptions, evidence और logical gap identify करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Method: पहले conclusion खोजें। फिर देखें कि कौन-से statements conclusion को support कर रहे हैं। फिर missing assumption identify करें।"
+            },
+            {
+              "id": "lr055",
+              "title": "Evidence और Conclusion",
+              "tags": ["critical-reasoning", "trick"],
+              "basic_overview": "Evidence relevant और sufficient है या नहीं, यह critical reasoning का मुख्य हिस्सा है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 'Sales increased after advertising' केवल sequence बताता है; causation establish करने के लिए additional evidence की जरूरत हो सकती है।"
+            },
+            {
+              "id": "lr056",
+              "title": "Extreme Option Trap",
+              "tags": ["critical-reasoning", "trick"],
+              "basic_overview": "Completely, always, never, only और impossible जैसे extreme words वाले options को evidence के against carefully test करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Extreme wording अपने आप गलत नहीं है, लेकिन उसे support करने के लिए equally strong evidence चाहिए।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-fallacies",
+      "title": "Logical Fallacies",
+      "filters": [
+        { "label": "🔴 Common Errors", "tag": "concept" },
+        { "label": "🟢 Identification Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "fallacies",
+          "topic_title": "Common Logical Fallacies",
+          "notes_list": [
+            {
+              "id": "lr057",
+              "title": "Ad Hominem",
+              "tags": ["fallacies", "concept"],
+              "basic_overview": "Argument को address करने के बजाय व्यक्ति पर attack करना ad hominem fallacy का उदाहरण है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: 'His proposal is wrong because he is inexperienced.' यहाँ proposal की reasoning address नहीं की गई।"
+            },
+            {
+              "id": "lr058",
+              "title": "False Cause",
+              "tags": ["fallacies", "concept"],
+              "basic_overview": "केवल sequence या association के आधार पर cause conclude करना false-cause reasoning हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: 'I wore a lucky shirt and passed the test, so the shirt caused success.' यह causal proof नहीं है।"
+            },
+            {
+              "id": "lr059",
+              "title": "Hasty Generalization",
+              "tags": ["fallacies", "trick"],
+              "basic_overview": "बहुत कम या unrepresentative examples से broad general conclusion निकालना hasty generalization है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: दो खराब products देखकर पूरे brand के सभी products खराब घोषित करना insufficient evidence हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-arrangement",
+      "title": "Logical Arrangement",
+      "filters": [
+        { "label": "📊 Arrangement", "tag": "concept" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-arrangement",
+          "topic_title": "Ordering and Arrangement",
+          "notes_list": [
+            {
+              "id": "lr060",
+              "title": "Relative Position Method",
+              "tags": ["arrangement", "concept"],
+              "basic_overview": "A before B, C after D, E between F and G जैसी conditions को relative position में convert करके arrangement बनाया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A before B and B before C → A-B-C. बाद में additional conditions insert करें।"
+            },
+            {
+              "id": "lr061",
+              "title": "Block Formation Trick",
+              "tags": ["arrangement", "trick"],
+              "basic_overview": "यदि दो persons हमेशा relative order में जुड़े हों तो उन्हें temporary block की तरह treat किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A sits immediately before B → [AB] को एक block मानकर बाकी positions arrange करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-matching",
+      "title": "Matching & Scheduling",
+      "filters": [
+        { "label": "📅 Scheduling", "tag": "concept" },
+        { "label": "🟢 Grid Method", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "matching-scheduling",
+          "topic_title": "Matching and Scheduling Problems",
+          "notes_list": [
+            {
+              "id": "lr062",
+              "title": "Grid Method",
+              "tags": ["matching", "concept"],
+              "basic_overview": "Persons, subjects, days, cities या objects को match करने वाले questions में grid/table method बहुत effective है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Method: Possible relation = ✓, impossible relation = ✗. हर clue के बाद grid update करें।"
+            },
+            {
+              "id": "lr063",
+              "title": "Negative Information पहले Use करें",
+              "tags": ["matching", "trick"],
+              "basic_overview": "Not, cannot, neither और never जैसी negative conditions possibilities को तेजी से eliminate करती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: पहले restrictive clues mark करें; फिर positive clues से remaining cells fill करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-vocabulary",
+      "title": "Logical Vocabulary",
+      "filters": [
+        { "label": "🔤 Keywords", "tag": "vocabulary" },
+        { "label": "🟢 Meaning Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-keywords",
+          "topic_title": "Important Reasoning Keywords",
+          "notes_list": [
+            {
+              "id": "lr064",
+              "title": "Only",
+              "tags": ["vocabulary", "concept"],
+              "basic_overview": "Only statements logical implication की direction को बदल सकते हैं और इन्हें carefully interpret करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Only doctors are eligible → Eligible → Doctor. इसका अर्थ All doctors are eligible नहीं है।"
+            },
+            {
+              "id": "lr065",
+              "title": "At Least और At Most",
+              "tags": ["vocabulary", "trick"],
+              "basic_overview": "At least minimum value बताता है जबकि at most maximum value बताता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: At least 4 = 4 or more. At most 4 = 4 or less."
+            },
+            {
+              "id": "lr066",
+              "title": "Exactly",
+              "tags": ["vocabulary", "trick"],
+              "basic_overview": "Exactly किसी quantity की precise संख्या बताता है और extra possibilities allow नहीं करता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Exactly 3 students passed → number of passing students = 3, not 2 and not 4."
+            },
+            {
+              "id": "lr067",
+              "title": "Either-Or और Neither-Nor",
+              "tags": ["vocabulary", "concept"],
+              "basic_overview": "Either-or generally alternatives indicate करता है जबकि neither-nor दोनों alternatives को reject करता है; exact question wording check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Neither A nor B is selected → A भी नहीं और B भी नहीं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-strategy",
+      "title": "Competitive Exam Strategy",
+      "filters": [
+        { "label": "🎯 Strategy", "tag": "strategy" },
+        { "label": "⏱️ Time Management", "tag": "time" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "general-logical-strategy",
+          "topic_title": "General Logical Reasoning Strategy",
+          "notes_list": [
+            {
+              "id": "lr068",
+              "title": "Question Type पहले पहचानें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Question को देखकर identify करें कि वह syllogism, puzzle, statement-conclusion, assumption, inequality, arrangement या critical reasoning का है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Type पहचानने के बाद उसी topic का standard method apply करें। इससे random trial-and-error कम होता है।"
+            },
+            {
+              "id": "lr069",
+              "title": "Information को Symbolic बनाएं",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Long statements को symbols, arrows, tables या diagrams में convert करने से working memory load कम होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A is older than B → A > B. C is before D → C < D. Not selected → ✗."
+            },
+            {
+              "id": "lr070",
+              "title": "Fixed Information पहले",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Puzzle या arrangement में exact/fixed clues को पहले place करें और relative clues बाद में apply करें।",
+              "has_extra_info": true,
+              "extra_info_content": "Order: Fixed position → Restriction → Relative relation → Remaining possibilities → Verification."
+            },
+            {
+              "id": "lr071",
+              "title": "Options से Elimination",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "हर question को full solve करने के बजाय impossible options eliminate करके answer तक पहुँचना कई competitive exams में useful है।",
+              "has_extra_info": true,
+              "extra_info_content": "Tip: Contradictory condition, wrong direction, impossible ranking या violated constraint वाला option तुरंत remove करें।"
+            },
+            {
+              "id": "lr072",
+              "title": "Verification Step",
+              "tags": ["strategy", "revision"],
+              "basic_overview": "Final answer से पहले सभी major conditions को एक बार verify करें, विशेषकर complex puzzles में।",
+              "has_extra_info": true,
+              "extra_info_content": "Quick Check: क्या कोई clue unused है? क्या कोई condition violate हो रही है? क्या answer uniquely determined है?"
+            }
+          ]
+        },
+        {
+          "topic_id": "ssc-logical",
+          "topic_title": "SSC Logical Reasoning Strategy",
+          "notes_list": [
+            {
+              "id": "lr073",
+              "title": "SSC Logical Practice",
+              "tags": ["ssc", "strategy"],
+              "basic_overview": "SSC-oriented preparation में syllogism, statement-based reasoning, coding, analogy, classification, series और basic logical puzzles की regular practice उपयोगी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Topic-wise practice के बाद mixed timed sets लगाएँ ताकि question type पहचानने की speed develop हो।"
+            }
+          ]
+        },
+        {
+          "topic_id": "dsssb-logical",
+          "topic_title": "DSSSB Logical Reasoning Strategy",
+          "notes_list": [
+            {
+              "id": "lr074",
+              "title": "DSSSB Logical Practice",
+              "tags": ["dsssb", "strategy"],
+              "basic_overview": "DSSSB preparation में standard logical reasoning topics के साथ accuracy और timed practice पर focus करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Syllogism, statement-conclusion, assumption, cause-effect और logical arrangement के mixed sets practice करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "banking-logical",
+          "topic_title": "Banking Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "lr075",
+              "title": "Banking Puzzle Strategy",
+              "tags": ["banking", "strategy"],
+              "basic_overview": "Banking examinations में logical puzzles, arrangements, inequalities, syllogism और data sufficiency के लिए structured approach महत्वपूर्ण है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Grid और diagram method का नियमित अभ्यास करें। Long puzzle को conditions में break करके solve करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "railway-logical",
+          "topic_title": "Railway Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "lr076",
+              "title": "Railway Logic Strategy",
+              "tags": ["railway", "strategy"],
+              "basic_overview": "Railway examinations के लिए logical classification, statement-based questions, syllogism, analogy और basic puzzles की practice उपयोगी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Short logical questions पहले solve करें और lengthy puzzles को time availability के अनुसार attempt करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "defence-logical",
+          "topic_title": "Defence Exam Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "lr077",
+              "title": "Defence Logical Strategy",
+              "tags": ["defence", "strategy"],
+              "basic_overview": "Defence-oriented competitive exams में quick logical deduction, analytical thinking और decision making के लिए timed practice useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Conditions को जल्दी symbolic form में बदलने और irrelevant information ignore करने की practice करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "upsc-csat-logical",
+          "topic_title": "UPSC CSAT Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "lr078",
+              "title": "CSAT Critical Logic",
+              "tags": ["upsc", "csat", "strategy"],
+              "basic_overview": "CSAT-style logical reasoning में comprehension, inference, assumptions, arguments और analytical interpretation पर ध्यान देना आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Passage या statement के exact wording को preserve करें। Strong conclusion और merely possible conclusion के बीच distinction रखें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-revision",
+      "title": "Quick Revision & Exam Hall Tricks",
+      "filters": [
+        { "label": "⚡ Quick Tricks", "tag": "trick" },
+        { "label": "🎯 Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-quick-revision",
+          "topic_title": "One-Minute Logical Reasoning Revision",
+          "notes_list": [
+            {
+              "id": "lr079",
+              "title": "Universal Logic Checklist",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Logical reasoning question में given facts, required conclusion, restrictions, relationships और applicable rule identify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick Checklist: 1) Question type 2) Given data 3) Fixed facts 4) Restrictions 5) Logical relation 6) Elimination 7) Verification."
+            },
+            {
+              "id": "lr080",
+              "title": "Most Useful Rules",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Competitive exams में बार-बार उपयोग होने वाले rules में ranking formula, implication, syllogism, inequality chains और arrangement methods शामिल हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: Total rank = Top + Bottom - 1. P→Q का contrapositive = NOT Q→NOT P. All A are B का मतलब A ⊆ B. A≥B और B≥C से A≥C."
+            },
+            {
+              "id": "lr081",
+              "title": "No Unnecessary Assumptions",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Logical questions में केवल supported conclusions स्वीकार करें और unsupported possibilities को fact न मानें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Hall Rule: Given information से beyond जाने से पहले पूछें—'क्या इस conclusion के लिए additional assumption चाहिए?' यदि हाँ, तो सावधान रहें।"
+            },
+            {
+              "id": "lr082",
+              "title": "Accuracy Before Guessing",
+              "tags": ["revision", "strategy"],
+              "basic_overview": "Complex logical questions में जल्दबाजी से answer चुनने के बजाय conditions का quick verification करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Final Check: कोई clue unused तो नहीं? कोई contradiction तो नहीं? क्या answer निश्चित है या केवल possible?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

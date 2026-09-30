@@ -1,0 +1,765 @@
+{
+  "chapter_title": "Economics",
+  "sections": [
+    {
+      "id": "basic-economics",
+      "title": "Basic Economics",
+      "filters": [
+        { "label": "🔵 Basic Concepts", "tag": "basics" },
+        { "label": "🟢 Demand & Supply", "tag": "demand-supply" },
+        { "label": "🟠 Production", "tag": "production" },
+        { "label": "🟣 Market", "tag": "market" },
+        { "label": "🟤 National Income", "tag": "national-income" }
+      ],
+      "topics": [
+        {
+          "topic_id": "eco-basic-concepts",
+          "topic_title": "Basic Economic Concepts",
+          "notes_list": [
+            {
+              "id": "e101",
+              "title": "Economics",
+              "tags": ["basics", "economics"],
+              "basic_overview": "Economics studies how individuals, firms and governments make choices about the use of scarce resources to satisfy human wants.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Economics broadly deals with production, consumption, distribution, exchange, resource allocation and the choices created by scarcity."
+            },
+            {
+              "id": "e102",
+              "title": "Scarcity and Choice",
+              "tags": ["basics", "economics"],
+              "basic_overview": "Human wants are numerous while resources are limited. Scarcity therefore requires individuals and societies to make choices.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Every choice involves an opportunity cost because selecting one alternative generally means giving up another alternative."
+            },
+            {
+              "id": "e103",
+              "title": "Opportunity Cost",
+              "tags": ["basics", "economics"],
+              "basic_overview": "Opportunity cost is the value of the next best alternative forgone when a choice is made.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For example, choosing to study for an examination instead of working may involve the income that could have been earned as the opportunity cost."
+            }
+          ]
+        },
+        {
+          "topic_id": "eco-factors-production",
+          "topic_title": "Factors of Production",
+          "notes_list": [
+            {
+              "id": "e104",
+              "title": "Land",
+              "tags": ["production", "economics"],
+              "basic_overview": "Land represents natural resources used in production, including soil, forests, minerals, water and other natural resources.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In economics, land is treated as a factor of production whose supply is generally considered fixed in physical terms."
+            },
+            {
+              "id": "e105",
+              "title": "Labour",
+              "tags": ["production", "economics"],
+              "basic_overview": "Labour refers to the physical and mental effort contributed by people in the production of goods and services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The quality of labour is influenced by education, training, health, skills and experience."
+            },
+            {
+              "id": "e106",
+              "title": "Capital",
+              "tags": ["production", "economics"],
+              "basic_overview": "Capital consists of produced resources such as machinery, tools, buildings and equipment that are used to produce other goods and services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Capital is different from money itself. In production theory, physical capital refers to productive assets."
+            },
+            {
+              "id": "e107",
+              "title": "Entrepreneurship",
+              "tags": ["production", "economics"],
+              "basic_overview": "Entrepreneurship involves organizing factors of production, making business decisions and bearing risks associated with production.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Entrepreneurs coordinate resources, introduce innovations and make decisions about production and investment."
+            }
+          ]
+        },
+        {
+          "topic_id": "eco-demand",
+          "topic_title": "Demand",
+          "notes_list": [
+            {
+              "id": "e108",
+              "title": "Law of Demand",
+              "tags": ["demand-supply", "economics"],
+              "basic_overview": "Other things remaining constant, quantity demanded generally decreases when price rises and increases when price falls.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The inverse relationship between price and quantity demanded is represented by a downward-sloping demand curve under standard assumptions."
+            },
+            {
+              "id": "e109",
+              "title": "Determinants of Demand",
+              "tags": ["demand-supply", "economics"],
+              "basic_overview": "Demand is influenced by factors such as income, prices of related goods, tastes and preferences, population and expectations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A change in the good's own price generally causes movement along the demand curve, while changes in other determinants can shift the demand curve."
+            },
+            {
+              "id": "e110",
+              "title": "Price Elasticity of Demand",
+              "tags": ["demand-supply", "economics"],
+              "basic_overview": "Price elasticity of demand measures the responsiveness of quantity demanded to a change in the price of a good.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Elasticity can be expressed as percentage change in quantity demanded divided by percentage change in price."
+            }
+          ]
+        },
+        {
+          "topic_id": "eco-supply",
+          "topic_title": "Supply",
+          "notes_list": [
+            {
+              "id": "e111",
+              "title": "Law of Supply",
+              "tags": ["demand-supply", "economics"],
+              "basic_overview": "Other things remaining constant, quantity supplied generally increases when price rises and decreases when price falls.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "The relationship between price and quantity supplied is generally represented by an upward-sloping supply curve."
+            },
+            {
+              "id": "e112",
+              "title": "Determinants of Supply",
+              "tags": ["demand-supply", "economics"],
+              "basic_overview": "Supply is influenced by input prices, technology, taxes, subsidies, number of sellers, expectations and natural conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "A change in the good's own price generally causes movement along the supply curve, whereas other determinants can shift the supply curve."
+            }
+          ]
+        },
+        {
+          "topic_id": "eco-market",
+          "topic_title": "Market and Price",
+          "notes_list": [
+            {
+              "id": "e113",
+              "title": "Market",
+              "tags": ["market", "economics"],
+              "basic_overview": "A market is a system or arrangement through which buyers and sellers interact to exchange goods and services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Markets may be physical or digital and can differ according to competition, number of sellers, product differentiation and barriers to entry."
+            },
+            {
+              "id": "e114",
+              "title": "Equilibrium Price",
+              "tags": ["market", "economics"],
+              "basic_overview": "Market equilibrium occurs when quantity demanded equals quantity supplied at a particular price.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A shortage tends to create upward pressure on price, while a surplus tends to create downward pressure, assuming other conditions remain unchanged."
+            }
+          ]
+        },
+        {
+          "topic_id": "eco-national-income",
+          "topic_title": "National Income",
+          "notes_list": [
+            {
+              "id": "e115",
+              "title": "Gross Domestic Product (GDP)",
+              "tags": ["national-income", "economics"],
+              "basic_overview": "GDP measures the monetary value of final goods and services produced within the economic territory of a country during a specified period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "GDP can be measured using production, income and expenditure approaches, subject to appropriate accounting identities and adjustments."
+            },
+            {
+              "id": "e116",
+              "title": "Real and Nominal GDP",
+              "tags": ["national-income", "economics"],
+              "basic_overview": "Nominal GDP is measured at current prices, while real GDP adjusts output measures to remove the effect of price changes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Real GDP is useful for comparing changes in the volume of production over time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indian-economy",
+      "title": "Indian Economy",
+      "filters": [
+        { "label": "🟢 Economic Planning", "tag": "planning" },
+        { "label": "🔵 Agriculture", "tag": "agriculture" },
+        { "label": "🟠 Industry", "tag": "industry" },
+        { "label": "🟣 Services", "tag": "services" },
+        { "label": "🟤 Infrastructure", "tag": "infrastructure" },
+        { "label": "🔴 Reforms", "tag": "reforms" }
+      ],
+      "topics": [
+        {
+          "topic_id": "india-planning",
+          "topic_title": "Economic Planning in India",
+          "notes_list": [
+            {
+              "id": "e201",
+              "title": "Planning Commission",
+              "tags": ["planning", "indian-economy"],
+              "basic_overview": "The Planning Commission was established in 1950 to formulate plans for economic development and resource allocation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Planning Commission was replaced by NITI Aayog in 2015."
+            },
+            {
+              "id": "e202",
+              "title": "Five Year Plans",
+              "tags": ["planning", "indian-economy"],
+              "basic_overview": "India adopted a system of Five Year Plans after independence to organize development priorities and investment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The First Five Year Plan began in 1951 and placed considerable emphasis on agriculture, irrigation and related development."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-agriculture",
+          "topic_title": "Agriculture",
+          "notes_list": [
+            {
+              "id": "e203",
+              "title": "Agriculture in Indian Economy",
+              "tags": ["agriculture", "indian-economy"],
+              "basic_overview": "Agriculture remains an important part of India's economy through food production, employment, raw materials and rural livelihoods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Agricultural performance is affected by monsoon conditions, irrigation, technology, input availability, market access and government policies."
+            },
+            {
+              "id": "e204",
+              "title": "Green Revolution",
+              "tags": ["agriculture", "indian-economy"],
+              "basic_overview": "The Green Revolution involved the adoption of high-yielding varieties, irrigation, fertilizers, pesticides and improved agricultural practices.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The major early gains were concentrated in wheat and rice and were particularly significant in regions with suitable irrigation and infrastructure."
+            },
+            {
+              "id": "e205",
+              "title": "Agricultural Marketing",
+              "tags": ["agriculture", "indian-economy"],
+              "basic_overview": "Agricultural marketing includes the processes involved in assembling, storing, transporting, processing and selling agricultural produce.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Market infrastructure, storage facilities, transportation, information and institutional arrangements influence farmers' access to markets."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-industry",
+          "topic_title": "Industrial Sector",
+          "notes_list": [
+            {
+              "id": "e206",
+              "title": "Industrialization",
+              "tags": ["industry", "indian-economy"],
+              "basic_overview": "Industrialization involves the expansion and diversification of manufacturing and other productive activities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Industrial development can increase productivity, create employment, support exports and generate demand for infrastructure and services."
+            },
+            {
+              "id": "e207",
+              "title": "Small Scale and MSME Sector",
+              "tags": ["industry", "indian-economy"],
+              "basic_overview": "Micro, Small and Medium Enterprises form an important part of India's productive economy and contribute to employment, entrepreneurship and supply chains.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "MSMEs operate across manufacturing and services and may face challenges involving finance, technology, market access and infrastructure."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-services",
+          "topic_title": "Service Sector",
+          "notes_list": [
+            {
+              "id": "e208",
+              "title": "Growth of Service Sector",
+              "tags": ["services", "indian-economy"],
+              "basic_overview": "The service sector includes activities such as trade, transport, communication, finance, education, healthcare, information technology and professional services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Expansion of services has been an important component of India's structural transformation and economic growth."
+            },
+            {
+              "id": "e209",
+              "title": "Information Technology and IT-enabled Services",
+              "tags": ["services", "indian-economy"],
+              "basic_overview": "India's information technology and IT-enabled services sector has developed significantly through software services, business-process services and digital technologies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The sector contributes to exports, employment, innovation and the development of digital infrastructure."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-infrastructure",
+          "topic_title": "Infrastructure",
+          "notes_list": [
+            {
+              "id": "e210",
+              "title": "Transport Infrastructure",
+              "tags": ["infrastructure", "indian-economy"],
+              "basic_overview": "Transport infrastructure includes roads, railways, ports, airports and other systems that facilitate movement of people and goods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Efficient transport infrastructure reduces transaction costs, improves market connectivity and supports regional economic integration."
+            },
+            {
+              "id": "e211",
+              "title": "Energy Infrastructure",
+              "tags": ["infrastructure", "indian-economy"],
+              "basic_overview": "Energy infrastructure includes systems for electricity generation, transmission, distribution and fuel supply.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Reliable and affordable energy is important for households, agriculture, industry and services."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-reforms",
+          "topic_title": "Economic Reforms",
+          "notes_list": [
+            {
+              "id": "e212",
+              "title": "Economic Reforms of 1991",
+              "tags": ["reforms", "indian-economy"],
+              "basic_overview": "India introduced major economic reforms in 1991 involving changes in industrial policy, trade policy, investment rules and financial-sector arrangements.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The reform process is commonly described through liberalisation, privatisation and globalisation, although reforms covered a wide range of policy areas."
+            },
+            {
+              "id": "e213",
+              "title": "Liberalisation",
+              "tags": ["reforms", "indian-economy"],
+              "basic_overview": "Liberalisation refers to reducing or simplifying certain government restrictions and controls over economic activities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "In India, reforms included changes to industrial licensing, trade restrictions, investment rules and financial-sector regulation."
+            },
+            {
+              "id": "e214",
+              "title": "Globalisation",
+              "tags": ["reforms", "indian-economy"],
+              "basic_overview": "Globalisation refers to increasing economic integration among countries through trade, investment, technology and movement of services and information.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Greater integration can expand access to international markets and technology while also increasing exposure to international competition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macroeconomics",
+      "title": "Macroeconomics",
+      "filters": [
+        { "label": "🔵 Inflation", "tag": "inflation" },
+        { "label": "🟢 Unemployment", "tag": "unemployment" },
+        { "label": "🟠 Money & Banking", "tag": "money-banking" },
+        { "label": "🟣 Fiscal Policy", "tag": "fiscal-policy" },
+        { "label": "🔴 Monetary Policy", "tag": "monetary-policy" },
+        { "label": "🟤 External Sector", "tag": "external-sector" }
+      ],
+      "topics": [
+        {
+          "topic_id": "macro-inflation",
+          "topic_title": "Inflation",
+          "notes_list": [
+            {
+              "id": "e301",
+              "title": "Inflation",
+              "tags": ["inflation", "macroeconomics"],
+              "basic_overview": "Inflation is a sustained increase in the general price level of goods and services over time, which reduces the purchasing power of money.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Inflation can be measured using different price indices. Its causes may include demand pressures, supply shocks, changes in costs and monetary conditions."
+            },
+            {
+              "id": "e302",
+              "title": "Consumer Price Index",
+              "tags": ["inflation", "macroeconomics"],
+              "basic_overview": "The Consumer Price Index measures changes over time in the prices paid for a representative basket of consumer goods and services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "CPI-based inflation is widely used for assessing changes in consumer prices and purchasing power."
+            }
+          ]
+        },
+        {
+          "topic_id": "macro-unemployment",
+          "topic_title": "Unemployment",
+          "notes_list": [
+            {
+              "id": "e303",
+              "title": "Unemployment",
+              "tags": ["unemployment", "macroeconomics"],
+              "basic_overview": "Unemployment refers to a situation in which people who are available for and seeking work do not have employment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Different forms include frictional, structural, cyclical and seasonal unemployment. Definitions and measurement methods can vary across statistical systems."
+            },
+            {
+              "id": "e304",
+              "title": "Disguised Unemployment",
+              "tags": ["unemployment", "macroeconomics"],
+              "basic_overview": "Disguised unemployment occurs when more workers are engaged in an activity than are actually required, so removing some workers may have little or no effect on total output.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The concept is often discussed in relation to labour-intensive agricultural activities and low-productivity employment."
+            }
+          ]
+        },
+        {
+          "topic_id": "macro-money-banking",
+          "topic_title": "Money and Banking",
+          "notes_list": [
+            {
+              "id": "e305",
+              "title": "Functions of Money",
+              "tags": ["money-banking", "macroeconomics"],
+              "basic_overview": "Money performs important functions including medium of exchange, unit of account and store of value.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Money removes the need for a direct double coincidence of wants required in barter and facilitates transactions in an economy."
+            },
+            {
+              "id": "e306",
+              "title": "Commercial Banks",
+              "tags": ["money-banking", "macroeconomics"],
+              "basic_overview": "Commercial banks accept deposits, provide loans and offer various payment and financial services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Bank lending contributes to the creation of deposits and supports economic activity, subject to regulatory and financial constraints."
+            },
+            {
+              "id": "e307",
+              "title": "Reserve Bank of India",
+              "tags": ["money-banking", "monetary-policy", "macroeconomics"],
+              "basic_overview": "The Reserve Bank of India is India's central bank and performs functions related to monetary policy, currency management, banking regulation and financial stability.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "RBI also acts as banker to the government and banker to banks and manages foreign exchange reserves under the applicable legal framework."
+            }
+          ]
+        },
+        {
+          "topic_id": "macro-monetary-policy",
+          "topic_title": "Monetary Policy",
+          "notes_list": [
+            {
+              "id": "e308",
+              "title": "Monetary Policy",
+              "tags": ["monetary-policy", "macroeconomics"],
+              "basic_overview": "Monetary policy refers to actions undertaken by a central bank to influence monetary and financial conditions in the economy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "In India, the RBI's monetary policy framework uses the policy repo rate and other instruments to pursue specified objectives, including maintaining price stability while keeping growth in mind."
+            },
+            {
+              "id": "e309",
+              "title": "Repo Rate",
+              "tags": ["monetary-policy", "macroeconomics"],
+              "basic_overview": "The repo rate is the rate at which the central bank provides short-term liquidity to eligible financial institutions against eligible securities under the relevant framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Changes in policy rates can influence borrowing costs, financial conditions, aggregate demand and inflation, although the transmission process takes time."
+            }
+          ]
+        },
+        {
+          "topic_id": "macro-fiscal-policy",
+          "topic_title": "Fiscal Policy",
+          "notes_list": [
+            {
+              "id": "e310",
+              "title": "Fiscal Policy",
+              "tags": ["fiscal-policy", "macroeconomics"],
+              "basic_overview": "Fiscal policy concerns government decisions relating to taxation, expenditure and borrowing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Fiscal policy can influence aggregate demand, public investment, redistribution and the provision of public goods and services."
+            },
+            {
+              "id": "e311",
+              "title": "Fiscal Deficit",
+              "tags": ["fiscal-policy", "macroeconomics"],
+              "basic_overview": "Fiscal deficit represents the excess of total government expenditure over total receipts excluding borrowings during a specified period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Fiscal deficit indicates the borrowing requirement of the government for financing the gap between expenditure and non-borrowed receipts."
+            }
+          ]
+        },
+        {
+          "topic_id": "macro-external-sector",
+          "topic_title": "External Sector",
+          "notes_list": [
+            {
+              "id": "e312",
+              "title": "Balance of Payments",
+              "tags": ["external-sector", "macroeconomics"],
+              "basic_overview": "The balance of payments records economic transactions between residents of a country and the rest of the world over a specified period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Major components include the current account and financial account, along with relevant capital and reserve transactions according to the accounting framework."
+            },
+            {
+              "id": "e313",
+              "title": "Foreign Exchange Rate",
+              "tags": ["external-sector", "macroeconomics"],
+              "basic_overview": "The foreign exchange rate represents the price of one currency expressed in terms of another currency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Exchange rates are influenced by demand and supply for currencies, interest rates, inflation expectations, trade flows, capital flows and policy conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "title": "Development Economics",
+      "filters": [
+        { "label": "🟢 Poverty", "tag": "poverty" },
+        { "label": "🔵 Human Development", "tag": "human-development" },
+        { "label": "🟠 Inequality", "tag": "inequality" },
+        { "label": "🟣 Employment", "tag": "employment" },
+        { "label": "🟤 Sustainable Development", "tag": "sustainability" }
+      ],
+      "topics": [
+        {
+          "topic_id": "dev-poverty",
+          "topic_title": "Poverty",
+          "notes_list": [
+            {
+              "id": "e401",
+              "title": "Poverty",
+              "tags": ["poverty", "development"],
+              "basic_overview": "Poverty refers to inadequate command over resources needed to achieve minimum acceptable standards of living.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Poverty can be studied through income or consumption measures as well as multidimensional indicators covering education, health, living conditions and other dimensions."
+            },
+            {
+              "id": "e402",
+              "title": "Poverty Alleviation",
+              "tags": ["poverty", "development"],
+              "basic_overview": "Poverty alleviation involves policies and programmes aimed at improving incomes, employment, access to basic services and living conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Approaches include employment generation, social protection, access to education and healthcare, financial inclusion and infrastructure development."
+            }
+          ]
+        },
+        {
+          "topic_id": "dev-human-development",
+          "topic_title": "Human Development",
+          "notes_list": [
+            {
+              "id": "e403",
+              "title": "Human Development",
+              "tags": ["human-development", "development"],
+              "basic_overview": "Human development focuses on expanding people's capabilities and opportunities to lead lives they value.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important dimensions include health, education, income and broader capabilities. Economic growth and human development are related but are not identical concepts."
+            },
+            {
+              "id": "e404",
+              "title": "Human Development Index",
+              "tags": ["human-development", "development"],
+              "basic_overview": "The Human Development Index combines indicators related to health, education and standard of living to provide a broad measure of human development.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "HDI uses life expectancy, education indicators and gross national income per capita as its three broad dimensions."
+            }
+          ]
+        },
+        {
+          "topic_id": "dev-inequality",
+          "topic_title": "Economic Inequality",
+          "notes_list": [
+            {
+              "id": "e405",
+              "title": "Income Inequality",
+              "tags": ["inequality", "development"],
+              "basic_overview": "Income inequality refers to differences in income received by individuals or households within an economy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Inequality can be measured using tools such as the Lorenz curve and Gini coefficient, depending on the available data and methodology."
+            },
+            {
+              "id": "e406",
+              "title": "Wealth Inequality",
+              "tags": ["inequality", "development"],
+              "basic_overview": "Wealth inequality refers to differences in ownership of assets and net wealth across individuals or households.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Wealth includes accumulated assets such as property and financial assets after accounting for liabilities."
+            }
+          ]
+        },
+        {
+          "topic_id": "dev-employment",
+          "topic_title": "Employment and Labour",
+          "notes_list": [
+            {
+              "id": "e407",
+              "title": "Employment",
+              "tags": ["employment", "development"],
+              "basic_overview": "Employment refers to engagement in productive economic activity in return for wages, salaries, profits or other forms of remuneration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Employment may be classified by sector, occupation, formal or informal status, and nature of work."
+            },
+            {
+              "id": "e408",
+              "title": "Formal and Informal Employment",
+              "tags": ["employment", "development"],
+              "basic_overview": "Formal employment is generally associated with recognized employment arrangements and applicable legal and social protection systems, while informal employment may lack some of these protections.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The distinction depends on the statistical and institutional definition being used. Informal work represents a substantial part of employment in many developing economies."
+            }
+          ]
+        },
+        {
+          "topic_id": "dev-sustainability",
+          "topic_title": "Sustainable Development",
+          "notes_list": [
+            {
+              "id": "e409",
+              "title": "Sustainable Development",
+              "tags": ["sustainability", "development"],
+              "basic_overview": "Sustainable development seeks to meet present needs while maintaining the environmental, economic and social conditions required by future generations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Sustainable development involves balancing economic development, social inclusion and environmental protection."
+            },
+            {
+              "id": "e410",
+              "title": "Sustainable Development Goals",
+              "tags": ["sustainability", "development"],
+              "basic_overview": "The Sustainable Development Goals are a set of 17 global goals adopted by UN member states as part of the 2030 Agenda for Sustainable Development.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The goals cover areas including poverty, hunger, health, education, gender equality, clean energy, decent work, climate action and institutions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-finance",
+      "title": "Public Finance",
+      "filters": [
+        { "label": "🔵 Taxation", "tag": "taxation" },
+        { "label": "🟢 Government Budget", "tag": "budget" },
+        { "label": "🟠 Public Expenditure", "tag": "public-expenditure" },
+        { "label": "🟣 Public Debt", "tag": "public-debt" },
+        { "label": "🔴 GST", "tag": "gst" }
+      ],
+      "topics": [
+        {
+          "topic_id": "finance-taxation",
+          "topic_title": "Taxation",
+          "notes_list": [
+            {
+              "id": "e501",
+              "title": "Direct Taxes",
+              "tags": ["taxation", "public-finance"],
+              "basic_overview": "Direct taxes are taxes whose burden is generally intended to fall directly on the person or entity legally liable to pay them.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Income tax and corporate income tax are examples of direct taxes in the Indian tax system."
+            },
+            {
+              "id": "e502",
+              "title": "Indirect Taxes",
+              "tags": ["taxation", "public-finance"],
+              "basic_overview": "Indirect taxes are generally collected from one party but may be passed on through prices to other participants in the economy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "GST is an important example of an indirect tax in India."
+            }
+          ]
+        },
+        {
+          "topic_id": "finance-gst",
+          "topic_title": "Goods and Services Tax",
+          "notes_list": [
+            {
+              "id": "e503",
+              "title": "GST",
+              "tags": ["gst", "taxation", "public-finance"],
+              "basic_overview": "Goods and Services Tax is a destination-based indirect tax on the supply of goods and services in India, subject to the applicable rules and exemptions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "GST was introduced in India on 1 July 2017. The system includes Central GST, State GST and Integrated GST for different categories of transactions."
+            }
+          ]
+        },
+        {
+          "topic_id": "finance-budget",
+          "topic_title": "Government Budget",
+          "notes_list": [
+            {
+              "id": "e504",
+              "title": "Union Budget",
+              "tags": ["budget", "public-finance"],
+              "basic_overview": "The Union Budget presents the government's estimated receipts and expenditure for a financial year along with taxation and policy proposals.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The budget is an important instrument of fiscal policy and provides information about government finances and spending priorities."
+            },
+            {
+              "id": "e505",
+              "title": "Revenue and Capital Expenditure",
+              "tags": ["budget", "public-expenditure"],
+              "basic_overview": "Government expenditure is broadly classified into revenue expenditure and capital expenditure according to the nature and accounting treatment of the expenditure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Capital expenditure generally creates assets or reduces liabilities, while revenue expenditure generally relates to ongoing government operations and services."
+            }
+          ]
+        },
+        {
+          "topic_id": "finance-public-debt",
+          "topic_title": "Public Debt",
+          "notes_list": [
+            {
+              "id": "e506",
+              "title": "Public Debt",
+              "tags": ["public-debt", "public-finance"],
+              "basic_overview": "Public debt represents the accumulated borrowing obligations of the government arising from past borrowing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Government borrowing can finance public investment and fiscal deficits, while the sustainability of debt depends on factors including growth, interest costs and fiscal balances."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

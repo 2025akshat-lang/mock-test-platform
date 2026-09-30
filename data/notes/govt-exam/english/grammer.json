@@ -1,0 +1,1334 @@
+{
+  "chapter_title": "English Grammar",
+  "sections": [
+    {
+      "id": "parts-of-speech",
+      "title": "Parts of Speech",
+      "filters": [
+        {
+          "label": "🔤 Parts of Speech",
+          "tag": "parts-of-speech"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-pos-01",
+          "topic_title": "Noun",
+          "notes_list": [
+            {
+              "id": "eg001",
+              "title": "Noun: Definition & Types",
+              "tags": ["parts-of-speech", "noun"],
+              "basic_overview": "• A <b>Noun</b> is a word used as the name of a person, place, thing, animal, quality, idea or state.<br>• Major types: Proper, Common, Collective, Material and Abstract Noun.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: Rahul, Delhi, book, army, gold, honesty, childhood."
+            },
+            {
+              "id": "eg002",
+              "title": "Proper & Common Noun",
+              "tags": ["noun"],
+              "basic_overview": "• <b>Proper Noun:</b> Specific name of a person, place or thing.<br>• <b>Common Noun:</b> General name of a person, place, animal or thing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: India → Proper Noun; country → Common Noun. Ram → Proper Noun; boy → Common Noun."
+            },
+            {
+              "id": "eg003",
+              "title": "Collective, Material & Abstract Noun",
+              "tags": ["noun"],
+              "basic_overview": "• <b>Collective:</b> Names a group — team, army, committee.<br>• <b>Material:</b> Names a substance — gold, silver, water.<br>• <b>Abstract:</b> Names a quality, state or idea — honesty, beauty, freedom.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 Competitive exams frequently test identification and transformation of noun types."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-pos-02",
+          "topic_title": "Pronoun",
+          "notes_list": [
+            {
+              "id": "eg004",
+              "title": "Pronoun: Definition & Types",
+              "tags": ["parts-of-speech", "pronoun"],
+              "basic_overview": "• A <b>Pronoun</b> is a word used in place of a noun.<br>• Major types: Personal, Reflexive, Demonstrative, Relative, Interrogative, Indefinite and Distributive.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Examples: I, we, you, he, she, it, they, myself, this, who, which, someone, each."
+            },
+            {
+              "id": "eg005",
+              "title": "Personal Pronoun",
+              "tags": ["pronoun"],
+              "basic_overview": "• First person: I, we<br>• Second person: you<br>• Third person: he, she, it, they<br>• Objective forms include me, us, him, her, them.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Pronoun case is important in error detection: between you and me, not between you and I."
+            },
+            {
+              "id": "eg006",
+              "title": "Relative Pronoun",
+              "tags": ["pronoun"],
+              "basic_overview": "• Relative pronouns connect a relative clause to a noun or pronoun.<br>• Common forms: who, whom, whose, which, that.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Who is generally used for persons as subject; whom is traditionally used as object; which for things; whose shows possession."
+            },
+            {
+              "id": "eg007",
+              "title": "Each, Every, Either, Neither",
+              "tags": ["pronoun", "determiner"],
+              "basic_overview": "• Each, every, either and neither generally take a singular noun and singular verb when used in their standard determiner/pronoun functions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Examples: Each student is ready. Every boy has a book. Neither answer is correct. Either road leads to the town."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-pos-03",
+          "topic_title": "Adjective",
+          "notes_list": [
+            {
+              "id": "eg008",
+              "title": "Adjective: Definition & Types",
+              "tags": ["parts-of-speech", "adjective"],
+              "basic_overview": "• An <b>Adjective</b> qualifies or describes a noun or pronoun.<br>• Major types: Quality, Quantity, Number, Demonstrative, Possessive, Interrogative and Distributive.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples: beautiful, honest, much, five, this, my, which, each."
+            },
+            {
+              "id": "eg009",
+              "title": "Degrees of Comparison",
+              "tags": ["adjective"],
+              "basic_overview": "• Positive: tall<br>• Comparative: taller<br>• Superlative: tallest<br>• Irregular forms include good → better → best and bad → worse → worst.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📌 Double comparatives such as 'more better' are incorrect."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-pos-04",
+          "topic_title": "Verb",
+          "notes_list": [
+            {
+              "id": "eg010",
+              "title": "Verb: Definition & Types",
+              "tags": ["parts-of-speech", "verb"],
+              "basic_overview": "• A <b>Verb</b> expresses an action, occurrence or state.<br>• Major classifications include Main Verb, Auxiliary Verb, Transitive Verb, Intransitive Verb, Modal Verb and Linking Verb.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Examples: run, write, become, is, have, do, can, may, should."
+            },
+            {
+              "id": "eg011",
+              "title": "Transitive & Intransitive Verb",
+              "tags": ["verb"],
+              "basic_overview": "• <b>Transitive Verb:</b> takes an object.<br>• <b>Intransitive Verb:</b> does not require an object.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: She wrote a letter. → transitive. The baby slept. → intransitive."
+            },
+            {
+              "id": "eg012",
+              "title": "Finite & Non-Finite Verb",
+              "tags": ["verb"],
+              "basic_overview": "• <b>Finite Verb:</b> changes according to tense/person/number and forms the main predicate.<br>• <b>Non-finite:</b> infinitive, gerund and participle forms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Examples: He goes. → finite. To go, going, gone → non-finite forms depending on usage."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-pos-05",
+          "topic_title": "Adverb, Preposition, Conjunction & Interjection",
+          "notes_list": [
+            {
+              "id": "eg013",
+              "title": "Adverb",
+              "tags": ["parts-of-speech", "adverb"],
+              "basic_overview": "• An adverb modifies a verb, adjective, another adverb or sometimes an entire clause.<br>• Types include manner, place, time, frequency and degree.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: slowly, here, yesterday, always, very."
+            },
+            {
+              "id": "eg014",
+              "title": "Preposition",
+              "tags": ["parts-of-speech", "preposition"],
+              "basic_overview": "• A preposition shows relationship between a noun/pronoun and another word.<br>• Common forms: in, on, at, by, with, from, to, for, since, between, among.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Preposition-based error spotting is a common competitive-exam grammar area."
+            },
+            {
+              "id": "eg015",
+              "title": "Conjunction",
+              "tags": ["parts-of-speech", "conjunction"],
+              "basic_overview": "• Conjunctions join words, phrases or clauses.<br>• Coordinating: and, but, or, nor, for, so, yet.<br>• Subordinating: because, although, if, unless, while, since.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Correlative pairs include either...or, neither...nor, both...and, not only...but also."
+            },
+            {
+              "id": "eg016",
+              "title": "Interjection",
+              "tags": ["parts-of-speech", "interjection"],
+              "basic_overview": "• An interjection expresses sudden emotion or feeling.<br>• Examples: Hurrah!, Alas!, Wow!, Oh!, Bravo!",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Interjections are generally followed by an exclamation mark when the sentence expresses strong emotion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "articles-determiners",
+      "title": "Articles & Determiners",
+      "filters": [
+        {
+          "label": "🅰️ Articles",
+          "tag": "articles"
+        },
+        {
+          "label": "📌 Determiners",
+          "tag": "determiners"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-articles-01",
+          "topic_title": "Articles: A, An, The",
+          "notes_list": [
+            {
+              "id": "eg101",
+              "title": "Use of A and An",
+              "tags": ["articles"],
+              "basic_overview": "• <b>A</b> is generally used before a singular countable noun beginning with a consonant sound.<br>• <b>An</b> is generally used before a singular countable noun beginning with a vowel sound.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Sound matters: a university, a European, an hour, an honest man."
+            },
+            {
+              "id": "eg102",
+              "title": "Use of The",
+              "tags": ["articles"],
+              "basic_overview": "• 'The' is used with specific or previously identified nouns and with certain unique or conventional references.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Common examples: the sun, the earth, the Ganges, the Himalayas, the United States."
+            },
+            {
+              "id": "eg103",
+              "title": "Zero Article",
+              "tags": ["articles"],
+              "basic_overview": "• No article is often used with plural or uncountable nouns when speaking generally and with many proper names.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Examples: Books are useful. Gold is precious. India is a country."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-determiners-01",
+          "topic_title": "Determiners",
+          "notes_list": [
+            {
+              "id": "eg104",
+              "title": "Some, Any, Much, Many",
+              "tags": ["determiners"],
+              "basic_overview": "• <b>Many:</b> countable plural nouns.<br>• <b>Much:</b> uncountable nouns.<br>• <b>Some:</b> commonly used in affirmative contexts.<br>• <b>Any:</b> commonly used in negatives and questions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Examples: many books, much water, some money, any questions."
+            },
+            {
+              "id": "eg105",
+              "title": "Few, A Few, The Few",
+              "tags": ["determiners"],
+              "basic_overview": "• <b>Few:</b> hardly any; negative sense.<br>• <b>A few:</b> some; positive sense.<br>• <b>The few:</b> the small number that exists.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Example: Few students passed. A few students passed. The few students who passed were rewarded."
+            },
+            {
+              "id": "eg106",
+              "title": "Little, A Little, The Little",
+              "tags": ["determiners"],
+              "basic_overview": "• Used mainly with uncountable nouns.<br>• Little = almost none.<br>• A little = some.<br>• The little = the small amount available.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Example: There is little hope. There is a little hope. The little hope he had disappeared."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tenses",
+      "title": "Tenses",
+      "filters": [
+        {
+          "label": "⏳ Tenses",
+          "tag": "tenses"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-tenses-01",
+          "topic_title": "Present Tense",
+          "notes_list": [
+            {
+              "id": "eg201",
+              "title": "Simple Present",
+              "tags": ["tenses"],
+              "basic_overview": "• Used for habits, routines, general truths, facts and repeated actions.<br>• Structure: Subject + V1/V1+s/es + Object.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Example: The sun rises in the east. She goes to school every day."
+            },
+            {
+              "id": "eg202",
+              "title": "Present Continuous",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + is/am/are + V-ing.<br>• Used for an action happening around the present time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Example: They are studying now."
+            },
+            {
+              "id": "eg203",
+              "title": "Present Perfect",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + has/have + V3.<br>• Commonly expresses a completed action with present relevance or an experience.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Example: She has finished her work."
+            },
+            {
+              "id": "eg204",
+              "title": "Present Perfect Continuous",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + has/have been + V-ing.<br>• Used for an action continuing over a period up to the present.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Example: He has been working for two hours."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-tenses-02",
+          "topic_title": "Past Tense",
+          "notes_list": [
+            {
+              "id": "eg205",
+              "title": "Simple Past",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + V2 + Object.<br>• Used for completed actions in the past.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0369a1",
+              "extra_info_content": "Example: She visited Delhi last year."
+            },
+            {
+              "id": "eg206",
+              "title": "Past Continuous",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + was/were + V-ing.<br>• Used for an action in progress at a particular past time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0369a1",
+              "extra_info_content": "Example: They were playing when it started raining."
+            },
+            {
+              "id": "eg207",
+              "title": "Past Perfect",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + had + V3.<br>• Commonly used for the earlier of two past actions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0369a1",
+              "extra_info_content": "Example: The train had left before we reached the station."
+            },
+            {
+              "id": "eg208",
+              "title": "Past Perfect Continuous",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + had been + V-ing.<br>• Used for an action continuing for a period before another past event.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0369a1",
+              "extra_info_content": "Example: He had been studying for three hours before dinner."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-tenses-03",
+          "topic_title": "Future Tense",
+          "notes_list": [
+            {
+              "id": "eg209",
+              "title": "Simple Future",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + will + V1.<br>• Used for future actions, decisions and predictions depending on context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0f766e",
+              "extra_info_content": "Example: They will arrive tomorrow."
+            },
+            {
+              "id": "eg210",
+              "title": "Future Continuous",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + will be + V-ing.<br>• Used for an action that will be in progress at a future time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0f766e",
+              "extra_info_content": "Example: I will be travelling tomorrow evening."
+            },
+            {
+              "id": "eg211",
+              "title": "Future Perfect",
+              "tags": ["tenses"],
+              "basic_overview": "• Structure: Subject + will have + V3.<br>• Used for an action completed before a specified future time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0f766e",
+              "extra_info_content": "Example: She will have completed the work by Monday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subject-verb-agreement",
+      "title": "Subject-Verb Agreement",
+      "filters": [
+        {
+          "label": "🎯 Subject-Verb Agreement",
+          "tag": "subject-verb-agreement"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-sva-01",
+          "topic_title": "Basic Agreement Rules",
+          "notes_list": [
+            {
+              "id": "eg301",
+              "title": "Singular Subject with Singular Verb",
+              "tags": ["subject-verb-agreement"],
+              "basic_overview": "• A singular subject generally takes a singular verb in the simple present.<br>• Example: He works hard.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📌 Be careful with intervening phrases: The quality of the apples is good."
+            },
+            {
+              "id": "eg302",
+              "title": "Each, Every, Either, Neither",
+              "tags": ["subject-verb-agreement"],
+              "basic_overview": "• Each, every, either and neither generally take singular verbs when they function as singular determiners/pronouns.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: Each of the students is present. Neither of the answers is correct."
+            },
+            {
+              "id": "eg303",
+              "title": "Either...or / Neither...nor",
+              "tags": ["subject-verb-agreement"],
+              "basic_overview": "• With either...or and neither...nor, the verb generally agrees with the subject nearer to it in formal standard usage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: Neither the teacher nor the students are ready. Neither the students nor the teacher is ready."
+            },
+            {
+              "id": "eg304",
+              "title": "Collective Nouns & Agreement",
+              "tags": ["subject-verb-agreement"],
+              "basic_overview": "• Collective nouns can take singular or plural agreement depending on whether the group is viewed as a unit or as individuals, especially in British usage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: The committee has decided. The committee are divided in their opinions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "Active & Passive Voice",
+      "filters": [
+        {
+          "label": "🔄 Voice",
+          "tag": "voice"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-voice-01",
+          "topic_title": "Active Voice",
+          "notes_list": [
+            {
+              "id": "eg401",
+              "title": "Active Voice: Concept",
+              "tags": ["voice"],
+              "basic_overview": "• In Active Voice, the subject performs the action.<br>• Example: Ram writes a letter.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Structure generally follows Subject + Verb + Object."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-voice-02",
+          "topic_title": "Passive Voice",
+          "notes_list": [
+            {
+              "id": "eg402",
+              "title": "Passive Voice: Concept",
+              "tags": ["voice"],
+              "basic_overview": "• In Passive Voice, the receiver of the action becomes the grammatical subject.<br>• Example: A letter is written by Ram.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Core pattern: Object + suitable form of be + V3 + optional by + agent."
+            },
+            {
+              "id": "eg403",
+              "title": "Voice Change: Tense Rules",
+              "tags": ["voice"],
+              "basic_overview": "• Present Simple → am/is/are + V3<br>• Past Simple → was/were + V3<br>• Present Continuous → am/is/are being + V3<br>• Past Continuous → was/were being + V3<br>• Present Perfect → has/have been + V3<br>• Past Perfect → had been + V3",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📌 The object of an active transitive sentence generally becomes the subject of the passive sentence."
+            },
+            {
+              "id": "eg404",
+              "title": "Modal Passive",
+              "tags": ["voice"],
+              "basic_overview": "• Modal + V1 in active commonly becomes modal + be + V3 in passive.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: You must obey the rules. → The rules must be obeyed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration",
+      "title": "Direct & Indirect Speech",
+      "filters": [
+        {
+          "label": "💬 Narration",
+          "tag": "narration"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-narration-01",
+          "topic_title": "Direct & Indirect Speech",
+          "notes_list": [
+            {
+              "id": "eg501",
+              "title": "Direct Speech",
+              "tags": ["narration"],
+              "basic_overview": "• Direct speech reports the speaker's exact words within quotation marks.<br>• Example: He said, \"I am tired.\"",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Quotation marks are used to show the exact words of the speaker."
+            },
+            {
+              "id": "eg502",
+              "title": "Indirect Speech",
+              "tags": ["narration"],
+              "basic_overview": "• Indirect speech reports the meaning of the speaker's words without quoting the exact wording.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: He said that he was tired."
+            },
+            {
+              "id": "eg503",
+              "title": "Backshift of Tense",
+              "tags": ["narration"],
+              "basic_overview": "• When the reporting verb is in the past, tense backshift commonly occurs where appropriate.<br>• Present → Past; Past → Past Perfect in many contexts.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: He said, \"I work hard.\" → He said that he worked hard."
+            },
+            {
+              "id": "eg504",
+              "title": "Pronoun & Time-Expression Changes",
+              "tags": ["narration"],
+              "basic_overview": "• Pronouns change according to speaker/listener/reference.<br>• Time expressions may change: now → then, today → that day, tomorrow → the next day, yesterday → the previous day.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Changes depend on context; they are not mechanical in every sentence."
+            },
+            {
+              "id": "eg505",
+              "title": "Imperative, Interrogative & Exclamatory Sentences",
+              "tags": ["narration"],
+              "basic_overview": "• Imperative sentences commonly use reporting verbs such as ordered, requested, advised, told depending on meaning.<br>• Questions use asked/enquired.<br>• Exclamations use suitable reporting verbs such as exclaimed with joy/sorrow.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: He said to me, \"Please help me.\" → He requested me to help him."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "title": "Modals",
+      "filters": [
+        {
+          "label": "⚙️ Modals",
+          "tag": "modals"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-modals-01",
+          "topic_title": "Can, Could, May, Might",
+          "notes_list": [
+            {
+              "id": "eg601",
+              "title": "Can & Could",
+              "tags": ["modals"],
+              "basic_overview": "• Can expresses ability, possibility or permission depending on context.<br>• Could can express past ability, polite requests or possibility.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: She can swim. Could you help me? He could run fast when he was young."
+            },
+            {
+              "id": "eg602",
+              "title": "May & Might",
+              "tags": ["modals"],
+              "basic_overview": "• May commonly expresses possibility or permission.<br>• Might generally expresses a more tentative possibility.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: It may rain. He might come later."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-modals-02",
+          "topic_title": "Must, Should, Ought to, Need",
+          "notes_list": [
+            {
+              "id": "eg603",
+              "title": "Must & Should",
+              "tags": ["modals"],
+              "basic_overview": "• Must commonly expresses strong obligation or necessity.<br>• Should commonly expresses advice, expectation or mild obligation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: You must follow the rules. You should revise regularly."
+            },
+            {
+              "id": "eg604",
+              "title": "Need & Dare",
+              "tags": ["modals"],
+              "basic_overview": "• Need and dare can function as ordinary verbs or, in certain constructions, as marginal modals.<br>• Competitive exams frequently test their negative/question forms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Need I go? / You need not worry. Usage depends on grammatical construction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "non-finite",
+      "title": "Non-Finite Verbs",
+      "filters": [
+        {
+          "label": "🔧 Non-Finite",
+          "tag": "non-finite"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-nonfinite-01",
+          "topic_title": "Infinitive",
+          "notes_list": [
+            {
+              "id": "eg701",
+              "title": "To-Infinitive",
+              "tags": ["non-finite", "infinitive"],
+              "basic_overview": "• The basic infinitive is generally <b>to + V1</b>.<br>• Example: to read, to write, to study.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "After certain modal verbs, bare infinitive is used: can go, should study, must work."
+            },
+            {
+              "id": "eg702",
+              "title": "Bare Infinitive",
+              "tags": ["non-finite", "infinitive"],
+              "basic_overview": "• Bare infinitive means V1 without 'to'.<br>• It occurs after modal auxiliaries and in certain causative/perception constructions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Examples: She can swim. I made him work. I saw him cross the road."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-nonfinite-02",
+          "topic_title": "Gerund",
+          "notes_list": [
+            {
+              "id": "eg703",
+              "title": "Gerund: Verb + ing as Noun",
+              "tags": ["non-finite", "gerund"],
+              "basic_overview": "• A gerund is an -ing form functioning as a noun.<br>• Example: Swimming is good exercise.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Common verbs followed by gerund include enjoy, avoid, admit, deny, suggest and finish."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-nonfinite-03",
+          "topic_title": "Participles",
+          "notes_list": [
+            {
+              "id": "eg704",
+              "title": "Present & Past Participle",
+              "tags": ["non-finite", "participle"],
+              "basic_overview": "• Present participle generally ends in -ing.<br>• Past participle is commonly V3.<br>• Participles can function adjectivally or form verb phrases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Examples: a crying baby, a broken chair, the written answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions",
+      "filters": [
+        {
+          "label": "📍 Prepositions",
+          "tag": "prepositions"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-preposition-01",
+          "topic_title": "Time Prepositions",
+          "notes_list": [
+            {
+              "id": "eg801",
+              "title": "In, On, At",
+              "tags": ["prepositions"],
+              "basic_overview": "• <b>At:</b> specific time — at 5 o'clock.<br>• <b>On:</b> days/dates — on Monday, on 15 August.<br>• <b>In:</b> months, years, seasons and longer periods — in March, in 2026.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 'At night' is a common fixed expression."
+            },
+            {
+              "id": "eg802",
+              "title": "Since & For",
+              "tags": ["prepositions"],
+              "basic_overview": "• <b>Since:</b> starting point of time.<br>• <b>For:</b> duration of time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: since Monday, since 2020, for two hours, for five years."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-preposition-02",
+          "topic_title": "Place & Movement Prepositions",
+          "notes_list": [
+            {
+              "id": "eg803",
+              "title": "In, On, At for Place",
+              "tags": ["prepositions"],
+              "basic_overview": "• In indicates enclosure or area.<br>• On indicates surface.<br>• At commonly indicates a point or location.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: in the room, on the table, at the station."
+            },
+            {
+              "id": "eg804",
+              "title": "Between & Among",
+              "tags": ["prepositions"],
+              "basic_overview": "• Between is traditionally used for distinct individual relationships, often two but not necessarily limited to two.<br>• Among is commonly used for a group or undifferentiated mass.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: between A and B; among friends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conjunctions",
+      "title": "Conjunctions",
+      "filters": [
+        {
+          "label": "🔗 Conjunctions",
+          "tag": "conjunctions"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-conjunction-01",
+          "topic_title": "Coordinating Conjunctions",
+          "notes_list": [
+            {
+              "id": "eg901",
+              "title": "FANBOYS",
+              "tags": ["conjunctions"],
+              "basic_overview": "• Coordinating conjunctions include <b>for, and, nor, but, or, yet, so</b>.<br>• They connect elements of equal grammatical status.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Memory aid: FANBOYS = For, And, Nor, But, Or, Yet, So."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-conjunction-02",
+          "topic_title": "Correlative Conjunctions",
+          "notes_list": [
+            {
+              "id": "eg902",
+              "title": "Either...or / Neither...nor",
+              "tags": ["conjunctions"],
+              "basic_overview": "• Correlative conjunctions work in pairs.<br>• Common pairs: either...or, neither...nor, both...and, not only...but also, whether...or.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Parallel structure is important: She likes both reading and writing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentence",
+      "title": "Sentence & Transformation",
+      "filters": [
+        {
+          "label": "🧩 Sentence",
+          "tag": "sentence"
+        },
+        {
+          "label": "🔄 Transformation",
+          "tag": "transformation"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-sentence-01",
+          "topic_title": "Types of Sentences",
+          "notes_list": [
+            {
+              "id": "eg1001",
+              "title": "Assertive, Interrogative, Imperative & Exclamatory",
+              "tags": ["sentence"],
+              "basic_overview": "• Assertive — statement.<br>• Interrogative — question.<br>• Imperative — command, request, advice or instruction.<br>• Exclamatory — strong emotion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples: He is honest. / Is he honest? / Be honest. / How honest he is!"
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-sentence-02",
+          "topic_title": "Simple, Compound & Complex Sentence",
+          "notes_list": [
+            {
+              "id": "eg1002",
+              "title": "Simple Sentence",
+              "tags": ["sentence", "transformation"],
+              "basic_overview": "• A simple sentence contains one independent clause.<br>• It may contain multiple phrases and a compound subject or object.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: The boy worked hard."
+            },
+            {
+              "id": "eg1003",
+              "title": "Compound Sentence",
+              "tags": ["sentence", "transformation"],
+              "basic_overview": "• A compound sentence contains two or more independent clauses generally joined by coordinating conjunctions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: He worked hard, and he succeeded."
+            },
+            {
+              "id": "eg1004",
+              "title": "Complex Sentence",
+              "tags": ["sentence", "transformation"],
+              "basic_overview": "• A complex sentence contains one independent clause and at least one dependent clause.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: Although he was tired, he continued working."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-grammar-sentence-03",
+          "topic_title": "Affirmative & Negative Transformation",
+          "notes_list": [
+            {
+              "id": "eg1005",
+              "title": "Affirmative to Negative",
+              "tags": ["transformation"],
+              "basic_overview": "• Sentence meaning should remain unchanged while converting affirmative and negative forms where the question requires equivalent meaning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Example: Everyone likes him. → There is no one who does not like him."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question-tags",
+      "title": "Question Tags",
+      "filters": [
+        {
+          "label": "❓ Question Tags",
+          "tag": "question-tags"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-tags-01",
+          "topic_title": "Question Tag Rules",
+          "notes_list": [
+            {
+              "id": "eg1101",
+              "title": "Basic Question Tag Rule",
+              "tags": ["question-tags"],
+              "basic_overview": "• A positive statement generally takes a negative tag.<br>• A negative statement generally takes a positive tag.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: He is honest, isn't he? / He isn't honest, is he?"
+            },
+            {
+              "id": "eg1102",
+              "title": "Special Cases",
+              "tags": ["question-tags"],
+              "basic_overview": "• I am → aren't I? is a common standard form.<br>• Imperatives commonly take will you/won't you/can you depending on meaning.<br>• Let's → shall we?",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Examples: I am late, aren't I? Let's go, shall we? Open the door, will you?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditional-sentences",
+      "title": "Conditional Sentences",
+      "filters": [
+        {
+          "label": "🔀 Conditionals",
+          "tag": "conditionals"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-conditionals-01",
+          "topic_title": "Types of Conditionals",
+          "notes_list": [
+            {
+              "id": "eg1201",
+              "title": "Zero Conditional",
+              "tags": ["conditionals"],
+              "basic_overview": "• Used for general truths and facts.<br>• Structure: If + Present Simple, Present Simple.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If you heat ice, it melts."
+            },
+            {
+              "id": "eg1202",
+              "title": "First Conditional",
+              "tags": ["conditionals"],
+              "basic_overview": "• Used for real or possible future conditions.<br>• If + Present Simple, will + V1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If it rains, we will stay home."
+            },
+            {
+              "id": "eg1203",
+              "title": "Second Conditional",
+              "tags": ["conditionals"],
+              "basic_overview": "• Used for hypothetical or unlikely present/future situations.<br>• If + Past Simple, would + V1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If I had more time, I would travel."
+            },
+            {
+              "id": "eg1204",
+              "title": "Third Conditional",
+              "tags": ["conditionals"],
+              "basic_overview": "• Used for unreal situations in the past.<br>• If + Past Perfect, would have + V3.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: If he had studied, he would have passed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degrees-comparison",
+      "title": "Comparison & Usage",
+      "filters": [
+        {
+          "label": "📊 Comparison",
+          "tag": "comparison"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-comparison-01",
+          "topic_title": "Comparison of Adjectives",
+          "notes_list": [
+            {
+              "id": "eg1301",
+              "title": "Positive, Comparative & Superlative",
+              "tags": ["comparison"],
+              "basic_overview": "• Positive: no comparison — tall.<br>• Comparative: comparison between two — taller.<br>• Superlative: comparison among three or more — tallest.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Common irregular forms: good → better → best; bad → worse → worst; little → less → least; much/many → more → most."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-errors",
+      "title": "Common Errors",
+      "filters": [
+        {
+          "label": "🚨 Error Detection",
+          "tag": "error-detection"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-errors-01",
+          "topic_title": "Common Grammatical Errors",
+          "notes_list": [
+            {
+              "id": "eg1401",
+              "title": "Subject-Verb Error",
+              "tags": ["error-detection"],
+              "basic_overview": "• Incorrect: He go to school.<br>• Correct: He goes to school.<br>• Always check subject-verb agreement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🎯 Error-detection questions frequently test number agreement, especially with long subjects and intervening phrases."
+            },
+            {
+              "id": "eg1402",
+              "title": "Article Error",
+              "tags": ["error-detection"],
+              "basic_overview": "• Incorrect article usage is a common source of grammar errors.<br>• Article selection depends on sound, specificity and noun type.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: He is an honest man. Not: He is a honest man."
+            },
+            {
+              "id": "eg1403",
+              "title": "Preposition Error",
+              "tags": ["error-detection"],
+              "basic_overview": "• Common exam errors involve incorrect combinations such as discuss about, order for, enter into in certain standard constructions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: We discussed the issue. 'Discuss about the issue' is generally treated as incorrect in standard exam grammar."
+            },
+            {
+              "id": "eg1404",
+              "title": "Pronoun Error",
+              "tags": ["error-detection"],
+              "basic_overview": "• Check pronoun case, antecedent agreement, person and number.<br>• Example: Each student must bring his or her ID in formal traditional exam grammar.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📌 Modern English increasingly uses singular 'they' in many contexts, but exam questions may follow the convention specified by the test."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "filters": [
+        {
+          "label": "🔄 Synonyms",
+          "tag": "synonyms"
+        },
+        {
+          "label": "↔️ Antonyms",
+          "tag": "antonyms"
+        },
+        {
+          "label": "🧩 One Word Substitution",
+          "tag": "one-word"
+        },
+        {
+          "label": "💬 Idioms",
+          "tag": "idioms"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-vocab-01",
+          "topic_title": "Important Synonyms",
+          "notes_list": [
+            {
+              "id": "eg1501",
+              "title": "Common Competitive-Exam Synonyms",
+              "tags": ["synonyms"],
+              "basic_overview": "• Abandon — Leave, Forsake<br>• Abundant — Plentiful, Ample<br>• Accurate — Correct, Precise<br>• Brave — Courageous, Bold<br>• Candid — Frank, Honest<br>• Diligent — Industrious, Hard-working",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Synonym questions test contextual similarity, not always exact equivalence."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-vocab-02",
+          "topic_title": "Important Antonyms",
+          "notes_list": [
+            {
+              "id": "eg1502",
+              "title": "Common Competitive-Exam Antonyms",
+              "tags": ["antonyms"],
+              "basic_overview": "• Ancient — Modern<br>• Artificial — Natural<br>• Expand — Contract<br>• Generous — Stingy<br>• Humble — Arrogant<br>• Permanent — Temporary",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📚 Antonym selection depends on the exact meaning of the given word in context."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-vocab-03",
+          "topic_title": "One Word Substitution",
+          "notes_list": [
+            {
+              "id": "eg1503",
+              "title": "Important One Word Substitutions",
+              "tags": ["one-word"],
+              "basic_overview": "• One who loves mankind — Philanthropist<br>• One who hates mankind — Misanthrope<br>• One who knows many languages — Polyglot<br>• One who cannot read or write — Illiterate<br>• One who speaks two languages — Bilingual",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 One-word substitution is frequently tested through direct definition-to-word questions."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-vocab-04",
+          "topic_title": "Idioms & Phrases",
+          "notes_list": [
+            {
+              "id": "eg1504",
+              "title": "Important Idioms",
+              "tags": ["idioms"],
+              "basic_overview": "• A blessing in disguise — something that seems bad but has a good result.<br>• Break the ice — start a conversation or reduce tension.<br>• Once in a blue moon — very rarely.<br>• Hit the nail on the head — describe something exactly.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "📌 Idiom questions usually ask for meaning, suitable usage or replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spelling",
+      "title": "Spelling & Word Usage",
+      "filters": [
+        {
+          "label": "🔤 Spelling",
+          "tag": "spelling"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-spelling-01",
+          "topic_title": "Commonly Confused Words",
+          "notes_list": [
+            {
+              "id": "eg1601",
+              "title": "Accept & Except",
+              "tags": ["spelling"],
+              "basic_overview": "• <b>Accept:</b> receive or agree to.<br>• <b>Except:</b> excluding.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: I accept your proposal. Everyone came except Ravi."
+            },
+            {
+              "id": "eg1602",
+              "title": "Affect & Effect",
+              "tags": ["spelling"],
+              "basic_overview": "• <b>Affect:</b> commonly used as a verb meaning influence.<br>• <b>Effect:</b> commonly used as a noun meaning result.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: The weather affected the match. The effect was significant."
+            },
+            {
+              "id": "eg1603",
+              "title": "Principal & Principle",
+              "tags": ["spelling"],
+              "basic_overview": "• <b>Principal:</b> chief/head or a sum of money.<br>• <b>Principle:</b> fundamental rule or belief.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Example: The principal addressed the students. Honesty is an important principle."
+            },
+            {
+              "id": "eg1604",
+              "title": "Stationary & Stationery",
+              "tags": ["spelling"],
+              "basic_overview": "• <b>Stationary:</b> not moving.<br>• <b>Stationery:</b> writing materials.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Memory aid: stationery with 'e' → envelopes and writing equipment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punctuation",
+      "title": "Punctuation",
+      "filters": [
+        {
+          "label": "✒️ Punctuation",
+          "tag": "punctuation"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-grammar-punctuation-01",
+          "topic_title": "Punctuation Marks",
+          "notes_list": [
+            {
+              "id": "eg1701",
+              "title": "Full Stop, Comma & Semicolon",
+              "tags": ["punctuation"],
+              "basic_overview": "• Full stop ends a declarative sentence.<br>• Comma separates elements and clauses in various constructions.<br>• Semicolon can connect closely related independent clauses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#475569",
+              "extra_info_content": "📌 Punctuation questions may test comma placement, apostrophe and sentence boundaries."
+            },
+            {
+              "id": "eg1702",
+              "title": "Apostrophe & Quotation Marks",
+              "tags": ["punctuation"],
+              "basic_overview": "• Apostrophe indicates possession or contractions.<br>• Quotation marks indicate direct speech or quoted material.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#475569",
+              "extra_info_content": "Examples: Rahul's book. Don't go. He said, \"I am ready.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-practice",
+      "title": "Competitive Exam Grammar Focus",
+      "filters": [
+        {
+          "label": "🎯 SSC",
+          "tag": "ssc"
+        },
+        {
+          "label": "🏛️ DSSSB",
+          "tag": "dsssb"
+        },
+        {
+          "label": "📚 UPSC",
+          "tag": "upsc"
+        },
+        {
+          "label": "🚆 Railway",
+          "tag": "railway"
+        },
+        {
+          "label": "🏦 Banking",
+          "tag": "banking"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "english-exam-01",
+          "topic_title": "Error Detection",
+          "notes_list": [
+            {
+              "id": "eg1801",
+              "title": "Error Detection Checklist",
+              "tags": ["ssc", "dsssb", "upsc", "error-detection"],
+              "basic_overview": "• Check Subject-Verb Agreement.<br>• Check Tense.<br>• Check Articles and Determiners.<br>• Check Prepositions.<br>• Check Pronouns.<br>• Check Conjunctions.<br>• Check Adjective/Adverb usage.<br>• Check Parallelism and Redundancy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🎯 Suggested checking order: Verb → Subject → Tense → Pronoun → Article → Preposition → Conjunction → Modifier → Idiomatic usage."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-exam-02",
+          "topic_title": "Cloze Test Grammar",
+          "notes_list": [
+            {
+              "id": "eg1802",
+              "title": "Cloze Test Approach",
+              "tags": ["ssc", "dsssb", "banking"],
+              "basic_overview": "• Identify the grammatical role required by the blank.<br>• Check tense, subject-verb agreement, article, preposition, conjunction and vocabulary.<br>• Read the complete sentence and paragraph before final selection.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Context is essential: two grammatically possible options may differ in meaning or collocation."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-exam-03",
+          "topic_title": "Sentence Improvement",
+          "notes_list": [
+            {
+              "id": "eg1803",
+              "title": "Sentence Improvement Rules",
+              "tags": ["ssc", "dsssb", "banking"],
+              "basic_overview": "• Identify the underlined/error segment.<br>• Check grammar first, then idiomatic usage and meaning.<br>• Avoid changing a grammatically correct sentence merely because another form sounds different.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 Important areas: tense, articles, prepositions, subject-verb agreement, comparison, modifiers and parallelism."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-exam-04",
+          "topic_title": "Fill in the Blanks",
+          "notes_list": [
+            {
+              "id": "eg1804",
+              "title": "Grammar-Based Fillers",
+              "tags": ["ssc", "dsssb", "upsc", "banking"],
+              "basic_overview": "• Determine whether the blank requires a noun, verb, adjective, adverb, preposition, conjunction or determiner.<br>• Check grammatical agreement and context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📌 Collocations and fixed expressions are especially important in vocabulary-based fillers."
+            }
+          ]
+        },
+        {
+          "topic_id": "english-exam-05",
+          "topic_title": "Para Jumbles & Sentence Arrangement",
+          "notes_list": [
+            {
+              "id": "eg1805",
+              "title": "Sentence Arrangement Logic",
+              "tags": ["ssc", "dsssb", "banking"],
+              "basic_overview": "• Identify the opening sentence using introductory context.<br>• Find mandatory pairs through pronouns, connectors and logical references.<br>• Track chronology, cause-effect and conclusion markers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Useful connectors: however, therefore, moreover, consequently, first, finally, this, these, such, hence."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

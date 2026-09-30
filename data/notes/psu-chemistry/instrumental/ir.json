@@ -1,0 +1,1607 @@
+{
+  "chapter_title": "Infrared Spectroscopy (IR/FTIR): Exam, QC & Structural Elucidation Notes",
+  "sections": [
+    {
+      "id": "ir-fundamentals",
+      "title": "IR Spectroscopy Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ir-basic-principle",
+          "topic_title": "Basic Principle of IR Spectroscopy",
+          "notes_list": [
+            {
+              "id": "ir001",
+              "title": "IR Spectroscopy क्या है?",
+              "tags": ["basics", "concept", "msc", "gate"],
+              "basic_overview": "Infrared spectroscopy molecular vibrations के कारण infrared radiation के absorption का अध्ययन करती है। किसी vibration के दौरान molecular dipole moment में change होना IR activity के लिए आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: HCl molecule IR active है क्योंकि H–Cl stretching के दौरान dipole moment बदलता है। Homonuclear molecules जैसे N₂ और O₂ में सामान्यतः dipole moment change नहीं होता, इसलिए fundamental vibration IR inactive होती है।"
+            },
+            {
+              "id": "ir002",
+              "title": "IR Absorption की Molecular Basis",
+              "tags": ["concept", "vibration"],
+              "basic_overview": "IR photon तभी effectively absorb होता है जब उसकी frequency molecular vibrational transition की frequency से match करे और vibration में dipole moment change हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Rule: केवल molecular vibration होना पर्याप्त नहीं है; vibration IR active होने के लिए dipole moment में change चाहिए।"
+            },
+            {
+              "id": "ir003",
+              "title": "IR Spectrum में क्या Plot होता है?",
+              "tags": ["basics", "concept"],
+              "basic_overview": "IR spectrum में सामान्यतः wavenumber (cm⁻¹) को x-axis और transmittance या absorbance को y-axis पर plot किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical presentation: Wavenumber लगभग 4000 cm⁻¹ से 400 cm⁻¹ तक दिखाई जाती है। Transmittance spectrum में absorption bands downward दिखाई दे सकती हैं, जबकि absorbance representation में peaks upward दिखाई देती हैं।"
+            },
+            {
+              "id": "ir004",
+              "title": "Wavenumber और Frequency का Relation",
+              "tags": ["concept", "formula", "numerical"],
+              "basic_overview": "Wavenumber ν̄ = 1/λ और frequency ν = cν̄ होती है। इसलिए wavenumber frequency के directly proportional है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 1000 cm⁻¹ radiation की wavelength = 1/1000 cm = 10⁻³ cm = 10 µm. Formula याद रखें: λ(cm) = 1/ν̄(cm⁻¹)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-regions",
+      "title": "IR Regions & Spectral Range",
+      "filters": [
+        { "label": "📏 Regions", "tag": "concept" },
+        { "label": "🧠 Memory Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ir-regions",
+          "topic_title": "Near, Mid & Far IR",
+          "notes_list": [
+            {
+              "id": "ir005",
+              "title": "Near IR Region",
+              "tags": ["regions", "concept"],
+              "basic_overview": "Near-IR region लगभग 14000–4000 cm⁻¹ के आसपास माना जाता है और इसमें मुख्यतः overtone तथा combination transitions महत्वपूर्ण होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "NIR का उपयोग moisture, agricultural products, pharmaceuticals और process analysis में बहुत किया जाता है। Exact boundary convention instrument/source के अनुसार थोड़ा बदल सकती है।"
+            },
+            {
+              "id": "ir006",
+              "title": "Mid IR Region",
+              "tags": ["regions", "msc", "gate"],
+              "basic_overview": "Mid-IR region लगभग 4000–400 cm⁻¹ है और routine molecular vibrational spectroscopy तथा functional-group identification के लिए सबसे commonly used region है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Focus: 4000–1500 cm⁻¹ region में functional-group information और लगभग 1500–400 cm⁻¹ region में fingerprint information विशेष रूप से महत्वपूर्ण है।"
+            },
+            {
+              "id": "ir007",
+              "title": "Far IR Region",
+              "tags": ["regions", "concept"],
+              "basic_overview": "Far-IR lower-frequency region है और heavy-atom vibrations, lattice vibrations तथा कुछ inorganic/coordination compounds के अध्ययन में उपयोगी हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Point: Metal–ligand vibrations अक्सर low-wavenumber region में दिखाई देती हैं और conventional mid-IR spectrum के lower limit के पास या far-IR में study की जा सकती हैं।"
+            },
+            {
+              "id": "ir008",
+              "title": "Functional Group और Fingerprint Region",
+              "tags": ["fingerprint", "functional-group", "trick"],
+              "basic_overview": "Functional-group region लगभग 4000–1500 cm⁻¹ में characteristic group vibrations के लिए useful है, जबकि fingerprint region लगभग 1500–400 cm⁻¹ में complex pattern देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: दो compounds में similar functional groups हो सकते हैं, लेकिन उनके fingerprint regions अलग हो सकते हैं। Unknown identification में reference spectrum से fingerprint comparison बहुत useful है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-vibrational-modes",
+      "title": "Molecular Vibrations",
+      "filters": [
+        { "label": "🔵 Stretching", "tag": "concept" },
+        { "label": "🟢 Bending", "tag": "concept" },
+        { "label": "🟠 Formula", "tag": "formula" }
+      ],
+      "topics": [
+        {
+          "topic_id": "stretching-bending",
+          "topic_title": "Stretching and Bending Vibrations",
+          "notes_list": [
+            {
+              "id": "ir009",
+              "title": "Stretching Vibration",
+              "tags": ["vibration", "concept"],
+              "basic_overview": "Stretching vibration में bond length बदलती है। यह symmetric या asymmetric हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: CH₂ group में symmetric C–H stretching और asymmetric C–H stretching अलग-अलग wavenumbers पर दिखाई दे सकती हैं।"
+            },
+            {
+              "id": "ir010",
+              "title": "Bending Vibration",
+              "tags": ["vibration", "concept"],
+              "basic_overview": "Bending vibration में bond angle बदलता है। इसे in-plane और out-of-plane bending में classify किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common modes: scissoring, rocking, wagging और twisting. CH₂ bending bands structural identification में useful होती हैं।"
+            },
+            {
+              "id": "ir011",
+              "title": "Scissoring, Rocking, Wagging और Twisting",
+              "tags": ["bending", "msc", "gate"],
+              "basic_overview": "CH₂ जैसी groups की bending vibrations को scissoring, rocking, wagging और twisting modes में describe किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory Trick: In-plane bending में scissoring और rocking commonly आते हैं; out-of-plane motions में wagging और twisting महत्वपूर्ण हैं।"
+            },
+            {
+              "id": "ir012",
+              "title": "Number of Normal Modes",
+              "tags": ["formula", "concept", "numerical"],
+              "basic_overview": "Non-linear molecule के लिए normal vibrational modes = 3N − 6 और linear molecule के लिए = 3N − 5, जहाँ N atoms की संख्या है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: H₂O non-linear है और N=3, इसलिए modes = 3(3)−6 = 3. CO₂ linear है और N=3, इसलिए modes = 3(3)−5 = 4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-selection-rules",
+      "title": "IR Selection Rules & Symmetry",
+      "filters": [
+        { "label": "🔵 Selection Rule", "tag": "concept" },
+        { "label": "🟢 Symmetry", "tag": "concept" },
+        { "label": "🎯 Exam Trap", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "selection-rule",
+          "topic_title": "IR Selection Rules",
+          "notes_list": [
+            {
+              "id": "ir013",
+              "title": "Fundamental IR Selection Rule",
+              "tags": ["selection-rule", "concept", "gate"],
+              "basic_overview": "A vibrational mode IR active है यदि vibration के दौरान molecular dipole moment में change होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Trap: 'Polar molecule ही IR active होगा' कहना incomplete है। Correct condition vibration के दौरान dipole moment change है।"
+            },
+            {
+              "id": "ir014",
+              "title": "Homonuclear Diatomic Molecules",
+              "tags": ["selection-rule", "symmetry", "msc"],
+              "basic_overview": "H₂, N₂, O₂ जैसी homonuclear diatomic molecules की fundamental stretching vibration में dipole moment change नहीं होता, इसलिए वे सामान्यतः IR inactive होती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Comparison: HCl IR active है क्योंकि stretching के दौरान dipole changes; N₂ में दोनों atoms identical हैं, इसलिए dipole remains zero."
+            },
+            {
+              "id": "ir015",
+              "title": "CO₂ की IR Activity",
+              "tags": ["symmetry", "co2", "gate"],
+              "basic_overview": "CO₂ linear और centrosymmetric molecule है। इसके symmetric stretch में dipole moment change नहीं होता, जबकि asymmetric stretch और bending modes IR active हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "High-Yield Example: CO₂ symmetric stretch → IR inactive; asymmetric stretch → IR active; bending → IR active."
+            },
+            {
+              "id": "ir016",
+              "title": "Mutual Exclusion Principle",
+              "tags": ["symmetry", "selection-rule", "gate"],
+              "basic_overview": "Centrosymmetric molecules में, under appropriate symmetry conditions, modes that are IR active are Raman inactive and vice versa; यह mutual exclusion principle कहलाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Classic example: CO₂. Centrosymmetric molecules में IR और Raman activity के बीच symmetry-based mutual exclusion महत्वपूर्ण exam concept है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-frequency-factors",
+      "title": "Factors Affecting Vibrational Frequency",
+      "filters": [
+        { "label": "⚙️ Bond Strength", "tag": "concept" },
+        { "label": "⚖️ Reduced Mass", "tag": "formula" },
+        { "label": "🧠 Prediction", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hookes-law",
+          "topic_title": "Hooke's Law and Vibrational Frequency",
+          "notes_list": [
+            {
+              "id": "ir017",
+              "title": "Vibrational Frequency Formula",
+              "tags": ["formula", "numerical", "gate"],
+              "basic_overview": "Diatomic approximation में vibrational frequency wavenumber bond force constant और reduced mass पर depend करती है: ν̄ = (1/2πc)√(k/μ).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "जहाँ k = force constant और μ = reduced mass. Stronger bond → larger k → higher wavenumber. Larger reduced mass → lower wavenumber."
+            },
+            {
+              "id": "ir018",
+              "title": "Reduced Mass",
+              "tags": ["formula", "numerical"],
+              "basic_overview": "Reduced mass μ = m₁m₂/(m₁+m₂) होती है। Isotopic substitution से reduced mass बदलती है और vibrational frequency shift होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: C–H stretching C–D stretching से higher wavenumber पर होती है क्योंकि H की तुलना में D की mass अधिक है।"
+            },
+            {
+              "id": "ir019",
+              "title": "Bond Strength का Effect",
+              "tags": ["frequency", "concept", "trick"],
+              "basic_overview": "Bond order और force constant बढ़ने पर सामान्यतः stretching frequency बढ़ती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General trend: C≡C > C=C > C–C stretching frequency. Triple bond का force constant अधिक होने के कारण उसका stretching band higher wavenumber पर आता है।"
+            },
+            {
+              "id": "ir020",
+              "title": "Mass का Effect",
+              "tags": ["frequency", "concept"],
+              "basic_overview": "Heavier atoms या isotopes की reduced mass बढ़ने पर vibrational frequency सामान्यतः कम होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: O–H stretching approximately 3600 cm⁻¹ region में होती है जबकि O–D stretching lower wavenumber region में shift होती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-functional-groups",
+      "title": "Important Functional Group Frequencies",
+      "filters": [
+        { "label": "🔵 Functional Groups", "tag": "concept" },
+        { "label": "📌 Important Ranges", "tag": "frequency" },
+        { "label": "🟢 Exam Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "x-h-stretching",
+          "topic_title": "X–H Stretching Region",
+          "notes_list": [
+            {
+              "id": "ir021",
+              "title": "O–H Stretching",
+              "tags": ["functional-group", "alcohol", "phenol"],
+              "basic_overview": "Alcohol और phenol का O–H stretching सामान्यतः लगभग 3200–3600 cm⁻¹ region में दिखाई देता है। Hydrogen bonding होने पर band broad हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Ethanol में broad O–H band दिखाई दे सकती है। Free O–H comparatively sharper/higher frequency और strongly hydrogen-bonded O–H broader/lower frequency हो सकती है।"
+            },
+            {
+              "id": "ir022",
+              "title": "Carboxylic Acid O–H",
+              "tags": ["carboxylic-acid", "functional-group"],
+              "basic_overview": "Carboxylic acid O–H stretching बहुत broad और strong होती है तथा अक्सर लगभग 2500–3300 cm⁻¹ तक फैल सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam पहचान: 2500–3300 cm⁻¹ का very broad O–H band + strong C=O near 1700 cm⁻¹ carboxylic acid की strong indication है।"
+            },
+            {
+              "id": "ir023",
+              "title": "N–H Stretching",
+              "tags": ["amine", "amide", "functional-group"],
+              "basic_overview": "Primary और secondary amines/amides में N–H stretching सामान्यतः लगभग 3300–3500 cm⁻¹ region में दिखाई देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Primary amine में अक्सर two N–H stretching bands और secondary amine में one N–H stretching band दिखाई दे सकती है। Tertiary amines में N–H bond नहीं होता।"
+            },
+            {
+              "id": "ir024",
+              "title": "C–H Stretching",
+              "tags": ["c-h", "functional-group"],
+              "basic_overview": "sp³ C–H stretching सामान्यतः लगभग 2850–3000 cm⁻¹, sp² C–H लगभग 3000–3100 cm⁻¹ और terminal alkyne sp C–H लगभग 3300 cm⁻¹ के आसपास हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Quick Trick: 3000 cm⁻¹ के just below = mainly sp³ C–H; 3000 के just above = sp² C–H; sharp band near 3300 cm⁻¹ can indicate terminal alkyne C–H."
+            }
+          ]
+        },
+        {
+          "topic_id": "multiple-bond-region",
+          "topic_title": "Multiple Bond Region",
+          "notes_list": [
+            {
+              "id": "ir025",
+              "title": "C=O Stretching",
+              "tags": ["carbonyl", "functional-group", "high-yield"],
+              "basic_overview": "Carbonyl C=O stretching generally strong और लगभग 1650–1750 cm⁻¹ region में आती है। Exact position functional group और conjugation पर depend करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Tip: Strong band near 1700 cm⁻¹ carbonyl group के लिए सबसे important diagnostic signals में से एक है। लेकिन exact assignment के लिए neighbouring bands और structure भी देखें।"
+            },
+            {
+              "id": "ir026",
+              "title": "C=C Stretching",
+              "tags": ["alkene", "aromatic", "functional-group"],
+              "basic_overview": "Alkene C=C stretching commonly लगभग 1620–1680 cm⁻¹ region में weak-to-medium band दे सकती है। Aromatic ring vibrations भी इसी general region में features दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Alkene के लिए C=C band के साथ =C–H stretching above 3000 cm⁻¹ देखना assignment को support कर सकता है।"
+            },
+            {
+              "id": "ir027",
+              "title": "C≡C Stretching",
+              "tags": ["alkyne", "functional-group"],
+              "basic_overview": "Alkyne C≡C stretching approximately 2100–2260 cm⁻¹ region में दिखाई दे सकती है, लेकिन अक्सर weak होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important: Symmetric/internal alkynes में C≡C band बहुत weak या difficult to observe हो सकती है। Terminal alkyne के लिए sharp ≡C–H near 3300 cm⁻¹ useful clue है।"
+            },
+            {
+              "id": "ir028",
+              "title": "C≡N Stretching",
+              "tags": ["nitrile", "functional-group"],
+              "basic_overview": "Nitrile C≡N stretching सामान्यतः लगभग 2210–2260 cm⁻¹ region में sharp band देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Example: A sharp band near 2250 cm⁻¹ with no corresponding alkyne evidence can strongly suggest a nitrile group."
+            }
+          ]
+        },
+        {
+          "topic_id": "carbonyl-compounds",
+          "topic_title": "Carbonyl Compound Identification",
+          "notes_list": [
+            {
+              "id": "ir029",
+              "title": "Aldehyde पहचानना",
+              "tags": ["aldehyde", "carbonyl", "structural-elucidation"],
+              "basic_overview": "Aldehydes में strong C=O absorption के साथ aldehydic C–H stretching लगभग 2720 और 2820 cm⁻¹ के आसपास weak bands दे सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "High-Yield Clue: ~1700 cm⁻¹ strong C=O + characteristic aldehydic C–H bands near 2720/2820 cm⁻¹ → aldehyde strongly indicated."
+            },
+            {
+              "id": "ir030",
+              "title": "Ketone पहचानना",
+              "tags": ["ketone", "carbonyl"],
+              "basic_overview": "Ketones strong C=O absorption देते हैं लेकिन aldehydic C–H नहीं देते। Saturated aliphatic ketone का C=O commonly near 1715 cm⁻¹ होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Acetone में strong carbonyl band near 1715 cm⁻¹ expected है और 2720/2820 aldehydic C–H bands नहीं होंगी।"
+            },
+            {
+              "id": "ir031",
+              "title": "Ester पहचानना",
+              "tags": ["ester", "carbonyl"],
+              "basic_overview": "Esters में strong C=O band के साथ strong C–O stretching bands लगभग 1000–1300 cm⁻¹ region में मिलती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Pattern: Strong ~1735 cm⁻¹ carbonyl + strong C–O features in fingerprint region → ester possibility. Exact C=O position substitution/conjugation से बदल सकती है।"
+            },
+            {
+              "id": "ir032",
+              "title": "Amide पहचानना",
+              "tags": ["amide", "carbonyl", "nitrogen"],
+              "basic_overview": "Amides में C=O stretching के साथ N–H stretching और amide II type N–H bending/C–N stretching features मिल सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Approximate pattern: Amide I around 1630–1690 cm⁻¹, Amide II commonly around 1500–1600 cm⁻¹; exact values structure and environment पर depend करती हैं।"
+            },
+            {
+              "id": "ir033",
+              "title": "Acid Chloride पहचानना",
+              "tags": ["acid-chloride", "carbonyl"],
+              "basic_overview": "Acid chlorides strong carbonyl absorption देते हैं और C–Cl stretching fingerprint/lower region में दिखाई दे सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Structural clue: Strong C=O + absence of O–H/N–H + low-frequency C–Cl features acid chloride assignment को support कर सकते हैं।"
+            },
+            {
+              "id": "ir034",
+              "title": "Anhydride पहचानना",
+              "tags": ["anhydride", "carbonyl"],
+              "basic_overview": "Acid anhydrides सामान्यतः दो strong carbonyl-related absorptions देते हैं क्योंकि molecule में two carbonyl groups होते हैं, हालांकि bands coupled होती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "High-Yield clue: Two strong C=O absorptions in the approximately 1760–1820 and 1740–1780 cm⁻¹ ranges, depending on structure, anhydride के लिए characteristic हो सकती हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-aromatic",
+      "title": "Aromatic & Unsaturated Systems",
+      "filters": [
+        { "label": "🟣 Aromatic", "tag": "aromatic" },
+        { "label": "🔵 Unsaturation", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "aromatic-ir",
+          "topic_title": "Aromatic Ring IR Features",
+          "notes_list": [
+            {
+              "id": "ir035",
+              "title": "Aromatic C–H Stretching",
+              "tags": ["aromatic", "benzene"],
+              "basic_overview": "Aromatic sp² C–H stretching सामान्यतः 3000 cm⁻¹ से थोड़ा ऊपर दिखाई देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Benzene में aromatic C–H stretching लगभग 3030 cm⁻¹ के आसपास दिखाई दे सकती है।"
+            },
+            {
+              "id": "ir036",
+              "title": "Aromatic C=C Bands",
+              "tags": ["aromatic", "benzene"],
+              "basic_overview": "Aromatic ring में characteristic C=C stretching bands लगभग 1450–1600 cm⁻¹ region में दिखाई दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Aromatic identification में 1600/1500 cm⁻¹ region के bands को aromatic C–H out-of-plane bending bands के साथ consider करें।"
+            },
+            {
+              "id": "ir037",
+              "title": "Aromatic C–H Out-of-Plane Bending",
+              "tags": ["aromatic", "structural-elucidation"],
+              "basic_overview": "Aromatic C–H out-of-plane bending लगभग 650–900 cm⁻¹ region में substitution pattern की information दे सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Monosubstituted, ortho-, meta- और para-disubstituted benzene rings में fingerprint region के C–H out-of-plane bands अलग patterns दे सकते हैं। Exact assignments reference correlation tables से confirm करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "alkene-alkyne-ir",
+          "topic_title": "Alkenes and Alkynes",
+          "notes_list": [
+            {
+              "id": "ir038",
+              "title": "Alkene IR Identification",
+              "tags": ["alkene", "unsaturation"],
+              "basic_overview": "Alkenes में =C–H stretch above 3000 cm⁻¹ और C=C stretch approximately 1620–1680 cm⁻¹ useful clues हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Alkene spectrum में 3080 cm⁻¹ के आसपास C–H feature + 1650 cm⁻¹ के आसपास C=C band unsaturation support करती है।"
+            },
+            {
+              "id": "ir039",
+              "title": "Terminal Alkyne पहचानना",
+              "tags": ["alkyne", "structural-elucidation"],
+              "basic_overview": "Terminal alkyne में sharp ≡C–H stretch लगभग 3300 cm⁻¹ पर और C≡C stretch approximately 2100–2260 cm⁻¹ में हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Key combination: sharp ~3300 cm⁻¹ + weak ~2100–2200 cm⁻¹ → terminal alkyne strongly suspected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-alcohol-amine",
+      "title": "Alcohols, Phenols, Amines & Ethers",
+      "filters": [
+        { "label": "🧪 Functional Groups", "tag": "functional-group" },
+        { "label": "🔬 Interpretation", "tag": "interpretation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "alcohol-phenol",
+          "topic_title": "Alcohol and Phenol",
+          "notes_list": [
+            {
+              "id": "ir040",
+              "title": "Alcohol Spectrum",
+              "tags": ["alcohol", "oh"],
+              "basic_overview": "Alcohol में broad O–H stretching और strong C–O stretching band प्रमुख features हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Ethanol → broad O–H near 3200–3600 cm⁻¹, sp³ C–H near 2850–3000 cm⁻¹ और strong C–O band approximately 1000–1300 cm⁻¹."
+            },
+            {
+              "id": "ir041",
+              "title": "Phenol vs Alcohol",
+              "tags": ["phenol", "alcohol", "comparison"],
+              "basic_overview": "Phenol में O–H stretch के साथ aromatic ring vibrations और aromatic C–H features मिलते हैं, जिससे alcohol से distinction संभव है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Approach: Broad O–H alone देखकर alcohol/phenol decide न करें। 1600/1500 cm⁻¹ aromatic bands और 700–900 cm⁻¹ substitution features भी देखें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "amine-ir",
+          "topic_title": "Amines",
+          "notes_list": [
+            {
+              "id": "ir042",
+              "title": "Primary Amine",
+              "tags": ["amine", "primary-amine"],
+              "basic_overview": "Primary amines में NH₂ group के कारण generally two N–H stretching bands दिखाई दे सकती हैं और C–N stretching fingerprint region में होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: R–NH₂ → two N–H stretching features around the 3300–3500 cm⁻¹ region may be observed."
+            },
+            {
+              "id": "ir043",
+              "title": "Secondary और Tertiary Amine",
+              "tags": ["amine", "secondary-amine", "tertiary-amine"],
+              "basic_overview": "Secondary amines में one N–H stretching band हो सकती है, जबकि tertiary amines में N–H bond absent होने के कारण N–H stretch नहीं होता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: 3300–3500 cm⁻¹ region में N–H feature देखकर amine type infer किया जा सकता है, लेकिन O–H और other functional groups को भी exclude करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ether-ir",
+          "topic_title": "Ethers",
+          "notes_list": [
+            {
+              "id": "ir044",
+              "title": "C–O–C Stretching",
+              "tags": ["ether", "c-o"],
+              "basic_overview": "Ethers में strong C–O–C stretching absorptions fingerprint region में, broadly 1000–1300 cm⁻¹ के आसपास, दिखाई दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Diethyl ether में broad O–H band absent होगी लेकिन strong C–O features दिखाई देंगी।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-hydrogen-bonding",
+      "title": "Hydrogen Bonding & Band Shifts",
+      "filters": [
+        { "label": "🔵 Hydrogen Bond", "tag": "concept" },
+        { "label": "📉 Band Shift", "tag": "interpretation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hydrogen-bonding",
+          "topic_title": "Hydrogen Bonding Effects",
+          "notes_list": [
+            {
+              "id": "ir045",
+              "title": "Hydrogen Bonding से O–H Shift",
+              "tags": ["hydrogen-bond", "oh"],
+              "basic_overview": "Hydrogen bonding O–H bond को weaken करती है, जिसके कारण O–H stretching frequency lower wavenumber की ओर shift और band broad हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Free O–H usually sharper/higher frequency होता है, जबकि strongly hydrogen-bonded O–H broad और lower-frequency दिखाई देता है।"
+            },
+            {
+              "id": "ir046",
+              "title": "Intramolecular vs Intermolecular H-Bond",
+              "tags": ["hydrogen-bond", "structural-elucidation"],
+              "basic_overview": "Intramolecular hydrogen bonding molecule के अंदर होती है, जबकि intermolecular hydrogen bonding अलग molecules के बीच होती है। IR में दोनों band position और broadening को प्रभावित कर सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Structural clue: Dilution/temperature/solvent changes के साथ O–H band का behaviour intermolecular association के बारे में information दे सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-conjugation",
+      "title": "Conjugation & Ring Effects",
+      "filters": [
+        { "label": "🟣 Conjugation", "tag": "concept" },
+        { "label": "📉 Frequency Shift", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "conjugated-carbonyl",
+          "topic_title": "Conjugation Effect on C=O",
+          "notes_list": [
+            {
+              "id": "ir047",
+              "title": "Conjugation से C=O Frequency",
+              "tags": ["conjugation", "carbonyl", "gate"],
+              "basic_overview": "Carbonyl conjugation C=O bond की effective force constant को reduce करती है और सामान्यतः carbonyl stretching frequency को lower wavenumber की ओर shift करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Comparison: Saturated ketone C=O अक्सर ~1715 cm⁻¹ के आसपास; conjugated ketone अक्सर लगभग ~1685–1700 cm⁻¹ region में shift कर सकती है, exact structure पर depend करता है।"
+            },
+            {
+              "id": "ir048",
+              "title": "Ring Strain Effect on Carbonyl",
+              "tags": ["carbonyl", "ring-strain", "advanced"],
+              "basic_overview": "Small-ring cyclic ketones में ring strain C=O stretching frequency को सामान्य acyclic ketone की तुलना में higher wavenumber की ओर shift कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: Ring size decrease → carbonyl frequency generally increases for cyclic ketones because structural constraints affect bond character."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-isotope-effects",
+      "title": "Isotopic Substitution",
+      "filters": [
+        { "label": "⚖️ Isotopes", "tag": "concept" },
+        { "label": "🧮 Calculation", "tag": "formula" }
+      ],
+      "topics": [
+        {
+          "topic_id": "isotope-shift",
+          "topic_title": "IR Isotope Effects",
+          "notes_list": [
+            {
+              "id": "ir049",
+              "title": "H से D Substitution",
+              "tags": ["isotope", "deuterium", "numerical"],
+              "basic_overview": "H को D से replace करने पर reduced mass बढ़ती है और corresponding vibrational frequency lower wavenumber की ओर shift होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Approximate relationship: ν_D/ν_H ≈ √(μ_H/μ_D). इसी principle का उपयोग isotope labelling और structural assignment में किया जाता है।"
+            },
+            {
+              "id": "ir050",
+              "title": "Isotope Shift का उपयोग",
+              "tags": ["isotope", "structural-elucidation"],
+              "basic_overview": "Isotope substitution से shifted bands identify करके किसी vibrational mode में specific atom की participation के बारे में information प्राप्त की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: O–H band को O–D substitution के बाद lower wavenumber पर shift होते देखना O–H vibration assignment को support करता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-instrumentation",
+      "title": "IR Instrumentation",
+      "filters": [
+        { "label": "🔬 Instrument", "tag": "instrumentation" },
+        { "label": "⚙️ Components", "tag": "component" },
+        { "label": "🟢 Exam Questions", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "dispersive-ir",
+          "topic_title": "Dispersive IR Instrument",
+          "notes_list": [
+            {
+              "id": "ir051",
+              "title": "Dispersive IR का Basic Layout",
+              "tags": ["instrumentation", "dispersive"],
+              "basic_overview": "Classical dispersive IR spectrometer में IR source, wavelength-selection system such as monochromator, sample compartment, detector और signal-processing/display system प्रमुख components होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Sequence: Source → wavelength selection/monochromator → sample → detector → amplifier/data system. Actual optical arrangement instrument design के अनुसार बदल सकती है।"
+            },
+            {
+              "id": "ir052",
+              "title": "IR Sources",
+              "tags": ["instrumentation", "source"],
+              "basic_overview": "IR spectrometers में thermal IR sources उपयोग होती हैं। Common sources में Globar और Nernst glower शामिल हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "High-Yield: Globar = silicon carbide based source. Nernst glower = rare-earth oxide ceramic source. दोनों thermal emitters हैं।"
+            },
+            {
+              "id": "ir053",
+              "title": "IR Detectors",
+              "tags": ["detector", "instrumentation"],
+              "basic_overview": "IR instruments में thermal और photon/semiconductor-based detectors use हो सकते हैं। FTIR में DTGS और MCT जैसे detectors common हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "DTGS = deuterated triglycine sulfate detector. MCT = mercury cadmium telluride detector. MCT generally faster/more sensitive और often liquid-nitrogen cooled होता है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ftir",
+          "topic_title": "FTIR Instrumentation",
+          "notes_list": [
+            {
+              "id": "ir054",
+              "title": "FTIR क्या है?",
+              "tags": ["ftir", "instrumentation", "gate"],
+              "basic_overview": "Fourier Transform Infrared spectroscopy में interferometer सभी relevant IR frequencies को simultaneously encode करता है और Fourier transformation के माध्यम से spectrum obtain किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Core idea: Traditional dispersive instrument frequency-by-frequency scan करता है, जबकि FTIR interferogram record करके mathematical Fourier transform से spectrum generate करता है।"
+            },
+            {
+              "id": "ir055",
+              "title": "Michelson Interferometer",
+              "tags": ["ftir", "interferometer", "msc"],
+              "basic_overview": "FTIR में Michelson interferometer optical path difference generate करके different wavelengths को modulate करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Main parts: beam splitter, fixed mirror और moving mirror. Moving mirror optical path difference बदलता है और resulting signal interferogram बनाता है।"
+            },
+            {
+              "id": "ir056",
+              "title": "FTIR में Beam Splitter",
+              "tags": ["ftir", "beam-splitter"],
+              "basic_overview": "Beam splitter incoming radiation को अलग optical paths में divide करता है और recombination के बाद interference pattern generate होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common FTIR beam-splitter materials wavelength range के अनुसार अलग होते हैं; KBr beam splitter mid-IR applications में widely associated material है।"
+            },
+            {
+              "id": "ir057",
+              "title": "Interferogram से Spectrum",
+              "tags": ["ftir", "fourier-transform"],
+              "basic_overview": "Detector द्वारा recorded interferogram time/path-domain information रखता है। Fourier transformation इसे frequency/wavenumber-domain spectrum में convert करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Chain: IR source → interferometer → sample → detector → interferogram → Fourier transform → IR spectrum."
+            },
+            {
+              "id": "ir058",
+              "title": "FTIR के Advantages",
+              "tags": ["ftir", "advantages", "gate"],
+              "basic_overview": "FTIR के प्रमुख advantages में rapid acquisition, high throughput, good wavelength/wavenumber accuracy और signal averaging के माध्यम से improved S/N शामिल हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Keywords: Fellgett advantage (multiplex), Jacquinot advantage (throughput), Connes advantage (wavenumber accuracy)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ftir-advantages",
+      "title": "FTIR Interferometer Advantages",
+      "filters": [
+        { "label": "⚡ Fellgett", "tag": "concept" },
+        { "label": "💡 Jacquinot", "tag": "concept" },
+        { "label": "🎯 Connes", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ftir-advantages",
+          "topic_title": "Fellgett, Jacquinot & Connes Advantages",
+          "notes_list": [
+            {
+              "id": "ir059",
+              "title": "Fellgett Advantage",
+              "tags": ["ftir", "fellgett", "gate"],
+              "basic_overview": "Fellgett or multiplex advantage इस fact से related है कि interferometer सभी frequencies की information simultaneously acquire करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Memory: Fellgett = multiplex. इसे rapid data acquisition और potentially improved signal-to-noise for suitable measurements से associate करें।"
+            },
+            {
+              "id": "ir060",
+              "title": "Jacquinot Advantage",
+              "tags": ["ftir", "jacquinot"],
+              "basic_overview": "Jacquinot or throughput advantage बड़े optical throughput और absence of narrow entrance/exit slits से associated है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory Trick: Jacquinot → throughput/light-gathering advantage."
+            },
+            {
+              "id": "ir061",
+              "title": "Connes Advantage",
+              "tags": ["ftir", "connes"],
+              "basic_overview": "Connes advantage laser-based internal reference से highly accurate and reproducible wavenumber calibration से related है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory Trick: Connes → wavenumber accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-sampling-techniques",
+      "title": "IR Sampling Techniques",
+      "filters": [
+        { "label": "🧪 Sample Handling", "tag": "sampling" },
+        { "label": "🔬 Technique", "tag": "instrumentation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "transmission-ir",
+          "topic_title": "Transmission IR",
+          "notes_list": [
+            {
+              "id": "ir062",
+              "title": "KBr Pellet Method",
+              "tags": ["sampling", "kbr", "solid"],
+              "basic_overview": "Solid samples को dry KBr के साथ finely grind करके transparent pellet बनाया जा सकता है और transmission FTIR spectrum record किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important QC point: KBr hygroscopic होता है। Moisture contamination background और O–H features को affect कर सकती है। Sample और KBr को dry रखना जरूरी है।"
+            },
+            {
+              "id": "ir063",
+              "title": "Nujol Mull Method",
+              "tags": ["sampling", "solid"],
+              "basic_overview": "Solid sample को Nujol के साथ mull बनाकर salt plates के बीच place किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Limitation: Nujol खुद C–H और other IR bands देता है, इसलिए sample spectrum में Nujol contributions दिखाई दे सकती हैं।"
+            },
+            {
+              "id": "ir064",
+              "title": "Liquid Film Method",
+              "tags": ["sampling", "liquid"],
+              "basic_overview": "Neat liquids को suitable IR-transparent windows के बीच thin film के रूप में measure किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common window materials include NaCl, KBr, CaF₂ etc., selected according to chemical compatibility and spectral range."
+            }
+          ]
+        },
+        {
+          "topic_id": "atr",
+          "topic_title": "ATR-FTIR",
+          "notes_list": [
+            {
+              "id": "ir065",
+              "title": "ATR क्या है?",
+              "tags": ["atr", "ftir", "sampling", "qc"],
+              "basic_overview": "Attenuated Total Reflectance technique में sample को high-refractive-index crystal के contact में रखा जाता है और internally reflected IR radiation की evanescent wave sample की surface layer में interact करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common ATR crystal materials: diamond, ZnSe और germanium. Choice sample chemistry, pressure और penetration depth requirements पर depend करती है।"
+            },
+            {
+              "id": "ir066",
+              "title": "ATR Penetration Depth",
+              "tags": ["atr", "advanced", "numerical"],
+              "basic_overview": "ATR penetration depth wavelength, angle of incidence और crystal/sample refractive indices पर depend करती है। Longer wavelength generally deeper penetration दे सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: ATR surface-sensitive technique है; penetration depth typically micrometre-scale होती है, exact value setup और wavelength पर depend करती है।"
+            },
+            {
+              "id": "ir067",
+              "title": "ATR Contact Problem",
+              "tags": ["atr", "troubleshooting", "qc"],
+              "basic_overview": "Poor sample-crystal contact से weak bands, distorted spectra या poor reproducibility हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Debugging: Crystal clean करें, sample को properly contact में रखें, pressure appropriate रखें और heterogeneous solid में representative contact सुनिश्चित करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-cells-windows",
+      "title": "IR Cells & Optical Materials",
+      "filters": [
+        { "label": "🔬 Windows", "tag": "instrumentation" },
+        { "label": "⚠️ Compatibility", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "window-materials",
+          "topic_title": "IR Window Materials",
+          "notes_list": [
+            {
+              "id": "ir068",
+              "title": "NaCl Windows",
+              "tags": ["sampling", "windows"],
+              "basic_overview": "NaCl IR windows mid-IR transmission applications में widely used हैं लेकिन moisture sensitive और water-soluble होने के कारण aqueous samples के लिए unsuitable हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Trap: NaCl plates को water से clean नहीं करना चाहिए। Dry compatible solvent और proper handling follow करें।"
+            },
+            {
+              "id": "ir069",
+              "title": "KBr Windows",
+              "tags": ["sampling", "windows"],
+              "basic_overview": "KBr broad mid-IR transmission के लिए useful है लेकिन hygroscopic होता है और moisture से damage/background issues हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Troubleshooting: Atmospheric moisture और wet handling से strong O–H/H₂O features तथा optical degradation हो सकती है।"
+            },
+            {
+              "id": "ir070",
+              "title": "CaF₂ Windows",
+              "tags": ["sampling", "windows"],
+              "basic_overview": "CaF₂ windows moisture handling के मामले में NaCl/KBr से अधिक robust हो सकती हैं और suitable IR/UV ranges में applications रखती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Selection हमेशा required spectral range, sample compatibility और pressure/mechanical requirements के आधार पर करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-spectrum-interpretation",
+      "title": "IR Spectrum Interpretation",
+      "filters": [
+        { "label": "🔎 Interpretation", "tag": "concept" },
+        { "label": "🧩 Peak Assignment", "tag": "structural-elucidation" },
+        { "label": "🟢 Strategy", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "spectrum-reading",
+          "topic_title": "Stepwise Spectrum Reading",
+          "notes_list": [
+            {
+              "id": "ir071",
+              "title": "IR Spectrum पढ़ने का पहला Step",
+              "tags": ["interpretation", "strategy"],
+              "basic_overview": "सबसे पहले broad O–H/N–H region, C–H region और carbonyl/multiple-bond region को scan करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Suggested order: 1) 3600–2500 broad bands 2) 3100–2700 C–H 3) 2300–2000 triple bonds 4) 1800–1500 carbonyl/C=C 5) fingerprint region."
+            },
+            {
+              "id": "ir072",
+              "title": "Strong Peak का मतलब?",
+              "tags": ["interpretation", "intensity"],
+              "basic_overview": "Band intensity transition probability और dipole moment change से related है; strong band का अर्थ केवल 'more concentration' नहीं होता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Trap: Strongest peak हमेशा सबसे important functional group नहीं होती। Frequency, shape, intensity और context सभी को together interpret करें।"
+            },
+            {
+              "id": "ir073",
+              "title": "Broad vs Sharp Bands",
+              "tags": ["interpretation", "trick"],
+              "basic_overview": "Band shape structural/environmental information दे सकती है। Hydrogen-bonded O–H अक्सर broad होती है जबकि nitrile C≡N जैसे vibrations sharp दिखाई दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 2500–3300 cm⁻¹ very broad band + ~1700 cm⁻¹ strong band strongly suggests carboxylic acid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-structural-elucidation",
+      "title": "Structural Elucidation by IR",
+      "filters": [
+        { "label": "🧩 Structure", "tag": "structural-elucidation" },
+        { "label": "🔬 Unknown Compound", "tag": "problem" },
+        { "label": "🎯 Exam Level", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "unknown-identification",
+          "topic_title": "Unknown Compound Identification",
+          "notes_list": [
+            {
+              "id": "ir074",
+              "title": "Unknown: Strong Band at ~1715 cm⁻¹",
+              "tags": ["structural-elucidation", "example"],
+              "basic_overview": "A strong absorption around 1715 cm⁻¹ suggests a carbonyl group, but exact functional group assignment requires additional evidence.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "If no broad O–H, no N–H and no aldehydic C–H bands are present, a simple ketone becomes a plausible assignment. Confirm using the rest of the spectrum."
+            },
+            {
+              "id": "ir075",
+              "title": "Unknown: ~3300 Broad + ~1050",
+              "tags": ["structural-elucidation", "alcohol"],
+              "basic_overview": "Broad O–H near 3200–3600 cm⁻¹ together with strong C–O absorption in fingerprint region supports an alcohol structure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example candidate: ethanol or another alcohol. Exact identity केवल IR functional-group evidence से निश्चित नहीं की जानी चाहिए; fingerprint/reference comparison helpful है।"
+            },
+            {
+              "id": "ir076",
+              "title": "Unknown: ~2250 Sharp Band",
+              "tags": ["structural-elucidation", "nitrile", "alkyne"],
+              "basic_overview": "Sharp absorption around 2210–2260 cm⁻¹ nitrile or alkyne functionality की ओर संकेत कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Differentiation: Terminal alkyne के लिए ~3300 cm⁻¹ sharp ≡C–H भी expected हो सकती है; nitrile में यह feature absent होगा।"
+            },
+            {
+              "id": "ir077",
+              "title": "Unknown: 2500–3300 Broad + ~1700",
+              "tags": ["structural-elucidation", "carboxylic-acid"],
+              "basic_overview": "Very broad O–H absorption spanning approximately 2500–3300 cm⁻¹ together with strong C=O near 1700 cm⁻¹ is highly characteristic of carboxylic acid functionality.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Shortcut: Acid = extremely broad O–H + strong C=O. Alcohol में O–H broad हो सकती है लेकिन 2500–3300 तक characteristic acid-type broad envelope नहीं होती।"
+            }
+          ]
+        },
+        {
+          "topic_id": "differentiation-problems",
+          "topic_title": "IR-Based Differentiation Problems",
+          "notes_list": [
+            {
+              "id": "ir078",
+              "title": "Ethanol vs Diethyl Ether",
+              "tags": ["comparison", "alcohol", "ether"],
+              "basic_overview": "Ethanol में O–H stretching उपस्थित होगी, जबकि diethyl ether में O–H band absent होगी। दोनों में C–O related absorption हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Question approach: Broad 3200–3600 cm⁻¹ band देखें। Present → alcohol possibility; absent + strong C–O → ether possibility, subject to full spectrum."
+            },
+            {
+              "id": "ir079",
+              "title": "Aldehyde vs Ketone",
+              "tags": ["comparison", "aldehyde", "ketone"],
+              "basic_overview": "दोनों carbonyl absorption देते हैं, लेकिन aldehyde में characteristic C–H bands near 2720 and 2820 cm⁻¹ useful differentiating evidence हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Shortcut: C=O + aldehydic C–H bands → aldehyde. C=O without aldehydic C–H → ketone remains possible."
+            },
+            {
+              "id": "ir080",
+              "title": "Alcohol vs Carboxylic Acid",
+              "tags": ["comparison", "acid", "alcohol"],
+              "basic_overview": "Alcohol O–H usually 3200–3600 cm⁻¹ broad band देता है; carboxylic acid O–H much broader होकर approximately 2500–3300 cm⁻¹ तक फैल सकती है और strong C=O साथ में होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fast identification: Broad O–H + no C=O → alcohol/phenol likely. Very broad 2500–3300 + strong ~1700 → carboxylic acid likely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-qc-applications",
+      "title": "IR/FTIR in Quality Control",
+      "filters": [
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "💊 Pharmaceutical", "tag": "pharma" },
+        { "label": "🧪 Raw Material", "tag": "analytical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "qc-identification",
+          "topic_title": "Raw Material Identification",
+          "notes_list": [
+            {
+              "id": "ir081",
+              "title": "FTIR for Raw Material ID",
+              "tags": ["qc", "raw-material", "pharma"],
+              "basic_overview": "FTIR reference-library matching और characteristic spectral features के माध्यम से raw materials की identity verification में उपयोग किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC Workflow: Sample preparation → background → sample spectrum → preprocessing → reference comparison/library match → acceptance according to validated SOP/specification."
+            },
+            {
+              "id": "ir082",
+              "title": "Incoming Material Verification",
+              "tags": ["qc", "pharma"],
+              "basic_overview": "Pharmaceutical और chemical laboratories में incoming raw materials की identity testing के लिए ATR-FTIR widely useful हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam/Interview Point: FTIR identity testing rapid और minimally destructive हो सकती है, लेकिन method suitability और validated acceptance criteria जरूरी हैं।"
+            },
+            {
+              "id": "ir083",
+              "title": "Contamination Detection",
+              "tags": ["qc", "contamination", "troubleshooting"],
+              "basic_overview": "Unexpected peaks या spectral mismatch contamination, degradation, wrong material या sample-preparation issue का संकेत दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug order: Reference spectrum compare करें → background check → crystal/window cleanliness → sample identity → environmental moisture → instrument performance check."
+            }
+          ]
+        },
+        {
+          "topic_id": "ftir-quantitative",
+          "topic_title": "Quantitative FTIR",
+          "notes_list": [
+            {
+              "id": "ir084",
+              "title": "Beer-Lambert Law और IR",
+              "tags": ["quantitative", "beer-lambert", "formula"],
+              "basic_overview": "Suitable conditions में IR absorbance concentration और path length से Beer-Lambert relationship follow कर सकती है: A = εbc.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Where A = absorbance, ε = molar absorptivity, b = path length, c = concentration. Quantitative FTIR में calibration model, matrix effects और sampling reproducibility important हैं।"
+            },
+            {
+              "id": "ir085",
+              "title": "ATR में Direct Quantification की Limitation",
+              "tags": ["atr", "quantitative", "qc"],
+              "basic_overview": "ATR effective path/penetration depth traditional fixed transmission path से अलग होती है, इसलिए quantitative method को calibration और controlled sampling के साथ validate करना आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Interview Point: केवल absorbance ratio देखकर concentration method assume नहीं करनी चाहिए; matrix, contact pressure, particle size और calibration model reproducibility affect कर सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-troubleshooting",
+      "title": "Instrument Debugging & Troubleshooting",
+      "filters": [
+        { "label": "🔧 Debugging", "tag": "troubleshooting" },
+        { "label": "⚠️ Faults", "tag": "fault" },
+        { "label": "🧪 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ftir-debugging",
+          "topic_title": "FTIR Troubleshooting",
+          "notes_list": [
+            {
+              "id": "ir086",
+              "title": "Spectrum में बहुत Strong Water Peaks",
+              "tags": ["troubleshooting", "water", "ftir"],
+              "basic_overview": "Strong atmospheric water vapour features या broad O–H/H₂O bands background, humidity, purge failure या wet optics/sample handling से associated हो सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug Sequence: Background reacquire करें → desiccant/purge status check करें → optical compartment seals/check करें → wet sample/window/KBr issue inspect करें → repeat spectrum."
+            },
+            {
+              "id": "ir087",
+              "title": "Baseline Drift",
+              "tags": ["troubleshooting", "baseline"],
+              "basic_overview": "Baseline drift environmental changes, source/instrument instability, contamination, thermal equilibration या sampling issues से related हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Check: Instrument warm-up → background → purge → sample contact → optics cleanliness → software preprocessing. केवल aggressive baseline correction करके root cause hide न करें।"
+            },
+            {
+              "id": "ir088",
+              "title": "Low Signal / Weak Spectrum",
+              "tags": ["troubleshooting", "signal"],
+              "basic_overview": "Weak spectrum poor ATR contact, insufficient sample concentration/path length, contaminated optics, detector/source issue या unsuitable sample preparation से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "ATR में सबसे पहले crystal cleanliness और sample contact check करें। Transmission में sample thickness/concentration और window condition check करें।"
+            },
+            {
+              "id": "ir089",
+              "title": "Unexpected Peaks",
+              "tags": ["troubleshooting", "contamination"],
+              "basic_overview": "Unexpected peaks sample contamination, solvent/residue, Nujol, water vapour, CO₂ या dirty ATR crystal/windows से आ सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Blank/background spectrum लें और suspect material के reference spectrum से compare करें। Nujol use हुआ हो तो उसके characteristic hydrocarbon bands consider करें।"
+            },
+            {
+              "id": "ir090",
+              "title": "Poor Reproducibility",
+              "tags": ["troubleshooting", "qc", "reproducibility"],
+              "basic_overview": "Repeated measurements में spectral variation sample heterogeneity, ATR pressure/contact, particle size, preparation differences या instrument/environmental instability से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Strategy: Same sample preparation → consistent ATR pressure/contact → clean crystal between runs → same acquisition parameters → replicate measurements → monitor instrument performance."
+            }
+          ]
+        },
+        {
+          "topic_id": "ftir-calibration",
+          "topic_title": "Calibration & Performance Checks",
+          "notes_list": [
+            {
+              "id": "ir091",
+              "title": "Polystyrene Film Check",
+              "tags": ["calibration", "qc", "ftir"],
+              "basic_overview": "Polystyrene reference film FTIR wavelength/wavenumber accuracy और instrument performance verification के लिए commonly used reference material है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Point: Polystyrene film में well-characterized absorption bands होती हैं। Actual acceptance limits laboratory SOP, pharmacopoeia या instrument qualification procedure के अनुसार follow किए जाते हैं।"
+            },
+            {
+              "id": "ir092",
+              "title": "Background Spectrum क्यों लिया जाता है?",
+              "tags": ["background", "qc"],
+              "basic_overview": "Background measurement instrument/environment/sample compartment की baseline contribution को characterize करने के लिए लिया जाता है ताकि sample spectrum को appropriately reference किया जा सके।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Background में atmospheric H₂O/CO₂ features या contamination हों तो sample spectrum प्रभावित हो सकता है। इसलिए clean and stable background महत्वपूर्ण है।"
+            },
+            {
+              "id": "ir093",
+              "title": "Resolution और Scan Number",
+              "tags": ["ftir", "parameters", "qc"],
+              "basic_overview": "Spectral resolution छोटे neighbouring peaks को distinguish करने की क्षमता को affect करती है, जबकि multiple scans averaging से signal-to-noise improve किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Trade-off: Higher resolution can require more acquisition resources; more scans generally improve S/N approximately with square-root dependence under ideal noise conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-instrument-parameters",
+      "title": "Instrument Parameters & Data Quality",
+      "filters": [
+        { "label": "⚙️ Parameters", "tag": "instrumentation" },
+        { "label": "📊 Data Quality", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "resolution-scan",
+          "topic_title": "Resolution, Scans & S/N",
+          "notes_list": [
+            {
+              "id": "ir094",
+              "title": "Spectral Resolution",
+              "tags": ["resolution", "ftir"],
+              "basic_overview": "Spectral resolution बताती है कि instrument पास-पास स्थित spectral features को कितनी अच्छी तरह अलग कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Two close peaks overlap कर रहे हों तो better resolution useful हो सकती है। Routine identification में unnecessarily high resolution हमेशा necessary नहीं होती।"
+            },
+            {
+              "id": "ir095",
+              "title": "Number of Scans और S/N",
+              "tags": ["scans", "signal-to-noise"],
+              "basic_overview": "Repeated scans को average करने से random noise reduce हो सकता है और signal-to-noise ratio improve होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Ideal random-noise condition में S/N approximately √N के proportional improve होता है, जहाँ N scans की संख्या है।"
+            },
+            {
+              "id": "ir096",
+              "title": "Apodization",
+              "tags": ["ftir", "data-processing", "advanced"],
+              "basic_overview": "FTIR interferogram processing में apodization functions truncation-related artifacts और spectral line shape को control करने के लिए उपयोग की जाती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Advanced exam/interview point: Apodization resolution और sidelobe/ringing behaviour के बीच trade-off introduce कर सकती है।"
+            },
+            {
+              "id": "ir097",
+              "title": "Zero Filling",
+              "tags": ["ftir", "data-processing"],
+              "basic_overview": "Zero filling interferogram में additional zeros जोड़कर interpolated spectral grid को denser बना सकता है, लेकिन यह true instrumental resolution को independently improve नहीं करता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trap: Zero filling ≠ true resolution improvement. यह spectral display/interpolation को smoother or denser बना सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-mathematical",
+      "title": "IR Numerical & Mathematical Problems",
+      "filters": [
+        { "label": "🧮 Numericals", "tag": "numerical" },
+        { "label": "📐 Formula", "tag": "formula" },
+        { "label": "🎯 GATE", "tag": "gate" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ir-wavenumber-calculation",
+          "topic_title": "Wavelength, Frequency & Wavenumber",
+          "notes_list": [
+            {
+              "id": "ir098",
+              "title": "Wavenumber से Wavelength निकालना",
+              "tags": ["numerical", "formula"],
+              "basic_overview": "Wavelength λ और wavenumber ν̄ का relation ν̄ = 1/λ है, provided units consistent हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 2000 cm⁻¹ → λ = 1/2000 cm = 5 × 10⁻⁴ cm = 5 µm."
+            },
+            {
+              "id": "ir099",
+              "title": "Frequency Calculation",
+              "tags": ["numerical", "formula"],
+              "basic_overview": "Frequency ν = cν̄. यदि c = 2.998 × 10¹⁰ cm/s और ν̄ = 1000 cm⁻¹ है, तो ν ≈ 2.998 × 10¹³ s⁻¹.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Unit Check: c को cm/s और wavenumber को cm⁻¹ रखें ताकि resulting frequency s⁻¹ या Hz में आए।"
+            }
+          ]
+        },
+        {
+          "topic_id": "hooke-law-numerical",
+          "topic_title": "Hooke's Law Numerical",
+          "notes_list": [
+            {
+              "id": "ir100",
+              "title": "Force Constant से Frequency",
+              "tags": ["numerical", "hooke-law", "gate"],
+              "basic_overview": "Diatomic oscillator approximation में ν̄ = (1/2πc)√(k/μ) का उपयोग करके force constant या vibrational frequency estimate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Problem Strategy: पहले reduced mass calculate करें → k और μ units consistent करें → square root term calculate करें → 2πc से divide करें → final unit cm⁻¹ verify करें।"
+            },
+            {
+              "id": "ir101",
+              "title": "Frequency Ratio Problems",
+              "tags": ["numerical", "isotope"],
+              "basic_overview": "Same bond में isotopic substitution होने पर, approximately ν₁/ν₂ = √(μ₂/μ₁) relation useful होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Shortcut: Force constant unchanged मानने पर frequency ratio केवल reduced masses के ratio पर depend करेगी।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-combination-overtone",
+      "title": "Overtones, Combination Bands & Advanced Features",
+      "filters": [
+        { "label": "🔬 Advanced", "tag": "advanced" },
+        { "label": "🧠 Concepts", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "overtone",
+          "topic_title": "Overtone Bands",
+          "notes_list": [
+            {
+              "id": "ir102",
+              "title": "Overtone क्या है?",
+              "tags": ["overtone", "advanced"],
+              "basic_overview": "Fundamental transition के ऊपर higher vibrational transitions overtone bands दे सकती हैं। Anharmonicity के कारण exact multiples ideal harmonic oscillator से deviate कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Fundamental transition commonly v=0→1 है। First overtone v=0→2 और higher transitions weakly allowed हो सकती हैं due to anharmonicity."
+            },
+            {
+              "id": "ir103",
+              "title": "Combination Bands",
+              "tags": ["combination", "advanced"],
+              "basic_overview": "दो या अधिक vibrational modes की combined excitation combination band generate कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Advanced IR interpretation में weak unexpected bands को combination/overtone origin से distinguish करने के लिए reference spectra और full spectral pattern useful होते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-raman-comparison",
+      "title": "IR vs Raman Spectroscopy",
+      "filters": [
+        { "label": "🔵 IR", "tag": "comparison" },
+        { "label": "🟣 Raman", "tag": "comparison" },
+        { "label": "🎯 Exam", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ir-raman",
+          "topic_title": "IR and Raman Comparison",
+          "notes_list": [
+            {
+              "id": "ir104",
+              "title": "IR Activity vs Raman Activity",
+              "tags": ["raman", "comparison", "gate"],
+              "basic_overview": "IR activity vibration के दौरान dipole moment change से related है, जबकि Raman activity molecular polarizability change से related है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Rule: Dipole moment change → IR; polarizability change → Raman."
+            },
+            {
+              "id": "ir105",
+              "title": "CO₂ IR vs Raman",
+              "tags": ["raman", "co2", "symmetry"],
+              "basic_overview": "CO₂ की centrosymmetric nature के कारण कुछ vibrations IR और Raman में complementary activity दिखाती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Mutual exclusion principle का classic application centrosymmetric molecules में IR/Raman selection rules समझने के लिए किया जाता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-psu-exam",
+      "title": "PSU, GATE, MSc Entrance & QC Exam Strategy",
+      "filters": [
+        { "label": "🎯 GATE Chemistry", "tag": "gate" },
+        { "label": "🏭 PSU", "tag": "psu" },
+        { "label": "🎓 MSc Entrance", "tag": "msc" },
+        { "label": "🧪 QC Chemist", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "exam-priority",
+          "topic_title": "High-Yield IR Topics",
+          "notes_list": [
+            {
+              "id": "ir106",
+              "title": "GATE-Level Must Know Topics",
+              "tags": ["gate", "strategy"],
+              "basic_overview": "GATE-oriented preparation में vibrational modes, selection rules, Hooke's law, reduced mass, frequency shifts, FTIR, symmetry और spectrum interpretation महत्वपूर्ण हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Priority revision: 3N−6/3N−5 → IR selection rule → Hooke's law → isotope shift → carbonyl shifts → FTIR interferometer → Raman comparison."
+            },
+            {
+              "id": "ir107",
+              "title": "MSc Entrance-Level Must Know",
+              "tags": ["msc", "strategy"],
+              "basic_overview": "MSc entrance questions में functional-group frequencies, selection rules, normal modes, basic instrumentation और simple structure identification frequently useful areas हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fast Revision: O–H, N–H, C–H, C=O, C=C, C≡C, C≡N, fingerprint region और IR active/inactive molecules को confidently identify करें।"
+            },
+            {
+              "id": "ir108",
+              "title": "PSU Analytical/QC Chemist Focus",
+              "tags": ["psu", "qc", "strategy"],
+              "basic_overview": "PSU और QC-oriented analytical roles के लिए IR principle के साथ instrument components, sample handling, FTIR/ATR operation, calibration, troubleshooting और data interpretation practical importance रखते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Interview Pattern: 'Spectrum में water peaks क्यों?' 'ATR में weak signal क्यों?' 'KBr क्यों dry रखना है?' 'Polystyrene check किसलिए?' 'FTIR dispersive IR से कैसे अलग है?' जैसे practical questions prepare करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "exam-question-patterns",
+          "topic_title": "Common Question Patterns",
+          "notes_list": [
+            {
+              "id": "ir109",
+              "title": "Frequency Ordering Question",
+              "tags": ["gate", "msc", "numerical"],
+              "basic_overview": "Exam में different bonds की stretching frequencies को order करने के लिए bond strength और reduced mass दोनों consider करने होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General logic: Stronger bond → higher k → higher frequency; heavier reduced mass → lower frequency. Example: C≡C generally > C=C > C–C for corresponding stretching."
+            },
+            {
+              "id": "ir110",
+              "title": "Structure from Peak Question",
+              "tags": ["structural-elucidation", "gate", "msc"],
+              "basic_overview": "Unknown spectrum में broad/strong peaks और diagnostic regions identify करके functional groups narrow down किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Method: First identify O–H/N–H → carbonyl → triple bond → alkene/aromatic → fingerprint. केवल one peak से complete structure claim न करें।"
+            },
+            {
+              "id": "ir111",
+              "title": "Instrument Fault Question",
+              "tags": ["psu", "qc", "troubleshooting"],
+              "basic_overview": "Practical questions में symptom देखकर probable instrument/sample/environmental cause identify करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: Suddenly strong atmospheric H₂O bands → background/purge/humidity check. Weak ATR spectrum → contact/crystal cleanliness/sample coverage check."
+            },
+            {
+              "id": "ir112",
+              "title": "Statement-Based IR Question",
+              "tags": ["gate", "msc", "concept"],
+              "basic_overview": "Statements में IR activity, selection rule, FTIR advantages, sampling materials और frequency shifts को conceptually test किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Trick: Absolute words जैसे 'always' और 'never' को carefully check करें। Exact spectral ranges approximate होते हैं और molecular environment से shift हो सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-debugging-cases",
+      "title": "Practical Debugging Case Studies",
+      "filters": [
+        { "label": "🔧 Case Study", "tag": "troubleshooting" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "🧠 Diagnosis", "tag": "problem" }
+      ],
+      "topics": [
+        {
+          "topic_id": "case-studies",
+          "topic_title": "Realistic FTIR Debugging Cases",
+          "notes_list": [
+            {
+              "id": "ir113",
+              "title": "Case: Reference Match Suddenly Poor",
+              "tags": ["debugging", "qc", "problem"],
+              "basic_overview": "यदि previously acceptable raw material का library match अचानक खराब हो जाए तो केवल sample को reject करने के बजाय instrument, sampling और sample identity सभी verify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Diagnosis order: Crystal cleanliness → background → ATR contact → sample homogeneity → environmental moisture → instrument performance/reference standard → actual material identity."
+            },
+            {
+              "id": "ir114",
+              "title": "Case: New Broad O–H Appears",
+              "tags": ["debugging", "water", "qc"],
+              "basic_overview": "Previously dry sample में अचानक broad O–H band आने पर moisture contamination या sample degradation consider किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Check sample storage, hygroscopicity, KBr moisture, ATR cleaning solvent residue और atmospheric background. Background spectrum के साथ compare करें।"
+            },
+            {
+              "id": "ir115",
+              "title": "Case: Peaks Shift Between Runs",
+              "tags": ["debugging", "calibration", "qc"],
+              "basic_overview": "Apparent peak-position shifts instrument calibration, sample environment, processing settings या actual chemical changes से related हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Reference standard run करें → wavenumber accuracy verify करें → same resolution/processing parameters रखें → sample temperature/state compare करें → background repeat करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ir-rapid-revision",
+      "title": "Rapid Revision: Most Important IR Facts",
+      "filters": [
+        { "label": "⚡ One-Liners", "tag": "revision" },
+        { "label": "🎯 Exam Hall", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "rapid-ir",
+          "topic_title": "IR One-Minute Revision",
+          "notes_list": [
+            {
+              "id": "ir116",
+              "title": "Core Selection Rule",
+              "tags": ["revision", "selection-rule"],
+              "basic_overview": "Vibration IR active है यदि vibration के दौरान dipole moment change होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: Dipole moment change = IR activity."
+            },
+            {
+              "id": "ir117",
+              "title": "Normal Modes Formula",
+              "tags": ["revision", "formula"],
+              "basic_overview": "Non-linear molecule: 3N−6. Linear molecule: 3N−5.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: H₂O → 3 modes. CO₂ → 4 modes."
+            },
+            {
+              "id": "ir118",
+              "title": "Important Diagnostic Regions",
+              "tags": ["revision", "frequency"],
+              "basic_overview": "O–H/N–H ~3300 region, C–H ~3000 region, C≡N/C≡C ~2100–2300 region, C=O ~1650–1750 region और fingerprint ~1500–400 cm⁻¹ highly important हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exact frequency environment-dependent है; ranges को rigid single-number rule की तरह use न करें।"
+            },
+            {
+              "id": "ir119",
+              "title": "Carbonyl Shortcut",
+              "tags": ["revision", "carbonyl"],
+              "basic_overview": "Strong band near 1700 cm⁻¹ → first think C=O, then distinguish aldehyde, ketone, acid, ester, amide, anhydride etc. using supporting peaks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Do not stop at 'carbonyl'. Functional-group identification requires additional spectral evidence."
+            },
+            {
+              "id": "ir120",
+              "title": "FTIR Core Chain",
+              "tags": ["revision", "ftir"],
+              "basic_overview": "FTIR में interferometer interferogram generate करता है और Fourier transform उसे spectrum में convert करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: Source → Interferometer → Sample → Detector → Interferogram → Fourier Transform → Spectrum."
+            },
+            {
+              "id": "ir121",
+              "title": "ATR Core Rule",
+              "tags": ["revision", "atr"],
+              "basic_overview": "ATR में good crystal-sample contact जरूरी है क्योंकि measurement evanescent-wave interaction पर depend करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Weak ATR spectrum → clean crystal + adequate sample contact + representative sample coverage check करें।"
+            },
+            {
+              "id": "ir122",
+              "title": "Best Structural Elucidation Rule",
+              "tags": ["revision", "structural-elucidation"],
+              "basic_overview": "IR functional groups identify करने में powerful है, लेकिन complete molecular structure uniquely determine करने के लिए IR को अन्य analytical evidence जैसे NMR/MS के साथ combine करना पड़ सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: IR tells 'which functional groups are likely present'; NMR gives connectivity/environment और MS molecular mass/formula information provide कर सकता है।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

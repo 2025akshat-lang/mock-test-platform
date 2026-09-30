@@ -1,0 +1,928 @@
+{
+  "chapter_title": "Geography",
+  "sections": [
+    {
+      "id": "physical-geography",
+      "title": "Physical Geography",
+      "filters": [
+        { "label": "🟤 Earth Structure", "tag": "earth-structure" },
+        { "label": "🟢 Geomorphology", "tag": "geomorphology" },
+        { "label": "🔵 Landforms", "tag": "landforms" },
+        { "label": "🟣 Earth Movements", "tag": "earth-movements" }
+      ],
+      "topics": [
+        {
+          "topic_id": "geo-earth-structure",
+          "topic_title": "Structure of the Earth",
+          "notes_list": [
+            {
+              "id": "g001",
+              "title": "Layers of the Earth",
+              "tags": ["earth-structure", "physical-geography"],
+              "basic_overview": "The Earth is composed of three major layers: crust, mantle and core. The crust is the outermost layer, the mantle lies beneath it, and the core forms the innermost part.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "The crust is divided into continental and oceanic crust. The mantle is mainly composed of silicate minerals, while the core is dominated by iron and nickel. The outer core is liquid and the inner core is solid."
+            },
+            {
+              "id": "g002",
+              "title": "Rocks and Minerals",
+              "tags": ["earth-structure", "physical-geography"],
+              "basic_overview": "Rocks are natural aggregates of minerals. They are broadly classified into igneous, sedimentary and metamorphic rocks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#78716c",
+              "extra_info_content": "Igneous rocks form from cooling magma or lava. Sedimentary rocks form through deposition and compaction of sediments. Metamorphic rocks develop when existing rocks are altered by heat and pressure."
+            }
+          ]
+        },
+        {
+          "topic_id": "geo-geomorphology",
+          "topic_title": "Geomorphic Processes",
+          "notes_list": [
+            {
+              "id": "g003",
+              "title": "Weathering",
+              "tags": ["geomorphology", "physical-geography"],
+              "basic_overview": "Weathering is the breakdown or alteration of rocks at or near the Earth's surface without their transportation from the original location.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Weathering may be physical, chemical or biological. Temperature changes, water, chemical reactions, plant roots and organisms can contribute to weathering."
+            },
+            {
+              "id": "g004",
+              "title": "Erosion and Deposition",
+              "tags": ["geomorphology", "physical-geography"],
+              "basic_overview": "Erosion involves the removal and transportation of weathered material by agents such as rivers, wind, glaciers and waves. Deposition occurs when transported material is laid down.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "River erosion can create valleys and gorges, wind can produce dunes, glaciers can form U-shaped valleys, and waves can shape coastal cliffs and beaches."
+            }
+          ]
+        },
+        {
+          "topic_id": "geo-landforms",
+          "topic_title": "Major Landforms",
+          "notes_list": [
+            {
+              "id": "g005",
+              "title": "Mountains",
+              "tags": ["landforms", "physical-geography"],
+              "basic_overview": "Mountains are elevated landforms with steep slopes and significant height relative to surrounding areas. They may form through folding, faulting or volcanic activity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Himalayas are young fold mountains formed by the collision of the Indian and Eurasian tectonic plates."
+            },
+            {
+              "id": "g006",
+              "title": "Plateaus",
+              "tags": ["landforms", "physical-geography"],
+              "basic_overview": "A plateau is an elevated area of land with a relatively flat or gently undulating surface. Plateaus may be formed by tectonic uplift, volcanic activity or erosion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#8b5cf6",
+              "extra_info_content": "The Deccan Plateau is an important plateau region of India and contains extensive basaltic formations associated with ancient volcanic activity."
+            },
+            {
+              "id": "g007",
+              "title": "Plains",
+              "tags": ["landforms", "physical-geography"],
+              "basic_overview": "Plains are broad areas of relatively level land. River deposition, erosion, marine processes and tectonic activity can contribute to their formation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "The Northern Plains of India were formed largely by sediments deposited by the Indus, Ganga and Brahmaputra river systems."
+            }
+          ]
+        },
+        {
+          "topic_id": "geo-earth-movements",
+          "topic_title": "Earth Movements",
+          "notes_list": [
+            {
+              "id": "g008",
+              "title": "Earthquakes",
+              "tags": ["earth-movements", "physical-geography"],
+              "basic_overview": "An earthquake is the sudden release of energy within the Earth's crust that produces seismic waves and ground vibrations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Most earthquakes occur along tectonic plate boundaries. The focus is the point inside the Earth where seismic energy is released, while the epicentre is the point on the surface directly above it."
+            },
+            {
+              "id": "g009",
+              "title": "Volcanoes",
+              "tags": ["earth-movements", "physical-geography"],
+              "basic_overview": "A volcano is an opening or vent through which magma, gases and volcanic materials reach the Earth's surface.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ea580c",
+              "extra_info_content": "Volcanoes can be classified as active, dormant or extinct based on their eruptive history and present activity. Volcanic activity is strongly associated with tectonic plate boundaries and hotspots."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indian-geography",
+      "title": "Indian Geography",
+      "filters": [
+        { "label": "🇮🇳 India Physical Features", "tag": "india-physical" },
+        { "label": "🏔️ Himalayas", "tag": "himalayas" },
+        { "label": "🌊 Rivers", "tag": "rivers" },
+        { "label": "🌾 Agriculture", "tag": "agriculture" },
+        { "label": "⛏️ Minerals", "tag": "minerals" },
+        { "label": "🏭 Industries", "tag": "industries" }
+      ],
+      "topics": [
+        {
+          "topic_id": "india-physical-features",
+          "topic_title": "Physical Features of India",
+          "notes_list": [
+            {
+              "id": "g101",
+              "title": "Major Physiographic Divisions of India",
+              "tags": ["india-physical", "indian-geography"],
+              "basic_overview": "India can be divided into major physiographic regions including the Himalayan Mountains, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains and Islands.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Each physiographic division has distinctive relief, geological structure, climate, soil, vegetation and economic activities."
+            },
+            {
+              "id": "g102",
+              "title": "Peninsular Plateau",
+              "tags": ["india-physical", "indian-geography"],
+              "basic_overview": "The Peninsular Plateau is an ancient landmass composed mainly of crystalline and metamorphic rocks. It includes the Central Highlands and Deccan Plateau.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The plateau is rich in mineral resources and includes important ranges such as the Aravalli, Vindhya, Satpura and Western and Eastern Ghats."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-himalayas",
+          "topic_title": "The Himalayas",
+          "notes_list": [
+            {
+              "id": "g103",
+              "title": "Himalayan Ranges",
+              "tags": ["himalayas", "indian-geography"],
+              "basic_overview": "The Himalayas are young fold mountains extending across the northern part of the Indian subcontinent. They are commonly divided into the Greater Himalaya, Lesser Himalaya and Shiwalik ranges.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "The Greater Himalaya contains some of the highest peaks. The Lesser Himalaya includes ranges such as the Pir Panjal, while the Shiwaliks form the southernmost Himalayan range."
+            },
+            {
+              "id": "g104",
+              "title": "Importance of the Himalayas",
+              "tags": ["himalayas", "indian-geography"],
+              "basic_overview": "The Himalayas influence India's climate, provide water resources through glaciers and rivers, support biodiversity and act as a major physical barrier.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The mountains influence monsoon circulation and contain major river sources. Himalayan ecosystems also support forests, wildlife and diverse human communities."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-rivers",
+          "topic_title": "Indian River Systems",
+          "notes_list": [
+            {
+              "id": "g105",
+              "title": "Himalayan Rivers",
+              "tags": ["rivers", "indian-geography"],
+              "basic_overview": "Major Himalayan river systems include the Indus, Ganga and Brahmaputra. These rivers are generally perennial because they receive water from rainfall as well as snow and glacier melt.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "The Ganga system includes important tributaries such as the Yamuna, Ghaghara, Gandak and Kosi. The Brahmaputra enters India through Arunachal Pradesh and flows through Assam."
+            },
+            {
+              "id": "g106",
+              "title": "Peninsular Rivers",
+              "tags": ["rivers", "indian-geography"],
+              "basic_overview": "Important Peninsular rivers include the Mahanadi, Godavari, Krishna, Kaveri, Narmada and Tapi. Their courses are closely related to the plateau's geological structure and slope.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Most major Peninsular rivers flow eastward into the Bay of Bengal, while Narmada and Tapi flow westward through rift valleys into the Arabian Sea."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-agriculture",
+          "topic_title": "Agriculture in India",
+          "notes_list": [
+            {
+              "id": "g107",
+              "title": "Types of Farming",
+              "tags": ["agriculture", "indian-geography"],
+              "basic_overview": "Indian agriculture includes subsistence farming, commercial farming, intensive farming, plantation agriculture and mixed farming.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#65a30d",
+              "extra_info_content": "The type of farming depends on factors such as climate, soil, water availability, landholding size, technology, market access and labour."
+            },
+            {
+              "id": "g108",
+              "title": "Major Crops of India",
+              "tags": ["agriculture", "indian-geography"],
+              "basic_overview": "Major Indian crops include rice, wheat, maize, millets, pulses, sugarcane, cotton, jute, tea, coffee and oilseeds.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Rice generally requires high temperature and adequate water. Wheat prefers cooler growing conditions. Cotton grows well in warm conditions and is strongly associated with black soil regions."
+            },
+            {
+              "id": "g109",
+              "title": "Cropping Seasons",
+              "tags": ["agriculture", "indian-geography"],
+              "basic_overview": "The major agricultural seasons in India are Kharif, Rabi and Zaid. They are associated with different sowing and harvesting periods and climatic conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#84cc16",
+              "extra_info_content": "Kharif crops are generally sown with the onset of the monsoon. Rabi crops are generally sown after the monsoon season. Zaid crops are cultivated between the Rabi and Kharif seasons."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-minerals",
+          "topic_title": "Mineral Resources",
+          "notes_list": [
+            {
+              "id": "g110",
+              "title": "Metallic Minerals",
+              "tags": ["minerals", "indian-geography"],
+              "basic_overview": "Metallic minerals include iron ore, manganese, copper, bauxite and chromite. They are important raw materials for industries.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#b45309",
+              "extra_info_content": "Iron ore is a major raw material for the iron and steel industry. Bauxite is the principal ore used for aluminium production."
+            },
+            {
+              "id": "g111",
+              "title": "Non-Metallic Minerals",
+              "tags": ["minerals", "indian-geography"],
+              "basic_overview": "Important non-metallic minerals include limestone, mica, gypsum and salt. They are used in construction, manufacturing and chemical industries.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#64748b",
+              "extra_info_content": "Limestone is an essential raw material for cement production. Mica has applications in electrical and electronic industries because of its insulating properties."
+            },
+            {
+              "id": "g112",
+              "title": "Energy Resources",
+              "tags": ["minerals", "indian-geography"],
+              "basic_overview": "India uses conventional energy resources such as coal, petroleum and natural gas as well as renewable resources such as solar, wind, hydro and biomass energy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Coal remains an important source for electricity generation and industry. Renewable energy resources are increasingly important for diversifying the energy system."
+            }
+          ]
+        },
+        {
+          "topic_id": "india-industries",
+          "topic_title": "Industries of India",
+          "notes_list": [
+            {
+              "id": "g113",
+              "title": "Iron and Steel Industry",
+              "tags": ["industries", "indian-geography"],
+              "basic_overview": "The iron and steel industry is a basic industry because its products are used as raw materials in many other industries, construction and infrastructure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#475569",
+              "extra_info_content": "Important steel-producing centres developed near sources of iron ore, coal, limestone, water, transport and markets."
+            },
+            {
+              "id": "g114",
+              "title": "Cotton Textile Industry",
+              "tags": ["industries", "indian-geography"],
+              "basic_overview": "The cotton textile industry is one of India's important traditional industries. Its development is influenced by raw materials, labour, markets, transport and power.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Major cotton textile centres include Mumbai, Ahmedabad, Surat, Coimbatore and Kanpur. The industry includes spinning, weaving, processing and garment production."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climatology",
+      "title": "Climatology",
+      "filters": [
+        { "label": "☀️ Atmosphere", "tag": "atmosphere" },
+        { "label": "🌡️ Temperature", "tag": "temperature" },
+        { "label": "💨 Pressure & Winds", "tag": "pressure-winds" },
+        { "label": "🌧️ Rainfall", "tag": "rainfall" },
+        { "label": "🌪️ Cyclones", "tag": "cyclones" },
+        { "label": "🌏 Climate Change", "tag": "climate-change" }
+      ],
+      "topics": [
+        {
+          "topic_id": "climate-atmosphere",
+          "topic_title": "Atmosphere",
+          "notes_list": [
+            {
+              "id": "g201",
+              "title": "Composition of Atmosphere",
+              "tags": ["atmosphere", "climatology"],
+              "basic_overview": "The atmosphere is a mixture of gases surrounding Earth. Nitrogen and oxygen form the largest proportions, while smaller quantities of argon, carbon dioxide, water vapour and other gases are also present.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The atmosphere supports life, regulates temperature, protects Earth from harmful radiation and enables weather processes."
+            },
+            {
+              "id": "g202",
+              "title": "Layers of Atmosphere",
+              "tags": ["atmosphere", "climatology"],
+              "basic_overview": "The atmosphere is divided into the troposphere, stratosphere, mesosphere, thermosphere and exosphere based on temperature and other characteristics.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Most weather phenomena occur in the troposphere. The stratosphere contains the ozone layer, which absorbs much of the Sun's ultraviolet radiation."
+            }
+          ]
+        },
+        {
+          "topic_id": "climate-temperature",
+          "topic_title": "Temperature",
+          "notes_list": [
+            {
+              "id": "g203",
+              "title": "Factors Affecting Temperature",
+              "tags": ["temperature", "climatology"],
+              "basic_overview": "Temperature varies with latitude, altitude, distance from the sea, ocean currents, prevailing winds, slope and cloud cover.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Temperature generally decreases with increasing altitude in the troposphere. Coastal regions usually experience a smaller annual temperature range than continental interiors."
+            }
+          ]
+        },
+        {
+          "topic_id": "climate-pressure-winds",
+          "topic_title": "Atmospheric Pressure and Winds",
+          "notes_list": [
+            {
+              "id": "g204",
+              "title": "Atmospheric Pressure",
+              "tags": ["pressure-winds", "climatology"],
+              "basic_overview": "Atmospheric pressure is the force exerted by the weight of air on a unit area of Earth's surface. It varies with altitude and temperature.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Warm air generally rises and is associated with lower pressure, while colder, denser air tends to sink and is associated with higher pressure."
+            },
+            {
+              "id": "g205",
+              "title": "Planetary Winds",
+              "tags": ["pressure-winds", "climatology"],
+              "basic_overview": "Planetary wind systems are large-scale atmospheric circulation patterns including trade winds, westerlies and polar easterlies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "The Coriolis effect causes moving air to be deflected because of Earth's rotation. The direction of deflection differs between the Northern and Southern Hemispheres."
+            }
+          ]
+        },
+        {
+          "topic_id": "climate-rainfall",
+          "topic_title": "Rainfall",
+          "notes_list": [
+            {
+              "id": "g206",
+              "title": "Types of Rainfall",
+              "tags": ["rainfall", "climatology"],
+              "basic_overview": "Rainfall can be classified into convectional, orographic and cyclonic or frontal rainfall based on the mechanism responsible for rising air and condensation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Orographic rainfall occurs when moist air rises over mountains. The windward side often receives more rainfall, while the leeward side may experience a rain-shadow effect."
+            },
+            {
+              "id": "g207",
+              "title": "Indian Monsoon",
+              "tags": ["rainfall", "climatology"],
+              "basic_overview": "The Indian monsoon is a seasonal reversal of wind patterns associated with differential heating of land and sea and influenced by several atmospheric and oceanic factors.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The southwest monsoon generally brings the main rainy season to much of India. Its branches include the Arabian Sea branch and Bay of Bengal branch."
+            }
+          ]
+        },
+        {
+          "topic_id": "climate-cyclones",
+          "topic_title": "Cyclones",
+          "notes_list": [
+            {
+              "id": "g208",
+              "title": "Tropical Cyclones",
+              "tags": ["cyclones", "climatology"],
+              "basic_overview": "Tropical cyclones are intense low-pressure systems that develop over sufficiently warm tropical or subtropical oceans and are associated with strong winds and heavy rainfall.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Tropical cyclones require warm ocean water, sufficient moisture and favourable atmospheric conditions. They can produce storm surges, flooding and destructive winds."
+            }
+          ]
+        },
+        {
+          "topic_id": "climate-change",
+          "topic_title": "Climate Change",
+          "notes_list": [
+            {
+              "id": "g209",
+              "title": "Greenhouse Effect",
+              "tags": ["climate-change", "climatology"],
+              "basic_overview": "The greenhouse effect is the warming of Earth's lower atmosphere and surface caused by the absorption and re-emission of infrared radiation by greenhouse gases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Water vapour, carbon dioxide, methane, nitrous oxide and other gases contribute to the greenhouse effect. The natural greenhouse effect is essential for life, while increased greenhouse gas concentrations enhance warming."
+            },
+            {
+              "id": "g210",
+              "title": "Global Warming",
+              "tags": ["climate-change", "climatology"],
+              "basic_overview": "Global warming refers to the long-term increase in Earth's average surface temperature, primarily associated with increasing concentrations of human-produced greenhouse gases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Climate change can affect sea levels, precipitation patterns, ecosystems, agriculture and the frequency or intensity of some extreme events."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-geography",
+      "title": "Economic Geography",
+      "filters": [
+        { "label": "🌾 Agriculture", "tag": "economic-agriculture" },
+        { "label": "⛏️ Resources", "tag": "economic-resources" },
+        { "label": "🏭 Industries", "tag": "economic-industries" },
+        { "label": "🚆 Transport", "tag": "transport" },
+        { "label": "🌐 Trade", "tag": "trade" }
+      ],
+      "topics": [
+        {
+          "topic_id": "economic-agriculture",
+          "topic_title": "Agricultural Geography",
+          "notes_list": [
+            {
+              "id": "g301",
+              "title": "Factors Affecting Agriculture",
+              "tags": ["economic-agriculture", "economic-geography"],
+              "basic_overview": "Agricultural activities depend on physical factors such as climate, soil, relief and water as well as human factors such as labour, technology, capital, markets and government policies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#65a30d",
+              "extra_info_content": "Different crops have different temperature, moisture, soil and growing-season requirements. Agricultural patterns therefore vary considerably across regions."
+            },
+            {
+              "id": "g302",
+              "title": "Commercial Agriculture",
+              "tags": ["economic-agriculture", "economic-geography"],
+              "basic_overview": "Commercial agriculture is production primarily intended for sale in markets. It may involve mechanisation, specialised crops, irrigation, improved seeds and modern inputs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Plantation agriculture is a form of commercial farming involving large-scale cultivation of crops such as tea, coffee, rubber and certain tropical crops."
+            }
+          ]
+        },
+        {
+          "topic_id": "economic-resources",
+          "topic_title": "Natural Resources",
+          "notes_list": [
+            {
+              "id": "g303",
+              "title": "Renewable Resources",
+              "tags": ["economic-resources", "economic-geography"],
+              "basic_overview": "Renewable resources are resources that can naturally replenish over time, although their availability can be reduced when consumption exceeds the rate of renewal.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Solar energy, wind energy, hydropower and sustainably managed biomass are examples of renewable resources."
+            },
+            {
+              "id": "g304",
+              "title": "Non-Renewable Resources",
+              "tags": ["economic-resources", "economic-geography"],
+              "basic_overview": "Non-renewable resources occur in finite quantities or are replenished extremely slowly on human timescales. Fossil fuels and many mineral resources are examples.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#78716c",
+              "extra_info_content": "Coal, petroleum, natural gas and metallic ores require careful management because their geological formation generally takes very long periods."
+            }
+          ]
+        },
+        {
+          "topic_id": "economic-industries",
+          "topic_title": "Industrial Geography",
+          "notes_list": [
+            {
+              "id": "g305",
+              "title": "Factors of Industrial Location",
+              "tags": ["economic-industries", "economic-geography"],
+              "basic_overview": "Industries consider factors such as raw materials, power, labour, capital, transport, water, markets and government policies when selecting locations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "The relative importance of each factor differs among industries. Raw-material-oriented industries often locate near bulky or perishable inputs, while market-oriented industries may locate closer to consumers."
+            }
+          ]
+        },
+        {
+          "topic_id": "economic-transport",
+          "topic_title": "Transport",
+          "notes_list": [
+            {
+              "id": "g306",
+              "title": "Modes of Transport",
+              "tags": ["transport", "economic-geography"],
+              "basic_overview": "The major modes of transport are roadways, railways, waterways, airways and pipelines. Each mode has different advantages depending on distance, terrain, cost and type of goods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Road transport provides flexible door-to-door movement. Railways are suitable for large volumes over land. Water transport is economical for bulk goods, while air transport is fast but generally more expensive."
+            }
+          ]
+        },
+        {
+          "topic_id": "economic-trade",
+          "topic_title": "International Trade",
+          "notes_list": [
+            {
+              "id": "g307",
+              "title": "International Trade",
+              "tags": ["trade", "economic-geography"],
+              "basic_overview": "International trade involves the exchange of goods and services between countries. It is influenced by resources, production costs, demand, technology, transport and trade policies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Exports are goods and services sold to other countries, while imports are goods and services purchased from other countries. The balance between exports and imports is one component of a country's external economic accounts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environmental-geography",
+      "title": "Environmental Geography",
+      "filters": [
+        { "label": "🌳 Ecosystems", "tag": "ecosystems" },
+        { "label": "🐅 Biodiversity", "tag": "biodiversity" },
+        { "label": "💧 Water Resources", "tag": "water-resources" },
+        { "label": "🌱 Soil", "tag": "soil" },
+        { "label": "🏭 Pollution", "tag": "pollution" },
+        { "label": "♻️ Conservation", "tag": "conservation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "environment-ecosystems",
+          "topic_title": "Ecosystems",
+          "notes_list": [
+            {
+              "id": "g401",
+              "title": "Ecosystem",
+              "tags": ["ecosystems", "environmental-geography"],
+              "basic_overview": "An ecosystem is a functional unit in which living organisms interact with one another and with the physical environment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Ecosystems contain biotic components such as producers, consumers and decomposers and abiotic components such as water, air, soil, light and temperature."
+            },
+            {
+              "id": "g402",
+              "title": "Food Chain and Food Web",
+              "tags": ["ecosystems", "environmental-geography"],
+              "basic_overview": "A food chain represents the transfer of energy and nutrients through feeding relationships, while a food web shows interconnected food chains within an ecosystem.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#65a30d",
+              "extra_info_content": "Energy generally enters ecosystems through producers and decreases as it passes through successive trophic levels."
+            }
+          ]
+        },
+        {
+          "topic_id": "environment-biodiversity",
+          "topic_title": "Biodiversity",
+          "notes_list": [
+            {
+              "id": "g403",
+              "title": "Biodiversity",
+              "tags": ["biodiversity", "environmental-geography"],
+              "basic_overview": "Biodiversity refers to the variety of life at genetic, species and ecosystem levels.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#15803d",
+              "extra_info_content": "Biodiversity contributes to ecosystem functioning, food security, medicines, livelihoods and ecological resilience."
+            },
+            {
+              "id": "g404",
+              "title": "Biodiversity Hotspots",
+              "tags": ["biodiversity", "environmental-geography"],
+              "basic_overview": "Biodiversity hotspots are regions with exceptionally high levels of endemic species that also face significant habitat loss and other threats.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Parts of India fall within biodiversity hotspot regions including the Himalaya, Indo-Burma and Western Ghats-Sri Lanka regions."
+            }
+          ]
+        },
+        {
+          "topic_id": "environment-water",
+          "topic_title": "Water Resources",
+          "notes_list": [
+            {
+              "id": "g405",
+              "title": "Water Resources",
+              "tags": ["water-resources", "environmental-geography"],
+              "basic_overview": "Water resources include surface water from rivers, lakes and reservoirs and groundwater stored beneath the Earth's surface.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Water availability is unevenly distributed across regions and seasons. Sustainable management requires efficient use, conservation, recharge and protection from pollution."
+            },
+            {
+              "id": "g406",
+              "title": "Rainwater Harvesting",
+              "tags": ["water-resources", "environmental-geography"],
+              "basic_overview": "Rainwater harvesting involves collecting and storing rainwater or allowing it to infiltrate into the ground for later use or groundwater recharge.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "Rooftop harvesting, recharge pits, recharge wells and small storage structures are commonly used approaches depending on local conditions."
+            }
+          ]
+        },
+        {
+          "topic_id": "environment-soil",
+          "topic_title": "Soil Geography",
+          "notes_list": [
+            {
+              "id": "g407",
+              "title": "Soil Formation",
+              "tags": ["soil", "environmental-geography"],
+              "basic_overview": "Soil develops through the interaction of parent material, climate, organisms, relief and time. Soil formation involves weathering and the accumulation and transformation of organic and mineral matter.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Soil properties such as texture, structure, organic matter, moisture and nutrient availability influence vegetation and agriculture."
+            },
+            {
+              "id": "g408",
+              "title": "Soil Erosion",
+              "tags": ["soil", "environmental-geography"],
+              "basic_overview": "Soil erosion is the removal of topsoil by agents such as running water and wind. It can reduce soil fertility and agricultural productivity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#b45309",
+              "extra_info_content": "Contour ploughing, terracing, strip cropping, shelterbelts, afforestation and maintaining vegetation cover can help reduce soil erosion."
+            }
+          ]
+        },
+        {
+          "topic_id": "environment-pollution",
+          "topic_title": "Environmental Pollution",
+          "notes_list": [
+            {
+              "id": "g409",
+              "title": "Air Pollution",
+              "tags": ["pollution", "environmental-geography"],
+              "basic_overview": "Air pollution occurs when harmful substances such as particulate matter, gases or biological materials enter the atmosphere at concentrations that can cause adverse effects.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Major sources include transport, industries, power generation, biomass burning and some natural processes. Effects can include reduced air quality and impacts on human health, ecosystems and visibility."
+            },
+            {
+              "id": "g410",
+              "title": "Water Pollution",
+              "tags": ["pollution", "environmental-geography"],
+              "basic_overview": "Water pollution occurs when physical, chemical or biological contaminants degrade the quality of water bodies and make them less suitable for intended uses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Sewage, industrial effluents, agricultural runoff, plastics and other wastes can contribute to water pollution. Treatment and source control are important management measures."
+            }
+          ]
+        },
+        {
+          "topic_id": "environment-conservation",
+          "topic_title": "Environmental Conservation",
+          "notes_list": [
+            {
+              "id": "g411",
+              "title": "Forest Conservation",
+              "tags": ["conservation", "environmental-geography"],
+              "basic_overview": "Forest conservation involves protecting forests, maintaining ecological functions and using forest resources sustainably.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#15803d",
+              "extra_info_content": "Forests regulate water cycles, store carbon, protect soils, provide habitat and support livelihoods. Protected areas, afforestation and sustainable forest management are important conservation approaches."
+            },
+            {
+              "id": "g412",
+              "title": "Sustainable Development",
+              "tags": ["conservation", "environmental-geography"],
+              "basic_overview": "Sustainable development seeks to meet present needs while maintaining environmental, social and economic conditions for future generations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Sustainable development involves efficient resource use, pollution reduction, ecosystem protection, social inclusion and consideration of long-term environmental impacts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world-geography",
+      "title": "World Geography",
+      "filters": [
+        { "label": "🌍 Continents", "tag": "continents" },
+        { "label": "🌊 Oceans", "tag": "oceans" },
+        { "label": "🏔️ Major Mountains", "tag": "world-mountains" },
+        { "label": "🌊 Major Rivers", "tag": "world-rivers" },
+        { "label": "🏜️ Deserts", "tag": "deserts" },
+        { "label": "🌴 Natural Vegetation", "tag": "natural-vegetation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "world-continents",
+          "topic_title": "Continents",
+          "notes_list": [
+            {
+              "id": "g501",
+              "title": "Seven Continents",
+              "tags": ["continents", "world-geography"],
+              "basic_overview": "The commonly recognised seven-continent model divides Earth's major landmasses into Asia, Africa, North America, South America, Antarctica, Europe and Australia.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Continents differ greatly in size, relief, climate, population, ecosystems and natural resources."
+            }
+          ]
+        },
+        {
+          "topic_id": "world-oceans",
+          "topic_title": "Oceans",
+          "notes_list": [
+            {
+              "id": "g502",
+              "title": "Major Oceans",
+              "tags": ["oceans", "world-geography"],
+              "basic_overview": "The five commonly recognised oceans are the Pacific, Atlantic, Indian, Southern and Arctic Oceans.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Oceans regulate global climate, support marine ecosystems, influence weather and provide resources and transportation routes."
+            }
+          ]
+        },
+        {
+          "topic_id": "world-mountains",
+          "topic_title": "Major Mountain Systems",
+          "notes_list": [
+            {
+              "id": "g503",
+              "title": "Major Mountain Ranges",
+              "tags": ["world-mountains", "world-geography"],
+              "basic_overview": "Important mountain systems include the Himalayas, Andes, Rockies, Alps, Atlas Mountains and Great Dividing Range.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Mountain systems influence climate, river drainage, vegetation, biodiversity, settlement and economic activities."
+            }
+          ]
+        },
+        {
+          "topic_id": "world-rivers",
+          "topic_title": "Major World Rivers",
+          "notes_list": [
+            {
+              "id": "g504",
+              "title": "Major River Systems",
+              "tags": ["world-rivers", "world-geography"],
+              "basic_overview": "Important river systems of the world include the Nile, Amazon, Mississippi-Missouri, Yangtze, Ganga-Brahmaputra and Congo.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Major rivers support agriculture, transport, settlements, ecosystems, hydropower and freshwater supply."
+            }
+          ]
+        },
+        {
+          "topic_id": "world-deserts",
+          "topic_title": "Major Deserts",
+          "notes_list": [
+            {
+              "id": "g505",
+              "title": "World Deserts",
+              "tags": ["deserts", "world-geography"],
+              "basic_overview": "Major deserts include the Sahara, Arabian, Gobi, Kalahari, Atacama, Great Victoria and Great Basin deserts.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Deserts are characterised by very low precipitation relative to potential evaporation. They may occur in hot or cold environments."
+            }
+          ]
+        },
+        {
+          "topic_id": "world-natural-vegetation",
+          "topic_title": "Natural Vegetation",
+          "notes_list": [
+            {
+              "id": "g506",
+              "title": "Major Vegetation Zones",
+              "tags": ["natural-vegetation", "world-geography"],
+              "basic_overview": "Major vegetation zones include tropical rainforests, tropical grasslands, deserts, temperate forests, coniferous forests and tundra vegetation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Vegetation patterns are strongly influenced by temperature, precipitation, soil, altitude and seasonal conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mapping-geography",
+      "title": "Maps and Geographical Techniques",
+      "filters": [
+        { "label": "🗺️ Maps", "tag": "maps" },
+        { "label": "📍 Coordinates", "tag": "coordinates" },
+        { "label": "🧭 Directions", "tag": "directions" },
+        { "label": "📏 Scale", "tag": "scale" },
+        { "label": "⛰️ Contours", "tag": "contours" },
+        { "label": "🛰️ GIS & Remote Sensing", "tag": "gis" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mapping-maps",
+          "topic_title": "Maps",
+          "notes_list": [
+            {
+              "id": "g601",
+              "title": "Types of Maps",
+              "tags": ["maps", "mapping-geography"],
+              "basic_overview": "Maps are representations of Earth's surface or particular geographical information. Common types include physical, political, thematic and topographic maps.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Physical maps emphasise natural features, political maps show administrative boundaries, thematic maps represent specific data, and topographic maps show relief and other surface features."
+            }
+          ]
+        },
+        {
+          "topic_id": "mapping-coordinates",
+          "topic_title": "Latitude and Longitude",
+          "notes_list": [
+            {
+              "id": "g602",
+              "title": "Latitude",
+              "tags": ["coordinates", "mapping-geography"],
+              "basic_overview": "Latitude measures angular distance north or south of the Equator and ranges from 0° at the Equator to 90° at the poles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Important parallels include the Equator, Tropic of Cancer, Tropic of Capricorn, Arctic Circle and Antarctic Circle."
+            },
+            {
+              "id": "g603",
+              "title": "Longitude",
+              "tags": ["coordinates", "mapping-geography"],
+              "basic_overview": "Longitude measures angular distance east or west of the Prime Meridian and ranges up to 180° in either direction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Prime Meridian passes through Greenwich. Longitude is important for calculating local time differences and determining east-west position."
+            }
+          ]
+        },
+        {
+          "topic_id": "mapping-directions",
+          "topic_title": "Directions and Bearings",
+          "notes_list": [
+            {
+              "id": "g604",
+              "title": "Cardinal Directions",
+              "tags": ["directions", "mapping-geography"],
+              "basic_overview": "The four cardinal directions are north, south, east and west. Intermediate directions include northeast, northwest, southeast and southwest.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Compass directions provide a standard system for describing relative positions and navigation."
+            }
+          ]
+        },
+        {
+          "topic_id": "mapping-scale",
+          "topic_title": "Map Scale",
+          "notes_list": [
+            {
+              "id": "g605",
+              "title": "Scale of a Map",
+              "tags": ["scale", "mapping-geography"],
+              "basic_overview": "Map scale expresses the relationship between distance on a map and corresponding distance on the ground.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Scale may be represented as a statement scale, representative fraction or graphical/bar scale. Large-scale maps show smaller areas with greater detail, while small-scale maps cover larger areas with less detail."
+            }
+          ]
+        },
+        {
+          "topic_id": "mapping-contours",
+          "topic_title": "Contour Maps",
+          "notes_list": [
+            {
+              "id": "g606",
+              "title": "Contour Lines",
+              "tags": ["contours", "mapping-geography"],
+              "basic_overview": "Contour lines join points of equal elevation above a reference level. They are used to represent relief on topographic maps.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Closely spaced contours generally indicate steep slopes, while widely spaced contours indicate gentler slopes. Closed contours can represent hills or depressions depending on the map symbols."
+            }
+          ]
+        },
+        {
+          "topic_id": "mapping-gis",
+          "topic_title": "GIS and Remote Sensing",
+          "notes_list": [
+            {
+              "id": "g607",
+              "title": "Geographic Information System",
+              "tags": ["gis", "mapping-geography"],
+              "basic_overview": "A Geographic Information System, or GIS, is a system used to capture, store, manage, analyse and display geographically referenced data.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "GIS combines spatial information with attribute data and is used in urban planning, disaster management, environmental monitoring, transportation and resource management."
+            },
+            {
+              "id": "g608",
+              "title": "Remote Sensing",
+              "tags": ["gis", "mapping-geography"],
+              "basic_overview": "Remote sensing is the collection of information about Earth's surface without direct physical contact, commonly using sensors mounted on satellites or aircraft.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "Remote sensing is used for land-use mapping, vegetation monitoring, weather observation, disaster assessment, agriculture and environmental studies."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

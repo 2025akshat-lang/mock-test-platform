@@ -1,0 +1,1094 @@
+{
+  "chapter_title": "General Science",
+  "sections": [
+    {
+      "id": "physics",
+      "title": "Physics",
+      "filters": [
+        { "label": "🔵 Mechanics", "tag": "mechanics" },
+        { "label": "🟢 Heat & Thermodynamics", "tag": "heat" },
+        { "label": "🟠 Light", "tag": "light" },
+        { "label": "🟣 Sound", "tag": "sound" },
+        { "label": "🔴 Electricity", "tag": "electricity" },
+        { "label": "🟤 Magnetism", "tag": "magnetism" }
+      ],
+      "topics": [
+        {
+          "topic_id": "physics-motion",
+          "topic_title": "Motion",
+          "notes_list": [
+            {
+              "id": "s101",
+              "title": "Distance and Displacement",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "Distance is the total path length travelled by an object, while displacement is the shortest directed distance between its initial and final positions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Distance is a scalar quantity, whereas displacement is a vector quantity. Displacement can be zero even when an object has travelled a non-zero distance."
+            },
+            {
+              "id": "s102",
+              "title": "Speed and Velocity",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "Speed describes the rate of change of distance, while velocity describes the rate of change of displacement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Average speed equals total distance divided by total time. Average velocity equals total displacement divided by total time."
+            },
+            {
+              "id": "s103",
+              "title": "Acceleration",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "Acceleration is the rate of change of velocity with respect to time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The SI unit of acceleration is metre per second squared (m/s²). Acceleration may involve a change in speed, direction or both."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-force",
+          "topic_title": "Force and Laws of Motion",
+          "notes_list": [
+            {
+              "id": "s104",
+              "title": "Newton's First Law",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "An object remains at rest or continues in uniform motion in a straight line unless acted upon by an external unbalanced force.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The tendency of an object to resist changes in its state of motion is called inertia."
+            },
+            {
+              "id": "s105",
+              "title": "Newton's Second Law",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "The net force acting on an object is related to the rate of change of its momentum. For constant mass, this is commonly expressed as F = ma.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Force is measured in newtons. One newton is the force required to produce an acceleration of 1 m/s² in a mass of 1 kg."
+            },
+            {
+              "id": "s106",
+              "title": "Newton's Third Law",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "When two bodies interact, they exert forces on each other that are equal in magnitude and opposite in direction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The action and reaction forces act on different bodies, so they do not simply cancel each other on a single free-body diagram."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-work-energy",
+          "topic_title": "Work, Energy and Power",
+          "notes_list": [
+            {
+              "id": "s107",
+              "title": "Work",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "In physics, work is done when a force causes displacement of an object in the direction of the force or a component of it.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "For a constant force, work can be calculated as W = F s cosθ, where θ is the angle between force and displacement."
+            },
+            {
+              "id": "s108",
+              "title": "Kinetic and Potential Energy",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "Kinetic energy is associated with motion, while potential energy is associated with position or configuration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "For translational motion, kinetic energy is KE = 1/2 mv². Gravitational potential energy near Earth's surface is approximately mgh."
+            },
+            {
+              "id": "s109",
+              "title": "Power",
+              "tags": ["mechanics", "physics"],
+              "basic_overview": "Power is the rate at which work is done or energy is transferred.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "The SI unit of power is watt. One watt equals one joule per second."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-heat",
+          "topic_title": "Heat and Temperature",
+          "notes_list": [
+            {
+              "id": "s110",
+              "title": "Heat and Temperature",
+              "tags": ["heat", "physics"],
+              "basic_overview": "Temperature indicates the thermal state of a system, while heat is energy transferred because of a temperature difference.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Temperature is measured using scales such as Celsius, Kelvin and Fahrenheit. The SI unit of thermodynamic temperature is kelvin."
+            },
+            {
+              "id": "s111",
+              "title": "Modes of Heat Transfer",
+              "tags": ["heat", "physics"],
+              "basic_overview": "Heat can be transferred through conduction, convection and radiation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Conduction is dominant in solids, convection occurs through bulk movement of fluids, and radiation transfers energy through electromagnetic waves."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-light",
+          "topic_title": "Light",
+          "notes_list": [
+            {
+              "id": "s112",
+              "title": "Reflection of Light",
+              "tags": ["light", "physics"],
+              "basic_overview": "Reflection is the return of light into the original medium when it strikes a surface.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The law of reflection states that the angle of incidence is equal to the angle of reflection, with angles measured from the normal."
+            },
+            {
+              "id": "s113",
+              "title": "Refraction of Light",
+              "tags": ["light", "physics"],
+              "basic_overview": "Refraction is the change in direction of light when it passes between media with different optical properties.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Snell's law relates the angles and refractive indices of the two media. The speed of light changes when light enters a different medium."
+            },
+            {
+              "id": "s114",
+              "title": "Human Eye",
+              "tags": ["light", "physics"],
+              "basic_overview": "The human eye is an optical organ that forms images on the retina and converts light information into signals processed by the nervous system.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The cornea and lens focus light on the retina. The iris controls the amount of light entering through the pupil."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-sound",
+          "topic_title": "Sound",
+          "notes_list": [
+            {
+              "id": "s115",
+              "title": "Production and Propagation of Sound",
+              "tags": ["sound", "physics"],
+              "basic_overview": "Sound is produced by vibrating sources and propagates through a material medium as mechanical waves.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Sound cannot propagate through vacuum. Its speed depends on the properties of the medium and temperature."
+            },
+            {
+              "id": "s116",
+              "title": "Frequency and Pitch",
+              "tags": ["sound", "physics"],
+              "basic_overview": "Frequency is the number of complete oscillations per second, while pitch is the auditory perception primarily associated with frequency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Frequency is measured in hertz. Human hearing is commonly described as approximately 20 Hz to 20 kHz, although the range varies between individuals."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-electricity",
+          "topic_title": "Electricity",
+          "notes_list": [
+            {
+              "id": "s117",
+              "title": "Electric Current",
+              "tags": ["electricity", "physics"],
+              "basic_overview": "Electric current is the rate of flow of electric charge through a conductor or circuit.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The SI unit of current is ampere. Conventional current direction is taken from higher electric potential to lower potential in an external circuit."
+            },
+            {
+              "id": "s118",
+              "title": "Ohm's Law",
+              "tags": ["electricity", "physics"],
+              "basic_overview": "For an ohmic conductor under constant physical conditions, current is proportional to potential difference, expressed as V = IR.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Resistance is measured in ohms. The relationship may change when physical conditions such as temperature change significantly."
+            },
+            {
+              "id": "s119",
+              "title": "Electrical Power",
+              "tags": ["electricity", "physics"],
+              "basic_overview": "Electrical power is the rate of electrical energy transfer and can be expressed as P = VI.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Using Ohm's law, electrical power can also be expressed as P = I²R or P = V²/R for suitable circuit conditions."
+            }
+          ]
+        },
+        {
+          "topic_id": "physics-magnetism",
+          "topic_title": "Magnetism",
+          "notes_list": [
+            {
+              "id": "s120",
+              "title": "Magnetic Field",
+              "tags": ["magnetism", "physics"],
+              "basic_overview": "A magnetic field is the region around a magnet, electric current or changing electric field in which magnetic effects can be observed.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Magnetic field direction can be represented using field lines. Outside a bar magnet, field lines conventionally run from north to south."
+            },
+            {
+              "id": "s121",
+              "title": "Electromagnetic Induction",
+              "tags": ["magnetism", "physics"],
+              "basic_overview": "Electromagnetic induction is the production of an electromotive force when magnetic flux through a circuit changes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Faraday's law relates induced emf to the rate of change of magnetic flux. Generators use electromagnetic induction to convert mechanical energy into electrical energy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "filters": [
+        { "label": "🔵 Matter", "tag": "matter" },
+        { "label": "🟢 Atomic Structure", "tag": "atoms" },
+        { "label": "🟠 Periodic Table", "tag": "periodic-table" },
+        { "label": "🟣 Chemical Reactions", "tag": "reactions" },
+        { "label": "🔴 Acids & Bases", "tag": "acids-bases" },
+        { "label": "🟤 Metals & Non-metals", "tag": "metals" },
+        { "label": "🟡 Carbon Chemistry", "tag": "carbon" }
+      ],
+      "topics": [
+        {
+          "topic_id": "chem-matter",
+          "topic_title": "Matter and Its States",
+          "notes_list": [
+            {
+              "id": "s201",
+              "title": "States of Matter",
+              "tags": ["matter", "chemistry"],
+              "basic_overview": "Matter commonly exists as solids, liquids and gases, with different arrangements and motions of particles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Solids have relatively fixed shape and volume, liquids have fixed volume but take the shape of their container, and gases have neither fixed shape nor fixed volume."
+            },
+            {
+              "id": "s202",
+              "title": "Physical and Chemical Changes",
+              "tags": ["matter", "chemistry"],
+              "basic_overview": "A physical change generally changes the form or state of a substance without producing a new substance, while a chemical change produces one or more new substances.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Melting ice is a physical change, whereas rusting of iron is a chemical change."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-atomic-structure",
+          "topic_title": "Atomic Structure",
+          "notes_list": [
+            {
+              "id": "s203",
+              "title": "Atom",
+              "tags": ["atoms", "chemistry"],
+              "basic_overview": "An atom is the basic unit of an element that retains the chemical identity of that element.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Atoms contain a nucleus made of protons and neutrons, surrounded by electrons. The number of protons determines the atomic number of an element."
+            },
+            {
+              "id": "s204",
+              "title": "Atomic Number and Mass Number",
+              "tags": ["atoms", "chemistry"],
+              "basic_overview": "Atomic number is the number of protons in an atom, while mass number is the total number of protons and neutrons.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Atoms of the same element have the same atomic number. Isotopes have the same atomic number but different numbers of neutrons."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-periodic-table",
+          "topic_title": "Periodic Table",
+          "notes_list": [
+            {
+              "id": "s205",
+              "title": "Modern Periodic Table",
+              "tags": ["periodic-table", "chemistry"],
+              "basic_overview": "The modern periodic table arranges elements in order of increasing atomic number and groups elements with related chemical properties.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "The table contains periods and groups. Elements in the same group often show related valence-electron configurations and chemical behavior."
+            },
+            {
+              "id": "s206",
+              "title": "Periodic Trends",
+              "tags": ["periodic-table", "chemistry"],
+              "basic_overview": "Properties such as atomic radius, ionization energy and electronegativity show systematic variations across periods and groups.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "These trends arise largely from changes in nuclear charge, electron shielding and the distance of valence electrons from the nucleus."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-reactions",
+          "topic_title": "Chemical Reactions",
+          "notes_list": [
+            {
+              "id": "s207",
+              "title": "Chemical Reaction",
+              "tags": ["reactions", "chemistry"],
+              "basic_overview": "A chemical reaction involves rearrangement of atoms and formation of new substances with different chemical properties.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Common types include combination, decomposition, displacement, double displacement and combustion reactions."
+            },
+            {
+              "id": "s208",
+              "title": "Oxidation and Reduction",
+              "tags": ["reactions", "chemistry"],
+              "basic_overview": "Oxidation and reduction are complementary processes involving transfer of electrons or changes in oxidation state.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Oxidation involves loss of electrons in the electron-transfer definition, while reduction involves gain of electrons."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-acids-bases",
+          "topic_title": "Acids, Bases and Salts",
+          "notes_list": [
+            {
+              "id": "s209",
+              "title": "Acids and Bases",
+              "tags": ["acids-bases", "chemistry"],
+              "basic_overview": "Acids and bases are classes of substances with characteristic chemical properties. In aqueous systems, acids increase hydrogen ion concentration while bases increase hydroxide ion concentration under the Arrhenius definition.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The pH scale is commonly used to express acidity or basicity of aqueous solutions. A pH of 7 is neutral at 25°C under standard conditions."
+            },
+            {
+              "id": "s210",
+              "title": "Salts",
+              "tags": ["acids-bases", "chemistry"],
+              "basic_overview": "Salts are ionic compounds that can be formed through reactions involving acids and bases among other chemical processes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Common examples include sodium chloride, sodium carbonate and copper sulfate. The properties of salts depend on their constituent ions."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-metals",
+          "topic_title": "Metals and Non-metals",
+          "notes_list": [
+            {
+              "id": "s211",
+              "title": "Properties of Metals",
+              "tags": ["metals", "chemistry"],
+              "basic_overview": "Metals generally show properties such as electrical and thermal conductivity, malleability and ductility, although exceptions exist.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Metals can form positive ions and often form ionic compounds with non-metals."
+            },
+            {
+              "id": "s212",
+              "title": "Corrosion",
+              "tags": ["metals", "chemistry"],
+              "basic_overview": "Corrosion is the gradual deterioration of a material, commonly a metal, due to chemical or electrochemical reactions with its environment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Rusting of iron requires suitable conditions involving oxygen and moisture. Painting, coating, alloying and other methods can help prevent corrosion."
+            }
+          ]
+        },
+        {
+          "topic_id": "chem-carbon",
+          "topic_title": "Carbon and Its Compounds",
+          "notes_list": [
+            {
+              "id": "s213",
+              "title": "Carbon",
+              "tags": ["carbon", "chemistry"],
+              "basic_overview": "Carbon is a versatile element capable of forming stable covalent bonds and a very large number of compounds.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Carbon's ability to form chains and rings is called catenation. It forms the basis of organic chemistry and many biological molecules."
+            },
+            {
+              "id": "s214",
+              "title": "Hydrocarbons",
+              "tags": ["carbon", "chemistry"],
+              "basic_overview": "Hydrocarbons are compounds consisting only of carbon and hydrogen.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Hydrocarbons include alkanes, alkenes and alkynes. Their properties depend on molecular structure and bonding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "filters": [
+        { "label": "🟢 Cell Biology", "tag": "cell" },
+        { "label": "🔵 Human Body", "tag": "human-body" },
+        { "label": "🟠 Plant Biology", "tag": "plants" },
+        { "label": "🟣 Genetics", "tag": "genetics" },
+        { "label": "🔴 Diseases", "tag": "diseases" },
+        { "label": "🟤 Ecology", "tag": "ecology" },
+        { "label": "🟡 Evolution", "tag": "evolution" }
+      ],
+      "topics": [
+        {
+          "topic_id": "bio-cell",
+          "topic_title": "Cell Biology",
+          "notes_list": [
+            {
+              "id": "s301",
+              "title": "Cell",
+              "tags": ["cell", "biology"],
+              "basic_overview": "The cell is the basic structural and functional unit of living organisms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Cells may be broadly classified as prokaryotic or eukaryotic. Eukaryotic cells contain membrane-bound organelles."
+            },
+            {
+              "id": "s302",
+              "title": "Cell Organelles",
+              "tags": ["cell", "biology"],
+              "basic_overview": "Cell organelles perform specialized functions necessary for cellular structure, metabolism and reproduction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important organelles include nucleus, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes and, in plants, chloroplasts."
+            },
+            {
+              "id": "s303",
+              "title": "Cell Division",
+              "tags": ["cell", "biology"],
+              "basic_overview": "Cell division is the process through which cells reproduce and organisms grow, develop or repair tissues.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Mitosis generally produces genetically similar daughter cells, while meiosis produces haploid cells and contributes to genetic variation."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-human-body",
+          "topic_title": "Human Body",
+          "notes_list": [
+            {
+              "id": "s304",
+              "title": "Digestive System",
+              "tags": ["human-body", "biology"],
+              "basic_overview": "The digestive system breaks food into smaller molecules that can be absorbed and used by the body.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Major organs include the mouth, oesophagus, stomach, small intestine and large intestine. The liver and pancreas provide important digestive secretions."
+            },
+            {
+              "id": "s305",
+              "title": "Respiratory System",
+              "tags": ["human-body", "biology"],
+              "basic_overview": "The respiratory system enables exchange of oxygen and carbon dioxide between the body and the external environment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Gas exchange occurs mainly across the thin walls of alveoli in the lungs."
+            },
+            {
+              "id": "s306",
+              "title": "Circulatory System",
+              "tags": ["human-body", "biology"],
+              "basic_overview": "The circulatory system transports oxygen, nutrients, hormones and other substances through the body and helps remove metabolic wastes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The human cardiovascular system consists primarily of the heart, blood and blood vessels. The heart maintains blood circulation through pulmonary and systemic circuits."
+            },
+            {
+              "id": "s307",
+              "title": "Nervous System",
+              "tags": ["human-body", "biology"],
+              "basic_overview": "The nervous system receives information, processes signals and coordinates responses throughout the body.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The central nervous system consists of the brain and spinal cord, while the peripheral nervous system connects the central system with the rest of the body."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-plants",
+          "topic_title": "Plant Biology",
+          "notes_list": [
+            {
+              "id": "s308",
+              "title": "Photosynthesis",
+              "tags": ["plants", "biology"],
+              "basic_overview": "Photosynthesis is the process by which green plants and certain other organisms use light energy to synthesize organic compounds from carbon dioxide and water.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In oxygenic photosynthesis, oxygen is released as a by-product. Chlorophyll and other pigments absorb light energy."
+            },
+            {
+              "id": "s309",
+              "title": "Plant Respiration",
+              "tags": ["plants", "biology"],
+              "basic_overview": "Plant cells carry out cellular respiration to release usable energy from organic molecules.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Cellular respiration occurs in both plants and animals. Aerobic respiration primarily occurs in mitochondria after the initial stages of glucose breakdown."
+            },
+            {
+              "id": "s310",
+              "title": "Plant Transport",
+              "tags": ["plants", "biology"],
+              "basic_overview": "Plants transport water, minerals and organic nutrients through specialized vascular tissues.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Xylem mainly transports water and mineral ions, while phloem transports sugars and other organic substances."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-genetics",
+          "topic_title": "Genetics",
+          "notes_list": [
+            {
+              "id": "s311",
+              "title": "DNA",
+              "tags": ["genetics", "biology"],
+              "basic_overview": "DNA is the primary hereditary material in most organisms and stores genetic information used in cellular processes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "DNA is composed of nucleotides containing a sugar, phosphate group and nitrogenous base. The bases include adenine, thymine, cytosine and guanine."
+            },
+            {
+              "id": "s312",
+              "title": "Genes and Chromosomes",
+              "tags": ["genetics", "biology"],
+              "basic_overview": "Genes are functional units of hereditary information located at specific positions on chromosomes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Chromosomes are structures containing DNA and associated proteins. Humans normally have 46 chromosomes in somatic cells."
+            },
+            {
+              "id": "s313",
+              "title": "Mendelian Genetics",
+              "tags": ["genetics", "biology"],
+              "basic_overview": "Mendelian genetics describes patterns of inheritance based on principles derived from Gregor Mendel's experiments with pea plants.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Important concepts include alleles, dominance, segregation and independent assortment, although many traits involve more complex inheritance patterns."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-diseases",
+          "topic_title": "Diseases and Immunity",
+          "notes_list": [
+            {
+              "id": "s314",
+              "title": "Infectious Diseases",
+              "tags": ["diseases", "biology"],
+              "basic_overview": "Infectious diseases are caused by pathogenic organisms or agents such as bacteria, viruses, fungi, protozoa or parasitic organisms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Transmission may occur through air, contaminated food or water, direct contact, vectors or other routes depending on the disease."
+            },
+            {
+              "id": "s315",
+              "title": "Immunity",
+              "tags": ["diseases", "biology"],
+              "basic_overview": "Immunity is the ability of an organism to recognize and respond to harmful foreign substances or pathogens.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The immune system includes innate and adaptive components. Adaptive immunity involves specialized lymphocytes and immunological memory."
+            },
+            {
+              "id": "s316",
+              "title": "Vaccination",
+              "tags": ["diseases", "biology"],
+              "basic_overview": "Vaccination trains the immune system to recognize specific pathogens or their components and can provide protection against infectious diseases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Vaccines can stimulate immune memory without requiring the individual to experience the full disease."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-ecology",
+          "topic_title": "Ecology",
+          "notes_list": [
+            {
+              "id": "s317",
+              "title": "Ecosystem",
+              "tags": ["ecology", "biology"],
+              "basic_overview": "An ecosystem consists of living organisms interacting with one another and with the non-living components of their environment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Biotic components include producers, consumers and decomposers, while abiotic components include factors such as light, temperature, water and soil."
+            },
+            {
+              "id": "s318",
+              "title": "Food Chain and Food Web",
+              "tags": ["ecology", "biology"],
+              "basic_overview": "A food chain represents a sequence of feeding relationships, while a food web represents interconnected food chains within an ecosystem.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Energy generally flows from producers to consumers and decomposers, with substantial energy dissipation at each trophic transfer."
+            },
+            {
+              "id": "s319",
+              "title": "Biodiversity",
+              "tags": ["ecology", "biology"],
+              "basic_overview": "Biodiversity refers to the variety of life at genetic, species and ecosystem levels.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Biodiversity contributes to ecosystem functioning, ecological resilience and the provision of ecosystem services."
+            }
+          ]
+        },
+        {
+          "topic_id": "bio-evolution",
+          "topic_title": "Evolution",
+          "notes_list": [
+            {
+              "id": "s320",
+              "title": "Evolution",
+              "tags": ["evolution", "biology"],
+              "basic_overview": "Biological evolution refers to changes in heritable characteristics of populations across generations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Evolution can occur through mechanisms including natural selection, mutation, genetic drift and gene flow."
+            },
+            {
+              "id": "s321",
+              "title": "Natural Selection",
+              "tags": ["evolution", "biology"],
+              "basic_overview": "Natural selection occurs when heritable variations affect survival or reproductive success, causing some traits to become more common across generations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ca8a04",
+              "extra_info_content": "Natural selection acts on existing heritable variation; populations, rather than individual organisms, evolve across generations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earth-environment",
+      "title": "Earth and Environment",
+      "filters": [
+        { "label": "🔵 Earth Structure", "tag": "earth" },
+        { "label": "🟢 Atmosphere", "tag": "atmosphere" },
+        { "label": "🟠 Weather & Climate", "tag": "climate" },
+        { "label": "🟣 Pollution", "tag": "pollution" },
+        { "label": "🔴 Natural Resources", "tag": "resources" },
+        { "label": "🟤 Disasters", "tag": "disasters" }
+      ],
+      "topics": [
+        {
+          "topic_id": "earth-structure",
+          "topic_title": "Structure of Earth",
+          "notes_list": [
+            {
+              "id": "s401",
+              "title": "Layers of Earth",
+              "tags": ["earth", "environment"],
+              "basic_overview": "Earth has major internal layers including the crust, mantle and core, each with distinct physical and chemical characteristics.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The core is predominantly metallic and is divided into an outer liquid core and inner solid core. The mantle lies between the crust and core."
+            },
+            {
+              "id": "s402",
+              "title": "Plate Tectonics",
+              "tags": ["earth", "environment"],
+              "basic_overview": "Plate tectonics describes the large-scale movement of rigid lithospheric plates over the Earth's asthenosphere.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Plate interactions contribute to earthquakes, volcanic activity, mountain building and the formation of many geological features."
+            }
+          ]
+        },
+        {
+          "topic_id": "earth-atmosphere",
+          "topic_title": "Atmosphere",
+          "notes_list": [
+            {
+              "id": "s403",
+              "title": "Composition of Atmosphere",
+              "tags": ["atmosphere", "environment"],
+              "basic_overview": "Earth's atmosphere is primarily composed of nitrogen and oxygen, along with smaller amounts of argon, carbon dioxide, water vapour and other gases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Atmospheric composition varies with altitude, location and environmental conditions, particularly for water vapour and aerosols."
+            },
+            {
+              "id": "s404",
+              "title": "Ozone Layer",
+              "tags": ["atmosphere", "environment"],
+              "basic_overview": "The ozone layer is a region of the stratosphere containing relatively high concentrations of ozone that absorbs much of the Sun's harmful ultraviolet radiation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Certain human-produced ozone-depleting substances can cause stratospheric ozone depletion. International agreements have addressed many of these substances."
+            }
+          ]
+        },
+        {
+          "topic_id": "earth-climate",
+          "topic_title": "Weather and Climate",
+          "notes_list": [
+            {
+              "id": "s405",
+              "title": "Weather and Climate",
+              "tags": ["climate", "environment"],
+              "basic_overview": "Weather describes short-term atmospheric conditions, whereas climate describes long-term patterns and averages of weather over an extended period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Temperature, precipitation, humidity, wind and atmospheric pressure are important elements used to describe weather and climate."
+            },
+            {
+              "id": "s406",
+              "title": "Greenhouse Effect",
+              "tags": ["climate", "environment"],
+              "basic_overview": "The greenhouse effect is the warming of Earth's lower atmosphere and surface caused by absorption and re-emission of outgoing infrared radiation by greenhouse gases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Water vapour, carbon dioxide, methane and nitrous oxide are among the important greenhouse gases. Human activities have increased concentrations of several greenhouse gases."
+            }
+          ]
+        },
+        {
+          "topic_id": "earth-pollution",
+          "topic_title": "Environmental Pollution",
+          "notes_list": [
+            {
+              "id": "s407",
+              "title": "Air Pollution",
+              "tags": ["pollution", "environment"],
+              "basic_overview": "Air pollution occurs when harmful substances or pollutants are present in the atmosphere at concentrations that can cause adverse effects.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Important pollutants include particulate matter, nitrogen oxides, sulfur dioxide, carbon monoxide and ground-level ozone."
+            },
+            {
+              "id": "s408",
+              "title": "Water Pollution",
+              "tags": ["pollution", "environment"],
+              "basic_overview": "Water pollution occurs when physical, chemical or biological contaminants degrade water quality.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Sources may include untreated sewage, industrial discharge, agricultural runoff, plastics and other contaminants."
+            }
+          ]
+        },
+        {
+          "topic_id": "earth-resources",
+          "topic_title": "Natural Resources",
+          "notes_list": [
+            {
+              "id": "s409",
+              "title": "Renewable and Non-renewable Resources",
+              "tags": ["resources", "environment"],
+              "basic_overview": "Renewable resources can naturally replenish on human-relevant timescales under appropriate conditions, while non-renewable resources are finite on such timescales.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Solar energy, wind energy and sustainably managed biomass are examples of renewable resources. Coal, petroleum and many mineral deposits are non-renewable."
+            },
+            {
+              "id": "s410",
+              "title": "Water Conservation",
+              "tags": ["resources", "environment"],
+              "basic_overview": "Water conservation involves reducing unnecessary consumption, improving efficiency, protecting water sources and supporting sustainable water management.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "Rainwater harvesting, efficient irrigation, wastewater treatment and watershed management are among the approaches used for water conservation."
+            }
+          ]
+        },
+        {
+          "topic_id": "earth-disasters",
+          "topic_title": "Natural Disasters",
+          "notes_list": [
+            {
+              "id": "s411",
+              "title": "Earthquake",
+              "tags": ["disasters", "environment"],
+              "basic_overview": "An earthquake is the shaking of the Earth's surface caused by the sudden release of energy within the Earth, commonly associated with movement along faults.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Earthquake magnitude describes the size of the seismic event, while intensity describes observed effects at a particular location."
+            },
+            {
+              "id": "s412",
+              "title": "Cyclone",
+              "tags": ["disasters", "environment"],
+              "basic_overview": "A tropical cyclone is a rotating low-pressure weather system that forms over sufficiently warm tropical or subtropical waters under suitable atmospheric conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Tropical cyclones can produce strong winds, heavy rainfall, storm surges and flooding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space-science",
+      "title": "Space Science",
+      "filters": [
+        { "label": "🔵 Solar System", "tag": "solar-system" },
+        { "label": "🟢 Stars", "tag": "stars" },
+        { "label": "🟠 Galaxies", "tag": "galaxies" },
+        { "label": "🟣 Space Missions", "tag": "missions" },
+        { "label": "🔴 Satellites", "tag": "satellites" }
+      ],
+      "topics": [
+        {
+          "topic_id": "space-solar-system",
+          "topic_title": "Solar System",
+          "notes_list": [
+            {
+              "id": "s501",
+              "title": "The Solar System",
+              "tags": ["solar-system", "space"],
+              "basic_overview": "The Solar System consists of the Sun and the objects gravitationally bound to it, including planets, dwarf planets, moons, asteroids and comets.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+            },
+            {
+              "id": "s502",
+              "title": "Earth and Moon",
+              "tags": ["solar-system", "space"],
+              "basic_overview": "Earth is the third planet from the Sun and has one natural satellite, the Moon.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Moon's phases result from changing viewing geometry as the Moon orbits Earth. Its gravitational interaction with Earth contributes strongly to ocean tides."
+            }
+          ]
+        },
+        {
+          "topic_id": "space-stars",
+          "topic_title": "Stars",
+          "notes_list": [
+            {
+              "id": "s503",
+              "title": "Stars",
+              "tags": ["stars", "space"],
+              "basic_overview": "Stars are massive, gravitationally bound bodies of plasma that produce energy through nuclear processes in their interiors.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Sun is a star. Stellar colour and spectra provide information about temperature, composition and other physical properties."
+            },
+            {
+              "id": "s504",
+              "title": "Life Cycle of Stars",
+              "tags": ["stars", "space"],
+              "basic_overview": "Stars undergo different evolutionary stages depending largely on their initial mass.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Massive stars may end as supernovae and leave behind neutron stars or black holes, while lower-mass stars can evolve through red giant and white dwarf stages."
+            }
+          ]
+        },
+        {
+          "topic_id": "space-galaxies",
+          "topic_title": "Galaxies and Universe",
+          "notes_list": [
+            {
+              "id": "s505",
+              "title": "Galaxy",
+              "tags": ["galaxies", "space"],
+              "basic_overview": "A galaxy is a gravitationally bound system containing stars, gas, dust, dark matter and other components.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Galaxies can have different forms, including spiral, elliptical and irregular structures."
+            },
+            {
+              "id": "s506",
+              "title": "Milky Way",
+              "tags": ["galaxies", "space"],
+              "basic_overview": "The Milky Way is the galaxy containing the Solar System.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "The Solar System lies in one of the Milky Way's spiral-arm regions, at a substantial distance from the galactic centre."
+            }
+          ]
+        },
+        {
+          "topic_id": "space-missions",
+          "topic_title": "Indian Space Programme",
+          "notes_list": [
+            {
+              "id": "s507",
+              "title": "ISRO",
+              "tags": ["missions", "space"],
+              "basic_overview": "The Indian Space Research Organisation is India's national space agency responsible for developing and operating a wide range of space and satellite technologies and missions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Indian space activities include launch vehicles, Earth observation, communication satellites, navigation systems, planetary exploration and space science missions."
+            },
+            {
+              "id": "s508",
+              "title": "Chandrayaan Programme",
+              "tags": ["missions", "space"],
+              "basic_overview": "The Chandrayaan programme consists of Indian lunar exploration missions designed to study the Moon using spacecraft and scientific instruments.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Chandrayaan-1 contributed to the detection of evidence associated with water/hydroxyl on the lunar surface, while later missions expanded India's lunar exploration capabilities."
+            },
+            {
+              "id": "s509",
+              "title": "Mars Orbiter Mission",
+              "tags": ["missions", "space"],
+              "basic_overview": "India's Mars Orbiter Mission, also known as Mangalyaan, was India's first interplanetary mission and entered Mars orbit in 2014.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The mission demonstrated India's capability in deep-space navigation, communication and spacecraft operations around another planet."
+            }
+          ]
+        },
+        {
+          "topic_id": "space-satellites",
+          "topic_title": "Artificial Satellites",
+          "notes_list": [
+            {
+              "id": "s510",
+              "title": "Artificial Satellites",
+              "tags": ["satellites", "space"],
+              "basic_overview": "Artificial satellites are human-made objects placed into orbit around Earth or other celestial bodies for scientific, communication, navigation, observation and other purposes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Satellite orbits are selected according to mission requirements. Geostationary and polar orbits serve different applications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everyday-science",
+      "title": "Everyday Science",
+      "filters": [
+        { "label": "🔵 Food & Nutrition", "tag": "nutrition" },
+        { "label": "🟢 Materials", "tag": "materials" },
+        { "label": "🟠 Technology", "tag": "technology" },
+        { "label": "🟣 Communication", "tag": "communication" },
+        { "label": "🔴 Energy", "tag": "energy" }
+      ],
+      "topics": [
+        {
+          "topic_id": "everyday-nutrition",
+          "topic_title": "Food and Nutrition",
+          "notes_list": [
+            {
+              "id": "s601",
+              "title": "Carbohydrates",
+              "tags": ["nutrition", "everyday-science"],
+              "basic_overview": "Carbohydrates are biomolecules that serve important roles as energy sources and structural components in living organisms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Glucose is an important carbohydrate used in cellular respiration. Complex carbohydrates include starch and dietary fibre."
+            },
+            {
+              "id": "s602",
+              "title": "Proteins",
+              "tags": ["nutrition", "everyday-science"],
+              "basic_overview": "Proteins are polymers of amino acids that perform structural, catalytic, transport, regulatory and many other functions in living organisms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Enzymes are mostly proteins and act as biological catalysts. Dietary proteins provide amino acids required for growth and maintenance."
+            },
+            {
+              "id": "s603",
+              "title": "Vitamins and Minerals",
+              "tags": ["nutrition", "everyday-science"],
+              "basic_overview": "Vitamins and minerals are micronutrients required in relatively small amounts for normal physiological functions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Different vitamins and minerals have distinct biological functions. Both deficiency and excessive intake of some nutrients can cause health problems."
+            }
+          ]
+        },
+        {
+          "topic_id": "everyday-materials",
+          "topic_title": "Materials in Daily Life",
+          "notes_list": [
+            {
+              "id": "s604",
+              "title": "Plastics",
+              "tags": ["materials", "everyday-science"],
+              "basic_overview": "Plastics are polymeric materials that can be molded into a wide variety of forms and are used in numerous applications.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Different plastics have different properties. Their environmental impacts depend on production, use, disposal and recycling practices."
+            },
+            {
+              "id": "s605",
+              "title": "Alloys",
+              "tags": ["materials", "everyday-science"],
+              "basic_overview": "An alloy is a material containing two or more elements, at least one of which is typically a metal, designed to obtain useful properties.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples include steel, stainless steel, brass and bronze. Alloying can modify strength, hardness, corrosion resistance and other properties."
+            }
+          ]
+        },
+        {
+          "topic_id": "everyday-energy",
+          "topic_title": "Energy and Technology",
+          "notes_list": [
+            {
+              "id": "s606",
+              "title": "Renewable Energy",
+              "tags": ["energy", "everyday-science"],
+              "basic_overview": "Renewable energy comes from sources that are naturally replenished, such as sunlight, wind, flowing water and geothermal heat.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Solar photovoltaic systems convert light directly into electricity, while wind turbines convert the kinetic energy of moving air into electrical energy."
+            },
+            {
+              "id": "s607",
+              "title": "Electric Vehicles",
+              "tags": ["technology", "energy", "everyday-science"],
+              "basic_overview": "Electric vehicles use electric motors for propulsion and generally store electrical energy in rechargeable batteries.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Electric drivetrains can convert electrical energy into mechanical motion efficiently, while overall environmental impact depends on factors including electricity generation and battery production."
+            }
+          ]
+        },
+        {
+          "topic_id": "everyday-communication",
+          "topic_title": "Communication Technology",
+          "notes_list": [
+            {
+              "id": "s608",
+              "title": "Electromagnetic Communication",
+              "tags": ["communication", "everyday-science"],
+              "basic_overview": "Modern wireless communication uses electromagnetic waves to transmit information through space or other media.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Different communication systems use different frequency ranges, modulation techniques, antennas and signal-processing methods."
+            },
+            {
+              "id": "s609",
+              "title": "Optical Fibre",
+              "tags": ["communication", "everyday-science"],
+              "basic_overview": "Optical fibre transmits information as pulses of light through thin strands of glass or other suitable materials.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Total internal reflection enables light to remain guided within the fibre. Optical fibre supports high-bandwidth communication over long distances."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

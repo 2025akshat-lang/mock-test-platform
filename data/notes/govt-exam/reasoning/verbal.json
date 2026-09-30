@@ -1,0 +1,1086 @@
+{
+  "chapter_title": "Verbal Reasoning: Competitive Exam Tips & Tricks",
+  "sections": [
+    {
+      "id": "analogy",
+      "title": "Analogy",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Tips & Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "verbal-analogy",
+          "topic_title": "Analogy",
+          "notes_list": [
+            {
+              "id": "vr001",
+              "title": "Analogy पहचानने की मूल विधि",
+              "tags": ["analogy", "concept"],
+              "basic_overview": "Analogy में दो शब्दों के बीच जो संबंध दिया जाता है, उसी प्रकार का संबंध दूसरे शब्द-युग्म में पहचानना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: पहले शब्दों का exact relationship पहचानें, केवल समानता न देखें। Example: Bird : Nest :: Lion : ? → Den. यहाँ संबंध 'animal : dwelling place' है।"
+            },
+            {
+              "id": "vr002",
+              "title": "Analogy में Relationship Types",
+              "tags": ["analogy", "trick"],
+              "basic_overview": "Analogy में profession, tool, place, part-whole, cause-effect, degree, synonym, antonym और worker-workplace जैसे संबंध पूछे जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trick: विकल्प देखने से पहले relation को एक छोटे वाक्य में बोलें। Example: Doctor : Hospital = Teacher : School. Relation = person and workplace."
+            },
+            {
+              "id": "vr003",
+              "title": "Analogy में Elimination Technique",
+              "tags": ["analogy", "trick"],
+              "basic_overview": "यदि exact answer तुरंत न मिले तो ऐसे विकल्प हटाएँ जिनका relationship पहले pair से मेल नहीं खाता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Pen : Write :: Knife : ? Options: Cut, Read, Draw, Eat. सही उत्तर Cut है क्योंकि Pen का कार्य Write और Knife का कार्य Cut है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classification",
+      "title": "Classification / Odd One Out",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "verbal-classification",
+          "topic_title": "Classification",
+          "notes_list": [
+            {
+              "id": "vr004",
+              "title": "Odd Word पहचानना",
+              "tags": ["classification", "concept"],
+              "basic_overview": "चार या अधिक शब्दों में से उस शब्द को चुनना होता है जो बाकी शब्दों से किसी महत्वपूर्ण property के आधार पर अलग हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Apple, Mango, Banana, Potato → Potato odd है क्योंकि बाकी fruits हैं जबकि Potato vegetable है।"
+            },
+            {
+              "id": "vr005",
+              "title": "Classification में Category Test",
+              "tags": ["classification", "trick"],
+              "basic_overview": "पहले सभी options की common category खोजें और फिर जो option category से बाहर हो उसे चुनें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trick: Animal, profession, object, place, quality, scientific category और function को check करें। Example: Chair, Table, Sofa, Bicycle → Bicycle अलग है क्योंकि बाकी furniture हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "title": "Verbal Series",
+      "filters": [
+        { "label": "🔢 Pattern", "tag": "pattern" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "word-series",
+          "topic_title": "Word Series",
+          "notes_list": [
+            {
+              "id": "vr006",
+              "title": "Word Series Pattern",
+              "tags": ["series", "concept"],
+              "basic_overview": "शब्दों की श्रृंखला में alphabetical order, letter movement, word length, reverse order या alternating pattern दिया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: AB, CD, EF, GH, ? → IJ. Pattern में प्रत्येक term में दो consecutive letters हैं।"
+            },
+            {
+              "id": "vr007",
+              "title": "Alphabet Position Method",
+              "tags": ["series", "trick"],
+              "basic_overview": "Letters को A=1, B=2, ... Z=26 में convert करके numerical pattern खोजें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A, D, G, J, ? → M. Positions 1,4,7,10,13 हैं; हर बार +3।"
+            },
+            {
+              "id": "vr008",
+              "title": "Alternate Pattern Check",
+              "tags": ["series", "trick"],
+              "basic_overview": "यदि direct pattern न मिले तो odd-position और even-position terms को अलग-अलग देखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Series में +2, +3, -1 जैसी mixed movement या दो alternating patterns हो सकते हैं। पहले adjacent terms check करें, फिर alternate terms।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coding-decoding",
+      "title": "Coding-Decoding",
+      "filters": [
+        { "label": "🔵 Coding Types", "tag": "concept" },
+        { "label": "🟢 Short Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "letter-coding",
+          "topic_title": "Letter Coding",
+          "notes_list": [
+            {
+              "id": "vr009",
+              "title": "Letter Shift Coding",
+              "tags": ["coding", "concept"],
+              "basic_overview": "Coding में प्रत्येक letter को निश्चित संख्या से आगे या पीछे shift किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: CAT को यदि प्रत्येक letter +1 shift किया जाए तो DBU बनेगा। C→D, A→B, T→U।"
+            },
+            {
+              "id": "vr010",
+              "title": "Reverse Alphabet Trick",
+              "tags": ["coding", "trick"],
+              "basic_overview": "Reverse alphabet में A↔Z, B↔Y, C↔X आदि pair बनते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick pairs: A-Z, B-Y, C-X, D-W, E-V, F-U, G-T, H-S, I-R, J-Q. Example: CAT → XZG under reverse alphabet."
+            },
+            {
+              "id": "vr011",
+              "title": "Coding में Pattern Comparison",
+              "tags": ["coding", "trick"],
+              "basic_overview": "Known coded word और उसके code को compare करके individual letter mapping निकालें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि CAT = DBU, तो C→D, A→B, T→U. इसी rule से DOG = EPH होगा।"
+            }
+          ]
+        },
+        {
+          "topic_id": "word-coding",
+          "topic_title": "Word/Substitution Coding",
+          "notes_list": [
+            {
+              "id": "vr012",
+              "title": "Common Code Mapping",
+              "tags": ["coding", "concept"],
+              "basic_overview": "कभी-कभी पूरे शब्दों या concepts को arbitrary code दिया जाता है। ऐसे questions में common words की mapping खोजनी होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: दो statements में common word और common code खोजें। Common element दोनों में same mapping देगा।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blood-relations",
+      "title": "Blood Relations",
+      "filters": [
+        { "label": "🔵 Family Relations", "tag": "concept" },
+        { "label": "🟢 Diagram Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "blood-relation",
+          "topic_title": "Blood Relation Problems",
+          "notes_list": [
+            {
+              "id": "vr013",
+              "title": "Family Tree Method",
+              "tags": ["blood-relations", "concept"],
+              "basic_overview": "Blood relation questions में व्यक्ति-व्यक्ति के संबंध को family tree के रूप में arrange करना सबसे सुरक्षित तरीका है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A is B's mother. B is C's brother. इसलिए A, C की भी mother है। पहले gender और generation determine करें।"
+            },
+            {
+              "id": "vr014",
+              "title": "Generation Level Trick",
+              "tags": ["blood-relations", "trick"],
+              "basic_overview": "Grandparents, parents, siblings और children को अलग-अलग generation levels पर रखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trick: ऊपर = older generation, same level = siblings/spouse possibilities, नीचे = younger generation. इससे complex relation जल्दी solve होता है।"
+            },
+            {
+              "id": "vr015",
+              "title": "Gender Identification",
+              "tags": ["blood-relations", "trick"],
+              "basic_overview": "He, father, brother, son जैसे words male indicate करते हैं; she, mother, sister, daughter female indicate करते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: P is the daughter of Q → P female है और Q parent है। यदि Q is the brother of R, तो R, P का uncle/aunt हो सकता है depending on gender information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direction-sense",
+      "title": "Direction Sense Test",
+      "filters": [
+        { "label": "🧭 Directions", "tag": "concept" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "direction-test",
+          "topic_title": "Direction Sense",
+          "notes_list": [
+            {
+              "id": "vr016",
+              "title": "Basic Direction Framework",
+              "tags": ["direction", "concept"],
+              "basic_overview": "चार मुख्य दिशाएँ North, South, East और West तथा चार intermediate directions NE, NW, SE, SW होती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Remember: North ↑, South ↓, East →, West ←. हमेशा starting point को fixed मानकर movement draw करें।"
+            },
+            {
+              "id": "vr017",
+              "title": "Right-Left Turn Trick",
+              "tags": ["direction", "trick"],
+              "basic_overview": "व्यक्ति जिस दिशा में face कर रहा है उसी के अनुसार right और left बदलते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: North face करने पर right = East और left = West. East face करने पर right = South और left = North."
+            },
+            {
+              "id": "vr018",
+              "title": "Shortest Distance",
+              "tags": ["direction", "trick"],
+              "basic_overview": "Final position मिलने के बाद horizontal और vertical displacement निकालकर shortest distance निर्धारित करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 3 km East और फिर 4 km North → displacement = √(3²+4²) = 5 km."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ranking-order",
+      "title": "Ranking & Order",
+      "filters": [
+        { "label": "🔢 Formula", "tag": "formula" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ranking",
+          "topic_title": "Ranking Problems",
+          "notes_list": [
+            {
+              "id": "vr019",
+              "title": "Rank from Opposite Ends",
+              "tags": ["ranking", "formula"],
+              "basic_overview": "यदि किसी व्यक्ति की rank ऊपर से और नीचे से दी गई हो तो total persons = top rank + bottom rank - 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Rohan is 12th from top and 18th from bottom. Total = 12 + 18 - 1 = 29."
+            },
+            {
+              "id": "vr020",
+              "title": "Persons Between Two Ranks",
+              "tags": ["ranking", "trick"],
+              "basic_overview": "दो ranks के बीच persons = larger rank - smaller rank - 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A is 8th and B is 15th from same side. Between them = 15 - 8 - 1 = 6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alphabet-test",
+      "title": "Alphabet Test",
+      "filters": [
+        { "label": "🔤 Alphabet Positions", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "alphabet-position",
+          "topic_title": "Alphabet Position Questions",
+          "notes_list": [
+            {
+              "id": "vr021",
+              "title": "Alphabet Position Memory",
+              "tags": ["alphabet", "trick"],
+              "basic_overview": "A=1 से Z=26 तक positions का उपयोग letter-based reasoning में किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick anchors: A=1, E=5, J=10, M=13, O=15, T=20, Z=26. बाकी letters आसपास count करके निकाले जा सकते हैं।"
+            },
+            {
+              "id": "vr022",
+              "title": "Letter Pair Distance",
+              "tags": ["alphabet", "concept"],
+              "basic_overview": "दो letters के बीच positional difference निकालकर उनके बीच आने वाले letters की संख्या निर्धारित की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: C और H positions 3 और 8 हैं. Difference = 5; बीच में 4 letters D,E,F,G हैं।"
+            },
+            {
+              "id": "vr023",
+              "title": "Reverse Alphabet Position",
+              "tags": ["alphabet", "trick"],
+              "basic_overview": "Reverse position formula: reverse position = 27 - normal position.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: C = 3, reverse position = 27 - 3 = 24. इसलिए C reverse alphabet में 24th position पर है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "word-formation",
+      "title": "Word Formation",
+      "filters": [
+        { "label": "🔤 Letters", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "word-formation",
+          "topic_title": "Word Formation",
+          "notes_list": [
+            {
+              "id": "vr024",
+              "title": "Possible Word Check",
+              "tags": ["word-formation", "concept"],
+              "basic_overview": "दिए गए letters से meaningful word बनाया जा सकता है या नहीं, यह check करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: सबसे पहले vowels और common consonant combinations identify करें। Example: LISTEN से SILENT बनाया जा सकता है।"
+            },
+            {
+              "id": "vr025",
+              "title": "Letter Availability Trick",
+              "tags": ["word-formation", "trick"],
+              "basic_overview": "Candidate word के प्रत्येक letter की frequency को original word से compare करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: SCHOOL से COOL बन सकता है क्योंकि C,O,O,L उपलब्ध हैं। लेकिन CHAIR से CHEER नहीं बन सकता क्योंकि E उपलब्ध नहीं है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missing-character",
+      "title": "Missing Character",
+      "filters": [
+        { "label": "🔢 Pattern", "tag": "pattern" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "missing-character",
+          "topic_title": "Missing Character in Series",
+          "notes_list": [
+            {
+              "id": "vr026",
+              "title": "Pattern Identification",
+              "tags": ["missing-character", "pattern"],
+              "basic_overview": "Missing character questions में letters या words के बीच numerical/alphabetical relationship identify करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A, C, F, J, ? → O. Position increments +2,+3,+4,+5 हैं।"
+            },
+            {
+              "id": "vr027",
+              "title": "Multiple Pattern Check",
+              "tags": ["missing-character", "trick"],
+              "basic_overview": "यदि simple pattern fail हो तो alternate terms, letter positions और increasing differences check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam trick: एक pattern न मिले तो तुरंत answer guess न करें। First difference, second difference और alternate positions check करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-conclusion",
+      "title": "Statement & Conclusion",
+      "filters": [
+        { "label": "🔵 Logic", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "statement-conclusion",
+          "topic_title": "Statement and Conclusion",
+          "notes_list": [
+            {
+              "id": "vr028",
+              "title": "Statement को केवल Given Information मानें",
+              "tags": ["statement-conclusion", "concept"],
+              "basic_overview": "Conclusion को statement से logically follow करना चाहिए; outside knowledge को normally use नहीं करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: 'क्या यह statement से निश्चित रूप से निकलता है?' यही मुख्य test है। Real-world knowledge को जब तक जरूरी न हो, अलग रखें।"
+            },
+            {
+              "id": "vr029",
+              "title": "Strong Logical Link",
+              "tags": ["statement-conclusion", "trick"],
+              "basic_overview": "Conclusion तभी स्वीकार करें जब statement के facts से उसका logical connection स्पष्ट हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Statement: All books in the library are catalogued. Conclusion: Some catalogued items are books. यह logically follows करता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-assumption",
+      "title": "Statement & Assumption",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "assumption",
+          "topic_title": "Statement and Assumption",
+          "notes_list": [
+            {
+              "id": "vr030",
+              "title": "Assumption क्या है?",
+              "tags": ["assumption", "concept"],
+              "basic_overview": "Assumption वह unstated idea है जिसे statement meaningful बनाने के लिए implicitly माना गया है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'Use this umbrella to stay dry.' Assumption: Umbrella बारिश से बचाने में मदद कर सकती है।"
+            },
+            {
+              "id": "vr031",
+              "title": "Negation Test",
+              "tags": ["assumption", "trick"],
+              "basic_overview": "Assumption questions में assumption को negate करके देखें कि statement का basic purpose कमजोर या meaningless होता है या नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trick: यदि assumption को false करने पर statement का purpose collapse हो जाता है, तो वह assumption likely implicit है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement-argument",
+      "title": "Statement & Argument",
+      "filters": [
+        { "label": "🔵 Argument Logic", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "argument",
+          "topic_title": "Strong and Weak Arguments",
+          "notes_list": [
+            {
+              "id": "vr032",
+              "title": "Strong Argument",
+              "tags": ["argument", "concept"],
+              "basic_overview": "Strong argument directly addresses the issue and provides relevant, practical or logically convincing reasoning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Strong argument relevant, practical और logically connected होता है। Emotional exaggeration को strong logic न मानें।"
+            },
+            {
+              "id": "vr033",
+              "title": "Weak Argument पहचानना",
+              "tags": ["argument", "trick"],
+              "basic_overview": "Irrelevant, extreme, emotional या purely personal reasoning generally weak argument की ओर संकेत करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 'Should public libraries be maintained?' Argument: 'Yes, because books are generally useful.' यह issue से relevant है; लेकिन 'Yes, because libraries look beautiful' comparatively less relevant reasoning है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cause-effect",
+      "title": "Cause & Effect",
+      "filters": [
+        { "label": "🔵 Relationship", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "cause-effect",
+          "topic_title": "Cause and Effect",
+          "notes_list": [
+            {
+              "id": "vr034",
+              "title": "Cause और Effect में अंतर",
+              "tags": ["cause-effect", "concept"],
+              "basic_overview": "Cause वह घटना या condition है जो दूसरी घटना को उत्पन्न या प्रभावित करती है; Effect उसका परिणाम है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Heavy rainfall → Waterlogging. Heavy rainfall cause है और waterlogging effect हो सकता है।"
+            },
+            {
+              "id": "vr035",
+              "title": "Temporal Order Trick",
+              "tags": ["cause-effect", "trick"],
+              "basic_overview": "Cause सामान्यतः effect से पहले occur करता है। दोनों statements के sequence को ध्यान से देखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: केवल पहले होने वाली घटना को cause न मानें; logical connection भी आवश्यक है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syllogism",
+      "title": "Syllogism",
+      "filters": [
+        { "label": "🔵 Logic Rules", "tag": "concept" },
+        { "label": "🟢 Venn Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "syllogism-basics",
+          "topic_title": "Syllogism Basics",
+          "notes_list": [
+            {
+              "id": "vr036",
+              "title": "All, No, Some Statements",
+              "tags": ["syllogism", "concept"],
+              "basic_overview": "Syllogism में All, No और Some जैसे categorical statements के आधार पर conclusions test किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: All A are B. Some B are C. इससे Some A are C necessarily follow नहीं करता। Overlapping assumption नहीं करनी चाहिए।"
+            },
+            {
+              "id": "vr037",
+              "title": "Venn Diagram Method",
+              "tags": ["syllogism", "trick"],
+              "basic_overview": "Complex syllogism में Venn diagram बनाकर possible relationships visualize करना सबसे reliable approach है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trick: All A are B → A को B के अंदर रखें। No A is B → A और B अलग रखें। Some A are B → overlap दिखाएँ।"
+            },
+            {
+              "id": "vr038",
+              "title": "Possibility Conclusion",
+              "tags": ["syllogism", "trick"],
+              "basic_overview": "Possibility conclusion को केवल तब reject करें जब given statements उस possibility को निश्चित रूप से impossible बनाते हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Possibility questions में 'definitely false' और 'not necessarily true' के बीच अंतर रखें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inequality",
+      "title": "Coded Inequality",
+      "filters": [
+        { "label": "🔢 Symbols", "tag": "concept" },
+        { "label": "🟢 Chain Method", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "inequality",
+          "topic_title": "Inequality Reasoning",
+          "notes_list": [
+            {
+              "id": "vr039",
+              "title": "Basic Inequality Symbols",
+              "tags": ["inequality", "concept"],
+              "basic_overview": ">, <, ≥, ≤ और = जैसे relationships को coded symbols के माध्यम से समझना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A > B and B > C → A > C. लेकिन A ≥ B और B ≥ C → A ≥ C."
+            },
+            {
+              "id": "vr040",
+              "title": "Chain Method",
+              "tags": ["inequality", "trick"],
+              "basic_overview": "Statements को एक continuous chain में arrange करें और asked pair के बीच relation निकालें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: P > Q ≥ R > S. इसलिए P > S निश्चित है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "input-output",
+      "title": "Input-Output",
+      "filters": [
+        { "label": "🔵 Pattern", "tag": "pattern" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "input-output",
+          "topic_title": "Input-Output Arrangement",
+          "notes_list": [
+            {
+              "id": "vr041",
+              "title": "Step Pattern पहचानना",
+              "tags": ["input-output", "pattern"],
+              "basic_overview": "Input-output questions में प्रत्येक step में words या numbers किसी निश्चित rule के अनुसार rearrange होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Step 1 और Step 2 compare करें। कौन-सा element fixed position पर गया और कौन-सा move हुआ, यह identify करें।"
+            },
+            {
+              "id": "vr042",
+              "title": "First Fixed Element Trick",
+              "tags": ["input-output", "trick"],
+              "basic_overview": "कई questions में प्रत्येक step में सबसे छोटा/बड़ा word या number अपनी final position पर fix होता जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Input: 45 12 78 23. यदि ascending order बन रहा है, Step 1 में 12 first position पर आ सकता है; फिर next smallest position fix होगी।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-sequence",
+      "title": "Logical Sequence of Words",
+      "filters": [
+        { "label": "🔵 Sequence", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-sequence",
+          "topic_title": "Logical Order",
+          "notes_list": [
+            {
+              "id": "vr043",
+              "title": "Natural Sequence",
+              "tags": ["sequence", "concept"],
+              "basic_overview": "Words को natural process, size, age, development, hierarchy या chronology के अनुसार arrange करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Seed → Plant → Flower → Fruit is a natural developmental sequence."
+            },
+            {
+              "id": "vr044",
+              "title": "Process Order Trick",
+              "tags": ["sequence", "trick"],
+              "basic_overview": "किसी process के stages को identify करके earliest से latest या smallest से largest order में arrange करें।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: Examination preparation → Examination → Result → Admission is chronological order."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calendar-clock",
+      "title": "Calendar & Clock Reasoning",
+      "filters": [
+        { "label": "📅 Calendar", "tag": "calendar" },
+        { "label": "⏰ Clock", "tag": "clock" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "calendar",
+          "topic_title": "Calendar Reasoning",
+          "notes_list": [
+            {
+              "id": "vr045",
+              "title": "Odd Days Concept",
+              "tags": ["calendar", "concept"],
+              "basic_overview": "Calendar questions में weeks के cycle के कारण 7 के multiples cancel किए जा सकते हैं और remaining days से weekday determine किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: 7 days = 0 odd day. 8 days = 1 odd day. 15 days = 1 odd day."
+            },
+            {
+              "id": "vr046",
+              "title": "Leap Year Rule",
+              "tags": ["calendar", "trick"],
+              "basic_overview": "Century years generally leap year नहीं होते, except when divisible by 400. Other years divisible by 4 are leap years unless they are century years.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: 2024 leap year, 1900 not a leap year, 2000 leap year."
+            }
+          ]
+        },
+        {
+          "topic_id": "clock",
+          "topic_title": "Clock Reasoning",
+          "notes_list": [
+            {
+              "id": "vr047",
+              "title": "Clock Angle Formula",
+              "tags": ["clock", "formula"],
+              "basic_overview": "Hour hand angle = 30H + 0.5M. Minute hand angle = 6M. Difference का absolute value लेकर smaller angle निकाला जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 3:00 पर hour hand = 90° और minute hand = 0°. Angle = 90°."
+            },
+            {
+              "id": "vr048",
+              "title": "Clock Movement Trick",
+              "tags": ["clock", "trick"],
+              "basic_overview": "Minute hand 1 minute में 6° और hour hand 0.5° move करती है। Relative speed = 5.5° per minute.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Hands के overlap या angle questions में relative speed 5.5°/minute बहुत उपयोगी है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-sufficiency",
+      "title": "Data Sufficiency",
+      "filters": [
+        { "label": "🔵 Logic", "tag": "concept" },
+        { "label": "🟢 Exam Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "data-sufficiency",
+          "topic_title": "Data Sufficiency",
+          "notes_list": [
+            {
+              "id": "vr049",
+              "title": "Sufficiency का अर्थ",
+              "tags": ["data-sufficiency", "concept"],
+              "basic_overview": "Data sufficiency में calculation पूरा करना उद्देश्य नहीं होता; यह देखना होता है कि given statement(s) question का definite answer देने के लिए sufficient हैं या नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: पहले Statement I अकेले check करें, फिर Statement II अकेले, फिर दोनों साथ में। Unnecessary calculation से बचें।"
+            },
+            {
+              "id": "vr050",
+              "title": "Minimum Information Principle",
+              "tags": ["data-sufficiency", "trick"],
+              "basic_overview": "यदि एक statement ही answer निश्चित करने के लिए पर्याप्त है तो दूसरे statement की जरूरत नहीं है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Question solve करने से पहले पूछें — 'क्या answer uniquely determine हो रहा है?' यदि नहीं, तो data insufficient है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "title": "Decision Making",
+      "filters": [
+        { "label": "🔵 Conditions", "tag": "concept" },
+        { "label": "🟢 Elimination", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "decision-making",
+          "topic_title": "Decision Making Problems",
+          "notes_list": [
+            {
+              "id": "vr051",
+              "title": "Conditions को ध्यान से पढ़ना",
+              "tags": ["decision-making", "concept"],
+              "basic_overview": "Decision-making questions में eligibility, qualification, age, experience या अन्य conditions को simultaneously satisfy करना पड़ सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Conditions को checklist की तरह पढ़ें। Candidate को तभी eligible मानें जब सभी mandatory conditions satisfy हों।"
+            },
+            {
+              "id": "vr052",
+              "title": "Condition Table Trick",
+              "tags": ["decision-making", "trick"],
+              "basic_overview": "Multiple conditions वाले questions में candidate-wise mini table बनाना errors कम करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Age ✓, Qualification ✓, Experience ✗ → Candidate eligible नहीं होगा यदि experience mandatory है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assertion-reason",
+      "title": "Assertion & Reason",
+      "filters": [
+        { "label": "🔵 Logic", "tag": "concept" },
+        { "label": "🟢 Test", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "assertion-reason",
+          "topic_title": "Assertion and Reason",
+          "notes_list": [
+            {
+              "id": "vr053",
+              "title": "Assertion और Reason को अलग-अलग Test करें",
+              "tags": ["assertion-reason", "concept"],
+              "basic_overview": "पहले determine करें कि Assertion true है या false। फिर Reason independently true है या false check करें। अंत में दोनों के logical explanation relationship को देखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Reason true होना alone sufficient नहीं है। यह देखना जरूरी है कि Reason वास्तव में Assertion को explain करता है या नहीं।"
+            },
+            {
+              "id": "vr054",
+              "title": "Why Test",
+              "tags": ["assertion-reason", "trick"],
+              "basic_overview": "यदि दोनों statements true हों, तो पूछें: 'क्या Reason वास्तव में Assertion का कारण बताता है?'",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick method: A true/false → R true/false → R explains A? इस क्रम में test करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical-vocabulary",
+      "title": "Logical Vocabulary",
+      "filters": [
+        { "label": "🔤 Important Terms", "tag": "vocabulary" },
+        { "label": "🟢 Exam Tips", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "logical-terms",
+          "topic_title": "Reasoning Keywords",
+          "notes_list": [
+            {
+              "id": "vr055",
+              "title": "Important Logical Words",
+              "tags": ["vocabulary", "concept"],
+              "basic_overview": "Reasoning questions में all, some, none, only, unless, either, neither, exactly, at least और at most जैसे words बहुत महत्वपूर्ण होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 'Only A are B' का अर्थ B → A होता है। 'All A are B' का अर्थ A → B होता है। Direction ध्यान से पढ़ें।"
+            },
+            {
+              "id": "vr056",
+              "title": "Only और All में अंतर",
+              "tags": ["vocabulary", "trick"],
+              "basic_overview": "Only वाला construction अक्सर implication की direction बदल देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Only doctors are eligible → Eligible persons must be doctors. इसे 'All doctors are eligible' न समझें।"
+            },
+            {
+              "id": "vr057",
+              "title": "At Least और At Most",
+              "tags": ["vocabulary", "trick"],
+              "basic_overview": "At least minimum quantity बताता है जबकि at most maximum limit बताता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: At least 3 = 3 or more. At most 3 = 3 or fewer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-strategy",
+      "title": "Competitive Exam Strategy",
+      "filters": [
+        { "label": "🎯 Strategy", "tag": "strategy" },
+        { "label": "⏱️ Time Management", "tag": "time" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "general-verbal-strategy",
+          "topic_title": "General Verbal Reasoning Strategy",
+          "notes_list": [
+            {
+              "id": "vr058",
+              "title": "Question को पहले Classify करें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Question पढ़ते ही identify करें कि यह analogy, coding, blood relation, ranking, syllogism, series या statement-based problem है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Question type पहचानने से सही method तुरंत activate होता है और unnecessary trial-and-error कम होता है।"
+            },
+            {
+              "id": "vr059",
+              "title": "Diagram कब बनाना है",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Blood relation, direction, seating, syllogism और complex ordering में छोटा diagram बनाना accuracy बढ़ाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Diagram बनाने में 10–20 seconds लग सकते हैं, लेकिन complex question में इससे कई minutes और mistakes बच सकती हैं।"
+            },
+            {
+              "id": "vr060",
+              "title": "Options का Smart Use",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "हर question को complete solve करना जरूरी नहीं। कुछ questions में options से direct elimination किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि three options relation की basic condition violate करते हैं, तो remaining option जल्दी identify किया जा सकता है।"
+            },
+            {
+              "id": "vr061",
+              "title": "Overthinking से बचें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Reasoning में सामान्यतः question में दी गई information और standard logical rules पर आधारित रहना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Extra assumptions न जोड़ें। जो information दी गई है उसी से answer derive करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ssc-verbal",
+          "topic_title": "SSC Exams Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "vr062",
+              "title": "SSC Reasoning Speed Strategy",
+              "tags": ["ssc", "strategy"],
+              "basic_overview": "SSC-type exams में verbal reasoning के लिए analogy, classification, series, coding-decoding, blood relation, direction और alphabetical reasoning की speed महत्वपूर्ण होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Easy pattern-based questions पहले करें। Complex statement-based questions को बाद में रखें यदि time pressure हो।"
+            }
+          ]
+        },
+        {
+          "topic_id": "dsssb-verbal",
+          "topic_title": "DSSSB Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "vr063",
+              "title": "DSSSB Practice Approach",
+              "tags": ["dsssb", "strategy"],
+              "basic_overview": "DSSSB preparation में standard reasoning types के साथ repeated practice और timed sets उपयोगी होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Previous-year style questions को topic-wise और mixed timed sets दोनों तरीके से practice करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "banking-verbal",
+          "topic_title": "Banking Exams Reasoning",
+          "notes_list": [
+            {
+              "id": "vr064",
+              "title": "Banking Reasoning Approach",
+              "tags": ["banking", "strategy"],
+              "basic_overview": "Banking examinations में logical arrangement, inequality, syllogism, coding और statement-based reasoning पर विशेष practice उपयोगी होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Short calculation और logical deduction वाले questions में accuracy बनाए रखते हुए speed develop करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "railway-verbal",
+          "topic_title": "Railway Exams Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "vr065",
+              "title": "Railway Reasoning Speed",
+              "tags": ["railway", "strategy"],
+              "basic_overview": "Railway examinations में analogy, classification, series, coding-decoding, relationship और direction जैसे pattern-based questions पर मजबूत command उपयोगी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Alphabet positions और common reasoning patterns की fast recall speed बढ़ाएँ।"
+            }
+          ]
+        },
+        {
+          "topic_id": "defence-verbal",
+          "topic_title": "Defence Exams Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "vr066",
+              "title": "Defence Reasoning Strategy",
+              "tags": ["defence", "strategy"],
+              "basic_overview": "Defence entrance examinations में verbal reasoning के साथ speed, accuracy और quick decision making पर ध्यान देना आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Timed practice करें और ऐसे questions को पहले पहचानें जिनमें direct pattern या short calculation से answer मिल सकता है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "upsc-csat-verbal",
+          "topic_title": "UPSC CSAT Logical Reasoning",
+          "notes_list": [
+            {
+              "id": "vr067",
+              "title": "CSAT Reasoning Approach",
+              "tags": ["upsc", "csat", "strategy"],
+              "basic_overview": "CSAT में reasoning questions को comprehension, logic और analytical thinking के साथ पढ़ना चाहिए। केवल shortcut memorization पर निर्भर न रहें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Question की exact wording, assumptions और logical implications को carefully analyse करें। Complex questions में rough diagram helpful हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-revision",
+      "title": "Quick Revision & Exam Hall Tricks",
+      "filters": [
+        { "label": "⚡ Quick Tricks", "tag": "trick" },
+        { "label": "🎯 Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "verbal-quick-revision",
+          "topic_title": "One-Minute Verbal Reasoning Revision",
+          "notes_list": [
+            {
+              "id": "vr068",
+              "title": "Universal Reasoning Checklist",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Exam में verbal reasoning question देखते समय question type, given information, required output और applicable rule identify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick Checklist: 1) Type पहचानो 2) Data mark करो 3) Pattern/rule खोजो 4) Unnecessary assumptions हटाओ 5) Options eliminate करो 6) Answer verify करो."
+            },
+            {
+              "id": "vr069",
+              "title": "High-Frequency Shortcuts",
+              "tags": ["revision", "trick"],
+              "basic_overview": "कुछ formulas और rules बार-बार उपयोग होते हैं: ranking formula, alphabet positions, reverse alphabet, clock angle और direction turns।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Must Remember: Total persons = Top Rank + Bottom Rank - 1. Reverse alphabet position = 27 - normal position. Clock angle = |30H - 5.5M|."
+            },
+            {
+              "id": "vr070",
+              "title": "Accuracy First Rule",
+              "tags": ["revision", "strategy"],
+              "basic_overview": "Speed महत्वपूर्ण है लेकिन गलत pattern या गलत assumption के कारण answer बदल सकता है। इसलिए final answer से पहले relation को एक बार verify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: विशेष रूप से coding, blood relation, syllogism और statement questions में 2–3 second verification कई avoidable mistakes रोक सकती है।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

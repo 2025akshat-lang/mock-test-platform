@@ -1,0 +1,1516 @@
+{
+  "chapter_title": "UV-Visible Spectroscopy: M.Sc. Entrance, GATE & PSU Chemistry Notes",
+  "sections": [
+    {
+      "id": "uv-fundamentals",
+      "title": "UV-Visible Spectroscopy Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "uv-basics",
+          "topic_title": "Basic Principles of UV-Visible Spectroscopy",
+          "notes_list": [
+            {
+              "id": "uv001",
+              "title": "UV-Visible Spectroscopy क्या है?",
+              "tags": ["basics", "concept", "msc", "gate", "psu"],
+              "basic_overview": "UV-Visible spectroscopy में molecules द्वारा ultraviolet या visible electromagnetic radiation के absorption का अध्ययन किया जाता है। Absorption molecule को lower electronic state से higher electronic state में promote कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical molecular UV region लगभग 200–400 nm और visible region लगभग 400–700 nm माना जाता है। Example: किसी organic molecule का λmax = 280 nm है तो वह 280 nm पर maximum absorption दिखाता है।"
+            },
+            {
+              "id": "uv002",
+              "title": "Absorption का मूल कारण",
+              "tags": ["basics", "concept"],
+              "basic_overview": "UV radiation तभी effectively absorb होती है जब photon energy molecule के दो allowed energy levels के energy difference के बराबर हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Equation: ΔE = hν = hc/λ. इसलिए wavelength कम होने पर photon energy अधिक होती है। Example: 200 nm radiation की energy 400 nm radiation से दोगुनी होती है।"
+            },
+            {
+              "id": "uv003",
+              "title": "UV में किस प्रकार के Transitions होते हैं?",
+              "tags": ["electronic-transition", "concept"],
+              "basic_overview": "Molecular UV spectra मुख्यतः valence electrons के electronic transitions के कारण उत्पन्न होते हैं। प्रमुख transitions σ→σ*, n→σ*, π→π* और n→π* हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam order by approximate energy: σ→σ* > n→σ* > π→π* > n→π*. Example: saturated hydrocarbons mainly σ→σ*, जबकि carbonyl compounds में n→π* और π→π* transitions महत्वपूर्ण होते हैं।"
+            },
+            {
+              "id": "uv004",
+              "title": "UV Spectrum में λmax क्या है?",
+              "tags": ["lambda-max", "concept"],
+              "basic_overview": "λmax वह wavelength है जिस पर absorption maximum होता है। Quantitative UV analysis में अक्सर इसी wavelength पर measurement किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि spectrum में maximum absorbance 254 nm पर है, तो λmax = 254 nm. λmax पर sensitivity अक्सर अधिक होती है क्योंकि absorbance maximum होता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "electronic-transitions",
+      "title": "Electronic Transitions",
+      "filters": [
+        { "label": "⚛️ Transitions", "tag": "concept" },
+        { "label": "🔢 Energy Order", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "electronic-transitions",
+          "topic_title": "σ, π और n Electronic Transitions",
+          "notes_list": [
+            {
+              "id": "uv005",
+              "title": "σ → σ* Transition",
+              "tags": ["transition", "concept", "gate"],
+              "basic_overview": "Sigma bonding electron को sigma antibonding orbital में promote करने के लिए high energy radiation चाहिए। इसलिए σ→σ* absorption सामान्यतः far-UV region में होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Alkanes में C–C और C–H σ bonds होते हैं। इसलिए उनके प्रमुख electronic transitions σ→σ* होते हैं और absorption generally बहुत short wavelength पर होती है।"
+            },
+            {
+              "id": "uv006",
+              "title": "n → σ* Transition",
+              "tags": ["transition", "concept"],
+              "basic_overview": "Lone-pair electron को σ* orbital में promote करने वाला transition n→σ* कहलाता है। यह heteroatom-containing saturated compounds में common है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: alcohols, ethers, amines और alkyl halides में n→σ* transitions संभव हैं।"
+            },
+            {
+              "id": "uv007",
+              "title": "π → π* Transition",
+              "tags": ["transition", "concept", "gate"],
+              "basic_overview": "π bonding electron को π* antibonding orbital में promote करने वाला transition π→π* कहलाता है। Conjugated systems में यह transition particularly important है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Ethene में π→π* transition होता है। Conjugation बढ़ने पर π→π* transition की required energy घट सकती है और absorption longer wavelength की ओर shift होती है।"
+            },
+            {
+              "id": "uv008",
+              "title": "n → π* Transition",
+              "tags": ["transition", "carbonyl", "concept"],
+              "basic_overview": "Non-bonding electron को π* orbital में promote करने वाला n→π* transition है। Carbonyl compounds में यह महत्वपूर्ण weak absorption band दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Acetone में oxygen का lone pair n orbital में होता है और C=O π* orbital उपलब्ध होता है, इसलिए n→π* transition संभव है।"
+            },
+            {
+              "id": "uv009",
+              "title": "Transition Energy Order",
+              "tags": ["transition", "trick", "gate"],
+              "basic_overview": "Approximate energy requirement का सामान्य order σ→σ* > n→σ* > π→π* > n→π* है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Energy अधिक → wavelength कम। इसलिए highest-energy transition को shortest wavelength से associate करें।"
+            },
+            {
+              "id": "uv010",
+              "title": "Allowed और Forbidden Transitions",
+              "tags": ["selection-rule", "concept"],
+              "basic_overview": "Electronic transitions की intensity selection rules और transition probability पर depend करती है। Allowed transitions generally stronger absorption देते हैं जबकि forbidden transitions weaker हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: कई π→π* transitions relatively intense होते हैं, जबकि carbonyl का n→π* band comparatively weak हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "beer-lambert-law",
+      "title": "Beer-Lambert Law & Quantitative Analysis",
+      "filters": [
+        { "label": "📐 Formula", "tag": "formula" },
+        { "label": "🔢 Numericals", "tag": "numerical" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "beer-lambert",
+          "topic_title": "Beer-Lambert Law",
+          "notes_list": [
+            {
+              "id": "uv011",
+              "title": "Beer-Lambert Law",
+              "tags": ["beer-lambert", "formula", "gate", "psu"],
+              "basic_overview": "Absorbance homogeneous absorbing medium में path length और concentration के proportional होती है, जब Beer-Lambert conditions satisfied हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Formula: A = εbc. A = absorbance, ε = molar absorptivity, b = path length in cm, c = concentration in mol L⁻¹. IUPAC इसे Beer–Lambert law के रूप में define करता है।"
+            },
+            {
+              "id": "uv012",
+              "title": "Absorbance और Transmittance Relation",
+              "tags": ["beer-lambert", "formula"],
+              "basic_overview": "Absorbance transmittance का logarithmic function है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Formula: A = −log10(T), जहाँ T = I/I₀. Percentage transmittance के लिए A = 2 − log10(%T). Example: %T = 10%, तो A = 2 − 1 = 1.000."
+            },
+            {
+              "id": "uv013",
+              "title": "Path Length का Effect",
+              "tags": ["beer-lambert", "numerical"],
+              "basic_overview": "Concentration और molar absorptivity constant होने पर absorbance path length के directly proportional होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 1 cm cell में A = 0.40 है। Same solution को 2 cm cell में measure करने पर ideal conditions में A = 0.80 होगा।"
+            },
+            {
+              "id": "uv014",
+              "title": "Concentration का Effect",
+              "tags": ["beer-lambert", "numerical"],
+              "basic_overview": "Fixed wavelength और path length पर absorbance concentration के proportional होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: c double होने पर ideal Beer-Lambert region में A भी double होगा। यदि A = 0.25 at 1 mM, तो 2 mM पर ideal A = 0.50."
+            },
+            {
+              "id": "uv015",
+              "title": "Molar Absorptivity ε",
+              "tags": ["formula", "concept"],
+              "basic_overview": "Molar absorptivity ε किसी species की particular wavelength पर absorbing strength को represent करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "From A = εbc: ε = A/(bc). Example: A = 0.600, b = 1 cm, c = 2.0 × 10⁻⁵ mol L⁻¹ → ε = 3.0 × 10⁴ L mol⁻¹ cm⁻¹."
+            },
+            {
+              "id": "uv016",
+              "title": "Beer-Lambert Numerical",
+              "tags": ["numerical", "gate", "psu"],
+              "basic_overview": "यदि ε, b और c दिए हों तो absorbance सीधे A = εbc से calculate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: ε = 1.5 × 10⁴ L mol⁻¹ cm⁻¹, b = 1 cm, c = 2 × 10⁻⁵ M. A = (1.5 × 10⁴)(1)(2 × 10⁻⁵) = 0.30."
+            },
+            {
+              "id": "uv017",
+              "title": "Concentration from Absorbance",
+              "tags": ["numerical", "quantitative"],
+              "basic_overview": "यदि absorbance, ε और path length known हों तो concentration c = A/(εb) से निकाली जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A = 0.75, ε = 2.5 × 10⁴ L mol⁻¹ cm⁻¹, b = 1 cm → c = 0.75/(2.5 × 10⁴) = 3.0 × 10⁻⁵ M."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "beer-lambert-deviations",
+      "title": "Deviations from Beer-Lambert Law",
+      "filters": [
+        { "label": "🔴 Deviations", "tag": "concept" },
+        { "label": "🟢 Causes", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "deviations",
+          "topic_title": "Positive and Negative Deviations",
+          "notes_list": [
+            {
+              "id": "uv018",
+              "title": "Real vs Ideal Beer-Lambert Behaviour",
+              "tags": ["deviation", "concept", "psu"],
+              "basic_overview": "Beer-Lambert law ideal conditions में linear A vs c relationship देता है। High concentration, chemical interactions, stray light और instrumental bandwidth जैसी conditions linearity को disturb कर सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Tip: Deviation को concentration effect, chemical effect और instrumental effect में classify करना useful है।"
+            },
+            {
+              "id": "uv019",
+              "title": "Chemical Deviation",
+              "tags": ["deviation", "chemical"],
+              "basic_overview": "Analyte का ionization, association, dissociation, complex formation या reaction concentration के साथ absorbing species को बदल सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: HA ⇌ H⁺ + A⁻. यदि HA और A⁻ की UV absorptivities अलग हैं तो pH change से observed absorbance बदल सकता है।"
+            },
+            {
+              "id": "uv020",
+              "title": "Instrumental Deviation",
+              "tags": ["deviation", "instrument"],
+              "basic_overview": "Polychromatic radiation, stray light, detector limitations और finite spectral bandwidth Beer-Lambert linearity को affect कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Important: Monochromatic radiation assumption ideal law के लिए महत्वपूर्ण है। IUPAC भी law की applicability में narrow spectral bandwidth की condition बताता है।"
+            },
+            {
+              "id": "uv021",
+              "title": "Stray Light का Effect",
+              "tags": ["stray-light", "instrument"],
+              "basic_overview": "Detector तक पहुँचने वाली unwanted radiation high absorbance region में measured absorbance को artificially कम कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Trick: High absorbance sample में stray light के कारण apparent absorbance expected value से lower हो सकती है।"
+            },
+            {
+              "id": "uv022",
+              "title": "High Concentration Deviation",
+              "tags": ["deviation", "concentration"],
+              "basic_overview": "बहुत high concentration में analyte-analyte interactions और refractive-index related effects ideal linear relationship को disturb कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Tip: Calibration curve में linear working range experimentally establish करें; केवल theoretical Beer-Lambert law पर complete range assume न करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "chromophore-auxochrome",
+      "title": "Chromophores, Auxochromes & Conjugation",
+      "filters": [
+        { "label": "🎨 Chromophore", "tag": "concept" },
+        { "label": "🔗 Conjugation", "tag": "concept" },
+        { "label": "🟢 Shifts", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "chromophore",
+          "topic_title": "Chromophore and Auxochrome",
+          "notes_list": [
+            {
+              "id": "uv023",
+              "title": "Chromophore क्या है?",
+              "tags": ["chromophore", "concept", "gate"],
+              "basic_overview": "Chromophore molecule का वह structural feature या group है जो characteristic electronic absorption से जुड़ा होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: C=C, C=O, N=N और aromatic π systems UV-visible absorption में important chromophoric units हो सकते हैं।"
+            },
+            {
+              "id": "uv024",
+              "title": "Auxochrome क्या है?",
+              "tags": ["auxochrome", "concept"],
+              "basic_overview": "Auxochrome historically ऐसे substituent/group के लिए प्रयुक्त term है जो chromophore की absorption position या intensity को modify करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: –OH, –OR, –NH₂ जैसे electron-donating groups conjugated systems की absorption properties को significantly modify कर सकते हैं। IUPAC Gold Book historical definition में auxochrome को bathochromic shift और/or hyperchromic effect से जोड़ता है।"
+            },
+            {
+              "id": "uv025",
+              "title": "Conjugation का Effect",
+              "tags": ["conjugation", "concept", "gate"],
+              "basic_overview": "Conjugation बढ़ने से π-electron system में energy gap generally कम होता है और absorption longer wavelength की ओर shift हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: isolated alkene की तुलना में conjugated diene longer wavelength पर absorb करता है। More conjugation → smaller ΔE → larger λ."
+            },
+            {
+              "id": "uv026",
+              "title": "Bathochromic Shift",
+              "tags": ["shift", "concept"],
+              "basic_overview": "Absorption maximum का longer wavelength की ओर shift bathochromic shift या red shift कहलाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: λmax 250 nm से 270 nm हो जाए तो 20 nm bathochromic shift है।"
+            },
+            {
+              "id": "uv027",
+              "title": "Hypsochromic Shift",
+              "tags": ["shift", "concept"],
+              "basic_overview": "Absorption maximum का shorter wavelength की ओर shift hypsochromic shift या blue shift कहलाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: λmax 300 nm से 280 nm हो जाए तो hypsochromic shift है।"
+            },
+            {
+              "id": "uv028",
+              "title": "Hyperchromic Effect",
+              "tags": ["intensity", "concept"],
+              "basic_overview": "Absorption band की intensity बढ़ने को hyperchromic effect कहते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि किसी band का ε 10,000 से 15,000 L mol⁻¹ cm⁻¹ हो जाए तो absorption intensity बढ़ी है।"
+            },
+            {
+              "id": "uv029",
+              "title": "Hypochromic Effect",
+              "tags": ["intensity", "concept"],
+              "basic_overview": "Absorption band की intensity घटने को hypochromic effect कहते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Bathochromic/hypsochromic = wavelength/position change. Hyperchromic/hypochromic = intensity change."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "solvent-effects",
+      "title": "Solvent Effects on UV Spectra",
+      "filters": [
+        { "label": "🧪 Solvent", "tag": "concept" },
+        { "label": "🔵 n→π*", "tag": "concept" },
+        { "label": "🟢 Exam Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "solvent-effect",
+          "topic_title": "Solvent Polarity and Spectral Shifts",
+          "notes_list": [
+            {
+              "id": "uv030",
+              "title": "Solvent Polarity का Effect",
+              "tags": ["solvent", "concept"],
+              "basic_overview": "Solvent polarity ground और excited states को differentially stabilize कर सकती है, जिससे transition energy और λmax बदल सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Tip: Solvent effect को blindly 'polar solvent always red shift' न मानें। Transition type और relative stabilization determine करता है कि shift किस direction में होगा।"
+            },
+            {
+              "id": "uv031",
+              "title": "π → π* Transition पर Solvent Effect",
+              "tags": ["solvent", "pi-pi"],
+              "basic_overview": "Polar solvent अक्सर π→π* transition के excited state को relatively अधिक stabilize कर सकता है, जिससे transition energy घट सकती है और bathochromic shift हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Concept: यदि excited state relative stabilization अधिक है → ΔE कम → λ बढ़ती है।"
+            },
+            {
+              "id": "uv032",
+              "title": "n → π* Transition पर Solvent Effect",
+              "tags": ["solvent", "n-pi"],
+              "basic_overview": "Polar protic solvents lone pair वाले ground state को strong hydrogen bonding द्वारा stabilize कर सकते हैं, जिससे n→π* transition की energy बढ़ सकती है और shorter wavelength shift देखा जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Classic exam concept: Carbonyl n→π* band polar protic solvent में often hypsochromically shift कर सकता है because the nonbonding ground state is strongly stabilized."
+            },
+            {
+              "id": "uv033",
+              "title": "Solvent Cut-off",
+              "tags": ["solvent", "instrument"],
+              "basic_overview": "हर solvent UV region में पूरी तरह transparent नहीं होता। Solvent का lower wavelength cut-off उसकी practical UV measurement range को limit करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Tip: Sample measurement से पहले selected solvent की UV transparency और instrument method range verify करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "instrumentation",
+      "title": "UV-Visible Instrumentation",
+      "filters": [
+        { "label": "🔧 Instrument", "tag": "instrument" },
+        { "label": "💡 Sources", "tag": "concept" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "instrumentation",
+          "topic_title": "Components of UV-Visible Spectrophotometer",
+          "notes_list": [
+            {
+              "id": "uv034",
+              "title": "Basic Instrument Block",
+              "tags": ["instrumentation", "concept", "psu"],
+              "basic_overview": "UV-Visible spectrophotometer में radiation source, wavelength selector/monochromator, sample holder, detector और signal-processing/display system प्रमुख components होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical path: Source → wavelength selector → sample → detector → signal processing/display."
+            },
+            {
+              "id": "uv035",
+              "title": "Deuterium Lamp",
+              "tags": ["source", "instrument"],
+              "basic_overview": "Deuterium discharge lamp UV region के लिए commonly used continuous source है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: UV source → Deuterium lamp. Visible region में commonly tungsten-halogen source used होता है।"
+            },
+            {
+              "id": "uv036",
+              "title": "Tungsten-Halogen Lamp",
+              "tags": ["source", "instrument"],
+              "basic_overview": "Tungsten-halogen source visible और near-infrared region में useful continuous radiation देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick Memory: D₂ → UV; W-halogen → Visible/NIR."
+            },
+            {
+              "id": "uv037",
+              "title": "Xenon Arc Source",
+              "tags": ["source", "instrument"],
+              "basic_overview": "Xenon arc lamps broad UV-visible spectral coverage के लिए instruments में use किए जा सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Some modern spectrophotometers use xenon flash/arc sources for broad wavelength coverage."
+            },
+            {
+              "id": "uv038",
+              "title": "Monochromator",
+              "tags": ["monochromator", "instrument"],
+              "basic_overview": "Monochromator source radiation से selected narrow wavelength band provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Main components can include entrance slit, dispersing element such as diffraction grating, and exit slit. Narrower slit generally improves spectral resolution but reduces light throughput."
+            },
+            {
+              "id": "uv039",
+              "title": "Diffraction Grating",
+              "tags": ["grating", "instrument"],
+              "basic_overview": "Diffraction grating wavelength dispersion के लिए widely used optical element है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: Grating different wavelengths को different diffraction angles पर disperse करता है, जिससे wavelength selection possible होती है।"
+            },
+            {
+              "id": "uv040",
+              "title": "Quartz Cell क्यों?",
+              "tags": ["cuvette", "instrument", "qc"],
+              "basic_overview": "Quartz UV radiation के लिए transparent होता है, इसलिए UV measurements में quartz cells commonly preferred होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: UV → quartz/fused silica cell. Ordinary glass/plastic cells कई deep-UV applications में suitable नहीं होते क्योंकि absorption बढ़ सकता है।"
+            },
+            {
+              "id": "uv041",
+              "title": "Glass Cell कब उपयोगी है?",
+              "tags": ["cuvette", "instrument"],
+              "basic_overview": "Glass cells visible region में useful हो सकते हैं लेकिन deep UV measurements में उनका absorption limitation बन सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: UV analysis → quartz; visible-only routine work → glass may be acceptable depending on wavelength and method."
+            },
+            {
+              "id": "uv042",
+              "title": "Photomultiplier Tube",
+              "tags": ["detector", "instrument"],
+              "basic_overview": "Photomultiplier tube बहुत low light levels को detect और amplify करने वाला sensitive detector है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Concept: Incident photons photocathode से photoelectrons generate करते हैं, dynode multiplication signal amplification प्रदान करता है।"
+            },
+            {
+              "id": "uv043",
+              "title": "Photodiode Detector",
+              "tags": ["detector", "instrument"],
+              "basic_overview": "Photodiode semiconductor detector है जो incident optical radiation को electrical signal में convert करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Photodiode array instruments में multiple wavelengths simultaneously measure करने की capability हो सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "single-double-beam",
+      "title": "Single Beam and Double Beam Instruments",
+      "filters": [
+        { "label": "🔬 Instrument Design", "tag": "instrument" },
+        { "label": "⚖️ Comparison", "tag": "comparison" }
+      ],
+      "topics": [
+        {
+          "topic_id": "beam-design",
+          "topic_title": "Single Beam vs Double Beam",
+          "notes_list": [
+            {
+              "id": "uv044",
+              "title": "Single Beam Spectrophotometer",
+              "tags": ["single-beam", "instrument"],
+              "basic_overview": "Single beam instrument में reference/blank और sample measurements sequentially किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Advantage: comparatively simple optical design. Limitation: source intensity drift और sequential measurement effects more relevant हो सकते हैं।"
+            },
+            {
+              "id": "uv045",
+              "title": "Double Beam Spectrophotometer",
+              "tags": ["double-beam", "instrument", "qc"],
+              "basic_overview": "Double-beam instruments reference और sample optical paths/signals को compare करके source fluctuations और baseline changes को compensate करने में मदद कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "QC Concept: Double-beam design baseline stability और drift compensation में advantageous हो सकता है।"
+            },
+            {
+              "id": "uv046",
+              "title": "Double Beam in Time vs Space",
+              "tags": ["double-beam", "instrument"],
+              "basic_overview": "कुछ double-beam instruments beam को time-wise alternate करते हैं, जबकि कुछ optical arrangement में sample और reference paths simultaneously अलग रख सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Tip: Double beam का core idea reference और sample signal comparison है; exact optical architecture instrument-specific हो सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "spectral-bands",
+      "title": "Absorption Bands & Spectral Terms",
+      "filters": [
+        { "label": "📈 Spectrum", "tag": "concept" },
+        { "label": "🟢 Terms", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "spectral-terms",
+          "topic_title": "Important UV Spectral Terms",
+          "notes_list": [
+            {
+              "id": "uv047",
+              "title": "Absorption Band",
+              "tags": ["spectrum", "concept"],
+              "basic_overview": "Spectrum में absorption intensity का wavelength-dependent region absorption band कहलाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "एक molecule में अलग-अलग electronic transitions अलग absorption bands produce कर सकते हैं।"
+            },
+            {
+              "id": "uv048",
+              "title": "λmax और εmax",
+              "tags": ["lambda-max", "formula"],
+              "basic_overview": "λmax maximum absorption wavelength है, जबकि उस wavelength पर molar absorptivity को εmax के रूप में discuss किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quantitative method development में λmax का selection sensitivity, selectivity और matrix interference के context में किया जाता है।"
+            },
+            {
+              "id": "uv049",
+              "title": "Band Intensity",
+              "tags": ["intensity", "concept"],
+              "basic_overview": "Absorption intensity transition probability, concentration, path length और molar absorptivity जैसे factors से प्रभावित होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Beer-Lambert region में concentration या path length बढ़ने से measured absorbance बढ़ती है, लेकिन intrinsic ε उस species और wavelength की property है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "aromatic-systems",
+      "title": "Aromatic Compounds & UV Spectra",
+      "filters": [
+        { "label": "⭕ Aromatic", "tag": "concept" },
+        { "label": "🔗 Conjugation", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "aromatic-uv",
+          "topic_title": "Aromatic and Conjugated Systems",
+          "notes_list": [
+            {
+              "id": "uv050",
+              "title": "Benzene UV Absorption",
+              "tags": ["benzene", "aromatic", "msc"],
+              "basic_overview": "Benzene में π electrons के कारण characteristic UV absorption bands होती हैं। Aromatic substitution और environment spectrum को modify कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Tip: Aromatic ring में substitution और conjugation pattern λmax तथा intensity को affect कर सकते हैं।"
+            },
+            {
+              "id": "uv051",
+              "title": "Substituted Aromatic Compounds",
+              "tags": ["aromatic", "substitution"],
+              "basic_overview": "Electron-donating और electron-withdrawing substituents aromatic π-system की electronic energy levels को बदल सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Aniline में –NH₂ lone pair aromatic ring के साथ conjugation में participate कर सकता है और benzene की तुलना में absorption properties बदल सकती हैं।"
+            },
+            {
+              "id": "uv052",
+              "title": "Extended Conjugation",
+              "tags": ["conjugation", "aromatic"],
+              "basic_overview": "Extended conjugated π-system में HOMO-LUMO gap generally smaller होता है, जिससे absorption longer wavelength region की ओर जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Polyenes generally increasing conjugation के साथ longer wavelength absorb करते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "carbonyl-spectroscopy",
+      "title": "Carbonyl Compounds in UV Spectroscopy",
+      "filters": [
+        { "label": "🧪 Carbonyl", "tag": "concept" },
+        { "label": "π→π*", "tag": "transition" },
+        { "label": "n→π*", "tag": "transition" }
+      ],
+      "topics": [
+        {
+          "topic_id": "carbonyl",
+          "topic_title": "Carbonyl Electronic Transitions",
+          "notes_list": [
+            {
+              "id": "uv053",
+              "title": "Carbonyl में π→π*",
+              "tags": ["carbonyl", "pi-pi", "concept"],
+              "basic_overview": "Carbonyl group में C=O π electrons से π→π* transition possible होता है और यह relatively higher-energy absorption दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Carbonyl π→π* band generally stronger होती है compared with n→π* band."
+            },
+            {
+              "id": "uv054",
+              "title": "Carbonyl में n→π*",
+              "tags": ["carbonyl", "n-pi", "concept"],
+              "basic_overview": "Carbonyl oxygen के lone pair से π* orbital में n→π* transition possible होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Carbonyl n→π* transition is typically lower-energy and weaker than π→π* transition."
+            },
+            {
+              "id": "uv055",
+              "title": "Conjugated Carbonyl",
+              "tags": ["carbonyl", "conjugation"],
+              "basic_overview": "Carbonyl group को adjacent C=C system के साथ conjugate करने पर electronic delocalization बढ़ता है और absorption longer wavelength की ओर shift हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: α,β-unsaturated carbonyl compounds saturated carbonyl compounds की तुलना में longer wavelength UV absorption दिखा सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "woodward-fieser",
+      "title": "Woodward-Fieser Rules",
+      "filters": [
+        { "label": "📐 Empirical Rules", "tag": "formula" },
+        { "label": "🔢 Calculation", "tag": "numerical" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "woodward-fieser",
+          "topic_title": "Woodward-Fieser Rules for Conjugated Systems",
+          "notes_list": [
+            {
+              "id": "uv056",
+              "title": "Woodward-Fieser Rules का Purpose",
+              "tags": ["woodward-fieser", "gate", "msc"],
+              "basic_overview": "Woodward-Fieser empirical rules conjugated dienes और α,β-unsaturated carbonyl systems के λmax का approximate prediction करने के लिए उपयोग की जाती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam Method: Base value + appropriate increments = predicted λmax. Exact base values system category और rule version पर depend करते हैं, इसलिए question में दिए table/data को प्राथमिकता दें।"
+            },
+            {
+              "id": "uv057",
+              "title": "Acyclic Diene Base Value",
+              "tags": ["woodward-fieser", "diene"],
+              "basic_overview": "Conjugated diene systems के λmax prediction में base value से शुरुआत की जाती है और substituent/ring-residue तथा extended-conjugation increments add किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Numerical में सबसे पहले chromophore category पहचानें, फिर base value और हर applicable increment count करें।"
+            },
+            {
+              "id": "uv058",
+              "title": "Homoannular vs Heteroannular Diene",
+              "tags": ["woodward-fieser", "diene"],
+              "basic_overview": "दो conjugated double bonds एक ही ring में हों तो homoannular diene और अलग-अलग rings में distributed हों तो heteroannular classification हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Ring structure देखकर पहले homoannular/heteroannular category तय करें; उसके बाद appropriate Woodward-Fieser base value use करें।"
+            },
+            {
+              "id": "uv059",
+              "title": "Exocyclic Double Bond",
+              "tags": ["woodward-fieser", "diene"],
+              "basic_overview": "यदि double bond किसी ring के बाहर की ओर exocyclic relationship में है तो Woodward-Fieser calculation में specific increment applicable हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Structure को carefully inspect करें; exocyclic double bond को miss करना common numerical error है।"
+            },
+            {
+              "id": "uv060",
+              "title": "Woodward-Fieser Numerical Strategy",
+              "tags": ["woodward-fieser", "numerical"],
+              "basic_overview": "Prediction में base value identify करें, फिर alkyl/ring residue, additional conjugated double bonds और applicable exocyclic contributions systematically add करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Best practice: Structure पर each increment को mark करके calculation करें। Final predicted λmax को unit nm में report करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "quantitative-uv",
+      "title": "Quantitative UV Analysis",
+      "filters": [
+        { "label": "📊 Quantitation", "tag": "quantitative" },
+        { "label": "📐 Calibration", "tag": "calibration" },
+        { "label": "🧪 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "quantitative-analysis",
+          "topic_title": "Quantitative Determination by UV",
+          "notes_list": [
+            {
+              "id": "uv061",
+              "title": "Direct UV Quantitation",
+              "tags": ["quantitative", "qc"],
+              "basic_overview": "यदि analyte की absorption और matrix interference controlled हो तो absorbance से concentration determine की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Formula: c = A/(εb). Example: A = 0.4, ε = 20,000 L mol⁻¹ cm⁻¹, b = 1 cm → c = 2 × 10⁻⁵ M."
+            },
+            {
+              "id": "uv062",
+              "title": "Calibration Curve Method",
+              "tags": ["calibration", "qc", "psu"],
+              "basic_overview": "Known standards की absorbance measure करके calibration curve बनाई जाती है और unknown sample की concentration curve से determine की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical model: A = mC + b. Unknown concentration = (Aunknown − intercept)/slope, provided sample calibration range और validated method conditions में हो।"
+            },
+            {
+              "id": "uv063",
+              "title": "Standard Addition Concept",
+              "tags": ["standard-addition", "qc"],
+              "basic_overview": "Matrix interference की स्थिति में known analyte standards को sample में spike करके response extrapolation से original concentration estimate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Complex pharmaceutical matrix में direct calibration biased हो सकती है; standard addition matrix effects को account करने में मदद कर सकती है।"
+            },
+            {
+              "id": "uv064",
+              "title": "Single-Point Calibration",
+              "tags": ["calibration", "qc"],
+              "basic_overview": "Known standard और unknown की absorbance compare करके concentration estimate की जा सकती है, यदि method validated linear response और identical conditions पर आधारित हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For same ε and path length: Cunknown = (Aunknown/Astandard) × Cstandard. यह relation केवल appropriate linear conditions में valid है।"
+            },
+            {
+              "id": "uv065",
+              "title": "Dilution Factor",
+              "tags": ["numerical", "qc"],
+              "basic_overview": "UV sample को dilution के बाद measure करने पर original sample concentration निकालने के लिए dilution factor apply करना पड़ता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 5 mL sample को 50 mL तक dilute किया गया → dilution factor = 10. यदि diluted concentration = 2 mg/L, original concentration = 20 mg/L."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "photometric-errors",
+      "title": "UV Photometric Errors & QC",
+      "filters": [
+        { "label": "🔴 Errors", "tag": "error" },
+        { "label": "🧪 Quality Control", "tag": "qc" },
+        { "label": "🟢 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "errors",
+          "topic_title": "Common UV Analytical Errors",
+          "notes_list": [
+            {
+              "id": "uv066",
+              "title": "Dirty Cuvette",
+              "tags": ["error", "qc"],
+              "basic_overview": "Cuvette पर fingerprints, dust या residue optical path को affect कर सकते हैं और erroneous absorbance दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Practice: Cuvette को optical faces पर touch न करें। Appropriate solvent से clean करें और lint-free tissue से carefully wipe करें।"
+            },
+            {
+              "id": "uv067",
+              "title": "Air Bubble Error",
+              "tags": ["error", "qc"],
+              "basic_overview": "Sample beam path में air bubbles effective optical path और scattering को disturb कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Troubleshooting: Cuvette inspect करें, gently tap करें और bubble-free sample ensure करें।"
+            },
+            {
+              "id": "uv068",
+              "title": "Wrong Blank",
+              "tags": ["blank", "error", "qc"],
+              "basic_overview": "Blank में solvent और all relevant matrix components होने चाहिए ताकि analyte-independent background contribution properly corrected हो सके।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: Sample prepared in methanol में blank के लिए water use करने से solvent background mismatch हो सकता है।"
+            },
+            {
+              "id": "uv069",
+              "title": "Sample Turbidity",
+              "tags": ["scattering", "error"],
+              "basic_overview": "Turbid या particulate sample absorption के साथ scattering भी produce कर सकता है, जिससे apparent absorbance बढ़ सकती है या spectrum distort हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC Tip: यदि method अनुमति देता है तो sample clarification/filtering या centrifugation करें और matrix handling procedure follow करें।"
+            },
+            {
+              "id": "uv070",
+              "title": "Instrument Baseline Drift",
+              "tags": ["drift", "instrument", "qc"],
+              "basic_overview": "Source intensity changes, temperature effects और instrument instability baseline drift को cause कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Troubleshooting: Instrument warm-up, baseline correction, lamp condition और wavelength/photometric performance checks verify करें।"
+            },
+            {
+              "id": "uv071",
+              "title": "Stray Light Diagnosis",
+              "tags": ["stray-light", "qc"],
+              "basic_overview": "High absorbance region में unexpected flattening या nonlinearity stray light contribution का संकेत हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "QC: High-absorbance standards और instrument performance verification procedures से photometric range evaluate किया जा सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "wavelength-selection",
+      "title": "Wavelength Selection & Method Development",
+      "filters": [
+        { "label": "🎯 λmax", "tag": "concept" },
+        { "label": "🧪 Method Development", "tag": "qc" },
+        { "label": "🟢 Strategy", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "wavelength-selection",
+          "topic_title": "Selecting Analytical Wavelength",
+          "notes_list": [
+            {
+              "id": "uv072",
+              "title": "λmax पर Measurement क्यों?",
+              "tags": ["lambda-max", "method-development"],
+              "basic_overview": "λmax पर analyte का absorbance maximum होता है, इसलिए small wavelength errors का relative effect अक्सर lower हो सकता है और sensitivity high हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "लेकिन method development में केवल highest absorbance पर्याप्त criterion नहीं है; specificity, matrix interference और stability भी consider किए जाते हैं।"
+            },
+            {
+              "id": "uv073",
+              "title": "Interference Check",
+              "tags": ["method-development", "qc"],
+              "basic_overview": "यदि matrix या excipient उसी wavelength पर absorb करता है तो direct UV quantitation biased हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Analyte और impurity दोनों 254 nm पर absorb करते हैं तो केवल 254 nm measurement selective नहीं हो सकती।"
+            },
+            {
+              "id": "uv074",
+              "title": "Spectrum Overlay",
+              "tags": ["method-development", "qc"],
+              "basic_overview": "Analyte, blank, placebo/matrix और sample spectra को overlay करके interference और wavelength selection evaluate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "QC Strategy: पहले full spectral scan करें, फिर analytical wavelength choose करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "photometric-performance",
+      "title": "Instrument Performance & Calibration",
+      "filters": [
+        { "label": "🔧 Performance", "tag": "instrument" },
+        { "label": "🧪 QC", "tag": "qc" },
+        { "label": "📏 Calibration", "tag": "calibration" }
+      ],
+      "topics": [
+        {
+          "topic_id": "performance",
+          "topic_title": "UV Instrument Qualification Concepts",
+          "notes_list": [
+            {
+              "id": "uv075",
+              "title": "Wavelength Accuracy",
+              "tags": ["calibration", "qc"],
+              "basic_overview": "Wavelength accuracy यह बताती है कि instrument reported wavelength actual/reference wavelength के कितने close है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC Example: Certified wavelength standards/reference materials से wavelength accuracy verify की जा सकती है।"
+            },
+            {
+              "id": "uv076",
+              "title": "Photometric Accuracy",
+              "tags": ["photometric", "qc"],
+              "basic_overview": "Photometric accuracy measured absorbance/transmittance और accepted reference value के agreement को evaluate करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Certified optical filters/reference solutions का उपयोग photometric performance verification में किया जा सकता है।"
+            },
+            {
+              "id": "uv077",
+              "title": "Resolution",
+              "tags": ["resolution", "instrument"],
+              "basic_overview": "Spectral resolution closely spaced spectral features को distinguish करने की ability है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Concept: Narrower spectral bandwidth/resolution can improve separation of nearby bands but may reduce transmitted light and signal-to-noise."
+            },
+            {
+              "id": "uv078",
+              "title": "Photometric Linearity",
+              "tags": ["linearity", "qc"],
+              "basic_overview": "Photometric linearity में measured response expected absorbance/transmittance range के साथ acceptable linear relationship maintain करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "QC Tip: Multiple concentration levels across the intended working range evaluate करें, not just one standard."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "uv-visible-colour",
+      "title": "Visible Absorption & Colour",
+      "filters": [
+        { "label": "🌈 Colour", "tag": "concept" },
+        { "label": "🔵 Visible", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "colour",
+          "topic_title": "Absorbed and Observed Colour",
+          "notes_list": [
+            {
+              "id": "uv079",
+              "title": "Complementary Colour Concept",
+              "tags": ["visible", "colour"],
+              "basic_overview": "किसी compound द्वारा visible region की particular wavelengths absorb होने पर transmitted/reflected light का complementary colour दिखाई दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: यदि compound red region को preferentially absorb करता है, तो observed colour complementary region की ओर shift कर सकता है।"
+            },
+            {
+              "id": "uv080",
+              "title": "Conjugation और Colour",
+              "tags": ["colour", "conjugation"],
+              "basic_overview": "Extended conjugation absorption को visible region की ओर move कर सकती है, जिससे compound coloured दिखाई दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Concept: Greater conjugation → lower electronic transition energy → longer wavelength absorption → visible colour may appear."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "fluorescence-comparison",
+      "title": "UV Absorption vs Fluorescence",
+      "filters": [
+        { "label": "🔬 Comparison", "tag": "comparison" },
+        { "label": "💡 Concept", "tag": "concept" }
+      ],
+      "topics": [
+        {
+          "topic_id": "absorption-fluorescence",
+          "topic_title": "Absorption and Emission Difference",
+          "notes_list": [
+            {
+              "id": "uv081",
+              "title": "Absorption Spectroscopy",
+              "tags": ["absorption", "concept"],
+              "basic_overview": "Absorption spectroscopy में incident radiation की intensity before and after sample interaction compare की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "UV-Vis measures how much radiation is absorbed at selected wavelengths."
+            },
+            {
+              "id": "uv082",
+              "title": "Fluorescence Spectroscopy",
+              "tags": ["fluorescence", "comparison"],
+              "basic_overview": "Fluorescence spectroscopy में molecule द्वारा excitation के बाद emitted radiation का measurement किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: UV-Vis = absorption; fluorescence = emission. दोनों में molecular electronic states involved हो सकते हैं लेकिन measured signal अलग है।"
+            },
+            {
+              "id": "uv083",
+              "title": "Why Fluorescence Can Be More Sensitive",
+              "tags": ["fluorescence", "sensitivity"],
+              "basic_overview": "Fluorescence में emitted signal को background excitation beam से spatially अलग geometry में detect किया जा सकता है, जिससे कुछ applications में very high sensitivity possible होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "यह universal rule नहीं है; sensitivity analyte, quantum yield, matrix और instrument configuration पर depend करती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "qc-applications",
+      "title": "UV Spectroscopy in Quality Control",
+      "filters": [
+        { "label": "🧪 Pharmaceutical QC", "tag": "qc" },
+        { "label": "🏭 Industrial QC", "tag": "industrial" },
+        { "label": "📊 Quantitation", "tag": "quantitative" }
+      ],
+      "topics": [
+        {
+          "topic_id": "qc-applications",
+          "topic_title": "Quality Control Applications",
+          "notes_list": [
+            {
+              "id": "uv084",
+              "title": "Assay Determination",
+              "tags": ["qc", "assay"],
+              "basic_overview": "UV-Visible spectroscopy suitable analytes के quantitative assay में उपयोग की जा सकती है, provided specificity and linearity requirements are satisfied।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A UV-absorbing pharmaceutical API के standard और sample absorbance compare करके assay estimate किया जा सकता है।"
+            },
+            {
+              "id": "uv085",
+              "title": "Dissolution Analysis",
+              "tags": ["qc", "dissolution"],
+              "basic_overview": "UV detection कुछ dissolution methods में dissolved analyte concentration monitor करने के लिए उपयोग हो सकती है यदि analyte और matrix sufficiently selective हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "QC Requirement: Dissolution medium का background और other components का interference evaluate करना जरूरी है।"
+            },
+            {
+              "id": "uv086",
+              "title": "Impurity Monitoring",
+              "tags": ["qc", "impurity"],
+              "basic_overview": "UV spectra impurity investigation में useful हो सकते हैं, लेकिन केवल UV absorbance से structurally similar impurities को हमेशा selectively quantify नहीं किया जा सकता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam/Job Tip: यदि analyte और impurity same wavelength पर absorb करते हैं, chromatographic separation या multi-wavelength/data-analysis approach की आवश्यकता हो सकती है।"
+            },
+            {
+              "id": "uv087",
+              "title": "Reaction Monitoring",
+              "tags": ["qc", "kinetics"],
+              "basic_overview": "यदि reactant या product UV absorbing है तो absorbance change के माध्यम से reaction progress monitor किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Reactant absorbs strongly at 300 nm जबकि product नहीं; reaction progress में A300 decrease हो सकता है।"
+            },
+            {
+              "id": "uv088",
+              "title": "Purity Check by Spectral Profile",
+              "tags": ["qc", "purity"],
+              "basic_overview": "UV spectral shape, λmax और additional bands sample identity/purity assessment में supportive information दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important: UV spectrum alone generally complete structural identification का substitute नहीं है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "kinetics-uv",
+      "title": "Reaction Kinetics by UV-Visible",
+      "filters": [
+        { "label": "⏱️ Kinetics", "tag": "concept" },
+        { "label": "📈 Graph", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "uv-kinetics",
+          "topic_title": "Monitoring Reaction Rate",
+          "notes_list": [
+            {
+              "id": "uv089",
+              "title": "Absorbance-Time Plot",
+              "tags": ["kinetics", "graph"],
+              "basic_overview": "यदि absorbance reacting species की concentration के proportional है तो absorbance vs time data reaction kinetics analysis में use किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Product formation के साथ A बढ़ रहा है तो A vs time curve product formation monitoring के लिए useful हो सकती है।"
+            },
+            {
+              "id": "uv090",
+              "title": "Pseudo-First-Order Monitoring",
+              "tags": ["kinetics", "gate"],
+              "basic_overview": "Appropriate conditions में UV absorbance data से concentration-time relationship derive करके kinetic order evaluate किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Beer-Lambert law concentration और absorbance को relate करता है; इसलिए A को concentration proxy की तरह use किया जा सकता है जब baseline/background controlled हो।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "multi-component-analysis",
+      "title": "Multicomponent UV Analysis",
+      "filters": [
+        { "label": "🧮 Simultaneous Equations", "tag": "numerical" },
+        { "label": "📊 Quantitation", "tag": "quantitative" }
+      ],
+      "topics": [
+        {
+          "topic_id": "multicomponent",
+          "topic_title": "Simultaneous Determination",
+          "notes_list": [
+            {
+              "id": "uv091",
+              "title": "Two-Component Analysis",
+              "tags": ["multicomponent", "numerical"],
+              "basic_overview": "यदि दो analytes different wavelengths पर different absorptivities रखते हैं और Beer-Lambert conditions satisfy होती हैं, तो simultaneous equations से दोनों concentrations determine की जा सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Equations: A1 = εA1bcA + εB1bcB; A2 = εA2bcA + εB2bcB. Two independent equations से CA और CB solve किए जा सकते हैं।"
+            },
+            {
+              "id": "uv092",
+              "title": "Isosbestic Point",
+              "tags": ["multicomponent", "concept"],
+              "basic_overview": "दो interconverting species के spectra एक wavelength पर समान absorbance दिखा सकते हैं; इस wavelength को isosbestic point कहा जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: HA ⇌ A⁻ system में यदि दोनों spectra एक common wavelength पर intersect करें तो वह isosbestic point हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "uv-reflectance",
+      "title": "Special UV-Visible Concepts",
+      "filters": [
+        { "label": "🔬 Advanced", "tag": "advanced" },
+        { "label": "🎓 M.Sc.", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "advanced-uv",
+          "topic_title": "Advanced Spectroscopic Concepts",
+          "notes_list": [
+            {
+              "id": "uv093",
+              "title": "Singlet-Singlet Absorption",
+              "tags": ["advanced", "msc"],
+              "basic_overview": "UV-visible molecular absorption commonly involves transition from a singlet ground state to an excited singlet state for spin-allowed singlet-singlet absorption.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: S0 → S1 electronic absorption is a common representation. IUPAC defines singlet-singlet absorption as transition from singlet ground state into singlet excited states leading to UV/visible absorption spectrum."
+            },
+            {
+              "id": "uv094",
+              "title": "Franck-Condon Principle",
+              "tags": ["advanced", "msc"],
+              "basic_overview": "Electronic transitions बहुत तेजी से occur करते हैं compared with nuclear motion, इसलिए absorption transition में nuclei की positions approximately unchanged मानी जाती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: Electronic transition vertical transition के रूप में potential energy diagram पर represent किया जा सकता है।"
+            },
+            {
+              "id": "uv095",
+              "title": "HOMO-LUMO Gap",
+              "tags": ["advanced", "concept"],
+              "basic_overview": "Many organic UV-visible absorptions को highest occupied molecular orbital और lowest unoccupied molecular orbital के energy difference से qualitatively समझा जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Relationship: Smaller HOMO-LUMO gap → lower transition energy → longer absorption wavelength. Conjugation commonly lowers the gap."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "entrance-exam",
+      "title": "M.Sc. Entrance & GATE Exam Strategy",
+      "filters": [
+        { "label": "🎓 M.Sc. Entrance", "tag": "msc" },
+        { "label": "🧠 GATE Chemistry", "tag": "gate" },
+        { "label": "🎯 PSU", "tag": "psu" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "entrance-strategy",
+          "topic_title": "High-Yield UV Concepts",
+          "notes_list": [
+            {
+              "id": "uv096",
+              "title": "Most Important Transition Order",
+              "tags": ["gate", "msc", "revision"],
+              "basic_overview": "Electronic transition energy order और corresponding wavelength relationship UV spectroscopy के सबसे frequently tested concepts में से हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: σ→σ* > n→σ* > π→π* > n→π*. Energy ↑ means wavelength ↓."
+            },
+            {
+              "id": "uv097",
+              "title": "Beer-Lambert Must-Know Formula",
+              "tags": ["gate", "psu", "formula"],
+              "basic_overview": "Quantitative UV questions के लिए A = εbc, A = −log T और A = 2 − log(%T) core formulas हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Numerical Trap: %T को T समझकर direct logarithm न लें। यदि %T = 1%, A = 2 − log(1) = 2."
+            },
+            {
+              "id": "uv098",
+              "title": "Shift Terminology",
+              "tags": ["gate", "msc", "trick"],
+              "basic_overview": "Bathochromic = longer wavelength, hypsochromic = shorter wavelength, hyperchromic = higher intensity, hypochromic = lower intensity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: BATHO = blue? नहीं—Bathochromic को 'red/longer wavelength' से याद रखें। HYPso = higher energy/shorter wavelength. Hyper = intensity higher."
+            },
+            {
+              "id": "uv099",
+              "title": "Instrument Memory Trick",
+              "tags": ["gate", "psu", "instrument"],
+              "basic_overview": "UV-Visible instrumentation questions में source, monochromator, cuvette और detector पहचानना महत्वपूर्ण है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick Memory: UV source → D₂; Visible source → tungsten-halogen; UV cell → quartz/fused silica; detector → PMT/photodiode/PDA depending on instrument."
+            },
+            {
+              "id": "uv100",
+              "title": "QC Troubleshooting Checklist",
+              "tags": ["psu", "qc", "job"],
+              "basic_overview": "QC interview और job-based questions में abnormal absorbance को troubleshoot करने के लिए blank, cuvette, bubbles, dilution, wavelength, solvent, sample turbidity और instrument performance check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Practical Sequence: 1) Blank verify → 2) Cuvette clean/check orientation → 3) Sample dilution → 4) Bubble/turbidity check → 5) Wavelength verify → 6) Standard response check → 7) Instrument performance investigate."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "psu-job-interview",
+      "title": "PSU & Quality Control Chemist Job-Oriented UV Questions",
+      "filters": [
+        { "label": "🏭 PSU", "tag": "psu" },
+        { "label": "🧪 QC Chemist", "tag": "qc" },
+        { "label": "💼 Interview", "tag": "job" }
+      ],
+      "topics": [
+        {
+          "topic_id": "job-questions",
+          "topic_title": "Practical UV Spectroscopy Questions",
+          "notes_list": [
+            {
+              "id": "uv101",
+              "title": "Why Blank is Required?",
+              "tags": ["job", "qc"],
+              "basic_overview": "Blank sample/solvent/matrix के background absorbance को account करने के लिए used होता है ताकि analyte response अधिक accurately determine हो सके।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Interview Example: यदि analyte methanol में dissolved है तो appropriate blank में same solvent होना चाहिए।"
+            },
+            {
+              "id": "uv102",
+              "title": "Why Sample is Diluted?",
+              "tags": ["job", "qc"],
+              "basic_overview": "Sample को ऐसी concentration range में dilute किया जा सकता है जहाँ photometric response reliable और calibration/Beer-Lambert linear range के भीतर हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि concentrated sample A = 3.0 देता है और validated working range lower absorbance पर है, sample dilute करके repeat किया जाता है और dilution factor apply किया जाता है।"
+            },
+            {
+              "id": "uv103",
+              "title": "What if Absorbance is Too High?",
+              "tags": ["job", "qc", "troubleshooting"],
+              "basic_overview": "Very high absorbance पर stray light और photometric nonlinearity जैसी problems relevant हो सकती हैं। Sample को appropriate validated range में dilute करना common response है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Interview Answer: पहले method range और instrument specification check करें; फिर dilution और repeat measurement करें।"
+            },
+            {
+              "id": "uv104",
+              "title": "Why Quartz Cuvette?",
+              "tags": ["job", "instrument"],
+              "basic_overview": "Quartz/fused silica UV wavelengths में high transmission provide करता है, इसलिए UV measurements के लिए preferred है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "One-line answer: Glass absorbs significantly in parts of the UV region, whereas quartz is suitable for UV transmission."
+            },
+            {
+              "id": "uv105",
+              "title": "What Causes Baseline Noise?",
+              "tags": ["job", "troubleshooting"],
+              "basic_overview": "Baseline instability/noise source fluctuations, environmental effects, optical contamination, detector electronics, bubbles, unstable samples या instrument conditions से arise हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Troubleshooting: Warm-up, blank scan, cuvette cleanliness, lamp status, wavelength scan, sample preparation और instrument diagnostics check करें।"
+            },
+            {
+              "id": "uv106",
+              "title": "UV vs HPLC-UV",
+              "tags": ["job", "qc", "hplc"],
+              "basic_overview": "Direct UV spectroscopy sample absorbance measure करती है, जबकि HPLC-UV chromatographic separation के बाद UV detection provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC Concept: HPLC-UV में separation specificity improve कर सकती है क्योंकि different components chromatographically separated होकर detector तक पहुँचते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "numerical-practice",
+      "title": "UV Spectroscopy Numerical Practice",
+      "filters": [
+        { "label": "🔢 Numericals", "tag": "numerical" },
+        { "label": "🎯 GATE", "tag": "gate" },
+        { "label": "🎓 Entrance", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "numerical-set",
+          "topic_title": "High-Yield Numerical Patterns",
+          "notes_list": [
+            {
+              "id": "uv107",
+              "title": "Numerical: Transmittance to Absorbance",
+              "tags": ["numerical", "gate"],
+              "basic_overview": "Given %T से absorbance calculate करना UV spectroscopy का standard numerical pattern है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: %T = 25%. A = 2 − log10(25) = 2 − 1.39794 = 0.60206."
+            },
+            {
+              "id": "uv108",
+              "title": "Numerical: Absorbance to %T",
+              "tags": ["numerical", "gate"],
+              "basic_overview": "Absorbance से percentage transmittance निकाली जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Formula: %T = 100 × 10^(−A). Example: A = 0.301 → T ≈ 0.5 → %T ≈ 50%."
+            },
+            {
+              "id": "uv109",
+              "title": "Numerical: Molar Absorptivity",
+              "tags": ["numerical", "psu"],
+              "basic_overview": "Absorbance, path length और concentration दिए होने पर ε calculate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A = 0.45, b = 1 cm, c = 1.5 × 10⁻⁵ M → ε = 0.45/(1 × 1.5 × 10⁻⁵) = 3.0 × 10⁴ L mol⁻¹ cm⁻¹."
+            },
+            {
+              "id": "uv110",
+              "title": "Numerical: Unknown Concentration",
+              "tags": ["numerical", "gate", "msc"],
+              "basic_overview": "Unknown concentration c = A/(εb) relation से determine करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: A = 0.24, ε = 1.2 × 10⁴ L mol⁻¹ cm⁻¹, b = 1 cm → c = 2.0 × 10⁻⁵ M."
+            },
+            {
+              "id": "uv111",
+              "title": "Numerical: Dilution",
+              "tags": ["numerical", "qc"],
+              "basic_overview": "Dilution के बाद measured concentration को original concentration में convert करने के लिए dilution factor apply करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 2 mL stock को 100 mL तक dilute किया → dilution factor = 50. Measured concentration 0.4 mg/L → original = 20 mg/L."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "quick-revision",
+      "title": "UV Spectroscopy Quick Revision",
+      "filters": [
+        { "label": "⚡ One-Liners", "tag": "revision" },
+        { "label": "🎯 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "quick-revision",
+          "topic_title": "One-Minute UV Revision",
+          "notes_list": [
+            {
+              "id": "uv112",
+              "title": "UV-Vis Core Formula Sheet",
+              "tags": ["revision", "formula"],
+              "basic_overview": "UV spectroscopy के numerical questions के लिए core equations याद रखना आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A = εbc; A = −log T; T = I/I₀; %T = 100T; A = 2 − log(%T); ΔE = hc/λ."
+            },
+            {
+              "id": "uv113",
+              "title": "Four Spectral Shift Terms",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Bathochromic/hypsochromic wavelength position से और hyperchromic/hypochromic intensity से related terms हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Longer λ → Bathochromic. Shorter λ → Hypsochromic. Higher intensity → Hyperchromic. Lower intensity → Hypochromic."
+            },
+            {
+              "id": "uv114",
+              "title": "Four Major Electronic Transitions",
+              "tags": ["revision", "transition"],
+              "basic_overview": "σ→σ*, n→σ*, π→π* और n→π* UV spectroscopy के fundamental electronic transitions हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Energy order: σ→σ* > n→σ* > π→π* > n→π*. Approximate wavelength order is reverse."
+            },
+            {
+              "id": "uv115",
+              "title": "UV Instrument Memory",
+              "tags": ["revision", "instrument"],
+              "basic_overview": "Instrument questions में source, wavelength selector, sample cell और detector को पहचानना सबसे महत्वपूर्ण है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "UV source = deuterium; visible source = tungsten-halogen; UV cell = quartz/fused silica; wavelength selection = monochromator/grating; detector = PMT/photodiode/PDA."
+            },
+            {
+              "id": "uv116",
+              "title": "Most Important QC Checks",
+              "tags": ["revision", "qc", "job"],
+              "basic_overview": "Practical QC UV analysis में blank, wavelength, cuvette, dilution, linearity, sample clarity और instrument performance महत्वपूर्ण checks हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Hall Sequence: Blank → λ → Cell → Sample → Absorbance range → Calibration → Repeat/Verify."
+            },
+            {
+              "id": "uv117",
+              "title": "High-Yield Exam Trap",
+              "tags": ["revision", "trick", "gate", "psu"],
+              "basic_overview": "Bathochromic/hypsochromic को intensity effects के साथ confuse न करें और Beer-Lambert numerical में units carefully handle करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Trap: Bathochromic = λ increase; Hypsochromic = λ decrease. Hyperchromic = intensity increase; Hypochromic = intensity decrease."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

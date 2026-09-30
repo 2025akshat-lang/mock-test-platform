@@ -1,0 +1,2035 @@
+{
+  "chapter_title": "Gas Chromatography–Mass Spectrometry (GC-MS): Theory, Instrumentation, Mass Spectrometry, Interpretation, Quantification & Troubleshooting",
+  "sections": [
+    {
+      "id": "gcms-fundamentals",
+      "title": "GC-MS Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🧪 GC", "tag": "gc" },
+        { "label": "⚛️ MS", "tag": "ms" },
+        { "label": "🎓 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gcms-basic-principle",
+          "topic_title": "Basic Principle of GC-MS",
+          "notes_list": [
+            {
+              "id": "gcms001",
+              "title": "GC-MS क्या है?",
+              "tags": ["basics", "concept", "gc", "ms"],
+              "basic_overview": "GC-MS एक hyphenated analytical technique है जिसमें Gas Chromatography volatile compounds को अलग करती है और Mass Spectrometry separated components को mass-to-charge ratio तथा fragmentation pattern के आधार पर detect और identify करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "GC separation देता है, जबकि MS molecular/structural information देता है। इसलिए GC-MS complex volatile और semi-volatile mixtures के identification तथा quantification के लिए अत्यंत powerful है।"
+            },
+            {
+              "id": "gcms002",
+              "title": "GC और MS का Combination क्यों Powerful है?",
+              "tags": ["concept", "hyphenated-technique"],
+              "basic_overview": "GC mixture के components को retention time के आधार पर separate करती है, जबकि MS प्रत्येक eluting component का characteristic mass spectrum provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Identification को retention time + mass spectrum + library matching + authentic standard comparison से strengthen किया जा सकता है।"
+            },
+            {
+              "id": "gcms003",
+              "title": "GC-MS किन Compounds के लिए Suitable है?",
+              "tags": ["applications", "gc"],
+              "basic_overview": "GC-MS उन compounds के लिए सबसे suitable है जो sufficiently volatile, thermally stable और GC conditions में vaporize हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Highly polar, ionic, thermally unstable या very high molecular-weight compounds को direct GC-MS में analyze करना difficult हो सकता है। Derivatization कुछ cases में volatility और thermal stability improve कर सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gc-principle",
+      "title": "Gas Chromatography Principle",
+      "filters": [
+        { "label": "🧪 GC Theory", "tag": "gc" },
+        { "label": "📊 Separation", "tag": "separation" },
+        { "label": "🎯 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gc-separation",
+          "topic_title": "GC Separation Mechanism",
+          "notes_list": [
+            {
+              "id": "gcms004",
+              "title": "GC Separation कैसे होती है?",
+              "tags": ["gc", "separation"],
+              "basic_overview": "GC में vaporized analytes carrier gas के साथ column से pass होते हैं। Different analytes stationary phase के साथ अलग interaction और अलग volatility के कारण अलग retention times पर elute होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Retention mainly volatility/boiling behaviour और stationary-phase interaction से influenced होती है।"
+            },
+            {
+              "id": "gcms005",
+              "title": "Carrier Gas का Role",
+              "tags": ["carrier-gas", "gc"],
+              "basic_overview": "Carrier gas analyte molecules को column के through transport करता है और chromatographic separation के लिए mobile phase की तरह कार्य करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common carrier gases: helium, hydrogen और nitrogen. Selection depends on efficiency, safety, availability, detector compatibility और instrument configuration."
+            },
+            {
+              "id": "gcms006",
+              "title": "GC में Volatility का महत्व",
+              "tags": ["volatility", "gc"],
+              "basic_overview": "More volatile compounds generally lower boiling behaviour के कारण earlier elute कर सकते हैं, लेकिन stationary-phase interactions भी retention को significantly affect करती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam trap: GC retention order केवल boiling point देखकर हमेशा predict नहीं किया जा सकता; polarity/stationary-phase interaction भी consider करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gc-instrumentation",
+      "title": "GC Instrumentation",
+      "filters": [
+        { "label": "⚙️ Instrument", "tag": "instrumentation" },
+        { "label": "🧪 Hardware", "tag": "hardware" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gc-flow-path",
+          "topic_title": "GC Flow Path",
+          "notes_list": [
+            {
+              "id": "gcms007",
+              "title": "GC Complete Flow Path",
+              "tags": ["flow-path", "instrumentation"],
+              "basic_overview": "Typical GC flow path: carrier gas supply → pressure/flow control → injector → capillary column → oven → detector or MS interface → MS source.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "GC-MS में column effluent detector की जगह transfer line के through MS ion source तक जाता है।"
+            },
+            {
+              "id": "gcms008",
+              "title": "Carrier Gas Supply",
+              "tags": ["carrier-gas", "gas-supply"],
+              "basic_overview": "High-purity carrier gas cylinder या generator से supply होकर pressure regulation और electronic pneumatic control के through GC system में जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Gas purity critical है क्योंकि oxygen/water/contaminants column degradation, baseline problems और MS contamination cause कर सकते हैं।"
+            },
+            {
+              "id": "gcms009",
+              "title": "Electronic Pneumatic Control",
+              "tags": ["epc", "pneumatics"],
+              "basic_overview": "EPC pressure और flow को electronically regulate करता है ताकि carrier gas delivery reproducible रहे।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Pressure-controlled और flow-controlled modes instrument और method architecture के अनुसार available हो सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gc-inlet",
+      "title": "GC Injection System",
+      "filters": [
+        { "label": "💉 Injection", "tag": "injection" },
+        { "label": "⚙️ Inlet", "tag": "inlet" },
+        { "label": "🔧 Debugging", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "inlet-types",
+          "topic_title": "Injection Modes",
+          "notes_list": [
+            {
+              "id": "gcms010",
+              "title": "Split Injection",
+              "tags": ["split", "inlet"],
+              "basic_overview": "Split injection में injected sample का केवल controlled fraction column में जाता है और बाकी split vent के through बाहर निकलता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Useful for relatively concentrated samples. Split ratio determines approximately how much sample enters the column under the defined inlet conditions."
+            },
+            {
+              "id": "gcms011",
+              "title": "Splitless Injection",
+              "tags": ["splitless", "inlet"],
+              "basic_overview": "Splitless mode में initial period के दौरान अधिकांश injected analyte column की ओर directed किया जाता है, जिससे trace analysis में sensitivity improve हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Splitless injection में inlet temperature, purge timing, liner और initial oven temperature critical parameters हैं।"
+            },
+            {
+              "id": "gcms012",
+              "title": "On-Column Injection",
+              "tags": ["on-column", "advanced"],
+              "basic_overview": "On-column injection में sample directly column के inlet region में introduce किया जाता है और thermal discrimination कम हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Useful for thermally labile analytes in suitable applications, but requires specialized hardware and careful sample handling."
+            },
+            {
+              "id": "gcms013",
+              "title": "PTV Inlet",
+              "tags": ["ptv", "inlet", "advanced"],
+              "basic_overview": "Programmable Temperature Vaporization inlet temperature को programmed तरीके से control करके injection और vaporization conditions optimize करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "PTV can support large-volume injection, solvent venting and reduced thermal discrimination in appropriate methods."
+            }
+          ]
+        },
+        {
+          "topic_id": "inlet-components",
+          "topic_title": "GC Inlet Components",
+          "notes_list": [
+            {
+              "id": "gcms014",
+              "title": "Inlet Liner",
+              "tags": ["liner", "inlet"],
+              "basic_overview": "Liner sample vaporization और mixing environment provide करता है तथा inlet में sample transfer को influence करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Dirty or inappropriate liner can cause adsorption, discrimination, ghost peaks, poor reproducibility and peak-shape problems."
+            },
+            {
+              "id": "gcms015",
+              "title": "Septum",
+              "tags": ["septum", "inlet"],
+              "basic_overview": "Septum syringe needle को inlet में enter करने देता है और carrier-gas leakage को minimize करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Septum degradation can generate bleed, leaks and contamination. Septum should be replaced according to method/instrument condition."
+            },
+            {
+              "id": "gcms016",
+              "title": "Septum Bleed",
+              "tags": ["septum-bleed", "troubleshooting"],
+              "basic_overview": "High inlet temperature पर septum material degrade होकर background compounds generate कर सकता है जो chromatogram और mass spectrum में दिखाई दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "If background increases at characteristic higher-mass siloxane-related regions, consumable contamination should be considered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gc-column",
+      "title": "GC Columns & Stationary Phases",
+      "filters": [
+        { "label": "🧪 Column", "tag": "column" },
+        { "label": "⚗️ Stationary Phase", "tag": "stationary-phase" },
+        { "label": "🎯 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "capillary-columns",
+          "topic_title": "Capillary GC Columns",
+          "notes_list": [
+            {
+              "id": "gcms017",
+              "title": "Capillary Column",
+              "tags": ["capillary-column", "gc"],
+              "basic_overview": "Capillary GC column एक narrow-bore open-tubular column होती है जिसमें stationary phase inner wall पर coated होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important parameters: length, internal diameter, film thickness और stationary-phase chemistry."
+            },
+            {
+              "id": "gcms018",
+              "title": "Column Length",
+              "tags": ["column", "length"],
+              "basic_overview": "Longer columns generally greater separation potential दे सकती हैं लेकिन analysis time और pressure requirements increase हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical analytical capillary columns can be tens of metres long; exact choice depends on method requirements."
+            },
+            {
+              "id": "gcms019",
+              "title": "Column Internal Diameter",
+              "tags": ["column", "diameter"],
+              "basic_overview": "Smaller internal diameter columns often provide higher efficiency and lower sample capacity, while larger ID columns can handle greater loading in suitable applications.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Column ID affects efficiency, carrier-gas flow, sample capacity and detector response."
+            },
+            {
+              "id": "gcms020",
+              "title": "Film Thickness",
+              "tags": ["film-thickness", "column"],
+              "basic_overview": "Stationary-phase film thickness retention, sample capacity और bleed behaviour को affect करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Thicker films can increase retention of volatile analytes and sample capacity but may increase bleed at high temperatures."
+            }
+          ]
+        },
+        {
+          "topic_id": "stationary-phase-polarity",
+          "topic_title": "GC Stationary Phase Polarity",
+          "notes_list": [
+            {
+              "id": "gcms021",
+              "title": "Non-Polar GC Columns",
+              "tags": ["stationary-phase", "non-polar"],
+              "basic_overview": "Non-polar phases generally separate compounds strongly according to volatility with relatively limited polarity-based interaction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Low-polarity phases are widely used for hydrocarbons and many general-purpose GC applications."
+            },
+            {
+              "id": "gcms022",
+              "title": "Polar GC Columns",
+              "tags": ["stationary-phase", "polar"],
+              "basic_overview": "Polar stationary phases stronger dipolar or hydrogen-bonding related interactions provide कर सकती हैं और polar analytes के selectivity को change कर सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples include phases designed for fatty acid methyl esters and other polar compounds."
+            },
+            {
+              "id": "gcms023",
+              "title": "DB-5ms Type Phase",
+              "tags": ["db-5ms", "gcms"],
+              "basic_overview": "5%-phenyl type low-polarity polysiloxane phases GC-MS में widely used general-purpose stationary phases हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exact phase chemistry and temperature limits depend on manufacturer; the 'ms' designation generally indicates a phase designed for low bleed and MS applications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gc-oven",
+      "title": "GC Oven & Temperature Programming",
+      "filters": [
+        { "label": "🌡️ Oven", "tag": "oven" },
+        { "label": "📈 Temperature Program", "tag": "temperature-program" },
+        { "label": "🎯 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "oven-program",
+          "topic_title": "Temperature Programming",
+          "notes_list": [
+            {
+              "id": "gcms024",
+              "title": "Isothermal GC",
+              "tags": ["isothermal", "oven"],
+              "basic_overview": "Isothermal GC में oven temperature run के दौरान constant रहती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Useful for relatively simple mixtures with similar volatility ranges."
+            },
+            {
+              "id": "gcms025",
+              "title": "Temperature-Programmed GC",
+              "tags": ["temperature-program", "oven"],
+              "basic_overview": "Temperature-programmed GC में oven temperature controlled ramps और holds के अनुसार increase होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical strategy: low initial temperature for volatile/early compounds → controlled ramp → higher final temperature for strongly retained compounds."
+            },
+            {
+              "id": "gcms026",
+              "title": "Ramp Rate का Effect",
+              "tags": ["ramp-rate", "oven"],
+              "basic_overview": "Faster temperature ramp analysis time reduce कर सकती है लेकिन selectivity और peak separation change कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Slower ramp often increases separation between compounds with similar volatility, while faster ramp may compress chromatogram."
+            },
+            {
+              "id": "gcms027",
+              "title": "Initial Oven Temperature",
+              "tags": ["oven", "method-development"],
+              "basic_overview": "Initial temperature early-eluting compounds की focusing और separation को influence करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Too high initial temperature can cause poor early peak separation; too low can unnecessarily lengthen analysis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-interface",
+      "title": "GC-MS Interface & Transfer Line",
+      "filters": [
+        { "label": "🔗 Interface", "tag": "interface" },
+        { "label": "⚙️ Hardware", "tag": "instrumentation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "transfer-line",
+          "topic_title": "Transfer Line",
+          "notes_list": [
+            {
+              "id": "gcms028",
+              "title": "GC-MS Transfer Line",
+              "tags": ["transfer-line", "interface"],
+              "basic_overview": "Transfer line GC column effluent को GC से MS ion source तक transport करती है और temperature-controlled रहती है ताकि analytes condense न हों।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Transfer-line temperature typically sufficiently high रखी जाती है ताकि compounds interface में condense न हों, लेकिन maximum temperature limits और method requirements follow करनी होती हैं।"
+            },
+            {
+              "id": "gcms029",
+              "title": "Transfer Line Blockage",
+              "tags": ["blockage", "troubleshooting"],
+              "basic_overview": "Transfer-line contamination/blockage analyte transmission और sensitivity को reduce कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Symptoms: sudden sensitivity loss, unusual peak distortion or unstable response. Check column installation, interface condition and source cleanliness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ms-fundamentals",
+      "title": "Mass Spectrometry Fundamentals",
+      "filters": [
+        { "label": "⚛️ Mass Spectrometry", "tag": "ms" },
+        { "label": "🎓 Theory", "tag": "theory" },
+        { "label": "🎯 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mass-spectrum",
+          "topic_title": "Mass Spectrum",
+          "notes_list": [
+            {
+              "id": "gcms030",
+              "title": "Mass Spectrum क्या है?",
+              "tags": ["mass-spectrum", "ms"],
+              "basic_overview": "Mass spectrum ions के mass-to-charge ratio (m/z) के against relative abundance/intensity का plot होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Spectrum में molecular ion, fragment ions, isotope peaks और base peak जैसी important features हो सकती हैं।"
+            },
+            {
+              "id": "gcms031",
+              "title": "m/z क्या है?",
+              "tags": ["mz", "ms"],
+              "basic_overview": "m/z ion के mass-to-charge ratio को represent करता है। Singly charged ions के लिए nominal m/z अक्सर ion mass के approximately बराबर होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For z=2, same ion's m/z is approximately half its mass under simplified nominal-mass reasoning."
+            },
+            {
+              "id": "gcms032",
+              "title": "Base Peak",
+              "tags": ["base-peak", "mass-spectrum"],
+              "basic_overview": "Mass spectrum में सबसे intense ion को base peak कहा जाता है और उसकी intensity conventionally 100% assign की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important: Base peak जरूरी नहीं कि molecular ion हो। यह सबसे stable/abundant fragment ion हो सकता है।"
+            },
+            {
+              "id": "gcms033",
+              "title": "Molecular Ion Peak",
+              "tags": ["molecular-ion", "m-plus"],
+              "basic_overview": "Electron ionization में molecular ion M⁺• intact molecule से electron removal के बाद बनने वाला radical cation है और इसका m/z molecular mass के बारे में information दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Some compounds में molecular ion weak या absent हो सकता है because extensive fragmentation occurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ionization",
+      "title": "Ionization Techniques",
+      "filters": [
+        { "label": "⚡ Ionization", "tag": "ionization" },
+        { "label": "⚛️ EI", "tag": "ei" },
+        { "label": "🧪 CI", "tag": "ci" }
+      ],
+      "topics": [
+        {
+          "topic_id": "electron-ionization",
+          "topic_title": "Electron Ionization (EI)",
+          "notes_list": [
+            {
+              "id": "gcms034",
+              "title": "Electron Ionization",
+              "tags": ["ei", "ionization", "gcms"],
+              "basic_overview": "EI में gaseous analyte molecules को high-energy electrons से ionize किया जाता है। Conventional GC-MS EI commonly 70 eV electron energy का उपयोग करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "EI relatively hard ionization है और reproducible fragmentation patterns produce करती है, जो library matching के लिए highly useful हैं।"
+            },
+            {
+              "id": "gcms035",
+              "title": "EI में Molecular Ion क्यों टूटता है?",
+              "tags": ["ei", "fragmentation"],
+              "basic_overview": "Electron impact से molecular radical cation high internal energy प्राप्त करता है और energetically favourable bonds टूटकर fragment ions generate कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fragmentation pattern molecule की structure, bond strengths और ion stability से governed होती है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "chemical-ionization",
+          "topic_title": "Chemical Ionization (CI)",
+          "notes_list": [
+            {
+              "id": "gcms036",
+              "title": "Chemical Ionization",
+              "tags": ["ci", "ionization"],
+              "basic_overview": "CI में reagent gas पहले ionized होती है और reagent ions analyte को protonation या related ion-molecule reactions के through ionize करते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "CI EI की तुलना में softer ionization दे सकती है और molecular-weight-related ions जैसे [M+H]⁺ observe करने में useful हो सकती है।"
+            },
+            {
+              "id": "gcms037",
+              "title": "EI vs CI",
+              "tags": ["ei", "ci", "comparison"],
+              "basic_overview": "EI generally stronger fragmentation और highly reproducible spectra देता है, जबकि CI generally softer और molecular-ion-related information के लिए useful हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Shortcut: EI = hard ionization + rich fragmentation + strong library compatibility. CI = softer + molecular mass information often easier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ms-ion-source",
+      "title": "Ion Source",
+      "filters": [
+        { "label": "⚡ Ion Source", "tag": "ion-source" },
+        { "label": "🔧 Maintenance", "tag": "maintenance" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ei-source-components",
+          "topic_title": "EI Source Components",
+          "notes_list": [
+            {
+              "id": "gcms038",
+              "title": "Filament",
+              "tags": ["filament", "ei"],
+              "basic_overview": "EI source में filament electrons emit करता है जिन्हें controlled electron energy के साथ analyte ionization के लिए use किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Filament degradation or incorrect emission can reduce ionization efficiency and sensitivity."
+            },
+            {
+              "id": "gcms039",
+              "title": "Ion Source Contamination",
+              "tags": ["source", "contamination", "troubleshooting"],
+              "basic_overview": "Dirty ion source ion transmission, background, sensitivity और mass spectral quality को negatively affect कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Typical signs: elevated background, reduced sensitivity, unstable response, distorted tuning and contamination peaks."
+            },
+            {
+              "id": "gcms040",
+              "title": "Source Temperature",
+              "tags": ["source-temperature", "ms"],
+              "basic_overview": "Ion source temperature analyte transfer, condensation और ionization environment को influence करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Too low source/interface temperature can promote condensation; excessively high temperature can contribute to thermal degradation for susceptible compounds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mass-analyzers",
+      "title": "Mass Analyzers",
+      "filters": [
+        { "label": "⚛️ Analyzer", "tag": "mass-analyzer" },
+        { "label": "🎓 Exam", "tag": "exam" },
+        { "label": "🚀 Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "quadrupole",
+          "topic_title": "Quadrupole Mass Analyzer",
+          "notes_list": [
+            {
+              "id": "gcms041",
+              "title": "Quadrupole Analyzer",
+              "tags": ["quadrupole", "mass-analyzer"],
+              "basic_overview": "Quadrupole mass analyzer चार rods के electric fields का उपयोग करके selected m/z ions को stable trajectory के साथ transmit करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "GC-MS में single quadrupole सबसे common analyzer architectures में से एक है। Selected ions sequentially scan करके mass spectrum acquire किया जा सकता है।"
+            },
+            {
+              "id": "gcms042",
+              "title": "Quadrupole Scanning",
+              "tags": ["quadrupole", "scan"],
+              "basic_overview": "RF/DC electric field parameters change करके different m/z ions को sequentially transmit किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Scan speed, mass range और dwell behaviour sensitivity तथा spectral quality को influence करते हैं।"
+            }
+          ]
+        },
+        {
+          "topic_id": "tof",
+          "topic_title": "Time-of-Flight Analyzer",
+          "notes_list": [
+            {
+              "id": "gcms043",
+              "title": "TOF Mass Analyzer",
+              "tags": ["tof", "advanced"],
+              "basic_overview": "TOF analyzer ions को accelerate करके उनके flight time के आधार पर separate करता है। Lower m/z ions generally detector तक faster पहुंचते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "TOF instruments high acquisition speed और suitable configurations में high-resolution accurate-mass measurements दे सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ms-detectors",
+      "title": "Mass Spectrometric Detectors",
+      "filters": [
+        { "label": "📡 Detector", "tag": "detector" },
+        { "label": "⚛️ MS", "tag": "ms" }
+      ],
+      "topics": [
+        {
+          "topic_id": "electron-multiplier",
+          "topic_title": "Electron Multiplier",
+          "notes_list": [
+            {
+              "id": "gcms044",
+              "title": "Electron Multiplier",
+              "tags": ["electron-multiplier", "detector"],
+              "basic_overview": "Electron multiplier incoming ions से secondary electrons generate करके signal amplification प्रदान करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Detector gain, aging और contamination sensitivity तथा dynamic range को influence कर सकते हैं।"
+            },
+            {
+              "id": "gcms045",
+              "title": "Electron Multiplier Aging",
+              "tags": ["detector", "maintenance"],
+              "basic_overview": "Detector use के साथ electron multiplier efficiency reduce हो सकती है, जिससे sensitivity gradually decline हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Before replacing detector, verify source cleanliness, tuning, leaks, column condition, method settings and calibration because sensitivity loss has multiple possible causes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-vacuum",
+      "title": "GC-MS Vacuum System",
+      "filters": [
+        { "label": "🌀 Vacuum", "tag": "vacuum" },
+        { "label": "🔧 Debugging", "tag": "troubleshooting" },
+        { "label": "⚙️ Instrument", "tag": "instrumentation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "vacuum-basics",
+          "topic_title": "MS Vacuum",
+          "notes_list": [
+            {
+              "id": "gcms046",
+              "title": "GC-MS में High Vacuum क्यों चाहिए?",
+              "tags": ["vacuum", "ms"],
+              "basic_overview": "Mass analyzer और ion optics को low-pressure environment चाहिए ताकि ions gas-phase collisions से minimally disturbed होकर controlled trajectories follow करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Vacuum quality directly affects ion transmission, background and analyzer performance."
+            },
+            {
+              "id": "gcms047",
+              "title": "Rotary/Backing Pump",
+              "tags": ["vacuum", "pump"],
+              "basic_overview": "Backing pump high-vacuum pump के लिए preliminary/foreline vacuum establish करती है और system से gases remove करने में मदद करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exact architecture instrument model पर depend करती है; oil-sealed और dry pump configurations available हो सकती हैं।"
+            },
+            {
+              "id": "gcms048",
+              "title": "Turbomolecular Pump",
+              "tags": ["turbo-pump", "vacuum"],
+              "basic_overview": "Turbomolecular pump high-vacuum region में gas molecules को efficiently remove करके MS operating pressure achieve करने में मदद करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Turbo pump generally backing pump के support के साथ operate करती है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "vacuum-leak",
+          "topic_title": "Vacuum Leak Diagnosis",
+          "notes_list": [
+            {
+              "id": "gcms049",
+              "title": "Vacuum Leak के Symptoms",
+              "tags": ["vacuum-leak", "troubleshooting"],
+              "basic_overview": "Vacuum leak background increase, poor sensitivity, unstable vacuum, tuning failure और abnormal source behaviour cause कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Common leak locations: column nut/ferrule, interface, source seals, door/O-ring areas and improperly seated components."
+            },
+            {
+              "id": "gcms050",
+              "title": "Air/Water Background",
+              "tags": ["air", "water", "background"],
+              "basic_overview": "Residual atmospheric gases या moisture vacuum background में characteristic signals produce कर सकते हैं और system performance degrade कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Persistent air/water-related background should trigger leak investigation, conditioning/purge verification and vacuum system checks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-tuning",
+      "title": "MS Tuning & Calibration",
+      "filters": [
+        { "label": "🎛️ Tune", "tag": "tuning" },
+        { "label": "⚙️ Calibration", "tag": "calibration" },
+        { "label": "🔧 Debugging", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "autotune",
+          "topic_title": "Autotune",
+          "notes_list": [
+            {
+              "id": "gcms051",
+              "title": "MS Autotune क्या है?",
+              "tags": ["autotune", "tuning"],
+              "basic_overview": "Autotune instrument के ion optics, mass calibration, detector response और other tune parameters को predefined reference criteria के अनुसार optimize/check करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tune compound and exact criteria instrument architecture पर depend करते हैं। Tune report में peak masses, abundance ratios, resolution and other diagnostics दिखाई जा सकती हैं।"
+            },
+            {
+              "id": "gcms052",
+              "title": "Mass Calibration",
+              "tags": ["mass-calibration", "tuning"],
+              "basic_overview": "Mass calibration known reference ions की measured m/z values को correct करके accurate mass assignment सुनिश्चित करने की process है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Poor calibration से library matching और identification दोनों प्रभावित हो सकते हैं।"
+            },
+            {
+              "id": "gcms053",
+              "title": "Tune Fail होने पर क्या Check करें?",
+              "tags": ["tune", "troubleshooting"],
+              "basic_overview": "Tune failure में vacuum, source contamination, reference gas/tune compound, detector voltage, filament, leaks और mass calibration investigate किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Do not immediately increase detector voltage. First identify whether the issue is vacuum, ionization, transmission or detector-related."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-spectrum-interpretation",
+      "title": "Mass Spectrum Interpretation",
+      "filters": [
+        { "label": "🧠 Interpretation", "tag": "interpretation" },
+        { "label": "⚛️ Fragmentation", "tag": "fragmentation" },
+        { "label": "🎓 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "fragmentation-basics",
+          "topic_title": "Fragmentation Rules",
+          "notes_list": [
+            {
+              "id": "gcms054",
+              "title": "Fragmentation क्या है?",
+              "tags": ["fragmentation", "ms"],
+              "basic_overview": "Ionization के बाद molecular ion internal energy के कारण smaller stable fragment ions में टूट सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Fragment ions structure elucidation में highly informative होते हैं।"
+            },
+            {
+              "id": "gcms055",
+              "title": "Stable Carbocation Rule",
+              "tags": ["fragmentation", "carbocation"],
+              "basic_overview": "Fragmentation अक्सर ऐसे pathways को favour करती है जिनसे relatively stable charged fragments बनते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General stability ideas: resonance stabilization, tertiary vs secondary vs primary carbocation stability, allylic और benzylic stabilization."
+            },
+            {
+              "id": "gcms056",
+              "title": "Benzylic Cleavage",
+              "tags": ["fragmentation", "aromatic"],
+              "basic_overview": "Alkyl-substituted aromatic compounds में benzylic cleavage resonance-stabilized benzyl/tropylium-type ions produce कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Classic exam concept: alkylbenzene spectra में m/z 91 अक्सर benzyl/tropylium-derived ion से associated होता है."
+            },
+            {
+              "id": "gcms057",
+              "title": "Alpha Cleavage",
+              "tags": ["fragmentation", "alpha-cleavage"],
+              "basic_overview": "Heteroatom-containing compounds में heteroatom के adjacent bond की cleavage stable resonance/heteroatom-stabilized ions generate कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Commonly discussed for alcohols, ethers, amines and carbonyl compounds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-isotope-patterns",
+      "title": "Isotope Patterns in Mass Spectra",
+      "filters": [
+        { "label": "🧬 Isotopes", "tag": "isotope" },
+        { "label": "🎯 Identification", "tag": "interpretation" },
+        { "label": "🎓 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "chlorine-pattern",
+          "topic_title": "Chlorine Isotope Pattern",
+          "notes_list": [
+            {
+              "id": "gcms058",
+              "title": "Chlorine का M : M+2 Pattern",
+              "tags": ["chlorine", "isotope-pattern"],
+              "basic_overview": "Chlorine के प्रमुख isotopes 35Cl और 37Cl लगभग 3:1 natural abundance ratio में होते हैं। इसलिए one-chlorine-containing molecular/fragment ion में M और M+2 peaks लगभग 3:1 pattern दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: M : M+2 ≈ 3 : 1 strongly suggests one chlorine atom. Two chlorine atoms में approximate pattern 9:6:1 हो सकता है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "bromine-pattern",
+          "topic_title": "Bromine Isotope Pattern",
+          "notes_list": [
+            {
+              "id": "gcms059",
+              "title": "Bromine का M : M+2 Pattern",
+              "tags": ["bromine", "isotope-pattern"],
+              "basic_overview": "79Br और 81Br लगभग equal natural abundance में होते हैं, इसलिए one-bromine-containing ion में M और M+2 peaks लगभग 1:1 दिखाई दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: M : M+2 ≈ 1 : 1 is a classic bromine signature."
+            }
+          ]
+        },
+        {
+          "topic_id": "carbon-isotope",
+          "topic_title": "Carbon-13 Isotope",
+          "notes_list": [
+            {
+              "id": "gcms060",
+              "title": "M+1 Peak",
+              "tags": ["carbon-13", "isotope"],
+              "basic_overview": "13C natural abundance के कारण molecular ion के पास M+1 isotope peak दिखाई देती है। Larger molecules में M+1 intensity generally अधिक prominent होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Approximate rule: M+1 intensity from 13C can provide rough carbon-count information, although other isotopes and exact composition should be considered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-library-search",
+      "title": "Library Matching & Compound Identification",
+      "filters": [
+        { "label": "📚 Library", "tag": "library" },
+        { "label": "🔎 Identification", "tag": "identification" },
+        { "label": "⚠️ Interpretation", "tag": "interpretation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "library-search",
+          "topic_title": "Mass Spectral Library",
+          "notes_list": [
+            {
+              "id": "gcms061",
+              "title": "Library Matching क्या है?",
+              "tags": ["library", "identification"],
+              "basic_overview": "Unknown compound का acquired mass spectrum reference spectral library spectra से compare किया जाता है और similarity-based candidate matches generate होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common libraries include NIST-based spectral databases. Library hit identity का evidence है, absolute proof नहीं; retention time/standard confirmation important हो सकता है।"
+            },
+            {
+              "id": "gcms062",
+              "title": "Library Match Score को कैसे समझें?",
+              "tags": ["library", "match-score"],
+              "basic_overview": "Library software spectral similarity को numerical score/rank के रूप में report कर सकता है, लेकिन score conventions software/database dependent होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "High match score alone को definitive identification न मानें। Background subtraction, co-elution, source conditions और candidate chemistry भी evaluate करें।"
+            },
+            {
+              "id": "gcms063",
+              "title": "Co-elution और Library Matching",
+              "tags": ["co-elution", "library"],
+              "basic_overview": "यदि दो compounds co-elute करते हैं तो acquired spectrum mixed spectrum हो सकती है और library matching misleading हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Improve separation using column chemistry, temperature program, carrier-gas conditions or alternate method. Deconvolution tools may help in suitable cases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-scan-modes",
+      "title": "SCAN, SIM & Selected Ion Monitoring",
+      "filters": [
+        { "label": "📡 Acquisition", "tag": "acquisition" },
+        { "label": "🎯 SIM", "tag": "sim" },
+        { "label": "🔬 SCAN", "tag": "scan" }
+      ],
+      "topics": [
+        {
+          "topic_id": "scan-mode",
+          "topic_title": "Full Scan Mode",
+          "notes_list": [
+            {
+              "id": "gcms064",
+              "title": "Full SCAN",
+              "tags": ["scan", "acquisition"],
+              "basic_overview": "Full scan mode defined mass range में ions को acquire करता है और broad spectral information provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Best suited for unknown screening, library matching and general qualitative analysis, although sensitivity for trace targeted compounds may be lower than optimized SIM."
+            }
+          ]
+        },
+        {
+          "topic_id": "sim-mode",
+          "topic_title": "Selected Ion Monitoring",
+          "notes_list": [
+            {
+              "id": "gcms065",
+              "title": "SIM क्या है?",
+              "tags": ["sim", "targeted-analysis"],
+              "basic_overview": "SIM mode selected target ions या ion groups को monitor करता है और full-scan की तुलना में targeted analytes के लिए improved sensitivity/selectivity दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "SIM में target, qualifier और quantifier ions method-specific तरीके से select किए जाते हैं। Dwell time और cycle time chromatographic peak sampling के लिए appropriate रखना जरूरी है।"
+            },
+            {
+              "id": "gcms066",
+              "title": "Quantifier और Qualifier Ion",
+              "tags": ["sim", "quantifier", "qualifier"],
+              "basic_overview": "Quantifier ion quantitative measurement के लिए primary response देता है, जबकि qualifier ions identity confirmation में additional evidence देते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Ion ratios acceptance criteria method-specific होते हैं और matrix/interference effects के कारण monitor किए जाते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-quantification",
+      "title": "GC-MS Quantitative Analysis",
+      "filters": [
+        { "label": "🧮 Quantification", "tag": "quantification" },
+        { "label": "📊 Calibration", "tag": "calibration" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gcms-calibration",
+          "topic_title": "Calibration Strategies",
+          "notes_list": [
+            {
+              "id": "gcms067",
+              "title": "External Calibration",
+              "tags": ["calibration", "quantification"],
+              "basic_overview": "Known concentration standards से calibration curve बनाकर unknown sample concentration calculate की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Calibration should cover the intended analytical range and include appropriate QC samples."
+            },
+            {
+              "id": "gcms068",
+              "title": "Internal Standard Calibration",
+              "tags": ["internal-standard", "quantification"],
+              "basic_overview": "Internal standard method में analyte response को known internal-standard response से normalize किया जाता है, जिससे injection and sample-preparation variability compensate करने में मदद मिलती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Stable-isotope-labelled internal standards are especially powerful in MS-based quantitative workflows when appropriate and available."
+            },
+            {
+              "id": "gcms069",
+              "title": "Response Ratio",
+              "tags": ["quantification", "formula"],
+              "basic_overview": "Response ratio commonly analyte peak area divided by internal-standard peak area के रूप में calculate की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Calibration relationship response ratio vs analyte concentration पर establish की जा सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-derivatization",
+      "title": "Derivatization in GC-MS",
+      "filters": [
+        { "label": "🧪 Derivatization", "tag": "derivatization" },
+        { "label": "⚗️ Chemistry", "tag": "chemistry" },
+        { "label": "🎯 Method Development", "tag": "method-development" }
+      ],
+      "topics": [
+        {
+          "topic_id": "derivatization-purpose",
+          "topic_title": "Purpose of Derivatization",
+          "notes_list": [
+            {
+              "id": "gcms070",
+              "title": "Derivatization क्यों करते हैं?",
+              "tags": ["derivatization", "gc"],
+              "basic_overview": "Highly polar, non-volatile या thermally unstable analytes को अधिक volatile और GC-compatible derivatives में convert करने के लिए derivatization की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Derivatization can reduce polarity, improve volatility, improve peak shape and sometimes enhance detector response."
+            },
+            {
+              "id": "gcms071",
+              "title": "Silylation",
+              "tags": ["silylation", "derivatization"],
+              "basic_overview": "Silylation में active hydrogens such as OH, COOH या NH groups को silyl derivatives में convert किया जा सकता है, जिससे volatility improve होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common reagent families include trimethylsilylating reagents. Moisture control is often critical because many reagents are moisture-sensitive."
+            },
+            {
+              "id": "gcms072",
+              "title": "Acylation",
+              "tags": ["acylation", "derivatization"],
+              "basic_overview": "Acylation polar functional groups को acyl derivatives में convert करके chromatographic behaviour और volatility modify कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Commonly applied to compounds containing OH, NH or other reactive functional groups depending on reagent chemistry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-chromatogram",
+      "title": "GC Chromatogram Interpretation",
+      "filters": [
+        { "label": "📈 Chromatogram", "tag": "chromatogram" },
+        { "label": "🧠 Interpretation", "tag": "interpretation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "chromatogram-features",
+          "topic_title": "Chromatographic Features",
+          "notes_list": [
+            {
+              "id": "gcms073",
+              "title": "Retention Time",
+              "tags": ["retention-time", "gc"],
+              "basic_overview": "Retention time injection से analyte peak maximum तक का elapsed time है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Retention time identification के लिए useful है लेकिन temperature program, carrier flow, column condition और instrument configuration से change हो सकती है।"
+            },
+            {
+              "id": "gcms074",
+              "title": "Peak Area",
+              "tags": ["peak-area", "quantification"],
+              "basic_overview": "Peak area under suitable validated conditions analyte amount/concentration से related detector response provide कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quantification requires calibration; peak area alone is not concentration."
+            },
+            {
+              "id": "gcms075",
+              "title": "Peak Height",
+              "tags": ["peak-height"],
+              "basic_overview": "Peak height detector response का maximum signal represent करती है, लेकिन quantitative methods में peak area commonly preferred होती है क्योंकि area temporal broadening के प्रति generally more representative हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Actual quantitative parameter method validation से determine होना चाहिए."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-peak-problems",
+      "title": "GC Peak Shape Troubleshooting",
+      "filters": [
+        { "label": "🔧 Debug", "tag": "troubleshooting" },
+        { "label": "📈 Peak Shape", "tag": "peak-shape" }
+      ],
+      "topics": [
+        {
+          "topic_id": "peak-tailing",
+          "topic_title": "Peak Tailing",
+          "notes_list": [
+            {
+              "id": "gcms076",
+              "title": "GC Peak Tailing",
+              "tags": ["tailing", "troubleshooting"],
+              "basic_overview": "GC peak tailing active sites, column contamination, inlet contamination, poor injection conditions, sample overload या stationary-phase problems से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Check liner, inlet cleanliness, column installation, active sites, sample concentration and analyte-column compatibility."
+            }
+          ]
+        },
+        {
+          "topic_id": "peak-fronting",
+          "topic_title": "Peak Fronting",
+          "notes_list": [
+            {
+              "id": "gcms077",
+              "title": "GC Peak Fronting",
+              "tags": ["fronting", "troubleshooting"],
+              "basic_overview": "Peak fronting अक्सर excessive sample loading, inlet focusing problems या column overload से associated हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Reduce injected mass, check split ratio and sample concentration, and verify column capacity."
+            }
+          ]
+        },
+        {
+          "topic_id": "ghost-peaks",
+          "topic_title": "Ghost Peaks",
+          "notes_list": [
+            {
+              "id": "gcms078",
+              "title": "GC-MS Ghost Peaks",
+              "tags": ["ghost-peaks", "contamination"],
+              "basic_overview": "Ghost peaks previous samples, septum/liner bleed, column bleed, contaminated solvent, dirty source या system carryover से appear हो सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Blank run करें और blank chromatogram तथा mass spectra compare करें। Persistent peaks को source/inlet/column contamination के context में diagnose करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-column-bleed",
+      "title": "Column Bleed & Background",
+      "filters": [
+        { "label": "🔥 Column Bleed", "tag": "column-bleed" },
+        { "label": "📊 Background", "tag": "background" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "column-bleed",
+          "topic_title": "Column Bleed",
+          "notes_list": [
+            {
+              "id": "gcms079",
+              "title": "Column Bleed क्या है?",
+              "tags": ["column-bleed", "gc"],
+              "basic_overview": "High temperature पर stationary phase के low-level volatile decomposition products MS में background signal generate कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Column bleed generally increases with temperature and column age/condition. Use appropriate low-bleed GC-MS columns and avoid exceeding temperature limits."
+            },
+            {
+              "id": "gcms080",
+              "title": "Column Bleed vs Contamination",
+              "tags": ["column-bleed", "contamination"],
+              "basic_overview": "Bleed typically temperature-dependent background increase दिखा सकती है, जबकि contamination specific persistent peaks और source/inlet-related background produce कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Temperature-programmed blank run helpful diagnostic है: background का temperature dependence observe करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-sensitivity",
+      "title": "Sensitivity & Signal Problems",
+      "filters": [
+        { "label": "📡 Sensitivity", "tag": "sensitivity" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "low-sensitivity",
+          "topic_title": "Low Sensitivity Diagnosis",
+          "notes_list": [
+            {
+              "id": "gcms081",
+              "title": "GC-MS Sensitivity अचानक कम हो गई",
+              "tags": ["sensitivity", "troubleshooting"],
+              "basic_overview": "Sensitivity loss column/inlet issues, source contamination, detector aging, vacuum leak, tuning problems, filament issues या sample preparation problems से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Best diagnostic sequence: standard response → tune status → vacuum → source background → detector → inlet/column → sample preparation."
+            },
+            {
+              "id": "gcms082",
+              "title": "Sensitivity Gradually Declining",
+              "tags": ["sensitivity", "maintenance"],
+              "basic_overview": "Gradual sensitivity loss contamination buildup, detector aging, source contamination, column deterioration या instrument drift से associated हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Trend standard response over time rather than reacting to a single injection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-noise",
+      "title": "Noise & Baseline Troubleshooting",
+      "filters": [
+        { "label": "📊 Noise", "tag": "noise" },
+        { "label": "🔧 Troubleshooting", "tag": "troubleshooting" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ms-background",
+          "topic_title": "MS Background",
+          "notes_list": [
+            {
+              "id": "gcms083",
+              "title": "High MS Background",
+              "tags": ["background", "ms"],
+              "basic_overview": "High background column bleed, septum/liner contamination, solvent contamination, air/water leaks, source contamination या vacuum issues से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Run a blank and inspect the mass spectrum of background peaks. Characteristic background patterns can help localize the source."
+            },
+            {
+              "id": "gcms084",
+              "title": "Air Leak vs Water Background",
+              "tags": ["vacuum", "background", "diagnosis"],
+              "basic_overview": "Air and water related background patterns vacuum integrity और system conditioning के diagnostic clues provide कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exact diagnostic ion ratios depend on instrument and conditions; use manufacturer tune diagnostics rather than relying on one peak alone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-maintenance",
+      "title": "GC-MS Maintenance",
+      "filters": [
+        { "label": "🔧 Maintenance", "tag": "maintenance" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "⚙️ Service", "tag": "service" }
+      ],
+      "topics": [
+        {
+          "topic_id": "routine-maintenance",
+          "topic_title": "Routine Maintenance",
+          "notes_list": [
+            {
+              "id": "gcms085",
+              "title": "GC Inlet Maintenance",
+              "tags": ["maintenance", "inlet"],
+              "basic_overview": "Routine inlet maintenance में septum, liner, inlet seal, gold seal where applicable, contamination और leak condition check करना शामिल हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Maintenance frequency sample matrix, injection count, temperature और method conditions पर depend करती है।"
+            },
+            {
+              "id": "gcms086",
+              "title": "Column Trimming",
+              "tags": ["column", "maintenance"],
+              "basic_overview": "Column inlet end पर contamination या damaged stationary phase region होने पर controlled trimming peak shape और response improve कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Excessive trimming column length और retention behaviour change कर सकती है; appropriate amount and manufacturer guidance follow करें।"
+            },
+            {
+              "id": "gcms087",
+              "title": "Ion Source Cleaning",
+              "tags": ["source", "maintenance"],
+              "basic_overview": "Ion source cleaning accumulated contamination remove करके ionization efficiency और background improve करने में मदद कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Source cleaning procedure instrument-specific है और contamination-sensitive components को appropriate tools/materials से handle करना चाहिए।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-method-development",
+      "title": "GC-MS Method Development",
+      "filters": [
+        { "label": "⚙️ Method", "tag": "method-development" },
+        { "label": "🧪 Chemistry", "tag": "chemistry" },
+        { "label": "📈 Optimization", "tag": "optimization" }
+      ],
+      "topics": [
+        {
+          "topic_id": "method-development",
+          "topic_title": "Method Development Workflow",
+          "notes_list": [
+            {
+              "id": "gcms088",
+              "title": "GC-MS Method Development का पहला Step",
+              "tags": ["method-development"],
+              "basic_overview": "Analyte volatility, boiling behaviour, polarity, thermal stability, molecular mass, concentration range और matrix को characterize करना first step है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "If analyte is not sufficiently volatile or thermally stable, derivatization or a non-GC technique may be more appropriate."
+            },
+            {
+              "id": "gcms089",
+              "title": "Column Selection",
+              "tags": ["column", "method-development"],
+              "basic_overview": "Column polarity और dimensions analyte selectivity, retention, efficiency और analysis time determine करने में major role निभाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "General screening often begins with a low-polarity 5%-phenyl type phase, but application-specific columns may be superior."
+            },
+            {
+              "id": "gcms090",
+              "title": "Temperature Program Optimization",
+              "tags": ["temperature", "method-development"],
+              "basic_overview": "Temperature program को early peak focusing, critical-pair resolution और late-compound elution के बीच balance करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Optimize initial temperature, initial hold, ramp rate, intermediate holds and final temperature rather than changing only one parameter blindly."
+            },
+            {
+              "id": "gcms091",
+              "title": "Carrier Gas Flow Optimization",
+              "tags": ["carrier-gas", "flow"],
+              "basic_overview": "Carrier-gas linear velocity column efficiency, retention time और analysis time को influence करती है।",
+              "has_extra_info": true,
+              "extra_info_content": "Use the manufacturer's recommended flow/linear-velocity range for the selected column and gas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-validation",
+      "title": "GC-MS Method Validation",
+      "filters": [
+        { "label": "📋 Validation", "tag": "validation" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "🧮 Quantitative", "tag": "quantitative" }
+      ],
+      "topics": [
+        {
+          "topic_id": "validation-parameters",
+          "topic_title": "Validation Characteristics",
+          "notes_list": [
+            {
+              "id": "gcms092",
+              "title": "Specificity",
+              "tags": ["validation", "specificity"],
+              "basic_overview": "Specificity यह demonstrate करती है कि target analyte relevant matrix components, impurities और interfering compounds की presence में appropriately measured/identified हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "GC-MS में retention time, quantifier/qualifier ions, ion ratios और mass spectrum together specificity evidence दे सकते हैं।"
+            },
+            {
+              "id": "gcms093",
+              "title": "Precision",
+              "tags": ["validation", "precision"],
+              "basic_overview": "Precision repeated measurements की agreement को represent करती है और %RSD के माध्यम से commonly express की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Repeatability and intermediate precision are evaluated according to method purpose."
+            },
+            {
+              "id": "gcms094",
+              "title": "Accuracy / Recovery",
+              "tags": ["validation", "accuracy", "recovery"],
+              "basic_overview": "Accuracy अक्सर known analyte additions/spikes की recovery से assess की जाती है, especially matrix-based quantitative methods में।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Recovery studies should cover relevant concentration levels and matrix conditions."
+            },
+            {
+              "id": "gcms095",
+              "title": "LOD और LOQ",
+              "tags": ["lod", "loq", "validation"],
+              "basic_overview": "LOD detection capability और LOQ quantitative capability की lower limits को describe करते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Signal-to-noise approaches and statistical approaches are both used depending on method and regulatory context."
+            },
+            {
+              "id": "gcms096",
+              "title": "Robustness",
+              "tags": ["robustness", "validation"],
+              "basic_overview": "Robustness small deliberate changes के under method performance stability evaluate करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Variables may include flow, oven ramp, temperature, inlet conditions, carrier-gas settings or extraction parameters depending on method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-sample-preparation",
+      "title": "GC-MS Sample Preparation",
+      "filters": [
+        { "label": "🧪 Sample Prep", "tag": "sample-preparation" },
+        { "label": "🔬 Extraction", "tag": "extraction" },
+        { "label": "🏭 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "sample-prep",
+          "topic_title": "Sample Preparation Strategies",
+          "notes_list": [
+            {
+              "id": "gcms097",
+              "title": "Liquid-Liquid Extraction",
+              "tags": ["lle", "extraction"],
+              "basic_overview": "Liquid-liquid extraction analyte को immiscible solvent phases के बीच partitioning के आधार पर isolate/concentrate करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Partition coefficient, pH, solvent choice and emulsion formation are important variables."
+            },
+            {
+              "id": "gcms098",
+              "title": "Solid Phase Extraction",
+              "tags": ["spe", "sample-preparation"],
+              "basic_overview": "SPE sorbent-analyte interactions का उपयोग करके matrix cleanup और analyte concentration provide कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical workflow: condition → load → wash → dry → elute. Sorbent chemistry should match analyte properties."
+            },
+            {
+              "id": "gcms099",
+              "title": "Headspace GC-MS",
+              "tags": ["headspace", "sample-preparation"],
+              "basic_overview": "Headspace sampling में sample matrix के ऊपर gas phase से volatile analytes sample किए जाते हैं, जिससे nonvolatile matrix components column पर जाने से कम हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Widely useful for volatile solvents, residual solvents and volatile organic compounds."
+            },
+            {
+              "id": "gcms100",
+              "title": "SPME",
+              "tags": ["spme", "sample-preparation"],
+              "basic_overview": "Solid Phase Microextraction में coated fiber analytes को sample/headspace से extract और concentrate करती है, जिसके बाद thermal desorption GC में किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "SPME minimizes solvent use and can provide excellent sensitivity for suitable volatile/semi-volatile analytes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-applications",
+      "title": "GC-MS Applications",
+      "filters": [
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "💊 Pharma", "tag": "pharma" },
+        { "label": "🌍 Environmental", "tag": "environmental" },
+        { "label": "🔬 Research", "tag": "research" }
+      ],
+      "topics": [
+        {
+          "topic_id": "applications",
+          "topic_title": "Major Applications",
+          "notes_list": [
+            {
+              "id": "gcms101",
+              "title": "Pharmaceutical Analysis",
+              "tags": ["pharma", "application"],
+              "basic_overview": "GC-MS pharmaceutical analysis में residual solvents, volatile impurities, degradation-related volatile compounds और specific small molecules के analysis में useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For nonvolatile pharmaceutical analytes, HPLC/LC-MS may be more appropriate depending on chemistry."
+            },
+            {
+              "id": "gcms102",
+              "title": "Environmental Analysis",
+              "tags": ["environmental", "application"],
+              "basic_overview": "GC-MS environmental samples में volatile organic compounds, pesticides, hydrocarbons और other semi-volatile contaminants की analysis में widely used है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Sample preparation can involve purge-and-trap, headspace, SPE or liquid extraction depending on target analytes and matrix."
+            },
+            {
+              "id": "gcms103",
+              "title": "Forensic Analysis",
+              "tags": ["forensic", "application"],
+              "basic_overview": "GC-MS forensic laboratories में drugs, toxicants, accelerants, solvents और volatile/semi-volatile compounds की identification में useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Forensic identification typically combines chromatographic behaviour, mass spectral evidence, reference standards and validated procedures."
+            },
+            {
+              "id": "gcms104",
+              "title": "Petroleum & Hydrocarbon Analysis",
+              "tags": ["petroleum", "hydrocarbon"],
+              "basic_overview": "GC-MS hydrocarbons और petroleum-derived volatile/semi-volatile components की profiling और identification के लिए powerful technique है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Hydrocarbon patterns, biomarkers and individual compound identification application-specific workflows में use किए जा सकते हैं।"
+            },
+            {
+              "id": "gcms105",
+              "title": "Flavor & Fragrance Analysis",
+              "tags": ["flavor", "fragrance"],
+              "basic_overview": "Essential oils, aroma compounds और volatile flavour constituents की identification और profiling में GC-MS extensively used है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Library matching plus retention-index information can strengthen identification of aroma compounds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-retention-index",
+      "title": "Retention Index",
+      "filters": [
+        { "label": "📊 Retention Index", "tag": "retention-index" },
+        { "label": "🎯 Identification", "tag": "identification" },
+        { "label": "🎓 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "kovats-index",
+          "topic_title": "Kováts Retention Index",
+          "notes_list": [
+            {
+              "id": "gcms106",
+              "title": "Retention Index क्या है?",
+              "tags": ["retention-index", "gc"],
+              "basic_overview": "Retention index एक standardized chromatographic parameter है जो analyte retention को reference compounds, commonly n-alkanes, के relative behaviour से express करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Retention index library identification को mass spectrum के साथ complementary evidence देता है।"
+            },
+            {
+              "id": "gcms107",
+              "title": "Kováts Index में n-Alkanes का Role",
+              "tags": ["kovats", "n-alkanes"],
+              "basic_overview": "n-Alkanes reference series के रूप में use किए जाते हैं और unknown compound के retention behaviour को उनके retention values के relative basis पर express किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Isothermal Kováts index और temperature-programmed retention indices के exact calculation conventions अलग हो सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-structural-elucidation",
+      "title": "GC-MS Structural Elucidation",
+      "filters": [
+        { "label": "🧠 Structure", "tag": "structural-elucidation" },
+        { "label": "⚛️ Fragmentation", "tag": "fragmentation" },
+        { "label": "🎓 Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "structure-workflow",
+          "topic_title": "Structure Identification Workflow",
+          "notes_list": [
+            {
+              "id": "gcms108",
+              "title": "Step 1: Molecular Ion Identify करें",
+              "tags": ["structure", "molecular-ion"],
+              "basic_overview": "First check करें कि molecular ion plausible है या नहीं और उसका m/z molecular mass information से consistent है या नहीं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "If M⁺• absent or weak, consider soft ionization, alternative ion, isotopic pattern and fragmentation behaviour."
+            },
+            {
+              "id": "gcms109",
+              "title": "Step 2: Isotope Pattern देखें",
+              "tags": ["isotope", "structure"],
+              "basic_overview": "M/M+2 patterns से chlorine और bromine जैसे halogens की presence का clue मिल सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Cl ≈ 3:1 M:M+2 for one chlorine; Br ≈ 1:1. Multiple atoms produce characteristic binomial isotope patterns."
+            },
+            {
+              "id": "gcms110",
+              "title": "Step 3: Base Peak और Major Fragments",
+              "tags": ["fragmentation", "base-peak"],
+              "basic_overview": "Major fragment ions को identify करके possible cleavage pathways और stable ion structures propose किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Look for benzylic, allylic, acylium, oxonium and other resonance-stabilized fragment possibilities."
+            },
+            {
+              "id": "gcms111",
+              "title": "Step 4: Library + Retention Index",
+              "tags": ["library", "retention-index"],
+              "basic_overview": "Mass spectral library candidate को retention index और chromatographic behaviour से cross-check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Best practice: library hit → spectrum inspection → retention index comparison → authentic standard confirmation where required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-exam-numericals",
+      "title": "GC-MS Numericals & Exam Problems",
+      "filters": [
+        { "label": "🧮 Numericals", "tag": "numerical" },
+        { "label": "🎯 GATE", "tag": "gate" },
+        { "label": "🎓 MSc", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "numerical-mz",
+          "topic_title": "Mass-to-Charge Calculations",
+          "notes_list": [
+            {
+              "id": "gcms112",
+              "title": "m/z Calculation",
+              "tags": ["numerical", "mz"],
+              "basic_overview": "m/z = ion mass / charge. Singly charged ion के लिए z=1 होने पर m/z approximately ion mass के बराबर होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: ion mass 100 Da with charge +2 → m/z = 50."
+            },
+            {
+              "id": "gcms113",
+              "title": "Isotope Peak Calculation",
+              "tags": ["numerical", "isotope"],
+              "basic_overview": "M और M+2 isotope peaks के intensity ratio से chlorine या bromine atoms की presence infer की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "One Cl: approximately 3:1 M:M+2. One Br: approximately 1:1 M:M+2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-debugging",
+      "title": "GC-MS Complete Debugging",
+      "filters": [
+        { "label": "🔧 Debug", "tag": "troubleshooting" },
+        { "label": "🚨 Fault", "tag": "fault" },
+        { "label": "🏭 Service", "tag": "service" }
+      ],
+      "topics": [
+        {
+          "topic_id": "debugging-workflow",
+          "topic_title": "Systematic Fault Diagnosis",
+          "notes_list": [
+            {
+              "id": "gcms114",
+              "title": "No Peaks दिखाई दे रहे हैं",
+              "tags": ["no-peaks", "troubleshooting"],
+              "basic_overview": "No peaks condition में sample preparation, autosampler/injection, carrier gas, column installation, MS vacuum, filament, tune status, detector और acquisition method systematically check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug sequence: instrument ready → gas flow → injection → column connection → transfer line → vacuum → filament/source → tune → detector → acquisition settings."
+            },
+            {
+              "id": "gcms115",
+              "title": "GC Peaks हैं लेकिन MS Signal नहीं",
+              "tags": ["gc", "ms", "troubleshooting"],
+              "basic_overview": "GC separation occurring but MS response absent होने पर transfer line, source, vacuum, filament, tune, detector और acquisition path inspect करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Use an established test compound to distinguish chromatographic problem from MS detection problem."
+            },
+            {
+              "id": "gcms116",
+              "title": "MS Background बहुत High है",
+              "tags": ["background", "troubleshooting"],
+              "basic_overview": "High background में vacuum leak, column bleed, septum/liner bleed, solvent contamination, source contamination और air/water ingress check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Blank chromatogram and background spectrum are powerful diagnostic tools."
+            },
+            {
+              "id": "gcms117",
+              "title": "Retention Time Shift",
+              "tags": ["retention-time", "troubleshooting"],
+              "basic_overview": "RT shift carrier-gas flow/pressure, oven temperature, temperature program, column condition, leak या method transfer differences से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Compare standard chromatogram with historical reference and verify actual oven and flow parameters."
+            },
+            {
+              "id": "gcms118",
+              "title": "Peak Area Reproducibility खराब",
+              "tags": ["precision", "troubleshooting"],
+              "basic_overview": "Area variability injection volume, autosampler syringe, inlet leak, sample evaporation, detector instability, source contamination या unstable carrier flow से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Repeated standard injections help separate injection precision problems from MS response instability."
+            },
+            {
+              "id": "gcms119",
+              "title": "Mass Spectrum में Unexpected Peaks",
+              "tags": ["spectrum", "contamination", "troubleshooting"],
+              "basic_overview": "Unexpected ions contamination, column bleed, septum bleed, solvent background, co-elution या source contamination से arise हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Compare spectrum with blank/background and check whether unexpected ions persist across retention time regions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-qc-workflow",
+      "title": "GC-MS QC Laboratory Workflow",
+      "filters": [
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "📋 Sequence", "tag": "sequence" },
+        { "label": "📊 Data", "tag": "data-integrity" }
+      ],
+      "topics": [
+        {
+          "topic_id": "sequence",
+          "topic_title": "GC-MS Sequence Design",
+          "notes_list": [
+            {
+              "id": "gcms120",
+              "title": "Typical Sequence",
+              "tags": ["sequence", "qc"],
+              "basic_overview": "A controlled quantitative sequence may include blank, calibration standards, QC samples, unknown samples, continuing calibration checks and closing blank according to the validated method.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exact sequence depends on laboratory SOP, analytical method and regulatory requirements."
+            },
+            {
+              "id": "gcms121",
+              "title": "Blank का Purpose",
+              "tags": ["blank", "qc"],
+              "basic_overview": "Blank contamination, carryover और background contribution detect करने के लिए run किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Types can include solvent blank, method blank and matrix blank depending on application."
+            },
+            {
+              "id": "gcms122",
+              "title": "Calibration Verification",
+              "tags": ["calibration", "qc"],
+              "basic_overview": "Continuing calibration checks ensure करते हैं कि instrument response established calibration के साथ acceptable agreement maintain कर रही है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Acceptance criteria method/SOP specific होने चाहिए।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-data-quality",
+      "title": "GC-MS Data Quality & Identification",
+      "filters": [
+        { "label": "📊 Data Quality", "tag": "data-quality" },
+        { "label": "🔎 Identification", "tag": "identification" }
+      ],
+      "topics": [
+        {
+          "topic_id": "identification-confidence",
+          "topic_title": "Compound Identification Confidence",
+          "notes_list": [
+            {
+              "id": "gcms123",
+              "title": "Library Hit को कैसे Verify करें?",
+              "tags": ["library", "identification"],
+              "basic_overview": "Library candidate को retention time/retention index, diagnostic ions, isotope pattern, spectrum quality और authentic reference standard where appropriate से verify करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A library match is a candidate identification, not automatically definitive confirmation."
+            },
+            {
+              "id": "gcms124",
+              "title": "Qualitative vs Quantitative GC-MS",
+              "tags": ["qualitative", "quantitative"],
+              "basic_overview": "Qualitative GC-MS का primary objective identity/characterization है, जबकि quantitative GC-MS validated calibration और controlled response measurement के माध्यम से concentration determine करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Full scan is commonly useful for qualitative screening; SIM or optimized targeted acquisition is commonly used for sensitive targeted quantification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-interview",
+      "title": "GC-MS Interview & Practical Questions",
+      "filters": [
+        { "label": "💼 Interview", "tag": "interview" },
+        { "label": "🏭 QC", "tag": "qc" },
+        { "label": "🔧 Practical", "tag": "practical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "interview-questions",
+          "topic_title": "High-Yield Interview Concepts",
+          "notes_list": [
+            {
+              "id": "gcms125",
+              "title": "GC-MS में Vacuum क्यों?",
+              "tags": ["interview", "vacuum"],
+              "basic_overview": "Mass analyzer में ions को controlled trajectory और minimal gas-phase collisions के साथ transmit करने के लिए high vacuum आवश्यक है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Poor vacuum → higher background, lower sensitivity and poor analyzer performance."
+            },
+            {
+              "id": "gcms126",
+              "title": "EI 70 eV क्यों Famous है?",
+              "tags": ["interview", "ei"],
+              "basic_overview": "70 eV EI एक widely standardized operating condition है जो reproducible fragmentation patterns produce करती है और extensive spectral libraries के साथ compatibility देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "It is not a universal requirement for every instrument or application; it is a conventional reference condition in EI mass spectrometry."
+            },
+            {
+              "id": "gcms127",
+              "title": "SIM कब चुनेंगे?",
+              "tags": ["interview", "sim"],
+              "basic_overview": "Known target analytes के sensitive targeted analysis में SIM useful हो सकती है, especially when full-scan sensitivity is insufficient.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For unknown screening, full scan is generally more informative."
+            },
+            {
+              "id": "gcms128",
+              "title": "GC-MS में Helium vs Hydrogen",
+              "tags": ["carrier-gas", "interview"],
+              "basic_overview": "Helium inert और widely used carrier gas है; hydrogen suitable GC configurations में high efficiency and fast analysis provide कर सकता है लेकिन safety and method compatibility considerations important हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Gas selection should consider instrument compatibility, safety systems, column dimensions, flow optimization and laboratory policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-exam-tricks",
+      "title": "MSc Entrance, GATE, CSIR-NET, PSU & Competitive Exam Tricks",
+      "filters": [
+        { "label": "🎓 MSc", "tag": "msc" },
+        { "label": "🎯 GATE", "tag": "gate" },
+        { "label": "🧠 NET", "tag": "net" },
+        { "label": "🏭 PSU", "tag": "psu" }
+      ],
+      "topics": [
+        {
+          "topic_id": "exam-tricks",
+          "topic_title": "High-Yield One-Liners",
+          "notes_list": [
+            {
+              "id": "gcms129",
+              "title": "GC-MS Core Rule",
+              "tags": ["exam", "trick"],
+              "basic_overview": "GC separates; MS identifies and characterizes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "GC = retention time. MS = m/z + fragmentation pattern."
+            },
+            {
+              "id": "gcms130",
+              "title": "Base Peak",
+              "tags": ["exam", "trick"],
+              "basic_overview": "Base peak = most intense peak, not necessarily molecular ion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "This is one of the most common mass-spectrometry MCQ traps."
+            },
+            {
+              "id": "gcms131",
+              "title": "Chlorine Pattern",
+              "tags": ["exam", "isotope"],
+              "basic_overview": "One chlorine commonly gives M:M+2 ≈ 3:1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Two chlorines approximately give 9:6:1."
+            },
+            {
+              "id": "gcms132",
+              "title": "Bromine Pattern",
+              "tags": ["exam", "isotope"],
+              "basic_overview": "One bromine commonly gives M:M+2 ≈ 1:1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Two bromines approximately give 1:2:1."
+            },
+            {
+              "id": "gcms133",
+              "title": "EI vs CI",
+              "tags": ["exam", "ei", "ci"],
+              "basic_overview": "EI = harder ionization and richer reproducible fragmentation; CI = softer ionization and molecular-mass-related ions often more prominent.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Remember: library matching is particularly strong with standardized EI spectra."
+            },
+            {
+              "id": "gcms134",
+              "title": "SIM vs SCAN",
+              "tags": ["exam", "sim", "scan"],
+              "basic_overview": "SCAN = broad spectral acquisition; SIM = targeted ion monitoring for improved sensitivity/selectivity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Unknown identification → SCAN. Known trace target → SIM, where appropriate."
+            },
+            {
+              "id": "gcms135",
+              "title": "Column Bleed",
+              "tags": ["exam", "column-bleed"],
+              "basic_overview": "Column bleed generally increases with temperature and column condition/age and contributes to MS background.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Use low-bleed GC-MS columns and respect maximum temperature limits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gcms-rapid-revision",
+      "title": "GC-MS Rapid Revision",
+      "filters": [
+        { "label": "⚡ Quick Revision", "tag": "revision" },
+        { "label": "🎯 Exam Hall", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "one-minute-gcms",
+          "topic_title": "One-Minute GC-MS Revision",
+          "notes_list": [
+            {
+              "id": "gcms136",
+              "title": "GC",
+              "tags": ["revision"],
+              "basic_overview": "Volatile/semi-volatile compounds की chromatographic separation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Retention depends on volatility + stationary-phase interaction."
+            },
+            {
+              "id": "gcms137",
+              "title": "MS",
+              "tags": ["revision"],
+              "basic_overview": "Ions को m/z के आधार पर analyze करके mass spectrum देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Mass spectrum provides molecular and fragmentation information."
+            },
+            {
+              "id": "gcms138",
+              "title": "EI",
+              "tags": ["revision"],
+              "basic_overview": "Common hard ionization technique; 70 eV is a conventional reference condition.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Rich reproducible fragmentation enables library matching."
+            },
+            {
+              "id": "gcms139",
+              "title": "Base Peak",
+              "tags": ["revision"],
+              "basic_overview": "Most intense ion = 100% relative intensity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Base peak need not be M⁺•."
+            },
+            {
+              "id": "gcms140",
+              "title": "Molecular Ion",
+              "tags": ["revision"],
+              "basic_overview": "Intact molecular radical cation in EI, when sufficiently stable to observe.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Molecular ion may be weak or absent."
+            },
+            {
+              "id": "gcms141",
+              "title": "Cl Isotope Signature",
+              "tags": ["revision"],
+              "basic_overview": "One Cl → M:M+2 approximately 3:1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Two Cl → approximately 9:6:1."
+            },
+            {
+              "id": "gcms142",
+              "title": "Br Isotope Signature",
+              "tags": ["revision"],
+              "basic_overview": "One Br → M:M+2 approximately 1:1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Two Br → approximately 1:2:1."
+            },
+            {
+              "id": "gcms143",
+              "title": "SIM",
+              "tags": ["revision"],
+              "basic_overview": "Targeted ion monitoring for sensitive quantitative/targeted analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Use quantifier and qualifier ions according to validated method."
+            },
+            {
+              "id": "gcms144",
+              "title": "Vacuum",
+              "tags": ["revision"],
+              "basic_overview": "Required for efficient ion transmission and mass analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Poor vacuum can produce high background and low sensitivity."
+            },
+            {
+              "id": "gcms145",
+              "title": "Library Match",
+              "tags": ["revision"],
+              "basic_overview": "Useful identification evidence, but should be cross-checked rather than treated as absolute proof.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Combine spectrum, retention behaviour and standards where appropriate."
+            },
+            {
+              "id": "gcms146",
+              "title": "GC-MS Debugging Rule",
+              "tags": ["revision", "troubleshooting"],
+              "basic_overview": "No result होने पर GC side और MS side को systematically isolate करके diagnose करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "GC side: gas → inlet → column → oven. MS side: interface → vacuum → source → analyzer → detector → acquisition."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

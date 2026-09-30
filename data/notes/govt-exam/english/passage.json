@@ -1,0 +1,749 @@
+{
+  "chapter_title": "English Passage: Reading Comprehension Tips & Tricks",
+  "sections": [
+    {
+      "id": "passage-basics",
+      "title": "Passage Reading Basics",
+      "filters": [
+        {
+          "label": "📖 Passage Basics",
+          "tag": "passage-basics"
+        },
+        {
+          "label": "🎯 SSC",
+          "tag": "ssc"
+        },
+        {
+          "label": "🏛️ DSSSB",
+          "tag": "dsssb"
+        },
+        {
+          "label": "📚 UPSC",
+          "tag": "upsc"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-basics-01",
+          "topic_title": "How to Approach an English Passage",
+          "notes_list": [
+            {
+              "id": "p001",
+              "title": "First Reading Strategy",
+              "tags": ["passage-basics", "ssc", "dsssb", "upsc"],
+              "basic_overview": "• Read the passage with the objective of understanding the <b>central idea</b>, not memorising every sentence.<br>• Identify the subject, direction of argument and important facts.<br>• Notice repeated words, contrast words and conclusion markers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 Focus on words such as however, although, therefore, because, consequently, but, yet, moreover and finally. They often reveal the logical structure of the passage."
+            },
+            {
+              "id": "p002",
+              "title": "Do Not Read Every Sentence at the Same Speed",
+              "tags": ["passage-basics"],
+              "basic_overview": "• Read important argumentative and factual sentences carefully.<br>• Transitional or repetitive sentences can often be processed faster.<br>• Slow down when the author introduces a conclusion, example, comparison or major claim.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 The objective is not speed alone. The goal is maximum comprehension with minimum unnecessary rereading."
+            },
+            {
+              "id": "p003",
+              "title": "Understand the Passage Before the Options",
+              "tags": ["passage-basics", "ssc", "dsssb"],
+              "basic_overview": "• First understand what the passage is saying.<br>• Then examine the answer options.<br>• Avoid allowing a tempting option to change the interpretation of the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🧠 Options are designed to look plausible. Passage-based evidence should control the answer, not the wording of the option."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-basics-02",
+          "topic_title": "Skimming & Scanning",
+          "notes_list": [
+            {
+              "id": "p004",
+              "title": "Skimming",
+              "tags": ["passage-basics", "skimming"],
+              "basic_overview": "• Skimming means reading quickly to understand the <b>overall idea and structure</b> of the passage.<br>• Focus on the opening, topic sentences, transitions and conclusion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Useful when the question asks about the main idea, title, tone or overall purpose."
+            },
+            {
+              "id": "p005",
+              "title": "Scanning",
+              "tags": ["passage-basics", "scanning"],
+              "basic_overview": "• Scanning means searching for a <b>specific piece of information</b> such as a name, date, number, place or keyword.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Useful for direct factual questions. Locate the relevant portion first and then read the surrounding lines carefully."
+            },
+            {
+              "id": "p006",
+              "title": "Skimming vs Scanning",
+              "tags": ["passage-basics"],
+              "basic_overview": "• <b>Skimming:</b> overall understanding.<br>• <b>Scanning:</b> locating specific information.<br>• Strong passage solving uses both techniques according to the question type.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Do not scan blindly for keywords. A keyword may appear in the passage but the surrounding context may change its meaning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question-types",
+      "title": "Types of Passage Questions",
+      "filters": [
+        {
+          "label": "❓ Question Types",
+          "tag": "question-types"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-question-01",
+          "topic_title": "Main Idea & Central Theme",
+          "notes_list": [
+            {
+              "id": "p101",
+              "title": "Main Idea Questions",
+              "tags": ["question-types", "main-idea"],
+              "basic_overview": "• The main idea is the central point around which the passage is developed.<br>• It should cover the passage as a whole rather than one isolated detail.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 Ask: 'What is the author mainly discussing?' or 'What is the passage primarily about?'"
+            },
+            {
+              "id": "p102",
+              "title": "Central Theme vs Supporting Detail",
+              "tags": ["main-idea"],
+              "basic_overview": "• A central theme covers the broad message.<br>• A supporting detail explains, illustrates or proves the central idea.<br>• An option based on only one paragraph is usually too narrow for a main-idea question.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "⚠️ A correct statement can still be the wrong answer if it represents only a minor detail."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-question-02",
+          "topic_title": "Fact-Based Questions",
+          "notes_list": [
+            {
+              "id": "p103",
+              "title": "Direct Information Questions",
+              "tags": ["question-types", "fact-based"],
+              "basic_overview": "• These questions ask for information explicitly stated in the passage.<br>• Locate the relevant sentence and verify the complete context before selecting an option.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: According to the passage..., The author states that..., Which of the following is mentioned?"
+            },
+            {
+              "id": "p104",
+              "title": "Keyword Matching Trap",
+              "tags": ["fact-based"],
+              "basic_overview": "• An option containing the exact keyword from the passage is not automatically correct.<br>• Compare the complete meaning of the option with the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🚨 Examiners may use the same words but alter the relationship, quantity, cause or conclusion."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-question-03",
+          "topic_title": "Inference Questions",
+          "notes_list": [
+            {
+              "id": "p105",
+              "title": "How to Solve Inference Questions",
+              "tags": ["question-types", "inference"],
+              "basic_overview": "• An inference is a conclusion that can reasonably be drawn from the information given.<br>• It need not be stated word-for-word, but it must be supported by the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🎯 Ask: 'What must be reasonably true if the author's statements are accepted?'"
+            },
+            {
+              "id": "p106",
+              "title": "Inference vs Assumption",
+              "tags": ["inference"],
+              "basic_overview": "• <b>Inference:</b> logically supported by the passage.<br>• <b>Assumption:</b> an additional belief not necessarily supported by the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "⚠️ Avoid outside knowledge unless the question explicitly requires it."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-question-04",
+          "topic_title": "Vocabulary in Context",
+          "notes_list": [
+            {
+              "id": "p107",
+              "title": "Meaning of a Word in Context",
+              "tags": ["question-types", "vocabulary"],
+              "basic_overview": "• Do not automatically select the dictionary meaning of a word.<br>• Read the sentence containing the word and at least one sentence before or after it.<br>• Determine the meaning from context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 The same word can have different meanings in different contexts."
+            },
+            {
+              "id": "p108",
+              "title": "Context Clues",
+              "tags": ["vocabulary"],
+              "basic_overview": "• Look for synonyms, examples, contrasts, definitions and cause-effect relationships near the unfamiliar word.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Useful clues: 'that is', 'in other words', 'such as', 'but', 'however', 'because', 'therefore'."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-question-05",
+          "topic_title": "Tone & Attitude",
+          "notes_list": [
+            {
+              "id": "p109",
+              "title": "Author's Tone",
+              "tags": ["question-types", "tone"],
+              "basic_overview": "• Tone describes the author's attitude toward the subject.<br>• Possible tones include neutral, critical, optimistic, pessimistic, analytical, concerned, appreciative, sarcastic and persuasive.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#db2777",
+              "extra_info_content": "🎯 Identify emotionally loaded words, praise, criticism, warnings and recommendations before deciding the tone."
+            },
+            {
+              "id": "p110",
+              "title": "Tone vs Topic",
+              "tags": ["tone"],
+              "basic_overview": "• Topic tells what the passage discusses.<br>• Tone tells how the author discusses it.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#db2777",
+              "extra_info_content": "Example: A passage may discuss pollution as its topic while adopting a concerned or critical tone."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-question-06",
+          "topic_title": "Title & Purpose",
+          "notes_list": [
+            {
+              "id": "p111",
+              "title": "Choosing the Best Title",
+              "tags": ["question-types", "title"],
+              "basic_overview": "• The best title should be concise and represent the central idea of the entire passage.<br>• Avoid options that focus on only one example or minor detail.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "🎯 A good title is neither unnecessarily broad nor excessively narrow."
+            },
+            {
+              "id": "p112",
+              "title": "Author's Purpose",
+              "tags": ["question-types", "purpose"],
+              "basic_overview": "• Common purposes include informing, explaining, comparing, criticising, persuading, describing, warning or suggesting.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "Look at what the author is doing: presenting facts, explaining causes, arguing for a position, comparing ideas or recommending action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "option-elimination",
+      "title": "Option Elimination Techniques",
+      "filters": [
+        {
+          "label": "✂️ Elimination",
+          "tag": "elimination"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-elimination-01",
+          "topic_title": "Rejecting Incorrect Options",
+          "notes_list": [
+            {
+              "id": "p201",
+              "title": "Extreme Words Trap",
+              "tags": ["elimination"],
+              "basic_overview": "• Be cautious with options containing extreme words such as <b>always, never, completely, only, all, none, entirely</b> unless the passage clearly supports them.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "⚠️ Extreme wording is not automatically wrong, but it requires strong textual support."
+            },
+            {
+              "id": "p202",
+              "title": "Outside Knowledge Trap",
+              "tags": ["elimination"],
+              "basic_overview": "• Passage questions should generally be answered from the information and logic contained in the passage.<br>• A statement may be factually true in the real world but still be unsupported by the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🎯 Treat the passage as the evidence base unless the question explicitly asks for external information."
+            },
+            {
+              "id": "p203",
+              "title": "Half-True Option",
+              "tags": ["elimination"],
+              "basic_overview": "• An option may contain one correct part and one incorrect or unsupported part.<br>• Such an option should be rejected if the question requires a completely correct answer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🔍 Break every option into smaller claims and verify each claim against the passage."
+            },
+            {
+              "id": "p204",
+              "title": "Opposite Meaning Trap",
+              "tags": ["elimination"],
+              "basic_overview": "• Some options use words from the passage but reverse the author's meaning or relationship.<br>• Check whether the option preserves the original direction of the argument.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: The passage says a policy reduced unemployment; an option saying it increased unemployment reverses the relationship."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paragraph-structure",
+      "title": "Understanding Passage Structure",
+      "filters": [
+        {
+          "label": "🧩 Structure",
+          "tag": "structure"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-structure-01",
+          "topic_title": "Topic Sentence & Supporting Ideas",
+          "notes_list": [
+            {
+              "id": "p301",
+              "title": "Topic Sentence",
+              "tags": ["structure"],
+              "basic_overview": "• A topic sentence introduces the main idea of a paragraph.<br>• It is often found near the beginning, but its position can vary.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 Supporting sentences may provide examples, explanations, evidence or consequences."
+            },
+            {
+              "id": "p302",
+              "title": "Supporting Details",
+              "tags": ["structure"],
+              "basic_overview": "• Supporting details explain, prove, illustrate or qualify the central claim.<br>• Examples, statistics, comparisons and reasons commonly function as support.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 If a question asks about a specific detail, locate the relevant supporting section rather than relying only on the opening sentence."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-structure-02",
+          "topic_title": "Transitions & Logical Connectors",
+          "notes_list": [
+            {
+              "id": "p303",
+              "title": "Contrast Markers",
+              "tags": ["structure"],
+              "basic_overview": "• Words such as however, although, nevertheless, despite and whereas indicate contrast or qualification.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 The statement following a contrast marker may modify or challenge the previous idea."
+            },
+            {
+              "id": "p304",
+              "title": "Cause & Effect Markers",
+              "tags": ["structure"],
+              "basic_overview": "• Cause markers: because, since, due to, owing to.<br>• Effect markers: therefore, hence, thus, consequently, as a result.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🎯 Identifying cause-effect relationships helps solve inference and factual questions."
+            },
+            {
+              "id": "p305",
+              "title": "Addition & Example Markers",
+              "tags": ["structure"],
+              "basic_overview": "• Addition: moreover, furthermore, also, besides.<br>• Examples: for example, for instance, such as.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "📌 Examples normally support a broader point rather than becoming the main idea themselves."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-structure-03",
+          "topic_title": "Conclusion & Final Paragraph",
+          "notes_list": [
+            {
+              "id": "p306",
+              "title": "Recognising the Conclusion",
+              "tags": ["structure"],
+              "basic_overview": "• Conclusions may restate the central idea, draw an inference, provide a recommendation or summarise consequences.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common markers: therefore, thus, in conclusion, overall, hence, ultimately, to sum up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inference-critical",
+      "title": "Inference & Critical Reading",
+      "filters": [
+        {
+          "label": "🧠 Inference",
+          "tag": "inference"
+        },
+        {
+          "label": "🔎 Critical Reading",
+          "tag": "critical-reading"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-inference-01",
+          "topic_title": "Logical Inference",
+          "notes_list": [
+            {
+              "id": "p401",
+              "title": "Evidence-Based Inference",
+              "tags": ["inference", "critical-reading"],
+              "basic_overview": "• Combine relevant statements from the passage to reach a conclusion that is logically supported.<br>• Do not add assumptions that require information outside the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 The strongest inference is the one requiring the fewest unsupported assumptions."
+            },
+            {
+              "id": "p402",
+              "title": "Author's Implication",
+              "tags": ["inference"],
+              "basic_overview": "• An implication is something suggested by the author's statements even if it is not stated directly.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Ask: 'What does this statement suggest when combined with the other information in the passage?'"
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-inference-02",
+          "topic_title": "Fact, Opinion & Claim",
+          "notes_list": [
+            {
+              "id": "p403",
+              "title": "Fact vs Opinion",
+              "tags": ["critical-reading"],
+              "basic_overview": "• A <b>fact</b> is presented as verifiable information.<br>• An <b>opinion</b> expresses an evaluation, belief or interpretation.<br>• A <b>claim</b> is an assertion that may require evidence.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "📌 Words such as best, terrible, excellent or unfair may indicate evaluation, but context must be considered."
+            },
+            {
+              "id": "p404",
+              "title": "Evidence Used by the Author",
+              "tags": ["critical-reading"],
+              "basic_overview": "• Authors may support claims using examples, statistics, historical references, expert statements, comparisons or observations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🎯 When asked how an argument is supported, identify the type of evidence rather than simply repeating the claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-strategy",
+      "title": "Vocabulary Strategy for Passages",
+      "filters": [
+        {
+          "label": "📚 Vocabulary",
+          "tag": "vocabulary"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-vocab-01",
+          "topic_title": "Unknown Words",
+          "notes_list": [
+            {
+              "id": "p501",
+              "title": "Do Not Stop at Every Difficult Word",
+              "tags": ["vocabulary"],
+              "basic_overview": "• In a competitive exam passage, not every unfamiliar word needs to be decoded.<br>• Continue reading if the word is not necessary for answering the questions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🎯 Stop and analyse an unfamiliar word when it is directly asked or essential to understanding the argument."
+            },
+            {
+              "id": "p502",
+              "title": "Positive or Negative Context",
+              "tags": ["vocabulary"],
+              "basic_overview": "• When exact meaning is unknown, first determine whether the word has a positive, negative or neutral contextual function.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "This can help eliminate clearly incompatible answer options."
+            },
+            {
+              "id": "p503",
+              "title": "Root & Context Clues",
+              "tags": ["vocabulary"],
+              "basic_overview": "• Use familiar prefixes, suffixes, roots and surrounding context to estimate meaning.<br>• Confirm the estimated meaning against the sentence.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Examples: anti- often indicates against; pre- often indicates before; -less often indicates absence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-specific",
+      "title": "Exam-Specific Passage Strategy",
+      "filters": [
+        {
+          "label": "🎯 SSC Strategy",
+          "tag": "ssc"
+        },
+        {
+          "label": "🏛️ DSSSB Strategy",
+          "tag": "dsssb"
+        },
+        {
+          "label": "📖 UPSC Strategy",
+          "tag": "upsc"
+        },
+        {
+          "label": "🏦 Banking Strategy",
+          "tag": "banking"
+        },
+        {
+          "label": "🚆 Railway Strategy",
+          "tag": "railway"
+        },
+        {
+          "label": "🛡️ Defence Strategy",
+          "tag": "defence"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-exam-01",
+          "topic_title": "SSC Passage Strategy",
+          "notes_list": [
+            {
+              "id": "p601",
+              "title": "SSC Reading Comprehension Approach",
+              "tags": ["ssc"],
+              "basic_overview": "• Read for central idea first.<br>• For factual questions, locate the relevant lines.<br>• For vocabulary, use context.<br>• For inference, select only what is supported by the passage.<br>• Avoid spending excessive time on one difficult question.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🎯 SSC passages can combine factual, vocabulary, inference and main-idea questions. Adapt the reading method to the question type."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-exam-02",
+          "topic_title": "DSSSB Passage Strategy",
+          "notes_list": [
+            {
+              "id": "p602",
+              "title": "DSSSB Reading Approach",
+              "tags": ["dsssb"],
+              "basic_overview": "• Read the passage for its central argument and supporting details.<br>• Pay attention to vocabulary, grammar and direct comprehension questions.<br>• Verify options against exact passage evidence.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📌 Questions can reward careful reading more than assumptions based on general knowledge."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-exam-03",
+          "topic_title": "UPSC Passage Strategy",
+          "notes_list": [
+            {
+              "id": "p603",
+              "title": "UPSC CSAT Comprehension Approach",
+              "tags": ["upsc"],
+              "basic_overview": "• Focus on logical comprehension rather than merely locating identical words.<br>• Distinguish what the passage states from what an option merely assumes.<br>• Analyse qualifiers, conditions and logical relationships carefully.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎯 In analytical comprehension, pay special attention to words such as only, necessarily, primarily, mainly, cannot, may and must."
+            },
+            {
+              "id": "p604",
+              "title": "Statement-Based Inference",
+              "tags": ["upsc", "inference"],
+              "basic_overview": "• Treat each statement as evidence.<br>• Determine whether the conclusion necessarily follows, merely may follow or does not follow.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "⚠️ Do not select an option merely because it sounds reasonable. It must be logically supported by the given information."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-exam-04",
+          "topic_title": "Banking Exam Passage Strategy",
+          "notes_list": [
+            {
+              "id": "p605",
+              "title": "Banking RC Speed Strategy",
+              "tags": ["banking"],
+              "basic_overview": "• Identify the passage topic quickly.<br>• Solve direct questions first if they require little searching.<br>• Use contextual vocabulary clues.<br>• Return to difficult inference questions after securing easier questions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🎯 Speed should not come at the cost of accuracy. Use question order strategically."
+            }
+          ]
+        },
+        {
+          "topic_id": "passage-exam-05",
+          "topic_title": "Railway & Defence Exam Strategy",
+          "notes_list": [
+            {
+              "id": "p606",
+              "title": "Fast Comprehension Method",
+              "tags": ["railway", "defence"],
+              "basic_overview": "• Read the opening and conclusion carefully.<br>• Identify the subject and author's direction.<br>• Use scanning for direct questions.<br>• Eliminate options contradicted by the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📌 For short passages, reading the complete passage carefully may be faster than repeatedly searching for isolated keywords."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-management",
+      "title": "Time Management",
+      "filters": [
+        {
+          "label": "⏱️ Time Management",
+          "tag": "time-management"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-time-01",
+          "topic_title": "Time Allocation",
+          "notes_list": [
+            {
+              "id": "p701",
+              "title": "Passage Time Strategy",
+              "tags": ["time-management"],
+              "basic_overview": "• Do not use one fixed time limit for every passage.<br>• Passage length, number of questions and difficulty should determine the time spent.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🎯 If a question requires extensive rereading, mark it mentally and move to another question when the exam format permits."
+            },
+            {
+              "id": "p702",
+              "title": "Easy-to-Difficult Question Order",
+              "tags": ["time-management"],
+              "basic_overview": "• Start with direct factual questions when they can be solved quickly.<br>• Then attempt vocabulary and moderate inference questions.<br>• Leave highly uncertain questions for later when appropriate.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "📌 This is a general strategy, not a fixed rule. Follow the actual exam interface and marking scheme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-traps",
+      "title": "Common Passage Traps",
+      "filters": [
+        {
+          "label": "🚨 Common Traps",
+          "tag": "traps"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-traps-01",
+          "topic_title": "Frequently Seen Traps",
+          "notes_list": [
+            {
+              "id": "p801",
+              "title": "Keyword Trap",
+              "tags": ["traps"],
+              "basic_overview": "• The option repeats a word from the passage but changes its meaning or relationship.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Always verify the complete sentence and surrounding context."
+            },
+            {
+              "id": "p802",
+              "title": "Extreme Statement Trap",
+              "tags": ["traps"],
+              "basic_overview": "• An option changes a limited statement into an absolute one by using words such as always, never, all or none.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Check whether the passage itself uses equally strong language."
+            },
+            {
+              "id": "p803",
+              "title": "Outside Information Trap",
+              "tags": ["traps"],
+              "basic_overview": "• An option may be generally true but not supported by the passage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "For comprehension questions, passage evidence normally takes priority over personal knowledge."
+            },
+            {
+              "id": "p804",
+              "title": "Author's View vs Reported View",
+              "tags": ["traps"],
+              "basic_overview": "• A passage may mention another person's opinion without endorsing it.<br>• Distinguish the author's own position from a view merely reported or quoted.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Look for reporting verbs and contrast markers such as argues, claims, according to, however and but."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-revision",
+      "title": "Quick Revision Rules",
+      "filters": [
+        {
+          "label": "⚡ Quick Revision",
+          "tag": "quick-revision"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "passage-revision-01",
+          "topic_title": "30-Second Passage Checklist",
+          "notes_list": [
+            {
+              "id": "p901",
+              "title": "Before Answering",
+              "tags": ["quick-revision"],
+              "basic_overview": "• What is the passage about?<br>• What is the author's main purpose?<br>• What is the author's tone?<br>• What is the central argument?<br>• Which details support it?",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🧠 Mental checklist: Topic → Main Idea → Purpose → Tone → Evidence → Questions."
+            },
+            {
+              "id": "p902",
+              "title": "For Every Option",
+              "tags": ["quick-revision"],
+              "basic_overview": "• Is it directly supported?<br>• Is it an inference that logically follows?<br>• Does it contradict the passage?<br>• Does it add outside information?<br>• Is it too broad or too narrow?",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎯 If an option fails any essential evidence check, eliminate it."
+            },
+            {
+              "id": "p903",
+              "title": "Golden Rule of Reading Comprehension",
+              "tags": ["quick-revision"],
+              "basic_overview": "• <b>Answer from the passage, not from personal opinion.</b><br>• Evidence first, interpretation second.<br>• Read the exact wording of the question before choosing an option.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "📌 The correct answer is the option best supported by the passage and the exact question asked."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

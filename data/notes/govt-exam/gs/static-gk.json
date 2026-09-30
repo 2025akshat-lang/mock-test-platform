@@ -4,7 +4,21 @@
   "search_sub_menus": [
     { "label": "All Items", "tag": "all" },
     { "label": "💃 Fairs & Dances", "tag": "culture" },
-    { "label": "🎵 Gharanas", "tag": "music" }
+    { "label": "🎵 Gharanas", "tag": "music" },
+    { "label": "🏛️ Monuments", "tag": "monuments" },
+    { "label": "📚 Books & Authors", "tag": "books" },
+    { "label": "🏆 Awards", "tag": "awards" },
+    { "label": "🎖️ Important Persons", "tag": "personalities" },
+    { "label": "📅 Important Days", "tag": "days" },
+    { "label": "🌍 World Geography", "tag": "world-geography" },
+    { "label": "🇮🇳 Indian Geography", "tag": "indian-geography" },
+    { "label": "🔬 Science & Technology", "tag": "science" },
+    { "label": "💰 Economy & Banking", "tag": "economy" },
+    { "label": "⚽ Sports", "tag": "sports" },
+    { "label": "🏢 Organizations", "tag": "organizations" },
+    { "label": "🪖 Defence", "tag": "defence" },
+    { "label": "💻 Computer & Internet", "tag": "computer" },
+    { "label": "🇮🇳 National Symbols", "tag": "national-symbols" }
   ],
   "hierarchy": [
     {
@@ -20,10 +34,990 @@
               "id": "st_gk_001",
               "title": "Kathak & Major Gharanas",
               "tags": ["culture", "music"],
-              "basic_overview": "• <b>Kathak:</b> Primary classical dance form of Northern India.\n• <b>Core Gharanas:</b> Lucknow Gharana (Bhava/Expression), Jaipur Gharana (Speed/Footwork), Banaras Gharana.",
+              "basic_overview": "• <b>Kathak:</b> Classical dance tradition associated mainly with North India.\n• <b>Major Gharanas:</b> Lucknow, Jaipur, Banaras and Raigarh.\n• Lucknow emphasizes expression and grace, while Jaipur is particularly known for rhythm and footwork.",
               "has_extra_info": true,
               "extra_info_btn_color": "#8b5cf6",
-              "extra_info_content": "👑 Revision Extra Info:\n- Lucknow Gharana was patronized by Nawab Wajid Ali Shah.\n- Prominent Exponents: Birju Maharaj, Lacchu Maharaj.\n- Raigarh Gharana is also associated with Kathak, established by Raja Chakradhar Singh."
+              "extra_info_content": "👑 Revision Extra Info:\n- Lucknow Gharana was strongly patronized by Nawab Wajid Ali Shah.\n- Major exponents include Birju Maharaj and Lacchu Maharaj.\n- Raigarh Gharana developed under Raja Chakradhar Singh."
+            },
+            {
+              "id": "st_gk_002",
+              "title": "Bharatanatyam",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Bharatanatyam:</b> Classical dance tradition originating in Tamil Nadu.\n• Characterised by precise footwork, hand gestures, facial expression and structured body movements.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ec4899",
+              "extra_info_content": "💃 Revision Extra Info:\n- Traditionally associated with the temples and cultural traditions of Tamil Nadu.\n- Important components include Nritta, Nritya and Natya."
+            },
+            {
+              "id": "st_gk_003",
+              "title": "Kathakali",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Kathakali:</b> Classical dance-drama tradition of Kerala.\n• Known for elaborate costumes, facial makeup, hand gestures and dramatic storytelling.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎭 Revision Extra Info:\n- Kathakali traditionally presents stories from Indian epics and related traditions.\n- Chutti makeup around the face is an important visual feature."
+            },
+            {
+              "id": "st_gk_004",
+              "title": "Kuchipudi",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Kuchipudi:</b> Classical dance tradition associated with Andhra Pradesh.\n• Combines dance, drama, music, expressive gestures and rhythmic movement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "💃 Revision Extra Info:\n- The tradition takes its name from Kuchipudi village in Andhra Pradesh.\n- Siddhendra Yogi is traditionally associated with its development."
+            },
+            {
+              "id": "st_gk_005",
+              "title": "Odissi",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Odissi:</b> Classical dance tradition of Odisha.\n• Known for tribhangi posture, graceful movements and sculptural poses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "🛕 Revision Extra Info:\n- Odissi has strong historical connections with temple traditions of Odisha.\n- Jayadeva's Gita Govinda has had an important influence on its repertoire."
+            },
+            {
+              "id": "st_gk_006",
+              "title": "Manipuri",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Manipuri:</b> Classical dance tradition of Manipur.\n• Known for graceful movements and strong connections with Vaishnavite traditions and Ras Lila.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#6366f1",
+              "extra_info_content": "🌸 Revision Extra Info:\n- Ras Lila is a major component of Manipuri dance tradition.\n- Movements are generally soft and rounded rather than sharply angular."
+            },
+            {
+              "id": "st_gk_007",
+              "title": "Mohiniyattam",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Mohiniyattam:</b> Classical dance tradition of Kerala.\n• Characterised by graceful, gentle movements and expressive performance.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#14b8a6",
+              "extra_info_content": "🌿 Revision Extra Info:\n- The name is associated with Mohini, the enchanting female form of Vishnu in Hindu mythology.\n- Traditionally performed by women."
+            },
+            {
+              "id": "st_gk_008",
+              "title": "Sattriya",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Sattriya:</b> Classical dance tradition of Assam.\n• Developed within the Vaishnavite monastery tradition associated with Srimanta Sankardeva.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#059669",
+              "extra_info_content": "🛕 Revision Extra Info:\n- Sattras are Vaishnavite monasteries of Assam.\n- The dance tradition developed as part of devotional performance practices."
+            }
+          ]
+        },
+        {
+          "topic_id": "folk-dances",
+          "topic_title": "Major Indian Folk Dances",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_009",
+              "title": "Bhangra & Giddha",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Bhangra:</b> Energetic folk dance associated with Punjab.\n• <b>Giddha:</b> Traditional women's folk dance of Punjab.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🌾 Revision Extra Info:\n- Bhangra has strong historical connections with agricultural celebrations.\n- Giddha is commonly performed with rhythmic clapping and traditional songs."
+            },
+            {
+              "id": "st_gk_010",
+              "title": "Garba & Dandiya Raas",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Garba:</b> Folk dance tradition of Gujarat.\n• <b>Dandiya Raas:</b> Group dance performed using decorated sticks, strongly associated with Gujarat.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ec4899",
+              "extra_info_content": "🪔 Revision Extra Info:\n- Both are strongly associated with Navratri celebrations.\n- Garba traditionally involves circular movement around a central symbolic representation."
+            },
+            {
+              "id": "st_gk_011",
+              "title": "Ghoomar",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Ghoomar:</b> Traditional folk dance associated with Rajasthan.\n• Known for circular movements and colourful traditional costumes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🏜️ Revision Extra Info:\n- Ghoomar is traditionally associated with women's community celebrations in Rajasthan."
+            },
+            {
+              "id": "st_gk_012",
+              "title": "Lavani",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Lavani:</b> Popular folk performance tradition of Maharashtra.\n• Combines energetic dance with Marathi musical and poetic performance.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🥁 Revision Extra Info:\n- Lavani is commonly performed to the rhythm of the dholki.\n- It has been associated with Maharashtra's Tamasha performance tradition."
+            },
+            {
+              "id": "st_gk_013",
+              "title": "Bihu Dance",
+              "tags": ["culture", "dance"],
+              "basic_overview": "• <b>Bihu:</b> Major folk dance tradition of Assam.\n• Closely associated with the Bihu festivals and agricultural cycle.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🌾 Revision Extra Info:\n- Rongali or Bohag Bihu is particularly associated with spring and the agricultural cycle.\n- Traditional instruments include the dhol, pepa and gogona."
+            }
+          ]
+        },
+        {
+          "topic_id": "indian-music",
+          "topic_title": "Indian Classical Music",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_014",
+              "title": "Hindustani Classical Music",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Hindustani Music:</b> Classical music tradition predominantly associated with northern, central and western India.\n• Major forms include Dhrupad, Khayal, Thumri and Tappa.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🎵 Revision Extra Info:\n- Important traditions include several gharanas.\n- Instruments commonly associated with Hindustani music include sitar, sarod, tabla, sarangi and bansuri."
+            },
+            {
+              "id": "st_gk_015",
+              "title": "Carnatic Classical Music",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Carnatic Music:</b> Classical music tradition of South India.\n• Strongly associated with compositions based on raga and tala.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🎼 Revision Extra Info:\n- The Carnatic tradition is closely associated with composers such as Tyagaraja, Muthuswami Dikshitar and Syama Sastri, known collectively as the Trinity of Carnatic music."
+            }
+          ]
+        },
+        {
+          "topic_id": "music-gharanas",
+          "topic_title": "Major Music Gharanas",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_016",
+              "title": "Gwalior Gharana",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Gwalior Gharana:</b> One of the important traditions of Hindustani vocal music.\n• Particularly associated with the development of the Khayal style.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#8b5cf6",
+              "extra_info_content": "🎵 Revision Extra Info:\n- It is often discussed as one of the foundational Khayal traditions.\n- Important associated musicians include Haddu Khan and Hassu Khan."
+            },
+            {
+              "id": "st_gk_017",
+              "title": "Kirana Gharana",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Kirana Gharana:</b> Major Hindustani vocal tradition.\n• Known particularly for emphasis on swara, melody and sustained tonal development.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#6366f1",
+              "extra_info_content": "🎶 Revision Extra Info:\n- Important exponents include Abdul Karim Khan, Abdul Wahid Khan, Bhimsen Joshi and Gangubai Hangal."
+            },
+            {
+              "id": "st_gk_018",
+              "title": "Patiala Gharana",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Patiala Gharana:</b> Hindustani vocal tradition known for rhythmic virtuosity, melodic ornamentation and powerful presentation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ec4899",
+              "extra_info_content": "🎵 Revision Extra Info:\n- Important associated artists include Ustad Bade Ghulam Ali Khan."
+            },
+            {
+              "id": "st_gk_019",
+              "title": "Agra Gharana",
+              "tags": ["music", "culture"],
+              "basic_overview": "• <b>Agra Gharana:</b> Important Hindustani vocal tradition with strong links to Dhrupad and Khayal.\n• Known for powerful voice production and rhythmic emphasis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🎵 Revision Extra Info:\n- Important exponents include Faiyaz Khan and Vilayat Hussain Khan."
+            }
+          ]
+        },
+        {
+          "topic_id": "indian-painting",
+          "topic_title": "Indian Painting Traditions",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_020",
+              "title": "Madhubani Painting",
+              "tags": ["culture", "painting"],
+              "basic_overview": "• <b>Madhubani:</b> Traditional painting style associated with Bihar.\n• Characterised by strong line work, symbolic motifs and vibrant colours.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🎨 Revision Extra Info:\n- Also known as Mithila painting.\n- Traditional themes include mythology, nature, religious symbolism and social life."
+            },
+            {
+              "id": "st_gk_021",
+              "title": "Warli Painting",
+              "tags": ["culture", "painting"],
+              "basic_overview": "• <b>Warli:</b> Tribal painting tradition associated with Maharashtra.\n• Uses simple geometric forms such as circles, triangles and lines.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#78716c",
+              "extra_info_content": "🎨 Revision Extra Info:\n- Traditionally uses a limited visual vocabulary to represent people, animals, farming and community activities."
+            },
+            {
+              "id": "st_gk_022",
+              "title": "Pattachitra",
+              "tags": ["culture", "painting"],
+              "basic_overview": "• <b>Pattachitra:</b> Traditional painting tradition associated especially with Odisha.\n• Known for intricate lines, decorative borders and mythological themes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🛕 Revision Extra Info:\n- Jagannath-related themes are prominent in Odisha Pattachitra traditions."
+            }
+          ]
+        },
+        {
+          "topic_id": "indian-handicrafts",
+          "topic_title": "Handicrafts & Textiles",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_023",
+              "title": "Indian Handloom Traditions",
+              "tags": ["culture", "handicrafts"],
+              "basic_overview": "India has diverse handloom traditions including Banarasi silk, Kanchipuram silk, Chanderi, Paithani, Patola and Pochampally textiles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🧵 Revision Extra Info:\n- Different regions developed distinctive weaving techniques, motifs, fibres and dyeing practices."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "monuments-and-architecture",
+      "chapter_title": "Monuments, Architecture & Heritage",
+      "topics": [
+        {
+          "topic_id": "ancient-architecture",
+          "topic_title": "Ancient Indian Architecture",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_101",
+              "title": "Sanchi Stupa",
+              "tags": ["monuments", "architecture"],
+              "basic_overview": "• <b>Sanchi:</b> Major Buddhist heritage site in Madhya Pradesh.\n• Famous for its stupas, gateways and Buddhist architectural remains.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "🏛️ Revision Extra Info:\n- The Great Stupa at Sanchi is associated with the Mauryan period and later additions and expansions."
+            },
+            {
+              "id": "st_gk_102",
+              "title": "Ajanta and Ellora Caves",
+              "tags": ["monuments", "architecture"],
+              "basic_overview": "• <b>Ajanta:</b> Famous for Buddhist cave architecture and paintings.\n• <b>Ellora:</b> Famous for Buddhist, Hindu and Jain cave monuments.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🪨 Revision Extra Info:\n- The Kailasa temple at Ellora is a major rock-cut architectural achievement."
+            }
+          ]
+        },
+        {
+          "topic_id": "medieval-architecture",
+          "topic_title": "Medieval Architecture",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_103",
+              "title": "Qutub Minar",
+              "tags": ["monuments", "architecture"],
+              "basic_overview": "• <b>Qutub Minar:</b> Historic monument in Delhi.\n• Construction was begun by Qutb-ud-din Aibak and continued by successors.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🏛️ Revision Extra Info:\n- The monument is part of the Qutb complex, which contains several significant Indo-Islamic architectural remains."
+            },
+            {
+              "id": "st_gk_104",
+              "title": "Taj Mahal",
+              "tags": ["monuments", "architecture"],
+              "basic_overview": "• <b>Taj Mahal:</b> Mughal-era monument in Agra, Uttar Pradesh.\n• Commissioned by Shah Jahan and built primarily in white marble.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "🕌 Revision Extra Info:\n- Built in the 17th century as a mausoleum associated with Mumtaz Mahal.\n- It is a UNESCO World Heritage Site."
+            }
+          ]
+        },
+        {
+          "topic_id": "unesco-india",
+          "topic_title": "UNESCO World Heritage Sites in India",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_105",
+              "title": "UNESCO Heritage Sites",
+              "tags": ["monuments", "heritage"],
+              "basic_overview": "India has numerous UNESCO World Heritage Sites representing cultural, natural and mixed heritage.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🌍 Revision Extra Info:\n- Examples include Taj Mahal, Qutub Minar, Ajanta Caves, Ellora Caves, Kaziranga National Park and the Mountain Railways of India."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "books-and-authors",
+      "chapter_title": "Books & Authors",
+      "topics": [
+        {
+          "topic_id": "indian-literature",
+          "topic_title": "Important Indian Books & Authors",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_201",
+              "title": "Ancient Indian Literature",
+              "tags": ["books", "literature"],
+              "basic_overview": "• <b>Ramayana:</b> Traditionally attributed to Valmiki.\n• <b>Mahabharata:</b> Traditionally attributed to Vyasa.\n• <b>Arthashastra:</b> Associated with Kautilya.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📚 Revision Extra Info:\n- Kalidasa is associated with works such as Abhijnanashakuntalam, Meghaduta and Raghuvamsha."
+            },
+            {
+              "id": "st_gk_202",
+              "title": "Modern Indian Literature",
+              "tags": ["books", "literature"],
+              "basic_overview": "Important modern Indian literary works include Gitanjali by Rabindranath Tagore, Godan by Munshi Premchand and Malgudi Days by R. K. Narayan.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "✍️ Revision Extra Info:\n- Rabindranath Tagore received the Nobel Prize in Literature in 1913.\n- Premchand wrote extensively in Hindi and Urdu."
+            }
+          ]
+        },
+        {
+          "topic_id": "books-autobiographies",
+          "topic_title": "Autobiographies & Memoirs",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_203",
+              "title": "Wings of Fire",
+              "tags": ["books", "literature"],
+              "basic_overview": "• <b>Wings of Fire:</b> Autobiographical work associated with A. P. J. Abdul Kalam.\n• Co-authored with Arun Tiwari.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "📖 Revision Extra Info:\n- The book describes Kalam's early life, education, scientific career and experiences in India's space and defence programmes."
+            },
+            {
+              "id": "st_gk_204",
+              "title": "The Story of My Experiments with Truth",
+              "tags": ["books", "literature"],
+              "basic_overview": "• <b>The Story of My Experiments with Truth:</b> Autobiography of Mahatma Gandhi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "📚 Revision Extra Info:\n- The work describes Gandhi's life experiences and reflections on truth, ethics and personal development."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "awards-and-honours",
+      "chapter_title": "Awards & Honours",
+      "topics": [
+        {
+          "topic_id": "national-awards",
+          "topic_title": "Indian National Awards",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_301",
+              "title": "Bharat Ratna",
+              "tags": ["awards", "national-awards"],
+              "basic_overview": "• <b>Bharat Ratna:</b> India's highest civilian award.\n• Awarded for exceptional service or performance of the highest order in any field of human endeavour.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#eab308",
+              "extra_info_content": "🏅 Revision Extra Info:\n- Instituted in 1954.\n- The award is not restricted to citizens of India."
+            },
+            {
+              "id": "st_gk_302",
+              "title": "Padma Awards",
+              "tags": ["awards", "national-awards"],
+              "basic_overview": "• <b>Padma Vibhushan:</b> Exceptional and distinguished service.\n• <b>Padma Bhushan:</b> Distinguished service of a high order.\n• <b>Padma Shri:</b> Distinguished contribution in various fields.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🏆 Revision Extra Info:\n- Padma Awards are announced annually around Republic Day.\n- The awards cover fields such as art, social work, public affairs, science, trade, medicine and sports."
+            }
+          ]
+        },
+        {
+          "topic_id": "international-awards",
+          "topic_title": "Major International Awards",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_303",
+              "title": "Nobel Prize",
+              "tags": ["awards", "international"],
+              "basic_overview": "• Nobel Prizes are awarded in Physics, Chemistry, Physiology or Medicine, Literature and Peace.\n• The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel is also commonly grouped with the Nobel Prizes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#eab308",
+              "extra_info_content": "🏅 Revision Extra Info:\n- The prizes originate from Alfred Nobel's will.\n- Nobel Peace Prize is awarded in Oslo, while the other Nobel Prizes are awarded in Stockholm."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "important-days",
+      "chapter_title": "Important Days & Dates",
+      "topics": [
+        {
+          "topic_id": "national-days",
+          "topic_title": "Indian National Days",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_401",
+              "title": "Republic Day",
+              "tags": ["days", "national-days"],
+              "basic_overview": "• <b>Republic Day:</b> 26 January.\n• Marks the date on which the Constitution of India came into force in 1950.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🇮🇳 Revision Extra Info:\n- The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950."
+            },
+            {
+              "id": "st_gk_402",
+              "title": "Independence Day",
+              "tags": ["days", "national-days"],
+              "basic_overview": "• <b>Independence Day:</b> 15 August.\n• Commemorates India's independence from British rule in 1947.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🇮🇳 Revision Extra Info:\n- The first Independence Day was observed on 15 August 1947."
+            },
+            {
+              "id": "st_gk_403",
+              "title": "Gandhi Jayanti",
+              "tags": ["days", "national-days"],
+              "basic_overview": "• <b>Gandhi Jayanti:</b> 2 October.\n• Marks the birth anniversary of Mahatma Gandhi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🕊️ Revision Extra Info:\n- 2 October is also observed as the International Day of Non-Violence."
+            }
+          ]
+        },
+        {
+          "topic_id": "international-days",
+          "topic_title": "Major International Days",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_404",
+              "title": "World Environment Day",
+              "tags": ["days", "environment"],
+              "basic_overview": "• <b>World Environment Day:</b> 5 June.\n• Observed to promote environmental awareness and action.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🌱 Revision Extra Info:\n- Led by the United Nations Environment Programme, the day is observed annually with a specific theme."
+            },
+            {
+              "id": "st_gk_405",
+              "title": "World Health Day",
+              "tags": ["days", "health"],
+              "basic_overview": "• <b>World Health Day:</b> 7 April.\n• Marks the anniversary of the founding of the World Health Organization.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ef4444",
+              "extra_info_content": "🌍 Revision Extra Info:\n- Observed annually by WHO and partners around a selected health-related theme."
+            },
+            {
+              "id": "st_gk_406",
+              "title": "International Women's Day",
+              "tags": ["days", "social"],
+              "basic_overview": "• <b>International Women's Day:</b> 8 March.\n• Observed internationally to recognise women's social, economic, cultural and political achievements.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#db2777",
+              "extra_info_content": "🌸 Revision Extra Info:\n- The day is associated with the global movement for women's rights and equality."
+            },
+            {
+              "id": "st_gk_407",
+              "title": "World Water Day",
+              "tags": ["days", "environment"],
+              "basic_overview": "• <b>World Water Day:</b> 22 March.\n• Focuses on the importance of freshwater and water-related issues.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "💧 Revision Extra Info:\n- World Water Day is coordinated by the United Nations and is observed annually with a specific theme."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "indian-geography-static",
+      "chapter_title": "Indian Geography Static Facts",
+      "topics": [
+        {
+          "topic_id": "indian-rivers",
+          "topic_title": "Major Indian Rivers",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_501",
+              "title": "Ganga River System",
+              "tags": ["indian-geography", "rivers"],
+              "basic_overview": "• The Ganga is one of India's major river systems.\n• Important tributaries include Yamuna, Ghaghara, Gandak and Kosi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "🌊 Revision Extra Info:\n- The Ganga basin covers a large part of northern India and supports dense settlement and agriculture."
+            },
+            {
+              "id": "st_gk_502",
+              "title": "Godavari River",
+              "tags": ["indian-geography", "rivers"],
+              "basic_overview": "• <b>Godavari:</b> Major Peninsular river.\n• Often referred to as the 'Dakshin Ganga' in Indian geographical references.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0ea5e9",
+              "extra_info_content": "🌊 Revision Extra Info:\n- It rises near Trimbakeshwar in Maharashtra and flows eastward into the Bay of Bengal."
+            }
+          ]
+        },
+        {
+          "topic_id": "indian-soils",
+          "topic_title": "Major Indian Soils",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_503",
+              "title": "Black Soil",
+              "tags": ["indian-geography", "soil"],
+              "basic_overview": "• <b>Black Soil:</b> Also called regur soil.\n• Particularly suitable for cotton cultivation because of its moisture-retaining capacity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#475569",
+              "extra_info_content": "🌱 Revision Extra Info:\n- Black soils are strongly associated with basaltic regions of the Deccan Plateau."
+            },
+            {
+              "id": "st_gk_504",
+              "title": "Alluvial Soil",
+              "tags": ["indian-geography", "soil"],
+              "basic_overview": "• <b>Alluvial Soil:</b> Deposited mainly by rivers.\n• Widespread across the Northern Plains and important for agriculture.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🌾 Revision Extra Info:\n- Alluvial soils vary in age and composition and include newer and older alluvial deposits."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "world-geography-static",
+      "chapter_title": "World Geography Static Facts",
+      "topics": [
+        {
+          "topic_id": "world-superlatives",
+          "topic_title": "Geographical Superlatives",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_601",
+              "title": "Continents",
+              "tags": ["world-geography"],
+              "basic_overview": "• <b>Largest continent:</b> Asia.\n• <b>Smallest continent:</b> Australia.\n• <b>Largest ocean:</b> Pacific Ocean.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "🌍 Revision Extra Info:\n- Antarctica is the southernmost continent and is largely covered by ice."
+            },
+            {
+              "id": "st_gk_602",
+              "title": "Major Mountains",
+              "tags": ["world-geography", "mountains"],
+              "basic_overview": "• <b>Mount Everest:</b> Highest mountain above sea level.\n• Located in the Himalayas on the Nepal–China border region.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🏔️ Revision Extra Info:\n- Mount Everest is known as Sagarmatha in Nepal and Chomolungma in Tibet."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "science-static",
+      "chapter_title": "Science & Technology Static GK",
+      "topics": [
+        {
+          "topic_id": "basic-science-facts",
+          "topic_title": "Basic Science Facts",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_701",
+              "title": "Human Body Facts",
+              "tags": ["science", "biology"],
+              "basic_overview": "• <b>Largest organ:</b> Skin.\n• <b>Largest internal organ:</b> Liver.\n• <b>Normal human chromosome number:</b> 46 in most somatic cells.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#ef4444",
+              "extra_info_content": "🔬 Revision Extra Info:\n- Human somatic cells normally contain 23 pairs of chromosomes.\n- Red blood cells in humans lack a nucleus when mature."
+            },
+            {
+              "id": "st_gk_702",
+              "title": "Units & Scientific Instruments",
+              "tags": ["science", "physics"],
+              "basic_overview": "• <b>Barometer:</b> Atmospheric pressure.\n• <b>Hygrometer:</b> Humidity.\n• <b>Anemometer:</b> Wind speed.\n• <b>Seismograph:</b> Earthquake vibrations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🧪 Revision Extra Info:\n- Thermometer measures temperature.\n- Ammeter measures electric current.\n- Voltmeter measures potential difference."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "economy-and-banking-static",
+      "chapter_title": "Economy & Banking Static GK",
+      "topics": [
+        {
+          "topic_id": "banking-terms",
+          "topic_title": "Important Banking Terms",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_801",
+              "title": "RBI",
+              "tags": ["economy", "banking"],
+              "basic_overview": "• <b>RBI:</b> Reserve Bank of India.\n• India's central bank and monetary authority.\n• Established in 1935 and nationalised in 1949.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🏦 Revision Extra Info:\n- RBI performs functions related to monetary policy, currency management, banking regulation and financial stability within its statutory framework."
+            },
+            {
+              "id": "st_gk_802",
+              "title": "Repo Rate & Reverse Repo",
+              "tags": ["economy", "banking"],
+              "basic_overview": "• <b>Repo:</b> Rate associated with RBI lending funds to eligible entities against securities under the monetary-policy framework.\n• <b>Reverse Repo:</b> Traditionally refers to the rate at which RBI absorbs liquidity from banks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "💰 Revision Extra Info:\n- Monetary policy instruments influence liquidity, credit conditions and interest rates in the financial system."
+            }
+          ]
+        },
+        {
+          "topic_id": "economic-terms",
+          "topic_title": "Basic Economic Terms",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_803",
+              "title": "GDP",
+              "tags": ["economy"],
+              "basic_overview": "• <b>GDP:</b> Gross Domestic Product.\n• Measures the monetary value of final goods and services produced within a country's geographical territory over a specified period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📊 Revision Extra Info:\n- GDP can be measured using production, income and expenditure approaches."
+            },
+            {
+              "id": "st_gk_804",
+              "title": "Inflation",
+              "tags": ["economy"],
+              "basic_overview": "• <b>Inflation:</b> Sustained increase in the general price level of goods and services over time.\n• It reduces the purchasing power of money when incomes do not rise proportionately.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "📈 Revision Extra Info:\n- Consumer price indices are commonly used to track changes in retail prices."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "sports-static",
+      "chapter_title": "Sports Static GK",
+      "topics": [
+        {
+          "topic_id": "sports-terms",
+          "topic_title": "Sports Terms & Facts",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_901",
+              "title": "Cricket Terminology",
+              "tags": ["sports", "cricket"],
+              "basic_overview": "• <b>Yorker:</b> Delivery pitching near the batter's feet.\n• <b>Bouncer:</b> Short-pitched delivery that rises sharply.\n• <b>Googly:</b> Deceptive delivery bowled by a leg-spinner.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🏏 Revision Extra Info:\n- Cricket is played between two teams, generally with eleven players per side in standard international formats."
+            },
+            {
+              "id": "st_gk_902",
+              "title": "Football Terminology",
+              "tags": ["sports", "football"],
+              "basic_overview": "• <b>Offside:</b> A player-position offence defined by the Laws of the Game.\n• <b>Penalty kick:</b> Awarded for certain direct-free-kick offences committed inside the defending team's penalty area.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "⚽ Revision Extra Info:\n- Football is governed internationally by the Laws of the Game maintained through the IFAB framework."
+            }
+          ]
+        },
+        {
+          "topic_id": "olympics",
+          "topic_title": "Olympic Games",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_903",
+              "title": "Olympic Games",
+              "tags": ["sports", "olympics"],
+              "basic_overview": "• The modern Olympic Games are an international multi-sport event.\n• The Olympic movement is governed by the International Olympic Committee.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🏅 Revision Extra Info:\n- The first modern Olympic Games were held in Athens in 1896."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "international-organizations",
+      "chapter_title": "International Organizations & Headquarters",
+      "topics": [
+        {
+          "topic_id": "united-nations",
+          "topic_title": "United Nations System",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1001",
+              "title": "United Nations",
+              "tags": ["organizations", "international"],
+              "basic_overview": "• <b>United Nations:</b> International organisation founded in 1945.\n• Headquarters: New York City.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🌍 Revision Extra Info:\n- The UN has six principal organs: General Assembly, Security Council, Economic and Social Council, International Court of Justice, Secretariat and Trusteeship Council."
+            },
+            {
+              "id": "st_gk_1002",
+              "title": "UNESCO",
+              "tags": ["organizations", "international"],
+              "basic_overview": "• <b>UNESCO:</b> United Nations Educational, Scientific and Cultural Organization.\n• Headquarters: Paris, France.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "📚 Revision Extra Info:\n- UNESCO works in areas including education, science, culture, communication and information."
+            },
+            {
+              "id": "st_gk_1003",
+              "title": "WHO",
+              "tags": ["organizations", "international"],
+              "basic_overview": "• <b>WHO:</b> World Health Organization.\n• Headquarters: Geneva, Switzerland.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🏥 Revision Extra Info:\n- WHO is the specialised agency of the United Nations responsible for international public health."
+            },
+            {
+              "id": "st_gk_1004",
+              "title": "World Bank",
+              "tags": ["organizations", "economy"],
+              "basic_overview": "• <b>World Bank:</b> International financial institution associated with development finance.\n• Headquarters: Washington, D.C.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "💰 Revision Extra Info:\n- The World Bank Group consists of several institutions, including IBRD and IDA."
+            },
+            {
+              "id": "st_gk_1005",
+              "title": "IMF",
+              "tags": ["organizations", "economy"],
+              "basic_overview": "• <b>IMF:</b> International Monetary Fund.\n• Headquarters: Washington, D.C.\n• Works on international monetary cooperation and financial stability.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "💵 Revision Extra Info:\n- The IMF provides policy advice, financial assistance and capacity development to member countries within its mandate."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "defence-static",
+      "chapter_title": "Defence & Military Static GK",
+      "topics": [
+        {
+          "topic_id": "indian-defence",
+          "topic_title": "Indian Armed Forces",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1101",
+              "title": "Indian Army",
+              "tags": ["defence", "india"],
+              "basic_overview": "• <b>Indian Army:</b> Land warfare branch of India's Armed Forces.\n• Responsible for military operations and defence on land.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#15803d",
+              "extra_info_content": "🪖 Revision Extra Info:\n- The Army is organised into commands and formations for operational and administrative purposes."
+            },
+            {
+              "id": "st_gk_1102",
+              "title": "Indian Navy",
+              "tags": ["defence", "india"],
+              "basic_overview": "• <b>Indian Navy:</b> Maritime warfare branch of India's Armed Forces.\n• Responsible for maritime security and naval operations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "⚓ Revision Extra Info:\n- The Navy operates surface ships, submarines, aircraft and other maritime assets."
+            },
+            {
+              "id": "st_gk_1103",
+              "title": "Indian Air Force",
+              "tags": ["defence", "india"],
+              "basic_overview": "• <b>Indian Air Force:</b> Air warfare branch of India's Armed Forces.\n• Responsible for air defence and air operations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#6366f1",
+              "extra_info_content": "✈️ Revision Extra Info:\n- The IAF operates fighter aircraft, transport aircraft, helicopters and other aviation systems."
+            }
+          ]
+        },
+        {
+          "topic_id": "missiles",
+          "topic_title": "Indian Missile Systems",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1104",
+              "title": "Agni Series",
+              "tags": ["defence", "missiles"],
+              "basic_overview": "• <b>Agni:</b> Family of Indian ballistic missile systems developed under India's strategic missile programme.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "🚀 Revision Extra Info:\n- Different Agni variants have different ranges and configurations."
+            },
+            {
+              "id": "st_gk_1105",
+              "title": "BrahMos",
+              "tags": ["defence", "missiles"],
+              "basic_overview": "• <b>BrahMos:</b> Supersonic cruise missile system developed through India-Russia cooperation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🚀 Revision Extra Info:\n- The name BrahMos is derived from the Brahmaputra and Moskva rivers."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "computer-static",
+      "chapter_title": "Computer, Internet & Digital GK",
+      "topics": [
+        {
+          "topic_id": "computer-basics",
+          "topic_title": "Computer Fundamentals",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1201",
+              "title": "CPU",
+              "tags": ["computer", "technology"],
+              "basic_overview": "• <b>CPU:</b> Central Processing Unit.\n• Performs instruction processing and controls many operations of a computer system.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "💻 Revision Extra Info:\n- Major functional components commonly discussed include the control unit, arithmetic and logic unit and registers."
+            },
+            {
+              "id": "st_gk_1202",
+              "title": "RAM & ROM",
+              "tags": ["computer", "technology"],
+              "basic_overview": "• <b>RAM:</b> Volatile memory used for active data and programs.\n• <b>ROM:</b> Non-volatile memory traditionally associated with persistent instructions or firmware.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🧠 Revision Extra Info:\n- RAM loses its stored contents when power is removed in normal systems.\n- Modern ROM terminology includes several forms of non-volatile memory."
+            }
+          ]
+        },
+        {
+          "topic_id": "internet-basics",
+          "topic_title": "Internet & Networking",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1203",
+              "title": "Internet",
+              "tags": ["computer", "internet"],
+              "basic_overview": "• <b>Internet:</b> Global network of interconnected computer networks using standard communication protocols.\n• Supports services such as the World Wide Web, email and file transfer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "🌐 Revision Extra Info:\n- The World Wide Web is a service that operates over the Internet and should not be treated as synonymous with the Internet itself."
+            },
+            {
+              "id": "st_gk_1204",
+              "title": "HTTP & HTTPS",
+              "tags": ["computer", "internet"],
+              "basic_overview": "• <b>HTTP:</b> Hypertext Transfer Protocol.\n• <b>HTTPS:</b> HTTP transmitted over a secure cryptographic connection using TLS.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🔐 Revision Extra Info:\n- HTTPS helps protect data in transit against interception and tampering when correctly implemented."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapter_id": "national-symbols",
+      "chapter_title": "India: National Symbols & Important Facts",
+      "topics": [
+        {
+          "topic_id": "national-symbols",
+          "topic_title": "National Symbols of India",
+          "is_expandable": true,
+          "notes_list": [
+            {
+              "id": "st_gk_1301",
+              "title": "National Flag",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Flag:</b> Tricolour of saffron, white and green with the Ashoka Chakra in navy blue at the centre.\n• The Ashoka Chakra has 24 spokes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "🇮🇳 Revision Extra Info:\n- The present design of the national flag was adopted by the Constituent Assembly on 22 July 1947."
+            },
+            {
+              "id": "st_gk_1302",
+              "title": "National Emblem",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Emblem:</b> Adaptation of the Lion Capital of Ashoka at Sarnath.\n• The State Emblem includes the motto 'Satyameva Jayate'.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "🦁 Revision Extra Info:\n- The Lion Capital was erected by Emperor Ashoka at Sarnath.\n- The State Emblem was adopted on 26 January 1950."
+            },
+            {
+              "id": "st_gk_1303",
+              "title": "National Anthem",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Anthem:</b> Jana Gana Mana.\n• Written by Rabindranath Tagore.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🎵 Revision Extra Info:\n- Jana Gana Mana was adopted as India's National Anthem by the Constituent Assembly on 24 January 1950."
+            },
+            {
+              "id": "st_gk_1304",
+              "title": "National Song",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Song:</b> Vande Mataram.\n• Written by Bankim Chandra Chattopadhyay.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "🇮🇳 Revision Extra Info:\n- Vande Mataram appeared in Bankim Chandra Chattopadhyay's novel Anandamath."
+            },
+            {
+              "id": "st_gk_1305",
+              "title": "National Animal & Bird",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Animal:</b> Bengal Tiger.\n• <b>National Bird:</b> Indian Peacock.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "🐅 Revision Extra Info:\n- The Bengal tiger represents India's rich wildlife heritage.\n- The Indian peacock is recognised for its distinctive plumage and cultural significance."
+            },
+            {
+              "id": "st_gk_1306",
+              "title": "National Flower & Tree",
+              "tags": ["national-symbols", "india"],
+              "basic_overview": "• <b>National Flower:</b> Lotus.\n• <b>National Tree:</b> Banyan.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "🌸 Revision Extra Info:\n- Lotus has deep cultural and religious significance in India.\n- Banyan is notable for its extensive aerial roots and large canopy."
+            },
+            {
+              "id": "st_gk_1307",
+              "title": "National Aquatic Animal",
+              "tags": ["national-symbols", "india", "environment"],
+              "basic_overview": "• <b>National Aquatic Animal:</b> Ganges River Dolphin.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0284c7",
+              "extra_info_content": "🐬 Revision Extra Info:\n- The Ganges river dolphin is a freshwater cetacean associated with river systems of the Indian subcontinent."
             }
           ]
         }

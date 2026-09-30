@@ -1,0 +1,1684 @@
+{
+  "chapter_title": "Organic Chemistry Stereochemistry: Complete Theory, Configuration, Conformation & Exam Guide",
+  "sections": [
+    {
+      "id": "stereo-fundamentals",
+      "title": "Stereochemistry Fundamentals",
+      "filters": [
+        { "label": "Basics", "tag": "basics" },
+        { "label": "Concept", "tag": "concept" },
+        { "label": "MSc Entrance", "tag": "msc" },
+        { "label": "GATE", "tag": "gate" },
+        { "label": "CSIR-NET", "tag": "net" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-basic-01",
+          "topic_title": "Introduction to Stereochemistry",
+          "notes_list": [
+            {
+              "id": "st001",
+              "title": "What is Stereochemistry?",
+              "tags": ["basics", "concept"],
+              "basic_overview": "Stereochemistry deals with the three-dimensional arrangement of atoms in molecules and the consequences of that arrangement on molecular properties and reactions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Two molecules can have the same molecular formula and connectivity but differ in their three-dimensional arrangement. Such compounds are stereoisomers. Stereochemistry is especially important in chirality, optical activity, biological recognition and stereoselective synthesis."
+            },
+            {
+              "id": "st002",
+              "title": "Constitutional Isomers vs Stereoisomers",
+              "tags": ["isomerism", "concept"],
+              "basic_overview": "Constitutional isomers have different atom connectivity, whereas stereoisomers have the same connectivity but differ in three-dimensional arrangement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: ethanol and dimethyl ether are constitutional isomers because their connectivity differs. Enantiomers and diastereomers have identical connectivity but different spatial arrangements."
+            },
+            {
+              "id": "st003",
+              "title": "Configurational vs Conformational Isomers",
+              "tags": ["configuration", "conformation"],
+              "basic_overview": "Configurational stereoisomers generally require bond breaking to interconvert, whereas conformers interconvert by rotation about single bonds without changing connectivity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "R and S enantiomers cannot normally interconvert by simple bond rotation. Anti and gauche conformations of butane can interconvert by rotation around the central C-C bond."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-chirality",
+      "title": "Chirality & Optical Activity",
+      "filters": [
+        { "label": "Chirality", "tag": "chirality" },
+        { "label": "Optical Activity", "tag": "optical" },
+        { "label": "Enantiomer", "tag": "enantiomer" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-chiral-01",
+          "topic_title": "Chirality",
+          "notes_list": [
+            {
+              "id": "st004",
+              "title": "Definition of Chirality",
+              "tags": ["chirality", "basics"],
+              "basic_overview": "A molecule is chiral if it is not superimposable on its mirror image.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The word chirality is derived from the Greek word for hand. Left and right hands are mirror images but cannot be superimposed. A chiral molecule and its mirror image form an enantiomeric pair."
+            },
+            {
+              "id": "st005",
+              "title": "Chiral Centre",
+              "tags": ["chiral-center", "chirality"],
+              "basic_overview": "A tetrahedral atom, commonly carbon, attached to four distinguishable substituents can act as a stereogenic centre.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The common example is an sp3 carbon bonded to H, OH, CH3 and another different carbon group. However, not every stereogenic centre must be carbon, and chirality can also arise without a conventional chiral carbon."
+            },
+            {
+              "id": "st006",
+              "title": "Chiral vs Achiral Molecules",
+              "tags": ["chirality", "achiral"],
+              "basic_overview": "A chiral molecule has a non-superimposable mirror image, whereas an achiral molecule is superimposable on its mirror image.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "A molecule can contain stereogenic centres and still be achiral if an internal symmetry element makes the entire molecule superimposable on its mirror image. Meso compounds are the classic example."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-chiral-02",
+          "topic_title": "Symmetry and Chirality",
+          "notes_list": [
+            {
+              "id": "st007",
+              "title": "Plane of Symmetry",
+              "tags": ["symmetry", "chirality"],
+              "basic_overview": "A mirror plane is a plane that divides a molecule into two regions that are mirror-related. The presence of a suitable internal mirror plane makes a molecule achiral.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For ordinary molecular chirality analysis, a molecule possessing an internal plane of symmetry is achiral. Symmetry analysis should be performed on the complete three-dimensional structure, not only on a flat drawing."
+            },
+            {
+              "id": "st008",
+              "title": "Centre of Symmetry",
+              "tags": ["symmetry", "inversion"],
+              "basic_overview": "A centre of inversion is a point through which equivalent atoms or groups can be related by inversion. Its presence is incompatible with ordinary molecular chirality.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "If an atom or point at position (x,y,z) is transformed through the inversion centre, the corresponding position is (-x,-y,-z). A molecule possessing a centre of inversion is achiral."
+            },
+            {
+              "id": "st009",
+              "title": "Improper Rotation Axis",
+              "tags": ["symmetry", "chirality"],
+              "basic_overview": "An improper rotation operation combines rotation with reflection. A molecule possessing an Sn improper rotation axis is achiral.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The existence of any improper rotation axis, including a mirror plane because S1 is equivalent to reflection and an inversion centre because S2 is equivalent to inversion, is sufficient for achirality."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-enantiomers-diastereomers",
+      "title": "Enantiomers, Diastereomers & Identical Compounds",
+      "filters": [
+        { "label": "Enantiomers", "tag": "enantiomer" },
+        { "label": "Diastereomers", "tag": "diastereomer" },
+        { "label": "Identical", "tag": "identical" },
+        { "label": "Comparison", "tag": "comparison" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-ed-01",
+          "topic_title": "Enantiomers",
+          "notes_list": [
+            {
+              "id": "st010",
+              "title": "Definition of Enantiomers",
+              "tags": ["enantiomer", "chirality"],
+              "basic_overview": "Enantiomers are stereoisomers that are non-superimposable mirror images of each other.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Enantiomers have identical achiral physical properties such as melting point, boiling point and density under identical conditions, but they rotate plane-polarized light in equal magnitude and opposite directions and can behave differently in chiral environments."
+            },
+            {
+              "id": "st011",
+              "title": "Enantiomeric Relationship and R/S",
+              "tags": ["enantiomer", "r-s"],
+              "basic_overview": "For a molecule with a corresponding set of stereogenic centres, an enantiomer normally has the opposite configuration at every stereogenic centre.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For example, a molecule designated (2R,3R) has the corresponding complete mirror-image configuration (2S,3S), provided no unusual stereochemical descriptor issue changes the comparison."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-ed-02",
+          "topic_title": "Diastereomers",
+          "notes_list": [
+            {
+              "id": "st012",
+              "title": "Definition of Diastereomers",
+              "tags": ["diastereomer", "comparison"],
+              "basic_overview": "Diastereomers are stereoisomers that are not mirror images of one another.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "For molecules with multiple stereogenic elements, changing some but not all configurations commonly produces diastereomers. Unlike enantiomers, diastereomers generally have different melting points, boiling points, solubilities and other physical properties."
+            },
+            {
+              "id": "st013",
+              "title": "R/S Pattern for Diastereomers",
+              "tags": ["r-s", "diastereomer"],
+              "basic_overview": "If two stereoisomers differ at at least one stereogenic centre but not all corresponding centres, they are commonly diastereomers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Example: (2R,3R) and (2R,3S) are diastereomers. (2R,3R) and (2S,3S) are an enantiomeric pair when the molecular framework permits the direct comparison."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-ed-03",
+          "topic_title": "Identical Compounds",
+          "notes_list": [
+            {
+              "id": "st014",
+              "title": "How to Identify Identical Structures",
+              "tags": ["identical", "structure"],
+              "basic_overview": "Two drawings represent the same compound if one can be transformed into the other by valid rotations or conformational changes without changing configuration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Do not declare two structures different simply because their wedges and dashes look different. Rotate the entire molecule in three dimensions or convert both structures into the same Fischer, Newman or wedge-dash reference before comparing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-rs",
+      "title": "R/S Configuration & CIP Rules",
+      "filters": [
+        { "label": "R/S", "tag": "r-s" },
+        { "label": "CIP", "tag": "cip" },
+        { "label": "Configuration", "tag": "configuration" },
+        { "label": "Numerical", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-rs-01",
+          "topic_title": "Cahn–Ingold–Prelog Rules",
+          "notes_list": [
+            {
+              "id": "st015",
+              "title": "CIP Priority Rule 1",
+              "tags": ["cip", "r-s"],
+              "basic_overview": "Priority is first assigned according to the atomic number of the atom directly attached to the stereogenic centre. Higher atomic number receives higher priority.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For directly attached atoms, I > Br > Cl > S > O > N > C > H. Isotopes are ranked by mass number when comparing isotopes of the same element."
+            },
+            {
+              "id": "st016",
+              "title": "CIP Priority for Isotopes",
+              "tags": ["cip", "isotope"],
+              "basic_overview": "For isotopes of the same element, the isotope with the larger mass number receives higher CIP priority.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: D has higher priority than H because both are hydrogen but deuterium has greater mass number. Tritium has higher priority than deuterium and protium."
+            },
+            {
+              "id": "st017",
+              "title": "CIP Rule for Tied Carbon Atoms",
+              "tags": ["cip", "carbon"],
+              "basic_overview": "When two directly attached atoms are both carbon, compare the atoms attached to those carbons in decreasing priority order until the first difference appears.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "For example, compare CH2OH and CH3: the carbon of CH2OH is attached to O, H and H, whereas CH3 is attached to H, H and H. Therefore CH2OH receives higher priority."
+            },
+            {
+              "id": "st018",
+              "title": "CIP Treatment of Multiple Bonds",
+              "tags": ["cip", "multiple-bond"],
+              "basic_overview": "For CIP purposes, atoms connected by multiple bonds are treated as if the atom is connected to equivalent duplicate atoms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "A carbonyl carbon C=O is treated for comparison as being attached to O and a duplicate O. Therefore a carbonyl-containing branch can outrank an alkyl branch when the first point of difference is oxygen."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rs-02",
+          "topic_title": "Assigning R and S",
+          "notes_list": [
+            {
+              "id": "st019",
+              "title": "R/S Assignment Procedure",
+              "tags": ["r-s", "procedure"],
+              "basic_overview": "Assign priorities 1–4, orient the lowest-priority group away from the observer, trace 1 → 2 → 3, and classify the direction as R or S.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "If group 4 points away: clockwise 1→2→3 = R; counterclockwise = S. If group 4 points toward the observer, reverse the result. If group 4 lies in the plane, rotate or use a reliable geometric method before assigning configuration."
+            },
+            {
+              "id": "st020",
+              "title": "The Lowest-Priority Group Toward the Observer",
+              "tags": ["r-s", "exam-trap"],
+              "basic_overview": "When priority 4 points toward the observer, the apparent clockwise/counterclockwise result must be reversed.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "This is one of the most frequent R/S mistakes. Always check the orientation of priority 4 before reading the 1→2→3 sequence."
+            },
+            {
+              "id": "st021",
+              "title": "R/S Does Not Mean Plus/Minus",
+              "tags": ["r-s", "optical-rotation"],
+              "basic_overview": "R and S describe absolute configuration and do not directly indicate whether a compound rotates plane-polarized light clockwise or counterclockwise.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "(+) and (−) are experimental optical rotation descriptors. There is no general rule that R must be (+) or S must be (−). The sign of rotation must be experimentally determined or independently established."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-fischer",
+      "title": "Fischer Projection & Configuration",
+      "filters": [
+        { "label": "Fischer", "tag": "fischer" },
+        { "label": "R/S", "tag": "r-s" },
+        { "label": "Carbohydrates", "tag": "carbohydrates" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-fischer-01",
+          "topic_title": "Fischer Projection Rules",
+          "notes_list": [
+            {
+              "id": "st022",
+              "title": "Basic Fischer Projection",
+              "tags": ["fischer", "basics"],
+              "basic_overview": "In a Fischer projection, horizontal bonds point toward the observer and vertical bonds point away from the observer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The carbon chain is conventionally placed vertically. For carbohydrates, the most oxidized carbon is often drawn at the top. A Fischer projection is a specific three-dimensional representation, not simply a flat structural formula."
+            },
+            {
+              "id": "st023",
+              "title": "Fischer Rotation Rule",
+              "tags": ["fischer", "rotation"],
+              "basic_overview": "Rotating a Fischer projection by 180 degrees in the plane gives the same stereoisomer, whereas a 90-degree rotation changes the configuration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Allowed: 180-degree rotation of the complete Fischer projection. Not allowed as an identity operation: 90-degree rotation. Interchanging any two groups at a stereocentre inverts its configuration."
+            },
+            {
+              "id": "st024",
+              "title": "Fischer R/S Assignment",
+              "tags": ["fischer", "r-s"],
+              "basic_overview": "R/S can be assigned from a Fischer projection by applying CIP priorities while remembering that horizontal groups project toward the observer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "After tracing 1→2→3, if the lowest priority group is on a horizontal bond, reverse the apparent clockwise/counterclockwise result. If the lowest priority group is vertical, read the result normally."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-fischer-02",
+          "topic_title": "Fischer Projection in Sugars",
+          "notes_list": [
+            {
+              "id": "st025",
+              "title": "D and L Convention",
+              "tags": ["d-l", "carbohydrates", "fischer"],
+              "basic_overview": "In the Fischer convention for carbohydrates, D or L designation is determined by the configuration at the highest-numbered stereogenic carbon, relative to glyceraldehyde.",
+              "has_extra_info": true,
+              "extra_info_content": "For a standard Fischer projection of a monosaccharide, look at the chiral carbon farthest from the carbonyl carbon. OH on the right corresponds to D; OH on the left corresponds to L. D/L is a configurational descriptor and is not equivalent to +/− optical rotation."
+            },
+            {
+              "id": "st026",
+              "title": "D/L vs R/S",
+              "tags": ["d-l", "r-s", "exam-trap"],
+              "basic_overview": "D/L and R/S are different nomenclature systems and cannot be directly equated.",
+              "has_extra_info": true,
+              "extra_info_content": "A D compound can contain an R or S stereocentre depending on the structure. D/L is based on comparison with glyceraldehyde, while R/S follows the CIP priority system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-enantiomeric-mixtures",
+      "title": "Racemic Mixtures, Resolution & Optical Purity",
+      "filters": [
+        { "label": "Racemic", "tag": "racemic" },
+        { "label": "Resolution", "tag": "resolution" },
+        { "label": "Optical Purity", "tag": "optical-purity" },
+        { "label": "Numerical", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-racem-01",
+          "topic_title": "Racemic Mixture",
+          "notes_list": [
+            {
+              "id": "st027",
+              "title": "Definition of Racemic Mixture",
+              "tags": ["racemic", "optical"],
+              "basic_overview": "A racemic mixture contains equal amounts of two enantiomers and is optically inactive because their rotations cancel each other.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A racemic mixture is written as (±) or racemate in many contexts. The individual enantiomers are optically active, but the 1:1 mixture has zero net optical rotation under ideal conditions."
+            },
+            {
+              "id": "st028",
+              "title": "Racemic Compound vs Mesocompound",
+              "tags": ["racemic", "meso", "comparison"],
+              "basic_overview": "A racemic mixture contains two different enantiomers in equal proportion, whereas a meso compound is a single achiral molecule containing stereogenic centres.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Racemic inactivity is external compensation between molecules. Meso inactivity is internal compensation within the same molecule due to symmetry."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-racem-02",
+          "topic_title": "Optical Purity and Enantiomeric Excess",
+          "notes_list": [
+            {
+              "id": "st029",
+              "title": "Enantiomeric Excess",
+              "tags": ["ee", "numerical", "resolution"],
+              "basic_overview": "Enantiomeric excess measures the excess of one enantiomer over the other and is calculated as ee = |major enantiomer − minor enantiomer| when percentages are used.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 80% R and 20% S gives ee = 80 − 20 = 60%. If the total composition is known, major and minor enantiomer percentages can be obtained from ee using major = (100 + ee)/2 and minor = (100 − ee)/2."
+            },
+            {
+              "id": "st030",
+              "title": "Specific Rotation and Enantiomeric Composition",
+              "tags": ["specific-rotation", "numerical"],
+              "basic_overview": "The observed optical rotation of an enantiomeric mixture depends on the enantiomeric composition, concentration, path length and specific rotation under specified conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "For a simple enantiomeric mixture under controlled conditions, optical purity can be estimated by observed rotation divided by the rotation of the pure enantiomer, expressed as a percentage. Experimental conditions such as wavelength, temperature and solvent must match."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-racem-03",
+          "topic_title": "Resolution of Racemates",
+          "notes_list": [
+            {
+              "id": "st031",
+              "title": "Chemical Resolution",
+              "tags": ["resolution", "racemic"],
+              "basic_overview": "A racemic mixture can be resolved by converting enantiomers into diastereomeric derivatives using a chiral resolving agent, separating them based on different physical properties and regenerating the enantiomers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Classical resolution often uses formation of diastereomeric salts with a single-enantiomer acid or base. Because diastereomers have different physical properties, they can be separated by crystallization or chromatography."
+            },
+            {
+              "id": "st032",
+              "title": "Chiral Chromatographic Resolution",
+              "tags": ["chromatography", "resolution"],
+              "basic_overview": "Enantiomers can be separated directly using a chiral stationary phase that interacts differently with each enantiomer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Chiral HPLC and GC columns can resolve enantiomers without chemically converting them into diastereomers. This approach is widely used in analytical and pharmaceutical chemistry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-meso",
+      "title": "Meso Compounds & Internal Compensation",
+      "filters": [
+        { "label": "Meso", "tag": "meso" },
+        { "label": "Symmetry", "tag": "symmetry" },
+        { "label": "Optical Activity", "tag": "optical" },
+        { "label": "Exam Trap", "tag": "trap" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-meso-01",
+          "topic_title": "Meso Compounds",
+          "notes_list": [
+            {
+              "id": "st033",
+              "title": "Definition of Meso Compound",
+              "tags": ["meso", "chirality"],
+              "basic_overview": "A meso compound contains stereogenic centres but is achiral because its complete molecular structure possesses an internal symmetry element such as a mirror plane.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The classic example is meso-2,3-dichlorobutane or meso-2,3-dibromobutane in an appropriate conformation. The presence of stereogenic centres alone does not guarantee chirality."
+            },
+            {
+              "id": "st034",
+              "title": "Meso 2,3-Disubstituted Compounds",
+              "tags": ["meso", "r-s"],
+              "basic_overview": "Symmetrical molecules with two stereogenic centres can possess an internal plane of symmetry when the configurations are appropriately related, producing a meso stereoisomer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For a symmetric two-centre system, an R,S arrangement may correspond to the meso form, whereas R,R and S,S can form an enantiomeric pair. This must be checked against the actual molecular symmetry rather than applied blindly."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-meso-02",
+          "topic_title": "Meso vs Racemate",
+          "notes_list": [
+            {
+              "id": "st035",
+              "title": "Internal vs External Compensation",
+              "tags": ["meso", "racemate", "comparison"],
+              "basic_overview": "Meso compounds are optically inactive due to internal symmetry, while racemic mixtures are optically inactive because equal quantities of opposite enantiomers cancel externally.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Meso: one molecular species, internally compensated. Racemate: two enantiomeric molecular species, externally compensated. This distinction is frequently tested in conceptual questions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-number-isomers",
+      "title": "Number of Stereoisomers",
+      "filters": [
+        { "label": "Counting", "tag": "counting" },
+        { "label": "Numerical", "tag": "numerical" },
+        { "label": "Meso", "tag": "meso" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-count-01",
+          "topic_title": "2^n Rule",
+          "notes_list": [
+            {
+              "id": "st036",
+              "title": "Maximum Number of Stereoisomers",
+              "tags": ["counting", "numerical"],
+              "basic_overview": "For a molecule containing n independent stereogenic centres and no symmetry-related reduction, the maximum number of stereoisomers is 2^n.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For n = 1, maximum = 2; n = 2, maximum = 4; n = 3, maximum = 8. This is only a maximum. Symmetry can reduce the actual number because meso forms or equivalent configurations may occur."
+            },
+            {
+              "id": "st037",
+              "title": "Why 2^n Can Overestimate",
+              "tags": ["counting", "meso", "symmetry"],
+              "basic_overview": "The 2^n expression assumes independent stereogenic centres and no symmetry that makes different configurations identical.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "For symmetric molecules containing two equivalent stereogenic centres, the expected four configurations may collapse into three distinct stereoisomers: one enantiomeric pair and one meso compound."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-count-02",
+          "topic_title": "Counting Enantiomeric Pairs",
+          "notes_list": [
+            {
+              "id": "st038",
+              "title": "Enantiomer Pairs in a Simple System",
+              "tags": ["counting", "enantiomer"],
+              "basic_overview": "When all stereoisomers occur as enantiomeric pairs and no meso or other symmetry reduction occurs, the number of enantiomeric pairs is half the number of stereoisomers.",
+              "has_extra_info": true,
+              "extra_info_content": "For four stereoisomers forming two enantiomeric pairs, there are two pairs. If a meso form exists, it is achiral and does not belong to an enantiomeric pair with a distinct molecule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-ez",
+      "title": "E/Z & Geometrical Isomerism",
+      "filters": [
+        { "label": "E/Z", "tag": "e-z" },
+        { "label": "Geometrical", "tag": "geometrical" },
+        { "label": "CIP", "tag": "cip" },
+        { "label": "Alkene", "tag": "alkene" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-ez-01",
+          "topic_title": "Geometrical Isomerism",
+          "notes_list": [
+            {
+              "id": "st039",
+              "title": "Origin of Geometrical Isomerism",
+              "tags": ["geometrical", "alkene"],
+              "basic_overview": "Restricted rotation around a double bond or within certain rings can produce stereoisomers with different relative arrangements of substituents.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A simple alkene can show E/Z isomerism when each alkene carbon is attached to two different substituents. Cis/trans terminology may work for symmetric systems but E/Z is more general."
+            },
+            {
+              "id": "st040",
+              "title": "Cis/Trans Isomerism",
+              "tags": ["cis-trans", "alkene"],
+              "basic_overview": "Cis/trans terminology describes relative placement of comparable or reference substituents on the same or opposite sides of a double bond or ring.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Cis means relevant groups are on the same side and trans means opposite sides. The terminology can become ambiguous when all four alkene substituents are different, where E/Z is preferred."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-ez-02",
+          "topic_title": "E/Z Assignment",
+          "notes_list": [
+            {
+              "id": "st041",
+              "title": "CIP-Based E/Z Rule",
+              "tags": ["e-z", "cip"],
+              "basic_overview": "For each alkene carbon, assign priority between its two substituents using CIP rules. If the two higher-priority groups are on the same side, the alkene is Z; if they are on opposite sides, it is E.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Z comes from the German zusammen, meaning together. E comes from entgegen, meaning opposite. E/Z assignment requires determining priorities independently on both alkene carbons."
+            },
+            {
+              "id": "st042",
+              "title": "When E/Z Is Not Possible",
+              "tags": ["e-z", "exam-trap"],
+              "basic_overview": "An alkene cannot have E/Z stereoisomerism if one alkene carbon carries two identical substituents.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Example: CH2=CHCH3 has two identical H atoms on one alkene carbon and therefore does not have E/Z isomers. CH3CH=CHCH3 does have E/Z forms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-conformation",
+      "title": "Conformational Analysis of Acyclic Molecules",
+      "filters": [
+        { "label": "Conformation", "tag": "conformation" },
+        { "label": "Newman", "tag": "newman" },
+        { "label": "Energy", "tag": "energy" },
+        { "label": "Butane", "tag": "butane" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-conf-01",
+          "topic_title": "Ethane Conformations",
+          "notes_list": [
+            {
+              "id": "st043",
+              "title": "Staggered and Eclipsed Ethane",
+              "tags": ["ethane", "newman", "conformation"],
+              "basic_overview": "Rotation around the C-C bond of ethane produces staggered and eclipsed conformations. The staggered form is lower in energy because torsional strain is minimized.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The eclipsed conformation has greater torsional strain due to eclipsing C-H bonds. The rotational energy profile has three equivalent eclipsed maxima and three equivalent staggered minima during a full 360-degree rotation."
+            },
+            {
+              "id": "st044",
+              "title": "Dihedral Angle",
+              "tags": ["dihedral", "newman"],
+              "basic_overview": "The dihedral angle is the angle between two bonds or planes measured about a central bond and is central to conformational analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In a Newman projection, a 0-degree dihedral angle corresponds to eclipsing, 60 degrees to gauche/staggered relationships, 180 degrees to anti, and so on."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-conf-02",
+          "topic_title": "Butane Conformation",
+          "notes_list": [
+            {
+              "id": "st045",
+              "title": "Anti Conformation of Butane",
+              "tags": ["butane", "anti", "energy"],
+              "basic_overview": "The anti conformation of butane places the two methyl groups 180 degrees apart and is the lowest-energy major conformation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Anti is lower in energy than gauche because the two methyl groups are maximally separated. Gauche conformations have a 60-degree methyl-methyl dihedral angle and higher steric interaction."
+            },
+            {
+              "id": "st046",
+              "title": "Gauche Interaction",
+              "tags": ["butane", "gauche", "steric"],
+              "basic_overview": "A gauche butane conformation has the two methyl groups separated by approximately 60 degrees and is higher in energy than the anti conformer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The energy difference between anti and gauche conformations is commonly discussed using a value around 0.9 kcal/mol per gauche interaction for butane, although exact values depend on method and conditions."
+            },
+            {
+              "id": "st047",
+              "title": "Butane Energy Order",
+              "tags": ["energy", "butane"],
+              "basic_overview": "The approximate conformational energy order is anti staggered < gauche staggered < eclipsed with CH3-H overlap < fully eclipsed CH3-CH3 arrangement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The exact numerical energies depend on the model, but the qualitative order is robust: staggered conformations are lower than eclipsed conformations, and among staggered conformers anti is lower than gauche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-cyclohexane",
+      "title": "Cyclohexane Conformational Analysis",
+      "filters": [
+        { "label": "Cyclohexane", "tag": "cyclohexane" },
+        { "label": "Chair", "tag": "chair" },
+        { "label": "Axial/Equatorial", "tag": "axial-equatorial" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-cyclo-01",
+          "topic_title": "Chair Conformation",
+          "notes_list": [
+            {
+              "id": "st048",
+              "title": "Chair Form of Cyclohexane",
+              "tags": ["cyclohexane", "chair"],
+              "basic_overview": "The chair conformation is the most stable common conformation of cyclohexane because it minimizes angle strain and torsional strain.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "In the ideal chair, carbon-carbon bond angles are close to the tetrahedral value and neighboring bonds are staggered. Cyclohexane can undergo ring flipping between equivalent chair frameworks."
+            },
+            {
+              "id": "st049",
+              "title": "Axial and Equatorial Positions",
+              "tags": ["axial", "equatorial", "cyclohexane"],
+              "basic_overview": "Each carbon in a cyclohexane chair has one axial and one equatorial position. Axial bonds are approximately parallel to the ring axis, while equatorial bonds extend outward around the ring.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "On a chair, axial bonds alternate up and down around the ring. Equatorial bonds also alternate in orientation, but point outward. Ring flipping changes axial to equatorial and equatorial to axial while preserving up/down configuration."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-cyclo-02",
+          "topic_title": "A-Value",
+          "notes_list": [
+            {
+              "id": "st050",
+              "title": "A-Value of Substituents",
+              "tags": ["a-value", "cyclohexane", "energy"],
+              "basic_overview": "The A-value is an approximate measure of the energetic preference of a substituent for the equatorial position relative to the axial position in a cyclohexane chair.",
+              "has_extra_info": true,
+              "extra_info_content": "A larger A-value means a stronger preference for the equatorial position. Approximate textbook values at room temperature include CH3 around 1.7 kcal/mol and tert-butyl around 5.5 kcal/mol. Values vary somewhat with experimental and computational method."
+            },
+            {
+              "id": "st051",
+              "title": "tert-Butyl Group in Cyclohexane",
+              "tags": ["tert-butyl", "cyclohexane"],
+              "basic_overview": "The tert-butyl group has a very strong preference for the equatorial position and can effectively lock a cyclohexane chair into a preferred conformation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Because the tert-butyl group has a very large axial penalty, the conformer with tert-butyl equatorial is overwhelmingly favored under ordinary conditions."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-cyclo-03",
+          "topic_title": "Disubstituted Cyclohexanes",
+          "notes_list": [
+            {
+              "id": "st052",
+              "title": "1,2-Disubstituted Cyclohexane",
+              "tags": ["cyclohexane", "cis-trans"],
+              "basic_overview": "For 1,2-disubstituted cyclohexanes, cis and trans relationships determine whether the substituents can simultaneously occupy equatorial or axial positions.",
+              "has_extra_info": true,
+              "extra_info_content": "For identical substituents: trans-1,2 can adopt a diequatorial conformation, while cis-1,2 must have one axial and one equatorial substituent in either chair."
+            },
+            {
+              "id": "st053",
+              "title": "1,3-Disubstituted Cyclohexane",
+              "tags": ["cyclohexane", "cis-trans"],
+              "basic_overview": "For 1,3-disubstituted cyclohexanes, cis and trans relationships produce different axial/equatorial possibilities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For identical substituents: cis-1,3 can adopt a diequatorial conformation, while trans-1,3 necessarily has one axial and one equatorial substituent."
+            },
+            {
+              "id": "st054",
+              "title": "1,4-Disubstituted Cyclohexane",
+              "tags": ["cyclohexane", "cis-trans"],
+              "basic_overview": "For 1,4-disubstituted cyclohexanes, the cis/trans relationship controls whether the preferred chair can have both substituents equatorial.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "For identical substituents: trans-1,4 can adopt a diequatorial conformation, while cis-1,4 must have one axial and one equatorial substituent."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-cyclo-04",
+          "topic_title": "Ring Flip",
+          "notes_list": [
+            {
+              "id": "st055",
+              "title": "Cyclohexane Ring Flip",
+              "tags": ["ring-flip", "cyclohexane"],
+              "basic_overview": "A cyclohexane chair can invert to another chair. During the flip, every axial substituent becomes equatorial and every equatorial substituent becomes axial, while up/down orientation is retained.",
+              "has_extra_info": true,
+              "extra_info_content": "Critical exam rule: ring flip changes axial/equatorial designation but does not change cis/trans relationship. An up substituent remains up; a down substituent remains down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-newman",
+      "title": "Newman, Sawhorse & Wedge-Dash Representations",
+      "filters": [
+        { "label": "Newman", "tag": "newman" },
+        { "label": "Sawhorse", "tag": "sawhorse" },
+        { "label": "Wedge-Dash", "tag": "wedge-dash" },
+        { "label": "Conversion", "tag": "conversion" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-rep-01",
+          "topic_title": "Newman Projection",
+          "notes_list": [
+            {
+              "id": "st056",
+              "title": "Reading Newman Projection",
+              "tags": ["newman", "conformation"],
+              "basic_overview": "A Newman projection views a molecule directly along a carbon-carbon bond, allowing conformational relationships such as anti, gauche and eclipsed to be visualized.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The front carbon is represented by a dot and the rear carbon by a circle. Bonds from the front carbon begin at the dot; bonds from the rear carbon begin at the circle."
+            },
+            {
+              "id": "st057",
+              "title": "Converting Wedge-Dash to Newman",
+              "tags": ["newman", "conversion"],
+              "basic_overview": "To convert a wedge-dash structure into a Newman projection, choose the viewing direction along the desired C-C bond and redraw the substituents according to their three-dimensional orientations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The most reliable method is to physically imagine looking down the selected bond. Determine which carbon is front and which is rear, then place each substituent at its correct angular position."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rep-02",
+          "topic_title": "Sawhorse Projection",
+          "notes_list": [
+            {
+              "id": "st058",
+              "title": "Sawhorse Representation",
+              "tags": ["sawhorse", "conformation"],
+              "basic_overview": "A sawhorse projection represents a carbon-carbon bond at an oblique angle and displays the relative spatial arrangement of substituents on both carbon atoms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Sawhorse and Newman projections describe the same conformational information from different viewing perspectives. Conversion between them is common in advanced stereochemistry problems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-carbohydrates",
+      "title": "Carbohydrate Stereochemistry",
+      "filters": [
+        { "label": "Carbohydrates", "tag": "carbohydrates" },
+        { "label": "Fischer", "tag": "fischer" },
+        { "label": "Anomers", "tag": "anomer" },
+        { "label": "Haworth", "tag": "haworth" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-carb-01",
+          "topic_title": "D/L Sugars",
+          "notes_list": [
+            {
+              "id": "st059",
+              "title": "D and L Sugar Classification",
+              "tags": ["d-l", "sugar"],
+              "basic_overview": "D/L classification of sugars is based on the configuration of the stereogenic carbon farthest from the carbonyl carbon in the Fischer projection.",
+              "has_extra_info": true,
+              "extra_info_content": "OH on the right at the reference stereocentre corresponds to D; OH on the left corresponds to L. This classification does not predict the sign of optical rotation."
+            },
+            {
+              "id": "st060",
+              "title": "Epimers",
+              "tags": ["epimer", "carbohydrates"],
+              "basic_overview": "Epimers are diastereomers that differ in configuration at exactly one stereogenic centre other than anomeric centres when the term is used in carbohydrate chemistry.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Glucose and mannose are C-2 epimers, while glucose and galactose are C-4 epimers. Epimerization changes one specific stereogenic centre."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-carb-02",
+          "topic_title": "Anomers",
+          "notes_list": [
+            {
+              "id": "st061",
+              "title": "Alpha and Beta Anomers",
+              "tags": ["anomer", "carbohydrates"],
+              "basic_overview": "Anomers are stereoisomers of cyclic sugars that differ in configuration at the anomeric carbon formed during ring closure.",
+              "has_extra_info": true,
+              "extra_info_content": "For D-sugars in the conventional Haworth representation, alpha generally has the anomeric substituent trans to the CH2OH reference group, while beta has it cis. The exact visual relationship depends on the sugar and representation."
+            },
+            {
+              "id": "st062",
+              "title": "Mutarotation",
+              "tags": ["mutarotation", "anomer"],
+              "basic_overview": "Mutarotation is the change in optical rotation that occurs when alpha and beta anomers interconvert through the open-chain form in solution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Only reducing sugars with a free or accessible anomeric center can undergo ordinary mutarotation. The alpha and beta forms reach an equilibrium composition through ring opening and reclosure."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-carb-03",
+          "topic_title": "Haworth Projection",
+          "notes_list": [
+            {
+              "id": "st063",
+              "title": "Haworth Projection Rules",
+              "tags": ["haworth", "carbohydrates"],
+              "basic_overview": "Haworth projections represent cyclic sugars as planar-looking rings with substituents drawn above or below the ring plane.",
+              "has_extra_info": true,
+              "extra_info_content": "For common D-sugar Haworth conversions from Fischer projections, groups on the right side of the Fischer projection are commonly drawn down in the Haworth form, while groups on the left are drawn up, subject to the standard ring orientation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-prochirality",
+      "title": "Prochirality, Homotopicity & Heterotopicity",
+      "filters": [
+        { "label": "Prochirality", "tag": "prochirality" },
+        { "label": "Topicity", "tag": "topicity" },
+        { "label": "Re/Si", "tag": "re-si" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-pro-01",
+          "topic_title": "Prochiral Molecules",
+          "notes_list": [
+            {
+              "id": "st064",
+              "title": "Prochirality",
+              "tags": ["prochirality", "advanced"],
+              "basic_overview": "A molecule or atom is prochiral when a single suitable transformation can convert it into a chiral structure or when two otherwise equivalent groups can be distinguished by a stereochemical process.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A carbonyl carbon in an achiral aldehyde or ketone is often prochiral because addition to one face or the other can generate different stereochemical products in a chiral environment."
+            },
+            {
+              "id": "st065",
+              "title": "Re and Si Faces",
+              "tags": ["re-si", "prochirality"],
+              "basic_overview": "The two faces of a trigonal planar prochiral center can be designated Re and Si by assigning CIP priorities to the three attached groups and viewing the face.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "View the trigonal center from one face and trace priorities 1→2→3. Clockwise corresponds to Re and counterclockwise corresponds to Si. The designation is based on CIP priority, not simply the visual arrangement of substituents."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-pro-02",
+          "topic_title": "Homotopic, Enantiotopic and Diastereotopic Groups",
+          "notes_list": [
+            {
+              "id": "st066",
+              "title": "Homotopic Groups",
+              "tags": ["homotopic", "topicity"],
+              "basic_overview": "Homotopic atoms or groups are constitutionally equivalent and replacement of either by the same test group produces identical molecules.",
+              "has_extra_info": true,
+              "extra_info_content": "Homotopic groups are chemically equivalent in achiral and chiral environments under ordinary stereochemical replacement tests because the resulting products are identical."
+            },
+            {
+              "id": "st067",
+              "title": "Enantiotopic Groups",
+              "tags": ["enantiotopic", "topicity"],
+              "basic_overview": "Replacing one of two enantiotopic groups with a test group produces one enantiomer, while replacing the other produces the opposite enantiomer.",
+              "has_extra_info": true,
+              "extra_info_content": "Enantiotopic groups are equivalent in achiral environments but can become distinguishable in a chiral environment or during a stereoselective reaction."
+            },
+            {
+              "id": "st068",
+              "title": "Diastereotopic Groups",
+              "tags": ["diastereotopic", "topicity"],
+              "basic_overview": "Replacing one of two diastereotopic groups with a test group gives diastereomeric products. Such groups are chemically nonequivalent even in achiral environments.",
+              "has_extra_info": true,
+              "extra_info_content": "Diastereotopic hydrogens often appear as separate signals in NMR and can have different chemical shifts. A common example occurs for CH2 groups adjacent to a stereogenic centre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-atropisomerism",
+      "title": "Axial, Planar, Helical & Atropisomerism",
+      "filters": [
+        { "label": "Axial Chirality", "tag": "axial" },
+        { "label": "Atropisomerism", "tag": "atropisomerism" },
+        { "label": "Planar Chirality", "tag": "planar" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-atrop-01",
+          "topic_title": "Atropisomerism",
+          "notes_list": [
+            {
+              "id": "st069",
+              "title": "Definition of Atropisomerism",
+              "tags": ["atropisomerism", "axial"],
+              "basic_overview": "Atropisomerism occurs when restricted rotation about a single bond creates isolable stereoisomers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Substituted biphenyls are classic examples. If ortho substituents make rotation sufficiently slow, the two twisted arrangements can become configurationally stable at a given temperature."
+            },
+            {
+              "id": "st070",
+              "title": "Axial Chirality in Biphenyls",
+              "tags": ["axial", "biphenyl"],
+              "basic_overview": "A suitably substituted biphenyl can be chiral because restricted rotation produces a stable non-planar arrangement lacking a symmetry element that would make it achiral.",
+              "has_extra_info": true,
+              "extra_info_content": "Axial chirality is not based on a tetrahedral carbon stereocentre. Configuration can be described using specialized descriptors such as Ra/Sa or related nomenclature systems depending on the stereochemical framework."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-atrop-02",
+          "topic_title": "Planar Chirality",
+          "notes_list": [
+            {
+              "id": "st071",
+              "title": "Planar Chirality",
+              "tags": ["planar", "chirality"],
+              "basic_overview": "Planar chirality arises when a molecular framework containing a stereogenic plane has an asymmetric arrangement of substituents relative to that plane.",
+              "has_extra_info": true,
+              "extra_info_content": "Planar chirality is encountered in substituted cyclophanes, metallocenes and related constrained structures. The stereogenic element is a plane rather than a conventional tetrahedral stereocentre."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-atrop-03",
+          "topic_title": "Helical Chirality",
+          "notes_list": [
+            {
+              "id": "st072",
+              "title": "Helical Chirality",
+              "tags": ["helical", "chirality"],
+              "basic_overview": "Helical chirality occurs in molecules whose overall structure forms a right-handed or left-handed helix.",
+              "has_extra_info": true,
+              "extra_info_content": "Helical chirality is found in structures such as appropriately substituted helicenes. The two helical senses can correspond to enantiomeric structures when interconversion is sufficiently slow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-reaction-stereochemistry",
+      "title": "Stereochemistry of Organic Reactions",
+      "filters": [
+        { "label": "Reaction Stereochemistry", "tag": "reaction" },
+        { "label": "Syn/Anti", "tag": "syn-anti" },
+        { "label": "Stereoselectivity", "tag": "stereoselectivity" },
+        { "label": "Mechanism", "tag": "mechanism" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-reaction-01",
+          "topic_title": "SN1 Stereochemistry",
+          "notes_list": [
+            {
+              "id": "st073",
+              "title": "Stereochemistry of SN1",
+              "tags": ["sn1", "stereochemistry"],
+              "basic_overview": "SN1 reactions proceed through a planar carbocation intermediate, allowing nucleophilic attack from either face and often producing partial or substantial racemization at a stereogenic reaction centre.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The product is not always exactly 50:50 because ion pairs, solvent cages and neighboring groups can influence the two faces differently. Therefore the term racemization describes the stereochemical tendency rather than guaranteeing a perfectly racemic mixture in every experimental system."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-reaction-02",
+          "topic_title": "SN2 Stereochemistry",
+          "notes_list": [
+            {
+              "id": "st074",
+              "title": "Walden Inversion",
+              "tags": ["sn2", "walden", "inversion"],
+              "basic_overview": "SN2 substitution occurs through backside attack and causes inversion of configuration at the reaction centre when the reacting carbon is stereogenic.",
+              "has_extra_info": true,
+              "extra_info_content": "The nucleophile approaches opposite the leaving group. The geometry resembles an umbrella turning inside out. Important: inversion of configuration does not automatically mean the R descriptor always changes to S, because CIP priorities can change during the reaction."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-reaction-03",
+          "topic_title": "E2 Stereochemistry",
+          "notes_list": [
+            {
+              "id": "st075",
+              "title": "Anti-Periplanar Requirement",
+              "tags": ["e2", "anti-periplanar", "elimination"],
+              "basic_overview": "In many E2 eliminations, the C-H bond and C-X bond must adopt an anti-periplanar arrangement for efficient concerted elimination.",
+              "has_extra_info": true,
+              "extra_info_content": "In acyclic systems rotation can often generate the required anti arrangement. In cyclohexanes, E2 elimination commonly requires the leaving group and beta-hydrogen to be trans-diaxial, meaning both are axial and anti-periplanar."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-reaction-04",
+          "topic_title": "Syn Elimination",
+          "notes_list": [
+            {
+              "id": "st076",
+              "title": "Syn Elimination",
+              "tags": ["syn-elimination", "stereochemistry"],
+              "basic_overview": "Some elimination reactions proceed through syn-coplanar or syn-periplanar arrangements, where the departing groups are on the same side of the molecular framework.",
+              "has_extra_info": true,
+              "extra_info_content": "Syn elimination is less common than the classical anti E2 pathway but is important in certain pyrolytic and cyclic elimination reactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-addition",
+      "title": "Stereochemistry of Alkene & Alkyne Additions",
+      "filters": [
+        { "label": "Alkene", "tag": "alkene" },
+        { "label": "Addition", "tag": "addition" },
+        { "label": "Syn", "tag": "syn" },
+        { "label": "Anti", "tag": "anti" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-add-01",
+          "topic_title": "Bromination of Alkenes",
+          "notes_list": [
+            {
+              "id": "st077",
+              "title": "Anti Addition of Br2",
+              "tags": ["bromination", "anti", "alkene"],
+              "basic_overview": "Addition of Br2 to an alkene proceeds through a bromonium ion and generally gives anti addition.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The bromonium ion blocks direct attack from the same face. Bromide attacks from the opposite side, leading to anti stereochemistry. For cyclic alkenes this can generate predictable trans relationships."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-add-02",
+          "topic_title": "Hydroboration–Oxidation",
+          "notes_list": [
+            {
+              "id": "st078",
+              "title": "Syn Hydroboration",
+              "tags": ["hydroboration", "syn", "anti-markovnikov"],
+              "basic_overview": "Hydroboration occurs by syn addition of H and B across the alkene, followed by oxidation of the C-B bond to C-O.",
+              "has_extra_info": true,
+              "extra_info_content": "The overall hydration gives an anti-Markovnikov alcohol. The stereochemical relationship between H and OH reflects the syn hydroboration step, although the replacement of B by OH occurs during oxidation."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-add-03",
+          "topic_title": "Catalytic Hydrogenation",
+          "notes_list": [
+            {
+              "id": "st079",
+              "title": "Syn Hydrogenation",
+              "tags": ["hydrogenation", "syn", "alkene"],
+              "basic_overview": "Catalytic hydrogenation of alkenes occurs on a metal surface and generally results in syn addition of hydrogen.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Both hydrogen atoms are delivered from the catalyst surface to the same face of the adsorbed alkene. The exact stereochemical outcome in constrained systems depends on which face is accessible."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-add-04",
+          "topic_title": "Epoxide Ring Opening",
+          "notes_list": [
+            {
+              "id": "st080",
+              "title": "Stereochemistry of Epoxide Opening",
+              "tags": ["epoxide", "anti", "ring-opening"],
+              "basic_overview": "Nucleophilic opening of an epoxide generally occurs with backside attack and therefore gives anti or trans relationship between the incoming nucleophile and the oxygen-derived substituent.",
+              "has_extra_info": true,
+              "extra_info_content": "Under basic conditions, nucleophile attack generally occurs at the less substituted epoxide carbon. Under acidic conditions, protonated epoxide opening has greater substitution preference, but the attack still occurs from the backside."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-stereoselectivity",
+      "title": "Stereoselectivity & Stereospecificity",
+      "filters": [
+        { "label": "Stereoselectivity", "tag": "stereoselectivity" },
+        { "label": "Stereospecificity", "tag": "stereospecificity" },
+        { "label": "Selectivity", "tag": "selectivity" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-select-01",
+          "topic_title": "Stereoselective Reaction",
+          "notes_list": [
+            {
+              "id": "st081",
+              "title": "Definition of Stereoselectivity",
+              "tags": ["stereoselectivity", "concept"],
+              "basic_overview": "A stereoselective reaction preferentially forms one stereoisomer over another when multiple stereoisomeric products are possible.",
+              "has_extra_info": true,
+              "extra_info_content": "The reaction can produce more than one stereoisomer, but one is formed in greater proportion. Examples include diastereoselective additions and enantioselective catalytic reactions."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-select-02",
+          "topic_title": "Stereospecific Reaction",
+          "notes_list": [
+            {
+              "id": "st082",
+              "title": "Definition of Stereospecificity",
+              "tags": ["stereospecificity", "concept"],
+              "basic_overview": "A stereospecific reaction is one in which the stereochemistry of the starting material directly determines the stereochemistry of the product through the reaction mechanism.",
+              "has_extra_info": true,
+              "extra_info_content": "SN2 substitution is stereospecific because backside attack gives inversion. Syn and anti additions to suitable alkenes can also be stereospecific because the mechanism determines the relative configuration."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-select-03",
+          "topic_title": "Enantioselectivity",
+          "notes_list": [
+            {
+              "id": "st083",
+              "title": "Enantioselective Reaction",
+              "tags": ["enantioselectivity", "chiral-catalysis"],
+              "basic_overview": "An enantioselective reaction preferentially forms one enantiomer over its mirror-image product.",
+              "has_extra_info": true,
+              "extra_info_content": "Enantioselectivity often requires a chiral catalyst, chiral reagent, chiral auxiliary or chiral environment. Sharpless asymmetric epoxidation is a classic example."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-select-04",
+          "topic_title": "Diastereoselectivity",
+          "notes_list": [
+            {
+              "id": "st084",
+              "title": "Diastereoselective Reaction",
+              "tags": ["diastereoselectivity", "diastereomer"],
+              "basic_overview": "A diastereoselective reaction preferentially produces one diastereomer over another.",
+              "has_extra_info": true,
+              "extra_info_content": "Diastereoselectivity is common when a new stereogenic centre is created in a molecule that already contains a stereogenic element. Existing chirality can make the two faces of a reactive group diastereotopic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-projection-conversion",
+      "title": "Projection Conversion & Stereochemical Manipulation",
+      "filters": [
+        { "label": "Projection", "tag": "projection" },
+        { "label": "Conversion", "tag": "conversion" },
+        { "label": "Fischer", "tag": "fischer" },
+        { "label": "Newman", "tag": "newman" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-conv-01",
+          "topic_title": "Wedge-Dash to Fischer",
+          "notes_list": [
+            {
+              "id": "st085",
+              "title": "Wedge-Dash to Fischer Conversion",
+              "tags": ["wedge-dash", "fischer", "conversion"],
+              "basic_overview": "A wedge-dash structure can be converted into a Fischer projection by orienting the main carbon chain vertically and arranging horizontal bonds toward the observer and vertical bonds away.",
+              "has_extra_info": true,
+              "extra_info_content": "Do not arbitrarily move substituents during conversion. First establish the three-dimensional orientation, then place the groups in a Fischer framework while preserving configuration."
+            }
+          ]
+        },
+            {
+          "topic_id": "st-conv-02",
+          "topic_title": "Fischer to Wedge-Dash Conversion",
+          "notes_list": [
+            {
+              "id": "st086",
+              "title": "Fischer to Wedge-Dash Conversion",
+              "tags": ["fischer", "wedge-dash", "conversion"],
+              "basic_overview": "In a Fischer projection, horizontal bonds point toward the observer and vertical bonds point away. This information can be converted directly into a wedge-dash representation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Choose a carbon centre and reproduce its four bonds with horizontal substituents as wedges and vertical substituents as dashes, or use the reverse orientation consistently. The final drawing must preserve all stereochemical relationships."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-conv-03",
+          "topic_title": "Newman to Sawhorse",
+          "notes_list": [
+            {
+              "id": "st087",
+              "title": "Newman–Sawhorse Conversion",
+              "tags": ["newman", "sawhorse", "conversion"],
+              "basic_overview": "Newman and sawhorse projections are alternative representations of the same conformation around a single bond.",
+              "has_extra_info": true,
+              "extra_info_content": "Keep track of the front and rear carbon. The angular relationships between substituents must remain unchanged during conversion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-optical",
+      "title": "Optical Rotation & Polarimetry",
+      "filters": [
+        { "label": "Optical Rotation", "tag": "optical-rotation" },
+        { "label": "Polarimetry", "tag": "polarimetry" },
+        { "label": "Numerical", "tag": "numerical" },
+        { "label": "Analytical", "tag": "analytical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-optical-01",
+          "topic_title": "Specific Rotation",
+          "notes_list": [
+            {
+              "id": "st088",
+              "title": "Specific Rotation Equation",
+              "tags": ["specific-rotation", "numerical"],
+              "basic_overview": "Specific rotation relates observed optical rotation to concentration and path length under specified wavelength, temperature and solvent conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For a solution, the common relationship is [α] = αobs/(l c), where αobs is observed rotation, l is path length in dm and c is concentration in g/mL under the stated convention. Always check the concentration convention used in the problem."
+            },
+            {
+              "id": "st089",
+              "title": "Dextrorotatory and Levorotatory",
+              "tags": ["optical-rotation"],
+              "basic_overview": "A dextrorotatory compound rotates plane-polarized light clockwise and is designated (+), while a levorotatory compound rotates it counterclockwise and is designated (−).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The optical sign is experimentally determined. It cannot be inferred solely from R/S configuration."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-optical-02",
+          "topic_title": "Polarimeter",
+          "notes_list": [
+            {
+              "id": "st090",
+              "title": "Principle of Polarimetry",
+              "tags": ["polarimeter", "analytical"],
+              "basic_overview": "A polarimeter measures the rotation produced when plane-polarized light passes through an optically active sample.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A typical polarimeter contains a light source, polarizer, sample tube and analyzer/detection system. Sodium D-line light around 589 nm is historically common in specific rotation measurements, although modern instruments may use other wavelengths."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-nmr",
+      "title": "Stereochemistry in NMR",
+      "filters": [
+        { "label": "NMR", "tag": "nmr" },
+        { "label": "Diastereotopic", "tag": "diastereotopic" },
+        { "label": "Coupling", "tag": "coupling" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-nmr-01",
+          "topic_title": "Diastereotopic Hydrogens",
+          "notes_list": [
+            {
+              "id": "st091",
+              "title": "Why CH2 Hydrogens Can Be Nonequivalent",
+              "tags": ["nmr", "diastereotopic"],
+              "basic_overview": "Two hydrogens on the same CH2 group can become diastereotopic when replacing one or the other creates diastereomeric products.",
+              "has_extra_info": true,
+              "extra_info_content": "Diastereotopic hydrogens can have different chemical shifts and coupling relationships. This is a common reason a CH2 group appears as an AB-type or more complex spin system instead of a simple two-proton signal."
+            },
+            {
+              "id": "st092",
+              "title": "Enantiotopic Hydrogens in Achiral Solvent",
+              "tags": ["nmr", "enantiotopic"],
+              "basic_overview": "Enantiotopic hydrogens are usually chemically equivalent in an achiral NMR environment and often give the same resonance.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In a chiral environment, enantiotopic groups can become distinguishable. Chiral solvating agents, chiral shift reagents and chiral derivatization can be used to differentiate enantiomers."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-nmr-02",
+          "topic_title": "Karplus Relationship",
+          "notes_list": [
+            {
+              "id": "st093",
+              "title": "Karplus Equation",
+              "tags": ["karplus", "nmr", "conformation"],
+              "basic_overview": "Vicinal proton-proton coupling constants depend on the dihedral angle between the coupled nuclei.",
+              "has_extra_info": true,
+              "extra_info_content": "The qualitative Karplus relationship predicts larger vicinal coupling for certain anti or near-180-degree arrangements and smaller coupling near 90 degrees. A common form is J = A cos²θ + B cosθ + C, with empirical constants depending on the system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-exam-traps",
+      "title": "High-Yield Stereochemistry Exam Traps",
+      "filters": [
+        { "label": "Exam Trap", "tag": "trap" },
+        { "label": "GATE", "tag": "gate" },
+        { "label": "CSIR-NET", "tag": "net" },
+        { "label": "MSc", "tag": "msc" },
+        { "label": "Quick Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-trap-01",
+          "topic_title": "R/S vs Optical Rotation",
+          "notes_list": [
+            {
+              "id": "st094",
+              "title": "R Does Not Mean (+)",
+              "tags": ["r-s", "optical", "trap"],
+              "basic_overview": "R/S configuration and (+)/(−) optical rotation are independent descriptors.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Never use the shortcut R = (+) and S = (−). There is no universal relationship between CIP configuration and the experimental sign of optical rotation."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-trap-02",
+          "topic_title": "D/L vs R/S",
+          "notes_list": [
+            {
+              "id": "st095",
+              "title": "D Does Not Mean R",
+              "tags": ["d-l", "r-s", "trap"],
+              "basic_overview": "D/L and R/S describe configuration using different reference systems.",
+              "has_extra_info": true,
+              "extra_info_content": "D/L is historically related to glyceraldehyde and is especially important in carbohydrate chemistry. R/S uses CIP priority rules. A D compound may have either R or S configurations at individual stereocentres."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-trap-03",
+          "topic_title": "Meso Compounds",
+          "notes_list": [
+            {
+              "id": "st096",
+              "title": "Stereocentres Do Not Guarantee Chirality",
+              "tags": ["meso", "chirality", "trap"],
+              "basic_overview": "A molecule may contain stereogenic centres and still be achiral because of internal symmetry.",
+              "has_extra_info": true,
+              "extra_info_content": "Always check for symmetry before concluding that a molecule with multiple stereocentres is chiral. Meso compounds are the most important example."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-trap-04",
+          "topic_title": "Ring Flip Does Not Change Cis/Trans",
+          "notes_list": [
+            {
+              "id": "st097",
+              "title": "Axial/Equatorial vs Up/Down",
+              "tags": ["cyclohexane", "ring-flip", "trap"],
+              "basic_overview": "Cyclohexane ring flipping changes axial and equatorial positions but preserves whether substituents are up or down.",
+              "has_extra_info": true,
+              "extra_info_content": "Therefore cis remains cis and trans remains trans after a ring flip. If a proposed ring flip changes cis to trans, the structure has been redrawn incorrectly."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-trap-05",
+          "topic_title": "Inversion Does Not Always Mean R Becomes S",
+          "notes_list": [
+            {
+              "id": "st098",
+              "title": "Configuration vs Descriptor",
+              "tags": ["sn2", "r-s", "trap"],
+              "basic_overview": "SN2 causes geometric inversion at the reacting centre, but the CIP label may or may not change because substituent priorities can change during the reaction.",
+              "has_extra_info": true,
+              "extra_info_content": "The correct approach is to draw the product and independently assign its CIP priorities. Never assume that an SN2 reaction automatically changes R to S or S to R."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-problem-solving",
+      "title": "Stereochemistry Problem-Solving Workflow",
+      "filters": [
+        { "label": "Problem Solving", "tag": "problem-solving" },
+        { "label": "Strategy", "tag": "strategy" },
+        { "label": "Exam", "tag": "exam" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-work-01",
+          "topic_title": "R/S Problem Workflow",
+          "notes_list": [
+            {
+              "id": "st099",
+              "title": "Five-Step R/S Method",
+              "tags": ["r-s", "strategy"],
+              "basic_overview": "For R/S problems: identify stereogenic centre, assign CIP priorities, orient priority 4 away, trace 1→2→3, and verify the final configuration.",
+              "has_extra_info": true,
+              "extra_info_content": "If priorities 1 and 2 are difficult to distinguish, compare attached atoms layer by layer until the first point of difference. Treat isotopes and multiple bonds according to CIP rules."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-work-02",
+          "topic_title": "Isomer Relationship Workflow",
+          "notes_list": [
+            {
+              "id": "st100",
+              "title": "Identical vs Enantiomer vs Diastereomer",
+              "tags": ["comparison", "strategy"],
+              "basic_overview": "First verify connectivity. If connectivity differs, the compounds are constitutional isomers. If connectivity is the same, compare all stereogenic elements: identical if fully superimposable, enantiomers if all relevant stereochemical elements are inverted as a mirror pair, otherwise diastereomers.",
+              "has_extra_info": true,
+              "extra_info_content": "For complex molecules, do not rely only on the number of R and S labels. Check the actual stereochemical correspondence and molecular symmetry."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-work-03",
+          "topic_title": "Cyclohexane Problem Workflow",
+          "notes_list": [
+            {
+              "id": "st101",
+              "title": "Chair Analysis Procedure",
+              "tags": ["cyclohexane", "chair", "strategy"],
+              "basic_overview": "For substituted cyclohexanes: establish cis/trans relationship, draw one chair, assign up/down, determine axial/equatorial positions, perform the ring flip and compare conformational energies.",
+              "has_extra_info": true,
+              "extra_info_content": "Do not change up/down during a ring flip. Prefer conformers with bulky substituents equatorial. For multiple substituents, compare the sum of axial penalties rather than looking at only one substituent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-quick-revision",
+      "title": "Ultra-Quick Stereochemistry Revision",
+      "filters": [
+        { "label": "One-Liners", "tag": "one-liner" },
+        { "label": "Last Minute", "tag": "last-minute" },
+        { "label": "Revision", "tag": "revision" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-rev-01",
+          "topic_title": "One-Line Definitions",
+          "notes_list": [
+            {
+              "id": "st102",
+              "title": "Stereochemistry One-Liners",
+              "tags": ["revision", "definitions"],
+              "basic_overview": "Chiral = non-superimposable on mirror image; enantiomers = non-superimposable mirror images; diastereomers = stereoisomers that are not mirror images; meso = achiral despite stereogenic centres; racemate = 1:1 enantiomeric mixture.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "These definitions should be memorized exactly because many competitive-exam questions are based on distinguishing these terms."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rev-02",
+          "topic_title": "One-Line Configuration Rules",
+          "notes_list": [
+            {
+              "id": "st103",
+              "title": "Configuration Revision",
+              "tags": ["revision", "r-s", "e-z"],
+              "basic_overview": "R/S: use CIP and lowest priority away; E/Z: compare higher-priority substituents on the alkene; D/L: compare with glyceraldehyde convention; (+)/(−): experimental optical rotation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Never mix the four systems. R/S = absolute configuration descriptor; E/Z = alkene geometry; D/L = configurational relationship to a reference system; (+)/(−) = direction of optical rotation."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rev-03",
+          "topic_title": "One-Line Conformation Rules",
+          "notes_list": [
+            {
+              "id": "st104",
+              "title": "Conformation Revision",
+              "tags": ["revision", "conformation"],
+              "basic_overview": "Ethane staggered is more stable than eclipsed; butane anti is more stable than gauche; cyclohexane chair is more stable than boat; bulky cyclohexane substituents prefer equatorial positions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The major factors are torsional strain, steric strain, angle strain and 1,3-diaxial interactions. Ring flipping exchanges axial and equatorial positions but preserves up/down orientation."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rev-04",
+          "topic_title": "Reaction Stereochemistry Revision",
+          "notes_list": [
+            {
+              "id": "st105",
+              "title": "Syn/Anti Quick Map",
+              "tags": ["revision", "reaction"],
+              "basic_overview": "SN2 → inversion; SN1 → often partial racemization; Br2 addition → anti; catalytic hydrogenation → syn; hydroboration → syn addition; Lindlar → cis-alkene; dissolving-metal reduction → trans-alkene.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "These are mechanistic trends. Always examine the actual substrate and reaction conditions before applying a simplified rule to an unusual structure."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-rev-05",
+          "topic_title": "High-Yield Formula Revision",
+          "notes_list": [
+            {
+              "id": "st106",
+              "title": "Stereochemistry Formula Sheet",
+              "tags": ["revision", "formula", "numerical"],
+              "basic_overview": "Maximum stereoisomers for n independent stereocentres = 2^n; enantiomeric excess = |major% − minor%|; major% = (100 + ee)/2; minor% = (100 − ee)/2.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For optical rotation, [α] = αobs/(l c) under the stated convention. For a simple enantiomeric mixture, optical purity can be estimated from observed rotation relative to the pure enantiomer under identical conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stereo-advanced-exam",
+      "title": "Advanced MSc, GATE & CSIR-NET Stereochemistry",
+      "filters": [
+        { "label": "GATE", "tag": "gate" },
+        { "label": "CSIR-NET", "tag": "net" },
+        { "label": "MSc Entrance", "tag": "msc" },
+        { "label": "Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "st-adv-01",
+          "topic_title": "Stereochemical Descriptor Changes",
+          "notes_list": [
+            {
+              "id": "st107",
+              "title": "When R Becomes S Without Inversion",
+              "tags": ["r-s", "advanced", "trap"],
+              "basic_overview": "A stereochemical descriptor can change from R to S after a chemical transformation even if the spatial arrangement around the stereogenic centre is retained, because CIP priorities can change.",
+              "has_extra_info": true,
+              "extra_info_content": "Configuration and descriptor are related but not identical concepts. Always assign R/S from the final product using the final priority order."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-adv-02",
+          "topic_title": "Pseudoasymmetric Centres",
+          "notes_list": [
+            {
+              "id": "st108",
+              "title": "Pseudoasymmetry and r/s",
+              "tags": ["pseudoasymmetric", "advanced"],
+              "basic_overview": "A tetrahedral centre attached to four different groups can sometimes be attached to two enantiomorphic groups, leading to a pseudoasymmetric stereogenic unit described using lowercase r or s under CIP conventions.",
+              "has_extra_info": true,
+              "extra_info_content": "Pseudoasymmetric descriptors depend on the priority relationship between enantiomorphic substituents. The lowercase notation distinguishes them from ordinary uppercase R/S stereogenic centres."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-adv-03",
+          "topic_title": "Dynamic Stereochemistry",
+          "notes_list": [
+            {
+              "id": "st109",
+              "title": "Stereochemical Interconversion and Fluxionality",
+              "tags": ["dynamic", "advanced"],
+              "basic_overview": "Some stereochemical structures interconvert rapidly on the experimental timescale, while others are configurationally stable because the energy barrier to interconversion is high.",
+              "has_extra_info": true,
+              "extra_info_content": "Examples include cyclohexane ring flipping, atropisomer interconversion and conformational exchange in flexible molecules. Whether two forms are experimentally distinguishable depends on the energy barrier and measurement timescale."
+            }
+          ]
+        },
+        {
+          "topic_id": "st-adv-04",
+          "topic_title": "Stereochemistry and Energy",
+          "notes_list": [
+            {
+              "id": "st110",
+              "title": "Conformational Energy Analysis",
+              "tags": ["energy", "advanced", "conformation"],
+              "basic_overview": "The preferred stereochemical conformation is generally the one with the lowest free energy, but multiple energetic contributions must be considered.",
+              "has_extra_info": true,
+              "extra_info_content": "Important factors include steric repulsion, torsional strain, angle strain, dipole interactions, hydrogen bonding and solvent effects. In substituted cyclohexanes, axial penalties provide a useful first approximation but do not capture every possible interaction."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

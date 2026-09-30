@@ -1,0 +1,876 @@
+{
+  "chapter_title": "Non-Verbal Reasoning: Competitive Exam Tips & Tricks",
+  "sections": [
+    {
+      "id": "figure-classification",
+      "title": "Figure Classification",
+      "filters": [
+        { "label": "🔵 Concept", "tag": "concept" },
+        { "label": "🟢 Tips & Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-classification",
+          "topic_title": "Figure Classification",
+          "notes_list": [
+            {
+              "id": "nvr001",
+              "title": "Odd Figure पहचानना",
+              "tags": ["classification", "concept"],
+              "basic_overview": "चार या अधिक figures में से उस figure को identify करना होता है जो बाकी figures से किसी structural या visual property के आधार पर अलग हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: पहले shape, number of sides, lines, dots, direction, symmetry और internal elements compare करें। Example: यदि तीन figures में 4 sides हैं और एक में 5 sides हैं, तो 5-sided figure odd हो सकती है।"
+            },
+            {
+              "id": "nvr002",
+              "title": "Shape और Element Count Trick",
+              "tags": ["classification", "trick"],
+              "basic_overview": "Figure classification में केवल overall shape नहीं बल्कि अंदर के dots, lines, arrows, circles और छोटे symbols भी compare करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: यदि figures देखने में similar हों तो internal elements count करें। Example: तीन figures में 2 dots और एक में 3 dots हों तो 3-dot figure अलग हो सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-series",
+      "title": "Figure Series",
+      "filters": [
+        { "label": "🔄 Pattern", "tag": "pattern" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-series",
+          "topic_title": "Non-Verbal Figure Series",
+          "notes_list": [
+            {
+              "id": "nvr003",
+              "title": "Figure Series Pattern पहचानना",
+              "tags": ["series", "pattern"],
+              "basic_overview": "Figure series में प्रत्येक successive figure में rotation, movement, addition, deletion, reflection या shape परिवर्तन का pattern हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: सबसे पहले arrow या marked element की movement देखें। फिर rotation angle, line count और shaded portion check करें।"
+            },
+            {
+              "id": "nvr004",
+              "title": "Addition-Deletion Pattern",
+              "tags": ["series", "trick"],
+              "basic_overview": "कुछ series में हर step पर एक line, dot, side या symbol add या remove होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि figures में dots 1, 2, 3, 4 की sequence में बढ़ रहे हैं, तो अगली figure में 5 dots अपेक्षित हो सकते हैं।"
+            },
+            {
+              "id": "nvr005",
+              "title": "Rotation Pattern",
+              "tags": ["series", "trick"],
+              "basic_overview": "एक figure को हर step में समान angular movement से rotate किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Arrow हर step में 90° clockwise rotate हो रहा हो तो sequence में Up → Right → Down → Left हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-analogy",
+      "title": "Figure Analogy",
+      "filters": [
+        { "label": "🔵 Relationship", "tag": "concept" },
+        { "label": "🟢 Transformation", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-analogy",
+          "topic_title": "Figure Analogy",
+          "notes_list": [
+            {
+              "id": "nvr006",
+              "title": "Transformation पहचानना",
+              "tags": ["analogy", "concept"],
+              "basic_overview": "पहली figure से दूसरी figure में जो transformation हुआ है, वही transformation तीसरी figure पर लागू करके answer figure निर्धारित की जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Check: rotation, reflection, size change, shading change, element addition/deletion और position change."
+            },
+            {
+              "id": "nvr007",
+              "title": "One-to-One Transformation Trick",
+              "tags": ["analogy", "trick"],
+              "basic_overview": "पहले pair में बदलाव को step-by-step describe करें और फिर वही sequence दूसरे pair पर apply करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि Figure A को 180° rotate करके Figure B बनाया गया है, तो Figure C को 180° rotate करके corresponding option चुनें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-matrix",
+      "title": "Figure Matrix",
+      "filters": [
+        { "label": "🧩 Matrix", "tag": "concept" },
+        { "label": "🟢 Pattern Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-matrix",
+          "topic_title": "Non-Verbal Matrix",
+          "notes_list": [
+            {
+              "id": "nvr008",
+              "title": "Row और Column Pattern",
+              "tags": ["matrix", "concept"],
+              "basic_overview": "Matrix questions में missing figure को row-wise, column-wise या दोनों directions में pattern देखकर determine किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: पहले rows compare करें। Pattern न मिले तो columns compare करें। Addition, subtraction, rotation और combination common patterns हैं।"
+            },
+            {
+              "id": "nvr009",
+              "title": "Combination Rule",
+              "tags": ["matrix", "trick"],
+              "basic_overview": "कभी तीसरी figure पहली दो figures के elements के combination से बनती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि Row में Figure 1 का circle और Figure 2 की vertical line combine होकर Figure 3 बनाते हैं, तो missing cell में same combination खोजें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mirror-image",
+      "title": "Mirror Image",
+      "filters": [
+        { "label": "🪞 Mirror", "tag": "concept" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "mirror-image",
+          "topic_title": "Mirror Image",
+          "notes_list": [
+            {
+              "id": "nvr010",
+              "title": "Vertical Mirror Rule",
+              "tags": ["mirror", "concept"],
+              "basic_overview": "Vertical mirror के सामने figure का left-right orientation बदलता है जबकि top-bottom orientation सामान्यतः same रहता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Remember: Mirror image = Left ↔ Right. ऊपर और नीचे की position सामान्यतः unchanged रहती है।"
+            },
+            {
+              "id": "nvr011",
+              "title": "Arrow Mirror Trick",
+              "tags": ["mirror", "trick"],
+              "basic_overview": "Arrow और asymmetric symbols mirror में opposite horizontal direction में दिखाई देते हैं।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: → का vertical mirror image ← होगा। यदि arrow ऊपर की ओर है तो vertical mirror में भी ऊपर की ओर रहेगा।"
+            },
+            {
+              "id": "nvr012",
+              "title": "Clock Mirror Image",
+              "tags": ["mirror", "clock"],
+              "basic_overview": "Clock mirror questions में time का mirror relation identify करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Formula: Mirror time = 11:60 - Given time. Example: 4:20 का mirror time = 7:40."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-image",
+      "title": "Water Image",
+      "filters": [
+        { "label": "💧 Water Reflection", "tag": "concept" },
+        { "label": "🟢 Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "water-image",
+          "topic_title": "Water Image",
+          "notes_list": [
+            {
+              "id": "nvr013",
+              "title": "Horizontal Reflection Rule",
+              "tags": ["water-image", "concept"],
+              "basic_overview": "Water image में figure का top-bottom orientation reverse होता है जबकि left-right arrangement generally same रहता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Remember: Water image = Top ↔ Bottom. Left और right सामान्यतः same रहते हैं।"
+            },
+            {
+              "id": "nvr014",
+              "title": "Mirror और Water Image का Difference",
+              "tags": ["water-image", "trick"],
+              "basic_overview": "Mirror image horizontal direction reverse करती है जबकि water image vertical direction reverse करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Shortcut: Mirror → Left/Right change. Water → Top/Bottom change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "embedded-figures",
+      "title": "Embedded Figures",
+      "filters": [
+        { "label": "🔍 Hidden Figure", "tag": "concept" },
+        { "label": "🟢 Search Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "embedded-figures",
+          "topic_title": "Embedded Figure Test",
+          "notes_list": [
+            {
+              "id": "nvr015",
+              "title": "Hidden Shape खोजें",
+              "tags": ["embedded", "concept"],
+              "basic_overview": "एक छोटी target figure बड़ी complex figure के अंदर hidden होती है। उसे identify करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Target figure की unique line, angle या corner को पहले identify करें और फिर complex figure में वही structure खोजें।"
+            },
+            {
+              "id": "nvr016",
+              "title": "Rotation Allowed हो सकती है",
+              "tags": ["embedded", "trick"],
+              "basic_overview": "कई embedded figure questions में target shape rotated orientation में छिपी हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Target को केवल exact orientation में न खोजें। 90°, 180° और 270° rotated forms भी check करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-formation",
+      "title": "Figure Formation",
+      "filters": [
+        { "label": "🧩 Formation", "tag": "concept" },
+        { "label": "🟢 Assembly Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-formation",
+          "topic_title": "Figure Formation from Pieces",
+          "notes_list": [
+            {
+              "id": "nvr017",
+              "title": "Pieces को Combine करना",
+              "tags": ["formation", "concept"],
+              "basic_overview": "कुछ questions में अलग-अलग pieces को combine करके target figure बनाने की संभावना identify करनी होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: सबसे पहले target figure की outer boundary देखें और फिर pieces के edges match करें।"
+            },
+            {
+              "id": "nvr018",
+              "title": "Edge Matching Trick",
+              "tags": ["formation", "trick"],
+              "basic_overview": "Pieces के straight और curved edges को target figure की boundary से match करके possibilities eliminate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि target में एक semicircular boundary है, तो ऐसे pieces खोजें जिनकी curved edges मिलकर वही boundary बनाती हों।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-counting",
+      "title": "Counting Figures",
+      "filters": [
+        { "label": "🔢 Counting", "tag": "concept" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "counting-figures",
+          "topic_title": "Counting Triangles, Squares & Other Figures",
+          "notes_list": [
+            {
+              "id": "nvr019",
+              "title": "Small to Large Counting",
+              "tags": ["counting", "concept"],
+              "basic_overview": "Complex diagram में पहले smallest figures count करें, फिर combinations से larger figures count करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: केवल visibly separated shapes count न करें। Multiple small shapes मिलकर बनने वाली larger shapes भी count करें।"
+            },
+            {
+              "id": "nvr020",
+              "title": "Triangle Counting Strategy",
+              "tags": ["counting", "trick"],
+              "basic_overview": "Triangles count करते समय size-wise layers बनाकर count करना useful होता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Method: 1) Smallest triangles 2) Medium combinations 3) Large triangles 4) Entire figure. फिर total जोड़ें।"
+            },
+            {
+              "id": "nvr021",
+              "title": "Square Counting",
+              "tags": ["counting", "trick"],
+              "basic_overview": "Grid में 1×1, 2×2, 3×3 आदि सभी possible square sizes separately count करें।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: 2×2 grid में 4 छोटे squares और 1 बड़ा square = total 5 squares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paper-folding",
+      "title": "Paper Folding",
+      "filters": [
+        { "label": "📄 Folding", "tag": "concept" },
+        { "label": "🟢 Visualization Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "paper-folding",
+          "topic_title": "Paper Folding Problems",
+          "notes_list": [
+            {
+              "id": "nvr022",
+              "title": "Fold Direction Track करना",
+              "tags": ["paper-folding", "concept"],
+              "basic_overview": "Paper को जिस क्रम और दिशा में fold किया गया है उसे mentally track करके punched holes या marks की final positions determine करनी होती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: हर fold को imaginary axis मानें। Hole punch होने के बाद unfolding करते समय हर fold के across corresponding copy बनती है।"
+            },
+            {
+              "id": "nvr023",
+              "title": "Hole Count Trick",
+              "tags": ["paper-folding", "trick"],
+              "basic_overview": "यदि paper हर fold पर exactly half होता है और punch folded layers के through जाता है, तो unfolded holes की संख्या layers के अनुसार बढ़ सकती है।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: 3 folds से 8 layers बन सकती हैं; एक punch सभी layers को cross करे तो suitable geometry में 8 corresponding holes बन सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paper-cutting",
+      "title": "Paper Cutting",
+      "filters": [
+        { "label": "✂️ Cutting", "tag": "concept" },
+        { "label": "🟢 Reverse Method", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "paper-cutting",
+          "topic_title": "Paper Cutting Problems",
+          "notes_list": [
+            {
+              "id": "nvr024",
+              "title": "Unfolding Method",
+              "tags": ["paper-cutting", "concept"],
+              "basic_overview": "Folded paper में cuts दिए हों तो paper unfold करके final pattern determine करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: प्रत्येक fold को reverse order में खोलें और cut की mirror copy बनाते जाएँ।"
+            },
+            {
+              "id": "nvr025",
+              "title": "Symmetry Trick",
+              "tags": ["paper-cutting", "trick"],
+              "basic_overview": "Folded paper में cut की location अक्सर corresponding symmetry points पर repeat होती है।",
+              "has_extra_info": true,
+              "extra_info_content": "Exam Trick: Fold line को mirror axis की तरह treat करें और cut का reflected position mark करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cube-dice",
+      "title": "Cube & Dice",
+      "filters": [
+        { "label": "🎲 Dice", "tag": "dice" },
+        { "label": "🧊 Cube", "tag": "cube" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "dice",
+          "topic_title": "Dice Problems",
+          "notes_list": [
+            {
+              "id": "nvr026",
+              "title": "Opposite Faces पहचानना",
+              "tags": ["dice", "concept"],
+              "basic_overview": "Dice questions में given views से opposite faces determine किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important Rule: Standard dice में opposite faces का sum अक्सर 7 होता है, लेकिन केवल standard numbered die पर यह rule apply करें। Arbitrary dice में given views से relation determine करें।"
+            },
+            {
+              "id": "nvr027",
+              "title": "Common Face Method",
+              "tags": ["dice", "trick"],
+              "basic_overview": "दो views में एक common face हो तो remaining adjacent faces की तुलना करके orientation समझी जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Common face को fixed मानें और बाकी visible faces के order को compare करें।"
+            },
+            {
+              "id": "nvr028",
+              "title": "Impossible Dice View",
+              "tags": ["dice", "trick"],
+              "basic_overview": "ऐसा arrangement जिसमें known opposite faces एक साथ adjacent दिखें, impossible हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: पहले opposite pairs identify करें। Opposite faces कभी एक ही corner पर तीन visible faces में साथ नहीं आ सकते।"
+            }
+          ]
+        },
+        {
+          "topic_id": "cube-painting",
+          "topic_title": "Cube Painting",
+          "notes_list": [
+            {
+              "id": "nvr029",
+              "title": "Painted Cube Concept",
+              "tags": ["cube", "concept"],
+              "basic_overview": "Painted cube questions में large cube को smaller equal cubes में divide करके painted faces के आधार पर cubes count किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For an n×n×n cube painted on all outer faces: 3-face painted cubes = 8; 2-face painted cubes = 12(n−2); 1-face painted cubes = 6(n−2)^2; 0-face painted cubes = (n−2)^3."
+            },
+            {
+              "id": "nvr030",
+              "title": "Corner Cubes Trick",
+              "tags": ["cube", "trick"],
+              "basic_overview": "All six faces painted होने पर exactly 3 painted faces वाले छोटे cubes केवल eight corners पर होते हैं।",
+              "has_extra_info": true,
+              "extra_info_content": "Example: 4×4×4 painted cube में 3-face cubes = 8. 2-face cubes = 12×(4−2) = 24."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rotation",
+      "title": "Rotation & Direction of Figures",
+      "filters": [
+        { "label": "🔄 Rotation", "tag": "rotation" },
+        { "label": "🟢 Shortcut", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-rotation",
+          "topic_title": "Rotation of Figures",
+          "notes_list": [
+            {
+              "id": "nvr031",
+              "title": "Clockwise और Anticlockwise",
+              "tags": ["rotation", "concept"],
+              "basic_overview": "Figure को clockwise या anticlockwise direction में निश्चित angle से rotate किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common angles: 90°, 180°, 270°. 180° rotation में top-bottom और left-right दोनों orientations reverse हो सकते हैं।"
+            },
+            {
+              "id": "nvr032",
+              "title": "Marked Point Tracking",
+              "tags": ["rotation", "trick"],
+              "basic_overview": "पूरी figure को mentally rotate करने के बजाय एक unique marked point या arrow को track करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Arrow, dot या shaded corner को anchor बनाकर movement track करें। इससे visual confusion कम होता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "symmetry",
+      "title": "Symmetry",
+      "filters": [
+        { "label": "🪞 Symmetry", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "symmetry",
+          "topic_title": "Line of Symmetry",
+          "notes_list": [
+            {
+              "id": "nvr033",
+              "title": "Line of Symmetry पहचानना",
+              "tags": ["symmetry", "concept"],
+              "basic_overview": "Line of symmetry figure को दो matching mirror-image halves में divide करती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: Square में 4 lines of symmetry होती हैं; rectangle में 2; equilateral triangle में 3; circle में infinitely many."
+            },
+            {
+              "id": "nvr034",
+              "title": "Symmetry Counting Trick",
+              "tags": ["symmetry", "trick"],
+              "basic_overview": "Figure के vertical, horizontal और diagonal axes separately test करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: केवल appearance से symmetry assume न करें। हर candidate axis पर दोनों halves की exact correspondence check करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-completion",
+      "title": "Figure Completion",
+      "filters": [
+        { "label": "🧩 Completion", "tag": "concept" },
+        { "label": "🟢 Visual Trick", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "figure-completion",
+          "topic_title": "Incomplete Figure Completion",
+          "notes_list": [
+            {
+              "id": "nvr035",
+              "title": "Incomplete Pattern Complete करना",
+              "tags": ["completion", "concept"],
+              "basic_overview": "एक incomplete figure में missing part को existing lines, symmetry, repetition या geometric pattern के आधार पर complete करना होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: पहले figure की symmetry axis और repeated shape identify करें। Missing part अक्सर उसी pattern को continue करता है।"
+            },
+            {
+              "id": "nvr036",
+              "title": "Boundary Matching",
+              "tags": ["completion", "trick"],
+              "basic_overview": "Missing portion की boundary को nearby lines से match करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Internal design के साथ-साथ outer boundary continuity भी check करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-visualization",
+      "title": "Visualizing Hidden Changes",
+      "filters": [
+        { "label": "👁️ Visualization", "tag": "concept" },
+        { "label": "🟢 Mental Rotation", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "visualization",
+          "topic_title": "Mental Visualization",
+          "notes_list": [
+            {
+              "id": "nvr037",
+              "title": "Mental Rotation Practice",
+              "tags": ["visualization", "concept"],
+              "basic_overview": "Figure को physically draw किए बिना mentally rotate, flip या rearrange करने की ability non-verbal reasoning में महत्वपूर्ण है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Practice: simple arrow, triangle और asymmetric shape को 90°, 180° और 270° mentally rotate करने का अभ्यास करें।"
+            },
+            {
+              "id": "nvr038",
+              "title": "Anchor Point Technique",
+              "tags": ["visualization", "trick"],
+              "basic_overview": "पूरी figure को simultaneously process करने के बजाय एक distinctive point को track करना आसान होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Figure में black dot हो तो rotation के दौरान पहले black dot की नई position determine करें, फिर बाकी structure match करें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern-recognition",
+      "title": "Pattern Recognition",
+      "filters": [
+        { "label": "🔍 Pattern", "tag": "pattern" },
+        { "label": "🟢 Fast Scan", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "visual-pattern",
+          "topic_title": "Visual Pattern Recognition",
+          "notes_list": [
+            {
+              "id": "nvr039",
+              "title": "Visual Attributes की Checklist",
+              "tags": ["pattern", "concept"],
+              "basic_overview": "Figure patterns में shape, size, orientation, number, shading, position, symmetry और line count जैसे attributes compare करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Fast Scan Order: 1) Rotation 2) Number of elements 3) Shading 4) Position 5) Size 6) Symmetry."
+            },
+            {
+              "id": "nvr040",
+              "title": "Single-Attribute Pattern",
+              "tags": ["pattern", "trick"],
+              "basic_overview": "कई आसान questions में केवल एक visual attribute बदलता है और बाकी सभी same रहते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: पहले देखें कि केवल एक feature systematically change हो रहा है या नहीं। इससे complex-looking question जल्दी solve हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonverbal-logical",
+      "title": "Non-Verbal Logical Operations",
+      "filters": [
+        { "label": "🧠 Logic", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "visual-logic",
+          "topic_title": "Visual Logic",
+          "notes_list": [
+            {
+              "id": "nvr041",
+              "title": "Addition of Figures",
+              "tags": ["logic", "concept"],
+              "basic_overview": "कुछ questions में एक figure के elements दूसरी figure के elements के साथ combine होकर तीसरी figure बनाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Circle + vertical line → circle containing vertical line. Missing figure में same operation apply करें।"
+            },
+            {
+              "id": "nvr042",
+              "title": "Deletion of Common Elements",
+              "tags": ["logic", "trick"],
+              "basic_overview": "कभी दो figures के common elements cancel होकर remaining elements answer बनाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: Compare figures element-by-element और common shapes को identify करें। यह matrix और analogy questions में useful हो सकता है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-strategy",
+      "title": "Competitive Exam Strategy",
+      "filters": [
+        { "label": "🎯 Strategy", "tag": "strategy" },
+        { "label": "⏱️ Time Management", "tag": "time" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nonverbal-strategy",
+          "topic_title": "General Non-Verbal Reasoning Strategy",
+          "notes_list": [
+            {
+              "id": "nvr043",
+              "title": "Question Type पहले पहचानें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Figure देखते ही identify करें कि question series, analogy, mirror, water image, classification, matrix, embedded figure, cube या counting से संबंधित है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Tip: Question type पहचानने से visual search का direction clear हो जाता है और random guessing कम होती है।"
+            },
+            {
+              "id": "nvr044",
+              "title": "सबसे पहले Easy Visual Features देखें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Complex figure को तुरंत पूरी तरह analyse न करें। पहले obvious changes जैसे rotation, number of dots, shading और position देखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fast Method: Rotation → Count → Shading → Position → Symmetry → Detailed structure."
+            },
+            {
+              "id": "nvr045",
+              "title": "Options Elimination",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "यदि exact figure तुरंत identify न हो तो impossible rotations, wrong number of elements और wrong shading वाले options eliminate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि required figure में 3 dots होने चाहिए और option में 4 dots हैं, तो उसे तुरंत eliminate किया जा सकता है।"
+            },
+            {
+              "id": "nvr046",
+              "title": "Diagram को Mentally Overload न करें",
+              "tags": ["strategy", "trick"],
+              "basic_overview": "Complex figure को छोटे components में divide करके analyse करना visual errors कम करता है।",
+              "has_extra_info": true,
+              "extra_info_content": "Tip: Figure को outer shape + internal lines + marked elements में break करें। हर component का change separately track करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "ssc-nonverbal",
+          "topic_title": "SSC Non-Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "nvr047",
+              "title": "SSC Non-Verbal Preparation",
+              "tags": ["ssc", "strategy"],
+              "basic_overview": "SSC-type competitive exams में figure series, analogy, classification, mirror image, water image, paper folding, embedded figures और counting questions की practice उपयोगी होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Previous-year style figure questions को timed sets में solve करें और गलत questions का visual pattern notebook में record करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "dsssb-nonverbal",
+          "topic_title": "DSSSB Non-Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "nvr048",
+              "title": "DSSSB Visual Reasoning Strategy",
+              "tags": ["dsssb", "strategy"],
+              "basic_overview": "DSSSB preparation में standard non-verbal topics के साथ rapid visual identification और accuracy पर focus करना उपयोगी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Mirror/water image, series और figure classification के लिए repeated timed practice करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "railway-nonverbal",
+          "topic_title": "Railway Non-Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "nvr049",
+              "title": "Railway Figure Reasoning",
+              "tags": ["railway", "strategy"],
+              "basic_overview": "Railway examinations के लिए visual series, analogy, classification, paper folding, embedded figures और cube-dice type problems का अभ्यास करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Easy pattern-based questions पहले solve करें और lengthy counting/visualization questions के लिए remaining time रखें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "banking-nonverbal",
+          "topic_title": "Banking Exam Non-Verbal Practice",
+          "notes_list": [
+            {
+              "id": "nvr050",
+              "title": "Visual Logic Practice",
+              "tags": ["banking", "strategy"],
+              "basic_overview": "जहाँ non-verbal questions शामिल हों वहाँ pattern recognition, figure analogy, classification और logical transformation पर focus करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Figure में बदल रहे single attribute को identify करने की आदत बनाएं। यह speed बढ़ाती है।"
+            }
+          ]
+        },
+        {
+          "topic_id": "defence-nonverbal",
+          "topic_title": "Defence Exams Non-Verbal Reasoning",
+          "notes_list": [
+            {
+              "id": "nvr051",
+              "title": "Defence Visual Reasoning Strategy",
+              "tags": ["defence", "strategy"],
+              "basic_overview": "Defence entrance exams के reasoning sections में visual pattern recognition और quick decision making के लिए regular timed practice उपयोगी है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Mental rotation, mirror image, paper folding और figure series को बिना excessive rough work के solve करने की practice करें।"
+            }
+          ]
+        },
+        {
+          "topic_id": "upsc-nonverbal",
+          "topic_title": "UPSC CSAT Visual Reasoning",
+          "notes_list": [
+            {
+              "id": "nvr052",
+              "title": "CSAT Visual Logic",
+              "tags": ["upsc", "csat", "strategy"],
+              "basic_overview": "जहाँ visual reasoning शामिल हो, वहाँ pattern को logically justify करें और केवल visual resemblance के आधार पर answer न चुनें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tip: Figure transformation को exact rule में express करें—जैसे 90° clockwise rotation, reflection, addition of one element आदि।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-revision",
+      "title": "Quick Revision & Exam Hall Tricks",
+      "filters": [
+        { "label": "⚡ Quick Tricks", "tag": "trick" },
+        { "label": "🎯 Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nonverbal-quick-revision",
+          "topic_title": "One-Minute Non-Verbal Revision",
+          "notes_list": [
+            {
+              "id": "nvr053",
+              "title": "Universal Visual Checklist",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Figure question देखते समय shape, rotation, count, shading, position, symmetry और internal elements systematically check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick Checklist: 1) Shape 2) Rotation 3) Number of elements 4) Shading 5) Position 6) Symmetry 7) Internal arrangement."
+            },
+            {
+              "id": "nvr054",
+              "title": "Mirror vs Water Image",
+              "tags": ["revision", "trick"],
+              "basic_overview": "Mirror image में left-right reverse होता है जबकि water image में top-bottom reverse होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory Trick: Mirror = side change. Water = vertical flip."
+            },
+            {
+              "id": "nvr055",
+              "title": "Cube Formula Revision",
+              "tags": ["revision", "cube"],
+              "basic_overview": "Painted n×n×n cube के लिए corner, edge, face-centre और completely unpainted small cubes की standard formulas याद रखें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "All faces painted: 3-face = 8; 2-face = 12(n−2); 1-face = 6(n−2)^2; 0-face = (n−2)^3."
+            },
+            {
+              "id": "nvr056",
+              "title": "Visual Elimination Rule",
+              "tags": ["revision", "trick"],
+              "basic_overview": "जब exact answer unclear हो तो पहले impossible options eliminate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Hall Rule: Wrong rotation, wrong number of elements, wrong symmetry या wrong reflection वाले options तुरंत हटाएँ; फिर remaining options compare करें।"
+            },
+            {
+              "id": "nvr057",
+              "title": "Accuracy Verification",
+              "tags": ["revision", "strategy"],
+              "basic_overview": "Final answer mark करने से पहले transformation को original figure से एक बार reverse-check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tip: यदि आपने rotation apply किया है तो mentally reverse rotation करके देखें कि original figure वापस मिल रही है या नहीं।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,854 @@
+{
+  "chapter_title": "Indian Polity",
+  "sections": [
+    {
+      "id": "constitution",
+      "title": "Indian Constitution",
+      "filters": [
+        { "label": "📜 Constitution", "tag": "constitution" },
+        { "label": "🧭 Features", "tag": "constitutional-features" },
+        { "label": "⚖️ Preamble", "tag": "preamble" },
+        { "label": "📝 Amendments", "tag": "amendments" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-constitution-making",
+          "topic_title": "Making of the Constitution",
+          "notes_list": [
+            {
+              "id": "p001",
+              "title": "Constituent Assembly",
+              "tags": ["constitution", "polity"],
+              "basic_overview": "The Constituent Assembly was responsible for framing the Constitution of India. It first met on 9 December 1946.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Dr. Sachchidananda Sinha served as the temporary chairman, while Dr. Rajendra Prasad was later elected permanent President of the Constituent Assembly. The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950."
+            },
+            {
+              "id": "p002",
+              "title": "Drafting Committee",
+              "tags": ["constitution", "polity"],
+              "basic_overview": "The Drafting Committee prepared the draft Constitution under the chairmanship of Dr. B. R. Ambedkar.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Drafting Committee was appointed on 29 August 1947. Dr. B. R. Ambedkar served as its Chairman."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-features",
+          "topic_title": "Features of the Constitution",
+          "notes_list": [
+            {
+              "id": "p003",
+              "title": "Key Features of the Indian Constitution",
+              "tags": ["constitutional-features", "polity"],
+              "basic_overview": "The Constitution establishes India as a sovereign, socialist, secular, democratic republic and provides a parliamentary system, federal structure, fundamental rights, directive principles and an independent judiciary.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Constitution combines federal and unitary features. It provides division of powers between the Union and States while also giving the Union significant powers in specified circumstances."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-preamble",
+          "topic_title": "Preamble",
+          "notes_list": [
+            {
+              "id": "p004",
+              "title": "Preamble to the Constitution",
+              "tags": ["preamble", "constitution", "polity"],
+              "basic_overview": "The Preamble declares the fundamental objectives and values of the Constitution and begins with the expression 'We, the People of India'.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "The words Socialist, Secular and Integrity were added to the Preamble by the 42nd Constitutional Amendment Act, 1976."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-amendments",
+          "topic_title": "Constitutional Amendments",
+          "notes_list": [
+            {
+              "id": "p005",
+              "title": "Amendment Procedure",
+              "tags": ["amendments", "constitution", "polity"],
+              "basic_overview": "Article 368 provides the principal constitutional framework for amendment of the Constitution. Different provisions require different procedures for amendment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Some amendments require a simple majority, some require a special majority of Parliament, and certain federal provisions additionally require ratification by at least half of the State legislatures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundamental-rights",
+      "title": "Fundamental Rights & Duties",
+      "filters": [
+        { "label": "🛡️ Fundamental Rights", "tag": "fundamental-rights" },
+        { "label": "⚖️ Constitutional Remedies", "tag": "constitutional-remedies" },
+        { "label": "📋 Directive Principles", "tag": "dpsp" },
+        { "label": "🇮🇳 Fundamental Duties", "tag": "fundamental-duties" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-fundamental-rights",
+          "topic_title": "Fundamental Rights",
+          "notes_list": [
+            {
+              "id": "p101",
+              "title": "Right to Equality",
+              "tags": ["fundamental-rights", "polity"],
+              "basic_overview": "Articles 14 to 18 provide constitutional guarantees relating to equality before law, prohibition of discrimination, equality of opportunity and abolition of untouchability and titles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Article 14 guarantees equality before law and equal protection of laws. Article 17 abolishes untouchability, and Article 18 abolishes titles except specified distinctions."
+            },
+            {
+              "id": "p102",
+              "title": "Right to Freedom",
+              "tags": ["fundamental-rights", "polity"],
+              "basic_overview": "Articles 19 to 22 provide important protections relating to freedoms, criminal safeguards, life and personal liberty and protection against arbitrary arrest and detention.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Article 19 guarantees specified freedoms to citizens subject to constitutionally permitted reasonable restrictions. Article 21 protects life and personal liberty."
+            },
+            {
+              "id": "p103",
+              "title": "Right Against Exploitation",
+              "tags": ["fundamental-rights", "polity"],
+              "basic_overview": "Articles 23 and 24 prohibit trafficking, forced labour and employment of children in certain hazardous occupations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Article 23 prohibits trafficking in human beings and forced labour. Article 24 prohibits employment of children below 14 years in factories, mines and other hazardous employment."
+            },
+            {
+              "id": "p104",
+              "title": "Right to Freedom of Religion",
+              "tags": ["fundamental-rights", "polity"],
+              "basic_overview": "Articles 25 to 28 provide constitutional protections relating to freedom of conscience and freedom to profess, practise and propagate religion, subject to constitutional limitations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "These provisions also address religious denominations, religious instruction in educational institutions and restrictions connected with public order, morality and health."
+            },
+            {
+              "id": "p105",
+              "title": "Cultural and Educational Rights",
+              "tags": ["fundamental-rights", "polity"],
+              "basic_overview": "Articles 29 and 30 protect specified cultural and educational interests, including the rights of minorities to conserve language, script and culture and establish and administer educational institutions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Article 29 protects the interests of sections of citizens having a distinct language, script or culture. Article 30 concerns minority educational institutions."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-constitutional-remedies",
+          "topic_title": "Right to Constitutional Remedies",
+          "notes_list": [
+            {
+              "id": "p106",
+              "title": "Article 32",
+              "tags": ["constitutional-remedies", "fundamental-rights", "polity"],
+              "basic_overview": "Article 32 guarantees the right to approach the Supreme Court for enforcement of Fundamental Rights.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The Supreme Court can issue constitutional writs including Habeas Corpus, Mandamus, Prohibition, Certiorari and Quo Warranto for appropriate purposes."
+            },
+            {
+              "id": "p107",
+              "title": "Five Constitutional Writs",
+              "tags": ["constitutional-remedies", "polity"],
+              "basic_overview": "The five major constitutional writs are Habeas Corpus, Mandamus, Prohibition, Certiorari and Quo Warranto.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Habeas Corpus concerns unlawful detention; Mandamus commands performance of a public duty; Prohibition prevents a lower court or tribunal from exceeding jurisdiction; Certiorari is used to quash certain orders; Quo Warranto questions authority to hold a public office."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-dpsp",
+          "topic_title": "Directive Principles of State Policy",
+          "notes_list": [
+            {
+              "id": "p108",
+              "title": "Directive Principles",
+              "tags": ["dpsp", "polity"],
+              "basic_overview": "Directive Principles of State Policy are constitutional principles contained in Part IV that guide the State in making laws and policies for social and economic welfare.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Directive Principles are not enforceable by courts, but Article 37 states that they are fundamental in the governance of the country."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-fundamental-duties",
+          "topic_title": "Fundamental Duties",
+          "notes_list": [
+            {
+              "id": "p109",
+              "title": "Fundamental Duties",
+              "tags": ["fundamental-duties", "polity"],
+              "basic_overview": "Fundamental Duties are listed in Article 51A and describe constitutional responsibilities expected of citizens.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The Fundamental Duties were originally added by the 42nd Constitutional Amendment Act, 1976. The duty relating to providing educational opportunities to children was added by the 86th Amendment Act, 2002."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "union-government",
+      "title": "Union Government",
+      "filters": [
+        { "label": "🇮🇳 President", "tag": "president" },
+        { "label": "👤 Vice President", "tag": "vice-president" },
+        { "label": "🏛️ Parliament", "tag": "parliament" },
+        { "label": "👔 Prime Minister", "tag": "prime-minister" },
+        { "label": "📋 Council of Ministers", "tag": "council-ministers" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-president",
+          "topic_title": "President of India",
+          "notes_list": [
+            {
+              "id": "p201",
+              "title": "Election of the President",
+              "tags": ["president", "union-government"],
+              "basic_overview": "The President of India is elected indirectly by an electoral college consisting of elected members of both Houses of Parliament and elected members of the Legislative Assemblies of the States and specified Union Territories.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The election uses proportional representation by means of the single transferable vote and voting is by secret ballot."
+            },
+            {
+              "id": "p202",
+              "title": "Powers of the President",
+              "tags": ["president", "union-government"],
+              "basic_overview": "The President exercises executive, legislative, financial, judicial and emergency-related constitutional functions, generally on the aid and advice of the Council of Ministers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The President appoints the Prime Minister and other constitutional authorities as provided by the Constitution and summons and prorogues Parliament."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-vice-president",
+          "topic_title": "Vice-President",
+          "notes_list": [
+            {
+              "id": "p203",
+              "title": "Vice-President of India",
+              "tags": ["vice-president", "union-government"],
+              "basic_overview": "The Vice-President is elected by members of both Houses of Parliament through proportional representation using the single transferable vote.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "The Vice-President is the ex officio Chairman of the Rajya Sabha. The office is also constitutionally connected with succession to presidential functions in specified circumstances."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-prime-minister",
+          "topic_title": "Prime Minister",
+          "notes_list": [
+            {
+              "id": "p204",
+              "title": "Role of the Prime Minister",
+              "tags": ["prime-minister", "union-government"],
+              "basic_overview": "The Prime Minister is the head of the Council of Ministers and serves as the principal channel of communication between the President and the Council of Ministers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Article 75 deals with the appointment of the Prime Minister and other ministers. The Council of Ministers is collectively responsible to the Lok Sabha."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-council-ministers",
+          "topic_title": "Council of Ministers",
+          "notes_list": [
+            {
+              "id": "p205",
+              "title": "Council of Ministers",
+              "tags": ["council-ministers", "union-government"],
+              "basic_overview": "The Council of Ministers assists and advises the President and is collectively responsible to the Lok Sabha.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "The Council includes Cabinet Ministers, Ministers of State and other categories of ministers as determined by the government. The Cabinet is the principal decision-making body within the Council of Ministers."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-parliament",
+          "topic_title": "Parliament of India",
+          "notes_list": [
+            {
+              "id": "p206",
+              "title": "Lok Sabha",
+              "tags": ["parliament", "union-government"],
+              "basic_overview": "The Lok Sabha is the House of the People and the lower House of Parliament. Its members are directly elected from territorial constituencies.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The normal term of the Lok Sabha is five years unless dissolved earlier, subject to constitutional provisions concerning extension during a national emergency."
+            },
+            {
+              "id": "p207",
+              "title": "Rajya Sabha",
+              "tags": ["parliament", "union-government"],
+              "basic_overview": "The Rajya Sabha is the Council of States and the upper House of Parliament. It represents the States and Union Territories and is a permanent House.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "One-third of the members of the Rajya Sabha retire every second year. Members are generally elected by elected members of State Legislative Assemblies through proportional representation by means of the single transferable vote."
+            },
+            {
+              "id": "p208",
+              "title": "Parliamentary Committees",
+              "tags": ["parliament", "union-government"],
+              "basic_overview": "Parliamentary committees examine legislation, expenditure, government functioning and other matters in greater detail.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Important committees include the Public Accounts Committee, Estimates Committee, Committee on Public Undertakings and various Department-related Standing Committees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-government",
+      "title": "State Government",
+      "filters": [
+        { "label": "🏛️ Governor", "tag": "governor" },
+        { "label": "👔 Chief Minister", "tag": "chief-minister" },
+        { "label": "🏛️ State Legislature", "tag": "state-legislature" },
+        { "label": "⚖️ High Court", "tag": "high-court" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-governor",
+          "topic_title": "Governor",
+          "notes_list": [
+            {
+              "id": "p301",
+              "title": "Governor of a State",
+              "tags": ["governor", "state-government"],
+              "basic_overview": "The Governor is the constitutional head of a State and is appointed by the President of India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Governor exercises constitutional functions including appointing the Chief Minister, summoning and proroguing the State Legislature and giving assent to Bills as provided by the Constitution."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-chief-minister",
+          "topic_title": "Chief Minister",
+          "notes_list": [
+            {
+              "id": "p302",
+              "title": "Role of Chief Minister",
+              "tags": ["chief-minister", "state-government"],
+              "basic_overview": "The Chief Minister is the head of the State Council of Ministers and the principal executive authority in the parliamentary government of the State.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Chief Minister communicates decisions of the Council of Ministers to the Governor and coordinates the functioning of the State government."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-state-legislature",
+          "topic_title": "State Legislature",
+          "notes_list": [
+            {
+              "id": "p303",
+              "title": "Legislative Assembly",
+              "tags": ["state-legislature", "state-government"],
+              "basic_overview": "The Legislative Assembly is the directly elected House of a State Legislature and plays a central role in law-making, financial control and holding the executive accountable.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Members of the Legislative Assembly are elected from territorial constituencies. The normal term is five years unless dissolved earlier, subject to constitutional provisions."
+            },
+            {
+              "id": "p304",
+              "title": "Legislative Council",
+              "tags": ["state-legislature", "state-government"],
+              "basic_overview": "A Legislative Council is the upper House in States that have a bicameral legislature. Its members are elected and nominated through constitutionally specified methods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "The Legislative Council is a permanent House, with approximately one-third of its members retiring every second year."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-high-court",
+          "topic_title": "High Court",
+          "notes_list": [
+            {
+              "id": "p305",
+              "title": "High Courts",
+              "tags": ["high-court", "state-government"],
+              "basic_overview": "High Courts are constitutional courts at the State level and exercise original, appellate and writ jurisdiction as provided by the Constitution and laws.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Under Article 226, High Courts can issue writs not only for enforcement of Fundamental Rights but also for other purposes within their jurisdiction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judiciary",
+      "title": "Judiciary",
+      "filters": [
+        { "label": "⚖️ Supreme Court", "tag": "supreme-court" },
+        { "label": "🏛️ High Courts", "tag": "high-courts" },
+        { "label": "🔨 Judicial Review", "tag": "judicial-review" },
+        { "label": "📚 Judicial Activism", "tag": "judicial-activism" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-supreme-court",
+          "topic_title": "Supreme Court of India",
+          "notes_list": [
+            {
+              "id": "p401",
+              "title": "Supreme Court",
+              "tags": ["supreme-court", "judiciary"],
+              "basic_overview": "The Supreme Court of India is the highest court in the country and is established under Part V of the Constitution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The Supreme Court has original, appellate and advisory jurisdiction and can enforce Fundamental Rights through appropriate constitutional remedies."
+            },
+            {
+              "id": "p402",
+              "title": "Judicial Review",
+              "tags": ["judicial-review", "judiciary"],
+              "basic_overview": "Judicial review is the power of constitutional courts to examine the constitutional validity of laws and executive actions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Judicial review supports constitutional supremacy by allowing courts to invalidate laws or actions that are inconsistent with constitutional provisions."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-judicial-activism",
+          "topic_title": "Judicial Activism and PIL",
+          "notes_list": [
+            {
+              "id": "p403",
+              "title": "Public Interest Litigation",
+              "tags": ["judicial-activism", "judiciary"],
+              "basic_overview": "Public Interest Litigation allows constitutional courts to consider certain matters involving public interest and access to justice, subject to judicial rules and procedures.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "PIL has been used in areas such as environmental protection, rights of vulnerable groups and public accountability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-government",
+      "title": "Local Government",
+      "filters": [
+        { "label": "🏘️ Panchayati Raj", "tag": "panchayati-raj" },
+        { "label": "🏙️ Municipalities", "tag": "municipalities" },
+        { "label": "🗳️ Local Elections", "tag": "local-elections" },
+        { "label": "👥 Local Bodies", "tag": "local-bodies" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-panchayati-raj",
+          "topic_title": "Panchayati Raj",
+          "notes_list": [
+            {
+              "id": "p501",
+              "title": "73rd Constitutional Amendment",
+              "tags": ["panchayati-raj", "local-government"],
+              "basic_overview": "The 73rd Constitutional Amendment Act, 1992 gave constitutional status to Panchayati Raj Institutions and added Part IX to the Constitution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The amendment provided for Gram Sabhas, a three-tier Panchayati Raj structure in general, reservations for specified categories, regular elections and State Election Commissions."
+            },
+            {
+              "id": "p502",
+              "title": "Three-Tier Panchayati Raj",
+              "tags": ["panchayati-raj", "local-government"],
+              "basic_overview": "The general three-tier structure consists of Gram Panchayat at the village level, Panchayat Samiti at the intermediate level and Zila Parishad at the district level.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#65a30d",
+              "extra_info_content": "The exact institutional structure can vary according to State laws. Gram Sabha consists of persons registered in the electoral rolls of the village area."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-municipalities",
+          "topic_title": "Urban Local Government",
+          "notes_list": [
+            {
+              "id": "p503",
+              "title": "74th Constitutional Amendment",
+              "tags": ["municipalities", "local-government"],
+              "basic_overview": "The 74th Constitutional Amendment Act, 1992 gave constitutional status to urban local bodies and added Part IXA to the Constitution.",
+              "has_extra_info": true,
+              "extra_info_content": "Urban local bodies include Nagar Panchayats for transitional areas, Municipal Councils for smaller urban areas and Municipal Corporations for larger urban areas, subject to State law and constitutional provisions."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-local-elections",
+          "topic_title": "Local Elections",
+          "notes_list": [
+            {
+              "id": "p504",
+              "title": "State Election Commission",
+              "tags": ["local-elections", "local-government"],
+              "basic_overview": "The State Election Commission conducts elections to Panchayats and Municipalities under the constitutional framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The State Election Commissioner is appointed by the Governor and has constitutional safeguards relating to removal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constitutional-bodies",
+      "title": "Constitutional & Statutory Bodies",
+      "filters": [
+        { "label": "🗳️ Election Commission", "tag": "election-commission" },
+        { "label": "💰 Finance Commission", "tag": "finance-commission" },
+        { "label": "📊 CAG", "tag": "cag" },
+        { "label": "👥 UPSC", "tag": "upsc" },
+        { "label": "⚖️ Commissions", "tag": "commissions" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-election-commission",
+          "topic_title": "Election Commission of India",
+          "notes_list": [
+            {
+              "id": "p601",
+              "title": "Election Commission",
+              "tags": ["election-commission", "constitutional-bodies"],
+              "basic_overview": "The Election Commission of India is a constitutional body responsible for superintendence, direction and control of elections to Parliament, State Legislatures and the offices of President and Vice-President, subject to the constitutional framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Article 324 establishes the Election Commission. It also deals with electoral rolls and the conduct of elections within its constitutional jurisdiction."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-finance-commission",
+          "topic_title": "Finance Commission",
+          "notes_list": [
+            {
+              "id": "p602",
+              "title": "Finance Commission",
+              "tags": ["finance-commission", "constitutional-bodies"],
+              "basic_overview": "The Finance Commission is a constitutional body constituted by the President under Article 280 to recommend principles relating to distribution of certain financial resources between the Union and States.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Finance Commission also makes recommendations concerning grants-in-aid and measures needed to augment State funds for Panchayats and Municipalities based on constitutional provisions."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-cag",
+          "topic_title": "Comptroller and Auditor General",
+          "notes_list": [
+            {
+              "id": "p603",
+              "title": "CAG of India",
+              "tags": ["cag", "constitutional-bodies"],
+              "basic_overview": "The Comptroller and Auditor General of India audits specified accounts of the Union and State governments and performs functions prescribed by the Constitution and law.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#9333ea",
+              "extra_info_content": "The CAG's reports relating to Union accounts are submitted to the President and reports relating to State accounts are submitted to the Governor, who causes them to be laid before the respective legislatures."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-upsc",
+          "topic_title": "Union Public Service Commission",
+          "notes_list": [
+            {
+              "id": "p604",
+              "title": "UPSC",
+              "tags": ["upsc", "constitutional-bodies"],
+              "basic_overview": "The Union Public Service Commission is a constitutional body that conducts examinations and performs recruitment-related functions for the Union as provided by the Constitution and law.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Constitution provides for Public Service Commissions at the Union and State levels and specifies their functions and consultation roles."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-commissions",
+          "topic_title": "Constitutional Commissions",
+          "notes_list": [
+            {
+              "id": "p605",
+              "title": "National Commissions",
+              "tags": ["commissions", "constitutional-bodies"],
+              "basic_overview": "The Constitution provides for bodies such as the National Commission for Scheduled Castes and the National Commission for Scheduled Tribes to safeguard specified constitutional interests.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "These commissions investigate and monitor safeguards, inquire into complaints and participate in reporting and advisory functions within their constitutional mandates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electoral-system",
+      "title": "Electoral System",
+      "filters": [
+        { "label": "🗳️ Elections", "tag": "elections" },
+        { "label": "📋 Representation", "tag": "representation" },
+        { "label": "👤 Voter", "tag": "voter" },
+        { "label": "🏛️ Political Parties", "tag": "political-parties" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-elections",
+          "topic_title": "Indian Electoral System",
+          "notes_list": [
+            {
+              "id": "p701",
+              "title": "General Elections",
+              "tags": ["elections", "electoral-system"],
+              "basic_overview": "Elections are a central mechanism through which citizens choose representatives for legislatures under India's constitutional and statutory electoral framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Elections to the Lok Sabha and State Legislative Assemblies generally use the first-past-the-post system in territorial constituencies."
+            },
+            {
+              "id": "p702",
+              "title": "First-Past-the-Post System",
+              "tags": ["elections", "representation", "electoral-system"],
+              "basic_overview": "Under the first-past-the-post system, the candidate receiving the highest number of valid votes in a constituency is elected.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The system is based on plurality rather than requiring a candidate to receive more than half of all votes cast."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-voter",
+          "topic_title": "Voters and Electoral Participation",
+          "notes_list": [
+            {
+              "id": "p703",
+              "title": "Universal Adult Suffrage",
+              "tags": ["voter", "electoral-system"],
+              "basic_overview": "Indian citizens meeting the statutory eligibility requirements can participate in elections through the electoral roll. The constitutional voting age was reduced from 21 to 18 years by the 61st Constitutional Amendment Act, 1988.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Article 326 provides for elections to the Lok Sabha and State Legislative Assemblies on the basis of adult suffrage, subject to constitutional and legal qualifications."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-political-parties",
+          "topic_title": "Political Parties",
+          "notes_list": [
+            {
+              "id": "p704",
+              "title": "Political Parties",
+              "tags": ["political-parties", "electoral-system"],
+              "basic_overview": "Political parties organise political participation, contest elections, present policy programmes and contribute to legislative and representative processes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Election Commission of India registers political parties under applicable law and regulations and recognises parties according to prescribed criteria."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Governance & Public Administration",
+      "filters": [
+        { "label": "🏛️ Governance", "tag": "governance" },
+        { "label": "📢 RTI", "tag": "rti" },
+        { "label": "🧑‍💼 Civil Services", "tag": "civil-services" },
+        { "label": "💻 E-Governance", "tag": "e-governance" },
+        { "label": "🤝 Accountability", "tag": "accountability" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-governance",
+          "topic_title": "Good Governance",
+          "notes_list": [
+            {
+              "id": "p801",
+              "title": "Principles of Good Governance",
+              "tags": ["governance", "polity"],
+              "basic_overview": "Good governance generally involves transparency, accountability, participation, responsiveness, rule of law, effectiveness and equity in public administration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "These principles aim to improve the quality, accessibility and accountability of public institutions and public services."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-rti",
+          "topic_title": "Right to Information",
+          "notes_list": [
+            {
+              "id": "p802",
+              "title": "Right to Information Act",
+              "tags": ["rti", "governance"],
+              "basic_overview": "The Right to Information Act, 2005 establishes a legal framework through which citizens can seek information from public authorities, subject to statutory exemptions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Act provides for Public Information Officers, information commissions and time-bound procedures for responding to requests, with specified exemptions and appeals."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-civil-services",
+          "topic_title": "Civil Services",
+          "notes_list": [
+            {
+              "id": "p803",
+              "title": "Civil Services in India",
+              "tags": ["civil-services", "governance"],
+              "basic_overview": "Civil servants assist elected governments in policy implementation, administration, regulation and delivery of public services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The constitutional framework includes provisions concerning public services, Public Service Commissions and conditions of service."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-e-governance",
+          "topic_title": "E-Governance",
+          "notes_list": [
+            {
+              "id": "p804",
+              "title": "Digital Governance",
+              "tags": ["e-governance", "governance"],
+              "basic_overview": "E-governance uses digital technologies to improve access to public information, government services, administration and citizen interaction.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "Digital public services can include online applications, electronic records, digital payments, service portals and information systems."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-accountability",
+          "topic_title": "Accountability",
+          "notes_list": [
+            {
+              "id": "p805",
+              "title": "Transparency and Accountability",
+              "tags": ["accountability", "governance"],
+              "basic_overview": "Accountability mechanisms enable public institutions and officials to be answerable for decisions, use of public resources and performance within the legal framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Parliamentary oversight, audits, judicial review, information laws, statutory institutions and administrative procedures are among the mechanisms that can support public accountability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special-constitutional-provisions",
+      "title": "Special Constitutional Provisions",
+      "filters": [
+        { "label": "🚨 Emergency", "tag": "emergency" },
+        { "label": "🗺️ Union Territories", "tag": "union-territories" },
+        { "label": "📜 Schedules", "tag": "schedules" },
+        { "label": "🔄 Federal Relations", "tag": "federal-relations" }
+      ],
+      "topics": [
+        {
+          "topic_id": "polity-emergency",
+          "topic_title": "Emergency Provisions",
+          "notes_list": [
+            {
+              "id": "p901",
+              "title": "National Emergency",
+              "tags": ["emergency", "polity"],
+              "basic_overview": "Article 352 provides for a National Emergency when the security of India or any part of it is threatened by war, external aggression or armed rebellion.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The constitutional consequences of a National Emergency include changes in the distribution and exercise of certain governmental powers, subject to constitutional safeguards."
+            },
+            {
+              "id": "p902",
+              "title": "President's Rule",
+              "tags": ["emergency", "polity"],
+              "basic_overview": "Article 356 provides for constitutional arrangements in a State when the President, on receiving a report or otherwise, is satisfied that the government of the State cannot be carried on in accordance with the Constitution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "During President's Rule, Parliament may exercise the powers of the State Legislature and the President may assume specified functions of the State government, subject to constitutional provisions."
+            },
+            {
+              "id": "p903",
+              "title": "Financial Emergency",
+              "tags": ["emergency", "polity"],
+              "basic_overview": "Article 360 provides for a Financial Emergency if the financial stability or credit of India or any part of its territory is threatened.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Constitution provides for directions concerning financial matters and possible reduction of salaries and allowances of persons serving the Union or States during such an emergency."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-union-territories",
+          "topic_title": "Union Territories",
+          "notes_list": [
+            {
+              "id": "p904",
+              "title": "Union Territories",
+              "tags": ["union-territories", "polity"],
+              "basic_overview": "Union Territories are administered under the constitutional framework for Union Territories, generally through an Administrator appointed by the President.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Constitution contains special provisions for certain Union Territories, including provisions relating to legislatures and councils of ministers in specified cases."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-schedules",
+          "topic_title": "Schedules of the Constitution",
+          "notes_list": [
+            {
+              "id": "p905",
+              "title": "Important Constitutional Schedules",
+              "tags": ["schedules", "polity"],
+              "basic_overview": "The Constitution contains Schedules that provide additional details on subjects such as States and Union Territories, oaths, allocation of seats, tribal areas, Union-State legislative powers, official languages and anti-defection.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#0891b2",
+              "extra_info_content": "There are twelve Schedules in the Constitution. The Seventh Schedule contains the Union List, State List and Concurrent List. The Tenth Schedule deals with disqualification on grounds of defection."
+            }
+          ]
+        },
+        {
+          "topic_id": "polity-federal-relations",
+          "topic_title": "Centre-State Relations",
+          "notes_list": [
+            {
+              "id": "p906",
+              "title": "Legislative Relations",
+              "tags": ["federal-relations", "polity"],
+              "basic_overview": "The Constitution distributes legislative powers between the Union and States primarily through the Union List, State List and Concurrent List in the Seventh Schedule.",
+              "has_extra_info": true,
+              "extra_info_content": "Parliament has exclusive power over subjects in the Union List, State Legislatures generally legislate on State List subjects, and both levels can legislate on Concurrent List subjects subject to constitutional rules."
+            },
+            {
+              "id": "p907",
+              "title": "Financial Relations",
+              "tags": ["federal-relations", "polity"],
+              "basic_overview": "Financial relations between the Union and States involve tax assignment, tax sharing, grants and recommendations of the Finance Commission.",
+              "has_extra_info": true,
+              "extra_info_content": "The Constitution establishes mechanisms for distribution of certain tax revenues and grants-in-aid, while Finance Commission recommendations play an important role in fiscal federalism."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

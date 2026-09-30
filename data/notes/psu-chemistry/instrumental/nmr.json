@@ -1,0 +1,1846 @@
+{
+  "chapter_title": "NMR Spectroscopy: M.Sc. Entrance, GATE, PSU & Quality Control Chemistry",
+  "sections": [
+    {
+      "id": "nmr-fundamentals",
+      "title": "NMR Spectroscopy Fundamentals",
+      "filters": [
+        { "label": "🔵 Concepts", "tag": "concept" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" },
+        { "label": "🟠 Examples", "tag": "example" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nmr-basics",
+          "topic_title": "Basic Principle of NMR",
+          "notes_list": [
+            {
+              "id": "nmr001",
+              "title": "NMR क्या है?",
+              "tags": ["basics", "concept", "msc", "gate", "psu"],
+              "basic_overview": "Nuclear Magnetic Resonance spectroscopy में magnetic field में रखे nuclei द्वारा radiofrequency radiation के absorption और resonance behaviour का अध्ययन किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "NMR-active nuclei के पास non-zero nuclear spin होता है। Common nuclei: 1H, 13C, 19F, 31P. Organic structure elucidation में 1H और 13C NMR सबसे अधिक उपयोगी हैं।"
+            },
+            {
+              "id": "nmr002",
+              "title": "NMR-Active Nuclei",
+              "tags": ["spin", "concept"],
+              "basic_overview": "जिस nucleus का nuclear spin quantum number I non-zero हो वह NMR active हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples: 1H, 13C, 19F और 31P NMR-active हैं। 12C और 16O जैसे nuclei जिनका I = 0 है, सामान्य NMR में directly observed नहीं होते।"
+            },
+            {
+              "id": "nmr003",
+              "title": "Nuclear Spin Quantum Number",
+              "tags": ["spin", "concept", "gate"],
+              "basic_overview": "Nucleus का spin quantum number I उसकी allowed magnetic spin states की संख्या निर्धारित करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Number of spin states = 2I + 1. Example: 1H के लिए I = 1/2, इसलिए दो spin states उपलब्ध होती हैं: +1/2 और −1/2."
+            },
+            {
+              "id": "nmr004",
+              "title": "Magnetic Field में Nucleus का Behaviour",
+              "tags": ["magnetic-field", "concept"],
+              "basic_overview": "External magnetic field B0 में NMR-active nuclei के spin energy levels अलग-अलग energy states में split हो जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Higher B0 generally produces larger energy separation ΔE between nuclear spin states and improves spectral dispersion in frequency units."
+            },
+            {
+              "id": "nmr005",
+              "title": "Resonance Condition",
+              "tags": ["resonance", "formula", "gate"],
+              "basic_overview": "जब applied RF frequency nucleus की Larmor frequency से match करती है, resonance absorption संभव होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Core relation: ν0 = γB0/(2π). यहाँ γ gyromagnetic ratio है और B0 external magnetic field है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "spin-properties",
+      "title": "Spin, Magnetic Moment & Larmor Frequency",
+      "filters": [
+        { "label": "⚛️ Nuclear Spin", "tag": "concept" },
+        { "label": "📐 Formula", "tag": "formula" },
+        { "label": "🔢 Numericals", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "spin-properties",
+          "topic_title": "Nuclear Magnetic Properties",
+          "notes_list": [
+            {
+              "id": "nmr006",
+              "title": "Nuclear Magnetic Moment",
+              "tags": ["magnetic-moment", "concept"],
+              "basic_overview": "Nuclear spin associated magnetic moment nucleus के magnetic behaviour का महत्वपूर्ण आधार है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Simplified relation: magnetic moment spin angular momentum के proportional होता है, proportionality gyromagnetic ratio से related होती है।"
+            },
+            {
+              "id": "nmr007",
+              "title": "Larmor Frequency",
+              "tags": ["larmor", "formula", "gate"],
+              "basic_overview": "Magnetic field में nucleus की precessional frequency को Larmor frequency कहा जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Formula: ω0 = γB0 और ν0 = γB0/(2π). इसलिए field strength बढ़ने पर resonance frequency बढ़ती है।"
+            },
+            {
+              "id": "nmr008",
+              "title": "Field Strength और Frequency",
+              "tags": ["field", "numerical"],
+              "basic_overview": "एक ही nucleus के लिए resonance frequency magnetic field strength के directly proportional होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: यदि किसी nucleus की frequency 400 MHz field पर है, तो ideal proportional scaling के अनुसार 600 MHz instrument पर frequency 600 MHz होगी।"
+            },
+            {
+              "id": "nmr009",
+              "title": "Why High Field NMR?",
+              "tags": ["high-field", "instrument", "gate"],
+              "basic_overview": "Higher magnetic field spectral separation in Hz बढ़ाता है और signal-to-noise तथा resolution को improve करने में मदद कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important: Chemical shift ppm में field-independent रहता है, लेकिन same ppm difference का frequency separation Hz में higher field पर अधिक होता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "chemical-shift",
+      "title": "Chemical Shift & Shielding",
+      "filters": [
+        { "label": "📍 Chemical Shift", "tag": "concept" },
+        { "label": "🛡️ Shielding", "tag": "concept" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "chemical-shift",
+          "topic_title": "Chemical Shift in NMR",
+          "notes_list": [
+            {
+              "id": "nmr010",
+              "title": "Chemical Shift क्या है?",
+              "tags": ["chemical-shift", "concept", "gate"],
+              "basic_overview": "Chemical shift किसी nucleus के resonance position को reference compound की तुलना में ppm में express करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Formula: δ(ppm) = [(νsample − νreference)/νspectrometer] × 10⁶. 1H NMR में TMS commonly used reference है।"
+            },
+            {
+              "id": "nmr011",
+              "title": "TMS क्यों उपयोग होता है?",
+              "tags": ["tms", "reference", "instrument"],
+              "basic_overview": "Tetramethylsilane (TMS) organic NMR में common reference standard है और उसके 1H/13C resonance को conventionally 0 ppm माना जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Reasons: chemically relatively inert, volatile, gives a single sharp signal for equivalent protons, and its signal is at the upfield end of many organic spectra."
+            },
+            {
+              "id": "nmr012",
+              "title": "Shielding और Deshielding",
+              "tags": ["shielding", "deshielding", "concept"],
+              "basic_overview": "Electron cloud external magnetic field को partially oppose करके nucleus को shield करता है। Electron density कम होने पर nucleus relatively deshielded होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Rule: More shielding → lower δ/upfield. More deshielding → higher δ/downfield."
+            },
+            {
+              "id": "nmr013",
+              "title": "Electronegative Atom का Effect",
+              "tags": ["chemical-shift", "inductive-effect"],
+              "basic_overview": "Electronegative substituents nearby proton की electron density घटा सकते हैं, जिससे proton downfield shift हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: CH3−Cl का methyl proton methane की तुलना में अधिक downfield दिखाई देता है क्योंकि Cl electron-withdrawing effect देता है।"
+            },
+            {
+              "id": "nmr014",
+              "title": "Anisotropy क्या है?",
+              "tags": ["anisotropy", "concept", "msc"],
+              "basic_overview": "π-electron systems applied magnetic field में induced local magnetic fields generate कर सकते हैं, जिससे nearby nuclei के chemical shifts प्रभावित होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: Aromatic ring current, alkene anisotropy और carbonyl anisotropy proton chemical shifts को explain करने में important हैं।"
+            },
+            {
+              "id": "nmr015",
+              "title": "Aromatic Ring Current",
+              "tags": ["aromatic", "anisotropy"],
+              "basic_overview": "Aromatic π electrons की induced circulation aromatic protons को characteristic downfield region में shift करने में योगदान देती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical aromatic 1H signals अक्सर लगभग 6–8 ppm region में दिखाई देते हैं, although exact values depend on substitution and environment."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "proton-nmr",
+      "title": "¹H NMR Spectroscopy",
+      "filters": [
+        { "label": "🧪 ¹H NMR", "tag": "proton" },
+        { "label": "📊 Interpretation", "tag": "structure" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "proton-nmr",
+          "topic_title": "¹H NMR Spectrum Interpretation",
+          "notes_list": [
+            {
+              "id": "nmr016",
+              "title": "¹H NMR में Signal Count",
+              "tags": ["proton", "structure", "msc"],
+              "basic_overview": "Chemically equivalent protons एक ही chemical shift पर resonance करते हैं; इसलिए distinct proton environments की संख्या expected signals की संख्या बताती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Ethanol CH3CH2OH में सामान्यतः three proton environments होते हैं: CH3, CH2 और OH."
+            },
+            {
+              "id": "nmr017",
+              "title": "Chemical Equivalence",
+              "tags": ["equivalence", "concept"],
+              "basic_overview": "Equivalent nuclei same chemical environment experience करते हैं और normally same chemical shift देते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Symmetry signal count कम कर सकती है। Example: para-symmetrical molecules में equivalent proton sets बन सकते हैं।"
+            },
+            {
+              "id": "nmr018",
+              "title": "Integration क्या बताता है?",
+              "tags": ["integration", "proton", "structure"],
+              "basic_overview": "¹H NMR signal का integrated area उस signal के contributing protons की relative संख्या से proportional होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Integral ratio 3:2:1 मिला तो possible proton ratio 3H:2H:1H हो सकता है, लेकिन total molecular formula और exchangeable protons से cross-check करें।"
+            },
+            {
+              "id": "nmr019",
+              "title": "Chemical Shift + Integration + Splitting",
+              "tags": ["structure", "strategy"],
+              "basic_overview": "¹H NMR structure elucidation में तीन primary information sources chemical shift, integration और multiplicity हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Structure Strategy: पहले signal count → integration → chemical shift → splitting/J → fragments → molecular formula/DBE → final structure."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "proton-shift-regions",
+      "title": "¹H Chemical Shift Regions",
+      "filters": [
+        { "label": "📍 Shift Ranges", "tag": "concept" },
+        { "label": "🟢 Memory", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "proton-regions",
+          "topic_title": "Common ¹H NMR Chemical Shift Regions",
+          "notes_list": [
+            {
+              "id": "nmr020",
+              "title": "Alkyl Proton Region",
+              "tags": ["chemical-shift", "proton"],
+              "basic_overview": "Simple saturated alkyl protons commonly appear in the approximate 0.8–2 ppm region, though exact values depend on structure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Examples: terminal CH3 groups often near 0.8–1.0 ppm; protons adjacent to unsaturation or functional groups can move further downfield."
+            },
+            {
+              "id": "nmr021",
+              "title": "Allylic और Benzylic Proton",
+              "tags": ["chemical-shift", "proton"],
+              "basic_overview": "Allylic और benzylic positions π-system के magnetic/electronic effects के कारण ordinary alkyl protons से अलग chemical shifts दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical allylic/benzylic proton signals अक्सर लगभग 1.7–3 ppm range में मिल सकते हैं, exact structure पर depend करते हैं।"
+            },
+            {
+              "id": "nmr022",
+              "title": "Protons Attached to Oxygen",
+              "tags": ["chemical-shift", "alcohol", "ether"],
+              "basic_overview": "O−CH and O−CH2 protons electron-withdrawing oxygen के कारण सामान्य alkyl protons से downfield होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical O−CH3/O−CH2 signals often occur roughly in the 3–4.5 ppm region."
+            },
+            {
+              "id": "nmr023",
+              "title": "Vinylic Proton",
+              "tags": ["alkene", "chemical-shift"],
+              "basic_overview": "C=C से directly attached protons generally alkyl protons से काफी downfield दिखाई देते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical vinylic 1H signals commonly occur around 4.5–7 ppm depending on substitution and conjugation."
+            },
+            {
+              "id": "nmr024",
+              "title": "Aromatic Proton",
+              "tags": ["aromatic", "chemical-shift"],
+              "basic_overview": "Aromatic protons ring-current anisotropy के कारण commonly around 6–8.5 ppm दिखाई देते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Substituents, electron-withdrawing groups और aromatic heterocycles exact shift को significantly modify कर सकते हैं।"
+            },
+            {
+              "id": "nmr025",
+              "title": "Aldehydic Proton",
+              "tags": ["aldehyde", "chemical-shift", "structure"],
+              "basic_overview": "Aldehyde proton strongly deshielded होता है और generally लगभग 9–10 ppm region में दिखाई देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: 9–10 ppm के आसपास isolated sharp signal दिखे तो aldehydic proton का possibility तुरंत check करें।"
+            },
+            {
+              "id": "nmr026",
+              "title": "Carboxylic Acid Proton",
+              "tags": ["carboxylic-acid", "chemical-shift"],
+              "basic_overview": "COOH proton strongly deshielded और hydrogen-bonding dependent होता है तथा अक्सर broad signal देता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical carboxylic acid OH often appears around 10–13 ppm, but exact position depends strongly on solvent and concentration."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "spin-spin-coupling",
+      "title": "Spin-Spin Coupling & Multiplicity",
+      "filters": [
+        { "label": "🔀 Splitting", "tag": "concept" },
+        { "label": "📐 J-Value", "tag": "formula" },
+        { "label": "🟢 n+1 Rule", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "coupling",
+          "topic_title": "Spin-Spin Coupling",
+          "notes_list": [
+            {
+              "id": "nmr027",
+              "title": "Spin-Spin Coupling क्या है?",
+              "tags": ["coupling", "concept", "gate"],
+              "basic_overview": "Neighbouring non-equivalent nuclei के magnetic interactions के कारण NMR signal split हो सकता है; इसे spin-spin coupling कहते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Ethyl group CH3CH2 में CH3 और CH2 protons एक-दूसरे को split करते हैं।"
+            },
+            {
+              "id": "nmr028",
+              "title": "n+1 Rule",
+              "tags": ["splitting", "trick", "gate"],
+              "basic_overview": "Simple first-order case में n equivalent neighbouring protons के साथ coupled proton signal सामान्यतः n+1 lines में split होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: CH3 next to CH2 (n=2) → triplet. CH2 next to CH3 (n=3) → quartet."
+            },
+            {
+              "id": "nmr029",
+              "title": "n+1 Rule की Limitation",
+              "tags": ["splitting", "advanced"],
+              "basic_overview": "n+1 rule simple first-order systems के लिए useful है; non-equivalent neighbours, strong coupling और second-order effects में spectra more complex हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam Trap: हर multiplet को blindly n+1 से interpret न करें। Coupling partners की equivalence और chemical-shift separation check करें।"
+            },
+            {
+              "id": "nmr030",
+              "title": "J-Coupling Constant",
+              "tags": ["j-coupling", "formula"],
+              "basic_overview": "Spin-spin coupling constant J दो coupled nuclei के splitting separation को Hz में express करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important: J-value Hz में होता है और magnetic field strength से ideally independent होता है, जबकि peak separation ppm में field-dependent हो सकती है।"
+            },
+            {
+              "id": "nmr031",
+              "title": "First-Order Spectrum",
+              "tags": ["first-order", "concept"],
+              "basic_overview": "जब coupled nuclei की chemical shift difference उनके J coupling की तुलना में पर्याप्त बड़ी हो तो first-order approximation useful होती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "First-order spectra में simple splitting patterns जैसे doublet, triplet, quartet आदि आसानी से interpret किए जा सकते हैं।"
+            },
+            {
+              "id": "nmr032",
+              "title": "Doublet, Triplet, Quartet",
+              "tags": ["multiplicity", "trick"],
+              "basic_overview": "Doublet = 2 lines, triplet = 3 lines, quartet = 4 lines under simple first-order conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common ethyl pattern: CH3 = triplet, CH2 = quartet, usually with the same J value if they are mutually coupled."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "advanced-coupling",
+      "title": "Advanced Coupling & Complex Multiplets",
+      "filters": [
+        { "label": "🧠 Advanced", "tag": "advanced" },
+        { "label": "🔬 M.Sc.", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "advanced-coupling",
+          "topic_title": "Coupling Beyond n+1",
+          "notes_list": [
+            {
+              "id": "nmr033",
+              "title": "Equivalent Protons Coupling",
+              "tags": ["coupling", "concept"],
+              "basic_overview": "Chemically equivalent protons generally do not split each other in ordinary first-order proton spectra because they have the same resonance frequency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Equivalent protons of a symmetric methyl group do not produce internal splitting among themselves."
+            },
+            {
+              "id": "nmr034",
+              "title": "Geminal Coupling",
+              "tags": ["coupling", "geminal"],
+              "basic_overview": "Two nuclei coupled through two bonds को geminal coupling कहा जाता है; 1H–1H geminal coupling can be relevant in diastereotopic CH2 groups.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical notation: 2JHH. Magnitude depends on molecular structure and stereochemistry."
+            },
+            {
+              "id": "nmr035",
+              "title": "Vicinal Coupling",
+              "tags": ["coupling", "vicinal"],
+              "basic_overview": "Three bonds के through coupling को vicinal coupling कहा जाता है और यह organic proton spectra में बहुत common है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Notation: 3JHH. Vicinal coupling often depends on dihedral angle and can be interpreted using the Karplus relationship."
+            },
+            {
+              "id": "nmr036",
+              "title": "Long-Range Coupling",
+              "tags": ["coupling", "advanced"],
+              "basic_overview": "Three से अधिक bonds के through small long-range couplings कुछ conjugated या rigid systems में दिखाई दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Allylic or W-type long-range coupling can sometimes provide structural connectivity information."
+            },
+            {
+              "id": "nmr037",
+              "title": "Karplus Relationship",
+              "tags": ["karplus", "coupling", "msc"],
+              "basic_overview": "Vicinal proton-proton coupling constant और dihedral angle के बीच empirical relationship को Karplus relationship से describe किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "General idea: 3JHH depends strongly on H−C−C−H dihedral angle. This is useful for conformational and stereochemical analysis."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "exchangeable-protons",
+      "title": "OH, NH, SH & Exchangeable Protons",
+      "filters": [
+        { "label": "🧪 Exchange", "tag": "concept" },
+        { "label": "💧 Solvent", "tag": "solvent" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "exchange",
+          "topic_title": "Exchangeable Proton Behaviour",
+          "notes_list": [
+            {
+              "id": "nmr038",
+              "title": "OH Signal क्यों Broad हो सकता है?",
+              "tags": ["oh", "exchange", "concept"],
+              "basic_overview": "Alcohol OH protons proton exchange के कारण अक्सर broad या variable signals दे सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exchange rate solvent, temperature, concentration और hydrogen bonding से प्रभावित होती है।"
+            },
+            {
+              "id": "nmr039",
+              "title": "D₂O Exchange Test",
+              "tags": ["d2o", "structure", "exam"],
+              "basic_overview": "Exchangeable OH/NH/SH protons D₂O treatment के बाद disappear या substantially change हो सकते हैं क्योंकि proton-deuterium exchange होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Alcohol sample में broad OH signal D₂O shake के बाद गायब हो जाए तो exchangeable OH की evidence मिलती है।"
+            },
+            {
+              "id": "nmr040",
+              "title": "D₂O में OH क्यों Disappear होता है?",
+              "tags": ["d2o", "concept"],
+              "basic_overview": "ROH + D₂O ⇌ ROD + HOD exchange के कारण original OH proton की NMR visibility बदल जाती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Deuterium का 1H NMR में direct proton signal नहीं देता, इसलिए OH peak disappear हो सकती है।"
+            },
+            {
+              "id": "nmr041",
+              "title": "Exchangeable Protons का Coupling",
+              "tags": ["exchange", "coupling"],
+              "basic_overview": "Rapid proton exchange के कारण OH/NH coupling often unresolved या absent दिखाई दे सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trap: OH को हमेशा neighbouring CH protons को n+1 rule से split करते हुए assume न करें। Exchange conditions check करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "carbon-13-nmr",
+      "title": "¹³C NMR Spectroscopy",
+      "filters": [
+        { "label": "🧪 ¹³C NMR", "tag": "carbon" },
+        { "label": "📊 Interpretation", "tag": "structure" },
+        { "label": "🟢 Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "carbon-nmr",
+          "topic_title": "13C NMR Basics",
+          "notes_list": [
+            {
+              "id": "nmr042",
+              "title": "13C NMR क्यों Important है?",
+              "tags": ["13c", "structure", "msc", "gate"],
+              "basic_overview": "13C NMR carbon skeleton की information देता है और structure elucidation में proton data का complementary evidence provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "13C natural abundance लगभग 1.1% होने के कारण sensitivity 1H NMR से कम होती है, इसलिए acquisition parameters अलग हो सकते हैं।"
+            },
+            {
+              "id": "nmr043",
+              "title": "13C Signal Count",
+              "tags": ["13c", "signal-count"],
+              "basic_overview": "Distinct carbon environments की संख्या approximate 13C NMR signals की संख्या determine करती है, subject to symmetry and experimental conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Benzene में सभी six carbons chemically equivalent हैं, इसलिए ideal 13C spectrum में one main carbon resonance expected है।"
+            },
+            {
+              "id": "nmr044",
+              "title": "13C Chemical Shift Range",
+              "tags": ["13c", "chemical-shift"],
+              "basic_overview": "13C NMR का chemical shift range 1H NMR की तुलना में much wider होता है, जिससे carbon environments का dispersion बेहतर होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical organic 13C spectra broadly लगभग 0–220 ppm region में discussed किए जाते हैं, with carbonyl carbons at the far downfield end."
+            },
+            {
+              "id": "nmr045",
+              "title": "13C Carbonyl Region",
+              "tags": ["13c", "carbonyl"],
+              "basic_overview": "Aldehydes, ketones, esters, acids और amides के carbonyl carbons generally strongly downfield 13C region में दिखाई देते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: 13C spectrum में ~160–220 ppm region दिखाई दे तो carbonyl/related strongly deshielded carbon environments check करें। Exact range depends on functional group."
+            },
+            {
+              "id": "nmr046",
+              "title": "13C DEPT की आवश्यकता",
+              "tags": ["dept", "13c", "structure"],
+              "basic_overview": "DEPT experiments carbon signals को CH, CH2 और CH3 classes में differentiate करने में मदद करते हैं और quaternary carbons को distinguish किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common DEPT-135 convention: CH and CH3 appear with one phase, CH2 with opposite phase, while quaternary carbons are absent. Phase convention instrument/display पर verify करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dept",
+      "title": "DEPT-135 & Carbon Editing",
+      "filters": [
+        { "label": "🔬 DEPT", "tag": "advanced" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "dept",
+          "topic_title": "DEPT NMR",
+          "notes_list": [
+            {
+              "id": "nmr047",
+              "title": "DEPT क्या है?",
+              "tags": ["dept", "13c", "gate"],
+              "basic_overview": "Distortionless Enhancement by Polarization Transfer (DEPT) एक 13C NMR experiment है जो protonated carbons की sensitivity और editing improve करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "DEPT commonly CH, CH2 और CH3 differentiation के लिए use किया जाता है।"
+            },
+            {
+              "id": "nmr048",
+              "title": "DEPT-90",
+              "tags": ["dept", "dept90"],
+              "basic_overview": "DEPT-90 में idealized conditions में primarily CH carbons observe किए जाते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Memory: DEPT-90 → CH. Quaternary carbon absent और CH2/CH3 generally absent in the ideal experiment."
+            },
+            {
+              "id": "nmr049",
+              "title": "DEPT-135",
+              "tags": ["dept", "dept135"],
+              "basic_overview": "DEPT-135 में CH और CH3 तथा CH2 signals अलग phase में दिखाई दे सकते हैं, जबकि quaternary carbons absent रहते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common convention: CH/CH3 positive and CH2 negative, but display phase can be inverted depending on processing. Always interpret relative phases consistently."
+            },
+            {
+              "id": "nmr050",
+              "title": "Quaternary Carbon पहचानना",
+              "tags": ["dept", "structure"],
+              "basic_overview": "DEPT spectrum में absent carbon signal corresponding protonated carbon नहीं हो सकता; ऐसे signals quaternary carbons की पहचान में मदद करते हैं जब broadband-decoupled 13C spectrum से compare किया जाए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Strategy: 13C broadband spectrum में सभी carbons देखें → DEPT में absent signals mark करें → likely quaternary carbons identify करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "carbon-proton-decoupling",
+      "title": "Decoupling & Proton-Coupled 13C",
+      "filters": [
+        { "label": "🔗 Coupling", "tag": "concept" },
+        { "label": "🎛️ Decoupling", "tag": "instrument" }
+      ],
+      "topics": [
+        {
+          "topic_id": "decoupling",
+          "topic_title": "13C Broadband Decoupling",
+          "notes_list": [
+            {
+              "id": "nmr051",
+              "title": "Broadband Proton Decoupling",
+              "tags": ["decoupling", "13c"],
+              "basic_overview": "Routine 13C spectra में proton decoupling commonly applied की जाती है ताकि carbon-proton coupling हटाकर simpler singlet-like carbon resonances obtain किए जा सकें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Advantage: Spectrum interpretation simpler होती है और individual carbon resonances आसानी से identify किए जा सकते हैं।"
+            },
+            {
+              "id": "nmr052",
+              "title": "Proton-Coupled 13C Spectrum",
+              "tags": ["13c", "coupling"],
+              "basic_overview": "यदि proton decoupling नहीं की जाए तो carbon signals attached protons के coupling से split हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Concept: 13C signal multiplicity carbon से directly attached proton count और coupling network से related information दे सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "solvent-reference",
+      "title": "NMR Solvents & Reference Standards",
+      "filters": [
+        { "label": "🧪 Solvents", "tag": "solvent" },
+        { "label": "📍 Reference", "tag": "reference" },
+        { "label": "🟢 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "solvents",
+          "topic_title": "Deuterated Solvents",
+          "notes_list": [
+            {
+              "id": "nmr053",
+              "title": "Deuterated Solvent क्यों?",
+              "tags": ["solvent", "instrument"],
+              "basic_overview": "Routine proton NMR में deuterated solvents उपयोग किए जाते हैं ताकि solvent का strong 1H background signal minimize हो और instrument field-frequency locking संभव हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common solvents: CDCl3, DMSO-d6, CD3OD, D2O, acetone-d6. Exact choice sample solubility और chemical stability पर depend करता है।"
+            },
+            {
+              "id": "nmr054",
+              "title": "CDCl3 कब Use करें?",
+              "tags": ["cdcl3", "solvent"],
+              "basic_overview": "CDCl3 many neutral organic compounds के लिए common NMR solvent है और relatively convenient routine solvent है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "QC Tip: Sample insoluble हो या chemically reactive हो तो alternative solvent choose करें।"
+            },
+            {
+              "id": "nmr055",
+              "title": "DMSO-d6 कब Useful है?",
+              "tags": ["dmso", "solvent"],
+              "basic_overview": "DMSO-d6 relatively polar solvent है और many polar तथा high-melting organic compounds को dissolve कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "OH/NH signals में hydrogen bonding और exchange behaviour solvent के कारण change हो सकता है।"
+            },
+            {
+              "id": "nmr056",
+              "title": "Residual Solvent Peaks",
+              "tags": ["solvent", "spectrum"],
+              "basic_overview": "Deuterated solvent पूरी तरह proton-free नहीं होता; residual protonated solvent peaks NMR spectrum में दिखाई दे सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam/Practical Tip: Unexpected peaks identify करते समय पहले residual solvent peaks, water और reference-related signals check करें।"
+            },
+            {
+              "id": "nmr057",
+              "title": "Water Peak",
+              "tags": ["water", "solvent", "troubleshooting"],
+              "basic_overview": "Trace water signal solvent, temperature, concentration और hydrogen bonding conditions के अनुसार variable position पर दिखाई दे सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debugging Tip: Unexpected broad peak को immediately impurity न मानें; solvent blank/reference spectrum से compare करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sample-preparation",
+      "title": "NMR Sample Preparation",
+      "filters": [
+        { "label": "🧪 Sample Prep", "tag": "sample" },
+        { "label": "⚗️ Practical", "tag": "practical" },
+        { "label": "🟢 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "sample-prep",
+          "topic_title": "Preparing an NMR Sample",
+          "notes_list": [
+            {
+              "id": "nmr058",
+              "title": "Sample Concentration",
+              "tags": ["sample", "practical"],
+              "basic_overview": "Adequate concentration signal-to-noise improve करती है, लेकिन excessively concentrated samples viscosity, aggregation, solubility और line-shape problems पैदा कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Practical rule: Concentration experiment और nucleus sensitivity के अनुसार optimize करें; universal single concentration सभी samples पर लागू नहीं होती।"
+            },
+            {
+              "id": "nmr059",
+              "title": "Sample Homogeneity",
+              "tags": ["sample", "qc"],
+              "basic_overview": "Solution homogeneous और particulate-free होना चाहिए ताकि magnetic susceptibility gradients और scattering-like physical issues minimized रहें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debugging: Cloudy sample, precipitate या phase separation खराब shimming और broad peaks का कारण बन सकता है।"
+            },
+            {
+              "id": "nmr060",
+              "title": "NMR Tube Quality",
+              "tags": ["nmr-tube", "sample"],
+              "basic_overview": "High-quality clean NMR tube और appropriate sample volume reproducible spectra के लिए महत्वपूर्ण हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tube contamination से unexpected peaks और poor line shape आ सकती है। Tube को appropriate cleaning procedure के अनुसार handle करें।"
+            },
+            {
+              "id": "nmr061",
+              "title": "Sample Height और Coil Region",
+              "tags": ["sample", "instrument"],
+              "basic_overview": "Sample volume इतना होना चाहिए कि sensitive detection region adequately covered रहे।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Very low sample volume sensitivity और homogeneity दोनों को affect कर सकता है। Exact recommended height probe/instrument design पर depend करती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "instrumentation-nmr",
+      "title": "NMR Instrumentation",
+      "filters": [
+        { "label": "🔧 Instrument", "tag": "instrument" },
+        { "label": "🧲 Magnet", "tag": "magnet" },
+        { "label": "📡 RF System", "tag": "rf" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nmr-instrument",
+          "topic_title": "Major NMR Instrument Components",
+          "notes_list": [
+            {
+              "id": "nmr062",
+              "title": "NMR Instrument का Basic Block",
+              "tags": ["instrumentation", "psu"],
+              "basic_overview": "Modern NMR spectrometer में superconducting magnet, probe, RF transmitter, receiver, shim system, lock system, gradient system और computer/data system प्रमुख components हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Simplified signal path: RF excitation → sample spins → induced NMR signal → receiver → digitization → Fourier transform → spectrum."
+            },
+            {
+              "id": "nmr063",
+              "title": "Superconducting Magnet",
+              "tags": ["magnet", "instrument"],
+              "basic_overview": "High-resolution NMR instruments में strong homogeneous magnetic field के लिए superconducting magnets commonly used होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "High-field superconducting magnets typically require cryogenic systems to maintain superconducting conditions."
+            },
+            {
+              "id": "nmr064",
+              "title": "Probe क्या है?",
+              "tags": ["probe", "instrument"],
+              "basic_overview": "NMR probe sample के आसपास RF transmission और signal detection के लिए coils और associated electronics रखता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Probe selection nucleus, sample volume, sensitivity requirements और experiment type पर depend कर सकती है।"
+            },
+            {
+              "id": "nmr065",
+              "title": "RF Transmitter",
+              "tags": ["rf", "instrument"],
+              "basic_overview": "RF transmitter nuclei को excite करने के लिए controlled radiofrequency pulses generate करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Pulse amplitude, duration, phase और frequency experiment के desired excitation profile को determine करते हैं।"
+            },
+            {
+              "id": "nmr066",
+              "title": "Receiver",
+              "tags": ["receiver", "instrument"],
+              "basic_overview": "Receiver sample से आने वाले weak NMR signal को detect, amplify और digitize करने के लिए responsible होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Receiver gain बहुत high होने पर overload/clipping हो सकता है; बहुत low होने पर signal weak दिखाई दे सकता है।"
+            },
+            {
+              "id": "nmr067",
+              "title": "Shim System",
+              "tags": ["shim", "instrument", "debugging"],
+              "basic_overview": "Shim coils magnetic field की spatial inhomogeneity को correct करने के लिए small field adjustments generate करती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Good shimming → narrow, symmetric lines and improved resolution. Poor shimming → broad/distorted lines."
+            },
+            {
+              "id": "nmr068",
+              "title": "Field-Frequency Lock",
+              "tags": ["lock", "instrument"],
+              "basic_overview": "Deuterium-containing solvent signal को lock system magnetic field stability monitor और correct करने के लिए use कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common concept: CDCl3 जैसे deuterated solvents में deuterium lock signal instrument को field drift compensate करने में मदद करता है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ft-nmr",
+      "title": "FT-NMR & Data Acquisition",
+      "filters": [
+        { "label": "💻 FT-NMR", "tag": "instrument" },
+        { "label": "📈 FID", "tag": "fid" },
+        { "label": "🧮 Mathematics", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "ft-nmr",
+          "topic_title": "Fourier Transform NMR",
+          "notes_list": [
+            {
+              "id": "nmr069",
+              "title": "FT-NMR क्या है?",
+              "tags": ["ft-nmr", "concept", "gate"],
+              "basic_overview": "FT-NMR में time-domain NMR signal acquire किया जाता है और Fourier transformation के माध्यम से frequency-domain spectrum obtain किया जाता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Basic chain: RF pulse → FID → digitization → Fourier Transform → frequency spectrum."
+            },
+            {
+              "id": "nmr070",
+              "title": "FID क्या है?",
+              "tags": ["fid", "concept"],
+              "basic_overview": "Free Induction Decay (FID) RF excitation के बाद time के साथ detected transverse magnetization signal का decay है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "FID contains frequency and relaxation information that is converted into the familiar spectrum by Fourier transformation."
+            },
+            {
+              "id": "nmr071",
+              "title": "Number of Scans का Effect",
+              "tags": ["scans", "snr", "numerical"],
+              "basic_overview": "Repeated scans signal-to-noise ratio improve करते हैं; random noise के लिए S/N approximately square root of number of scans के proportional बढ़ सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: scans 4 से 16 करने पर ideal S/N improvement लगभग √(16/4) = 2 times हो सकता है।"
+            },
+            {
+              "id": "nmr072",
+              "title": "Zero Filling",
+              "tags": ["processing", "ft-nmr"],
+              "basic_overview": "Acquired FID में additional zeros append करके digital spectrum की point density/interpolated appearance improve की जा सकती है; यह true experimental resolution को magically create नहीं करता।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trap: Zero filling visual/digital representation improve कर सकता है, लेकिन acquisition time या intrinsic linewidth से निर्धारित resolution को fundamentally create नहीं करता।"
+            },
+            {
+              "id": "nmr073",
+              "title": "Apodization / Window Function",
+              "tags": ["processing", "fid"],
+              "basic_overview": "FID पर window function apply करके signal-to-noise और linewidth/line-shape trade-off को optimize किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Exponential weighting often S/N improve करती है लेकिन peaks को broaden कर सकती है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-relaxation",
+      "title": "Relaxation: T1, T2 & T2*",
+      "filters": [
+        { "label": "⏱️ Relaxation", "tag": "concept" },
+        { "label": "📐 T1/T2", "tag": "formula" },
+        { "label": "🟢 Exam Tricks", "tag": "trick" }
+      ],
+      "topics": [
+        {
+          "topic_id": "relaxation",
+          "topic_title": "NMR Relaxation",
+          "notes_list": [
+            {
+              "id": "nmr074",
+              "title": "T1 Relaxation",
+              "tags": ["t1", "relaxation", "gate"],
+              "basic_overview": "T1 longitudinal or spin-lattice relaxation time है, जो longitudinal magnetization recovery की characteristic time scale को describe करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "T1 का knowledge pulse sequence design और quantitative NMR में important है।"
+            },
+            {
+              "id": "nmr075",
+              "title": "T2 Relaxation",
+              "tags": ["t2", "relaxation", "gate"],
+              "basic_overview": "T2 transverse or spin-spin relaxation time है, जो transverse magnetization decay की characteristic time scale को describe करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Shorter T2 generally broader NMR lines से associated होता है।"
+            },
+            {
+              "id": "nmr076",
+              "title": "T2* क्या है?",
+              "tags": ["t2-star", "relaxation"],
+              "basic_overview": "T2* observed transverse decay को represent करता है जिसमें true T2 relaxation के साथ magnetic field inhomogeneity effects भी शामिल हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Relationship: 1/T2* = 1/T2 + 1/T2,inhomogeneity in a simplified description."
+            },
+            {
+              "id": "nmr077",
+              "title": "T1 और Signal Intensity",
+              "tags": ["t1", "quantitative"],
+              "basic_overview": "यदि repetition time बहुत छोटा हो relative to T1, complete longitudinal recovery न होने से signal saturation और inaccurate integrals हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "qNMR/QC Tip: Quantitative integration के लिए relaxation delay sufficiently long रखना आवश्यक हो सकता है, depending on method validation."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-debugging",
+      "title": "NMR Instrument Debugging & Troubleshooting",
+      "filters": [
+        { "label": "🔧 Debugging", "tag": "debugging" },
+        { "label": "🚨 Fault Diagnosis", "tag": "troubleshooting" },
+        { "label": "🧪 QC", "tag": "qc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "debugging",
+          "topic_title": "Spectrum Problems and Their Causes",
+          "notes_list": [
+            {
+              "id": "nmr078",
+              "title": "Spectrum में कोई Signal नहीं",
+              "tags": ["debugging", "troubleshooting"],
+              "basic_overview": "No signal की स्थिति में sample concentration, nucleus selection, probe tuning, RF transmitter, receiver, lock और acquisition settings systematically check करनी चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug Order: Sample present? Correct nucleus? Probe tuned? Lock active? Receiver on? RF pulse correct? Acquisition running? Gain appropriate?"
+            },
+            {
+              "id": "nmr079",
+              "title": "बहुत Broad Peaks",
+              "tags": ["debugging", "shimming"],
+              "basic_overview": "Broad lines poor shimming, magnetic field inhomogeneity, short T2, sample issues या susceptibility gradients से associated हो सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: First check shimming and lock, then sample homogeneity, tube quality, concentration and temperature stability."
+            },
+            {
+              "id": "nmr080",
+              "title": "Peak Shape खराब है",
+              "tags": ["debugging", "line-shape"],
+              "basic_overview": "Distorted or asymmetric peaks poor shimming, incorrect phase correction, probe tuning/matching problems या processing errors से arise हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Practical sequence: check raw FID → phase → baseline → lock → shim → tune/match → sample condition."
+            },
+            {
+              "id": "nmr081",
+              "title": "Baseline Wavy या Unstable",
+              "tags": ["debugging", "baseline"],
+              "basic_overview": "Baseline distortion instrument instability, solvent/sample effects, processing, phase correction या receiver/digitizer issues से हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Compare blank/reference spectrum, inspect raw data, verify phase/baseline correction और instrument stability."
+            },
+            {
+              "id": "nmr082",
+              "title": "Unexpected Extra Peaks",
+              "tags": ["debugging", "impurity"],
+              "basic_overview": "Unexpected peaks residual solvent, water, grease, cleaning agents, sample degradation, impurities या contamination से originate कर सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug Strategy: Solvent reference spectrum compare करें → blank run करें → sample preparation history check करें → repeat with fresh tube/solvent."
+            },
+            {
+              "id": "nmr083",
+              "title": "Lock नहीं हो रहा",
+              "tags": ["lock", "debugging"],
+              "basic_overview": "Lock failure insufficient deuterated solvent, incorrect solvent selection, poor lock level, sample positioning या lock channel issues से associated हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Deuterated solvent verify → sample height → lock channel/solvent selection → lock gain/level → instrument diagnostics."
+            },
+            {
+              "id": "nmr084",
+              "title": "Probe Tune नहीं हो रही",
+              "tags": ["tuning", "debugging"],
+              "basic_overview": "Probe tuning/matching failure wrong nucleus selection, probe hardware condition, sample dielectric loading या tuning system issues से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Exam/Job Logic: Correct nucleus → correct probe → sample inserted → tune → match → verify RF response."
+            },
+            {
+              "id": "nmr085",
+              "title": "Receiver Overload",
+              "tags": ["receiver", "debugging"],
+              "basic_overview": "Receiver overload तब हो सकता है जब detected signal या RF leakage receiver dynamic range exceed करे।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug: Reduce receiver gain appropriately, verify transmitter/receiver configuration and inspect for unusually strong solvent or hardware-related signals."
+            },
+            {
+              "id": "nmr086",
+              "title": "Poor Signal-to-Noise",
+              "tags": ["snr", "debugging", "qc"],
+              "basic_overview": "Low S/N insufficient concentration, low sensitivity nucleus, inadequate scans, poor probe tuning, sample instability या instrument issues से हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug Order: Concentration → probe tuning → pulse calibration → receiver gain → scans → sample quality → instrument performance."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-qc",
+      "title": "NMR Quality Control & Instrument Performance",
+      "filters": [
+        { "label": "🧪 QC", "tag": "qc" },
+        { "label": "📏 Performance", "tag": "performance" },
+        { "label": "🔧 Maintenance", "tag": "maintenance" }
+      ],
+      "topics": [
+        {
+          "topic_id": "qc-performance",
+          "topic_title": "NMR Quality Control",
+          "notes_list": [
+            {
+              "id": "nmr087",
+              "title": "Chemical Shift Reference Check",
+              "tags": ["qc", "reference"],
+              "basic_overview": "Known reference signal का expected position verify करके chemical shift calibration और spectral consistency evaluate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC practice: Reference standard या certified reference material के assigned chemical shift values instrument method के अनुसार verify करें।"
+            },
+            {
+              "id": "nmr088",
+              "title": "Line Width Check",
+              "tags": ["qc", "linewidth"],
+              "basic_overview": "Reference sample की linewidth spectral resolution और magnetic field homogeneity की useful performance indicator हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Poor linewidth → check shimming, sample homogeneity, probe condition और magnetic field stability."
+            },
+            {
+              "id": "nmr089",
+              "title": "S/N Performance",
+              "tags": ["qc", "snr"],
+              "basic_overview": "Standard/reference sample से signal-to-noise performance instrument sensitivity monitoring में useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Trend monitoring अधिक useful है than relying on a single isolated measurement; acceptance criteria instrument SOP पर based होने चाहिए।"
+            },
+            {
+              "id": "nmr090",
+              "title": "Probe Tuning Verification",
+              "tags": ["qc", "probe"],
+              "basic_overview": "Probe tuning and matching RF energy transfer efficiency और sensitivity के लिए important है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A badly tuned/matched probe can reduce sensitivity and increase reflected RF power."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "structure-elucidation",
+      "title": "Structure Elucidation Using NMR",
+      "filters": [
+        { "label": "🧩 Structure", "tag": "structure" },
+        { "label": "🧠 Reasoning", "tag": "reasoning" },
+        { "label": "🎓 M.Sc./GATE", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "structure-strategy",
+          "topic_title": "General Structure Elucidation Strategy",
+          "notes_list": [
+            {
+              "id": "nmr091",
+              "title": "Stepwise Structure Elucidation",
+              "tags": ["structure", "strategy", "gate"],
+              "basic_overview": "Unknown compound की structure solve करते समय molecular formula/HRMS data से molecular framework और DBE determine करें, फिर 1H NMR, 13C NMR, DEPT और 2D NMR data combine करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Recommended order: Formula/DBE → 13C count → DEPT → 1H count/integration → chemical shifts → multiplicity/J → fragments → COSY/HSQC/HMBC → final structure verification."
+            },
+            {
+              "id": "nmr092",
+              "title": "Degree of Unsaturation",
+              "tags": ["dbE", "formula", "structure"],
+              "basic_overview": "Molecular formula से rings और π bonds की total degree of unsaturation calculate की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For formula CcHhNnXx: DBE = (2c + 2 + n − h − x)/2. Oxygen and sulfur are ignored in this simple formula. Example: C8H8O2 → DBE = (16 + 2 − 8)/2 = 5."
+            },
+            {
+              "id": "nmr093",
+              "title": "13C Count से Symmetry",
+              "tags": ["13c", "symmetry", "structure"],
+              "basic_overview": "Molecular formula में carbons की total संख्या और observed 13C signals की संख्या compare करके molecular symmetry के clues मिल सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: Formula में 8 carbons लेकिन only 5 distinct 13C signals हैं → कुछ carbons chemically equivalent हो सकते हैं।"
+            },
+            {
+              "id": "nmr094",
+              "title": "Integration से Fragment Size",
+              "tags": ["integration", "structure"],
+              "basic_overview": "1H integral ratios proton-containing fragments की relative size identify करने में मदद करते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 3H triplet + 2H quartet strongly suggests an ethyl fragment when both show compatible J values."
+            },
+            {
+              "id": "nmr095",
+              "title": "J Values से Connectivity",
+              "tags": ["j-value", "structure"],
+              "basic_overview": "Coupled signals के shared J values neighbouring nuclei के connectivity relationships establish करने में useful होते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A triplet and quartet having same J ≈ 7 Hz commonly indicate mutual coupling in an ethyl group, subject to first-order conditions."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-2d-cosy",
+      "title": "2D NMR: COSY",
+      "filters": [
+        { "label": "🔬 2D NMR", "tag": "advanced" },
+        { "label": "🔗 COSY", "tag": "cosy" },
+        { "label": "🧩 Structure", "tag": "structure" }
+      ],
+      "topics": [
+        {
+          "topic_id": "cosy",
+          "topic_title": "Correlation Spectroscopy",
+          "notes_list": [
+            {
+              "id": "nmr096",
+              "title": "COSY क्या बताता है?",
+              "tags": ["cosy", "2d", "structure"],
+              "basic_overview": "COSY proton-proton scalar coupling correlations दिखाता है और coupled proton networks identify करने में मदद करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: यदि H_A और H_B coupled हैं तो COSY spectrum में diagonal के अलावा corresponding cross-peak दिखाई दे सकता है।"
+            },
+            {
+              "id": "nmr097",
+              "title": "COSY Cross-Peak",
+              "tags": ["cosy", "2d"],
+              "basic_overview": "COSY cross-peak two proton resonances के scalar coupling/correlation relationship को indicate करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Structure Strategy: COSY से proton spin systems बनाएं; फिर उन spin systems को chemical shift और molecular formula से connect करें।"
+            },
+            {
+              "id": "nmr098",
+              "title": "COSY vs 1H Splitting",
+              "tags": ["cosy", "structure"],
+              "basic_overview": "1H multiplet बताता है कि splitting मौजूद है, जबकि COSY coupling network को 2D map के रूप में अधिक clearly दिखा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Useful when crowded 1H spectra make direct multiplet assignment difficult."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-2d-hsqc",
+      "title": "2D NMR: HSQC",
+      "filters": [
+        { "label": "🔬 HSQC", "tag": "hsqc" },
+        { "label": "🔗 1H–13C", "tag": "correlation" },
+        { "label": "🧩 Structure", "tag": "structure" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hsqc",
+          "topic_title": "Heteronuclear Single Quantum Coherence",
+          "notes_list": [
+            {
+              "id": "nmr099",
+              "title": "HSQC क्या बताता है?",
+              "tags": ["hsqc", "2d", "structure"],
+              "basic_overview": "HSQC one-bond heteronuclear correlations दिखाता है, commonly directly bonded 1H–13C pairs के बीच।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: CH3 proton signal का corresponding carbon chemical shift HSQC में correlate किया जा सकता है।"
+            },
+            {
+              "id": "nmr100",
+              "title": "CH, CH2, CH3 Assignment",
+              "tags": ["hsqc", "structure"],
+              "basic_overview": "HSQC protonated carbons को उनके attached protons के साथ connect करने में मदद करता है; DEPT के साथ combine करने पर carbon assignment easier हो सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Strategy: 13C peak → HSQC cross-peak → corresponding 1H signal → chemical fragment assignment."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-2d-hmbc",
+      "title": "2D NMR: HMBC",
+      "filters": [
+        { "label": "🔬 HMBC", "tag": "hmbc" },
+        { "label": "🔗 Long-Range", "tag": "correlation" },
+        { "label": "🧩 Structure", "tag": "structure" }
+      ],
+      "topics": [
+        {
+          "topic_id": "hmbc",
+          "topic_title": "Heteronuclear Multiple Bond Correlation",
+          "notes_list": [
+            {
+              "id": "nmr101",
+              "title": "HMBC क्या बताता है?",
+              "tags": ["hmbc", "2d", "structure"],
+              "basic_overview": "HMBC long-range heteronuclear correlations दिखाता है, commonly two- or three-bond 1H–13C connectivity information provide करता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A proton near a carbonyl group can show an HMBC correlation to the carbonyl carbon even when the proton is not directly attached to that carbon."
+            },
+            {
+              "id": "nmr102",
+              "title": "HSQC vs HMBC",
+              "tags": ["hsqc", "hmbc", "comparison"],
+              "basic_overview": "HSQC primarily one-bond H–C correlations देता है, जबकि HMBC long-range H–C correlations के लिए useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: HSQC = 'H attached to which C?' HMBC = 'H is connected through a few bonds to which C?'"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-noesy-roesy",
+      "title": "2D NMR: NOESY & ROESY",
+      "filters": [
+        { "label": "🧭 Spatial", "tag": "spatial" },
+        { "label": "🔬 NOESY", "tag": "noesy" },
+        { "label": "🔬 ROESY", "tag": "roesy" }
+      ],
+      "topics": [
+        {
+          "topic_id": "noesy",
+          "topic_title": "NOESY and ROESY",
+          "notes_list": [
+            {
+              "id": "nmr103",
+              "title": "NOESY क्या बताता है?",
+              "tags": ["noesy", "stereochemistry"],
+              "basic_overview": "NOESY nuclei के through-space spatial proximity correlations provide कर सकता है और stereochemical/conformational analysis में useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Important: NOESY correlation जरूरी नहीं कि covalent bond connectivity बताता हो; यह spatial proximity से related है।"
+            },
+            {
+              "id": "nmr104",
+              "title": "ROESY कब Useful है?",
+              "tags": ["roesy", "stereochemistry"],
+              "basic_overview": "ROESY भी through-space proton proximity information देता है और कुछ molecular tumbling regimes में NOESY की तुलना में useful हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Concept: NOESY/ROESY = spatial relationship; COSY = scalar H-H coupling; HSQC/HMBC = heteronuclear connectivity."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-dqf",
+      "title": "Advanced 2D & Quantitative NMR Concepts",
+      "filters": [
+        { "label": "🎓 Advanced", "tag": "advanced" },
+        { "label": "📊 Quantitative", "tag": "quantitative" }
+      ],
+      "topics": [
+        {
+          "topic_id": "advanced-2d",
+          "topic_title": "Advanced NMR Experiments",
+          "notes_list": [
+            {
+              "id": "nmr105",
+              "title": "qNMR क्या है?",
+              "tags": ["qnmr", "quantitative", "qc"],
+              "basic_overview": "Quantitative NMR में accurately integrated NMR signals से analyte amount या purity determine की जाती है, using an appropriate internal or external reference and validated acquisition conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "qNMR में quantitative accuracy के लिए relaxation delay, pulse angle, signal overlap, purity of reference और weighing accuracy critical हो सकते हैं।"
+            },
+            {
+              "id": "nmr106",
+              "title": "Internal Standard in qNMR",
+              "tags": ["qnmr", "internal-standard", "qc"],
+              "basic_overview": "Known amount/concentration के suitable reference compound की integrated signal को analyte signal से compare करके quantitative determination की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Reference should ideally be pure, stable, non-reactive, well-resolved and accurately weighed or prepared."
+            },
+            {
+              "id": "nmr107",
+              "title": "Relaxation Delay in qNMR",
+              "tags": ["qnmr", "t1", "quantitative"],
+              "basic_overview": "Different nuclei/signals के T1 values अलग होने पर insufficient relaxation delay integral ratios को bias कर सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Practical rule: Quantitative method में relaxation delay experimentally validated होना चाहिए; केवल default instrument setting पर भरोसा नहीं करना चाहिए।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-dynamic-effects",
+      "title": "Dynamic NMR & Temperature Effects",
+      "filters": [
+        { "label": "🌡️ Temperature", "tag": "temperature" },
+        { "label": "🔄 Exchange", "tag": "dynamic" },
+        { "label": "🎓 Advanced", "tag": "advanced" }
+      ],
+      "topics": [
+        {
+          "topic_id": "dynamic-nmr",
+          "topic_title": "Dynamic Molecular Processes",
+          "notes_list": [
+            {
+              "id": "nmr108",
+              "title": "Temperature का NMR Spectrum पर Effect",
+              "tags": ["temperature", "dynamic"],
+              "basic_overview": "Temperature बदलने से molecular exchange rates, conformational populations और chemical shifts प्रभावित हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: Exchange process slow होने पर previously averaged environments अलग signals के रूप में resolve हो सकते हैं।"
+            },
+            {
+              "id": "nmr109",
+              "title": "Fast Exchange",
+              "tags": ["exchange", "dynamic"],
+              "basic_overview": "यदि two environments के बीच exchange NMR timescale से बहुत fast हो तो averaged signal observe हो सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Concept: Fast exchange → averaged chemical shift. Intermediate exchange → broadening/coalescence phenomena possible."
+            },
+            {
+              "id": "nmr110",
+              "title": "Coalescence",
+              "tags": ["dynamic", "temperature", "msc"],
+              "basic_overview": "Temperature change के साथ exchanging signals broaden होकर merge/coalesce कर सकते हैं; dynamic NMR में exchange rate information प्राप्त की जा सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Classic example: hindered rotation or conformational exchange causing two signals at low temperature that merge at higher temperature."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-stereochemistry",
+      "title": "NMR in Stereochemistry",
+      "filters": [
+        { "label": "🧭 Stereochemistry", "tag": "stereo" },
+        { "label": "📐 Coupling", "tag": "coupling" },
+        { "label": "🔬 NOE", "tag": "noe" }
+      ],
+      "topics": [
+        {
+          "topic_id": "stereochemistry",
+          "topic_title": "Stereochemical Applications",
+          "notes_list": [
+            {
+              "id": "nmr111",
+              "title": "Diastereotopic Protons",
+              "tags": ["diastereotopic", "advanced"],
+              "basic_overview": "CH2 group के दो protons chemically non-equivalent हो सकते हैं यदि molecular environment उन्हें stereochemically distinguish करे।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Such protons can have different chemical shifts and can couple differently, producing complex AB-type patterns."
+            },
+            {
+              "id": "nmr112",
+              "title": "Coupling और Stereochemistry",
+              "tags": ["coupling", "stereo"],
+              "basic_overview": "Vicinal coupling constants dihedral angles से related होते हैं और conformational/stereochemical assignments में useful हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Karplus-type reasoning: anti-like arrangements often show larger 3J than some gauche arrangements, although exact values depend on molecular system."
+            },
+            {
+              "id": "nmr113",
+              "title": "NOE for Spatial Assignment",
+              "tags": ["noe", "stereo"],
+              "basic_overview": "NOE/NOESY correlations spatially close nuclei identify करने में help करते हैं और relative stereochemistry establish करने में useful हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Through-space correlation को through-bond connectivity समझना common mistake है।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-numericals",
+      "title": "NMR Numericals",
+      "filters": [
+        { "label": "🔢 Numerical", "tag": "numerical" },
+        { "label": "📐 Formula", "tag": "formula" },
+        { "label": "🎯 GATE/PSU", "tag": "gate" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nmr-numerical",
+          "topic_title": "High-Yield NMR Calculations",
+          "notes_list": [
+            {
+              "id": "nmr114",
+              "title": "Chemical Shift Numerical",
+              "tags": ["numerical", "chemical-shift"],
+              "basic_overview": "Reference और sample frequencies के difference से chemical shift ppm calculate किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Formula: δ = [(νsample − νref)/νspectrometer] × 10⁶. Example: frequency difference 1200 Hz on a 400 MHz instrument → δ = 3.0 ppm."
+            },
+            {
+              "id": "nmr115",
+              "title": "ppm से Hz Conversion",
+              "tags": ["numerical", "chemical-shift"],
+              "basic_overview": "Chemical shift difference को Hz में convert करने के लिए δ(ppm) × spectrometer frequency(MHz) relation use किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 2 ppm separation on a 500 MHz instrument = 2 × 500 = 1000 Hz."
+            },
+            {
+              "id": "nmr116",
+              "title": "Hz से ppm Conversion",
+              "tags": ["numerical", "chemical-shift"],
+              "basic_overview": "Frequency separation in Hz को spectrometer frequency से divide करके ppm obtain किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 750 Hz separation on 500 MHz instrument → δ difference = 750/500 = 1.5 ppm."
+            },
+            {
+              "id": "nmr117",
+              "title": "S/N और Number of Scans",
+              "tags": ["numerical", "snr"],
+              "basic_overview": "Random noise dominated acquisition में S/N approximately √N के proportional हो सकता है, जहाँ N number of scans है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 9 scans से 81 scans करने पर ideal S/N improvement ≈ √(81/9) = 3 times."
+            },
+            {
+              "id": "nmr118",
+              "title": "DBE Numerical",
+              "tags": ["numerical", "structure"],
+              "basic_overview": "Molecular formula से degree of unsaturation निकालकर structure elucidation constrain किया जा सकता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: C7H8O → DBE = (14 + 2 − 8)/2 = 4. Four unsaturation units could represent an aromatic ring, or another combination of rings and π bonds."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-structure-examples",
+      "title": "Structure Elucidation Examples",
+      "filters": [
+        { "label": "🧩 Examples", "tag": "example" },
+        { "label": "🧠 Problem Solving", "tag": "structure" },
+        { "label": "🎓 Entrance", "tag": "msc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "simple-structure-examples",
+          "topic_title": "Common Structure Identification Patterns",
+          "notes_list": [
+            {
+              "id": "nmr119",
+              "title": "Ethyl Group Identification",
+              "tags": ["example", "structure"],
+              "basic_overview": "A 3H triplet plus 2H quartet with a common J value is a classic indication of an ethyl fragment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 3H triplet around 1.0–1.3 ppm + 2H quartet around 3.5–4.2 ppm can suggest CH3CH2 attached to an electronegative atom such as oxygen, depending on full spectrum."
+            },
+            {
+              "id": "nmr120",
+              "title": "Isopropyl Group Identification",
+              "tags": ["example", "structure"],
+              "basic_overview": "One septet-like methine proton coupled to two equivalent methyl groups often indicates an isopropyl fragment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical pattern: 6H doublet + 1H septet-like signal with matching J, subject to first-order conditions."
+            },
+            {
+              "id": "nmr121",
+              "title": "tert-Butyl Group Identification",
+              "tags": ["example", "structure"],
+              "basic_overview": "A 9H singlet is a strong diagnostic pattern for a tert-butyl group when no neighbouring proton coupling is present.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Fragment: (CH3)3C−. Three methyl groups are equivalent and adjacent carbon has no proton, so the methyl signal commonly appears as a singlet."
+            },
+            {
+              "id": "nmr122",
+              "title": "Aldehyde Identification",
+              "tags": ["example", "aldehyde"],
+              "basic_overview": "A proton signal near 9–10 ppm strongly suggests an aldehyde proton and should be checked against integration and coupling data.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "If the aldehydic proton couples with an adjacent CH proton, a small multiplet rather than a pure singlet may occur."
+            },
+            {
+              "id": "nmr123",
+              "title": "Para-Disubstituted Benzene Pattern",
+              "tags": ["aromatic", "structure"],
+              "basic_overview": "A highly symmetric para-disubstituted benzene can produce two main aromatic proton sets, often as two doublets in an idealized first-order case.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Classic pattern: approximately 2H doublet + 2H doublet with similar integration and often similar ortho coupling."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nmr-spectral-comparison",
+      "title": "Comparing NMR with Other Spectroscopic Methods",
+      "filters": [
+        { "label": "🔬 Comparison", "tag": "comparison" },
+        { "label": "🧪 IR", "tag": "ir" },
+        { "label": "📊 MS", "tag": "ms" }
+      ],
+      "topics": [
+        {
+          "topic_id": "spectroscopy-comparison",
+          "topic_title": "NMR + IR + MS Combined Elucidation",
+          "notes_list": [
+            {
+              "id": "nmr124",
+              "title": "NMR और IR को Combine करना",
+              "tags": ["ir", "nmr", "structure"],
+              "basic_overview": "IR functional group information देता है जबकि NMR connectivity और molecular environment information देता है; दोनों को combine करने से structure assignment stronger होता है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: IR carbonyl absorption confirm कर सकता है; 13C NMR carbonyl carbon और 1H NMR nearby proton environment provide कर सकते हैं।"
+            },
+            {
+              "id": "nmr125",
+              "title": "NMR और Mass Spectrometry",
+              "tags": ["ms", "nmr", "structure"],
+              "basic_overview": "Mass spectrometry molecular mass/formula and fragmentation information provide कर सकती है, जबकि NMR molecular connectivity और environments establish करने में powerful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Structure workflow: HRMS → molecular formula/DBE; IR → functional groups; 1H/13C NMR → framework; 2D NMR → connectivity verification."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "psu-qc-interview",
+      "title": "PSU & QC Chemist Practical Questions",
+      "filters": [
+        { "label": "🏭 PSU", "tag": "psu" },
+        { "label": "🧪 QC Chemist", "tag": "qc" },
+        { "label": "💼 Interview", "tag": "job" },
+        { "label": "🔧 Troubleshooting", "tag": "debugging" }
+      ],
+      "topics": [
+        {
+          "topic_id": "practical-interview",
+          "topic_title": "Job-Oriented NMR Questions",
+          "notes_list": [
+            {
+              "id": "nmr126",
+              "title": "Sample डालने के बाद Spectrum खराब क्यों?",
+              "tags": ["job", "debugging"],
+              "basic_overview": "Sample-related issues, poor shimming, incorrect tuning/matching, wrong solvent selection, insufficient concentration और processing errors सभी poor spectrum का कारण हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Interview approach: पहले sample और solvent verify करें → lock → tune/match → shim → acquisition → processing."
+            },
+            {
+              "id": "nmr127",
+              "title": "Shim खराब होने पर क्या होगा?",
+              "tags": ["job", "shim", "debugging"],
+              "basic_overview": "Magnetic field homogeneity खराब होने पर peaks broaden हो सकती हैं और resolution तथा line shape deteriorate हो सकते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Practical answer: Lock stability और sample condition verify करके automated/manual shimming procedure perform करें according to instrument SOP."
+            },
+            {
+              "id": "nmr128",
+              "title": "Tune और Match में अंतर",
+              "tags": ["job", "tuning", "instrument"],
+              "basic_overview": "Probe tuning resonance frequency को desired nucleus के करीब optimize करती है, जबकि matching RF circuit impedance matching को optimize करती है ताकि power transfer efficient हो।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Simple memory: Tune = resonance frequency adjustment. Match = impedance/power-transfer optimization."
+            },
+            {
+              "id": "nmr129",
+              "title": "Lock और Shim में अंतर",
+              "tags": ["job", "lock", "shim"],
+              "basic_overview": "Lock system field drift monitor/correct करने में मदद करता है, जबकि shims spatial magnetic field homogeneity improve करने के लिए local field corrections provide करते हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: Lock = field stability over time. Shim = field uniformity across sample."
+            },
+            {
+              "id": "nmr130",
+              "title": "NMR में Temperature Control क्यों?",
+              "tags": ["job", "temperature"],
+              "basic_overview": "Temperature molecular exchange, viscosity, chemical shift, reaction rate और sample stability को influence कर सकती है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "QC Tip: Temperature-sensitive methods में equilibration और temperature stability document करें।"
+            },
+            {
+              "id": "nmr131",
+              "title": "Residual Solvent को Impurity से कैसे अलग करें?",
+              "tags": ["job", "debugging", "solvent"],
+              "basic_overview": "Reference solvent peak tables, blank solvent spectrum और sample preparation history compare करके residual solvent peaks identify की जा सकती हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Practical workflow: Sample spectrum → solvent reference → blank solvent → known contaminants → repeat sample."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "exam-strategy",
+      "title": "M.Sc. Entrance, GATE & PSU Exam Strategy",
+      "filters": [
+        { "label": "🎓 M.Sc.", "tag": "msc" },
+        { "label": "🧠 GATE", "tag": "gate" },
+        { "label": "🏭 PSU", "tag": "psu" },
+        { "label": "🎯 Strategy", "tag": "strategy" }
+      ],
+      "topics": [
+        {
+          "topic_id": "exam-strategy",
+          "topic_title": "High-Yield NMR Preparation",
+          "notes_list": [
+            {
+              "id": "nmr132",
+              "title": "सबसे पहले क्या पढ़ें?",
+              "tags": ["strategy", "gate", "msc"],
+              "basic_overview": "Preparation की शुरुआत spin, resonance, chemical shift, shielding, 1H NMR, integration, splitting, J coupling और 13C NMR से करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Priority sequence: Basic principle → chemical shift → splitting → integration → 13C → DEPT → structure elucidation → 2D NMR → instrumentation → troubleshooting."
+            },
+            {
+              "id": "nmr133",
+              "title": "GATE Numerical Focus",
+              "tags": ["gate", "numerical"],
+              "basic_overview": "GATE-level preparation में chemical-shift conversion, frequency-field relation, coupling constants, DBE और spectral interpretation के numerical/conceptual questions महत्वपूर्ण हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Practice: ppm↔Hz conversion, ν0 = γB0/(2π), DBE, scan/SNR relation और NMR spectrum based structure problems."
+            },
+            {
+              "id": "nmr134",
+              "title": "M.Sc. Entrance Focus",
+              "tags": ["msc", "strategy"],
+              "basic_overview": "M.Sc. entrance exams में electronic/nuclear spin concepts, chemical shift, splitting, coupling, common solvent/reference और basic structure elucidation frequently useful areas हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam Trick: Signal count + integration + multiplicity + chemical shift को एक साथ पढ़ने की practice करें।"
+            },
+            {
+              "id": "nmr135",
+              "title": "PSU/QC Job Focus",
+              "tags": ["psu", "qc", "job"],
+              "basic_overview": "PSU और QC-oriented preparation में instrumentation, sample preparation, troubleshooting, shimming, tuning/matching, lock, S/N, calibration और spectral interpretation को theory के साथ जोड़ना useful है।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Interview Pattern: 'Signal क्यों broad है?', 'Lock क्यों fail हुआ?', 'Tune और match क्या है?', 'D2O exchange क्यों?', 'DEPT क्या बताता है?', 'Unexpected peak कैसे identify करेंगे?' जैसे practical questions prepare करें।"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "quick-revision",
+      "title": "NMR Quick Revision & Exam Traps",
+      "filters": [
+        { "label": "⚡ One-Liners", "tag": "revision" },
+        { "label": "🚨 Traps", "tag": "trick" },
+        { "label": "🎯 Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "nmr-quick-revision",
+          "topic_title": "One-Minute NMR Revision",
+          "notes_list": [
+            {
+              "id": "nmr136",
+              "title": "Core NMR Formulae",
+              "tags": ["revision", "formula"],
+              "basic_overview": "NMR numericals के लिए Larmor frequency और chemical shift equations सबसे important formulae में हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "ν0 = γB0/(2π). δ(ppm) = [(νsample−νref)/νspectrometer] × 10⁶. Hz = ppm × spectrometer MHz."
+            },
+            {
+              "id": "nmr137",
+              "title": "1H Interpretation Checklist",
+              "tags": ["revision", "proton"],
+              "basic_overview": "1H spectrum interpret करते समय signal count, integration, chemical shift, multiplicity और J-value को systematically evaluate करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Quick order: How many signals? → How many H? → Where are they? → How are they split? → What is J? → Which fragments fit?"
+            },
+            {
+              "id": "nmr138",
+              "title": "13C + DEPT Checklist",
+              "tags": ["revision", "13c", "dept"],
+              "basic_overview": "13C spectrum में total signals count करें और DEPT से CH/CH2/CH3 तथा quaternary carbon assignments refine करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Memory: Broadband 13C = carbon environments. DEPT = protonated carbon editing. Quaternary carbons absent in standard DEPT."
+            },
+            {
+              "id": "nmr139",
+              "title": "2D NMR Memory Map",
+              "tags": ["revision", "2d"],
+              "basic_overview": "COSY, HSQC, HMBC और NOESY के roles को clearly distinguish करना चाहिए।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "COSY = H-H through-bond coupling. HSQC = directly bonded H-C. HMBC = long-range H-C. NOESY = through-space proximity."
+            },
+            {
+              "id": "nmr140",
+              "title": "Instrument Debugging Checklist",
+              "tags": ["revision", "debugging", "job"],
+              "basic_overview": "Poor NMR spectrum में sample, solvent, lock, tune/match, shim, RF, receiver और processing को systematic order में check करें।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Debug order: Sample → solvent/lock → tune/match → shim → pulse/RF → receiver → acquisition → FT/phase/baseline → final verification."
+            },
+            {
+              "id": "nmr141",
+              "title": "Most Common Exam Traps",
+              "tags": ["revision", "trick", "gate", "msc"],
+              "basic_overview": "NMR questions में ppm और Hz को confuse करना, n+1 rule को हर spectrum पर apply करना, OH/NH को fixed splitting मानना और HSQC/HMBC/COSY roles mix करना common mistakes हैं।",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Final Trap List: ppm ≠ Hz; J is in Hz; n+1 is mainly first-order; exchangeable proton behaviour varies; DEPT does not show quaternary carbons; NOESY is spatial, not simple bond connectivity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
