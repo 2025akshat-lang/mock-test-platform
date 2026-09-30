@@ -1,0 +1,8 @@
+{
+  "id": "national-handloom-day",
+  "title": "National Handloom Day",
+  "subtitle": "7 August",
+  "blurb": "Celebrating Artisans, Heritage, and Sustainable Fashion",
+  "type": "National Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='handloomBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#701a75'/></linearGradient><linearGradient id='goldHandloom' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#e879f9'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseHandloom { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-handloom { animation: pulseHandloom 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#handloomBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldHandloom)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-handloom'/><rect x='136' y='46' width='28' height='28' rx='4' fill='none' stroke='#e879f9' stroke-width='3'/><circle cx='150' cy='60' r='4' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>NATIONAL HANDLOOM DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Celebrating Artisans and Heritage Weaves</text></svg>"
+}
