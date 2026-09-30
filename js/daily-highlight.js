@@ -204,25 +204,53 @@ const DailyHighlight = {
     startAuto();
   },
 
+  // Default badge for the (rare) case quotes.json is missing or a
+  // picked quote has no "svg" field — never leaves the card blank.
+  _defaultBadgeSvg: `
+    <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="18" fill="#eff6ff"/>
+      <path d="M18 8c-4.4 0-8 3.6-8 8 0 2.9 1.5 5.4 3.8 6.8.5.3.8.9.8 1.5v.7h6.8v-.7c0-.6.3-1.2.8-1.5 2.3-1.4 3.8-3.9 3.8-6.8 0-4.4-3.6-8-8-8z" fill="#2563eb"/>
+      <rect x="14.5" y="26.5" width="7" height="1.8" rx="0.9" fill="#2563eb"/>
+      <rect x="15.2" y="29" width="5.6" height="1.6" rx="0.8" fill="#2563eb"/>
+      <path d="M18 12.5v5.5M15.5 15h5" stroke="#eff6ff" stroke-width="1.4" stroke-linecap="round"/>
+    </svg>
+  `,
+
+  // Fix: har quote ab apna alag SVG icon laata hai (quotes.json entries
+  // ab { "text": "...", "svg": "..." } hain). Purani plain-string
+  // quotes.json (["quote1", "quote2"]) bhi ab bhi chalti hai — us case
+  // me default lightbulb badge dikhta hai, kabhi crash nahi hota.
   _renderFallbackQuote: async function () {
     const panel = document.getElementById('daily-highlight-panel');
     if (!panel) return;
-    let quote = 'Keep going — every page you study today is a step closer.';
+
+    let quoteText = 'Keep going — every page you study today is a step closer.';
+    let quoteSvg = this._defaultBadgeSvg;
+
     try {
       const res = await fetch('data/daily-highlights/quotes.json');
       if (res.ok) {
         const quotes = await res.json();
         if (Array.isArray(quotes) && quotes.length) {
-          quote = quotes[Math.floor(Math.random() * quotes.length)];
+          const picked = quotes[Math.floor(Math.random() * quotes.length)];
+          if (typeof picked === 'string') {
+            // old format: plain string quote, no per-quote icon
+            quoteText = picked;
+          } else if (picked && typeof picked === 'object') {
+            // new format: { text, svg }
+            quoteText = picked.text || quoteText;
+            quoteSvg = picked.svg || this._defaultBadgeSvg;
+          }
         }
       }
     } catch (err) {
       console.error('DailyHighlight: quotes.json failed', err);
     }
+
     panel.innerHTML = `
       <div style="padding:18px 16px;display:flex;align-items:center;gap:12px;">
-        <div style="font-size:1.6rem;flex-shrink:0;">💡</div>
-        <div style="font-size:0.9rem;color:#334155;line-height:1.5;font-style:italic;">${quote}</div>
+        <div style="flex-shrink:0;">${quoteSvg}</div>
+        <div style="font-size:0.9rem;color:#334155;line-height:1.5;font-style:italic;">${quoteText}</div>
       </div>
     `;
   }
