@@ -7,7 +7,8 @@
         { "name": "Quantitative aptitude  ", "index": "data/notes/govt-exam/maths/mindex.json" },
         { "name": "English ", "index": "data/notes/govt-exam/english/eindex.json" },
         { "name": "Hindi ", "index": "data/notes/govt-exam/hindi/hindex.json" },
-        { "name": "Reasoning", "index": "data/notes/govt-exam/reasoning/rindex.json" }
+        { "name": "Reasoning", "index": "data/notes/govt-exam/reasoning/rindex.json" },
+        { "name": "Computer", "index": "data/notes/govt-exam/computer/comindex.json" }
 
       ]
     },
