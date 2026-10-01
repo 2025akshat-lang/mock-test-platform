@@ -8,6 +8,10 @@
     { "topic_id": "books-authors", "topic_title": "Famous Books & Authors", "file": "data/notes/govt-exam/gs/static-gk/books-authors.json" },
     { "topic_id": "hindu-calendar", "topic_title": "Hindu Calendar & Months", "file": "data/notes/govt-exam/gs/static-gk/hindu-calendar.json" },
     { "topic_id": "fairs-festivals", "topic_title": "Fairs and Festivals of India", "file": "data/notes/govt-exam/gs/static-gk/fairs-festivals.json" },
-    { "topic_id": "temples-architecture", "topic_title": "Temples and Architecture", "file": "data/notes/govt-exam/gs/static-gk/temples-architecture.json" }
+    { "topic_id": "temples-architecture", "topic_title": "Temples and Architecture", "file": "data/notes/govt-exam/gs/static-gk/temples-architecture.json" },
+    { "topic_id": "national-highways", "topic_title": "National Highways of India", "file": "data/notes/govt-exam/gs/static-gk/national-highways.json" },
+    { "topic_id": "national-waterways", "topic_title": "National Waterways of India", "file": "data/notes/govt-exam/gs/static-gk/national-waterways.json" },
+    { "topic_id": "central-govt-schemes", "topic_title": "Central Government Schemes", "file": "data/notes/govt-exam/gs/static-gk/central-govt-schemes.json" },
+    { "topic_id": "state-govt-schemes", "topic_title": "State Government Schemes", "file": "data/notes/govt-exam/gs/static-gk/state-govt-schemes.json" }
   ]
 }
