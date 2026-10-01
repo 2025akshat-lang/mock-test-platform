@@ -1,0 +1,1540 @@
+{
+  "chapter_title": "Maths Formula Revision (SSC / Banking / DSSSB / State PSC / Competitive Exams)",
+  "sections": [
+    {
+      "id": "number-system-advanced",
+      "title": "Number System — Advanced Revision",
+      "filters": [
+        {
+          "label": "⭐ Important",
+          "tag": "important"
+        },
+        {
+          "label": "🔢 Factors",
+          "tag": "factors"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "ns-powers",
+          "topic_title": "Powers, Factors & Remainders",
+          "notes_list": [
+            {
+              "id": "nsa001",
+              "title": "Laws of indices",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$a^m a^n=a^{m+n},\\quad \\frac{a^m}{a^n}=a^{m-n},\\quad (a^m)^n=a^{mn},\\quad a^{-n}=\\frac1{a^n}$$"
+            },
+            {
+              "id": "nsa002",
+              "title": "Number of divisors",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "If $$N=p^a q^b r^c$$, then total positive divisors $$=(a+1)(b+1)(c+1)$$."
+            },
+            {
+              "id": "nsa003",
+              "title": "Sum of positive divisors",
+              "basic_overview": "For $$N=p^a q^b$$, sum of divisors $$=\\frac{p^{a+1}-1}{p-1}\\times\\frac{q^{b+1}-1}{q-1}$$."
+            },
+            {
+              "id": "nsa004",
+              "title": "Remainder theorem for powers",
+              "basic_overview": "For divisors 2, 5 or 10, use the last digit(s); for other moduli reduce the base modulo the divisor before exponentiation."
+            }
+          ]
+        },
+        {
+          "topic_id": "ns-lcm-hcf",
+          "topic_title": "HCF, LCM & Remainders",
+          "notes_list": [
+            {
+              "id": "nsa005",
+              "title": "HCF × LCM relation",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For exactly two positive integers a,b: $$\\mathrm{HCF}(a,b)\\times\\mathrm{LCM}(a,b)=ab$$."
+            },
+            {
+              "id": "nsa006",
+              "title": "Numbers from HCF and ratio",
+              "basic_overview": "If two numbers are in ratio m:n and HCF is H, numbers are $$Hm,Hn$$ provided gcd(m,n)=1."
+            },
+            {
+              "id": "nsa007",
+              "title": "Same remainder pattern",
+              "basic_overview": "If numbers leave the same remainder r on division by d, then their pairwise differences are divisible by d."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "percentage-advanced",
+      "title": "Percentage — Advanced",
+      "topics": [
+        {
+          "topic_id": "pct-shortcuts",
+          "topic_title": "Percentage Shortcuts",
+          "notes_list": [
+            {
+              "id": "pa001",
+              "title": "Fraction-to-percentage quick values",
+              "basic_overview": "$$\\frac12=50\\%,\\frac13=33.33\\%,\\frac14=25\\%,\\frac15=20\\%,\\frac18=12.5\\%,\\frac1{10}=10\\%$$"
+            },
+            {
+              "id": "pa002",
+              "title": "Successive increase/decrease",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For changes x% and y%: $$\\text{Net change}=x+y+\\frac{xy}{100}$$; take decreases as negative."
+            },
+            {
+              "id": "pa003",
+              "title": "Same increase and decrease",
+              "basic_overview": "Increase x% followed by decrease x% gives net change $$-\\frac{x^2}{100}\\%$$."
+            },
+            {
+              "id": "pa004",
+              "title": "Population / depreciation",
+              "basic_overview": "$$V_n=V_0\\left(1\\pm\\frac r{100}\\right)^n$$, with + for growth and − for depreciation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profit-loss",
+      "title": "Profit, Loss, Discount & False Weight",
+      "topics": [
+        {
+          "topic_id": "pl-advanced",
+          "topic_title": "Advanced Models",
+          "notes_list": [
+            {
+              "id": "pla001",
+              "title": "CP, SP and MP relation",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$\\text{Profit\\%}=\\frac{SP-CP}{CP}\\times100,\\quad \\text{Discount\\%}=\\frac{MP-SP}{MP}\\times100$$"
+            },
+            {
+              "id": "pla002",
+              "title": "Successive discounts",
+              "basic_overview": "Equivalent discount for x% and y%: $$x+y-\\frac{xy}{100}\\%$$."
+            },
+            {
+              "id": "pla003",
+              "title": "CP of x articles = SP of y articles",
+              "basic_overview": "If CP of x articles equals SP of y articles, profit/loss percentage $$=\\frac{x-y}{y}\\times100\\%$$; sign indicates profit or loss."
+            },
+            {
+              "id": "pla004",
+              "title": "False weight",
+              "basic_overview": "If T units are charged while F units are actually supplied, gain % due to false weight $$=\\frac{T-F}{F}\\times100$$."
+            },
+            {
+              "id": "pla005",
+              "title": "Markup and discount",
+              "basic_overview": "If MP is m% above CP and discount is d%, $$\\frac{SP}{CP}=\\left(1+\\frac m{100}\\right)\\left(1-\\frac d{100}\\right)$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interest-advanced",
+      "title": "Simple & Compound Interest — Advanced",
+      "topics": [
+        {
+          "topic_id": "si-shortcuts",
+          "topic_title": "SI Shortcuts",
+          "notes_list": [
+            {
+              "id": "ia001",
+              "title": "Simple Interest",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$SI=\\frac{PRT}{100},\\qquad A=P+SI$$"
+            },
+            {
+              "id": "ia002",
+              "title": "Equal SI installments",
+              "basic_overview": "For equal annual installments under simple interest, total installment amount can be derived by equating the present principal plus interest on outstanding balances."
+            },
+            {
+              "id": "ia003",
+              "title": "SI time-rate relation",
+              "basic_overview": "For fixed P, $$SI\\propto R\\times T$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "ci-shortcuts",
+          "topic_title": "CI Shortcuts",
+          "notes_list": [
+            {
+              "id": "ia004",
+              "title": "Compound amount",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$A=P\\left(1+\\frac R{100}\\right)^n,\\qquad CI=A-P$$"
+            },
+            {
+              "id": "ia005",
+              "title": "Half-yearly compounding",
+              "basic_overview": "Use rate $$R/2$$ and number of periods $$2n$$."
+            },
+            {
+              "id": "ia006",
+              "title": "Quarterly compounding",
+              "basic_overview": "Use rate $$R/4$$ and number of periods $$4n$$."
+            },
+            {
+              "id": "ia007",
+              "title": "CI − SI for 2 years",
+              "basic_overview": "$$CI-SI=P\\left(\\frac R{100}\\right)^2$$."
+            },
+            {
+              "id": "ia008",
+              "title": "Growth factor method",
+              "basic_overview": "For successive annual rates r1,r2,... multiply the factors $$\\left(1+\\frac{r_i}{100}\\right)$$ rather than adding rates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ratio-proportion",
+      "title": "Ratio, Proportion, Partnership & Mixture",
+      "topics": [
+        {
+          "topic_id": "ratio-advanced",
+          "topic_title": "Ratio & Proportion",
+          "notes_list": [
+            {
+              "id": "ra001",
+              "title": "Composition from ratio",
+              "basic_overview": "If a:b=m:n, then $$a=\\frac m{m+n}(a+b),\\quad b=\\frac n{m+n}(a+b)$$."
+            },
+            {
+              "id": "ra002",
+              "title": "Third proportional",
+              "basic_overview": "Third proportional to a,b is $$\\frac{b^2}{a}$$."
+            },
+            {
+              "id": "ra003",
+              "title": "Fourth proportional",
+              "basic_overview": "If a:b::c:x, then $$x=\\frac{bc}{a}$$."
+            },
+            {
+              "id": "ra004",
+              "title": "Mean proportional",
+              "basic_overview": "Mean proportional between a and b is $$\\sqrt{ab}$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "partnership",
+          "topic_title": "Partnership",
+          "notes_list": [
+            {
+              "id": "ra005",
+              "title": "Profit-sharing ratio",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "Profit is divided in the ratio of $$\\text{Capital}\\times\\text{Time}$$."
+            },
+            {
+              "id": "ra006",
+              "title": "Changing investment",
+              "basic_overview": "If A invests I1 for T1 and B invests I2 for T2, profit ratio $$=I_1T_1:I_2T_2$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "mixture",
+          "topic_title": "Mixture & Alligation",
+          "notes_list": [
+            {
+              "id": "ra007",
+              "title": "Alligation",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For cheaper C, dearer D and mean M: $$C:D=(D-M):(M-C)$$."
+            },
+            {
+              "id": "ra008",
+              "title": "Repeated replacement",
+              "basic_overview": "If x quantity is removed from total V and replaced n times, original substance remaining $$=V\\left(1-\\frac{x}{V}\\right)^n$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "average",
+      "title": "Average & Weighted Average",
+      "topics": [
+        {
+          "topic_id": "avg-basic",
+          "topic_title": "Core Average",
+          "notes_list": [
+            {
+              "id": "av001",
+              "title": "Average",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$\\text{Average}=\\frac{\\text{Sum}}{\\text{Number}}$$"
+            },
+            {
+              "id": "av002",
+              "title": "Average of first n natural numbers",
+              "basic_overview": "$$\\frac{n+1}{2}$$"
+            },
+            {
+              "id": "av003",
+              "title": "Average of first n odd numbers",
+              "basic_overview": "$$n$$"
+            },
+            {
+              "id": "av004",
+              "title": "Average of first n even numbers",
+              "basic_overview": "$$n+1$$"
+            },
+            {
+              "id": "av005",
+              "title": "Replacement rule",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "If one value is replaced among n observations and average changes by d: $$\\text{New value}=\\text{Old value}+nd$$."
+            },
+            {
+              "id": "av006",
+              "title": "Weighted average",
+              "basic_overview": "$$\\bar x=\\frac{\\sum wx}{\\sum w}$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-speed-distance",
+      "title": "Time, Speed & Distance",
+      "topics": [
+        {
+          "topic_id": "tsd-core",
+          "topic_title": "Core Formulas",
+          "notes_list": [
+            {
+              "id": "ts001",
+              "title": "Speed-Distance-Time",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$S=\\frac DT,\\quad D=ST,\\quad T=\\frac DS$$"
+            },
+            {
+              "id": "ts002",
+              "title": "Unit conversion",
+              "basic_overview": "$$1\\text{ km/h}=\\frac5{18}\\text{ m/s},\\quad1\\text{ m/s}=\\frac{18}{5}\\text{ km/h}$$"
+            },
+            {
+              "id": "ts003",
+              "title": "Average speed — equal distances",
+              "basic_overview": "$$S_{avg}=\\frac{2s_1s_2}{s_1+s_2}$$."
+            },
+            {
+              "id": "ts004",
+              "title": "Relative speed",
+              "basic_overview": "Same direction: $$|s_1-s_2|$$; opposite direction: $$s_1+s_2$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "trains",
+          "topic_title": "Trains",
+          "notes_list": [
+            {
+              "id": "ts005",
+              "title": "Train crossing pole/person",
+              "basic_overview": "$$T=\\frac{L}{S}$$."
+            },
+            {
+              "id": "ts006",
+              "title": "Train crossing platform",
+              "basic_overview": "$$T=\\frac{L_{train}+L_{platform}}{S}$$"
+            },
+            {
+              "id": "ts007",
+              "title": "Two trains",
+              "basic_overview": "$$T=\\frac{L_1+L_2}{\\text{relative speed}}$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "boats",
+          "topic_title": "Boats & Streams",
+          "notes_list": [
+            {
+              "id": "ts008",
+              "title": "Upstream / downstream",
+              "basic_overview": "$$D=u+v,\\qquad U=u-v$$"
+            },
+            {
+              "id": "ts009",
+              "title": "Boat and stream speeds",
+              "basic_overview": "$$u=\\frac{D+U}{2},\\qquad v=\\frac{D-U}{2}$$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-work",
+      "title": "Time, Work, Pipes & Cisterns",
+      "topics": [
+        {
+          "topic_id": "work-core",
+          "topic_title": "Time & Work",
+          "notes_list": [
+            {
+              "id": "tw001",
+              "title": "One-day work",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "If A completes work in n days, one-day work $$=1/n$$."
+            },
+            {
+              "id": "tw002",
+              "title": "Combined work",
+              "basic_overview": "If A and B take a and b days: $$T=\\frac{ab}{a+b}$$."
+            },
+            {
+              "id": "tw003",
+              "title": "Efficiency relation",
+              "basic_overview": "Efficiency is inversely proportional to time: $$E_1:E_2=T_2:T_1$$."
+            },
+            {
+              "id": "tw004",
+              "title": "Men-days-hours",
+              "basic_overview": "For same efficiency, $$M_1D_1H_1=M_2D_2H_2$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "pipes",
+          "topic_title": "Pipes & Cisterns",
+          "notes_list": [
+            {
+              "id": "tw005",
+              "title": "Filling pipe",
+              "basic_overview": "If a pipe fills in a hours, rate $$=1/a$$ tank per hour."
+            },
+            {
+              "id": "tw006",
+              "title": "Filling + emptying",
+              "basic_overview": "If fill time is a and empty time is b (b>a), net time $$=\\frac{ab}{b-a}$$."
+            },
+            {
+              "id": "tw007",
+              "title": "Multiple pipes",
+              "basic_overview": "Net rate = sum of filling rates − sum of emptying rates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra & Quadratic Equations",
+      "topics": [
+        {
+          "topic_id": "identities",
+          "topic_title": "Algebraic Identities",
+          "notes_list": [
+            {
+              "id": "al001",
+              "title": "Squares",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$(a+b)^2=a^2+2ab+b^2,\\quad(a-b)^2=a^2-2ab+b^2$$"
+            },
+            {
+              "id": "al002",
+              "title": "Difference of squares",
+              "basic_overview": "$$a^2-b^2=(a+b)(a-b)$$"
+            },
+            {
+              "id": "al003",
+              "title": "Cubes",
+              "basic_overview": "$$a^3+b^3=(a+b)(a^2-ab+b^2)$$ and $$a^3-b^3=(a-b)(a^2+ab+b^2)$$"
+            },
+            {
+              "id": "al004",
+              "title": "Three-variable identity",
+              "basic_overview": "$$a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "x-inverse",
+          "topic_title": "x ± 1/x",
+          "notes_list": [
+            {
+              "id": "al005",
+              "title": "Square identity",
+              "basic_overview": "If $$x+1/x=n$$, then $$x^2+1/x^2=n^2-2$$."
+            },
+            {
+              "id": "al006",
+              "title": "Cube identity",
+              "basic_overview": "If $$x+1/x=n$$, then $$x^3+1/x^3=n^3-3n$$."
+            },
+            {
+              "id": "al007",
+              "title": "Minus form",
+              "basic_overview": "If $$x-1/x=n$$, then $$x^2+1/x^2=n^2+2$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "quadratic",
+          "topic_title": "Quadratic Equations",
+          "notes_list": [
+            {
+              "id": "al008",
+              "title": "Quadratic formula",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For $$ax^2+bx+c=0$$, $$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$"
+            },
+            {
+              "id": "al009",
+              "title": "Nature of roots",
+              "basic_overview": "Discriminant $$D=b^2-4ac$$: D>0 distinct real roots; D=0 equal real roots; D<0 non-real roots."
+            },
+            {
+              "id": "al010",
+              "title": "Sum and product of roots",
+              "basic_overview": "$$\\alpha+\\beta=-\\frac ba,\\qquad\\alpha\\beta=\\frac ca$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surds-indices",
+      "title": "Surds & Indices",
+      "topics": [
+        {
+          "topic_id": "surds",
+          "topic_title": "Surd Rules",
+          "notes_list": [
+            {
+              "id": "su001",
+              "title": "Product and quotient",
+              "basic_overview": "$$\\sqrt a\\sqrt b=\\sqrt{ab},\\qquad\\frac{\\sqrt a}{\\sqrt b}=\\sqrt{\\frac ab}$$ for b>0."
+            },
+            {
+              "id": "su002",
+              "title": "Rationalisation",
+              "basic_overview": "$$\\frac1{\\sqrt a}=\\frac{\\sqrt a}{a}$$ and use the conjugate for binomial surds."
+            },
+            {
+              "id": "su003",
+              "title": "Nested surd",
+              "basic_overview": "$$\\sqrt{a+2\\sqrt b}=\\sqrt m+\\sqrt n$$ when $$m+n=a,\\ mn=b$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "indices",
+          "topic_title": "Index Laws",
+          "notes_list": [
+            {
+              "id": "su004",
+              "title": "Fractional powers",
+              "basic_overview": "$$a^{m/n}=\\sqrt[n]{a^m}$$."
+            },
+            {
+              "id": "su005",
+              "title": "Negative powers",
+              "basic_overview": "$$a^{-n}=1/a^n$$."
+            },
+            {
+              "id": "su006",
+              "title": "Zero power",
+              "basic_overview": "For a≠0, $$a^0=1$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sequence-series",
+      "title": "Sequence & Series",
+      "topics": [
+        {
+          "topic_id": "ap",
+          "topic_title": "Arithmetic Progression",
+          "notes_list": [
+            {
+              "id": "ss001",
+              "title": "nth term of AP",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$a_n=a+(n-1)d$$",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"35\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n<circle cx=\"55\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/><circle cx=\"115\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<circle cx=\"175\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/><circle cx=\"235\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<circle cx=\"295\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<text x=\"47\" y=\"85\" font-size=\"13\">a</text><text x=\"101\" y=\"85\" font-size=\"13\">a+d</text>\n<text x=\"157\" y=\"85\" font-size=\"13\">a+2d</text><text x=\"215\" y=\"85\" font-size=\"13\">...</text>\n<text x=\"278\" y=\"85\" font-size=\"13\">a+(n−1)d</text>\n</svg>",
+                "caption": "Arithmetic progression: each term changes by the common difference d."
+              }
+            },
+            {
+              "id": "ss002",
+              "title": "Sum of n terms",
+              "basic_overview": "$$S_n=\\frac n2[2a+(n-1)d]=\\frac n2(a+l)$$."
+            },
+            {
+              "id": "ss003",
+              "title": "Arithmetic mean",
+              "basic_overview": "For three terms in AP, $$2b=a+c$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "gp",
+          "topic_title": "Geometric Progression",
+          "notes_list": [
+            {
+              "id": "ss004",
+              "title": "nth term of GP",
+              "basic_overview": "$$a_n=ar^{n-1}$$."
+            },
+            {
+              "id": "ss005",
+              "title": "Sum of n terms",
+              "basic_overview": "For r≠1: $$S_n=a\\frac{r^n-1}{r-1}$$."
+            },
+            {
+              "id": "ss006",
+              "title": "Infinite GP",
+              "basic_overview": "If |r|<1, $$S_\\infty=\\frac a{1-r}$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry & Theorems",
+      "topics": [
+        {
+          "topic_id": "triangles",
+          "topic_title": "Triangles",
+          "notes_list": [
+            {
+              "id": "geo001",
+              "title": "Angle sum",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$A+B+C=180^\\circ$$",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\">\n<polygon points=\"45,145 255,145 150,30\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"145\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"145\" y=\"164\" font-size=\"14\" fill=\"#1e293b\">b</text>\n<text x=\"90\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">a</text>\n<text x=\"205\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">c</text>\n</svg>",
+                "caption": "Triangle with base b, height h and sides a,c."
+              }
+            },
+            {
+              "id": "geo002",
+              "title": "Pythagoras theorem",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "In a right triangle, $$c^2=a^2+b^2$$."
+            },
+            {
+              "id": "geo003",
+              "title": "Area of triangle",
+              "basic_overview": "$$A=\\frac12bh$$."
+            },
+            {
+              "id": "geo004",
+              "title": "Heron's formula",
+              "basic_overview": "$$A=\\sqrt{s(s-a)(s-b)(s-c)},\\quad s=\\frac{a+b+c}{2}$$."
+            },
+            {
+              "id": "geo005",
+              "title": "Similar triangles",
+              "basic_overview": "Corresponding sides are proportional; areas of similar triangles are proportional to the squares of corresponding sides."
+            }
+          ]
+        },
+        {
+          "topic_id": "polygons",
+          "topic_title": "Polygons & Quadrilaterals",
+          "notes_list": [
+            {
+              "id": "geo006",
+              "title": "Sum of interior angles",
+              "basic_overview": "For n-sided polygon: $$(n-2)180^\\circ$$."
+            },
+            {
+              "id": "geo007",
+              "title": "Each interior angle of regular polygon",
+              "basic_overview": "$$\\frac{(n-2)180^\\circ}{n}$$."
+            },
+            {
+              "id": "geo008",
+              "title": "Exterior angle of regular polygon",
+              "basic_overview": "$$\\frac{360^\\circ}{n}$$."
+            },
+            {
+              "id": "geo009",
+              "title": "Quadrilateral angle sum",
+              "basic_overview": "$$360^\\circ$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "circles",
+          "topic_title": "Circle Geometry",
+          "notes_list": [
+            {
+              "id": "geo010",
+              "title": "Radius and tangent",
+              "basic_overview": "Radius to the point of contact is perpendicular to the tangent."
+            },
+            {
+              "id": "geo011",
+              "title": "Angle in semicircle",
+              "basic_overview": "Angle subtended by a diameter at the circumference is $$90^\\circ$$."
+            },
+            {
+              "id": "geo012",
+              "title": "Chord and center",
+              "basic_overview": "Perpendicular from center to a chord bisects the chord."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "topics": [
+        {
+          "topic_id": "trig-identities",
+          "topic_title": "Ratios & Identities",
+          "notes_list": [
+            {
+              "id": "tr001",
+              "title": "Basic ratios",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$\\sin\\theta=\\frac PH,\\quad\\cos\\theta=\\frac BH,\\quad\\tan\\theta=\\frac PB$$"
+            },
+            {
+              "id": "tr002",
+              "title": "Reciprocal ratios",
+              "basic_overview": "$$\\sec\\theta=1/\\cos\\theta,\\quad\\csc\\theta=1/\\sin\\theta,\\quad\\cot\\theta=1/\\tan\\theta$$"
+            },
+            {
+              "id": "tr003",
+              "title": "Pythagorean identities",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$\\sin^2\\theta+\\cos^2\\theta=1,\\quad1+\\tan^2\\theta=\\sec^2\\theta,\\quad1+\\cot^2\\theta=\\csc^2\\theta$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "standard-angles",
+          "topic_title": "Standard Angles",
+          "notes_list": [
+            {
+              "id": "tr004",
+              "title": "Standard values",
+              "basic_overview": "For 0°,30°,45°,60°,90°: sin = 0, 1/2, 1/√2, √3/2, 1; cos = 1, √3/2, 1/√2, 1/2, 0."
+            },
+            {
+              "id": "tr005",
+              "title": "Complementary angles",
+              "basic_overview": "$$\\sin(90^\\circ-\\theta)=\\cos\\theta,\\quad\\tan(90^\\circ-\\theta)=\\cot\\theta$$"
+            }
+          ]
+        },
+        {
+          "topic_id": "heights-distances",
+          "topic_title": "Heights & Distances",
+          "notes_list": [
+            {
+              "id": "tr006",
+              "title": "Angle of elevation",
+              "basic_overview": "$$\\tan\\theta=\\frac{\\text{height}}{\\text{horizontal distance}}$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mensuration",
+      "title": "Mensuration — 2D & 3D",
+      "filters": [
+        {
+          "label": "⭐ Important",
+          "tag": "important"
+        },
+        {
+          "label": "◼️ 2D",
+          "tag": "2d"
+        },
+        {
+          "label": "🧊 3D",
+          "tag": "3d"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "2d",
+          "topic_title": "2D Figures",
+          "notes_list": [
+            {
+              "id": "me001",
+              "title": "Square",
+              "basic_overview": "Area $$=a^2$$, perimeter $$=4a$$, diagonal $$=a\\sqrt2$$."
+            },
+            {
+              "id": "me002",
+              "title": "Rectangle",
+              "basic_overview": "Area $$=lb$$, perimeter $$=2(l+b)$$, diagonal $$=\\sqrt{l^2+b^2}$$."
+            },
+            {
+              "id": "me003",
+              "title": "Triangle",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "Area $$=\\frac12bh$$; Heron's formula may be used when all three sides are known.",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\">\n<polygon points=\"45,145 255,145 150,30\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"145\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"145\" y=\"164\" font-size=\"14\" fill=\"#1e293b\">b</text>\n<text x=\"90\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">a</text>\n<text x=\"205\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">c</text>\n</svg>",
+                "caption": "Base-height representation for triangle area."
+              }
+            },
+            {
+              "id": "me004",
+              "title": "Circle",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "Area $$=\\pi r^2$$, circumference $$=2\\pi r$$.",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"130\" cy=\"95\" r=\"65\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"130\" y1=\"95\" x2=\"195\" y2=\"95\" stroke=\"#dc2626\" stroke-width=\"3\"/>\n<circle cx=\"130\" cy=\"95\" r=\"4\" fill=\"#dc2626\"/>\n<text x=\"156\" y=\"88\" font-size=\"14\" fill=\"#dc2626\">r</text>\n<text x=\"84\" y=\"25\" font-size=\"14\" fill=\"#1e293b\">Circle</text>\n</svg>",
+                "caption": "Radius r of a circle."
+              }
+            },
+            {
+              "id": "me005",
+              "title": "Semicircle",
+              "basic_overview": "Area $$=\\frac12\\pi r^2$$; curved perimeter $$=\\pi r$$."
+            },
+            {
+              "id": "me006",
+              "title": "Trapezium",
+              "basic_overview": "Area $$=\\frac12(a+b)h$$."
+            },
+            {
+              "id": "me007",
+              "title": "Rhombus",
+              "basic_overview": "Area $$=\\frac12d_1d_2$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "3d",
+          "topic_title": "3D Figures",
+          "notes_list": [
+            {
+              "id": "me008",
+              "title": "Cube",
+              "basic_overview": "Volume $$=a^3$$, TSA $$=6a^2$$, LSA $$=4a^2$$, diagonal $$=a\\sqrt3$$."
+            },
+            {
+              "id": "me009",
+              "title": "Cuboid",
+              "basic_overview": "Volume $$=lbh$$, TSA $$=2(lb+bh+hl)$$, diagonal $$=\\sqrt{l^2+b^2+h^2}$$."
+            },
+            {
+              "id": "me010",
+              "title": "Cylinder",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "Volume $$=\\pi r^2h$$, CSA $$=2\\pi rh$$, TSA $$=2\\pi r(r+h)$$.",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<ellipse cx=\"150\" cy=\"45\" rx=\"65\" ry=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<path d=\"M85 45v125 M215 45v125\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<ellipse cx=\"150\" cy=\"170\" rx=\"65\" ry=\"20\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"230\" y1=\"45\" x2=\"230\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<text x=\"238\" y=\"112\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<line x1=\"150\" y1=\"45\" x2=\"215\" y2=\"45\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<text x=\"178\" y=\"38\" font-size=\"14\" fill=\"#16a34a\">r</text>\n</svg>",
+                "caption": "Cylinder radius r and height h."
+              }
+            },
+            {
+              "id": "me011",
+              "title": "Cone",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "Volume $$=\\frac13\\pi r^2h$$, CSA $$=\\pi rl$$, $$l=\\sqrt{r^2+h^2}$$.",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M150 25 L75 175 Q150 205 225 175 Z\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"175\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<line x1=\"150\" y1=\"25\" x2=\"225\" y2=\"175\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<text x=\"156\" y=\"105\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"190\" y=\"98\" font-size=\"14\" fill=\"#16a34a\">l</text>\n<text x=\"145\" y=\"194\" font-size=\"14\" fill=\"#1e293b\">r</text>\n</svg>",
+                "caption": "Cone with radius r, height h and slant height l."
+              }
+            },
+            {
+              "id": "me012",
+              "title": "Sphere",
+              "basic_overview": "Volume $$=\\frac43\\pi r^3$$, surface area $$=4\\pi r^2$$."
+            },
+            {
+              "id": "me013",
+              "title": "Hemisphere",
+              "basic_overview": "Volume $$=\\frac23\\pi r^3$$, CSA $$=2\\pi r^2$$, TSA $$=3\\pi r^2$$."
+            },
+            {
+              "id": "me014",
+              "title": "Frustum",
+              "basic_overview": "$$V=\\frac13\\pi h(R^2+r^2+Rr)$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "mens-application",
+          "topic_title": "Mensuration Applications",
+          "notes_list": [
+            {
+              "id": "me015",
+              "title": "Unit conversion in area",
+              "basic_overview": "If length unit changes by factor k, area changes by $$k^2$$."
+            },
+            {
+              "id": "me016",
+              "title": "Unit conversion in volume",
+              "basic_overview": "If length unit changes by factor k, volume changes by $$k^3$$."
+            },
+            {
+              "id": "me017",
+              "title": "Path / border problems",
+              "basic_overview": "For an outer and inner rectangle/circle, area of path = outer area − inner area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "filters": [
+        {
+          "label": "⭐ Important",
+          "tag": "important"
+        },
+        {
+          "label": "🎲 Core",
+          "tag": "core"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "prob-basic",
+          "topic_title": "Basic Probability",
+          "notes_list": [
+            {
+              "id": "pr001",
+              "title": "Classical probability",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For equally likely outcomes, $$P(E)=\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$$",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"45\" cy=\"110\" r=\"6\" fill=\"#2563eb\"/>\n<line x1=\"51\" y1=\"110\" x2=\"150\" y2=\"55\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<line x1=\"51\" y1=\"110\" x2=\"150\" y2=\"165\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<text x=\"75\" y=\"80\" font-size=\"13\">A (P)</text>\n<text x=\"75\" y=\"145\" font-size=\"13\">Aᶜ (1−P)</text>\n<line x1=\"156\" y1=\"55\" x2=\"270\" y2=\"25\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"55\" x2=\"270\" y2=\"85\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"165\" x2=\"270\" y2=\"135\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"165\" x2=\"270\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<text x=\"205\" y=\"32\" font-size=\"12\">B</text><text x=\"205\" y=\"80\" font-size=\"12\">Bᶜ</text>\n<text x=\"205\" y=\"142\" font-size=\"12\">B</text><text x=\"205\" y=\"194\" font-size=\"12\">Bᶜ</text>\n<text x=\"285\" y=\"28\" font-size=\"12\">P(A∩B)</text>\n<text x=\"285\" y=\"88\" font-size=\"12\">P(A∩Bᶜ)</text>\n<text x=\"285\" y=\"142\" font-size=\"12\">P(Aᶜ∩B)</text>\n<text x=\"285\" y=\"200\" font-size=\"12\">P(Aᶜ∩Bᶜ)</text>\n</svg>",
+                "caption": "Probability tree: branch probabilities multiply along a path."
+              }
+            },
+            {
+              "id": "pr002",
+              "title": "Complement",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$P(E^c)=1-P(E)$$."
+            },
+            {
+              "id": "pr003",
+              "title": "Impossible and certain events",
+              "basic_overview": "$$P(\\varnothing)=0,\\quad P(S)=1,\\quad0\\le P(E)\\le1$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "prob-rules",
+          "topic_title": "Addition & Multiplication Rules",
+          "notes_list": [
+            {
+              "id": "pr004",
+              "title": "Addition theorem",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$$."
+            },
+            {
+              "id": "pr005",
+              "title": "Mutually exclusive events",
+              "basic_overview": "If A and B cannot occur together, $$P(A\\cap B)=0$$ and $$P(A\\cup B)=P(A)+P(B)$$."
+            },
+            {
+              "id": "pr006",
+              "title": "Multiplication theorem",
+              "basic_overview": "$$P(A\\cap B)=P(A)P(B|A)=P(B)P(A|B)$$."
+            },
+            {
+              "id": "pr007",
+              "title": "Independent events",
+              "basic_overview": "If A and B are independent, $$P(A\\cap B)=P(A)P(B)$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "conditional",
+          "topic_title": "Conditional Probability & Bayes",
+          "notes_list": [
+            {
+              "id": "pr008",
+              "title": "Conditional probability",
+              "basic_overview": "$$P(A|B)=\\frac{P(A\\cap B)}{P(B)}$$, where P(B)>0."
+            },
+            {
+              "id": "pr009",
+              "title": "Bayes theorem",
+              "basic_overview": "$$P(A_i|B)=\\frac{P(A_i)P(B|A_i)}{\\sum_jP(A_j)P(B|A_j)}$$."
+            },
+            {
+              "id": "pr010",
+              "title": "At least one occurrence",
+              "basic_overview": "For n independent trials with event probability p, $$P(\\text{at least one})=1-(1-p)^n$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "permutation-combination",
+      "title": "Permutation & Combination",
+      "topics": [
+        {
+          "topic_id": "factorial",
+          "topic_title": "Factorial Basics",
+          "notes_list": [
+            {
+              "id": "pc001",
+              "title": "Factorial",
+              "basic_overview": "$$n!=n(n-1)(n-2)\\cdots2\\cdot1$$ and $$0!=1$$."
+            },
+            {
+              "id": "pc002",
+              "title": "Useful factorial ratio",
+              "basic_overview": "$$\\frac{n!}{(n-r)!}=n(n-1)\\cdots(n-r+1)$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "permutation",
+          "topic_title": "Permutations",
+          "notes_list": [
+            {
+              "id": "pc003",
+              "title": "Permutation of n objects taken r",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$^nP_r=\\frac{n!}{(n-r)!}$$"
+            },
+            {
+              "id": "pc004",
+              "title": "All n distinct objects",
+              "basic_overview": "Number of arrangements $$=n!$$."
+            },
+            {
+              "id": "pc005",
+              "title": "Repeated objects",
+              "basic_overview": "If n objects contain repetitions p,q,r,..., arrangements $$=\\frac{n!}{p!q!r!\\cdots}$$."
+            },
+            {
+              "id": "pc006",
+              "title": "Circular permutation",
+              "basic_overview": "For n distinct objects around a circle, arrangements $$=(n-1)!$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "combination",
+          "topic_title": "Combinations",
+          "notes_list": [
+            {
+              "id": "pc007",
+              "title": "Combination",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$^nC_r=\\frac{n!}{r!(n-r)!}$$"
+            },
+            {
+              "id": "pc008",
+              "title": "Symmetry",
+              "basic_overview": "$$^nC_r=^nC_{n-r}$$."
+            },
+            {
+              "id": "pc009",
+              "title": "Relation with permutation",
+              "basic_overview": "$$^nP_r=^nC_r\\,r!$$."
+            },
+            {
+              "id": "pc010",
+              "title": "Pascal identity",
+              "basic_overview": "$$^nC_r+^nC_{r-1}=^{n+1}C_r$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "topics": [
+        {
+          "topic_id": "stats-basic",
+          "topic_title": "Basic Statistics",
+          "notes_list": [
+            {
+              "id": "st001",
+              "title": "Mean",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$\\bar x=\\frac{\\sum x}{n}$$"
+            },
+            {
+              "id": "st002",
+              "title": "Weighted mean",
+              "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$."
+            },
+            {
+              "id": "st003",
+              "title": "Median — odd n",
+              "basic_overview": "After arranging data, median is the $$\\frac{n+1}{2}$$th observation."
+            },
+            {
+              "id": "st004",
+              "title": "Median — even n",
+              "basic_overview": "Median = average of $$\\frac n2$$th and $$\\left(\\frac n2+1\\right)$$th observations."
+            },
+            {
+              "id": "st005",
+              "title": "Mode empirical relation",
+              "basic_overview": "For moderately skewed data, $$\\text{Mode}\\approx3\\text{Median}-2\\text{Mean}$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "grouped-data",
+          "topic_title": "Grouped Data",
+          "notes_list": [
+            {
+              "id": "st006",
+              "title": "Grouped mean",
+              "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$."
+            },
+            {
+              "id": "st007",
+              "title": "Grouped median",
+              "basic_overview": "$$\\text{Median}=L+\\left(\\frac{N/2-CF}{f}\\right)h$$."
+            },
+            {
+              "id": "st008",
+              "title": "Grouped mode",
+              "basic_overview": "$$\\text{Mode}=L+\\frac{f_1-f_0}{2f_1-f_0-f_2}h$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "dispersion",
+          "topic_title": "Dispersion",
+          "notes_list": [
+            {
+              "id": "st009",
+              "title": "Range",
+              "basic_overview": "$$\\text{Range}=\\text{Maximum}-\\text{Minimum}$$."
+            },
+            {
+              "id": "st010",
+              "title": "Variance",
+              "basic_overview": "Population variance $$\\sigma^2=\\frac{\\sum(x-\\bar x)^2}{n}$$."
+            },
+            {
+              "id": "st011",
+              "title": "Standard deviation",
+              "basic_overview": "$$\\sigma=\\sqrt{\\sigma^2}$$."
+            },
+            {
+              "id": "st012",
+              "title": "Coefficient of variation",
+              "basic_overview": "$$CV=\\frac{\\sigma}{\\bar x}\\times100$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sets",
+      "title": "Sets & Venn Diagram",
+      "topics": [
+        {
+          "topic_id": "set-basic",
+          "topic_title": "Set Operations",
+          "notes_list": [
+            {
+              "id": "set001",
+              "title": "Union",
+              "basic_overview": "$$A\\cup B$$ contains elements in A or B or both.",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"125\" cy=\"95\" r=\"65\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<circle cx=\"195\" cy=\"95\" r=\"65\" fill=\"#f0fdf4\" stroke=\"#16a34a\" stroke-width=\"3\"/>\n<text x=\"92\" y=\"100\" font-size=\"16\">A</text><text x=\"214\" y=\"100\" font-size=\"16\">B</text>\n<text x=\"145\" y=\"100\" font-size=\"14\" fill=\"#dc2626\">A∩B</text>\n</svg>",
+                "caption": "Venn diagram showing intersection A∩B."
+              }
+            },
+            {
+              "id": "set002",
+              "title": "Intersection",
+              "basic_overview": "$$A\\cap B$$ contains elements common to A and B."
+            },
+            {
+              "id": "set003",
+              "title": "Difference",
+              "basic_overview": "$$A-B$$ contains elements in A but not in B."
+            },
+            {
+              "id": "set004",
+              "title": "Complement",
+              "basic_overview": "$$A^c=U-A$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "set-counting",
+          "topic_title": "Counting Formulae",
+          "notes_list": [
+            {
+              "id": "set005",
+              "title": "Two-set counting",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "$$n(A\\cup B)=n(A)+n(B)-n(A\\cap B)$$"
+            },
+            {
+              "id": "set006",
+              "title": "Three-set inclusion-exclusion",
+              "basic_overview": "$$n(A\\cup B\\cup C)=n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(C\\cap A)+n(A\\cap B\\cap C)$$."
+            },
+            {
+              "id": "set007",
+              "title": "Power set",
+              "basic_overview": "A set with n elements has $$2^n$$ subsets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordinate-geometry",
+      "title": "Coordinate Geometry",
+      "topics": [
+        {
+          "topic_id": "coordinate",
+          "topic_title": "Coordinate Basics",
+          "notes_list": [
+            {
+              "id": "cg001",
+              "title": "Distance formula",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "For (x1,y1),(x2,y2): $$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$",
+              "diagram": {
+                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"35\" y1=\"180\" x2=\"275\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<line x1=\"150\" y1=\"205\" x2=\"150\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<polyline points=\"45,165 150,80 250,145\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"80\" r=\"4\" fill=\"#dc2626\"/>\n<text x=\"155\" y=\"72\" font-size=\"13\">P(x,y)</text>\n<text x=\"260\" y=\"175\" font-size=\"13\">x</text>\n<text x=\"157\" y=\"30\" font-size=\"13\">y</text>\n</svg>",
+                "caption": "Coordinate plane with a point P(x,y)."
+              }
+            },
+            {
+              "id": "cg002",
+              "title": "Midpoint",
+              "basic_overview": "$$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$$."
+            },
+            {
+              "id": "cg003",
+              "title": "Section formula — internal",
+              "basic_overview": "If P divides A(x1,y1),B(x2,y2) in m:n, $$P=\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)$$."
+            },
+            {
+              "id": "cg004",
+              "title": "Slope",
+              "basic_overview": "$$m=\\frac{y_2-y_1}{x_2-x_1}$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "straight-line",
+          "topic_title": "Straight Lines",
+          "notes_list": [
+            {
+              "id": "cg005",
+              "title": "Slope-intercept form",
+              "basic_overview": "$$y=mx+c$$."
+            },
+            {
+              "id": "cg006",
+              "title": "Point-slope form",
+              "basic_overview": "$$y-y_1=m(x-x_1)$$."
+            },
+            {
+              "id": "cg007",
+              "title": "Parallel lines",
+              "basic_overview": "Parallel non-vertical lines have equal slopes."
+            },
+            {
+              "id": "cg008",
+              "title": "Perpendicular lines",
+              "basic_overview": "For non-zero finite slopes, $$m_1m_2=-1$$."
+            }
+          ]
+        },
+        {
+          "topic_id": "coordinate-area",
+          "topic_title": "Area by coordinates",
+          "notes_list": [
+            {
+              "id": "cg009",
+              "title": "Triangle area",
+              "basic_overview": "$$\\text{Area}=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simplification",
+      "title": "Simplification, Approximation & Surds",
+      "topics": [
+        {
+          "topic_id": "simplify",
+          "topic_title": "Order & Fractions",
+          "notes_list": [
+            {
+              "id": "sim001",
+              "title": "BODMAS",
+              "basic_overview": "Bracket → Orders → Division → Multiplication → Addition → Subtraction."
+            },
+            {
+              "id": "sim002",
+              "title": "Fraction operations",
+              "basic_overview": "$$\\frac ab\\pm\\frac cd=\\frac{ad\\pm bc}{bc},\\qquad\\frac ab\\times\\frac cd=\\frac{ac}{bd}$$."
+            },
+            {
+              "id": "sim003",
+              "title": "Division shortcuts",
+              "basic_overview": "Divide by 5: ×2 then ÷10; divide by 25: ×4 then ÷100; divide by 125: ×8 then ÷1000."
+            }
+          ]
+        },
+        {
+          "topic_id": "digital-sum",
+          "topic_title": "Digital Sum",
+          "notes_list": [
+            {
+              "id": "sim004",
+              "title": "Digital root",
+              "basic_overview": "Repeatedly sum digits until one digit remains; multiples of 9 have digital root 9 (except 0)."
+            },
+            {
+              "id": "sim005",
+              "title": "Divisibility by 9",
+              "basic_overview": "A number is divisible by 9 iff its digit sum is divisible by 9."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ages",
+      "title": "Ages",
+      "topics": [
+        {
+          "topic_id": "age-ratio",
+          "topic_title": "Age Ratios",
+          "notes_list": [
+            {
+              "id": "ag001",
+              "title": "Age difference remains constant",
+              "basic_overview": "If no birth/death event is involved, difference between two people's ages remains constant."
+            },
+            {
+              "id": "ag002",
+              "title": "Age ratio after t years",
+              "basic_overview": "If present ages are a and b, after t years ratio $$=(a+t):(b+t)$$."
+            },
+            {
+              "id": "ag003",
+              "title": "Past ages",
+              "basic_overview": "t years ago ratio $$=(a-t):(b-t)$$."
+            },
+            {
+              "id": "ag004",
+              "title": "Average age",
+              "basic_overview": "$$\\text{Average age}=\\frac{\\text{sum of ages}}{\\text{number of persons}}$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clock-calendar",
+      "title": "Clock & Calendar",
+      "topics": [
+        {
+          "topic_id": "clock",
+          "topic_title": "Clock",
+          "notes_list": [
+            {
+              "id": "cc001",
+              "title": "Minute hand speed",
+              "basic_overview": "Minute hand = 6° per minute."
+            },
+            {
+              "id": "cc002",
+              "title": "Hour hand speed",
+              "basic_overview": "Hour hand = 0.5° per minute."
+            },
+            {
+              "id": "cc003",
+              "title": "Angle between hands",
+              "tags": [
+                "important"
+              ],
+              "basic_overview": "At H:M, angle $$=|30H-5.5M|$$; take the smaller angle if required."
+            },
+            {
+              "id": "cc004",
+              "title": "Coincidence of hands",
+              "basic_overview": "Hands coincide every $$\\frac{720}{11}$$ minutes approximately."
+            }
+          ]
+        },
+        {
+          "topic_id": "calendar",
+          "topic_title": "Calendar",
+          "notes_list": [
+            {
+              "id": "cc005",
+              "title": "Odd days",
+              "basic_overview": "Seven days make one week; the remainder after dividing total days by 7 gives odd days."
+            },
+            {
+              "id": "cc006",
+              "title": "Leap year",
+              "basic_overview": "A year divisible by 4 is leap, except century years; century years must be divisible by 400."
+            },
+            {
+              "id": "cc007",
+              "title": "Days in months",
+              "basic_overview": "31 days: Jan, Mar, May, Jul, Aug, Oct, Dec; 30 days: Apr, Jun, Sep, Nov; Feb has 28/29."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-interpretation",
+      "title": "Data Interpretation Formulae",
+      "topics": [
+        {
+          "topic_id": "di-basic",
+          "topic_title": "Core DI Calculations",
+          "notes_list": [
+            {
+              "id": "di001",
+              "title": "Percentage share",
+              "basic_overview": "$$\\text{Share\\%}=\\frac{\\text{part}}{\\text{total}}\\times100$$."
+            },
+            {
+              "id": "di002",
+              "title": "Ratio from chart values",
+              "basic_overview": "If values are a,b, ratio $$=a:b$$; simplify by HCF."
+            },
+            {
+              "id": "di003",
+              "title": "Percentage increase in data",
+              "basic_overview": "$$\\frac{\\text{New}-\\text{Old}}{\\text{Old}}\\times100$$."
+            },
+            {
+              "id": "di004",
+              "title": "Average from tabular data",
+              "basic_overview": "$$\\text{Average}=\\frac{\\sum \\text{values}}{n}$$ or weighted $$\\frac{\\sum fx}{\\sum f}$$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probability-advanced",
+      "title": "Probability — Advanced Counting Models",
+      "topics": [
+        {
+          "topic_id": "binomial",
+          "topic_title": "Binomial Probability",
+          "notes_list": [
+            {
+              "id": "pb001",
+              "title": "Exactly r successes",
+              "basic_overview": "For n independent trials with success probability p: $$P(X=r)=^nC_r p^r(1-p)^{n-r}$$."
+            },
+            {
+              "id": "pb002",
+              "title": "At least r successes",
+              "basic_overview": "$$P(X\\ge r)=\\sum_{k=r}^{n}{}^nC_kp^k(1-p)^{n-k}$$."
+            },
+            {
+              "id": "pb003",
+              "title": "Expected value of binomial",
+              "basic_overview": "For X~Bin(n,p), $$E(X)=np$$ and $$Var(X)=np(1-p)$$."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
