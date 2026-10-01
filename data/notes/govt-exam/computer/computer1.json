@@ -1,1 +1,1746 @@
+{
+  "chapter_title": "Computer Awareness: Competitive Exams Complete Notes & Facts",
+  "sections": [
+    {
+      "id": "computer-fundamentals",
+      "title": "Computer Fundamentals & Basics",
+      "filters": [
+        { "label": "Basics", "tag": "basics" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" },
+        { "label": "DSSSB", "tag": "dsssb" },
+        { "label": "UPSC", "tag": "upsc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-basic-01",
+          "topic_title": "Introduction to Computers",
+          "notes_list": [
+            {
+              "id": "cp001",
+              "title": "What is a Computer?",
+              "tags": ["basics", "computer", "definition"],
+              "basic_overview": "A computer is an electronic programmable machine that accepts data as input, processes it according to instructions, stores data and produces meaningful output.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The basic functional cycle of a computer is Input → Processing → Output, with storage and control functions supporting the complete system. Competitive exams frequently ask the definition, characteristics and basic working cycle of a computer."
+            },
+            {
+              "id": "cp002",
+              "title": "Data vs Information",
+              "tags": ["data", "information", "basics"],
+              "basic_overview": "Data refers to raw facts and figures, whereas information is processed and organized data that has meaningful context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: 85, 90 and 75 are raw data. Their calculated average of 83.33, when interpreted as a student's performance, represents information."
+            },
+            {
+              "id": "cp003",
+              "title": "Characteristics of Computers",
+              "tags": ["characteristics", "basics"],
+              "basic_overview": "Important characteristics of computers include high speed, accuracy, diligence, automation, versatility, large storage capacity and consistency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A computer does not normally possess human-like intelligence or emotions by itself. Its output depends on the instructions, algorithms and data supplied to it."
+            },
+            {
+              "id": "cp004",
+              "title": "Limitations of Computers",
+              "tags": ["limitations", "basics", "exam"],
+              "basic_overview": "Computers have no inherent common sense, emotions or independent judgment and generally require instructions and valid data to perform tasks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The phrase GIGO means Garbage In, Garbage Out. Incorrect or poor-quality input can produce incorrect or meaningless output even when the computer processes it correctly."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-basic-02",
+          "topic_title": "Generations of Computers",
+          "notes_list": [
+            {
+              "id": "cp005",
+              "title": "First Generation Computers",
+              "tags": ["generation", "vacuum-tube", "history"],
+              "basic_overview": "First-generation computers primarily used vacuum tubes for electronic circuitry and were generally large, expensive and power-hungry.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Typical examples associated with the first generation include ENIAC, EDVAC and UNIVAC-I. Machine language was central to programming in this era."
+            },
+            {
+              "id": "cp006",
+              "title": "Second Generation Computers",
+              "tags": ["generation", "transistor"],
+              "basic_overview": "Second-generation computers replaced vacuum tubes with transistors, making computers smaller, faster, more reliable and more energy efficient.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "FORTRAN and COBOL became important high-level programming languages during this broad period."
+            },
+            {
+              "id": "cp007",
+              "title": "Third Generation Computers",
+              "tags": ["generation", "integrated-circuit", "ic"],
+              "basic_overview": "Third-generation computers used integrated circuits instead of individual transistors, improving reliability, speed and reducing physical size.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Operating systems and multiprogramming became increasingly important during this generation."
+            },
+            {
+              "id": "cp008",
+              "title": "Fourth Generation Computers",
+              "tags": ["generation", "microprocessor"],
+              "basic_overview": "Fourth-generation computers are associated with microprocessors and the rapid development of personal computers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The microprocessor integrated major CPU functions onto a single chip, contributing to the development of compact and affordable computing systems."
+            },
+            {
+              "id": "cp009",
+              "title": "Fifth Generation Computers",
+              "tags": ["generation", "ai", "fifth-generation"],
+              "basic_overview": "Fifth-generation computing is commonly associated with artificial intelligence, knowledge-based systems, natural language processing and advanced parallel processing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The exact boundaries of computer generations are not universally fixed. In competitive-exam questions, fifth generation is commonly linked with AI and advanced computing."
+            }
+          ]
+        }
+      ]
+    },
 
+    {
+      "id": "computer-hardware",
+      "title": "Computer Hardware & Components",
+      "filters": [
+        { "label": "Hardware", "tag": "hardware" },
+        { "label": "CPU", "tag": "cpu" },
+        { "label": "Memory", "tag": "memory" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-hardware-01",
+          "topic_title": "CPU & Processing",
+          "notes_list": [
+            {
+              "id": "cp010",
+              "title": "CPU",
+              "tags": ["cpu", "processor", "hardware"],
+              "basic_overview": "CPU stands for Central Processing Unit and performs instruction execution and major processing operations in a computer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "CPU is commonly described through the Control Unit, Arithmetic Logic Unit and registers. Modern processors contain additional specialized units and multiple cores."
+            },
+            {
+              "id": "cp011",
+              "title": "ALU",
+              "tags": ["alu", "cpu", "arithmetic"],
+              "basic_overview": "ALU stands for Arithmetic Logic Unit and performs arithmetic and logical operations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Arithmetic operations include addition and subtraction, while logical operations include comparisons and Boolean operations such as AND, OR and NOT."
+            },
+            {
+              "id": "cp012",
+              "title": "Control Unit",
+              "tags": ["control-unit", "cpu"],
+              "basic_overview": "The Control Unit coordinates and directs the execution of instructions by controlling the flow of data and signals within the computer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Control Unit does not primarily perform arithmetic calculations. It interprets instructions and coordinates other components."
+            },
+            {
+              "id": "cp013",
+              "title": "Registers",
+              "tags": ["register", "cpu", "memory"],
+              "basic_overview": "Registers are very small and very fast storage locations inside or closely associated with the CPU that temporarily hold data, instructions or addresses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Examples include accumulator, program counter, instruction register, memory address register and memory data register. Exact register organization varies by processor architecture."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-hardware-02",
+          "topic_title": "Input Devices",
+          "notes_list": [
+            {
+              "id": "cp014",
+              "title": "Keyboard",
+              "tags": ["input", "keyboard"],
+              "basic_overview": "A keyboard is an input device used to enter text, numbers, commands and other characters into a computer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common keyboard keys include alphanumeric keys, function keys, control keys, navigation keys and modifier keys such as Shift, Ctrl and Alt."
+            },
+            {
+              "id": "cp015",
+              "title": "Mouse",
+              "tags": ["input", "mouse"],
+              "basic_overview": "A mouse is a pointing input device used to move the pointer and perform actions such as clicking, selecting and dragging.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Modern mice commonly use optical or laser-based sensing instead of the mechanical ball mechanism used in older mice."
+            },
+            {
+              "id": "cp016",
+              "title": "Scanner",
+              "tags": ["input", "scanner"],
+              "basic_overview": "A scanner converts physical documents or images into digital form.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "OCR software can recognize printed characters in a scanned document and convert them into machine-readable text."
+            },
+            {
+              "id": "cp017",
+              "title": "OCR",
+              "tags": ["ocr", "scanner", "technology"],
+              "basic_overview": "OCR stands for Optical Character Recognition and is used to identify printed or written characters from images and convert them into editable or searchable text.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "OCR is especially useful for digitizing books, forms, scanned documents and printed records."
+            },
+            {
+              "id": "cp018",
+              "title": "OMR",
+              "tags": ["omr", "input", "exam"],
+              "basic_overview": "OMR stands for Optical Mark Recognition and detects marked responses on specially designed forms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "OMR is widely associated with objective examination answer sheets, surveys and forms containing marked bubbles or boxes."
+            },
+            {
+              "id": "cp019",
+              "title": "MICR",
+              "tags": ["micr", "banking", "input"],
+              "basic_overview": "MICR stands for Magnetic Ink Character Recognition and is used extensively in banking for processing characters printed with magnetic ink.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "MICR technology is traditionally associated with cheque processing. Banking examinations frequently ask the full form and application of MICR."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-hardware-03",
+          "topic_title": "Output Devices",
+          "notes_list": [
+            {
+              "id": "cp020",
+              "title": "Monitor",
+              "tags": ["output", "monitor"],
+              "basic_overview": "A monitor is an output device that displays visual information generated by a computer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common display technologies include LCD, LED-backlit LCD and OLED. Resolution describes the number of pixels available for displaying an image."
+            },
+            {
+              "id": "cp021",
+              "title": "Printer",
+              "tags": ["printer", "output"],
+              "basic_overview": "A printer produces a physical representation of digital information on paper or another medium.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Printers are broadly classified into impact and non-impact types. Dot-matrix is an impact printer, while inkjet and laser printers are non-impact printers."
+            },
+            {
+              "id": "cp022",
+              "title": "Plotter",
+              "tags": ["plotter", "output"],
+              "basic_overview": "A plotter is an output device historically designed for producing large, precise drawings such as engineering plans, maps and architectural designs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Modern large-format printers can perform many functions historically associated with plotters, but the term remains common in competitive-exam questions."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-memory",
+      "title": "Memory, Storage & Units",
+      "filters": [
+        { "label": "Memory", "tag": "memory" },
+        { "label": "Storage", "tag": "storage" },
+        { "label": "RAM/ROM", "tag": "ram-rom" },
+        { "label": "Numerical", "tag": "numerical" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-memory-01",
+          "topic_title": "Primary Memory",
+          "notes_list": [
+            {
+              "id": "cp023",
+              "title": "RAM",
+              "tags": ["ram", "memory", "primary-memory"],
+              "basic_overview": "RAM stands for Random Access Memory and provides temporary working storage for programs and data currently being used by the system.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "RAM is generally volatile memory, meaning its contents are lost when power is removed. DRAM and SRAM are important types of semiconductor memory."
+            },
+            {
+              "id": "cp024",
+              "title": "ROM",
+              "tags": ["rom", "memory", "firmware"],
+              "basic_overview": "ROM stands for Read-Only Memory and traditionally refers to non-volatile memory used to store information that should persist without power.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Modern systems use several forms of non-volatile memory. PROM, EPROM and EEPROM are classic ROM-family terms frequently asked in exams."
+            },
+            {
+              "id": "cp025",
+              "title": "Cache Memory",
+              "tags": ["cache", "memory", "cpu"],
+              "basic_overview": "Cache is high-speed memory used to store frequently accessed data and instructions so that the CPU can access them more quickly.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "CPU caches are commonly organized into levels such as L1, L2 and L3. L1 is typically smaller and faster than higher-level caches."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-memory-02",
+          "topic_title": "Secondary Storage",
+          "notes_list": [
+            {
+              "id": "cp026",
+              "title": "Hard Disk Drive",
+              "tags": ["hdd", "storage"],
+              "basic_overview": "HDD stands for Hard Disk Drive and stores data magnetically on rotating disks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "An HDD contains rotating platters and read/write heads. It is non-volatile storage and retains data after power is removed."
+            },
+            {
+              "id": "cp027",
+              "title": "Solid State Drive",
+              "tags": ["ssd", "storage"],
+              "basic_overview": "SSD stands for Solid State Drive and stores data using non-volatile flash memory rather than rotating magnetic disks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "SSDs generally have lower access latency and no mechanical moving parts. NVMe SSDs communicate through high-speed interfaces such as PCIe."
+            },
+            {
+              "id": "cp028",
+              "title": "Pen Drive",
+              "tags": ["usb", "storage", "pen-drive"],
+              "basic_overview": "A pen drive is a portable flash-memory storage device that commonly connects to a computer through USB.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "It is non-volatile storage and can be used to transfer files between compatible devices."
+            },
+            {
+              "id": "cp029",
+              "title": "Optical Storage",
+              "tags": ["cd", "dvd", "blu-ray", "storage"],
+              "basic_overview": "Optical storage uses laser technology to read and/or write data on optical discs such as CDs, DVDs and Blu-ray discs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "CD, DVD and Blu-ray differ in capacity and recording technology. Blu-ray generally provides substantially greater storage capacity than standard DVDs."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-memory-03",
+          "topic_title": "Memory Units",
+          "notes_list": [
+            {
+              "id": "cp030",
+              "title": "Bit and Byte",
+              "tags": ["bit", "byte", "units"],
+              "basic_overview": "A bit is the smallest basic unit of digital information and can represent 0 or 1. A byte conventionally consists of 8 bits.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common storage units include KB, MB, GB, TB, PB and beyond. In computing, powers of 2 are also used, with KiB = 1024 bytes, MiB = 1024 KiB and so on."
+            },
+            {
+              "id": "cp031",
+              "title": "Binary Number System",
+              "tags": ["binary", "number-system", "computer"],
+              "basic_overview": "The binary number system uses only two digits, 0 and 1, and is fundamental to digital computing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Binary is base 2. Decimal is base 10, octal is base 8 and hexadecimal is base 16. Competitive exams frequently ask conversions among these number systems."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-software",
+      "title": "Software, Operating Systems & Utilities",
+      "filters": [
+        { "label": "Software", "tag": "software" },
+        { "label": "Operating System", "tag": "os" },
+        { "label": "Utility", "tag": "utility" },
+        { "label": "Windows", "tag": "windows" },
+        { "label": "Linux", "tag": "linux" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-software-01",
+          "topic_title": "Types of Software",
+          "notes_list": [
+            {
+              "id": "cp032",
+              "title": "System Software",
+              "tags": ["system-software", "software"],
+              "basic_overview": "System software manages computer hardware and provides a platform for application software.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Operating systems, device drivers, language translators and certain utility programs are commonly classified as system software."
+            },
+            {
+              "id": "cp033",
+              "title": "Application Software",
+              "tags": ["application-software", "software"],
+              "basic_overview": "Application software is designed to perform tasks for end users, such as word processing, spreadsheets, presentations and web browsing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples include word processors, spreadsheet applications, presentation software, media players and web browsers."
+            },
+            {
+              "id": "cp034",
+              "title": "Utility Software",
+              "tags": ["utility", "software"],
+              "basic_overview": "Utility software performs maintenance, management, security or optimization functions for a computer system.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples include backup utilities, antivirus programs, file compression tools, disk management utilities and system monitoring tools."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-software-02",
+          "topic_title": "Operating System",
+          "notes_list": [
+            {
+              "id": "cp035",
+              "title": "What is an Operating System?",
+              "tags": ["os", "operating-system", "basics"],
+              "basic_overview": "An operating system is system software that manages hardware resources and provides services and interfaces for applications and users.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Major OS responsibilities include process management, memory management, file management, device management, security and user interaction."
+            },
+            {
+              "id": "cp036",
+              "title": "Examples of Operating Systems",
+              "tags": ["os", "windows", "linux", "android"],
+              "basic_overview": "Examples of operating systems include Microsoft Windows, Linux distributions, macOS, Android and iOS.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Linux is an operating-system kernel used in many distributions. Android is built around the Linux kernel with additional platform components."
+            },
+            {
+              "id": "cp037",
+              "title": "GUI and CLI",
+              "tags": ["gui", "cli", "interface"],
+              "basic_overview": "GUI stands for Graphical User Interface, while CLI stands for Command-Line Interface.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "GUI allows interaction through graphical elements such as windows, icons and menus. CLI allows users to issue commands through text."
+            },
+            {
+              "id": "cp038",
+              "title": "Multitasking",
+              "tags": ["multitasking", "os"],
+              "basic_overview": "Multitasking is the ability of an operating system to manage multiple tasks or processes so that users can work with several programs in a responsive environment.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "On modern multi-core systems, multiple processes may execute simultaneously on different cores, while scheduling mechanisms manage processor time across runnable tasks."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-programming",
+      "title": "Programming Languages & Translators",
+      "filters": [
+        { "label": "Programming", "tag": "programming" },
+        { "label": "Languages", "tag": "languages" },
+        { "label": "Compiler", "tag": "compiler" },
+        { "label": "Interpreter", "tag": "interpreter" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-program-01",
+          "topic_title": "Programming Language Basics",
+          "notes_list": [
+            {
+              "id": "cp039",
+              "title": "Machine Language",
+              "tags": ["machine-language", "programming"],
+              "basic_overview": "Machine language consists of binary instructions that can be directly executed by a processor.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Machine language is hardware-dependent and is generally difficult for humans to read and write."
+            },
+            {
+              "id": "cp040",
+              "title": "Assembly Language",
+              "tags": ["assembly", "programming"],
+              "basic_overview": "Assembly language uses symbolic mnemonics to represent machine-level instructions and requires an assembler for translation into machine code.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Assembly language is generally processor-specific. Mnemonics such as MOV, ADD and SUB are commonly associated with assembly programming."
+            },
+            {
+              "id": "cp041",
+              "title": "High-Level Language",
+              "tags": ["high-level-language", "programming"],
+              "basic_overview": "High-level programming languages use abstractions and syntax designed to be easier for humans to understand than machine language.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples include C, C++, Java, Python, JavaScript and many other languages. Translation or interpretation ultimately allows their instructions to be executed by the computer."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-program-02",
+          "topic_title": "Language Translators",
+          "notes_list": [
+            {
+              "id": "cp042",
+              "title": "Compiler",
+              "tags": ["compiler", "translator"],
+              "basic_overview": "A compiler translates a program from a higher-level language into a lower-level representation such as machine code or an intermediate representation, depending on the language and implementation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Traditional compiler models translate larger portions or the complete source program before execution. Modern language implementations may use multiple stages including compilation and runtime techniques."
+            },
+            {
+              "id": "cp043",
+              "title": "Interpreter",
+              "tags": ["interpreter", "translator"],
+              "basic_overview": "An interpreter executes or translates program instructions at runtime rather than producing a conventional standalone machine-code executable in the traditional model.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The common exam shortcut that an interpreter always translates exactly one complete line at a time is an oversimplification. Real language runtimes can use parsing, bytecode, JIT compilation and other techniques."
+            },
+            {
+              "id": "cp044",
+              "title": "Assembler",
+              "tags": ["assembler", "assembly"],
+              "basic_overview": "An assembler converts assembly language instructions into machine-level code or an equivalent object representation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Remember the standard mapping: Assembly Language → Assembler; High-Level Language → Compiler/Interpreter depending on the language and implementation."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-number-system",
+      "title": "Number System, Logic & Digital Basics",
+      "filters": [
+        { "label": "Binary", "tag": "binary" },
+        { "label": "Number System", "tag": "number-system" },
+        { "label": "Boolean", "tag": "boolean" },
+        { "label": "Logic Gates", "tag": "logic-gates" },
+        { "label": "Numerical", "tag": "numerical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-number-01",
+          "topic_title": "Number Systems",
+          "notes_list": [
+            {
+              "id": "cp045",
+              "title": "Decimal Number System",
+              "tags": ["decimal", "number-system"],
+              "basic_overview": "The decimal number system has base 10 and uses digits from 0 to 9.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Decimal is the conventional number system used in everyday arithmetic. In positional notation, each digit has a value determined by its position and powers of 10."
+            },
+            {
+              "id": "cp046",
+              "title": "Binary Number System",
+              "tags": ["binary", "number-system"],
+              "basic_overview": "The binary number system has base 2 and uses only 0 and 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A binary digit is called a bit. Digital circuits use two-state logic that naturally maps to binary representation."
+            },
+            {
+              "id": "cp047",
+              "title": "Octal Number System",
+              "tags": ["octal", "number-system"],
+              "basic_overview": "The octal number system has base 8 and uses digits 0 through 7.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Octal provides a compact representation of binary because each octal digit corresponds to three binary bits."
+            },
+            {
+              "id": "cp048",
+              "title": "Hexadecimal Number System",
+              "tags": ["hexadecimal", "number-system"],
+              "basic_overview": "The hexadecimal number system has base 16 and uses 0–9 and A–F as its digits.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Each hexadecimal digit corresponds to four binary bits. Hexadecimal is widely used in programming, memory addressing and digital representations."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-number-02",
+          "topic_title": "Logic Gates",
+          "notes_list": [
+            {
+              "id": "cp049",
+              "title": "AND Gate",
+              "tags": ["and", "logic-gate"],
+              "basic_overview": "An AND gate produces output 1 only when all of its inputs are 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For two inputs, AND follows: 0 AND 0 = 0, 0 AND 1 = 0, 1 AND 0 = 0 and 1 AND 1 = 1."
+            },
+            {
+              "id": "cp050",
+              "title": "OR Gate",
+              "tags": ["or", "logic-gate"],
+              "basic_overview": "An OR gate produces output 1 when at least one input is 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For two inputs, only 0 OR 0 produces 0. All other input combinations produce 1."
+            },
+            {
+              "id": "cp051",
+              "title": "NOT Gate",
+              "tags": ["not", "logic-gate"],
+              "basic_overview": "A NOT gate reverses the logical state of its input.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "If the input is 0, the output is 1. If the input is 1, the output is 0. NOT is also called an inverter."
+            },
+            {
+              "id": "cp052",
+              "title": "NAND and NOR Gates",
+              "tags": ["nand", "nor", "logic-gate"],
+              "basic_overview": "NAND is the inverse of AND, while NOR is the inverse of OR. Both NAND and NOR are universal logic gates.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "A universal gate can be used to construct other basic logic functions. Competitive exams frequently ask which gates are universal: NAND and NOR."
+            },
+            {
+              "id": "cp053",
+              "title": "XOR Gate",
+              "tags": ["xor", "logic-gate"],
+              "basic_overview": "An XOR gate produces output 1 when its inputs are different.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "For two inputs, XOR gives 1 for 0,1 and 1,0; it gives 0 for 0,0 and 1,1."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-ms-office",
+      "title": "MS Office & Productivity Tools",
+      "filters": [
+        { "label": "MS Word", "tag": "ms-word" },
+        { "label": "MS Excel", "tag": "ms-excel" },
+        { "label": "PowerPoint", "tag": "powerpoint" },
+        { "label": "Shortcut", "tag": "shortcut" },
+        { "label": "Banking", "tag": "banking" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-office-01",
+          "topic_title": "MS Word",
+          "notes_list": [
+            {
+              "id": "cp054",
+              "title": "MS Word",
+              "tags": ["ms-word", "office"],
+              "basic_overview": "Microsoft Word is a word-processing application used to create, edit, format and print documents.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Common features include styles, spell checking, tables, headers and footers, page formatting, mail merge and document review tools."
+            },
+            {
+              "id": "cp055",
+              "title": "Mail Merge",
+              "tags": ["mail-merge", "ms-word"],
+              "basic_overview": "Mail Merge combines a main document with a data source to create multiple personalized documents such as letters, labels or envelopes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A common example is generating personalized letters for many recipients from a single template and a list containing names and addresses."
+            },
+            {
+              "id": "cp056",
+              "title": "Find and Replace",
+              "tags": ["find", "replace", "ms-word"],
+              "basic_overview": "Find and Replace allows users to locate specified text and replace it with other text throughout a document.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The feature is useful for correcting repeated terms, changing names or updating formatting-related text efficiently."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-office-02",
+          "topic_title": "MS Excel",
+          "notes_list": [
+            {
+              "id": "cp057",
+              "title": "MS Excel",
+              "tags": ["excel", "spreadsheet"],
+              "basic_overview": "Microsoft Excel is a spreadsheet application used for data entry, calculations, analysis, charts and reporting.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Excel organizes data into rows and columns. A cell is identified by a column label and row number, such as A1."
+            },
+            {
+              "id": "cp058",
+              "title": "Cell and Range",
+              "tags": ["excel", "cell", "range"],
+              "basic_overview": "A cell is the intersection of a row and column, while a range is a collection of selected cells.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: A1 is a single cell, while A1:C5 represents a rectangular range extending from A1 to C5."
+            },
+            {
+              "id": "cp059",
+              "title": "Excel Formula",
+              "tags": ["excel", "formula"],
+              "basic_overview": "An Excel formula is an expression used to calculate a result and normally begins with an equals sign.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples include =SUM(A1:A5), =AVERAGE(B1:B5) and =MAX(C1:C10). Functions are predefined operations provided by Excel."
+            },
+            {
+              "id": "cp060",
+              "title": "Common Excel Functions",
+              "tags": ["excel", "functions", "formula"],
+              "basic_overview": "Frequently used Excel functions include SUM, AVERAGE, COUNT, COUNTA, MAX, MIN, IF and ROUND.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Competitive exams may ask the purpose of functions. SUM adds values, AVERAGE calculates arithmetic mean, MAX returns the largest value and MIN returns the smallest."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-office-03",
+          "topic_title": "PowerPoint",
+          "notes_list": [
+            {
+              "id": "cp061",
+              "title": "MS PowerPoint",
+              "tags": ["powerpoint", "presentation"],
+              "basic_overview": "Microsoft PowerPoint is presentation software used to create slide-based presentations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "PowerPoint presentations can contain text, images, charts, tables, audio, video, animations and transitions."
+            },
+            {
+              "id": "cp062",
+              "title": "Slide Transition vs Animation",
+              "tags": ["powerpoint", "animation", "transition"],
+              "basic_overview": "A transition controls the visual effect when moving from one slide to another, while animation controls effects applied to objects within a slide.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "This distinction is a common objective-question topic in computer awareness examinations."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-shortcuts",
+      "title": "Computer Keyboard Shortcuts",
+      "filters": [
+        { "label": "Shortcuts", "tag": "shortcut" },
+        { "label": "Windows", "tag": "windows" },
+        { "label": "MS Office", "tag": "office" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-short-01",
+          "topic_title": "Common Keyboard Shortcuts",
+          "notes_list": [
+            {
+              "id": "cp063",
+              "title": "Ctrl + C",
+              "tags": ["shortcut", "copy"],
+              "basic_overview": "Ctrl + C is commonly used to copy selected text, files or objects.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The copied content is placed on the clipboard and can normally be inserted using Ctrl + V."
+            },
+            {
+              "id": "cp064",
+              "title": "Ctrl + X",
+              "tags": ["shortcut", "cut"],
+              "basic_overview": "Ctrl + X is commonly used to cut selected content.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Cut content is normally placed on the clipboard and can be pasted using Ctrl + V."
+            },
+            {
+              "id": "cp065",
+              "title": "Ctrl + V",
+              "tags": ["shortcut", "paste"],
+              "basic_overview": "Ctrl + V is commonly used to paste clipboard content.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The exact result depends on the application and the type of content currently stored on the clipboard."
+            },
+            {
+              "id": "cp066",
+              "title": "Ctrl + Z",
+              "tags": ["shortcut", "undo"],
+              "basic_overview": "Ctrl + Z commonly performs the Undo operation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Undo reverses a recent action when the application supports undo history."
+            },
+            {
+              "id": "cp067",
+              "title": "Ctrl + Y",
+              "tags": ["shortcut", "redo"],
+              "basic_overview": "Ctrl + Y commonly performs Redo or repeats the last action depending on the application.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Shortcut behavior can vary between applications, so exam questions should be interpreted in the context of standard Windows or Office conventions."
+            },
+            {
+              "id": "cp068",
+              "title": "Ctrl + A",
+              "tags": ["shortcut", "select-all"],
+              "basic_overview": "Ctrl + A commonly selects all available content in the current context.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In a document it may select all text; in a file-management window it can select all visible items."
+            },
+            {
+              "id": "cp069",
+              "title": "Ctrl + S",
+              "tags": ["shortcut", "save"],
+              "basic_overview": "Ctrl + S commonly saves the current document or file.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Using Save regularly reduces the risk of losing changes due to crashes or power interruptions."
+            },
+            {
+              "id": "cp070",
+              "title": "Ctrl + P",
+              "tags": ["shortcut", "print"],
+              "basic_overview": "Ctrl + P commonly opens the print interface for the current document or page.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The exact print dialog depends on the operating system and application."
+            },
+            {
+              "id": "cp071",
+              "title": "Ctrl + F",
+              "tags": ["shortcut", "find"],
+              "basic_overview": "Ctrl + F commonly opens a Find or Search function.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "It is widely supported in browsers, documents, spreadsheets and many other applications."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-short-02",
+          "topic_title": "Windows Shortcuts",
+          "notes_list": [
+            {
+              "id": "cp072",
+              "title": "Alt + Tab",
+              "tags": ["shortcut", "windows", "multitasking"],
+              "basic_overview": "Alt + Tab is commonly used in Windows to switch between open applications or windows.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Holding Alt while pressing Tab cycles through available windows in the standard Windows interface."
+            },
+            {
+              "id": "cp073",
+              "title": "Windows + D",
+              "tags": ["shortcut", "windows", "desktop"],
+              "basic_overview": "Windows + D commonly shows or hides the desktop.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Pressing the shortcut again can restore the previously visible windows in standard Windows behavior."
+            },
+            {
+              "id": "cp074",
+              "title": "Windows + L",
+              "tags": ["shortcut", "windows", "security"],
+              "basic_overview": "Windows + L locks the Windows computer.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Locking the computer protects the current session from unauthorized local access while keeping the session active."
+            },
+            {
+              "id": "cp075",
+              "title": "Alt + F4",
+              "tags": ["shortcut", "windows", "close"],
+              "basic_overview": "Alt + F4 commonly closes the active window or application.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "If the active application has unsaved changes, it may display a prompt before closing."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-internet",
+      "title": "Internet, Web & Networking Basics",
+      "filters": [
+        { "label": "Internet", "tag": "internet" },
+        { "label": "Networking", "tag": "networking" },
+        { "label": "Web", "tag": "web" },
+        { "label": "Protocol", "tag": "protocol" },
+        { "label": "Banking", "tag": "banking" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-net-01",
+          "topic_title": "Internet Fundamentals",
+          "notes_list": [
+            {
+              "id": "cp076",
+              "title": "Internet",
+              "tags": ["internet", "network"],
+              "basic_overview": "The Internet is a global system of interconnected computer networks that communicate using standardized protocols.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Internet supports services such as the World Wide Web, email, file transfer, streaming, online banking and many other applications."
+            },
+            {
+              "id": "cp077",
+              "title": "World Wide Web",
+              "tags": ["www", "web", "internet"],
+              "basic_overview": "The World Wide Web is a system of interlinked web resources accessed over the Internet using web technologies and protocols.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Web is not synonymous with the Internet. The Internet is the underlying global network infrastructure, while the Web is one major service that operates over it."
+            },
+            {
+              "id": "cp078",
+              "title": "URL",
+              "tags": ["url", "web", "internet"],
+              "basic_overview": "URL stands for Uniform Resource Locator and identifies the location and access method of a resource on a network.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A typical URL can contain a scheme such as HTTPS, a domain name, a path and optional query or fragment components."
+            },
+            {
+              "id": "cp079",
+              "title": "IP Address",
+              "tags": ["ip", "networking", "address"],
+              "basic_overview": "An IP address is a numerical network address used to identify an interface or endpoint in an IP network.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses. IPv6 was developed partly to address the limited address space of IPv4."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-net-02",
+          "topic_title": "Internet Protocols",
+          "notes_list": [
+            {
+              "id": "cp080",
+              "title": "HTTP and HTTPS",
+              "tags": ["http", "https", "protocol"],
+              "basic_overview": "HTTP is the Hypertext Transfer Protocol used for web communication, while HTTPS is HTTP protected using TLS encryption and authentication mechanisms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "HTTPS helps protect data in transit against interception and tampering and authenticates the server through digital certificates."
+            },
+            {
+              "id": "cp081",
+              "title": "FTP",
+              "tags": ["ftp", "protocol", "file-transfer"],
+              "basic_overview": "FTP stands for File Transfer Protocol and is designed for transferring files over a network.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Traditional FTP does not provide the same transport security as encrypted protocols such as SFTP or FTPS."
+            },
+            {
+              "id": "cp082",
+              "title": "SMTP",
+              "tags": ["smtp", "email", "protocol"],
+              "basic_overview": "SMTP stands for Simple Mail Transfer Protocol and is primarily used for sending email between mail systems and from clients to mail servers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Receiving email commonly involves protocols such as POP3 or IMAP. SMTP is primarily associated with mail submission and transfer."
+            },
+            {
+              "id": "cp083",
+              "title": "POP3 and IMAP",
+              "tags": ["pop3", "imap", "email"],
+              "basic_overview": "POP3 and IMAP are protocols used for retrieving or accessing email messages from mail servers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "POP3 traditionally downloads messages to a client, while IMAP is designed for synchronized access to messages stored on the mail server."
+            },
+            {
+              "id": "cp084",
+              "title": "DNS",
+              "tags": ["dns", "internet", "networking"],
+              "basic_overview": "DNS stands for Domain Name System and translates domain names into IP addresses and other DNS records.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "DNS allows users to access services using memorable names such as example.com instead of manually entering numerical IP addresses."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-net-03",
+          "topic_title": "Networking Devices",
+          "notes_list": [
+            {
+              "id": "cp085",
+              "title": "Modem",
+              "tags": ["modem", "networking"],
+              "basic_overview": "A modem is a device that performs modulation and demodulation or equivalent signal conversion functions to enable communication over certain communication links.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The traditional name modem comes from modulator-demodulator. Modern broadband equipment may combine modem, router and other networking functions."
+            },
+            {
+              "id": "cp086",
+              "title": "Router",
+              "tags": ["router", "networking"],
+              "basic_overview": "A router forwards packets between different networks using network-layer addressing and routing information.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "A home router commonly connects a local network to an Internet service and may also provide DHCP, NAT, firewall and Wi-Fi functions."
+            },
+            {
+              "id": "cp087",
+              "title": "Switch",
+              "tags": ["switch", "networking", "lan"],
+              "basic_overview": "A network switch connects devices within a local network and forwards Ethernet frames based on MAC addresses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Compared with a traditional Ethernet hub, a switch can selectively forward frames to the relevant port instead of broadcasting every frame to all ports."
+            },
+            {
+              "id": "cp088",
+              "title": "Hub",
+              "tags": ["hub", "networking"],
+              "basic_overview": "A hub is a basic networking device that repeats incoming signals to multiple ports.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Traditional Ethernet hubs operate at the physical layer and do not make forwarding decisions based on MAC addresses."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-cyber-security",
+      "title": "Cyber Security, Malware & Safe Computing",
+      "filters": [
+        { "label": "Cyber Security", "tag": "cyber-security" },
+        { "label": "Malware", "tag": "malware" },
+        { "label": "Phishing", "tag": "phishing" },
+        { "label": "Banking Security", "tag": "banking-security" },
+        { "label": "Awareness", "tag": "awareness" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-cyber-01",
+          "topic_title": "Malware",
+          "notes_list": [
+            {
+              "id": "cp089",
+              "title": "Malware",
+              "tags": ["malware", "cyber-security"],
+              "basic_overview": "Malware is malicious software designed to disrupt, damage, abuse, spy on or gain unauthorized access to computer systems or data.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Common malware categories include viruses, worms, trojans, ransomware and spyware. Different malware types spread and operate in different ways."
+            },
+            {
+              "id": "cp090",
+              "title": "Computer Virus",
+              "tags": ["virus", "malware"],
+              "basic_overview": "A computer virus is malicious code that typically attaches to a host file or program and replicates when the infected host is executed.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "A virus generally requires some form of host or user execution for propagation, unlike a network worm that can spread independently across vulnerable systems."
+            },
+            {
+              "id": "cp091",
+              "title": "Computer Worm",
+              "tags": ["worm", "malware"],
+              "basic_overview": "A computer worm is malware capable of self-replicating and spreading across networks without requiring a traditional host file.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Worms can consume network bandwidth and system resources and may exploit software vulnerabilities to spread."
+            },
+            {
+              "id": "cp092",
+              "title": "Trojan Horse",
+              "tags": ["trojan", "malware"],
+              "basic_overview": "A Trojan is malicious software that disguises itself as legitimate or useful software to trick users into executing it.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Unlike a traditional virus, a Trojan does not necessarily replicate itself. Its key characteristic is deceptive delivery or appearance."
+            },
+            {
+              "id": "cp093",
+              "title": "Ransomware",
+              "tags": ["ransomware", "malware", "cyber-security"],
+              "basic_overview": "Ransomware is malware that typically blocks access to systems or encrypts data and demands payment or another form of ransom.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Regular offline or otherwise protected backups are an important defense against data loss from ransomware. Paying ransom does not guarantee recovery."
+            },
+            {
+              "id": "cp094",
+              "title": "Spyware",
+              "tags": ["spyware", "malware"],
+              "basic_overview": "Spyware is software designed to monitor activities or collect information from a user or system without appropriate authorization.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Spyware can be used to collect browsing activity, credentials or other sensitive information depending on its capabilities."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-cyber-02",
+          "topic_title": "Cyber Attacks",
+          "notes_list": [
+            {
+              "id": "cp095",
+              "title": "Phishing",
+              "tags": ["phishing", "cyber-security", "fraud"],
+              "basic_overview": "Phishing is a social-engineering technique in which attackers impersonate trustworthy entities to trick users into revealing sensitive information or performing harmful actions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Phishing can occur through email, SMS, messaging apps, websites, phone calls and social media. Banking users should verify links, domains and requests for OTPs or credentials."
+            },
+            {
+              "id": "cp096",
+              "title": "Smishing",
+              "tags": ["smishing", "phishing", "sms"],
+              "basic_overview": "Smishing is phishing conducted through SMS or text messaging.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Fake bank alerts, KYC warnings, prize messages and urgent payment requests are common social-engineering patterns."
+            },
+            {
+              "id": "cp097",
+              "title": "Vishing",
+              "tags": ["vishing", "phishing", "voice"],
+              "basic_overview": "Vishing is phishing conducted through voice calls or other voice-based communication.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Attackers may impersonate bank staff, officials, customer-support agents or other trusted persons to obtain confidential information."
+            },
+            {
+              "id": "cp098",
+              "title": "Denial of Service",
+              "tags": ["dos", "cyber-attack"],
+              "basic_overview": "A Denial-of-Service attack attempts to make a service or resource unavailable to legitimate users.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "A Distributed Denial-of-Service attack uses multiple systems or sources to generate malicious traffic or requests."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-cyber-03",
+          "topic_title": "Cyber Security Practices",
+          "notes_list": [
+            {
+              "id": "cp099",
+              "title": "Strong Password",
+              "tags": ["password", "security"],
+              "basic_overview": "A strong password is difficult to guess and should generally be long, unique and not reused across important accounts.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Password managers can help generate and store unique passwords. Multi-factor authentication provides an additional layer of protection."
+            },
+            {
+              "id": "cp100",
+              "title": "Two-Factor Authentication",
+              "tags": ["2fa", "mfa", "security"],
+              "basic_overview": "Two-factor authentication requires two distinct authentication factors, commonly something the user knows plus something the user possesses or is.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples include a password plus an authenticator-app code or security key. MFA is the broader term when two or more factors are used."
+            },
+            {
+              "id": "cp101",
+              "title": "Firewall",
+              "tags": ["firewall", "security", "network"],
+              "basic_overview": "A firewall controls or filters network traffic according to defined security rules.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Firewalls can be implemented in software, hardware or network infrastructure. They help restrict unauthorized network communication but are not a complete security solution."
+            },
+            {
+              "id": "cp102",
+              "title": "Antivirus",
+              "tags": ["antivirus", "malware", "security"],
+              "basic_overview": "Antivirus or anti-malware software detects, blocks and removes malicious software using techniques such as signatures, heuristics and behavioral analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Security software should be kept updated because new malware and attack techniques continuously emerge."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-database",
+      "title": "Database & DBMS",
+      "filters": [
+        { "label": "DBMS", "tag": "dbms" },
+        { "label": "Database", "tag": "database" },
+        { "label": "SQL", "tag": "sql" },
+        { "label": "Banking", "tag": "banking" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-db-01",
+          "topic_title": "Database Fundamentals",
+          "notes_list": [
+            {
+              "id": "cp103",
+              "title": "Database",
+              "tags": ["database", "data"],
+              "basic_overview": "A database is an organized collection of data designed to facilitate storage, retrieval, management and analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Databases are used in banking, railway reservations, education systems, government services, e-commerce and many other applications."
+            },
+            {
+              "id": "cp104",
+              "title": "DBMS",
+              "tags": ["dbms", "database"],
+              "basic_overview": "DBMS stands for Database Management System and is software used to create, store, retrieve, update and manage databases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Examples of database-management systems include MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server and SQLite."
+            },
+            {
+              "id": "cp105",
+              "title": "RDBMS",
+              "tags": ["rdbms", "database", "relational"],
+              "basic_overview": "RDBMS stands for Relational Database Management System and organizes data primarily into related tables.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Rows generally represent records and columns represent attributes. Relationships between tables can be established using keys."
+            },
+            {
+              "id": "cp106",
+              "title": "Primary Key",
+              "tags": ["primary-key", "database"],
+              "basic_overview": "A primary key uniquely identifies each record in a relational table.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "A primary key must uniquely identify rows and cannot contain NULL values in standard relational database design."
+            },
+            {
+              "id": "cp107",
+              "title": "Foreign Key",
+              "tags": ["foreign-key", "database"],
+              "basic_overview": "A foreign key is a field or set of fields in one table that references a key in another table to establish a relationship.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Foreign keys help maintain referential integrity between related tables."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-db-02",
+          "topic_title": "SQL",
+          "notes_list": [
+            {
+              "id": "cp108",
+              "title": "SQL",
+              "tags": ["sql", "database"],
+              "basic_overview": "SQL stands for Structured Query Language and is widely used to interact with relational databases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "SQL can be used to retrieve, insert, update and delete data and to define or modify database structures, depending on the statement."
+            },
+            {
+              "id": "cp109",
+              "title": "SELECT Statement",
+              "tags": ["sql", "select"],
+              "basic_overview": "The SQL SELECT statement is used to retrieve data from one or more database tables or other queryable sources.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A basic query may look like SELECT column_name FROM table_name; Additional clauses such as WHERE, GROUP BY and ORDER BY can refine results."
+            },
+            {
+              "id": "cp110",
+              "title": "INSERT, UPDATE and DELETE",
+              "tags": ["sql", "dml"],
+              "basic_overview": "INSERT adds records, UPDATE modifies existing records and DELETE removes records from a database table.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "These commands are commonly classified under Data Manipulation Language. Always use appropriate WHERE conditions with UPDATE and DELETE operations to avoid unintended changes."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-cloud",
+      "title": "Cloud Computing & Emerging Technologies",
+      "filters": [
+        { "label": "Cloud", "tag": "cloud" },
+        { "label": "AI", "tag": "ai" },
+        { "label": "IoT", "tag": "iot" },
+        { "label": "Emerging Tech", "tag": "emerging-tech" },
+        { "label": "UPSC", "tag": "upsc" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-cloud-01",
+          "topic_title": "Cloud Computing",
+          "notes_list": [
+            {
+              "id": "cp111",
+              "title": "Cloud Computing",
+              "tags": ["cloud", "technology"],
+              "basic_overview": "Cloud computing provides on-demand access to computing resources such as servers, storage, databases and software over a network, commonly the Internet.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Cloud services can reduce the need for organizations to maintain all computing infrastructure locally and can support scalable resource usage."
+            },
+            {
+              "id": "cp112",
+              "title": "IaaS, PaaS and SaaS",
+              "tags": ["iaas", "paas", "saas", "cloud"],
+              "basic_overview": "IaaS provides infrastructure resources, PaaS provides a platform for application development and deployment, and SaaS delivers complete software applications as services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical examples: IaaS provides virtual machines and storage; PaaS provides managed development/runtime environments; SaaS provides end-user applications through a service model."
+            },
+            {
+              "id": "cp113",
+              "title": "Public, Private and Hybrid Cloud",
+              "tags": ["cloud", "public-cloud", "private-cloud"],
+              "basic_overview": "Public cloud services are offered to multiple customers through shared provider infrastructure, private cloud environments are dedicated to a specific organization, and hybrid cloud combines multiple environments.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Cloud deployment models differ from service models. Public/private/hybrid describe deployment, while IaaS/PaaS/SaaS describe service abstraction."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-cloud-02",
+          "topic_title": "Emerging Technologies",
+          "notes_list": [
+            {
+              "id": "cp114",
+              "title": "Artificial Intelligence",
+              "tags": ["ai", "artificial-intelligence"],
+              "basic_overview": "Artificial Intelligence refers to computational systems designed to perform tasks that normally require aspects of human intelligence, such as perception, reasoning or language processing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Machine learning is a major approach within AI in which systems learn patterns from data. Generative AI can produce text, images, audio, code and other content."
+            },
+            {
+              "id": "cp115",
+              "title": "Machine Learning",
+              "tags": ["machine-learning", "ai"],
+              "basic_overview": "Machine learning is a field of AI in which algorithms learn patterns or relationships from data to make predictions or decisions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common learning categories include supervised learning, unsupervised learning and reinforcement learning."
+            },
+            {
+              "id": "cp116",
+              "title": "Internet of Things",
+              "tags": ["iot", "internet", "technology"],
+              "basic_overview": "IoT refers to interconnected physical devices equipped with sensors, software and network connectivity that can collect and exchange data.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Examples include smart meters, connected vehicles, industrial sensors, wearable devices and smart-home equipment."
+            },
+            {
+              "id": "cp117",
+              "title": "Blockchain",
+              "tags": ["blockchain", "technology", "cryptocurrency"],
+              "basic_overview": "Blockchain is a distributed ledger technology in which records are maintained through a network and linked using cryptographic techniques.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "A blockchain can support tamper-evident records and decentralized verification. Cryptocurrencies are one application, but blockchain technology is broader than cryptocurrency."
+            },
+            {
+              "id": "cp118",
+              "title": "Big Data",
+              "tags": ["big-data", "data", "technology"],
+              "basic_overview": "Big Data refers to datasets whose volume, velocity, variety or other characteristics create challenges for conventional data-processing approaches.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The commonly discussed 3Vs are Volume, Velocity and Variety. Additional Vs such as Veracity and Value are also used in different frameworks."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-digital-payment",
+      "title": "Digital Banking, Payments & Financial Technology",
+      "filters": [
+        { "label": "Banking", "tag": "banking" },
+        { "label": "Digital Payment", "tag": "digital-payment" },
+        { "label": "UPI", "tag": "upi" },
+        { "label": "RBI Exams", "tag": "rbi" },
+        { "label": "Financial Awareness", "tag": "financial-awareness" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-payment-01",
+          "topic_title": "Digital Payment Systems",
+          "notes_list": [
+            {
+              "id": "cp119",
+              "title": "UPI",
+              "tags": ["upi", "digital-payment", "banking"],
+              "basic_overview": "UPI stands for Unified Payments Interface and enables interoperable real-time digital payments between participating bank accounts through a common platform.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "UPI is developed and operated within India's retail-payment ecosystem under the framework associated with NPCI. Users can make payments using UPI IDs, QR codes and other supported methods."
+            },
+            {
+              "id": "cp120",
+              "title": "IMPS",
+              "tags": ["imps", "banking", "payment"],
+              "basic_overview": "IMPS stands for Immediate Payment Service and provides an electronic interbank fund-transfer facility available through participating channels.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "IMPS is widely associated with immediate electronic fund transfers and is a common topic in Indian banking examinations."
+            },
+            {
+              "id": "cp121",
+              "title": "NEFT",
+              "tags": ["neft", "banking", "payment"],
+              "basic_overview": "NEFT stands for National Electronic Funds Transfer and is an electronic funds-transfer system operated under the RBI framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "NEFT facilitates electronic transfer of funds between participating bank accounts. It is different from RTGS and IMPS in its underlying processing and service characteristics."
+            },
+            {
+              "id": "cp122",
+              "title": "RTGS",
+              "tags": ["rtgs", "banking", "payment"],
+              "basic_overview": "RTGS stands for Real Time Gross Settlement and settles eligible transactions individually in real time rather than netting them in batches.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "RTGS is primarily associated with high-value fund transfers, although applicable minimum and maximum transaction rules are determined by the current system framework."
+            }
+          ]
+        },
+        {
+          "topic_id": "comp-payment-02",
+          "topic_title": "Banking Technology Terms",
+          "notes_list": [
+            {
+              "id": "cp123",
+              "title": "ATM",
+              "tags": ["atm", "banking", "computer"],
+              "basic_overview": "ATM stands for Automated Teller Machine and provides customers with self-service banking functions such as cash withdrawal and balance inquiry.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Depending on the machine and bank, ATMs can also support cash deposits, PIN changes, mini statements and other services."
+            },
+            {
+              "id": "cp124",
+              "title": "POS",
+              "tags": ["pos", "banking", "payment"],
+              "basic_overview": "POS stands for Point of Sale and refers to the location or system where a customer transaction is completed.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "In card-payment contexts, a POS terminal can read payment cards or accept supported contactless transactions."
+            },
+            {
+              "id": "cp125",
+              "title": "QR Code",
+              "tags": ["qr", "digital-payment", "technology"],
+              "basic_overview": "QR stands for Quick Response and refers to a two-dimensional barcode capable of storing machine-readable information.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "QR codes are widely used in digital payments, authentication, ticketing, inventory systems and information sharing."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-abbreviations",
+      "title": "Important Computer Abbreviations & Full Forms",
+      "filters": [
+        { "label": "Full Forms", "tag": "full-forms" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" },
+        { "label": "DSSSB", "tag": "dsssb" },
+        { "label": "Quick Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-full-01",
+          "topic_title": "High-Yield Full Forms",
+          "notes_list": [
+            {
+              "id": "cp126",
+              "title": "CPU",
+              "tags": ["full-form", "cpu"],
+              "basic_overview": "CPU = Central Processing Unit.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "CPU is the primary processing component responsible for executing instructions and coordinating computational operations."
+            },
+            {
+              "id": "cp127",
+              "title": "RAM",
+              "tags": ["full-form", "ram"],
+              "basic_overview": "RAM = Random Access Memory.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "RAM is commonly used as temporary working memory and is generally volatile."
+            },
+            {
+              "id": "cp128",
+              "title": "ROM",
+              "tags": ["full-form", "rom"],
+              "basic_overview": "ROM = Read-Only Memory.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "ROM is traditionally associated with non-volatile storage of firmware or other persistent information."
+            },
+            {
+              "id": "cp129",
+              "title": "USB",
+              "tags": ["full-form", "usb"],
+              "basic_overview": "USB = Universal Serial Bus.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "USB is a widely used standard for connecting peripherals and transferring data and power between compatible devices."
+            },
+            {
+              "id": "cp130",
+              "title": "GUI",
+              "tags": ["full-form", "gui"],
+              "basic_overview": "GUI = Graphical User Interface.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "GUI provides visual interaction through elements such as windows, icons, menus and pointers."
+            },
+            {
+              "id": "cp131",
+              "title": "BIOS",
+              "tags": ["full-form", "bios", "firmware"],
+              "basic_overview": "BIOS = Basic Input/Output System and refers to firmware traditionally used to initialize hardware and begin the boot process on compatible PCs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Modern PCs commonly use UEFI firmware, although the term BIOS remains widely used in everyday and exam contexts."
+            },
+            {
+              "id": "cp132",
+              "title": "URL",
+              "tags": ["full-form", "url"],
+              "basic_overview": "URL = Uniform Resource Locator.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A URL identifies the location and access method of a resource."
+            },
+            {
+              "id": "cp133",
+              "title": "HTTP",
+              "tags": ["full-form", "http"],
+              "basic_overview": "HTTP = Hypertext Transfer Protocol.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "HTTP is an application-layer protocol used for communication in the World Wide Web and other networked applications."
+            },
+            {
+              "id": "cp134",
+              "title": "HTTPS",
+              "tags": ["full-form", "https", "security"],
+              "basic_overview": "HTTPS = Hypertext Transfer Protocol Secure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "HTTPS uses TLS to provide encrypted and authenticated communication for HTTP connections."
+            },
+            {
+              "id": "cp135",
+              "title": "LAN, MAN and WAN",
+              "tags": ["full-form", "network", "lan", "man", "wan"],
+              "basic_overview": "LAN = Local Area Network, MAN = Metropolitan Area Network and WAN = Wide Area Network.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "LAN generally covers a limited local area, MAN is associated with a metropolitan-scale area and WAN spans larger geographical regions."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-exam-traps",
+      "title": "High-Yield Computer Awareness Exam Traps",
+      "filters": [
+        { "label": "Exam Trap", "tag": "trap" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" },
+        { "label": "DSSSB", "tag": "dsssb" },
+        { "label": "Quick Revision", "tag": "revision" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-trap-01",
+          "topic_title": "Frequently Confused Terms",
+          "notes_list": [
+            {
+              "id": "cp136",
+              "title": "Internet vs WWW",
+              "tags": ["internet", "www", "trap"],
+              "basic_overview": "The Internet is the global network infrastructure, while the World Wide Web is a service that operates over the Internet.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Therefore, Internet and WWW are not interchangeable terms. Email, online gaming and many other services can use the Internet without being part of the Web."
+            },
+            {
+              "id": "cp137",
+              "title": "RAM vs ROM",
+              "tags": ["ram", "rom", "trap"],
+              "basic_overview": "RAM is generally volatile working memory, while ROM traditionally refers to non-volatile memory used for persistent information.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Do not interpret 'Read-Only' as meaning every modern ROM-family device can never be rewritten. PROM, EPROM and EEPROM have different programming characteristics."
+            },
+            {
+              "id": "cp138",
+              "title": "Virus vs Worm",
+              "tags": ["virus", "worm", "trap"],
+              "basic_overview": "A traditional virus generally depends on a host file or program, whereas a worm is designed to self-propagate across systems or networks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Both are malware, but their propagation mechanisms differ."
+            },
+            {
+              "id": "cp139",
+              "title": "Compiler vs Interpreter",
+              "tags": ["compiler", "interpreter", "trap"],
+              "basic_overview": "A compiler generally translates source code into another representation before execution, while an interpreter executes or translates program constructs at runtime.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Modern language implementations can combine compilation, interpretation and just-in-time techniques, so simplistic one-line definitions are useful for basic exams but not complete descriptions of real runtimes."
+            },
+            {
+              "id": "cp140",
+              "title": "Hub vs Switch",
+              "tags": ["hub", "switch", "network", "trap"],
+              "basic_overview": "A hub repeats incoming signals to multiple ports, while a switch forwards Ethernet frames based on MAC-address information.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Traditional hubs operate at the physical layer, while standard Ethernet switches primarily operate at the data-link layer."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "computer-quick-revision",
+      "title": "Computer Awareness Ultra Quick Revision",
+      "filters": [
+        { "label": "One-Liners", "tag": "one-liner" },
+        { "label": "Last Minute", "tag": "last-minute" },
+        { "label": "Revision", "tag": "revision" },
+        { "label": "SSC", "tag": "ssc" },
+        { "label": "Banking", "tag": "banking" }
+      ],
+      "topics": [
+        {
+          "topic_id": "comp-rev-01",
+          "topic_title": "Computer One-Liners",
+          "notes_list": [
+            {
+              "id": "cp141",
+              "title": "Basic Computer Revision",
+              "tags": ["revision", "basics"],
+              "basic_overview": "CPU processes instructions; RAM is working memory; ROM is traditionally non-volatile; keyboard and mouse are input devices; monitor and printer are output devices.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Remember the basic flow: Input → Processing → Output, with storage and communication supporting the system."
+            },
+            {
+              "id": "cp142",
+              "title": "Memory Revision",
+              "tags": ["revision", "memory"],
+              "basic_overview": "Bit is a binary digit; byte is 8 bits; RAM is generally volatile; cache is high-speed memory close to the CPU; HDD and SSD are secondary storage devices.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Exam questions often ask which memory is fastest, which is volatile and which device is used for permanent storage."
+            },
+            {
+              "id": "cp143",
+              "title": "Internet Revision",
+              "tags": ["revision", "internet", "network"],
+              "basic_overview": "DNS resolves domain names; HTTP/HTTPS are web protocols; SMTP is used for sending mail; POP3 and IMAP are used for email retrieval/access; IP identifies network endpoints.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "A common exam trap is confusing SMTP with POP3 or IMAP. SMTP is primarily associated with sending and transferring email."
+            },
+            {
+              "id": "cp144",
+              "title": "Cyber Security Revision",
+              "tags": ["revision", "cyber-security"],
+              "basic_overview": "Virus, worm, Trojan, ransomware and spyware are malware categories; phishing is social engineering; firewall filters network traffic; MFA adds authentication protection.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Never share passwords, PINs, CVV or OTPs in response to unsolicited calls, messages or links. Verify the source independently."
+            },
+            {
+              "id": "cp145",
+              "title": "Banking Computer Revision",
+              "tags": ["revision", "banking", "digital-payment"],
+              "basic_overview": "UPI enables interoperable instant digital payments; IMPS provides immediate electronic transfers; NEFT is an electronic funds-transfer system; RTGS settles eligible transactions individually in real time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "For banking exams, memorize the full forms and distinguish the basic purpose of UPI, IMPS, NEFT and RTGS."
+            },
+            {
+              "id": "cp146",
+              "title": "Important Shortcut Revision",
+              "tags": ["revision", "shortcut"],
+              "basic_overview": "Ctrl+C = Copy; Ctrl+X = Cut; Ctrl+V = Paste; Ctrl+Z = Undo; Ctrl+Y = Redo/Repeat; Ctrl+A = Select All; Ctrl+S = Save; Ctrl+P = Print; Ctrl+F = Find.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Windows shortcuts frequently asked in exams include Alt+Tab for switching windows, Windows+L for locking the computer and Alt+F4 for closing the active window."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
