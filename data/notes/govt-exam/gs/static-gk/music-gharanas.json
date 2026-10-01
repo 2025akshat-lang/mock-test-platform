@@ -1,0 +1,12 @@
+{
+  "notes_list": [
+    { "id": "gwalior", "title": "Gwalior Gharana", "basic_overview": "Oldest khayal gharana\nFounder: Nathan Pir Bakhsh (Haddu-Hassu Khan unke pote)\nFamous: Vishnu Digambar Paluskar" },
+    { "id": "kirana", "title": "Kirana Gharana", "basic_overview": "Founder: Abdul Karim Khan (Abdul Wahid Khan bhi)\nFamous: Bhimsen Joshi, Gangubai Hangal" },
+    { "id": "agra", "title": "Agra Gharana", "basic_overview": "Founder: Haji Sujan Khan\nFamous: Faiyaz Khan" },
+    { "id": "jaipur-atrauli", "title": "Jaipur-Atrauli Gharana", "basic_overview": "Founder: Alladiya Khan\nFamous: Kishori Amonkar, Mogubai Kurdikar" },
+    { "id": "patiala", "title": "Patiala Gharana", "basic_overview": "Founders: Ali Baksh & Fateh Ali Khan\nFamous: Bade Ghulam Ali Khan" },
+    { "id": "rampur-sahaswan", "title": "Rampur-Sahaswan Gharana", "basic_overview": "Founder: Inayat Hussain Khan\nFamous: Rashid Khan" },
+    { "id": "bhendibazaar", "title": "Bhendibazaar Gharana", "basic_overview": "Founders: Chhajju Khan, Nazir Khan, Khadim Hussain Khan\nFamous: Anjanibai Malpekar" },
+    { "id": "maihar", "title": "Maihar Gharana", "basic_overview": "Founder: Allauddin Khan\nFamous: Ravi Shankar, Ali Akbar Khan" }
+  ]
+}
