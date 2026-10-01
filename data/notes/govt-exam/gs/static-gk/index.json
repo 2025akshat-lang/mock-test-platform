@@ -5,6 +5,9 @@
     { "topic_id": "music-gharanas", "topic_title": "Indian Music Gharanas & Exponents", "file": "data/notes/govt-exam/gs/static-gk/music-gharanas.json" },
     { "topic_id": "important-days", "topic_title": "Important National & International Days", "file": "data/notes/govt-exam/gs/static-gk/important-days.json" },
     { "topic_id": "sports-trophies", "topic_title": "Sports, Trophies & Terms", "file": "data/notes/govt-exam/gs/static-gk/sports-trophies.json" },
-    { "topic_id": "books-authors", "topic_title": "Famous Books & Authors", "file": "data/notes/govt-exam/gs/static-gk/books-authors.json" }
+    { "topic_id": "books-authors", "topic_title": "Famous Books & Authors", "file": "data/notes/govt-exam/gs/static-gk/books-authors.json" },
+    { "topic_id": "hindu-calendar", "topic_title": "Hindu Calendar & Months", "file": "data/notes/govt-exam/gs/static-gk/hindu-calendar.json" },
+    { "topic_id": "fairs-festivals", "topic_title": "Fairs and Festivals of India", "file": "data/notes/govt-exam/gs/static-gk/fairs-festivals.json" },
+    { "topic_id": "temples-architecture", "topic_title": "Temples and Architecture", "file": "data/notes/govt-exam/gs/static-gk/temples-architecture.json" }
   ]
 }
