@@ -261,7 +261,7 @@ const NotesEngine = {
     if (this.topicCache[file]) return this.topicCache[file];
     try {
       const res = await fetch(file);
-      if (!res.ok) throw new Error('topic file not found: ' + file);
+      if (!res.ok) throw new Error('HTTP ' + res.status + ' for ' + file);
       const data = await res.json();
       const notes = Array.isArray(data) ? data
         : (data && Array.isArray(data.notes_list)) ? data.notes_list
@@ -523,11 +523,11 @@ const NotesEngine = {
       body.innerHTML = `<div style="padding:10px;color:#64748b;font-size:0.85rem;">Loading…</div>`;
       try {
         const res = await fetch(file);
-        if (!res.ok) throw new Error('chapter file not found: ' + file);
+        if (!res.ok) throw new Error('HTTP ' + res.status + ' (file nahi mili)');
         this.chapterCache[chapterId] = await res.json();
       } catch (err) {
-        console.error('Failed to load chapter:', err);
-        body.innerHTML = `<div style="padding:10px;color:#ef4444;font-size:0.85rem;">Could not load this chapter's notes.</div>`;
+        console.error('Failed to load chapter:', file, err);
+        body.innerHTML = `<div style="padding:10px;color:#ef4444;font-size:0.85rem;">Could not load this chapter's notes.<br><small style="color:#64748b;word-break:break-all;">Path: ${this._safe(file)}<br>Reason: ${this._safe(err && err.message)}</small></div>`;
         return;
       }
     }
