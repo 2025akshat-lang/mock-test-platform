@@ -1,0 +1,13 @@
+{
+  "notes_list": [
+    { "id": "ranji", "title": "Ranji Trophy", "basic_overview": "Cricket (domestic first-class)" },
+    { "id": "duleep", "title": "Duleep Trophy", "basic_overview": "Cricket (zonal)" },
+    { "id": "irani", "title": "Irani Cup", "basic_overview": "Cricket (Ranji champion vs Rest of India)" },
+    { "id": "santosh", "title": "Santosh Trophy", "basic_overview": "Football (national championship, state teams)" },
+    { "id": "durand", "title": "Durand Cup", "basic_overview": "Football (one of the oldest tournaments in Asia)" },
+    { "id": "thomas", "title": "Thomas Cup", "basic_overview": "Badminton (men's team)" },
+    { "id": "uber", "title": "Uber Cup", "basic_overview": "Badminton (women's team)" },
+    { "id": "davis", "title": "Davis Cup", "basic_overview": "Tennis (men's team)" },
+    { "id": "birdie", "title": "Birdie", "basic_overview": "Golf term: par se 1 stroke kam me hole poora karna" }
+  ]
+}
