@@ -5,6 +5,7 @@
     { "id": "geography", "title": "Geography", "file": "data/notes/govt-exam/gs/geography.json" },
     { "id": "economics", "title": "Economics", "file": "data/notes/govt-exam/gs/economics.json" },
     { "id": "general-science", "title": "General Science", "file": "data/notes/govt-exam/gs/general-science.json" },
+    { "id": "fact", "title": "GK Facts", "file": "data/notes/govt-exam/gs/fact.json" },
     { "id": "current-affairs", "title": "Current Affairs", "file": "data/notes/govt-exam/gs/current-affairs.json" },
     { "id": "static-gk", "title": "Static GK", "file": "data/notes/govt-exam/gs/static-gk/index.json" }
   ]
