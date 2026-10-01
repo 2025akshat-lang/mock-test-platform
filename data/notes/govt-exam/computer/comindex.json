@@ -1,1 +1,6 @@
-
+{
+  "chapters": [
+    { "id": "computer", "title": "Computer awareness", "file": "data/notes/govt-exam/english/computer1.json" }
+    
+  ]
+}
