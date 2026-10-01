@@ -34,7 +34,7 @@
         {
           "topic_id": "nr-basic-01",
           "topic_title": "How to Study Name Reactions",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-basic-01-how-to-study-name-reactions.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-basic-01-how-to-study-name-reactions.json"
         }
       ]
     },
@@ -63,27 +63,27 @@
         {
           "topic_id": "nr-cc-01",
           "topic_title": "Aldol Condensation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-cc-01-aldol-condensation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-cc-01-aldol-condensation.json"
         },
         {
           "topic_id": "nr-cc-02",
           "topic_title": "Claisen Condensation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-cc-02-claisen-condensation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-cc-02-claisen-condensation.json"
         },
         {
           "topic_id": "nr-cc-03",
           "topic_title": "Perkin Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-cc-03-perkin-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-cc-03-perkin-reaction.json"
         },
         {
           "topic_id": "nr-cc-04",
           "topic_title": "Knoevenagel Condensation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-cc-04-knoevenagel-condensation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-cc-04-knoevenagel-condensation.json"
         },
         {
           "topic_id": "nr-cc-05",
           "topic_title": "Benzoin Condensation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-cc-05-benzoin-condensation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-cc-05-benzoin-condensation.json"
         }
       ]
     },
@@ -112,42 +112,42 @@
         {
           "topic_id": "nr-org-01",
           "topic_title": "Grignard Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-01-grignard-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-01-grignard-reaction.json"
         },
         {
           "topic_id": "nr-org-02",
           "topic_title": "Wittig Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-02-wittig-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-02-wittig-reaction.json"
         },
         {
           "topic_id": "nr-org-03",
           "topic_title": "Corey–Fuchs Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-03-corey-fuchs-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-03-corey-fuchs-reaction.json"
         },
         {
           "topic_id": "nr-org-04",
           "topic_title": "Suzuki Coupling",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-04-suzuki-coupling.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-04-suzuki-coupling.json"
         },
         {
           "topic_id": "nr-org-05",
           "topic_title": "Heck Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-05-heck-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-05-heck-reaction.json"
         },
         {
           "topic_id": "nr-org-06",
           "topic_title": "Sonogashira Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-06-sonogashira-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-06-sonogashira-reaction.json"
         },
         {
           "topic_id": "nr-org-07",
           "topic_title": "Negishi Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-07-negishi-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-07-negishi-reaction.json"
         },
         {
           "topic_id": "nr-org-08",
           "topic_title": "Kumada Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-org-08-kumada-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-org-08-kumada-reaction.json"
         }
       ]
     },
@@ -176,37 +176,37 @@
         {
           "topic_id": "nr-ox-01",
           "topic_title": "Baeyer–Villiger Oxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-01-baeyer-villiger-oxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-01-baeyer-villiger-oxidation.json"
         },
         {
           "topic_id": "nr-ox-02",
           "topic_title": "Ozonolysis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-02-ozonolysis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-02-ozonolysis.json"
         },
         {
           "topic_id": "nr-ox-03",
           "topic_title": "Dihydroxylation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-03-dihydroxylation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-03-dihydroxylation.json"
         },
         {
           "topic_id": "nr-ox-04",
           "topic_title": "Sharpless Asymmetric Epoxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-04-sharpless-asymmetric-epoxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-04-sharpless-asymmetric-epoxidation.json"
         },
         {
           "topic_id": "nr-ox-05",
           "topic_title": "Wacker Oxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-05-wacker-oxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-05-wacker-oxidation.json"
         },
         {
           "topic_id": "nr-ox-06",
           "topic_title": "Swern Oxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-06-swern-oxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-06-swern-oxidation.json"
         },
         {
           "topic_id": "nr-ox-07",
           "topic_title": "Pinnick Oxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ox-07-pinnick-oxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ox-07-pinnick-oxidation.json"
         }
       ]
     },
@@ -235,27 +235,27 @@
         {
           "topic_id": "nr-red-01",
           "topic_title": "Clemmensen Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-red-01-clemmensen-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-red-01-clemmensen-reduction.json"
         },
         {
           "topic_id": "nr-red-02",
           "topic_title": "Wolff–Kishner Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-red-02-wolff-kishner-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-red-02-wolff-kishner-reduction.json"
         },
         {
           "topic_id": "nr-red-03",
           "topic_title": "Birch Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-red-03-birch-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-red-03-birch-reduction.json"
         },
         {
           "topic_id": "nr-red-04",
           "topic_title": "Luche Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-red-04-luche-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-red-04-luche-reduction.json"
         },
         {
           "topic_id": "nr-red-05",
           "topic_title": "Rosenmund Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-red-05-rosenmund-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-red-05-rosenmund-reduction.json"
         }
       ]
     },
@@ -284,32 +284,32 @@
         {
           "topic_id": "nr-arom-01",
           "topic_title": "Friedel–Crafts Alkylation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-01-friedel-crafts-alkylation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-01-friedel-crafts-alkylation.json"
         },
         {
           "topic_id": "nr-arom-02",
           "topic_title": "Friedel–Crafts Acylation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-02-friedel-crafts-acylation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-02-friedel-crafts-acylation.json"
         },
         {
           "topic_id": "nr-arom-03",
           "topic_title": "Reimer–Tiemann Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-03-reimer-tiemann-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-03-reimer-tiemann-reaction.json"
         },
         {
           "topic_id": "nr-arom-04",
           "topic_title": "Kolbe–Schmitt Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-04-kolbe-schmitt-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-04-kolbe-schmitt-reaction.json"
         },
         {
           "topic_id": "nr-arom-05",
           "topic_title": "Gattermann–Koch Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-05-gattermann-koch-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-05-gattermann-koch-reaction.json"
         },
         {
           "topic_id": "nr-arom-06",
           "topic_title": "Gattermann Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-arom-06-gattermann-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-arom-06-gattermann-reaction.json"
         }
       ]
     },
@@ -338,17 +338,17 @@
         {
           "topic_id": "nr-diazo-01",
           "topic_title": "Sandmeyer Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-diazo-01-sandmeyer-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-diazo-01-sandmeyer-reaction.json"
         },
         {
           "topic_id": "nr-diazo-02",
           "topic_title": "Balz–Schiemann Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-diazo-02-balz-schiemann-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-diazo-02-balz-schiemann-reaction.json"
         },
         {
           "topic_id": "nr-diazo-03",
           "topic_title": "Hunsdiecker–Borodin Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-diazo-03-hunsdiecker-borodin-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-diazo-03-hunsdiecker-borodin-reaction.json"
         }
       ]
     },
@@ -377,17 +377,17 @@
         {
           "topic_id": "nr-ap-01",
           "topic_title": "Williamson Ether Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ap-01-williamson-ether-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ap-01-williamson-ether-synthesis.json"
         },
         {
           "topic_id": "nr-ap-02",
           "topic_title": "Pinacol–Pinacolone Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ap-02-pinacol-pinacolone-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ap-02-pinacol-pinacolone-rearrangement.json"
         },
         {
           "topic_id": "nr-ap-03",
           "topic_title": "Cumene Process",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-ap-03-cumene-process.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-ap-03-cumene-process.json"
         }
       ]
     },
@@ -416,27 +416,27 @@
         {
           "topic_id": "nr-aa-01",
           "topic_title": "Hydroboration–Oxidation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-aa-01-hydroboration-oxidation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-aa-01-hydroboration-oxidation.json"
         },
         {
           "topic_id": "nr-aa-02",
           "topic_title": "Oxymercuration–Demercuration",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-aa-02-oxymercuration-demercuration.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-aa-02-oxymercuration-demercuration.json"
         },
         {
           "topic_id": "nr-aa-03",
           "topic_title": "HBr Peroxide Effect",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-aa-03-hbr-peroxide-effect.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-aa-03-hbr-peroxide-effect.json"
         },
         {
           "topic_id": "nr-aa-04",
           "topic_title": "Lindlar Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-aa-04-lindlar-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-aa-04-lindlar-reduction.json"
         },
         {
           "topic_id": "nr-aa-05",
           "topic_title": "Dissolving Metal Reduction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-aa-05-dissolving-metal-reduction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-aa-05-dissolving-metal-reduction.json"
         }
       ]
     },
@@ -465,22 +465,22 @@
         {
           "topic_id": "nr-peri-01",
           "topic_title": "Diels–Alder Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-peri-01-diels-alder-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-peri-01-diels-alder-reaction.json"
         },
         {
           "topic_id": "nr-peri-02",
           "topic_title": "Claisen Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-peri-02-claisen-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-peri-02-claisen-rearrangement.json"
         },
         {
           "topic_id": "nr-peri-03",
           "topic_title": "Cope Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-peri-03-cope-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-peri-03-cope-rearrangement.json"
         },
         {
           "topic_id": "nr-peri-04",
           "topic_title": "Electrocyclic Reactions",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-peri-04-electrocyclic-reactions.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-peri-04-electrocyclic-reactions.json"
         }
       ]
     },
@@ -505,32 +505,32 @@
         {
           "topic_id": "nr-rearr-01",
           "topic_title": "Beckmann Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-01-beckmann-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-01-beckmann-rearrangement.json"
         },
         {
           "topic_id": "nr-rearr-02",
           "topic_title": "Baeyer–Villiger Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-02-baeyer-villiger-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-02-baeyer-villiger-rearrangement.json"
         },
         {
           "topic_id": "nr-rearr-03",
           "topic_title": "Favorskii Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-03-favorskii-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-03-favorskii-rearrangement.json"
         },
         {
           "topic_id": "nr-rearr-04",
           "topic_title": "Hofmann Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-04-hofmann-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-04-hofmann-rearrangement.json"
         },
         {
           "topic_id": "nr-rearr-05",
           "topic_title": "Curtius Rearrangement",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-05-curtius-rearrangement.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-05-curtius-rearrangement.json"
         },
         {
           "topic_id": "nr-rearr-06",
           "topic_title": "Schmidt Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-rearr-06-schmidt-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-rearr-06-schmidt-reaction.json"
         }
       ]
     },
@@ -559,17 +559,17 @@
         {
           "topic_id": "nr-carbonyl-01",
           "topic_title": "Cannizzaro Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-carbonyl-01-cannizzaro-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-carbonyl-01-cannizzaro-reaction.json"
         },
         {
           "topic_id": "nr-carbonyl-02",
           "topic_title": "Haloform Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-carbonyl-02-haloform-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-carbonyl-02-haloform-reaction.json"
         },
         {
           "topic_id": "nr-carbonyl-03",
           "topic_title": "Baeyer Test",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-carbonyl-03-baeyer-test.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-carbonyl-03-baeyer-test.json"
         }
       ]
     },
@@ -598,22 +598,22 @@
         {
           "topic_id": "nr-acid-01",
           "topic_title": "Hell–Volhard–Zelinsky Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-acid-01-hell-volhard-zelinsky-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-acid-01-hell-volhard-zelinsky-reaction.json"
         },
         {
           "topic_id": "nr-acid-02",
           "topic_title": "Malonic Ester Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-acid-02-malonic-ester-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-acid-02-malonic-ester-synthesis.json"
         },
         {
           "topic_id": "nr-acid-03",
           "topic_title": "Acetoacetic Ester Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-acid-03-acetoacetic-ester-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-acid-03-acetoacetic-ester-synthesis.json"
         },
         {
           "topic_id": "nr-acid-04",
           "topic_title": "Arndt–Eistert Homologation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-acid-04-arndt-eistert-homologation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-acid-04-arndt-eistert-homologation.json"
         }
       ]
     },
@@ -642,27 +642,27 @@
         {
           "topic_id": "nr-n-01",
           "topic_title": "Gabriel Phthalimide Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-n-01-gabriel-phthalimide-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-n-01-gabriel-phthalimide-synthesis.json"
         },
         {
           "topic_id": "nr-n-02",
           "topic_title": "Hofmann Mustard Oil Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-n-02-hofmann-mustard-oil-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-n-02-hofmann-mustard-oil-reaction.json"
         },
         {
           "topic_id": "nr-n-03",
           "topic_title": "Carbylamine Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-n-03-carbylamine-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-n-03-carbylamine-reaction.json"
         },
         {
           "topic_id": "nr-n-04",
           "topic_title": "Hofmann Elimination",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-n-04-hofmann-elimination.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-n-04-hofmann-elimination.json"
         },
         {
           "topic_id": "nr-n-05",
           "topic_title": "Bischler–Möhlau Indole Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-n-05-bischler-mohlau-indole-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-n-05-bischler-mohlau-indole-synthesis.json"
         }
       ]
     },
@@ -691,22 +691,22 @@
         {
           "topic_id": "nr-hetero-01",
           "topic_title": "Fischer Indole Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-hetero-01-fischer-indole-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-hetero-01-fischer-indole-synthesis.json"
         },
         {
           "topic_id": "nr-hetero-02",
           "topic_title": "Paal–Knorr Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-hetero-02-paal-knorr-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-hetero-02-paal-knorr-synthesis.json"
         },
         {
           "topic_id": "nr-hetero-03",
           "topic_title": "Hantzsch Pyridine Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-hetero-03-hantzsch-pyridine-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-hetero-03-hantzsch-pyridine-synthesis.json"
         },
         {
           "topic_id": "nr-hetero-04",
           "topic_title": "Gewald Reaction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-hetero-04-gewald-reaction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-hetero-04-gewald-reaction.json"
         }
       ]
     },
@@ -735,22 +735,22 @@
         {
           "topic_id": "nr-prot-01",
           "topic_title": "Boc Protection",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-prot-01-boc-protection.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-prot-01-boc-protection.json"
         },
         {
           "topic_id": "nr-prot-02",
           "topic_title": "Cbz Protection",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-prot-02-cbz-protection.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-prot-02-cbz-protection.json"
         },
         {
           "topic_id": "nr-prot-03",
           "topic_title": "Acetal Protection of Carbonyls",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-prot-03-acetal-protection-of-carbonyls.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-prot-03-acetal-protection-of-carbonyls.json"
         },
         {
           "topic_id": "nr-prot-04",
           "topic_title": "THP Protection",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-prot-04-thp-protection.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-prot-04-thp-protection.json"
         }
       ]
     },
@@ -779,32 +779,32 @@
         {
           "topic_id": "nr-reagent-01",
           "topic_title": "PCC",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-reagent-01-pcc.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-reagent-01-pcc.json"
         },
         {
           "topic_id": "nr-reagent-02",
           "topic_title": "DIBAL-H",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-reagent-02-dibal-h.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-reagent-02-dibal-h.json"
         },
         {
           "topic_id": "nr-reagent-03",
           "topic_title": "mCPBA",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-reagent-03-mcpba.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-reagent-03-mcpba.json"
         },
         {
           "topic_id": "nr-reagent-04",
           "topic_title": "NBS",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-reagent-04-nbs.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-reagent-04-nbs.json"
         },
         {
           "topic_id": "nr-reagent-05",
           "topic_title": "LiAlH4",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-reagent-05-lialh4.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-reagent-05-lialh4.json"
         },
         {
           "topic_id": "nr-nr088a",
           "topic_title": "NaBH4",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-nr088a-nabh4.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-nr088a-nabh4.json"
         }
       ]
     },
@@ -833,22 +833,22 @@
         {
           "topic_id": "nr-adv-01",
           "topic_title": "Buchwald–Hartwig Amination",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-adv-01-buchwald-hartwig-amination.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-adv-01-buchwald-hartwig-amination.json"
         },
         {
           "topic_id": "nr-adv-02",
           "topic_title": "Ullmann Coupling",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-adv-02-ullmann-coupling.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-adv-02-ullmann-coupling.json"
         },
         {
           "topic_id": "nr-adv-03",
           "topic_title": "Hiyama Coupling",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-adv-03-hiyama-coupling.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-adv-03-hiyama-coupling.json"
         },
         {
           "topic_id": "nr-adv-04",
           "topic_title": "Stille Coupling",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-adv-04-stille-coupling.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-adv-04-stille-coupling.json"
         }
       ]
     },
@@ -877,17 +877,17 @@
         {
           "topic_id": "nr-stereo-01",
           "topic_title": "Syn Addition",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-stereo-01-syn-addition.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-stereo-01-syn-addition.json"
         },
         {
           "topic_id": "nr-stereo-02",
           "topic_title": "Anti Addition",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-stereo-02-anti-addition.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-stereo-02-anti-addition.json"
         },
         {
           "topic_id": "nr-stereo-03",
           "topic_title": "Markovnikov vs Anti-Markovnikov",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-stereo-03-markovnikov-vs-anti-markovnikov.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-stereo-03-markovnikov-vs-anti-markovnikov.json"
         }
       ]
     },
@@ -912,27 +912,27 @@
         {
           "topic_id": "nr-comp-01",
           "topic_title": "Clemmensen vs Wolff–Kishner",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-comp-01-clemmensen-vs-wolff-kishner.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-comp-01-clemmensen-vs-wolff-kishner.json"
         },
         {
           "topic_id": "nr-comp-02",
           "topic_title": "Lindlar vs Dissolving Metal",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-comp-02-lindlar-vs-dissolving-metal.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-comp-02-lindlar-vs-dissolving-metal.json"
         },
         {
           "topic_id": "nr-comp-03",
           "topic_title": "Sandmeyer vs Balz–Schiemann",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-comp-03-sandmeyer-vs-balz-schiemann.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-comp-03-sandmeyer-vs-balz-schiemann.json"
         },
         {
           "topic_id": "nr-comp-04",
           "topic_title": "Friedel–Crafts Alkylation vs Acylation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-comp-04-friedel-crafts-alkylation-vs-acylation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-comp-04-friedel-crafts-alkylation-vs-acylation.json"
         },
         {
           "topic_id": "nr-comp-05",
           "topic_title": "Malonic Ester vs Acetoacetic Ester",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-comp-05-malonic-ester-vs-acetoacetic-ester.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-comp-05-malonic-ester-vs-acetoacetic-ester.json"
         }
       ]
     },
@@ -961,22 +961,22 @@
         {
           "topic_id": "nr-debug-01",
           "topic_title": "Wrong Product Due to Missing Alpha Hydrogen",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-debug-01-wrong-product-due-to-missing-alpha-hydrogen.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-debug-01-wrong-product-due-to-missing-alpha-hydrogen.json"
         },
         {
           "topic_id": "nr-debug-02",
           "topic_title": "Wrong Grignard Product Due to Proton Source",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-debug-02-wrong-grignard-product-due-to-proton-source.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-debug-02-wrong-grignard-product-due-to-proton-source.json"
         },
         {
           "topic_id": "nr-debug-03",
           "topic_title": "Rearrangement in Friedel–Crafts Alkylation",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-debug-03-rearrangement-in-friedel-crafts-alkylation.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-debug-03-rearrangement-in-friedel-crafts-alkylation.json"
         },
         {
           "topic_id": "nr-debug-04",
           "topic_title": "SN2 Failure in Williamson Ether Synthesis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-debug-04-sn2-failure-in-williamson-ether-synthesis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-debug-04-sn2-failure-in-williamson-ether-synthesis.json"
         }
       ]
     },
@@ -1005,17 +1005,17 @@
         {
           "topic_id": "nr-structure-01",
           "topic_title": "Using Ozonolysis to Locate Double Bonds",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-structure-01-using-ozonolysis-to-locate-double-bonds.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-structure-01-using-ozonolysis-to-locate-double-bonds.json"
         },
         {
           "topic_id": "nr-structure-02",
           "topic_title": "Hunsdiecker for Carbon Skeleton Analysis",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-structure-02-hunsdiecker-for-carbon-skeleton-analysis.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-structure-02-hunsdiecker-for-carbon-skeleton-analysis.json"
         },
         {
           "topic_id": "nr-structure-03",
           "topic_title": "Hofmann Rearrangement for Carbon Count",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-structure-03-hofmann-rearrangement-for-carbon-count.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-structure-03-hofmann-rearrangement-for-carbon-count.json"
         }
       ]
     },
@@ -1048,27 +1048,27 @@
         {
           "topic_id": "nr-exam-01",
           "topic_title": "Reagent Identification",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-exam-01-reagent-identification.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-exam-01-reagent-identification.json"
         },
         {
           "topic_id": "nr-nr109",
           "topic_title": "Product Prediction",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-nr109-product-prediction.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-nr109-product-prediction.json"
         },
         {
           "topic_id": "nr-nr110",
           "topic_title": "Reaction Sequence Questions",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-nr110-reaction-sequence-questions.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-nr110-reaction-sequence-questions.json"
         },
         {
           "topic_id": "nr-nr111",
           "topic_title": "Match the Following",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-nr111-match-the-following.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-nr111-match-the-following.json"
         },
         {
           "topic_id": "nr-nr112",
           "topic_title": "Assertion–Reason Questions",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-nr112-assertion-reason-questions.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-nr112-assertion-reason-questions.json"
         }
       ]
     },
@@ -1097,29 +1097,29 @@
         {
           "topic_id": "nr-revision-01",
           "topic_title": "Carbonyl Reactions",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-revision-01-carbonyl-reactions.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-revision-01-carbonyl-reactions.json"
         },
         {
           "topic_id": "nr-revision-02",
           "topic_title": "Aromatic One-Liners",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-revision-02-aromatic-one-liners.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-revision-02-aromatic-one-liners.json"
         },
         {
           "topic_id": "nr-revision-03",
           "topic_title": "Rearrangement One-Liners",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-revision-03-rearrangement-one-liners.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-revision-03-rearrangement-one-liners.json"
         },
         {
           "topic_id": "nr-revision-04",
           "topic_title": "Alkene and Alkyne One-Liners",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-revision-04-alkene-and-alkyne-one-liners.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-revision-04-alkene-and-alkyne-one-liners.json"
         },
         {
           "topic_id": "nr-diazonium-one-liners",
           "topic_title": "Diazonium One-Liners",
-          "file": "data/notes/psu-chemistry/organic/name-reactions/topics/nr-diazonium-one-liners.json"
+          "file": "data/notes/psu-chemistry/organic/name-reaction/topics/nr-diazonium-one-liners.json"
         }
       ]
     }
   ]
-}
+        }
