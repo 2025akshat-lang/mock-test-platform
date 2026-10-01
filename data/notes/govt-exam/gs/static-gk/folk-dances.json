@@ -1,0 +1,16 @@
+{
+  "notes_list": [
+    { "id": "ghoomar", "title": "Ghoomar", "basic_overview": "State: Rajasthan", "tags": ["north-west"] },
+    { "id": "kalbelia", "title": "Kalbelia", "basic_overview": "State: Rajasthan (UNESCO Intangible Heritage)", "tags": ["north-west"] },
+    { "id": "bihu", "title": "Bihu", "basic_overview": "State: Assam", "tags": ["east"] },
+    { "id": "garba", "title": "Garba", "basic_overview": "State: Gujarat", "tags": ["north-west"] },
+    { "id": "bhangra", "title": "Bhangra", "basic_overview": "State: Punjab (male dance)", "tags": ["north-west"] },
+    { "id": "giddha", "title": "Giddha", "basic_overview": "State: Punjab (female dance)", "tags": ["north-west"] },
+    { "id": "lavani", "title": "Lavani", "basic_overview": "State: Maharashtra", "tags": ["north-west"] },
+    { "id": "yakshagana", "title": "Yakshagana", "basic_overview": "State: Karnataka", "tags": ["south"] },
+    { "id": "theyyam", "title": "Theyyam", "basic_overview": "State: Kerala (North Malabar)", "tags": ["south"] },
+    { "id": "chhau", "title": "Chhau", "basic_overview": "States: Odisha, Jharkhand, West Bengal (UNESCO listed)", "tags": ["east"] },
+    { "id": "rouf", "title": "Rouf", "basic_overview": "Region: Jammu & Kashmir", "tags": ["north-west"] },
+    { "id": "cheraw", "title": "Cheraw (Bamboo Dance)", "basic_overview": "State: Mizoram", "tags": ["east"] }
+  ]
+}
