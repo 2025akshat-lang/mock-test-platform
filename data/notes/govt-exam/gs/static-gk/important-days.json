@@ -1,0 +1,18 @@
+{
+  "notes_list": [
+    { "id": "jan-9", "title": "9 Jan", "basic_overview": "Pravasi Bharatiya Diwas", "tags": ["national"] },
+    { "id": "jan-12", "title": "12 Jan", "basic_overview": "National Youth Day (Swami Vivekananda Jayanti)", "tags": ["national"] },
+    { "id": "jan-25", "title": "25 Jan", "basic_overview": "National Voters' Day", "tags": ["national"] },
+    { "id": "feb-28", "title": "28 Feb", "basic_overview": "National Science Day", "tags": ["national"] },
+    { "id": "mar-8", "title": "8 Mar", "basic_overview": "International Women's Day", "tags": ["international"] },
+    { "id": "mar-22", "title": "22 Mar", "basic_overview": "World Water Day", "tags": ["international"] },
+    { "id": "apr-24", "title": "24 Apr", "basic_overview": "National Panchayati Raj Day", "tags": ["national"] },
+    { "id": "jun-5", "title": "5 Jun", "basic_overview": "World Environment Day", "tags": ["international"] },
+    { "id": "aug-29", "title": "29 Aug", "basic_overview": "National Sports Day (Major Dhyan Chand Jayanti)", "tags": ["national"] },
+    { "id": "sep-5", "title": "5 Sep", "basic_overview": "Teachers' Day (Dr. S. Radhakrishnan Jayanti)", "tags": ["national"] },
+    { "id": "sep-15", "title": "15 Sep", "basic_overview": "Engineers' Day (M. Visvesvaraya Jayanti)", "tags": ["national"] },
+    { "id": "oct-31", "title": "31 Oct", "basic_overview": "National Unity Day (Sardar Patel Jayanti)", "tags": ["national"] },
+    { "id": "nov-14", "title": "14 Nov", "basic_overview": "Children's Day (Nehru Jayanti)", "tags": ["national"] },
+    { "id": "dec-10", "title": "10 Dec", "basic_overview": "Human Rights Day", "tags": ["international"] }
+  ]
+}
