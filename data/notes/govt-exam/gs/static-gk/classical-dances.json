@@ -1,0 +1,12 @@
+{
+  "notes_list": [
+    { "id": "bharatanatyam", "title": "Bharatanatyam", "basic_overview": "State: Tamil Nadu\nFamous: Rukmini Devi Arundale, Padma Subrahmanyam", "tags": ["south"] },
+    { "id": "kathak", "title": "Kathak", "basic_overview": "State: Uttar Pradesh (North India)\nFamous: Birju Maharaj, Lachhu Maharaj, Sitara Devi", "tags": ["north"] },
+    { "id": "kathakali", "title": "Kathakali", "basic_overview": "State: Kerala\nFamous: Kalamandalam Gopi", "tags": ["south"] },
+    { "id": "kuchipudi", "title": "Kuchipudi", "basic_overview": "State: Andhra Pradesh\nFamous: Yamini Krishnamurthy, Raja-Radha Reddy", "tags": ["south"] },
+    { "id": "odissi", "title": "Odissi", "basic_overview": "State: Odisha\nFamous: Kelucharan Mohapatra, Sonal Mansingh", "tags": ["east"] },
+    { "id": "manipuri", "title": "Manipuri", "basic_overview": "State: Manipur\nFamous: Guru Bipin Singh, Jhaveri Sisters", "tags": ["east"] },
+    { "id": "mohiniyattam", "title": "Mohiniyattam", "basic_overview": "State: Kerala\nFamous: Kalamandalam Kalyanikutty Amma", "tags": ["south"] },
+    { "id": "sattriya", "title": "Sattriya", "basic_overview": "State: Assam\nClassical status: 2000 (Sangeet Natak Akademi)", "tags": ["east"] }
+  ]
+}
