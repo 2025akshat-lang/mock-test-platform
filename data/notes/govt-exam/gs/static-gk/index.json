@@ -1,0 +1,34 @@
+{
+  "topics": [
+    {
+      "id": "classical-dances",
+      "title": "Classical Dances of India",
+      "file": "data/notes/govt-exam/gs/static-gk/classical-dances.json"
+    },
+    {
+      "id": "folk-dances",
+      "title": "Folk Dances of India",
+      "file": "data/notes/govt-exam/gs/static-gk/folk-dances.json"
+    },
+    {
+      "id": "music-gharanas",
+      "title": "Indian Music Gharanas & Exponents",
+      "file": "data/notes/govt-exam/gs/static-gk/music-gharanas.json"
+    },
+    {
+      "id": "important-days",
+      "title": "Important National & International Days",
+      "file": "data/notes/govt-exam/gs/static-gk/important-days.json"
+    },
+    {
+      "id": "sports-trophies",
+      "title": "Sports, Trophies & Terms",
+      "file": "data/notes/govt-exam/gs/static-gk/sports-trophies.json"
+    },
+    {
+      "id": "books-authors",
+      "title": "Famous Books & Authors",
+      "file": "data/notes/govt-exam/gs/static-gk/books-authors.json"
+    }
+  ]
+}
