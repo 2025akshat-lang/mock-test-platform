@@ -1,34 +1,10 @@
 {
   "topics": [
-    {
-      "id": "classical-dances",
-      "title": "Classical Dances of India",
-      "file": "data/notes/govt-exam/gs/static-gk/classical-dances.json"
-    },
-    {
-      "id": "folk-dances",
-      "title": "Folk Dances of India",
-      "file": "data/notes/govt-exam/gs/static-gk/folk-dances.json"
-    },
-    {
-      "id": "music-gharanas",
-      "title": "Indian Music Gharanas & Exponents",
-      "file": "data/notes/govt-exam/gs/static-gk/music-gharanas.json"
-    },
-    {
-      "id": "important-days",
-      "title": "Important National & International Days",
-      "file": "data/notes/govt-exam/gs/static-gk/important-days.json"
-    },
-    {
-      "id": "sports-trophies",
-      "title": "Sports, Trophies & Terms",
-      "file": "data/notes/govt-exam/gs/static-gk/sports-trophies.json"
-    },
-    {
-      "id": "books-authors",
-      "title": "Famous Books & Authors",
-      "file": "data/notes/govt-exam/gs/static-gk/books-authors.json"
-    }
+    { "topic_id": "classical-dances", "topic_title": "Classical Dances of India", "file": "data/notes/govt-exam/gs/static-gk/classical-dances.json" },
+    { "topic_id": "folk-dances", "topic_title": "Folk Dances of India", "file": "data/notes/govt-exam/gs/static-gk/folk-dances.json" },
+    { "topic_id": "music-gharanas", "topic_title": "Indian Music Gharanas & Exponents", "file": "data/notes/govt-exam/gs/static-gk/music-gharanas.json" },
+    { "topic_id": "important-days", "topic_title": "Important National & International Days", "file": "data/notes/govt-exam/gs/static-gk/important-days.json" },
+    { "topic_id": "sports-trophies", "topic_title": "Sports, Trophies & Terms", "file": "data/notes/govt-exam/gs/static-gk/sports-trophies.json" },
+    { "topic_id": "books-authors", "topic_title": "Famous Books & Authors", "file": "data/notes/govt-exam/gs/static-gk/books-authors.json" }
   ]
 }
