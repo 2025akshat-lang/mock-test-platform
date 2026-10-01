@@ -1,6 +1,6 @@
 {
   "chapters": [
-    { "id": "namereaction", "title": "Name Reaction", "file": "data/notes/psu-chemistry/organic/name-reaction.json" },
+    { "id": "namereaction", "title": "Name Reaction", "file": "data/notes/psu-chemistry/organic/name-reactions/chapter.json" },
     { "id": "steriochemistry", "title": "Sterio Chemistry", "file": "data/notes/psu-chemistry/organic/steriochemistry.json" }
 
     
