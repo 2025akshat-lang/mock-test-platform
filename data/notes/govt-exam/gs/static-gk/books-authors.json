@@ -1,0 +1,18 @@
+{
+  "notes_list": [
+    { "id": "arthashastra", "title": "Arthashastra", "basic_overview": "Author: Kautilya (Chanakya)" },
+    { "id": "rajatarangini", "title": "Rajatarangini", "basic_overview": "Author: Kalhana (Kashmir ka itihas)" },
+    { "id": "ashtadhyayi", "title": "Ashtadhyayi", "basic_overview": "Author: Panini (Sanskrit grammar)" },
+    { "id": "meghaduta", "title": "Meghaduta", "basic_overview": "Author: Kalidasa" },
+    { "id": "mudrarakshasa", "title": "Mudrarakshasa", "basic_overview": "Author: Vishakhadatta" },
+    { "id": "buddhacharita", "title": "Buddhacharita", "basic_overview": "Author: Ashvaghosha" },
+    { "id": "anandamath", "title": "Anandamath", "basic_overview": "Author: Bankim Chandra Chatterjee (Vande Mataram yahin se)" },
+    { "id": "gitanjali", "title": "Gitanjali", "basic_overview": "Author: Rabindranath Tagore" },
+    { "id": "godan", "title": "Godan", "basic_overview": "Author: Premchand" },
+    { "id": "madhushala", "title": "Madhushala", "basic_overview": "Author: Harivansh Rai Bachchan" },
+    { "id": "kamayani", "title": "Kamayani", "basic_overview": "Author: Jaishankar Prasad" },
+    { "id": "discovery-of-india", "title": "The Discovery of India", "basic_overview": "Author: Jawaharlal Nehru" },
+    { "id": "wings-of-fire", "title": "Wings of Fire", "basic_overview": "Author: A.P.J. Abdul Kalam" },
+    { "id": "god-of-small-things", "title": "The God of Small Things", "basic_overview": "Author: Arundhati Roy" }
+  ]
+}
