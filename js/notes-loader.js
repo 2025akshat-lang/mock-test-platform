@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * 📝 PREPZONE NOTES ENGINE v4 (WORKING SEARCH + QUICK-JUMP NAV)
+ * 📝 PREPZONE NOTES ENGINE v5 (SVG DIAGRAMS + ISOLATED ERROR HANDLING)
  * ------------------------------------------------------------
  * Completely isolated from app.js / data-loader.js (mock test engine).
  * Only touches: #notes-grid, #notes-filter-area, #note-search, and a
@@ -8,38 +8,31 @@
  * box (index.html is NOT edited — this file builds that DOM at runtime).
  *
  * v4 changes (from v3):
- *  - FIXED: search box now actually works. Before, typing only
- *    re-filtered chapters that were already manually opened, so if
- *    nothing was open (the normal starting state) search did nothing.
- *    Now typing searches across the WHOLE subject: matching chapters
- *    (and matching sections/topics inside them) auto-expand, chapters/
- *    sections with zero matches are hidden. Clearing the box returns
- *    to the normal one-at-a-time accordion view.
- *  - NEW: a 4-step Quick-Jump bar (Subject -> Chapter -> Section ->
- *    Topic) below the search box. Picking a topic opens the exact
- *    chapter/section/topic (reusing the same open/close functions as
- *    manual clicking, so all exclusivity rules still apply) and
- *    scrolls it into view.
- *  - Chapter-level and nested-section-level accordions remain
- *    EXCLUSIVE (only one open at a time) for normal manual browsing,
- *    same as v3. Topic/notes level is still non-exclusive.
+ *  - FIXED: search box now searches across the WHOLE subject.
+ *  - NEW: 4-step Quick-Jump bar (Subject -> Chapter -> Section -> Topic).
+ *  - Chapter-level and nested-section-level accordions are EXCLUSIVE.
  *
  * Post-v4 fixes:
  *  - #10: renderExamCategories guards against missing manifestData.
- *  - #11: one broken chapter no longer breaks the whole search
- *         (try/catch around renderChapterBody + null-safe title/overview).
+ *  - #11: one broken chapter no longer breaks the whole search.
  *  - #12: renderChapterShells resets state along with the DOM.
+ *
+ * v5 changes:
+ *  - NEW: optional "diagram" field on a note: { "svg": "<svg ...>", "caption": "..." }
+ *    It renders INSIDE the colored ||| extra-info panel (only visible
+ *    when the user taps the button). No diagram = nothing rendered,
+ *    NOT an error. Only a broken SVG shows a small red error box.
+ *  - NEW: every section, topic and note renders inside its own try/catch,
+ *    so one bad entry shows a small error box and the rest keep working.
+ *  - NEW: topics without "notes_list" (note fields directly inside the
+ *    topic) are treated as a single note instead of disappearing.
+ *  - Unknown/extra keys in the JSON are simply ignored (never an error).
  * ============================================================
  */
 
 // ============================================================
 // 🛠️  MAINTENANCE MODE — ONE-LINE ON/OFF SWITCH
 // ------------------------------------------------------------
-// Working on the notes section (editing JSON, tweaking layout,
-// adding a new chapter, etc.)? Flip this ON before you start —
-// visitors see a clean "Under Maintenance" screen instead of a
-// half-edited section. Flip it OFF the moment you're done.
-//
 // TO TURN ON  : comment out the "false" line below, uncomment "true"
 // TO TURN OFF : comment out the "true" line below, uncomment "false" (default)
 // ============================================================
@@ -81,8 +74,6 @@ const NotesEngine = {
 
   // Premium "Under Maintenance" screen — replaces the search bar,
   // quick-jump bar, and notes grid with a centered animated badge.
-  // Only touches elements inside the notes panel, exactly like
-  // everything else in this file.
   _renderMaintenanceOverlay: function () {
     const searchInput = document.getElementById('note-search');
     const searchWrapper = searchInput ? (searchInput.closest('div') || searchInput.parentElement) : null;
@@ -95,9 +86,6 @@ const NotesEngine = {
     if (quickJump) quickJump.style.display = 'none';
     if (!grid) return;
 
-    // Animated construction-worker scene: waving hand (says hi) + a
-    // shovel digging into a dirt mound with little dust puffs flying.
-    // Pure inline SVG + CSS keyframes, no external image/font needed.
     grid.innerHTML = `
       <div style="grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;min-height:55vh;">
         <svg width="230" height="200" viewBox="0 0 240 220" style="margin-bottom:6px;overflow:visible;">
@@ -201,10 +189,41 @@ const NotesEngine = {
   },
 
   // ------------------------------------------------------------
+  // NEW (v5): optional SVG diagram for the extra-info panel.
+  //  - No "diagram" in the note       -> returns '' (NOT an error)
+  //  - diagram exists but SVG broken  -> small red error box only
+  //  - Extra/unknown keys inside diagram are ignored; only
+  //    diagram.svg and diagram.caption are read.
+  // ------------------------------------------------------------
+  _renderDiagram: function (note) {
+    const d = note && note.diagram;
+    if (!d || typeof d !== 'object' || !d.svg) return '';
+
+    try {
+      if (typeof d.svg !== 'string') throw new Error('svg text nahi hai');
+      if (typeof DOMPurify === 'undefined') throw new Error('DOMPurify load nahi hua');
+
+      const clean = DOMPurify.sanitize(d.svg, { USE_PROFILES: { svg: true, svgFilters: true } }).trim();
+      if (!clean.startsWith('<svg')) throw new Error('SVG valid nahi hai');
+
+      const caption = d.caption
+        ? `<div style="font-size:0.78rem;color:#64748b;margin-top:6px;text-align:center;">${this._safe(d.caption)}</div>`
+        : '';
+
+      return `
+        <div style="margin-top:10px;padding:10px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;overflow-x:auto;">
+          <div style="font-size:0.78rem;font-weight:800;color:#334155;margin-bottom:6px;">🧪 Structure / Mechanism</div>
+          <div style="width:100%;">${clean}</div>
+          ${caption}
+        </div>`;
+    } catch (err) {
+      console.error('Diagram failed:', note && note.id, err);
+      return `<div style="margin-top:10px;padding:8px 10px;background:#fef2f2;border:1px solid #fecaca;border-radius:6px;color:#b91c1c;font-size:0.78rem;">⚠️ Diagram load nahi hua (${this._safe(err.message)}) · ${this._safe((note && note.id) || '')}</div>`;
+    }
+  },
+
+  // ------------------------------------------------------------
   // Context-aware Back button: steps up exactly ONE level.
-  //   section open?  -> collapse section, show its siblings
-  //   chapter open?  -> collapse chapter, show its siblings
-  //   neither?       -> go up to exam categories (old behavior)
   // ------------------------------------------------------------
   _handleBack: function () {
     if (this.activeSectionKey) {
@@ -295,8 +314,6 @@ const NotesEngine = {
     filterArea.style.display = 'flex';
     filterArea.innerHTML = '';
 
-    // Reuses the existing .back-btn class from style.css (same light
-    // gray back button already used in the mock-test nav-header-bar).
     const backBtn = document.createElement('button');
     backBtn.className = 'back-btn';
     backBtn.innerHTML = '⬅ Back';
@@ -322,13 +339,6 @@ const NotesEngine = {
       const chapterDiv = document.createElement('div');
       chapterDiv.className = 'pz-chapter-wrap';
       chapterDiv.dataset.chapterId = ch.id;
-      // Wrapper itself carries no visual styling now — it just stacks
-      // the header card and the (initially hidden) body below it with
-      // some breathing room. All the actual look-and-feel below reuses
-      // the SAME classes as the home dashboard's menu cards
-      // (.menu-card / .menu-card-left / .menu-icon / .menu-title /
-      // .menu-desc / .menu-arrow, all already defined in style.css),
-      // so chapter cards match the home screen exactly.
       chapterDiv.style.cssText = 'grid-column:1/-1;margin-bottom:16px;';
       chapterDiv.innerHTML = `
         <div class="menu-card" onclick="NotesEngine.toggleChapter('${this._esc(ch.id)}','${this._esc(ch.file)}')">
@@ -404,7 +414,7 @@ const NotesEngine = {
     try {
       this.renderChapterBody(chapterId);
     } catch (err) {
-      console.error('Failed to render chapter body (check history.json structure):', err);
+      console.error('Failed to render chapter body (check JSON structure):', err);
       body.innerHTML = `<div style="padding:10px;color:#ef4444;font-size:0.85rem;">This chapter's data loaded, but something in its JSON structure is breaking the render. Open the browser console (F12) for the exact error.</div>`;
     }
   },
@@ -422,19 +432,9 @@ const NotesEngine = {
   },
 
   // ------------------------------------------------------------
-  // 6. Render one chapter's body.
-  //    Two supported schemas:
-  //    (a) FLAT   — chapterData.topics directly (e.g. Polity, Geography)
-  //    (b) NESTED — chapterData.sections (e.g. History → Ancient/Medieval/
-  //        Modern). Sections are an EXCLUSIVE accordion during normal
-  //        manual browsing — but during an active search, ALL matching
-  //        sections/topics auto-expand at once so results are visible
-  //        immediately (search overrides the one-at-a-time rule on
-  //        purpose, since a query can legitimately match more than one
-  //        section/chapter).
-  //    Returns true if this chapter has at least one matching note for
-  //    the current search query (used by the global search sweep to
-  //    decide whether to show/hide the whole chapter).
+  // 6. Render one chapter's body (FLAT topics or NESTED sections).
+  //    v5: each section renders inside its own try/catch.
+  //    Returns true if this chapter has at least one matching note.
   // ------------------------------------------------------------
   renderChapterBody: function (chapterId) {
     const chapterData = this.chapterCache[chapterId];
@@ -451,38 +451,37 @@ const NotesEngine = {
     if (chapterData.sections && chapterData.sections.length) {
       // NESTED: chapterId -> era/section accordions -> topics -> notes
       chapterData.sections.forEach(section => {
-        const sectionKey = `${chapterId}__sec-${section.id}`;
-        const result = this._renderFilterAndTopics(sectionKey, section.topics, section.filters, query);
-        if (result.hasMatch) chapterHasMatch = true;
+        try {
+          const sectionKey = `${chapterId}__sec-${section.id}`;
+          const result = this._renderFilterAndTopics(sectionKey, section.topics, section.filters, query);
+          if (result.hasMatch) chapterHasMatch = true;
 
-        const wrapHidden = isSearchActive && !result.hasMatch;
-        const bodyOpen = isSearchActive && result.hasMatch;
+          const wrapHidden = isSearchActive && !result.hasMatch;
+          const bodyOpen = isSearchActive && result.hasMatch;
 
-        if (bodyOpen) this.openTopics.add(sectionKey);
+          if (bodyOpen) this.openTopics.add(sectionKey);
 
-        // Section headers keep the SAME toggle mechanics as before (🔽
-        // rotating 0<->180deg) — only colors/padding/spacing are updated
-        // to match the home screen's palette. The wrapper's own display
-        // is set exactly once (no more duplicate display: declarations),
-        // fixing a bug where a stray later "display:flex" could cancel
-        // an earlier "display:none" in the same inline style string.
-        html += `
-          <div class="pz-section-wrap" data-chapter-id="${this._esc(chapterId)}" data-section-key="${this._esc(sectionKey)}" style="display:${wrapHidden ? 'none' : 'block'};border:1px solid var(--card-border);border-left:4px solid var(--primary);border-radius:10px;background:#fff;overflow:hidden;width:100%;box-sizing:border-box;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,0.03);">
-            <div onclick="NotesEngine.toggleSection('${this._esc(sectionKey)}','${this._esc(chapterId)}')" style="background:#eff6ff;padding:14px 16px;font-weight:800;color:var(--primary-dark);font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;gap:10px;">
-              <span style="display:flex;align-items:center;gap:10px;">
-                <span style="width:34px;height:34px;border-radius:8px;background:#dbeafe;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">🗂️</span>
-                ${section.title}
-              </span>
-              <span id="tpicon-${sectionKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};color:var(--primary);font-weight:800;">🔽</span>
+          html += `
+            <div class="pz-section-wrap" data-chapter-id="${this._esc(chapterId)}" data-section-key="${this._esc(sectionKey)}" style="display:${wrapHidden ? 'none' : 'block'};border:1px solid var(--card-border);border-left:4px solid var(--primary);border-radius:10px;background:#fff;overflow:hidden;width:100%;box-sizing:border-box;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,0.03);">
+              <div onclick="NotesEngine.toggleSection('${this._esc(sectionKey)}','${this._esc(chapterId)}')" style="background:#eff6ff;padding:14px 16px;font-weight:800;color:var(--primary-dark);font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;gap:10px;">
+                <span style="display:flex;align-items:center;gap:10px;">
+                  <span style="width:34px;height:34px;border-radius:8px;background:#dbeafe;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">🗂️</span>
+                  ${section.title || 'Untitled section'}
+                </span>
+                <span id="tpicon-${sectionKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};color:var(--primary);font-weight:800;">🔽</span>
+              </div>
+              <div id="tpbody-${sectionKey}" style="display:${bodyOpen ? 'flex' : 'none'};padding:14px 10px;border-top:1px solid var(--card-border);flex-direction:column;gap:10px;width:100%;box-sizing:border-box;">
+                ${result.html}
+              </div>
             </div>
-            <div id="tpbody-${sectionKey}" style="display:${bodyOpen ? 'flex' : 'none'};padding:14px 10px;border-top:1px solid var(--card-border);flex-direction:column;gap:10px;width:100%;box-sizing:border-box;">
-              ${result.html}
-            </div>
-          </div>
-        `;
+          `;
+        } catch (err) {
+          console.error('Section render failed:', section && section.id, err);
+          html += `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;margin-bottom:8px;">⚠️ Section "${(section && (section.title || section.id)) || '?'}" load nahi ho paya.</div>`;
+        }
       });
     } else {
-      // FLAT: chapterId -> topics -> notes directly (unchanged old behavior)
+      // FLAT: chapterId -> topics -> notes directly
       const result = this._renderFilterAndTopics(chapterId, chapterData.topics, chapterData.filters, query);
       html += result.html;
       chapterHasMatch = result.hasMatch;
@@ -495,16 +494,14 @@ const NotesEngine = {
       this._restoreOpenTopics();
     }
 
-   if (window.typesetMath) {
-  window.typesetMath(body);
-}
+    if (window.typesetMath) {
+      window.typesetMath(body);
+    }
 
     return chapterHasMatch;
   },
 
-  // Re-opens any section/topic accordion whose key is still in
-  // openTopics, after their DOM nodes were just recreated — and
-  // re-applies exclusive section visibility if one is active.
+  // Re-opens any section/topic accordion whose key is still in openTopics.
   _restoreOpenTopics: function () {
     this.openTopics.forEach(key => {
       const tbody = document.getElementById(`tpbody-${key}`);
@@ -520,8 +517,7 @@ const NotesEngine = {
   },
 
   // ------------------------------------------------------------
-  // Nested section accordion (Ancient/Medieval/Modern etc.) — EXCLUSIVE
-  // during normal manual browsing.
+  // Nested section accordion — EXCLUSIVE during normal manual browsing.
   // ------------------------------------------------------------
   toggleSection: function (sectionKey, chapterId) {
     const body = document.getElementById(`tpbody-${sectionKey}`);
@@ -575,15 +571,17 @@ const NotesEngine = {
     });
   },
 
+  // ------------------------------------------------------------
   // Renders: [optional tag-filter row] + [topic accordions -> notes].
-  // filterKey is either a chapterId (flat case) or "chapterId__sec-xyz"
-  // (nested case) — setChapterFilter() below parses it back apart.
-  // Returns { html, hasMatch } — hasMatch = at least one topic had a
-  // note matching the current search query (or query is empty, in
-  // which case everything "matches").
+  // v5:
+  //  - topic without notes_list but with basic_overview = one single note
+  //  - each topic and each note has its own try/catch (isolated errors)
+  //  - extra diagram goes inside the ||| extra-info panel
+  // Returns { html, hasMatch }.
+  // ------------------------------------------------------------
   _renderFilterAndTopics: function (filterKey, topics, filtersDef, query) {
     const activeTag = this.chapterFilters[filterKey] || 'all';
-    const autoExpand = !!query; // search mode: auto-open matching topics so results are visible immediately
+    const autoExpand = !!query;
     let html = '';
 
     if (filtersDef && filtersDef.length) {
@@ -600,48 +598,75 @@ const NotesEngine = {
     let anyTopicVisible = false;
 
     (topics || []).forEach(topic => {
-      const filteredNotes = (topic.notes_list || []).filter(note => {
-        const matchesSearch = !query || String(note.title || '').toLowerCase().includes(query) || String(note.basic_overview || '').toLowerCase().includes(query);
-        const matchesTag = activeTag === 'all' || (note.tags || []).includes(activeTag);
-        return matchesSearch && matchesTag;
-      });
-      if (filteredNotes.length === 0) return;
-      anyTopicVisible = true;
+      try {
+        // notes_list missing? treat the topic itself as one note (if it has a basic_overview)
+        const rawNotes = Array.isArray(topic.notes_list)
+          ? topic.notes_list
+          : (topic.basic_overview ? [topic] : []);
 
-      const topicKey = `${filterKey}__${topic.topic_id}`;
-      const topicBodyDisplay = autoExpand ? 'flex' : 'none';
-      const topicIconRotate = autoExpand ? 'rotate(180deg)' : 'rotate(0deg)';
-      if (autoExpand) this.openTopics.add(topicKey);
+        const filteredNotes = rawNotes.filter(note => {
+          const matchesSearch = !query || String(note.title || '').toLowerCase().includes(query) || String(note.basic_overview || '').toLowerCase().includes(query);
+          const matchesTag = activeTag === 'all' || (note.tags || []).includes(activeTag);
+          return matchesSearch && matchesTag;
+        });
+        if (filteredNotes.length === 0) return;
 
-      html += `
-        <div style="border:1px solid #cbd5e1;border-radius:6px;background:#fff;overflow:hidden;display:flex;flex-direction:column;width:100%;box-sizing:border-box;">
-          <div onclick="NotesEngine.toggleTopic('${this._esc(topicKey)}')" style="background:#f1f5f9;padding:10px 12px;font-weight:700;color:#334155;font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;">
-            <span>📄 ${topic.topic_title}</span>
-            <span id="tpicon-${topicKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${topicIconRotate};">🔽</span>
-          </div>
-          <div id="tpbody-${topicKey}" style="display:${topicBodyDisplay};padding:12px 4px;border-top:1px solid #cbd5e1;flex-direction:column;gap:12px;width:100%;box-sizing:border-box;">
-      `;
+        const topicId = topic.topic_id || topic.id;
+        const topicTitle = topic.topic_title || topic.title || 'Untitled';
+        const topicKey = `${filterKey}__${topicId}`;
+        const topicBodyDisplay = autoExpand ? 'flex' : 'none';
+        const topicIconRotate = autoExpand ? 'rotate(180deg)' : 'rotate(0deg)';
 
-      filteredNotes.forEach(note => {
-        const btnColor = note.extra_info_btn_color || '#2563eb';
-        const noteKey = `${topicKey}__${note.id}`;
-        html += `
-          <div style="border-bottom:1px dashed #e2e8f0;padding-bottom:10px;margin-bottom:5px;width:100%;box-sizing:border-box;">
-            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px;">
-              <h4 style="margin:0;color:#0f172a;font-size:0.95rem;font-weight:700;line-height:1.4;">${this._safe(note.title)}</h4>
-              ${note.has_extra_info ? `
-                    <button onclick="NotesEngine.toggleExtraInfo(event, '${this._esc(noteKey)}')" style="background:${btnColor};color:#fff;border:none;width:24px;height:32px;border-radius:6px;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.75rem;letter-spacing:-1px;writing-mode:vertical-lr;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 4px rgba(0,0,0,0.25);flex-shrink:0;" title="Tap for more detail">|||</button>
-              ` : ''}
+        let topicHtml = `
+          <div style="border:1px solid #cbd5e1;border-radius:6px;background:#fff;overflow:hidden;display:flex;flex-direction:column;width:100%;box-sizing:border-box;">
+            <div onclick="NotesEngine.toggleTopic('${this._esc(topicKey)}')" style="background:#f1f5f9;padding:10px 12px;font-weight:700;color:#334155;font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;">
+              <span>📄 ${topicTitle}</span>
+              <span id="tpicon-${topicKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${topicIconRotate};">🔽</span>
             </div>
-            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.5;white-space:pre-wrap;">${this._safe(note.basic_overview)}</p>
-            ${note.has_extra_info ? `
-              <div id="extra-${noteKey}" style="display:none;margin-top:8px;padding:10px 12px;background:#fff8e1;border-left:4px solid ${btnColor};border-radius:4px;font-size:0.85rem;color:#b78103;white-space:pre-wrap;font-weight:600;line-height:1.4;">${this._safe(note.extra_info_content)}</div>
-            ` : ''}
-          </div>
+            <div id="tpbody-${topicKey}" style="display:${topicBodyDisplay};padding:12px 4px;border-top:1px solid #cbd5e1;flex-direction:column;gap:12px;width:100%;box-sizing:border-box;">
         `;
-      });
 
-      html += `</div></div>`;
+        filteredNotes.forEach((note, idx) => {
+          try {
+            const btnColor = note.extra_info_btn_color || '#2563eb';
+            const noteKey = `${topicKey}__${note.id || ('n' + idx)}`;
+            const diagramHtml = this._renderDiagram(note);
+            const hasDiagram = !!(note.diagram && typeof note.diagram === 'object' && note.diagram.svg);
+            const hasExtra = !!(note.has_extra_info || hasDiagram);
+
+            topicHtml += `
+              <div style="border-bottom:1px dashed #e2e8f0;padding-bottom:10px;margin-bottom:5px;width:100%;box-sizing:border-box;">
+                <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px;">
+                  <h4 style="margin:0;color:#0f172a;font-size:0.95rem;font-weight:700;line-height:1.4;">${this._safe(note.title)}</h4>
+                  ${hasExtra ? `
+                    <button onclick="NotesEngine.toggleExtraInfo(event, '${this._esc(noteKey)}')" style="background:${btnColor};color:#fff;border:none;width:24px;height:32px;border-radius:6px;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.75rem;letter-spacing:-1px;writing-mode:vertical-lr;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 4px rgba(0,0,0,0.25);flex-shrink:0;" title="Tap for more detail">|||</button>
+                  ` : ''}
+                </div>
+                <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.5;white-space:pre-wrap;">${this._safe(note.basic_overview)}</p>
+                ${hasExtra ? `
+                  <div id="extra-${noteKey}" style="display:none;margin-top:8px;padding:10px 12px;background:#fff8e1;border-left:4px solid ${btnColor};border-radius:4px;">
+                    ${note.extra_info_content ? `<div style="font-size:0.85rem;color:#b78103;white-space:pre-wrap;font-weight:600;line-height:1.4;">${this._safe(note.extra_info_content)}</div>` : ''}
+                    ${diagramHtml}
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          } catch (err) {
+            console.error('Note render failed:', note && note.id, err);
+            topicHtml += `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Note "${(note && note.id) || idx}" render nahi ho paya.</div>`;
+          }
+        });
+
+        topicHtml += `</div></div>`;
+
+        // Only committed once the whole topic built successfully
+        html += topicHtml;
+        anyTopicVisible = true;
+        if (autoExpand) this.openTopics.add(topicKey);
+      } catch (err) {
+        console.error('Topic render failed:', topic && (topic.topic_id || topic.id), err);
+        html += `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Topic "${(topic && (topic.topic_title || topic.title || topic.topic_id)) || '?'}" load nahi ho paya.</div>`;
+      }
     });
 
     if (!anyTopicVisible) {
@@ -651,8 +676,7 @@ const NotesEngine = {
     return { html, hasMatch: anyTopicVisible };
   },
 
-  // filterKey is either "chapterId" (flat) or "chapterId__sec-xyz" (nested) —
-  // always re-render the top-level chapter body so the whole tree stays in sync.
+  // filterKey is either "chapterId" (flat) or "chapterId__sec-xyz" (nested)
   setChapterFilter: function (filterKey, tag) {
     this.chapterFilters[filterKey] = tag;
     const chapterId = filterKey.split('__sec-')[0];
@@ -683,7 +707,7 @@ const NotesEngine = {
   },
 
   // ============================================================
-  // 7. SEARCH — now actually searches the whole subject
+  // 7. SEARCH — searches the whole subject
   // ============================================================
   _handleSearchInput: async function () {
     if (!this.subjectIndexData) return; // no repository open yet, nothing to search
@@ -699,8 +723,6 @@ const NotesEngine = {
     await this._runGlobalSearch();
   },
 
-  // Leaving the search box empty returns to the normal exclusive
-  // one-chapter-at-a-time browsing view.
   _exitSearchMode: function () {
     this.openChapters = new Set();
     this.openTopics = new Set();
@@ -709,9 +731,6 @@ const NotesEngine = {
     this.renderChapterShells();
   },
 
-  // Fetches every not-yet-cached chapter in the current subject, then
-  // renders each one; chapters with zero matching notes are hidden,
-  // chapters with at least one match are shown fully expanded.
   _runGlobalSearch: async function () {
     const chapters = this.subjectIndexData.chapters || [];
     this.activeChapterId = null;
@@ -762,12 +781,8 @@ const NotesEngine = {
   },
 
   // ============================================================
-  // 8. QUICK-JUMP — cascading dropdown navigator: Subject -> Chapter
-  //    -> Section (if the chapter has one) -> Topic. Picking a topic
-  //    opens straight to it, reusing the same toggle functions used
-  //    by manual clicking (so exclusivity + back button stay correct).
-  //    Injected via JS right after the search box — index.html is
-  //    never edited.
+  // 8. QUICK-JUMP — cascading dropdown navigator:
+  //    Subject -> Chapter -> Section (if any) -> Topic.
   // ============================================================
   _buildQuickJumpUI: function () {
     if (document.getElementById('notes-quickjump')) return; // already built once
@@ -886,8 +901,8 @@ const NotesEngine = {
     } else {
       (chapterData.topics || []).forEach(topic => {
         const opt = document.createElement('option');
-        opt.value = topic.topic_id;
-        opt.textContent = topic.topic_title;
+        opt.value = topic.topic_id || topic.id || '';
+        opt.textContent = topic.topic_title || topic.title || 'Untitled';
         topicSelect.appendChild(opt);
       });
       topicSelect.disabled = false;
@@ -913,13 +928,14 @@ const NotesEngine = {
 
     (section.topics || []).forEach(topic => {
       const opt = document.createElement('option');
-      opt.value = topic.topic_id;
-      opt.textContent = topic.topic_title;
+      opt.value = topic.topic_id || topic.id || '';
+      opt.textContent = topic.topic_title || topic.title || 'Untitled';
       topicSelect.appendChild(opt);
     });
     topicSelect.disabled = false;
   },
-_onQuickJumpTopicChange: async function () {
+
+  _onQuickJumpTopicChange: async function () {
     const chapterSelect = document.getElementById('qj-chapter');
     const sectionSelect = document.getElementById('qj-section');
     const topicSelect = document.getElementById('qj-topic');
