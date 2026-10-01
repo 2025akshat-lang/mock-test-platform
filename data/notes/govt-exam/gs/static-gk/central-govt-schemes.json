@@ -1,0 +1,967 @@
+{
+  "notes_list": [
+    {
+      "id": "faster-scheme",
+      "title": "FASTER Scheme",
+      "basic_overview": "FASTER Scheme",
+      "tags": ["central-government-schemes", "government-schemes", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 FASTER Scheme"
+    },
+    {
+      "id": "pm-garib-kalyan-rojgar-abhiyan",
+      "title": "P.M. Garib Kalyan Rojgar Abhiyan",
+      "basic_overview": "P.M. Garib Kalyan Rojgar Abhiyan",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 P.M. Garib Kalyan Rojgar Abhiyan"
+    },
+    {
+      "id": "seed-mankind-programme",
+      "title": "SEED Mankind Programme",
+      "basic_overview": "SEED Mankind Programme",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SEED Mankind Programme"
+    },
+    {
+      "id": "ujjwala-yojana-2-0",
+      "title": "उज्ज्वला योजना 2.0",
+      "basic_overview": "उज्ज्वला योजना 2.0",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 उज्ज्वला योजना 2.0"
+    },
+    {
+      "id": "mesh-scheme",
+      "title": "MESH Scheme",
+      "basic_overview": "MESH Scheme",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 MESH Scheme"
+    },
+    {
+      "id": "vruksha-bandhan-project",
+      "title": "Vruksha Bandhan Project",
+      "basic_overview": "Vruksha Bandhan Project",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Vruksha Bandhan Project"
+    },
+    {
+      "id": "pm-daksh-portal",
+      "title": "P.M. DAKSH Portal",
+      "basic_overview": "P.M. DAKSH Portal",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 P.M. DAKSH Portal"
+    },
+    {
+      "id": "proof-app-jk",
+      "title": "PROOF App by J&K",
+      "basic_overview": "PROOF App by J&K",
+      "tags": ["central-government-schemes", "government-schemes", "jammu-kashmir"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PROOF App by J&K"
+    },
+    {
+      "id": "industrial-corridor-programme",
+      "title": "Industrial Corridor Programme",
+      "basic_overview": "Industrial Corridor Programme",
+      "tags": ["central-government-schemes", "government-programmes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Industrial Corridor Programme"
+    },
+    {
+      "id": "project-cheetah",
+      "title": "Project Cheetah",
+      "basic_overview": "Project Cheetah",
+      "tags": ["central-government-schemes", "government-projects", "environment"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Project Cheetah"
+    },
+    {
+      "id": "rajiv-gandhi-grameen-bhumiheen-majdur-nyay-yojna",
+      "title": "Rajiv Gandhi Grameen Bhumiheen Majdur Nyay Yojna",
+      "basic_overview": "Rajiv Gandhi Grameen Bhumiheen Majdur Nyay Yojna",
+      "tags": ["government-schemes", "rural-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Rajiv Gandhi Grameen Bhumiheen Majdur Nyay Yojna"
+    },
+    {
+      "id": "e-shram-portal",
+      "title": "e-Shram Portal",
+      "basic_overview": "e-Shram Portal",
+      "tags": ["central-government-schemes", "government-portals", "labour"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 e-Shram Portal"
+    },
+    {
+      "id": "pm-jan-dhan-yojna",
+      "title": "P.M. Jan Dhan Yojna",
+      "basic_overview": "P.M. Jan Dhan Yojna",
+      "tags": ["central-government-schemes", "financial-inclusion"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 P.M. Jan Dhan Yojna"
+    },
+    {
+      "id": "ubharta-sitare",
+      "title": "उभरते सितारे",
+      "basic_overview": "उभरते सितारे",
+      "tags": ["central-government-schemes", "government-programmes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 उभरते सितारे"
+    },
+    {
+      "id": "indiasize-project",
+      "title": "INDIAsize Project",
+      "basic_overview": "INDIAsize Project",
+      "tags": ["central-government-schemes", "government-projects", "textiles"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 INDIAsize Project"
+    },
+    {
+      "id": "size-chart-for-india",
+      "title": "Size Chart for India",
+      "basic_overview": "Size Chart for India",
+      "tags": ["central-government-schemes", "government-projects"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Size Chart for India"
+    },
+    {
+      "id": "yuktdhara-geospatial-portal",
+      "title": "Yuktdhara Geospatial Portal",
+      "basic_overview": "Yuktdhara Geospatial Portal",
+      "tags": ["central-government-schemes", "government-portals", "geospatial"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Yuktdhara Geospatial Portal"
+    },
+    {
+      "id": "meity-samridh-programme",
+      "title": "MeitY's SAMRIDH Programme",
+      "basic_overview": "MeitY's SAMRIDH Programme",
+      "tags": ["central-government-schemes", "meity", "technology"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 MeitY's SAMRIDH Programme"
+    },
+    {
+      "id": "apna-aapda-mitra-scheme",
+      "title": "Apna Aapda Mitra Scheme",
+      "basic_overview": "Apna Aapda Mitra Scheme",
+      "tags": ["central-government-schemes", "disaster-management"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Apna Aapda Mitra Scheme"
+    },
+    {
+      "id": "pm-poshan-scheme",
+      "title": "P.M. Poshan Scheme",
+      "basic_overview": "P.M. Poshan Scheme",
+      "tags": ["central-government-schemes", "education", "nutrition"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 P.M. Poshan Scheme"
+    },
+    {
+      "id": "vayo-naman-programme",
+      "title": "Vayo Naman Programme",
+      "basic_overview": "Vayo Naman Programme",
+      "tags": ["central-government-schemes", "senior-citizens"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Vayo Naman Programme"
+    },
+    {
+      "id": "sacred-portal",
+      "title": "Senior Able Citizens for Re-Employment in Dignity (SACRED) Portal",
+      "basic_overview": "Senior Able Citizens for Re-Employment in Dignity (SACRED) Portal",
+      "tags": ["central-government-schemes", "government-portals", "senior-citizens"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Senior Able Citizens for Re-Employment in Dignity (SACRED) Portal"
+    },
+    {
+      "id": "dairy-sahakar-scheme",
+      "title": "Dairy Sahakar Scheme",
+      "basic_overview": "Dairy Sahakar Scheme",
+      "tags": ["central-government-schemes", "dairy", "cooperative-sector"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Dairy Sahakar Scheme"
+    },
+    {
+      "id": "upper-sileru-hydroelectric-project",
+      "title": "Upper Sileru Hydroelectric Project",
+      "basic_overview": "Upper Sileru Hydroelectric Project",
+      "tags": ["government-projects", "hydropower", "energy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Upper Sileru Hydroelectric Project"
+    },
+    {
+      "id": "e-prisons-project",
+      "title": "e-Prisons Project",
+      "basic_overview": "e-Prisons Project",
+      "tags": ["government-projects", "digital-india", "prisons"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 e-Prisons Project"
+    },
+    {
+      "id": "adarsh-smarak-scheme",
+      "title": "Adarsh Smarak Scheme",
+      "basic_overview": "Adarsh Smarak Scheme",
+      "tags": ["central-government-schemes", "culture", "heritage"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Adarsh Smarak Scheme"
+    },
+    {
+      "id": "national-edible-oil-mission-oil-palm",
+      "title": "National Edible Oil Mission - Oil Palm Scheme",
+      "basic_overview": "National Edible Oil Mission - Oil Palm Scheme",
+      "tags": ["central-government-schemes", "agriculture", "oil-palm"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 National Edible Oil Mission - Oil Palm Scheme"
+    },
+    {
+      "id": "pancham-initiative",
+      "title": "Pancham Initiative",
+      "basic_overview": "Pancham Initiative",
+      "tags": ["government-initiatives", "environment"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Pancham Initiative"
+    },
+    {
+      "id": "vikramshila-university-project",
+      "title": "Vikramshila University Project",
+      "basic_overview": "Vikramshila University Project",
+      "tags": ["government-projects", "education", "culture"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Vikramshila University Project"
+    },
+    {
+      "id": "atmanirbhar-krishi-yojna",
+      "title": "Atmanirbhar Krishi Yojna",
+      "basic_overview": "Atmanirbhar Krishi Yojna",
+      "tags": ["central-government-schemes", "agriculture"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Atmanirbhar Krishi Yojna"
+    },
+    {
+      "id": "karmayogi-digital-learning-initiative",
+      "title": "Karmayogi Digital Learning Initiative",
+      "basic_overview": "Karmayogi Digital Learning Initiative",
+      "tags": ["government-initiatives", "digital-learning", "training"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Karmayogi Digital Learning Initiative"
+    },
+    {
+      "id": "iraste-ai-road-safety",
+      "title": "iRASTE AI Powered Road Safety Project",
+      "basic_overview": "iRASTE AI Powered Road Safety Project",
+      "tags": ["government-projects", "artificial-intelligence", "road-safety"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 iRASTE AI Powered Road Safety Project"
+    },
+    {
+      "id": "rail-kaushal-vikas-yojna",
+      "title": "Rail Kaushal Vikas Yojna",
+      "basic_overview": "Rail Kaushal Vikas Yojna",
+      "tags": ["central-government-schemes", "skill-development", "railways"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Rail Kaushal Vikas Yojna"
+    },
+    {
+      "id": "jk-tejaswini-hausla-shikhar",
+      "title": "J&K Tejaswini, Hausla, Shikhar Scheme 2021",
+      "basic_overview": "J&K Tejaswini, Hausla, Shikhar Scheme 2021",
+      "tags": ["government-schemes", "jammu-kashmir", "women-empowerment"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 J&K Tejaswini, Hausla, Shikhar Scheme 2021"
+    },
+    {
+      "id": "deep-dive-online-training-meity",
+      "title": "Deep Dive Online Training Programme by MeitY",
+      "basic_overview": "Deep Dive Online Training Programme by MeitY",
+      "tags": ["government-programmes", "meity", "training"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Deep Dive Online Training Programme by MeitY"
+    },
+    {
+      "id": "model-retail-outlet-darpan-petrolpump",
+      "title": "Model Retail Outlet Scheme and Darpan@PetrolPump",
+      "basic_overview": "Model Retail Outlet Scheme and Darpan@PetrolPump",
+      "tags": ["government-schemes", "petroleum", "digital"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Model Retail Outlet Scheme and Darpan@PetrolPump"
+    },
+    {
+      "id": "main-bhi-digital-3-0",
+      "title": "Main Bhi Digital 3.0 Programme",
+      "basic_overview": "Main Bhi Digital 3.0 Programme",
+      "tags": ["government-programmes", "digital-india"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Main Bhi Digital 3.0 Programme"
+    },
+    {
+      "id": "gati-shakti-plan-budget",
+      "title": "Gati Shakti Plan Budget",
+      "basic_overview": "Gati Shakti Plan Budget",
+      "tags": ["government-initiatives", "infrastructure", "transport"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Gati Shakti Plan Budget"
+    },
+    {
+      "id": "amrit-grand-challenge-programme-ucare",
+      "title": "Amrit Grand Challenge Programme UCARE",
+      "basic_overview": "Amrit Grand Challenge Programme UCARE",
+      "tags": ["government-programmes", "health", "innovation"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Amrit Grand Challenge Programme UCARE"
+    },
+    {
+      "id": "e-pli-bond-india-post",
+      "title": "e-PLI Bond India Post",
+      "basic_overview": "e-PLI Bond India Post",
+      "tags": ["government-schemes", "india-post", "digital"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 e-PLI Bond India Post"
+    },
+    {
+      "id": "pm-mitra-yojna",
+      "title": "PM Mitra Yojna",
+      "basic_overview": "PM Mitra Yojna",
+      "tags": ["central-government-schemes", "textiles", "manufacturing"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PM Mitra Yojna"
+    },
+    {
+      "id": "green-grids-initiative",
+      "title": "Green Grids Initiative",
+      "basic_overview": "Green Grids Initiative",
+      "tags": ["government-initiatives", "renewable-energy", "climate"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Green Grids Initiative"
+    },
+    {
+      "id": "panchamrit-climate-target-cop26",
+      "title": "Panchamrit Climate Target at COP26",
+      "basic_overview": "Panchamrit Climate Target at COP26",
+      "tags": ["climate", "cop26", "government-initiatives"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Panchamrit Climate Target at COP26"
+    },
+    {
+      "id": "2-rbt-schemes",
+      "title": "2 RBT Schemes",
+      "basic_overview": "2 RBT Schemes",
+      "tags": ["government-schemes", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 2 RBT Schemes"
+    },
+    {
+      "id": "pm-garib-kalyan-anna-yojna",
+      "title": "PM Garib Kalyan Anna Yojna",
+      "basic_overview": "PM Garib Kalyan Anna Yojna",
+      "tags": ["central-government-schemes", "food-security", "welfare"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PM Garib Kalyan Anna Yojna"
+    },
+    {
+      "id": "swarnajayanti-fellowship-scheme",
+      "title": "Swarnajayanti Fellowship Scheme",
+      "basic_overview": "Swarnajayanti Fellowship Scheme",
+      "tags": ["government-schemes", "science", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Swarnajayanti Fellowship Scheme"
+    },
+    {
+      "id": "e-amrit-portal",
+      "title": "E-AMRIT Portal",
+      "basic_overview": "E-AMRIT Portal",
+      "tags": ["government-portals", "electric-vehicles", "green-mobility"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 E-AMRIT Portal"
+    },
+    {
+      "id": "namda-craft",
+      "title": "Namda Craft",
+      "basic_overview": "Namda Craft",
+      "tags": ["government-initiatives", "handicrafts", "jammu-kashmir"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Namda Craft"
+    },
+    {
+      "id": "project-swaresh",
+      "title": "Project SWARESH",
+      "basic_overview": "Project SWARESH",
+      "tags": ["government-projects", "technology"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Project SWARESH"
+    },
+    {
+      "id": "nipun-bharat-smart-scheme",
+      "title": "NIPUN Bharat - SMART Scheme",
+      "basic_overview": "NIPUN Bharat - SMART Scheme",
+      "tags": ["government-schemes", "education", "school-education"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 NIPUN Bharat - SMART Scheme"
+    },
+    {
+      "id": "sreshta-scheme",
+      "title": "SRESHTA Scheme",
+      "basic_overview": "SRESHTA Scheme",
+      "tags": ["government-schemes", "education", "social-justice"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SRESHTA Scheme"
+    },
+    {
+      "id": "extra-mural-research-scheme",
+      "title": "Extra Mural Research Scheme",
+      "basic_overview": "Extra Mural Research Scheme",
+      "tags": ["government-schemes", "research", "science"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Extra Mural Research Scheme"
+    },
+    {
+      "id": "pm-gramin-awas-yojna",
+      "title": "P.M. Gramin Awas Yojna",
+      "basic_overview": "P.M. Gramin Awas Yojna",
+      "tags": ["central-government-schemes", "housing", "rural-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 P.M. Gramin Awas Yojna"
+    },
+    {
+      "id": "aseem-portal",
+      "title": "ASEEM Portal",
+      "basic_overview": "ASEEM Portal",
+      "tags": ["government-portals", "employment", "skill-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 ASEEM Portal"
+    },
+    {
+      "id": "atal-vayo-abhyuday-yojna",
+      "title": "Atal Vayo Abhyuday Yojna",
+      "basic_overview": "Atal Vayo Abhyuday Yojna",
+      "tags": ["central-government-schemes", "senior-citizens", "welfare"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Atal Vayo Abhyuday Yojna"
+    },
+    {
+      "id": "atmanirbhar-hastshilpkar-scheme",
+      "title": "Atmanirbhar Hastshilpkar Scheme",
+      "basic_overview": "Atmanirbhar Hastshilpkar Scheme",
+      "tags": ["government-schemes", "handicrafts", "artisans"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Atmanirbhar Hastshilpkar Scheme"
+    },
+    {
+      "id": "garuda-app-election-commission",
+      "title": "Garuda App by Election Commission",
+      "basic_overview": "Garuda App by Election Commission",
+      "tags": ["government-apps", "election-commission", "digital"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Garuda App by Election Commission"
+    },
+    {
+      "id": "continuous-learning-activity-portal",
+      "title": "Continuous Learning and Activity Portal",
+      "basic_overview": "Continuous Learning and Activity Portal",
+      "tags": ["government-portals", "education", "learning"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Continuous Learning and Activity Portal"
+    },
+    {
+      "id": "india-young-water-professional-programme",
+      "title": "India Young Water Professional Programme",
+      "basic_overview": "India Young Water Professional Programme",
+      "tags": ["government-programmes", "water", "skill-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 India Young Water Professional Programme"
+    },
+    {
+      "id": "e-sawaari-electric-bus-coalition",
+      "title": "e-Sawaari India Electric Bus Coalition",
+      "basic_overview": "e-Sawaari India Electric Bus Coalition",
+      "tags": ["government-initiatives", "electric-buses", "green-mobility"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 e-Sawaari India Electric Bus Coalition"
+    },
+    {
+      "id": "vernacular-innovation-program",
+      "title": "Vernacular Innovation Program",
+      "basic_overview": "Vernacular Innovation Program",
+      "tags": ["government-programmes", "innovation", "language"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Vernacular Innovation Program"
+    },
+    {
+      "id": "project-sampoorna-assam",
+      "title": "Project Sampoorna Assam",
+      "basic_overview": "Project Sampoorna Assam",
+      "tags": ["government-projects", "assam", "social-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Project Sampoorna Assam"
+    },
+    {
+      "id": "sppel-scheme",
+      "title": "SPPEL Scheme",
+      "basic_overview": "SPPEL Scheme",
+      "tags": ["government-schemes", "culture", "language"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SPPEL Scheme"
+    },
+    {
+      "id": "one-health-consortium",
+      "title": "One Health Consortium",
+      "basic_overview": "One Health Consortium",
+      "tags": ["government-initiatives", "health", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 One Health Consortium"
+    },
+    {
+      "id": "smile-scheme",
+      "title": "SMILE Scheme",
+      "basic_overview": "SMILE Scheme",
+      "tags": ["central-government-schemes", "social-justice", "welfare"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SMILE Scheme"
+    },
+    {
+      "id": "mera-gaon-mera-dharohar",
+      "title": "Mera Gaon Mera Dharohar",
+      "basic_overview": "Mera Gaon Mera Dharohar",
+      "tags": ["government-initiatives", "culture", "heritage", "rural"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Mera Gaon Mera Dharohar"
+    },
+    {
+      "id": "smart-city-mission",
+      "title": "Smart City Mission",
+      "basic_overview": "Smart City Mission",
+      "tags": ["central-government-schemes", "urban-development", "smart-cities"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Smart City Mission"
+    },
+    {
+      "id": "saar-program",
+      "title": "SAAR Program",
+      "basic_overview": "SAAR Program",
+      "tags": ["government-programmes", "science", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SAAR Program"
+    },
+    {
+      "id": "neutrino-project",
+      "title": "Neutrino Project",
+      "basic_overview": "Neutrino Project",
+      "tags": ["government-projects", "science", "physics"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Neutrino Project"
+    },
+    {
+      "id": "new-india-literacy-program",
+      "title": "New India Literacy Program",
+      "basic_overview": "New India Literacy Program",
+      "tags": ["government-programmes", "education", "literacy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 New India Literacy Program"
+    },
+    {
+      "id": "seed-scheme-dnts",
+      "title": "SEED Scheme for DNTs",
+      "basic_overview": "SEED Scheme for DNTs",
+      "tags": ["central-government-schemes", "social-justice", "dnts"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SEED Scheme for DNTs"
+    },
+    {
+      "id": "matru-vandana-yojna",
+      "title": "Matru Vandana Yojna",
+      "basic_overview": "Matru Vandana Yojna",
+      "tags": ["central-government-schemes", "women", "motherhood"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Matru Vandana Yojna"
+    },
+    {
+      "id": "dli-scheme",
+      "title": "DLI Scheme",
+      "basic_overview": "DLI Scheme",
+      "tags": ["government-schemes", "electronics", "manufacturing"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 DLI Scheme"
+    },
+    {
+      "id": "koyla-darpan-portal",
+      "title": "Koyla Darpan Portal",
+      "basic_overview": "Koyla Darpan Portal",
+      "tags": ["government-portals", "coal", "energy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Koyla Darpan Portal"
+    },
+    {
+      "id": "parvatmala-scheme",
+      "title": "Parvatmala Scheme",
+      "basic_overview": "Parvatmala Scheme",
+      "tags": ["central-government-schemes", "infrastructure", "transport"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Parvatmala Scheme"
+    },
+    {
+      "id": "mission-karmayogi",
+      "title": "Mission Karmayogi",
+      "basic_overview": "Mission Karmayogi",
+      "tags": ["government-missions", "civil-services", "training"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Mission Karmayogi"
+    },
+    {
+      "id": "samarth-thermal-power-plants",
+      "title": "SAMARTH Mission on Thermal Power Plants",
+      "basic_overview": "SAMARTH Mission on Thermal Power Plants",
+      "tags": ["government-missions", "energy", "thermal-power"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 SAMARTH Mission on Thermal Power Plants"
+    },
+    {
+      "id": "chips-to-startup-c2s",
+      "title": "Chips to Startup (C2S) Programme",
+      "basic_overview": "Chips to Startup (C2S) Programme",
+      "tags": ["government-programmes", "semiconductors", "technology"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Chips to Startup (C2S) Programme"
+    },
+    {
+      "id": "mission-shakti",
+      "title": "Mission Shakti",
+      "basic_overview": "Mission Shakti",
+      "tags": ["central-government-schemes", "women", "empowerment"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Mission Shakti"
+    },
+    {
+      "id": "living-lab-project",
+      "title": "Living Lab Project",
+      "basic_overview": "Living Lab Project",
+      "tags": ["government-projects", "innovation", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Living Lab Project"
+    },
+    {
+      "id": "pm-jivan-yojna",
+      "title": "PM JIVAN Yojna",
+      "basic_overview": "PM JIVAN Yojna",
+      "tags": ["central-government-schemes", "government-schemes"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PM JIVAN Yojna"
+    },
+    {
+      "id": "immigration-visa-foreigner-registration-tracking",
+      "title": "Immigration Visa Foreigner Registration Tracking Scheme",
+      "basic_overview": "Immigration Visa Foreigner Registration Tracking Scheme",
+      "tags": ["government-schemes", "immigration", "digital"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Immigration Visa Foreigner Registration Tracking Scheme"
+    },
+    {
+      "id": "par-tapi-narmada-link-project",
+      "title": "Par Tapi Narmada Link Project",
+      "basic_overview": "Par Tapi Narmada Link Project",
+      "tags": ["government-projects", "water", "infrastructure"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Par Tapi Narmada Link Project"
+    },
+    {
+      "id": "relation-with-tribe",
+      "title": "Relation with Tribe",
+      "basic_overview": "Relation with Tribe",
+      "tags": ["government-initiatives", "tribal-affairs"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Relation with Tribe"
+    },
+    {
+      "id": "rashtriya-vayoshri-yojna",
+      "title": "Rashtriya Vayoshri Yojna",
+      "basic_overview": "Rashtriya Vayoshri Yojna",
+      "tags": ["central-government-schemes", "senior-citizens", "welfare"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Rashtriya Vayoshri Yojna"
+    },
+    {
+      "id": "pm-daksh-yojna",
+      "title": "PM DAKSH Yojna",
+      "basic_overview": "PM DAKSH Yojna",
+      "tags": ["central-government-schemes", "skill-development", "social-justice"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PM DAKSH Yojna"
+    },
+    {
+      "id": "nai-roshni-scheme",
+      "title": "Nai Roshni Scheme",
+      "basic_overview": "Nai Roshni Scheme",
+      "tags": ["government-schemes", "women", "empowerment"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Nai Roshni Scheme"
+    },
+    {
+      "id": "pacer-schemes",
+      "title": "PACER Schemes",
+      "basic_overview": "PACER Schemes",
+      "tags": ["government-schemes", "science", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 PACER Schemes"
+    },
+    {
+      "id": "seema-darshan-project",
+      "title": "Seema Darshan Project",
+      "basic_overview": "Seema Darshan Project",
+      "tags": ["government-projects", "border", "tourism"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Seema Darshan Project"
+    },
+    {
+      "id": "one-district-one-product",
+      "title": "One District One Product",
+      "basic_overview": "One District One Product",
+      "tags": ["government-initiatives", "local-products", "economic-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 One District One Product"
+    },
+    {
+      "id": "2-odisha-satellite",
+      "title": "2 Odisha Satellite",
+      "basic_overview": "2 Odisha Satellite",
+      "tags": ["government-projects", "space", "odisha"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 2 Odisha Satellite"
+    },
+    {
+      "id": "kanya-shiksha-pravesh-utsav",
+      "title": "Kanya Shiksha Pravesh Utsav",
+      "basic_overview": "Kanya Shiksha Pravesh Utsav",
+      "tags": ["government-initiatives", "education", "girls"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Kanya Shiksha Pravesh Utsav"
+    },
+    {
+      "id": "sarthi-app",
+      "title": "Sarthi App",
+      "basic_overview": "Sarthi App",
+      "tags": ["government-apps", "digital-india"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Sarthi App"
+    },
+    {
+      "id": "malabaricus-project",
+      "title": "Malabaricus Project",
+      "basic_overview": "Malabaricus Project",
+      "tags": ["government-projects", "biodiversity", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Malabaricus Project"
+    },
+    {
+      "id": "digital-india-risc-v",
+      "title": "Digital India RISC-V",
+      "basic_overview": "Digital India RISC-V",
+      "tags": ["government-programmes", "digital-india", "technology", "risc-v"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Digital India RISC-V"
+    },
+    {
+      "id": "udan-scheme",
+      "title": "UDAN Scheme",
+      "basic_overview": "UDAN Scheme",
+      "tags": ["central-government-schemes", "aviation", "transport"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 UDAN Scheme"
+    },
+    {
+      "id": "urban-employment-guarantee-scheme",
+      "title": "Urban Employment Guarantee Scheme",
+      "basic_overview": "Urban Employment Guarantee Scheme",
+      "tags": ["government-schemes", "employment", "urban-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Urban Employment Guarantee Scheme"
+    },
+    {
+      "id": "koeppens-scheme",
+      "title": "Koeppen's Scheme",
+      "basic_overview": "Koeppen's Scheme",
+      "tags": ["government-schemes", "geography", "climate"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Koeppen's Scheme"
+    },
+    {
+      "id": "finnish-model-of-school",
+      "title": "Finnish Model of School",
+      "basic_overview": "Finnish Model of School",
+      "tags": ["government-programmes", "education", "school"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Finnish Model of School"
+    },
+    {
+      "id": "conformity-assessment-scheme-milk",
+      "title": "Conformity Assessment Scheme for Milk",
+      "basic_overview": "Conformity Assessment Scheme for Milk",
+      "tags": ["government-schemes", "dairy", "food-safety"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Conformity Assessment Scheme for Milk"
+    },
+    {
+      "id": "housing-unit-project",
+      "title": "Housing Unit Project",
+      "basic_overview": "Housing Unit Project",
+      "tags": ["government-projects", "housing"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Housing Unit Project"
+    },
+    {
+      "id": "cochin-airport-agrivoltaic-farming",
+      "title": "Cochin International Airport Agrivoltaic Farming Project",
+      "basic_overview": "Cochin International Airport Agrivoltaic Farming Project",
+      "tags": ["government-projects", "agrivoltaic", "renewable-energy", "kerala"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Cochin International Airport Agrivoltaic Farming Project"
+    },
+    {
+      "id": "sagarmala-project",
+      "title": "Sagarmala Project",
+      "basic_overview": "Sagarmala Project",
+      "tags": ["government-projects", "ports", "infrastructure"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Sagarmala Project"
+    },
+    {
+      "id": "central-vista-project",
+      "title": "Central Vista Project",
+      "basic_overview": "Central Vista Project",
+      "tags": ["government-projects", "infrastructure", "delhi"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Central Vista Project"
+    },
+    {
+      "id": "bhuvan-aadhar-portal",
+      "title": "Bhuvan Aadhar Portal",
+      "basic_overview": "Bhuvan Aadhar Portal",
+      "tags": ["government-portals", "geospatial", "digital"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Bhuvan Aadhar Portal"
+    },
+    {
+      "id": "mospi-migration-report",
+      "title": "MoSPI Migration Report",
+      "basic_overview": "MoSPI Migration Report",
+      "tags": ["government-reports", "statistics", "migration"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 MoSPI Migration Report"
+    },
+    {
+      "id": "bharat-gaurav-scheme",
+      "title": "Bharat Gaurav Scheme",
+      "basic_overview": "Bharat Gaurav Scheme",
+      "tags": ["government-schemes", "railways", "tourism"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Bharat Gaurav Scheme"
+    }
+  ]
+    }
