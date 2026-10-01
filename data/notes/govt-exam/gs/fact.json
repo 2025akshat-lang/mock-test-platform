@@ -1,1 +1,2057 @@
-
+{
+  "chapter_title": "General Knowledge Facts: Bills, Acts, Committees, Science, Economy, Geography, Defence & Current GK",
+  "sections": [
+    {
+      "id": "gk-bills-acts-legal",
+      "title": "Bills, Acts & Legal Topics",
+      "filters": [
+        { "label": "Bills & Acts", "tag": "bills-acts" },
+        { "label": "Constitution & Law", "tag": "law" },
+        { "label": "Judgements", "tag": "judgements" },
+        { "label": "Legal GK", "tag": "legal-gk" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-legal-01",
+          "topic_title": "Major Bills, Acts & Legal Provisions",
+          "notes_list": [
+            {
+              "id": "gk001",
+              "title": "Protection of Human Rights Amendment",
+              "tags": ["human-rights", "law", "amendment"],
+              "basic_overview": "Human-rights legislation in India is centred on the Protection of Human Rights Act, 1993 and its amendments, which provide the statutory framework for institutions such as the National Human Rights Commission.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "For examination purposes, remember the distinction between the parent Act, later amendments and the institutions created under the statutory framework. Questions may ask about NHRC composition, functions and jurisdiction."
+            },
+            {
+              "id": "gk002",
+              "title": "SARFAESI Act",
+              "tags": ["sarfaesi", "banking", "law"],
+              "basic_overview": "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 provides a legal framework that enables secured creditors to enforce security interests and recover certain non-performing assets without following the ordinary civil-court recovery route in the prescribed circumstances.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "SARFAESI is important for banking and financial-sector GK. Key concepts include secured assets, security interest, asset reconstruction companies and enforcement of security interest."
+            },
+            {
+              "id": "gk003",
+              "title": "Aircraft Amendment Bill",
+              "tags": ["aircraft", "aviation", "bill"],
+              "basic_overview": "Aircraft legislation in India governs civil aviation safety, aircraft registration, regulatory powers and related aviation matters.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Aircraft Act, 1934 is the principal legislation in this area. Aviation questions should be distinguished between the parent Act, amendment bills and rules or regulations made under the Act."
+            },
+            {
+              "id": "gk004",
+              "title": "Essential Commodities Act",
+              "tags": ["essential-commodities", "law", "economy"],
+              "basic_overview": "The Essential Commodities Act, 1955 provides powers to regulate the production, supply, distribution and trade of specified essential commodities when required in the public interest.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The Act has historically been used to control hoarding, black marketing and supply disruptions involving notified essential commodities."
+            },
+            {
+              "id": "gk005",
+              "title": "Payment of Gratuity Act",
+              "tags": ["gratuity", "labour-law"],
+              "basic_overview": "The Payment of Gratuity Act, 1972 provides for payment of gratuity to eligible employees under specified conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Gratuity is generally associated with length of service and termination-related conditions specified by law. The Code on Social Security, 2020 also forms part of the broader labour-code framework."
+            },
+            {
+              "id": "gk006",
+              "title": "Sedition Law",
+              "tags": ["sedition", "ipc", "criminal-law"],
+              "basic_overview": "Sedition was historically associated with Section 124A of the Indian Penal Code, 1860. The provision became a major constitutional-law issue concerning speech and national security.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The legal position changed with the replacement of the IPC by the Bharatiya Nyaya Sanhita, 2023. Competitive-exam questions should distinguish historical Section 124A from the post-2024 criminal-law framework."
+            },
+            {
+              "id": "gk007",
+              "title": "SC/ST Act 1989",
+              "tags": ["sc-st", "atrocities-act", "law"],
+              "basic_overview": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989 provides special legal protections against specified offences and atrocities committed against members of SC and ST communities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Act contains provisions relating to specified offences, special courts and victim protections. Several amendments and Supreme Court decisions have shaped its interpretation."
+            },
+            {
+              "id": "gk008",
+              "title": "Prevention of Torture Bill",
+              "tags": ["torture", "human-rights", "bill"],
+              "basic_overview": "The Prevention of Torture Bill was introduced as an attempt to create a dedicated statutory framework addressing torture by public servants and related safeguards.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The topic is important as a legislative-history fact. A bill should not automatically be treated as an enacted Act; exam questions often test this distinction."
+            },
+            {
+              "id": "gk009",
+              "title": "Criminal Law Amendment Bill 2018",
+              "tags": ["criminal-law", "2018", "bill"],
+              "basic_overview": "The Criminal Law Amendment proposals of 2018 included measures concerning offences against women and children and proposed changes to criminal law.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Remember the difference between a bill, an ordinance and an enacted statute. Several criminal-law proposals from this period should be studied together with the later criminal-law reforms."
+            },
+            {
+              "id": "gk010",
+              "title": "Fugitive Economic Offenders Act 2018",
+              "tags": ["fugitive-economic-offender", "economy", "law"],
+              "basic_overview": "The Fugitive Economic Offenders Act, 2018 provides measures concerning individuals who leave India to avoid criminal prosecution or refuse to return to face prosecution for specified economic offences above the statutory threshold.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important concepts include fugitive economic offender, attachment and confiscation of property and the role of the special court."
+            },
+            {
+              "id": "gk011",
+              "title": "Transgender Persons Legislation",
+              "tags": ["transgender", "social-justice", "law"],
+              "basic_overview": "India enacted the Transgender Persons (Protection of Rights) Act, 2019 to provide a statutory framework concerning rights, discrimination, welfare and recognition of transgender persons.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The legislation followed earlier legislative proposals, including the Transgender Persons (Protection of Rights) Bill. Questions may test the distinction between the 2016 proposal and the later enacted 2019 law."
+            },
+            {
+              "id": "gk012",
+              "title": "Real Estate Regulation Act",
+              "tags": ["rera", "real-estate", "law"],
+              "basic_overview": "The Real Estate (Regulation and Development) Act, 2016, commonly known as RERA, established a regulatory framework for the real-estate sector and sought greater transparency and protection for homebuyers.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "RERA provides for state-level regulatory authorities, project registration and mechanisms for addressing specified disputes and complaints."
+            },
+            {
+              "id": "gk013",
+              "title": "Arbitration and Conciliation Amendment",
+              "tags": ["arbitration", "conciliation", "dispute-resolution"],
+              "basic_overview": "The Arbitration and Conciliation Act, 1996 provides India's principal statutory framework for arbitration and conciliation, and it has undergone significant amendments to improve efficiency and reduce delays.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The 2015, 2019 and 2021 amendments are important in exam-oriented legal GK. Arbitration focuses on adjudication by an arbitral tribunal, while conciliation is a settlement-oriented process."
+            },
+            {
+              "id": "gk014",
+              "title": "Arms Amendment 2019",
+              "tags": ["arms-act", "2019", "law"],
+              "basic_overview": "The Arms (Amendment) Act, 2019 amended the Arms Act, 1959 and introduced changes concerning firearms, licensing, penalties and related regulatory provisions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "For exams, distinguish the original Arms Act, 1959 from the 2019 amendment and subsequent rules."
+            },
+            {
+              "id": "gk015",
+              "title": "Motor Vehicles Amendment Act 2019",
+              "tags": ["motor-vehicles", "2019", "transport"],
+              "basic_overview": "The Motor Vehicles (Amendment) Act, 2019 introduced substantial changes to road-safety enforcement, penalties, licensing and transport regulation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Important areas include increased penalties for specified offences, electronic monitoring, vehicle fitness and measures relating to road safety."
+            },
+            {
+              "id": "gk016",
+              "title": "Consumer Protection Act 2019",
+              "tags": ["consumer", "law", "2019"],
+              "basic_overview": "The Consumer Protection Act, 2019 replaced the 1986 framework and introduced updated mechanisms for consumer protection, product liability and consumer dispute resolution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Central Consumer Protection Authority is an important feature of the 2019 framework. The Act also addresses unfair trade practices, misleading advertisements and product liability."
+            },
+            {
+              "id": "gk017",
+              "title": "Unlawful Activities Prevention Amendment 2019",
+              "tags": ["uapa", "national-security", "2019"],
+              "basic_overview": "The Unlawful Activities (Prevention) Amendment Act, 2019 amended the UAPA framework and enabled the Central Government, under the statutory procedure, to designate an individual as a terrorist.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "UAPA is India's principal anti-terror and unlawful-activities legislation. Questions commonly cover its purpose, investigation provisions and designation framework."
+            },
+            {
+              "id": "gk018",
+              "title": "Dam Safety Act",
+              "tags": ["dam-safety", "water-resources", "law"],
+              "basic_overview": "The Dam Safety Act, 2021 provides a statutory framework for surveillance, inspection and safety of specified dams in India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Act establishes institutional mechanisms including the National Committee on Dam Safety, National Dam Safety Authority and State-level structures."
+            },
+            {
+              "id": "gk019",
+              "title": "Private Member Bill",
+              "tags": ["parliament", "bill", "polity"],
+              "basic_overview": "A Private Member's Bill is a bill introduced in Parliament by a member who is not a minister.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Private Members' Bills are distinct from government bills. They can be introduced by MPs subject to parliamentary procedure and rules."
+            },
+            {
+              "id": "gk020",
+              "title": "Lily Thomas Case and Representation of the People Act",
+              "tags": ["lily-thomas", "elections", "supreme-court"],
+              "basic_overview": "The Supreme Court's Lily Thomas judgment in 2013 held that a convicted MP or MLA attracting disqualification under the Representation of the People Act could not continue in office merely because an appeal had been filed.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The case is important for understanding Section 8(4) of the Representation of the People Act, 1951 and the constitutional framework governing legislative disqualification."
+            },
+            {
+              "id": "gk021",
+              "title": "National Biofuel Policy 2018",
+              "tags": ["biofuel", "energy", "policy"],
+              "basic_overview": "The National Policy on Biofuels, 2018 provided a policy framework for promoting biofuels and reducing dependence on conventional fossil fuels.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The policy classified biofuels into categories and promoted ethanol blending, biodiesel and advanced biofuels. It was subsequently amended in 2022."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-committees-policies",
+      "title": "Committees, Policies & Governance",
+      "filters": [
+        { "label": "Committees", "tag": "committees" },
+        { "label": "Policies", "tag": "policies" },
+        { "label": "Governance", "tag": "governance" },
+        { "label": "Reforms", "tag": "reforms" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-policy-01",
+          "topic_title": "Important Committees & Governance Concepts",
+          "notes_list": [
+            {
+              "id": "gk022",
+              "title": "Basawan Committee",
+              "tags": ["basawan-committee", "civil-services", "governance"],
+              "basic_overview": "The Baswan Committee was constituted to examine issues concerning the Civil Services Examination and related aspects of recruitment and civil-service reform.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The committee is frequently mentioned in discussions on UPSC examination reform, recruitment and civil-service structure."
+            },
+            {
+              "id": "gk023",
+              "title": "Shanta Kumar Committee",
+              "tags": ["shanta-kumar", "food-security", "agriculture"],
+              "basic_overview": "The Shanta Kumar Committee was constituted to examine the restructuring of the Food Corporation of India and related issues in food management.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Its recommendations covered procurement, storage, distribution, food subsidy and reforms involving FCI."
+            },
+            {
+              "id": "gk024",
+              "title": "Tax Administrative Reform Commission",
+              "tags": ["tax", "tarc", "reforms"],
+              "basic_overview": "The Tax Administration Reform Commission was established to review India's tax-administration system and recommend measures to improve efficiency, taxpayer services and administration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The commission is commonly associated with reforms in tax administration, simplification, technology use and taxpayer-centric services."
+            },
+            {
+              "id": "gk025",
+              "title": "National Data Quality Forum",
+              "tags": ["data", "statistics", "governance"],
+              "basic_overview": "The National Data Quality Forum is associated with efforts to improve the quality, comparability and use of health and development data in India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Data-quality initiatives focus on dimensions such as accuracy, completeness, consistency, timeliness and reliability."
+            },
+            {
+              "id": "gk026",
+              "title": "Public Accounts Committee",
+              "tags": ["pac", "parliament", "finance"],
+              "basic_overview": "The Public Accounts Committee is a parliamentary financial committee that examines government expenditure and the reports of the Comptroller and Auditor General.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The committee is a key instrument of legislative financial oversight. Its reports help Parliament examine whether public money was spent according to authorization and applicable rules."
+            },
+            {
+              "id": "gk027",
+              "title": "GST Council",
+              "tags": ["gst", "gst-council", "tax"],
+              "basic_overview": "The GST Council is a constitutional body under Article 279A that makes recommendations on important matters relating to the Goods and Services Tax.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The Union Finance Minister is the Chairperson. State finance or taxation ministers participate as members according to the constitutional framework."
+            },
+            {
+              "id": "gk028",
+              "title": "Inter-State Council",
+              "tags": ["inter-state-council", "federalism", "polity"],
+              "basic_overview": "The Inter-State Council is a constitutional mechanism under Article 263 for promoting coordination and discussion between the Union and States and among States.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "It is associated with cooperative federalism and can discuss subjects of common interest and disputes between governments."
+            },
+            {
+              "id": "gk029",
+              "title": "Central Information Commission",
+              "tags": ["cic", "rti", "governance"],
+              "basic_overview": "The Central Information Commission is the apex statutory body at the central level for hearing appeals and complaints under the Right to Information framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The CIC was established under the Right to Information Act, 2005. State Information Commissions perform the corresponding role at the state level."
+            },
+            {
+              "id": "gk030",
+              "title": "Central Vigilance Commission",
+              "tags": ["cvc", "vigilance", "governance"],
+              "basic_overview": "The Central Vigilance Commission is a statutory body concerned with vigilance administration and anti-corruption oversight in specified central government organisations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The CVC received statutory status under the Central Vigilance Commission Act, 2003."
+            },
+            {
+              "id": "gk031",
+              "title": "NIA, NHRC, UN and CBI",
+              "tags": ["nia", "nhrc", "un", "cbi"],
+              "basic_overview": "NIA, NHRC, UN and CBI are separate institutions with distinct mandates: national investigation of specified scheduled offences, human-rights protection, international intergovernmental cooperation, and investigation of specified criminal and corruption cases respectively.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Exam questions often ask whether an institution is constitutional, statutory, executive or international, and what its core jurisdiction is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-science-space",
+      "title": "Science, Space, Technology & Innovation",
+      "filters": [
+        { "label": "Space", "tag": "space" },
+        { "label": "Science", "tag": "science" },
+        { "label": "Technology", "tag": "technology" },
+        { "label": "Innovation", "tag": "innovation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-science-01",
+          "topic_title": "Space Missions & Technologies",
+          "notes_list": [
+            {
+              "id": "gk032",
+              "title": "XPoSat",
+              "tags": ["xposat", "isro", "space"],
+              "basic_overview": "XPoSat is India's X-ray Polarimeter Satellite, developed to study the polarization of X-rays from astronomical sources.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "XPoSat carries scientific payloads designed for X-ray polarimetry and spectroscopy. It was launched by ISRO in 2024."
+            },
+            {
+              "id": "gk033",
+              "title": "Gaganyaan and Vyommitra",
+              "tags": ["gaganyaan", "vyommitra", "isro"],
+              "basic_overview": "Vyommitra is a humanoid-like robotic platform developed for India's human-spaceflight programme to support tests before crewed missions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The name Vyommitra combines the Sanskrit-derived words for space and friend. The robotic platform is designed to interact with systems and simulate selected crew-related functions."
+            },
+            {
+              "id": "gk034",
+              "title": "Cartosat-3",
+              "tags": ["cartosat-3", "earth-observation", "isro"],
+              "basic_overview": "Cartosat-3 is a high-resolution Earth-observation satellite of ISRO designed for applications including mapping and urban and infrastructure planning.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Cartosat series is part of India's Earth-observation satellite programme. High-resolution imagery supports civilian and strategic applications."
+            },
+            {
+              "id": "gk035",
+              "title": "Tiangong-2",
+              "tags": ["tiangong", "china", "space"],
+              "basic_overview": "Tiangong-2 was China's second space laboratory and served as a platform for crewed and scientific experiments before being deorbited in 2019.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tiangong-2 was launched in 2016 and was part of China's development of technologies leading toward a larger modular space-station programme."
+            },
+            {
+              "id": "gk036",
+              "title": "PARAM Supercomputers",
+              "tags": ["param", "supercomputer", "technology"],
+              "basic_overview": "PARAM is a family of Indian supercomputers developed through the Centre for Development of Advanced Computing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "PARAM systems represent India's indigenous high-performance-computing development. Later systems such as PARAM Siddhi-AI were associated with AI and high-performance computing applications."
+            },
+            {
+              "id": "gk037",
+              "title": "United States Space Force",
+              "tags": ["space-force", "usa", "defence"],
+              "basic_overview": "The United States Space Force is a military service responsible for organising and conducting designated space operations and capabilities for the United States.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "It was established in 2019 and operates within the Department of the Air Force."
+            },
+            {
+              "id": "gk038",
+              "title": "D2M Technology",
+              "tags": ["d2m", "broadcasting", "technology"],
+              "basic_overview": "Direct-to-Mobile technology refers to broadcasting compatible content directly to mobile devices using terrestrial broadcasting infrastructure rather than relying entirely on cellular data networks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Potential applications include mobile television, emergency alerts and content delivery. It has been discussed in India in the context of convergence between broadcasting and mobile devices."
+            },
+            {
+              "id": "gk039",
+              "title": "GAGAN, NavIC, IRNSS and GNSS",
+              "tags": ["gagan", "navic", "irnss", "gnss"],
+              "basic_overview": "GNSS is the broad category of global satellite-navigation systems. NavIC is India's regional navigation satellite system, while IRNSS was the earlier name associated with the NavIC constellation. GAGAN is an augmentation system designed to improve satellite-navigation accuracy for aviation over its service region.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "GPS is the United States' GNSS, GLONASS is Russia's, Galileo is the European Union's and BeiDou is China's. NavIC is operated by ISRO with the Indian regional service concept."
+            },
+            {
+              "id": "gk040",
+              "title": "Liquid Mirror Telescope",
+              "tags": ["liquid-mirror", "astronomy", "telescope"],
+              "basic_overview": "A liquid mirror telescope uses a rotating reflective liquid surface, commonly a liquid metal, to form a parabolic mirror suitable for astronomical observations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The rotation creates the required curved surface. Such telescopes are generally suited to zenith-focused surveys because the mirror remains fixed relative to the rotating Earth."
+            },
+            {
+              "id": "gk041",
+              "title": "Diffractive Solar Sail",
+              "tags": ["solar-sail", "space", "propulsion"],
+              "basic_overview": "A diffractive solar sail uses the momentum of sunlight and diffraction effects to generate propulsion without conventional propellant.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Unlike conventional reflective solar sails, diffractive sails can manipulate the direction of photon momentum through specially structured optical surfaces."
+            },
+            {
+              "id": "gk042",
+              "title": "HAPS",
+              "tags": ["haps", "aviation", "technology"],
+              "basic_overview": "High-Altitude Platform Systems are aircraft, airships or similar platforms designed to operate for extended periods in the stratosphere and provide communication, surveillance or Earth-observation services.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "HAPS can potentially complement satellites and terrestrial networks because they operate at much lower altitude than satellites while covering large areas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-space-missions-comparison",
+      "title": "Major Space Missions & Comparative Facts",
+      "filters": [
+        { "label": "ISRO", "tag": "isro" },
+        { "label": "Lunar Missions", "tag": "lunar" },
+        { "label": "Space Missions", "tag": "space-missions" },
+        { "label": "Comparison", "tag": "comparison" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-space-compare-01",
+          "topic_title": "Chandrayaan-3, VIPER and Beresheet",
+          "notes_list": [
+            {
+              "id": "gk043",
+              "title": "Chandrayaan-3",
+              "tags": ["chandrayaan-3", "moon", "isro"],
+              "basic_overview": "Chandrayaan-3 was India's lunar landing mission that successfully achieved a soft landing near the lunar south polar region in August 2023.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The mission included the Vikram lander and Pragyan rover. It followed Chandrayaan-2 and demonstrated India's controlled lunar landing capability."
+            },
+            {
+              "id": "gk044",
+              "title": "NASA VIPER",
+              "tags": ["viper", "nasa", "moon"],
+              "basic_overview": "VIPER stands for Volatiles Investigating Polar Exploration Rover, a NASA programme designed to investigate lunar polar resources, especially water ice.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "VIPER's mission planning has undergone changes over time. Its scientific objective centres on understanding the distribution and accessibility of lunar volatiles."
+            },
+            {
+              "id": "gk045",
+              "title": "Beresheet",
+              "tags": ["beresheet", "israel", "moon"],
+              "basic_overview": "Beresheet was a privately developed Israeli lunar lander launched in 2019 that attempted a controlled landing on the Moon.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The spacecraft reached lunar orbit but was not able to complete a successful soft landing. The mission was significant in the development of private lunar exploration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-economy-finance",
+      "title": "Economy, Banking, Taxation & Finance",
+      "filters": [
+        { "label": "Economy", "tag": "economy" },
+        { "label": "Banking", "tag": "banking" },
+        { "label": "Inflation", "tag": "inflation" },
+        { "label": "Finance", "tag": "finance" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-economy-01",
+          "topic_title": "Important Economic Concepts",
+          "notes_list": [
+            {
+              "id": "gk046",
+              "title": "OPEC and Oil Prices",
+              "tags": ["opec", "oil", "economy"],
+              "basic_overview": "OPEC is an intergovernmental organisation of oil-exporting countries that coordinates petroleum policies among its members.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Oil prices are influenced by many factors including supply, demand, inventories, geopolitical developments, production decisions and expectations. OPEC decisions are one factor among several."
+            },
+            {
+              "id": "gk047",
+              "title": "Retail and Wholesale Inflation",
+              "tags": ["inflation", "cpi", "wpi"],
+              "basic_overview": "Retail inflation in India is commonly measured through the Consumer Price Index, while wholesale price inflation is measured through the Wholesale Price Index.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "CPI reflects price changes faced by consumers and is the main inflation measure used for India's monetary-policy inflation target. WPI tracks wholesale price movements across major commodity groups."
+            },
+            {
+              "id": "gk048",
+              "title": "Statutory Liquidity Ratio",
+              "tags": ["slr", "rbi", "banking"],
+              "basic_overview": "Statutory Liquidity Ratio is the proportion of a bank's net demand and time liabilities that must be maintained in specified liquid assets as required by regulation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "SLR is one of the monetary and prudential tools associated with banking-system liquidity and safety. The Reserve Bank of India regulates the applicable framework."
+            },
+            {
+              "id": "gk049",
+              "title": "Corporate Bond Market",
+              "tags": ["corporate-bonds", "finance"],
+              "basic_overview": "The corporate bond market enables companies and other eligible issuers to raise debt capital from investors.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Corporate bonds differ from government securities because they carry issuer-specific credit risk. Market development involves liquidity, transparency, disclosure and investor participation."
+            },
+            {
+              "id": "gk050",
+              "title": "GDP-Linked Bond",
+              "tags": ["gdp", "bond", "finance"],
+              "basic_overview": "A GDP-linked bond is a debt instrument whose payments are linked in some way to the issuer country's economic performance, commonly through GDP growth.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The concept can reduce debt-service pressure during weak economic periods while increasing payments when economic performance is stronger. It is different from a conventional fixed-coupon bond."
+            },
+            {
+              "id": "gk051",
+              "title": "Inheritance Tax",
+              "tags": ["inheritance-tax", "taxation"],
+              "basic_overview": "Inheritance tax is a tax imposed in some jurisdictions on the transfer of assets or wealth after a person's death.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "India does not currently levy a general inheritance tax comparable to the inheritance or estate taxes existing in some other countries. Capital-gains and other tax rules can still apply to transferred assets in specified circumstances."
+            },
+            {
+              "id": "gk052",
+              "title": "Financial Inclusion",
+              "tags": ["financial-inclusion", "banking"],
+              "basic_overview": "Financial inclusion means ensuring affordable and useful access to financial services such as accounts, payments, credit, insurance and savings for individuals and businesses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "India's financial-inclusion ecosystem includes Jan Dhan accounts, Aadhaar-enabled services, mobile payments, digital public infrastructure and targeted credit schemes."
+            },
+            {
+              "id": "gk053",
+              "title": "Modern Monetary Theory",
+              "tags": ["mmt", "monetary-policy", "economics"],
+              "basic_overview": "Modern Monetary Theory is a school of economic thought that places emphasis on the monetary sovereignty of governments that issue their own currency and argues that fiscal capacity is constrained differently from that of currency users.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "MMT is debated among economists. Common discussion points include fiscal deficits, inflation constraints, monetary sovereignty and the role of taxation."
+            },
+            {
+              "id": "gk054",
+              "title": "Inheritance Tax vs Estate Tax",
+              "tags": ["inheritance", "estate-tax", "tax"],
+              "basic_overview": "Inheritance tax is generally imposed on beneficiaries receiving inherited assets, whereas an estate tax is imposed on the estate before distribution to heirs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The terminology and tax design vary across countries. These concepts should not be automatically applied to India's current tax system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-geography-environment",
+      "title": "Geography, Environment & Climate",
+      "filters": [
+        { "label": "Geography", "tag": "geography" },
+        { "label": "Environment", "tag": "environment" },
+        { "label": "Climate", "tag": "climate" },
+        { "label": "Ecology", "tag": "ecology" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-geo-01",
+          "topic_title": "Climate & Atmospheric Phenomena",
+          "notes_list": [
+            {
+              "id": "gk055",
+              "title": "Jet Stream and Its Types",
+              "tags": ["jet-stream", "atmosphere", "climate"],
+              "basic_overview": "Jet streams are narrow bands of strong winds in the upper atmosphere. Major types include polar-front and subtropical jet streams, with additional jet structures in specific regions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Jet streams influence weather systems, aviation and the Indian monsoon. The subtropical westerly jet and tropical easterly jet are particularly important in Indian climatology."
+            },
+            {
+              "id": "gk056",
+              "title": "Front and Temperate Cyclone",
+              "tags": ["front", "temperate-cyclone", "weather"],
+              "basic_overview": "A front is a boundary between air masses with different characteristics. Temperate or mid-latitude cyclones commonly develop along frontal zones in the extratropics.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Warm fronts, cold fronts, stationary fronts and occluded fronts are major front types. Mid-latitude cyclones are associated with pressure gradients, upper-level dynamics and frontal systems."
+            },
+            {
+              "id": "gk057",
+              "title": "Atmospheric River",
+              "tags": ["atmospheric-river", "climate"],
+              "basic_overview": "An atmospheric river is a long, narrow corridor in the atmosphere that transports large amounts of water vapour and can produce intense precipitation when it reaches land.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Atmospheric rivers can contribute to beneficial rainfall or snow but may also produce flooding and landslides when moisture transport is exceptionally strong."
+            },
+            {
+              "id": "gk058",
+              "title": "Bomb Cyclone",
+              "tags": ["bomb-cyclone", "weather"],
+              "basic_overview": "A bomb cyclone is a rapidly intensifying extratropical cyclone, commonly defined using a threshold of pressure fall adjusted for latitude over a 24-hour period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The phenomenon is associated with rapid cyclogenesis and can produce strong winds, heavy precipitation and hazardous conditions."
+            },
+            {
+              "id": "gk059",
+              "title": "Pressure Belts of Earth",
+              "tags": ["pressure-belts", "geography"],
+              "basic_overview": "The major planetary pressure belts include the equatorial low-pressure belt, subtropical high-pressure belts, subpolar low-pressure belts and polar high-pressure belts.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "These belts are linked to global atmospheric circulation, differential heating and Earth's rotation. Their seasonal migration affects monsoon and wind patterns."
+            },
+            {
+              "id": "gk060",
+              "title": "Wet-Bulb Temperature",
+              "tags": ["wet-bulb", "climate", "heat"],
+              "basic_overview": "Wet-bulb temperature combines the effects of air temperature and humidity and is useful for assessing the human body's ability to lose heat through evaporation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "High wet-bulb conditions can create severe heat stress because evaporation of sweat becomes less effective as atmospheric moisture rises."
+            },
+            {
+              "id": "gk061",
+              "title": "Western Disturbances",
+              "tags": ["western-disturbance", "india", "climate"],
+              "basic_overview": "Western disturbances are weather systems originating in the Mediterranean-West Asian region that move eastward and can bring winter precipitation to northwestern India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "They are important for winter rainfall and snowfall in northwestern India and contribute to conditions affecting rabi crops."
+            },
+            {
+              "id": "gk062",
+              "title": "Onset of Indian Monsoon",
+              "tags": ["monsoon", "india", "climate"],
+              "basic_overview": "The Indian southwest monsoon normally advances into Kerala around the beginning of June, followed by progression across different parts of India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The onset is determined using meteorological criteria involving rainfall, wind and outgoing longwave radiation rather than a single rainfall event."
+            },
+            {
+              "id": "gk063",
+              "title": "Types of Climate in India",
+              "tags": ["india", "climate", "geography"],
+              "basic_overview": "India exhibits substantial climatic diversity because of latitude, altitude, relief, distance from the sea and monsoon circulation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Indian climate classifications can be presented through different systems, including the Köppen classification and classifications based on Indian meteorological regions."
+            },
+            {
+              "id": "gk064",
+              "title": "Carbon Sink",
+              "tags": ["carbon-sink", "environment", "climate"],
+              "basic_overview": "A carbon sink is a natural or managed system that absorbs more carbon dioxide or carbon than it releases over a defined period.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Forests, soils, oceans and certain ecosystems can function as carbon sinks. Sink capacity can change because of land-use change, warming, disturbance and management."
+            },
+            {
+              "id": "gk065",
+              "title": "Blue Carbon",
+              "tags": ["blue-carbon", "mangrove", "marine"],
+              "basic_overview": "Blue carbon refers to carbon captured and stored by coastal and marine ecosystems such as mangroves, salt marshes and seagrass meadows.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "These ecosystems can store substantial carbon in biomass and especially in sediments. Their conservation has climate and biodiversity benefits."
+            },
+            {
+              "id": "gk066",
+              "title": "Yellow Rust",
+              "tags": ["yellow-rust", "agriculture", "disease"],
+              "basic_overview": "Yellow rust, also called stripe rust, is a fungal disease that affects wheat and some other cereal crops and can reduce yield under favourable conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The disease is caused by Puccinia striiformis f. sp. tritici in wheat. Cool and humid conditions can favour disease development."
+            },
+            {
+              "id": "gk067",
+              "title": "Lumpy Skin Disease",
+              "tags": ["lumpy-skin-disease", "livestock", "virus"],
+              "basic_overview": "Lumpy skin disease is a viral disease primarily affecting cattle and is associated with fever, skin nodules and production losses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The disease is caused by lumpy skin disease virus, a capripoxvirus. It is mainly spread mechanically by blood-feeding insects."
+            },
+            {
+              "id": "gk068",
+              "title": "Permafrost Peatland",
+              "tags": ["permafrost", "peatland", "climate"],
+              "basic_overview": "Permafrost peatlands contain permanently or seasonally frozen organic-rich soils that can store large amounts of carbon.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Warming and thawing can alter hydrology and microbial decomposition, potentially changing greenhouse-gas emissions."
+            },
+            {
+              "id": "gk069",
+              "title": "Ring of Fire",
+              "tags": ["ring-of-fire", "earthquake", "volcano"],
+              "basic_overview": "The Pacific Ring of Fire is a zone surrounding much of the Pacific Ocean characterised by intense tectonic activity, including earthquakes and volcanoes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Much of the activity is associated with plate boundaries and subduction zones around the Pacific."
+            },
+            {
+              "id": "gk070",
+              "title": "Difference Between Area and Azimuth",
+              "tags": ["azimuth", "geography", "navigation"],
+              "basic_overview": "Azimuth is an angular measurement describing the direction of a line or bearing, usually measured clockwise from a reference direction such as north.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Azimuth is an angle, not an area. In surveying and navigation it is commonly expressed from 0° to 360°."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-environment-projects",
+      "title": "Environmental Projects, Conservation & Biodiversity",
+      "filters": [
+        { "label": "Environment", "tag": "environment" },
+        { "label": "Projects", "tag": "projects" },
+        { "label": "Biodiversity", "tag": "biodiversity" },
+        { "label": "Conservation", "tag": "conservation" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-env-01",
+          "topic_title": "Important Environmental Initiatives",
+          "notes_list": [
+            {
+              "id": "gk071",
+              "title": "Pulse Polio Programme",
+              "tags": ["pulse-polio", "health", "public-programme"],
+              "basic_overview": "The Pulse Polio Programme was launched in India to provide oral polio vaccine to children and interrupt transmission of poliovirus.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "India was certified polio-free in 2014 along with the WHO South-East Asia Region, after sustained vaccination and surveillance efforts."
+            },
+            {
+              "id": "gk072",
+              "title": "TrueNat TB Test",
+              "tags": ["truenat", "tb", "diagnostics"],
+              "basic_overview": "TrueNat is a portable molecular diagnostic platform that can be used for detection of tuberculosis and other infectious diseases through nucleic-acid amplification methods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "TrueNat systems can support decentralised testing because of their relatively compact format and molecular diagnostic capability."
+            },
+            {
+              "id": "gk073",
+              "title": "One Health Concept",
+              "tags": ["one-health", "public-health", "environment"],
+              "basic_overview": "One Health is an integrated approach recognising that human health, animal health and ecosystem health are interconnected.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The approach is especially important for zoonotic diseases, antimicrobial resistance, food safety and environmental health."
+            },
+            {
+              "id": "gk074",
+              "title": "Biodiversity Act",
+              "tags": ["biodiversity", "law", "environment"],
+              "basic_overview": "The Biological Diversity Act, 2002 established a framework for conservation of biological diversity, sustainable use of biological resources and fair and equitable benefit sharing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The National Biodiversity Authority operates within the statutory framework. The law has been amended, including significant changes through the Biological Diversity (Amendment) Act, 2023."
+            },
+            {
+              "id": "gk075",
+              "title": "Carbon Pricing",
+              "tags": ["carbon-pricing", "climate", "economy"],
+              "basic_overview": "Carbon pricing assigns an economic cost to greenhouse-gas emissions, commonly through a carbon tax or an emissions trading system.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The objective is to create an economic signal encouraging lower emissions. The design of carbon-pricing systems differs across jurisdictions."
+            },
+            {
+              "id": "gk076",
+              "title": "Magical Mangroves",
+              "tags": ["mangrove", "conservation", "blue-carbon"],
+              "basic_overview": "Magical Mangroves is a citizen-oriented conservation initiative associated with awareness and restoration of mangrove ecosystems in India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Mangroves provide coastal protection, biodiversity habitat, fisheries support and blue-carbon storage."
+            },
+            {
+              "id": "gk077",
+              "title": "Hasdeo Forest",
+              "tags": ["hasdeo", "forest", "environment"],
+              "basic_overview": "The Hasdeo Arand landscape in Chhattisgarh is an ecologically important forest region that has been the subject of debates involving coal mining, forest conservation and local communities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Questions on Hasdeo often connect forests, biodiversity, tribal livelihoods, mining permissions and environmental governance."
+            },
+            {
+              "id": "gk078",
+              "title": "Deocha Pachami",
+              "tags": ["deocha-pachami", "coal", "west-bengal"],
+              "basic_overview": "Deocha Pachami is associated with a large coal-mining project in Birbhum district of West Bengal and has been discussed in the context of energy, land acquisition and environmental concerns.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The topic is relevant for understanding the tension between resource development, local livelihoods, environmental assessment and energy requirements."
+            },
+            {
+              "id": "gk079",
+              "title": "Zero Budget Natural Farming",
+              "tags": ["zbnf", "agriculture", "natural-farming"],
+              "basic_overview": "Zero Budget Natural Farming is an approach to agriculture that emphasises locally available biological inputs and reduced dependence on purchased synthetic inputs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The term has been associated particularly with farmer-led natural-farming practices in India. The approach is distinct from conventional chemical-intensive farming."
+            },
+            {
+              "id": "gk080",
+              "title": "National Mission for Edible Oils and Oil Palm",
+              "tags": ["oil-palm", "agriculture", "mission"],
+              "basic_overview": "India has promoted domestic oil-palm cultivation and edible-oil production through national programmes aimed at reducing dependence on edible-oil imports.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The National Mission on Edible Oils – Oil Palm was launched to increase domestic oil-palm cultivation while addressing productivity and value-chain development."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-health-biology",
+      "title": "Health, Biology & Medical GK",
+      "filters": [
+        { "label": "Biology", "tag": "biology" },
+        { "label": "Health", "tag": "health" },
+        { "label": "Disease", "tag": "disease" },
+        { "label": "Medical GK", "tag": "medical" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-health-01",
+          "topic_title": "Diseases, Diagnostics & Health Concepts",
+          "notes_list": [
+            {
+              "id": "gk081",
+              "title": "Doxycycline and Leptospirosis",
+              "tags": ["doxycycline", "leptospirosis", "medicine"],
+              "basic_overview": "Doxycycline is an antibiotic that can be used for treatment of leptospirosis and, in selected high-risk circumstances, has been used for prophylaxis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Leptospirosis is caused by Leptospira bacteria and is commonly associated with exposure to water or soil contaminated with infected animal urine. Preventive antibiotic use depends on clinical and public-health guidance."
+            },
+            {
+              "id": "gk082",
+              "title": "Parvovirus",
+              "tags": ["parvovirus", "virus", "biology"],
+              "basic_overview": "Parvoviruses are small, non-enveloped DNA viruses. Different parvoviruses infect different animal hosts, while human parvovirus B19 is associated with several clinical conditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Parvovirus B19 is particularly associated with erythema infectiosum and can cause transient aplastic crises in susceptible individuals."
+            },
+            {
+              "id": "gk083",
+              "title": "Lassa Fever",
+              "tags": ["lassa-fever", "viral-disease"],
+              "basic_overview": "Lassa fever is an acute viral haemorrhagic illness caused by Lassa virus and is endemic in parts of West Africa.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The primary reservoir is the multimammate rat. Human-to-human transmission can occur, particularly in healthcare settings without adequate infection-control measures."
+            },
+            {
+              "id": "gk084",
+              "title": "Celiac Disease",
+              "tags": ["celiac", "gluten", "autoimmune"],
+              "basic_overview": "Celiac disease is an immune-mediated disorder triggered by gluten exposure in genetically susceptible individuals and primarily affects the small intestine.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Wheat, barley and rye contain gluten proteins relevant to celiac disease. A strict gluten-free diet is the principal treatment."
+            },
+            {
+              "id": "gk085",
+              "title": "Haemophilia",
+              "tags": ["haemophilia", "blood", "genetics"],
+              "basic_overview": "Haemophilia is an inherited bleeding disorder caused by deficiency or dysfunction of clotting factors, most commonly factor VIII or factor IX.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Haemophilia A involves factor VIII deficiency and haemophilia B involves factor IX deficiency. Severe disease can lead to spontaneous bleeding into joints and muscles."
+            },
+            {
+              "id": "gk086",
+              "title": "ABO Blood Group System",
+              "tags": ["abo", "blood-group", "biology"],
+              "basic_overview": "The ABO blood-group system classifies blood according to the presence or absence of A and B antigens on red blood cells and corresponding antibodies in plasma.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The four major ABO phenotypes are A, B, AB and O. The ABO system is crucial in blood transfusion compatibility."
+            },
+            {
+              "id": "gk087",
+              "title": "Herd Immunity",
+              "tags": ["herd-immunity", "epidemiology"],
+              "basic_overview": "Herd immunity describes indirect protection that occurs when a sufficiently large proportion of a population is immune to an infectious disease, reducing transmission.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The required immune proportion depends on the infectious disease and its transmission characteristics. Vaccination can create population-level protection without requiring widespread natural infection."
+            },
+            {
+              "id": "gk088",
+              "title": "Contact Tracing",
+              "tags": ["contact-tracing", "public-health"],
+              "basic_overview": "Contact tracing is a public-health process used to identify and follow people who may have been exposed to an infectious individual.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Typical steps include case identification, identification of contacts, notification, monitoring and linkage to testing or preventive measures as appropriate."
+            },
+            {
+              "id": "gk089",
+              "title": "Infodemic",
+              "tags": ["infodemic", "public-health", "information"],
+              "basic_overview": "An infodemic is an overabundance of information, including false or misleading information, that can make it difficult for people to find trustworthy guidance during a health emergency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The concept became especially prominent during the COVID-19 pandemic. Infodemic management involves identifying, verifying and communicating reliable information."
+            },
+            {
+              "id": "gk090",
+              "title": "Anabolic Steroids",
+              "tags": ["anabolic-steroids", "biology", "health"],
+              "basic_overview": "Anabolic-androgenic steroids are synthetic derivatives related to testosterone that have anabolic effects and varying androgenic effects.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "They have legitimate medical uses in selected conditions but non-medical misuse can cause significant adverse effects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-defence-security",
+      "title": "Defence, Security & Military GK",
+      "filters": [
+        { "label": "Defence", "tag": "defence" },
+        { "label": "Military", "tag": "military" },
+        { "label": "Security", "tag": "security" },
+        { "label": "Navy", "tag": "navy" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-defence-01",
+          "topic_title": "Indian Defence & Security Topics",
+          "notes_list": [
+            {
+              "id": "gk091",
+              "title": "Scorpene Class Submarine",
+              "tags": ["scorpene", "submarine", "navy"],
+              "basic_overview": "Scorpene-class submarines are conventionally powered attack submarines built for the Indian Navy under the Kalvari-class programme.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The programme involves technology and industrial cooperation between India and France. INS Kalvari is the lead submarine of the Indian Navy's Kalvari class."
+            },
+            {
+              "id": "gk092",
+              "title": "INS Kadamba",
+              "tags": ["ins-kadamba", "navy", "karwar"],
+              "basic_overview": "INS Kadamba is the Indian Navy's major naval base at Karwar in Karnataka and is associated with the Project Seabird naval infrastructure programme.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Karwar provides strategic basing facilities on India's western coast and is being developed in phases under Project Seabird."
+            },
+            {
+              "id": "gk093",
+              "title": "Project 17A",
+              "tags": ["project-17a", "frigate", "navy"],
+              "basic_overview": "Project 17A is the Indian Navy programme for building a class of stealth guided-missile frigates with enhanced indigenous content and modern combat systems.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Nilgiri-class frigates are associated with Project 17A. Ships are being constructed at Mazagon Dock Shipbuilders and Garden Reach Shipbuilders and Engineers."
+            },
+            {
+              "id": "gk094",
+              "title": "INS Nirdeshak",
+              "tags": ["ins-nirdeshak", "navy", "survey-vessel"],
+              "basic_overview": "INS Nirdeshak is a modern Indian Navy survey vessel designed for hydrographic surveying and related maritime tasks.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Hydrographic survey vessels collect information about water depth, seabed features and navigational hazards that support safe navigation and maritime operations."
+            },
+            {
+              "id": "gk095",
+              "title": "ICGS Sarthak",
+              "tags": ["icgs-sarthak", "coast-guard"],
+              "basic_overview": "ICGS Sarthak is an Indian Coast Guard offshore patrol vessel used for maritime surveillance, patrol and related missions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Indian Coast Guard offshore patrol vessels support tasks including coastal security, search and rescue, anti-smuggling operations and maritime law enforcement."
+            },
+            {
+              "id": "gk096",
+              "title": "Tushil Indian Navy",
+              "tags": ["tushil", "navy", "frigate"],
+              "basic_overview": "INS Tushil is an Indian Navy guided-missile frigate of the Krivak-class family built through India-Russia defence cooperation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The ship represents continued India-Russia cooperation in naval platforms and is designed for multi-role maritime operations."
+            },
+            {
+              "id": "gk097",
+              "title": "INDRA and INDICA DNA Chips",
+              "tags": ["dna-chip", "defence", "biotechnology"],
+              "basic_overview": "DNA-chip technologies can analyse genetic markers or sequences on a high-density platform. INDRA and INDICA have been discussed in the context of indigenous genomic or biosurveillance capabilities.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Such technologies can have applications in disease surveillance, biological research and potentially defence-related biosurveillance."
+            },
+            {
+              "id": "gk098",
+              "title": "Hybrid Warfare",
+              "tags": ["hybrid-warfare", "security", "defence"],
+              "basic_overview": "Hybrid warfare refers to the coordinated use of multiple forms of state or non-state power, potentially combining conventional military force with cyber operations, information operations, economic pressure and irregular tactics.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The term is used differently by different analysts. Exam answers should focus on the combination of military and non-military tools rather than treating it as a single fixed doctrine."
+            },
+            {
+              "id": "gk099",
+              "title": "WARDEC",
+              "tags": ["wardec", "army", "technology"],
+              "basic_overview": "WARDEC is associated with a war-gaming and decision-support environment intended to support military training, simulation and operational analysis.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "War-gaming systems can model operational scenarios and help users evaluate decisions under simulated conditions."
+            },
+            {
+              "id": "gk100",
+              "title": "Cyber AASHVAST",
+              "tags": ["cyber-security", "aashvast", "police"],
+              "basic_overview": "Cyber AASHVAST is associated with cybersecurity and cyber-crime awareness or response initiatives in India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Cybersecurity initiatives typically focus on prevention, awareness, investigation, digital evidence and coordinated response to cyber incidents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-international-relations",
+      "title": "International Organisations, Agreements & Global Affairs",
+      "filters": [
+        { "label": "International Relations", "tag": "international-relations" },
+        { "label": "Organisations", "tag": "organisations" },
+        { "label": "Agreements", "tag": "agreements" },
+        { "label": "Global Affairs", "tag": "global" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-ir-01",
+          "topic_title": "International Agreements & Organisations",
+          "notes_list": [
+            {
+              "id": "gk101",
+              "title": "RCEP and CPTPP",
+              "tags": ["rcep", "cptpp", "trade"],
+              "basic_overview": "RCEP and CPTPP are major Asia-Pacific trade agreements. RCEP is the Regional Comprehensive Economic Partnership, while CPTPP is the Comprehensive and Progressive Agreement for Trans-Pacific Partnership.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "India participated in RCEP negotiations but did not join the final agreement. CPTPP evolved from the earlier TPP after the United States withdrew from the TPP process."
+            },
+            {
+              "id": "gk102",
+              "title": "India-EFTA Trade Agreement",
+              "tags": ["india", "efta", "trade"],
+              "basic_overview": "India and the European Free Trade Association signed a Trade and Economic Partnership Agreement in 2024.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "EFTA consists of Iceland, Liechtenstein, Norway and Switzerland. The agreement covers trade and economic cooperation and includes investment-related commitments."
+            },
+            {
+              "id": "gk103",
+              "title": "India-UAE CEPA",
+              "tags": ["india-uae", "cepa", "trade"],
+              "basic_overview": "The India-UAE Comprehensive Economic Partnership Agreement is a trade agreement between India and the United Arab Emirates that entered into force in 2022.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The agreement covers trade in goods and services and aims to improve market access and economic cooperation between the two countries."
+            },
+            {
+              "id": "gk104",
+              "title": "BIMSTEC Charter",
+              "tags": ["bimstec", "charter", "international"],
+              "basic_overview": "The BIMSTEC Charter provides the institutional and legal framework for the Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "BIMSTEC connects countries around the Bay of Bengal and spans areas including connectivity, security, trade, technology, environment and public health."
+            },
+            {
+              "id": "gk105",
+              "title": "Blue Dot Network",
+              "tags": ["blue-dot-network", "infrastructure", "international"],
+              "basic_overview": "The Blue Dot Network is an initiative intended to promote quality, transparent and sustainable infrastructure development through common standards and certification.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The initiative was originally associated with the United States, Japan and Australia and focuses on infrastructure quality and transparency."
+            },
+            {
+              "id": "gk106",
+              "title": "OSCE",
+              "tags": ["osce", "europe", "security"],
+              "basic_overview": "The Organization for Security and Co-operation in Europe is a regional security organisation focused on issues including conflict prevention, security, human rights and democratic institutions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The OSCE developed from the Conference on Security and Co-operation in Europe process and operates across the wider European and Eurasian region."
+            },
+            {
+              "id": "gk107",
+              "title": "USCIRF",
+              "tags": ["uscirf", "religious-freedom", "usa"],
+              "basic_overview": "The United States Commission on International Religious Freedom is an independent U.S. federal commission that monitors religious-freedom conditions worldwide.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "USCIRF publishes annual reports and recommendations concerning international religious freedom. Its assessments are the views of the commission and should be distinguished from those of other governments or international bodies."
+            },
+            {
+              "id": "gk108",
+              "title": "Five Eyes",
+              "tags": ["five-eyes", "intelligence", "international"],
+              "basic_overview": "Five Eyes is an intelligence-sharing partnership involving Australia, Canada, New Zealand, the United Kingdom and the United States.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The partnership has roots in post-World War II intelligence cooperation and focuses heavily on signals intelligence and information sharing."
+            },
+            {
+              "id": "gk109",
+              "title": "Normandy Format",
+              "tags": ["normandy-format", "europe", "diplomacy"],
+              "basic_overview": "The Normandy Format was a diplomatic grouping involving Ukraine, Russia, Germany and France created to support efforts toward resolving the conflict in eastern Ukraine.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "It was associated with negotiations around the Minsk agreements and broader diplomatic efforts concerning the Donbas conflict."
+            },
+            {
+              "id": "gk110",
+              "title": "TAPI Gas Pipeline",
+              "tags": ["tapi", "gas-pipeline", "central-asia"],
+              "basic_overview": "TAPI stands for Turkmenistan-Afghanistan-Pakistan-India gas pipeline, a proposed regional energy corridor intended to transport natural gas from Turkmenistan toward South Asia.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The project has major geopolitical and energy-security significance but has faced implementation and security challenges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-indian-geography-projects",
+      "title": "Indian Geography, Infrastructure & Development Projects",
+      "filters": [
+        { "label": "India", "tag": "india" },
+        { "label": "Infrastructure", "tag": "infrastructure" },
+        { "label": "Projects", "tag": "projects" },
+        { "label": "Geography", "tag": "geography" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-india-project-01",
+          "topic_title": "Major Indian Projects & Places",
+          "notes_list": [
+            {
+              "id": "gk111",
+              "title": "Eastern-Western Corridor",
+              "tags": ["corridor", "highways", "infrastructure"],
+              "basic_overview": "The East-West and North-South highway corridors form major components of India's national highway development efforts aimed at improving long-distance connectivity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Golden Quadrilateral and North-South/East-West corridors are important milestones in India's highway infrastructure development."
+            },
+            {
+              "id": "gk112",
+              "title": "East Coast Economic Corridor",
+              "tags": ["economic-corridor", "east-coast", "infrastructure"],
+              "basic_overview": "The East Coast Economic Corridor is a proposed and developing industrial-economic corridor along India's eastern coast, intended to improve connectivity and support manufacturing and trade.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The corridor is associated with ports, industrial clusters, logistics and improved road connectivity along the eastern seaboard."
+            },
+            {
+              "id": "gk113",
+              "title": "Dholera Special Investment Region",
+              "tags": ["dholera", "smart-city", "gujarat"],
+              "basic_overview": "Dholera Special Investment Region is a major planned industrial and urban development region in Gujarat associated with the Delhi-Mumbai Industrial Corridor.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Dholera is planned with industrial infrastructure, utilities, transport connectivity and large-scale manufacturing and investment facilities."
+            },
+            {
+              "id": "gk114",
+              "title": "Ujh Multipurpose Project",
+              "tags": ["ujh", "water-project", "jammu-kashmir"],
+              "basic_overview": "The Ujh Multipurpose Project is a proposed water-resources project in Jammu and Kashmir involving irrigation, hydropower and water-use objectives.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The project is associated with the Ujh River, a tributary of the Ravi, and has been discussed in the context of water-resource development."
+            },
+            {
+              "id": "gk115",
+              "title": "Jaga Mission",
+              "tags": ["jaga-mission", "odisha", "housing"],
+              "basic_overview": "Jaga Mission is an Odisha government initiative associated with land rights and upgrading living conditions in urban slums.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The programme has been recognised internationally for its approach to securing land rights and improving urban settlements."
+            },
+            {
+              "id": "gk116",
+              "title": "Kashi Vishwanath Corridor",
+              "tags": ["kashi-vishwanath", "varanasi", "infrastructure"],
+              "basic_overview": "The Kashi Vishwanath Corridor is a major redevelopment project connecting the Kashi Vishwanath Temple area with the Ganga riverfront in Varanasi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The project involved redevelopment of surrounding infrastructure, pedestrian facilities and public spaces around the temple precinct."
+            },
+            {
+              "id": "gk117",
+              "title": "One District One Product",
+              "tags": ["odop", "district", "economy"],
+              "basic_overview": "One District One Product is a government initiative aimed at identifying, promoting and developing a distinctive product associated with each district.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The programme supports local production, value addition, branding, market access, skills and entrepreneurship."
+            },
+            {
+              "id": "gk118",
+              "title": "Kisan Credit Card",
+              "tags": ["kcc", "agriculture", "credit"],
+              "basic_overview": "The Kisan Credit Card scheme provides institutional credit access to farmers for agricultural and related needs.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The scheme was introduced to simplify access to short-term agricultural credit and has subsequently been expanded to cover allied activities in specified contexts."
+            },
+            {
+              "id": "gk119",
+              "title": "Deendayal Port",
+              "tags": ["deendayal-port", "gujarat", "port"],
+              "basic_overview": "Deendayal Port, formerly Kandla Port, is a major port in Gujarat located on the Gulf of Kutch.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "It is one of India's important major ports and handles a wide range of cargo including petroleum products, chemicals and dry bulk commodities."
+            },
+            {
+              "id": "gk120",
+              "title": "National Highway",
+              "tags": ["nh", "roads", "infrastructure"],
+              "basic_overview": "National Highways are major road routes connecting important cities, ports, state capitals and strategic or economic locations across India.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "National Highways are notified by the Central Government and are developed or maintained through agencies such as the National Highways Authority of India."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-agriculture-rural",
+      "title": "Agriculture, Rural Development & Food Systems",
+      "filters": [
+        { "label": "Agriculture", "tag": "agriculture" },
+        { "label": "Rural Development", "tag": "rural-development" },
+        { "label": "Food", "tag": "food" },
+        { "label": "Farming", "tag": "farming" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-agri-01",
+          "topic_title": "Agriculture & Rural GK",
+          "notes_list": [
+            {
+              "id": "gk121",
+              "title": "Madhuban Carrot",
+              "tags": ["madhuban-carrot", "agriculture"],
+              "basic_overview": "Madhuban carrot is a high-yielding carrot variety associated with agricultural development and farmer innovation in Bihar.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The variety has been associated with increased productivity and local agricultural entrepreneurship."
+            },
+            {
+              "id": "gk122",
+              "title": "Sexed Semen",
+              "tags": ["sexed-semen", "dairy", "animal-husbandry"],
+              "basic_overview": "Sexed semen is processed semen enriched for sperm carrying either the X or Y chromosome, allowing breeders to increase the probability of offspring of a desired sex.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "In dairy farming, sexed semen is often used to increase the probability of female calves, although conception rates and costs must be considered."
+            },
+            {
+              "id": "gk123",
+              "title": "Operation Greens",
+              "tags": ["operation-greens", "agriculture", "food-processing"],
+              "basic_overview": "Operation Greens was launched to address price volatility and supply-chain issues affecting major horticultural crops and later expanded in scope.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The programme focuses on value chains, storage, transportation, processing and reducing post-harvest losses."
+            },
+            {
+              "id": "gk124",
+              "title": "Agriculture Orientation Index",
+              "tags": ["agriculture-orientation-index", "sdg", "agriculture"],
+              "basic_overview": "The Agriculture Orientation Index is an indicator associated with Sustainable Development Goal 2 and compares government expenditure on agriculture with the sector's contribution to the economy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "It is used to assess whether public spending priorities reflect the economic importance of agriculture."
+            },
+            {
+              "id": "gk125",
+              "title": "Blue Revolution",
+              "tags": ["blue-revolution", "fisheries"],
+              "basic_overview": "Blue Revolution in India refers broadly to programmes aimed at increasing fish production, fisheries development, aquaculture and related infrastructure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Modern fisheries policy also emphasises sustainable fisheries, cold chains, value addition and livelihoods."
+            },
+            {
+              "id": "gk126",
+              "title": "World Fisheries Day",
+              "tags": ["fisheries", "world-fisheries-day"],
+              "basic_overview": "World Fisheries Day is observed annually on 21 November to highlight the importance of fisheries, aquatic ecosystems and the livelihoods connected with them.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The day is used to raise awareness about sustainable fisheries and the importance of aquatic resources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-polity-constitution",
+      "title": "Indian Polity, Constitution & Important Cases",
+      "filters": [
+        { "label": "Polity", "tag": "polity" },
+        { "label": "Constitution", "tag": "constitution" },
+        { "label": "Supreme Court", "tag": "supreme-court" },
+        { "label": "Legal Cases", "tag": "cases" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-polity-01",
+          "topic_title": "Constitutional Concepts & Judgements",
+          "notes_list": [
+            {
+              "id": "gk127",
+              "title": "Habeas Corpus",
+              "tags": ["habeas-corpus", "writ", "constitution"],
+              "basic_overview": "Habeas corpus is a constitutional writ used to challenge unlawful detention and seek production of the detained person before the court.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The Supreme Court and High Courts can issue writs under Articles 32 and 226 respectively. Habeas corpus primarily protects personal liberty."
+            },
+            {
+              "id": "gk128",
+              "title": "Parliamentary Privileges",
+              "tags": ["parliament", "privileges", "polity"],
+              "basic_overview": "Parliamentary privileges are special rights and immunities available to Parliament, its committees and members so that legislative functions can be performed effectively.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Privileges include freedom of speech in Parliament subject to constitutional and parliamentary rules and protections concerning specified parliamentary proceedings."
+            },
+            {
+              "id": "gk129",
+              "title": "NOTA",
+              "tags": ["nota", "election", "polity"],
+              "basic_overview": "NOTA means None of the Above and allows voters to indicate that they do not wish to choose any of the listed candidates.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The Supreme Court directed the Election Commission to introduce NOTA in 2013. NOTA votes do not by themselves invalidate the election or automatically trigger a fresh poll."
+            },
+            {
+              "id": "gk130",
+              "title": "Constitutionalism vs Constitutionality vs Constitutional Morality",
+              "tags": ["constitutionalism", "constitutionality", "constitutional-morality"],
+              "basic_overview": "Constitutionalism refers to limited government under constitutional principles; constitutionality asks whether an act is consistent with the Constitution; constitutional morality concerns fidelity to constitutional values and democratic principles.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "These terms overlap but are not identical. Competitive-exam questions often test the conceptual difference between a constitutional text, judicial review of constitutionality and broader constitutional values."
+            },
+            {
+              "id": "gk131",
+              "title": "Principles of Natural Justice",
+              "tags": ["natural-justice", "administrative-law"],
+              "basic_overview": "Natural justice consists of fundamental procedural fairness principles, traditionally including the rule against bias and the right to a fair hearing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Common Latin formulations include nemo judex in causa sua and audi alteram partem. Their application depends on the nature of the decision and applicable law."
+            },
+            {
+              "id": "gk132",
+              "title": "Absolute and Strict Liability",
+              "tags": ["tort-law", "liability", "law"],
+              "basic_overview": "Strict liability and absolute liability are doctrines concerning responsibility for harm from hazardous activities, but Indian constitutional tort jurisprudence developed a distinct absolute-liability rule in certain hazardous-industry cases.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The classic Indian case for absolute liability is M.C. Mehta v. Union of India, concerning the Oleum Gas Leak. The Indian rule is stricter than the traditional Rylands v. Fletcher doctrine."
+            },
+            {
+              "id": "gk133",
+              "title": "ADM Jabalpur Case",
+              "tags": ["adm-jabalpur", "emergency", "supreme-court"],
+              "basic_overview": "ADM Jabalpur v. Shivkant Shukla was a 1976 Supreme Court case concerning habeas corpus and personal liberty during the Emergency.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The judgment is now regarded as an important part of India's constitutional-law history. Later Supreme Court jurisprudence, particularly the Puttaswamy judgment, expressly criticised the reasoning associated with ADM Jabalpur."
+            },
+            {
+              "id": "gk134",
+              "title": "K.S. Puttaswamy Judgment",
+              "tags": ["puttaswamy", "privacy", "supreme-court"],
+              "basic_overview": "In Justice K.S. Puttaswamy (Retd.) v. Union of India, a nine-judge Supreme Court bench recognised privacy as a constitutionally protected fundamental right.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The 2017 judgment connected privacy with dignity, liberty and constitutional freedoms and became foundational for subsequent privacy jurisprudence."
+            },
+            {
+              "id": "gk135",
+              "title": "Shah Bano Case",
+              "tags": ["shah-bano", "personal-law", "supreme-court"],
+              "basic_overview": "Mohd. Ahmed Khan v. Shah Bano Begum was a 1985 Supreme Court case concerning maintenance rights of a divorced Muslim woman under Section 125 of the Code of Criminal Procedure.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The judgment became a major constitutional and political issue and was followed by enactment of the Muslim Women (Protection of Rights on Divorce) Act, 1986."
+            },
+            {
+              "id": "gk136",
+              "title": "Aruna Shanbaug Case",
+              "tags": ["aruna-shanbaug", "euthanasia", "supreme-court"],
+              "basic_overview": "Aruna Ramchandra Shanbaug v. Union of India was a landmark 2011 Supreme Court judgment concerning passive euthanasia and withdrawal of life support under specified safeguards.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The judgment distinguished active euthanasia from passive euthanasia and contributed to the development of Indian jurisprudence on end-of-life decisions."
+            },
+            {
+              "id": "gk137",
+              "title": "NALSA v Union of India",
+              "tags": ["nalsa", "transgender-rights", "supreme-court"],
+              "basic_overview": "NALSA v. Union of India, decided in 2014, recognised the constitutional rights of transgender persons and affirmed the right to self-identify gender subject to the judgment's framework.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The judgment relied on constitutional guarantees of equality, dignity and freedom and became a major precedent in Indian transgender-rights jurisprudence."
+            },
+            {
+              "id": "gk138",
+              "title": "Caveat Petition",
+              "tags": ["caveat", "civil-procedure", "law"],
+              "basic_overview": "A caveat is a legal notice requesting that a court not pass an order affecting the caveator without giving the caveator an opportunity to be heard.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The concept is associated with Section 148A of the Code of Civil Procedure, 1908."
+            },
+            {
+              "id": "gk139",
+              "title": "Contingent Contract",
+              "tags": ["contract-law", "contingent-contract"],
+              "basic_overview": "A contingent contract is a contract to do or not to do something if an event collateral to the contract happens or does not happen.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Sections 31 to 36 of the Indian Contract Act, 1872 deal with contingent contracts and related rules."
+            },
+            {
+              "id": "gk140",
+              "title": "Section, Subsection, Clause and Subclause",
+              "tags": ["legal-terminology", "law"],
+              "basic_overview": "Sections are major numbered provisions of legislation; subsections are subdivisions within sections; clauses and subclauses are further structural subdivisions commonly used in statutes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The exact drafting hierarchy varies by legislation, but a provision may commonly be organised as section → subsection → clause → subclause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-society-culture-history",
+      "title": "History, Culture, Society & Personalities",
+      "filters": [
+        { "label": "History", "tag": "history" },
+        { "label": "Culture", "tag": "culture" },
+        { "label": "Personalities", "tag": "personalities" },
+        { "label": "Society", "tag": "society" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-history-01",
+          "topic_title": "Important Historical & Cultural Facts",
+          "notes_list": [
+            {
+              "id": "gk141",
+              "title": "Rani Ahilyabai Holkar",
+              "tags": ["ahilyabai-holkar", "history", "maratha"],
+              "basic_overview": "Ahilyabai Holkar was the 18th-century ruler of the Malwa kingdom and is remembered for administrative work, public infrastructure and temple restoration.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "She ruled from Maheshwar and supported the construction and restoration of temples, wells, roads and other public works in several parts of India."
+            },
+            {
+              "id": "gk142",
+              "title": "Kunjali Marakkars",
+              "tags": ["kunjali-marakkar", "kerala", "history"],
+              "basic_overview": "The Kunjali Marakkars were naval commanders associated with the Zamorin of Calicut who resisted Portuguese expansion on the Malabar Coast.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Marakkars are remembered in Indian maritime history for naval resistance to Portuguese forces during the 16th century."
+            },
+            {
+              "id": "gk143",
+              "title": "Begum Hazrat Mahal",
+              "tags": ["begum-hazrat-mahal", "1857", "history"],
+              "basic_overview": "Begum Hazrat Mahal of Awadh played a prominent role in the uprising of 1857 and resisted British authority in Lucknow.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "She supported the restoration of her son Birjis Qadr as ruler of Awadh and became one of the prominent figures associated with the 1857 uprising."
+            },
+            {
+              "id": "gk144",
+              "title": "Onake Obavva",
+              "tags": ["onake-obavva", "karnataka", "history"],
+              "basic_overview": "Onake Obavva is remembered in Karnataka folklore and history for defending the Chitradurga fort against attacking forces.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The story is associated with her use of a pestle, called an onake in Kannada, to fight intruders entering through a narrow passage."
+            },
+            {
+              "id": "gk145",
+              "title": "Devasahayam Pillai",
+              "tags": ["devasahayam-pillai", "saint", "history"],
+              "basic_overview": "Devasahayam Pillai was an 18th-century Indian Christian figure who was canonised by the Catholic Church in 2022.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "He was born Neelakanda Pillai and is associated with the historical context of the Travancore kingdom."
+            },
+            {
+              "id": "gk146",
+              "title": "Bhima Koregaon",
+              "tags": ["bhima-koregaon", "history", "maharashtra"],
+              "basic_overview": "The Battle of Koregaon took place on 1 January 1818 near Bhima Koregaon in Maharashtra during the Third Anglo-Maratha War.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The event has acquired different historical and social interpretations and is commemorated annually. The Bhima Koregaon Commission of Inquiry examined the violence surrounding the 2018 anniversary event."
+            },
+            {
+              "id": "gk147",
+              "title": "Battle of Wadgaon",
+              "tags": ["wadgaon", "maratha", "history"],
+              "basic_overview": "The Battle of Wadgaon in 1779 was an important episode of the First Anglo-Maratha War in which Maratha forces compelled British forces to accept the Treaty of Wadgaon.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The battle occurred near Pune in present-day Maharashtra and is important in the study of early British-Maratha relations."
+            },
+            {
+              "id": "gk148",
+              "title": "Mir Osman Ali Khan",
+              "tags": ["osman-ali-khan", "hyderabad", "history"],
+              "basic_overview": "Mir Osman Ali Khan was the last ruling Nizam of Hyderabad and was among the wealthiest monarchs of his time.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "He ruled Hyderabad from 1911 until the integration of Hyderabad into the Indian Union in 1948."
+            },
+            {
+              "id": "gk149",
+              "title": "Shyama Prasad Mukherjee",
+              "tags": ["shyama-prasad-mukherjee", "history", "politics"],
+              "basic_overview": "Syama Prasad Mukherjee was an Indian politician, academic and founder of the Bharatiya Jana Sangh.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "He served as India's first Minister for Industry and Supply in independent India's cabinet and later founded the Bharatiya Jana Sangh in 1951."
+            },
+            {
+              "id": "gk150",
+              "title": "V.P. Menon",
+              "tags": ["vp-menon", "integration", "history"],
+              "basic_overview": "Vappala Pangunni Menon was a senior civil servant who played an important role in the integration of princely states into the Indian Union.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Menon worked closely with Sardar Vallabhbhai Patel in the States Department during the period of political integration after independence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-digital-technology",
+      "title": "Digital India, Cybersecurity & Emerging Technology",
+      "filters": [
+        { "label": "Digital India", "tag": "digital-india" },
+        { "label": "Cybersecurity", "tag": "cybersecurity" },
+        { "label": "Technology", "tag": "technology" },
+        { "label": "Internet", "tag": "internet" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-tech-01",
+          "topic_title": "Digital & Internet Concepts",
+          "notes_list": [
+            {
+              "id": "gk151",
+              "title": "Father of Digital India",
+              "tags": ["digital-india", "technology", "india"],
+              "basic_overview": "The phrase 'Father of Digital India' is used in popular GK material in different contexts and does not represent an official constitutional or statutory title.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "For exam preparation, avoid treating popular-media labels as official designations unless the question explicitly refers to a documented attribution."
+            },
+            {
+              "id": "gk152",
+              "title": "ONDC Platform",
+              "tags": ["ondc", "digital-commerce", "india"],
+              "basic_overview": "The Open Network for Digital Commerce is an initiative designed around interoperable and decentralised digital-commerce networks rather than a single closed marketplace.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "ONDC aims to allow buyers and sellers using different participating applications to interact through an open network protocol."
+            },
+            {
+              "id": "gk153",
+              "title": "Bhashini Mission",
+              "tags": ["bhashini", "ai", "languages"],
+              "basic_overview": "Bhashini is a Government of India initiative aimed at building language technologies and digital public infrastructure supporting Indian languages.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The initiative involves technologies such as machine translation, speech recognition, speech synthesis and language datasets to improve access to digital services."
+            },
+            {
+              "id": "gk154",
+              "title": "Contract for the Web",
+              "tags": ["contract-for-the-web", "internet", "web"],
+              "basic_overview": "The Contract for the Web is an initiative associated with the World Wide Web Foundation that promotes principles for a free, open and trustworthy web.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Its principles address governments, companies and citizens and cover areas such as access, privacy, openness and online rights."
+            },
+            {
+              "id": "gk155",
+              "title": "Splinternet",
+              "tags": ["splinternet", "internet", "geopolitics"],
+              "basic_overview": "Splinternet describes a possible or emerging fragmentation of the global internet into separate national or regional digital ecosystems governed by different rules and technical systems.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Factors discussed under the concept include censorship, data-localisation laws, national firewalls, competing technical standards and geopolitical tensions."
+            },
+            {
+              "id": "gk156",
+              "title": "NFC Technology",
+              "tags": ["nfc", "digital-payment", "technology"],
+              "basic_overview": "Near Field Communication is a short-range wireless communication technology that allows compatible devices to exchange data over very short distances.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "NFC is used in contactless payments, access cards, device pairing and other proximity-based applications."
+            },
+            {
+              "id": "gk157",
+              "title": "CERT-In Guidelines",
+              "tags": ["cert-in", "cybersecurity", "india"],
+              "basic_overview": "CERT-In is India's national agency for responding to computer-security incidents and issues directions and advisories relating to cybersecurity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The 2022 CERT-In directions introduced requirements concerning incident reporting, log retention and other cybersecurity practices for specified entities."
+            },
+            {
+              "id": "gk158",
+              "title": "Digital Amnesia",
+              "tags": ["digital-amnesia", "technology"],
+              "basic_overview": "Digital amnesia refers to the tendency to rely on digital devices and external storage rather than retaining information in personal memory.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The concept is often discussed in the context of digital dependence and information-retrieval behaviour."
+            },
+            {
+              "id": "gk159",
+              "title": "Anti-Doxing Policies",
+              "tags": ["doxing", "cybersecurity", "privacy"],
+              "basic_overview": "Anti-doxing measures are policies and technical or legal protections intended to prevent the malicious publication of someone's private or identifying information online.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Doxing can create privacy and safety risks. Platform policies may prohibit publication of sensitive personal information and can provide reporting or removal mechanisms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-social-concepts",
+      "title": "Society, Social Movements & Contemporary Concepts",
+      "filters": [
+        { "label": "Society", "tag": "society" },
+        { "label": "Social Concepts", "tag": "social-concepts" },
+        { "label": "Movements", "tag": "movements" },
+        { "label": "Contemporary GK", "tag": "contemporary" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-social-01",
+          "topic_title": "Important Contemporary Social Terms",
+          "notes_list": [
+            {
+              "id": "gk160",
+              "title": "Social Bubble",
+              "tags": ["social-bubble", "society"],
+              "basic_overview": "A social bubble is a limited group of people with whom interaction is maintained while contacts outside the group are reduced, often as a public-health or social strategy.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The term became widely used during the COVID-19 pandemic to describe controlled social interaction networks."
+            },
+            {
+              "id": "gk161",
+              "title": "Eco-Anxiety",
+              "tags": ["eco-anxiety", "climate", "society"],
+              "basic_overview": "Eco-anxiety describes distress, worry or fear associated with environmental degradation and climate change.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The term is used in climate-psychology and social research. It describes an emotional response to environmental threats rather than a single formal psychiatric diagnosis."
+            },
+            {
+              "id": "gk162",
+              "title": "Take the Knee Movement",
+              "tags": ["take-the-knee", "social-movement", "sports"],
+              "basic_overview": "Taking a knee became a prominent form of protest and solidarity associated with opposition to racial injustice, particularly in sports.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The gesture became internationally recognised after American football player Colin Kaepernick began kneeling during the U.S. national anthem in 2016."
+            },
+            {
+              "id": "gk163",
+              "title": "Yellow Journalism",
+              "tags": ["yellow-journalism", "media"],
+              "basic_overview": "Yellow journalism refers to sensationalised journalism that prioritises dramatic presentation, exaggerated claims or attention-grabbing headlines.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The term originated in the context of late-19th-century newspaper competition in the United States and became associated with sensational reporting."
+            },
+            {
+              "id": "gk164",
+              "title": "Infodemic",
+              "tags": ["infodemic", "media", "health"],
+              "basic_overview": "An infodemic is an excessive volume of information, including misinformation and disinformation, that makes reliable information harder to identify.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The World Health Organization used the term prominently during the COVID-19 pandemic in discussing information-management challenges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-space-science-concepts",
+      "title": "Scientific Concepts & General Science Facts",
+      "filters": [
+        { "label": "General Science", "tag": "general-science" },
+        { "label": "Physics", "tag": "physics" },
+        { "label": "Chemistry", "tag": "chemistry" },
+        { "label": "Biology", "tag": "biology" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-science-concept-01",
+          "topic_title": "Important Scientific Concepts",
+          "notes_list": [
+            {
+              "id": "gk165",
+              "title": "What Gives Firecrackers Their Colour?",
+              "tags": ["fireworks", "chemistry", "colour"],
+              "basic_overview": "Different metal salts emit characteristic wavelengths of light when heated in fireworks, producing different visible colours.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "Common examples include strontium compounds for red, barium compounds for green and copper compounds for blue. Actual formulations are more complex and safety-controlled."
+            },
+            {
+              "id": "gk166",
+              "title": "Tight Oil",
+              "tags": ["tight-oil", "petroleum", "energy"],
+              "basic_overview": "Tight oil is crude oil trapped in low-permeability rock formations that generally require advanced extraction techniques such as horizontal drilling and hydraulic fracturing.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Tight oil differs from conventional crude primarily in the geological characteristics of the reservoir and the extraction methods required."
+            },
+            {
+              "id": "gk167",
+              "title": "Shale Oil vs Crude Oil",
+              "tags": ["shale-oil", "crude-oil", "petroleum"],
+              "basic_overview": "Crude oil is naturally occurring liquid petroleum recovered from underground reservoirs, while shale oil can refer either to oil produced from oil shale by heating or, in some usage, crude oil produced from shale formations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The terminology can be confusing. 'Tight oil' generally refers to petroleum produced from low-permeability formations, whereas oil shale is a solid organic-rich rock from which synthetic oil can be produced."
+            },
+            {
+              "id": "gk168",
+              "title": "Microswimmer for Drug Delivery",
+              "tags": ["microswimmer", "nanotechnology", "drug-delivery"],
+              "basic_overview": "Microswimmers are microscopic structures capable of controlled movement through fluids and are being researched for applications including targeted drug delivery.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Research systems include magnetically controlled particles, catalytic microswimmers and biohybrid systems. Most remain research-stage technologies rather than routine clinical tools."
+            },
+            {
+              "id": "gk169",
+              "title": "Difference Between GNSS and GPS",
+              "tags": ["gnss", "gps", "navigation"],
+              "basic_overview": "GPS is the satellite-navigation system operated by the United States, while GNSS is the broader category covering GPS, GLONASS, Galileo, BeiDou and other satellite-navigation systems.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "A GNSS receiver can often use signals from multiple constellations to improve availability and positioning performance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-business-markets",
+      "title": "Business, Markets, Corporate & Industry",
+      "filters": [
+        { "label": "Business", "tag": "business" },
+        { "label": "Markets", "tag": "markets" },
+        { "label": "Corporate", "tag": "corporate" },
+        { "label": "Industry", "tag": "industry" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-business-01",
+          "topic_title": "Corporate & Market Concepts",
+          "notes_list": [
+            {
+              "id": "gk170",
+              "title": "SENSEX",
+              "tags": ["sensex", "stock-market", "bse"],
+              "basic_overview": "The S&P BSE Sensex is a major stock-market index of the Bombay Stock Exchange representing 30 large and liquid companies listed on BSE.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Sensex is one of India's most widely followed equity-market indicators and reflects the performance of its constituent companies."
+            },
+            {
+              "id": "gk171",
+              "title": "SWIFT System",
+              "tags": ["swift", "banking", "international"],
+              "basic_overview": "SWIFT is a global messaging network used by financial institutions to securely exchange standardised information related to financial transactions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "SWIFT itself does not generally transfer the funds; it transmits standardised payment instructions and financial messages between participating institutions."
+            },
+            {
+              "id": "gk172",
+              "title": "T+1 Settlement",
+              "tags": ["t-plus-one", "stock-market", "settlement"],
+              "basic_overview": "T+1 settlement means that an eligible securities transaction is settled one business day after the trade date.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "India moved to T+1 settlement for the equity market in phases, completing the transition in 2023. The exact settlement cycle can vary by market segment and product."
+            },
+            {
+              "id": "gk173",
+              "title": "Bribery Risk Matrix",
+              "tags": ["bribery", "corruption", "risk"],
+              "basic_overview": "A bribery risk matrix is a structured tool used to assess bribery risks by considering factors such as likelihood, impact, exposure and controls.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Organisations may use risk matrices as part of compliance and anti-bribery management systems to identify high-risk transactions, jurisdictions or third parties."
+            },
+            {
+              "id": "gk174",
+              "title": "Corporate Governance Standards",
+              "tags": ["corporate-governance", "business"],
+              "basic_overview": "Corporate governance refers to the systems, rules and practices through which companies are directed, controlled and held accountable.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Key principles include board oversight, transparency, accountability, shareholder rights, risk management and responsible disclosure."
+            },
+            {
+              "id": "gk175",
+              "title": "PVR and INOX",
+              "tags": ["pvr", "inox", "business"],
+              "basic_overview": "PVR and INOX were major Indian cinema-exhibition companies that combined their businesses to form PVR INOX Limited.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The merger created a major multiplex exhibition network in India. For GK, remember the distinction between the former companies and the post-merger entity."
+            },
+            {
+              "id": "gk176",
+              "title": "DGFT Licence",
+              "tags": ["dgft", "foreign-trade", "licence"],
+              "basic_overview": "The Directorate General of Foreign Trade administers India's foreign-trade policy and issues or manages various authorisations and licences under applicable trade regulations.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "DGFT operates under the Ministry of Commerce and Industry and is important for import-export regulation and trade documentation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk-quick-facts",
+      "title": "Quick Revision: Important One-Liners",
+      "filters": [
+        { "label": "Quick GK", "tag": "quick-gk" },
+        { "label": "One-Liners", "tag": "one-liner" },
+        { "label": "Revision", "tag": "revision" },
+        { "label": "Exam", "tag": "exam" }
+      ],
+      "topics": [
+        {
+          "topic_id": "gk-quick-01",
+          "topic_title": "High-Yield GK Facts",
+          "notes_list": [
+            {
+              "id": "gk177",
+              "title": "Amrit Kaal",
+              "tags": ["amrit-kaal", "india", "governance"],
+              "basic_overview": "Amrit Kaal is a term used in Indian policy discourse for the period leading toward the centenary of India's independence in 2047.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "The term is commonly used in government policy documents and development discussions in relation to the vision for India@2047."
+            },
+            {
+              "id": "gk178",
+              "title": "Viksit Bharat",
+              "tags": ["viksit-bharat", "india", "development"],
+              "basic_overview": "Viksit Bharat refers to the policy vision of developing India into a developed country by 2047.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The vision encompasses economic growth, social development, infrastructure, technology, governance and human-capital development."
+            },
+            {
+              "id": "gk179",
+              "title": "Blue Hole",
+              "tags": ["blue-hole", "oceanography", "geography"],
+              "basic_overview": "A blue hole is a deep marine or coastal sinkhole or cave-like depression filled with water and often appearing dark blue because of its depth.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Blue holes can contain unique geological and biological records and are important sites for marine and palaeoclimate research."
+            },
+            {
+              "id": "gk180",
+              "title": "Super Pink Moon",
+              "tags": ["pink-moon", "astronomy"],
+              "basic_overview": "The Pink Moon is a traditional name for the full Moon occurring in April in North American naming traditions. It does not normally mean that the Moon actually appears pink.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f59e0b",
+              "extra_info_content": "The name is associated with seasonal flowers rather than lunar colour. A 'supermoon' refers to a full or new Moon occurring near perigee."
+            },
+            {
+              "id": "gk181",
+              "title": "Worm Moon",
+              "tags": ["worm-moon", "astronomy"],
+              "basic_overview": "Worm Moon is a traditional name for the full Moon occurring in March in some North American seasonal naming traditions.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Traditional full-Moon names are cultural or seasonal names and are not official astronomical classifications."
+            },
+            {
+              "id": "gk182",
+              "title": "Valentine's Day",
+              "tags": ["valentines-day", "history", "culture"],
+              "basic_overview": "Valentine's Day is observed on 14 February and is associated historically with Christian saints named Valentine and later European traditions of courtly love.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "The modern celebration developed over centuries and combines religious, literary and commercial traditions."
+            },
+            {
+              "id": "gk183",
+              "title": "World Happiness Report",
+              "tags": ["world-happiness-report", "global-index"],
+              "basic_overview": "The World Happiness Report is an annual publication associated with the Wellbeing Research Centre at the University of Oxford in partnership with Gallup and the UN Sustainable Development Solutions Network.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The report uses survey-based measures of life evaluation and analyses factors associated with differences in wellbeing across countries. Rankings can change from year to year."
+            },
+            {
+              "id": "gk184",
+              "title": "SDG Localisation",
+              "tags": ["sdg", "localisation", "governance"],
+              "basic_overview": "SDG localisation means adapting and implementing the United Nations Sustainable Development Goals at subnational and local levels.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "In India, SDG localisation involves states, Union Territories, districts and local governments integrating SDG targets into planning and monitoring."
+            },
+            {
+              "id": "gk185",
+              "title": "B9 Country Group",
+              "tags": ["b9", "europe", "nato"],
+              "basic_overview": "The Bucharest Nine, commonly called B9, is a group of NATO member states from Central and Eastern Europe that coordinate on regional security issues.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The group includes Bulgaria, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Romania and Slovakia."
+            },
+            {
+              "id": "gk186",
+              "title": "T+1 Settlement",
+              "tags": ["t-plus-one", "revision", "finance"],
+              "basic_overview": "T+1 means settlement takes place one business day after the trade date.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The concept should be distinguished from T+2, where settlement occurs two business days after the trade."
+            },
+            {
+              "id": "gk187",
+              "title": "ODF+ and ODF++",
+              "tags": ["odf", "swachh-bharat", "sanitation"],
+              "basic_overview": "ODF+ and ODF++ are sanitation-status categories under India's Swachh Bharat Mission framework that go beyond simply eliminating open defecation.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "ODF+ focuses on sustaining ODF status along with cleanliness and solid/liquid waste-management components, while ODF++ adds stronger emphasis on faecal sludge and septage management."
+            },
+            {
+              "id": "gk188",
+              "title": "Green Hydrogen",
+              "tags": ["green-hydrogen", "energy", "climate"],
+              "basic_overview": "Green hydrogen is hydrogen produced using renewable electricity, commonly through electrolysis of water, with low associated greenhouse-gas emissions when the electricity source is renewable.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "India's National Green Hydrogen Mission aims to build domestic production, demand and export capabilities for green hydrogen and derivatives."
+            },
+            {
+              "id": "gk189",
+              "title": "Blue Carbon",
+              "tags": ["blue-carbon", "revision", "environment"],
+              "basic_overview": "Blue carbon is carbon captured and stored by coastal ecosystems such as mangroves, salt marshes and seagrasses.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "These ecosystems can store significant amounts of carbon in sediments and provide coastal and biodiversity benefits."
+            },
+            {
+              "id": "gk190",
+              "title": "One District One Product",
+              "tags": ["odop", "revision", "district"],
+              "basic_overview": "ODOP aims to identify and promote distinctive products associated with districts to support local value chains, branding and market access.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Products may include agricultural goods, handicrafts, textiles, food products and other regionally significant items."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
