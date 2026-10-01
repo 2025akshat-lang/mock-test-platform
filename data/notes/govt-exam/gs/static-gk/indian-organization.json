@@ -1,0 +1,490 @@
+{
+  "notes_list": [
+    {
+      "id": "supreme-court",
+      "title": "⚖️ Supreme Court of India",
+      "basic_overview": "📅 Established: 28 January 1950\n📜 Article: 124\n❤️ Article 32: Samvidhan ka Hridaya\n👨‍⚖️ First CJI: Harilal Kania\n👩‍⚖️ First Woman Justice: Fathima M. Beevi\n👨‍⚖️ Current CJI: B. R. Gavai",
+      "tags": ["static-gk", "organizations", "polity", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: Supreme Court = Samvidhan ki highest judicial authority. Article 124 → Supreme Court ki establishment/constitution se joda hua. Article 32 ko Dr. B. R. Ambedkar ne Samvidhan ka 'Heart and Soul' kaha tha."
+    },
+    {
+      "id": "sebi",
+      "title": "📈 SEBI – Securities and Exchange Board of India",
+      "basic_overview": "📅 Established: 12 April 1988\n📜 Statutory Status: SEBI Act 1992 (30 Jan 1992)\n📍 Headquarters: Mumbai\n👤 Current Chairman: Tuhin Kanta Pandey\n🎯 Agenda: Share bazaron mein niveshakon ke hiton ki raksha",
+      "tags": ["static-gk", "organizations", "banking", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: SEBI = Share market ki SECURITY. SEBI ko yaad rakho → Securities + Exchange + Board + India. Main focus = investors ke interests ki protection."
+    },
+    {
+      "id": "drdo",
+      "title": "🛡️ DRDO – Defence Research and Development Organisation",
+      "basic_overview": "📅 Established: 1958\n📍 Headquarters: Delhi\n👤 CEO: Sameer V. Kamat",
+      "tags": ["static-gk", "organizations", "defence", "science"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: DRDO = Defence Research & Development Organisation → Defence ke liye Research + Development. 1958 ko DRDO se directly link karke yaad rakho."
+    },
+    {
+      "id": "railway-board",
+      "title": "🚆 Bharatiya Railway Board",
+      "basic_overview": "📅 Established: March 1905\n📍 Headquarters: New Delhi\n👤 CEO: Satish Kumar",
+      "tags": ["static-gk", "organizations", "railways", "transport"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: Railway Board → Railway ka central board. March 1905 = Railway Board ko yaad rakhne ki key date."
+    },
+    {
+      "id": "indian-olympic-association",
+      "title": "🏅 IOC – Indian Olympic Association",
+      "basic_overview": "📅 Established: 1927\n📍 Headquarters: New Delhi\n👥 Founders: Sir Dorabji Tata, A. G. Noehren",
+      "tags": ["static-gk", "organizations", "sports"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: Indian Olympic Association = India + Olympics. 1927 ko sports organizations ke context mein yaad rakho. Founders: Dorabji Tata + A. G. Noehren."
+    },
+    {
+      "id": "cisf",
+      "title": "🛡️ CISF – Central Industrial Security Force",
+      "basic_overview": "📅 Established: 10 March 1969\n📍 Headquarters: New Delhi\n👤 DG: Rajwinder Singh Bhatti\n🎯 Motto: Sanrakshan evam Suraksha",
+      "tags": ["static-gk", "organizations", "defence", "security"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CISF = Industrial installations ki Security Force. 'Sanrakshan evam Suraksha' → CISF ka direct motto."
+    },
+    {
+      "id": "rbi",
+      "title": "🏦 RBI – Reserve Bank of India",
+      "basic_overview": "📅 Established: 1 April 1935\n📜 Commission: Hilton Young Commission\n🇮🇳 Nationalization: 1 January 1949\n📍 Headquarters: Mumbai\n👤 First Governor: Osborne Smith\n🇮🇳 First Indian Governor: C. D. Deshmukh\n👤 Current Governor: Sanjay Malhotra",
+      "tags": ["static-gk", "organizations", "banking", "economy", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: RBI = India ka central banking institution. 1935 = establishment, 1949 = nationalization. Hilton Young Commission ko RBI se connect karo. First Indian Governor = C. D. Deshmukh."
+    },
+    {
+      "id": "cii",
+      "title": "🏭 CII – Confederation of Indian Industry",
+      "basic_overview": "📅 Established: 1895\n📍 Headquarters: New Delhi\n👤 CEO: Sanjiv Puri",
+      "tags": ["static-gk", "organizations", "industry", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CII = Indian Industry ka representative organization. CII ko 'Industry' word se directly connect karke yaad rakho."
+    },
+    {
+      "id": "niti-aayog",
+      "title": "🏛️ NITI Aayog – National Institution for Transforming India",
+      "basic_overview": "📅 Established: 1 January 2015\n📍 Headquarters: New Delhi\n👑 Chairman: PM\n👤 Vice-Chairman: Suman Bery\n👤 CEO: B. V. R. Subrahmanyam",
+      "tags": ["static-gk", "organizations", "polity", "economy", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NITI = National Institution for Transforming India. 2015 mein Planning Commission ke replacement ke roop mein NITI Aayog ko yaad karo. Chairman = Prime Minister."
+    },
+    {
+      "id": "ndrf",
+      "title": "🚨 NDRF – National Disaster Response Force",
+      "basic_overview": "📅 Established: 19 January 2006\n🎯 Motto: Aapda Seva Sadaiv Sarvatra\n👤 DG: Piyush Anand",
+      "tags": ["static-gk", "organizations", "disaster-management"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NDRF = Disaster Response Force. 'Aapda Seva Sadaiv Sarvatra' → disaster ke time seva, hamesha aur har jagah."
+    },
+    {
+      "id": "uidai",
+      "title": "🪪 UIDAI – Unique Identification Authority of India",
+      "basic_overview": "📅 Established: 28 January 2009\n📍 Headquarters: Delhi\n👤 CEO: Bhubnesh Kumar",
+      "tags": ["static-gk", "organizations", "government", "aadhaar"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: UIDAI = Unique Identification Authority → Aadhaar se direct connection. 28 January 2009 ko UIDAI se link karo."
+    },
+    {
+      "id": "trai",
+      "title": "📡 TRAI – Telecom Regulatory Authority of India",
+      "basic_overview": "📅 Established: 20 February 1997\n👤 CEO: Anil Kumar Lahoti",
+      "tags": ["static-gk", "organizations", "telecom"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: TRAI = Telecom Regulatory Authority of India → Telecom sector ka regulator. TRAI ko 'Telephone/Telecom Regulation' se yaad rakho."
+    },
+    {
+      "id": "pnb",
+      "title": "🏦 Punjab National Bank – PNB",
+      "basic_overview": "📅 Established: 19 May 1894\n👤 Chairman: Ashok Chandra\n🎯 Motto: The name you can bank upon",
+      "tags": ["static-gk", "organizations", "banking"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: PNB = Punjab National Bank. 1894 → important old Indian bank. Motto mein 'bank upon' directly PNB se connect hota hai."
+    },
+    {
+      "id": "csir",
+      "title": "🔬 CSIR – Council of Scientific and Industrial Research",
+      "basic_overview": "📅 Established: 26 September 1942\n👤 CEO: Nallathamby Kalaiselvi",
+      "tags": ["static-gk", "organizations", "science", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CSIR = Scientific + Industrial Research. Science aur industry dono words ko CSIR ke naam se directly connect karo."
+    },
+    {
+      "id": "nsg",
+      "title": "🛡️ NSG – National Security Guard",
+      "basic_overview": "📅 Established: 22 September 1986\n👤 DG: B. Srinivasan\n🎯 Motto: Sarvatra Sarvottam Suraksha",
+      "tags": ["static-gk", "organizations", "security", "defence"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NSG = National Security Guard. Motto mein 'Sarvottam Suraksha' → Security Guard ko direct yaad karata hai."
+    },
+    {
+      "id": "itbp",
+      "title": "🏔️ ITBP – Indo-Tibetan Border Police",
+      "basic_overview": "📅 Established: 1962\n👤 DG: Rahul Rasgotra",
+      "tags": ["static-gk", "organizations", "security", "border-forces"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: ITBP = Indo-Tibetan Border Police → India-Tibet border. 1962 ko China/Tibet border security context se yaad rakho."
+    },
+    {
+      "id": "crpf",
+      "title": "🛡️ CRPF – Central Reserve Police Force",
+      "basic_overview": "📅 Established: 27 July 1939\n👤 DG: Anish Dayal Singh",
+      "tags": ["static-gk", "organizations", "security", "police"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CRPF = Central Reserve Police Force. 'Central + Reserve + Police' ko naam ke through directly remember karo."
+    },
+    {
+      "id": "nabard",
+      "title": "🌾 NABARD – National Bank for Agriculture and Rural Development",
+      "basic_overview": "📅 Established: 1982\n📍 Headquarters: Mumbai\n👤 CEO: K. V. Shaji",
+      "tags": ["static-gk", "organizations", "banking", "agriculture", "rural-development"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NABARD naam mein hi Agriculture + Rural Development ka clue hai. NABARD = rural/agricultural development finance."
+    },
+    {
+      "id": "nasscom",
+      "title": "💻 NASSCOM – National Association of Software and Service Companies",
+      "basic_overview": "📅 Established: 1998\n👤 CEO: Rajesh Nambiar",
+      "tags": ["static-gk", "organizations", "computer", "it", "industry"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NASSCOM = Software + Services Companies. Computer/IT industry se NASSCOM ko direct connect karo."
+    },
+    {
+      "id": "upsc",
+      "title": "🏛️ UPSC – Union Public Service Commission",
+      "basic_overview": "📅 Established: 1 October 1926\n📜 Article: 315",
+      "tags": ["static-gk", "organizations", "polity", "constitutional-body", "exams"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: UPSC = Union Public Service Commission. Article 315 → Public Service Commissions. 1 October 1926 ko UPSC se link karo."
+    },
+    {
+      "id": "ficci",
+      "title": "🏢 FICCI – Federation of Indian Chambers of Commerce & Industry",
+      "basic_overview": "📅 Established: 1927\n👤 CEO: Subhrakant Panda",
+      "tags": ["static-gk", "organizations", "industry", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: FICCI = Indian Commerce + Industry chambers ka federation. Commerce aur Industry dono ko naam se connect karo."
+    },
+    {
+      "id": "bcci",
+      "title": "🏏 BCCI – Board of Control for Cricket in India",
+      "basic_overview": "📅 Established: 1928\n📍 Headquarters: Mumbai\n👤 CEO: Roger Binny",
+      "tags": ["static-gk", "organizations", "sports", "cricket"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BCCI = Cricket in India ka Board. BCCI ko India + Cricket se direct connect karo. 1928 = establishment."
+    },
+    {
+      "id": "isro",
+      "title": "🚀 ISRO – Indian Space Research Organisation",
+      "basic_overview": "📅 Established: 1969\n👤 CEO: S. Somanath\n🎯 Ideology: Manav jati ki seva mein antariksh praudyogiki",
+      "tags": ["static-gk", "organizations", "space", "science", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: ISRO = Indian Space Research Organisation → Space + Research. 1969 ko ISRO ke establishment year ke roop mein yaad rakho."
+    },
+    {
+      "id": "irdai",
+      "title": "🛡️ IRDAI – Insurance Regulatory and Development Authority of India",
+      "basic_overview": "📅 Established: 1999\n📍 Headquarters: Hyderabad\n👤 CEO: Debasish Panda",
+      "tags": ["static-gk", "organizations", "insurance", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: IRDAI = Insurance Regulatory + Development Authority. Insurance sector ka regulator yaad karo."
+    },
+    {
+      "id": "nhb",
+      "title": "🏠 NHB – National Housing Bank",
+      "basic_overview": "📅 Established: 9 July 1988\n📍 Headquarters: New Delhi\n👤 CFO: Sanjay Shukla",
+      "tags": ["static-gk", "organizations", "banking", "housing"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NHB = National Housing Bank → Housing finance/banking se direct connection. 9 July 1988 = establishment."
+    },
+    {
+      "id": "bsnl",
+      "title": "📞 BSNL – Bharat Sanchar Nigam Limited",
+      "basic_overview": "📅 Established: 2000\n👤 CEO: P. K. Purwar",
+      "tags": ["static-gk", "organizations", "telecom", "psu"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BSNL = Bharat Sanchar → communication/telecom. 'Sanchar' word ko telecom se direct connect karo."
+    },
+    {
+      "id": "nalco",
+      "title": "⚙️ NALCO – National Aluminium Company",
+      "basic_overview": "📅 Established: 1981\n👤 CEO: Sridhar Patra",
+      "tags": ["static-gk", "organizations", "psu", "industry"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NALCO ke naam mein Aluminium ka direct clue hai. NALCO = National Aluminium Company."
+    },
+    {
+      "id": "icai",
+      "title": "📊 ICAI – Institute of Chartered Accountants of India",
+      "basic_overview": "📅 Established: 1949\n👤 CEO: Ranjeet Kumar Agarwal",
+      "tags": ["static-gk", "organizations", "finance", "accountancy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: ICAI = Chartered Accountants ka professional institute. 'CA' ko ICAI ke beech mein identify karo."
+    },
+    {
+      "id": "hdfc",
+      "title": "🏦 HDFC – Housing Development Finance Corporation",
+      "basic_overview": "📅 Established: 1994\n📍 Headquarters: Mumbai\n👤 CEO: Sashi Jagdishan\n🎯 Motto: We understand your world",
+      "tags": ["static-gk", "organizations", "banking", "finance", "housing"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: HDFC = Housing Development Finance Corporation. H = Housing, D = Development, F = Finance, C = Corporation."
+    },
+    {
+      "id": "cvc",
+      "title": "🔎 CVC – Central Vigilance Commission",
+      "basic_overview": "📅 Established: 11 February 1964\n👤 CEO: Praveen Kumar Srivastava",
+      "tags": ["static-gk", "organizations", "polity", "vigilance"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CVC = Central Vigilance Commission → Vigilance = monitoring/checking. 'V' ko Vigilance se direct connect karo."
+    },
+    {
+      "id": "fci",
+      "title": "🌾 FCI – Food Corporation of India",
+      "basic_overview": "📅 Established: 11 January 1965\n👤 CEO: Ashutosh Agnihotri",
+      "tags": ["static-gk", "organizations", "food", "agriculture"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: FCI = Food Corporation of India. F = Food → naam se hi direct answer."
+    },
+    {
+      "id": "nse",
+      "title": "📈 NSE – National Stock Exchange of India",
+      "basic_overview": "📅 Established: 1992\n📍 Headquarters: Mumbai\n👤 CEO: Ashishkumar Chauhan",
+      "tags": ["static-gk", "organizations", "stock-market", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NSE = National Stock Exchange → Stock market se direct connection. Mumbai = major financial centre."
+    },
+    {
+      "id": "cag",
+      "title": "📑 CAG – Comptroller and Auditor General of India",
+      "basic_overview": "📅 Established: 1858\n👤 CEO: K. Sanjay Murthy",
+      "tags": ["static-gk", "organizations", "polity", "audit"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CAG = Comptroller + Auditor General → Government accounts ka audit. 'Auditor' word ko CAG se direct connect karo."
+    },
+    {
+      "id": "sidbi",
+      "title": "🏭 SIDBI – Small Industries Development Bank of India",
+      "basic_overview": "📅 Established: 2 April 1990\n📍 Headquarters: Lucknow, U.P.\n👤 CEO: Manoj Mittal",
+      "tags": ["static-gk", "organizations", "banking", "msme", "industry"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: SIDBI = Small Industries Development Bank → Small Industries/MSME finance se direct connection. Headquarters = Lucknow."
+    },
+    {
+      "id": "bis",
+      "title": "📏 BIS – Bureau of Indian Standards",
+      "basic_overview": "📅 Established: 23 December 1986\n🏛️ Founders: Bharatiya Sansad",
+      "tags": ["static-gk", "organizations", "standards", "quality"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BIS = Indian Standards. Quality/standardization ko BIS se direct connect karo. ISI mark bhi standards context mein important hai."
+    },
+    {
+      "id": "fssai",
+      "title": "🍱 FSSAI – Food Safety and Standards Authority of India",
+      "basic_overview": "📅 Established: 5 September 2008\n👤 CEO: G. Kamala Vardhana Rao",
+      "tags": ["static-gk", "organizations", "food", "health", "standards"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: FSSAI = Food Safety + Standards. Food safety aur food standards ko FSSAI se directly connect karo."
+    },
+    {
+      "id": "ifci",
+      "title": "🏦 IFCI – Industrial Finance Corporation of India",
+      "basic_overview": "📅 Established: 1 July 1948",
+      "tags": ["static-gk", "organizations", "finance", "industry"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: IFCI = Industrial Finance Corporation of India. 'Industrial Finance' ko IFCI acronym se direct yaad karo."
+    },
+    {
+      "id": "cdsl",
+      "title": "📊 CDSL – Central Depository Services Limited",
+      "basic_overview": "📅 Established: February 1999\n📍 Headquarters: Mumbai\n👤 CEO: Nehal Vora",
+      "tags": ["static-gk", "organizations", "stock-market", "finance"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CDSL = Central Depository Services → shares/securities ke dematerialized records/depository system se connection."
+    },
+    {
+      "id": "lic",
+      "title": "🛡️ LIC – Life Insurance Corporation of India",
+      "basic_overview": "📅 Established: 1 September 1956\n📍 Headquarters: 1 September 1956\n👤 CEO: Siddhartha Mohanty",
+      "tags": ["static-gk", "organizations", "insurance", "finance"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: LIC = Life Insurance Corporation → Life Insurance ko LIC se direct connect karo. Source data mein headquarters field bhi 1 September 1956 diya gaya hai."
+    },
+    {
+      "id": "hpcl",
+      "title": "⛽ HPCL – Hindustan Petroleum Corporation Limited",
+      "basic_overview": "📅 Established: 1974\n📍 Headquarters: Mumbai\n👤 CEO: Vikas Kaushal",
+      "tags": ["static-gk", "organizations", "psu", "petroleum"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: HPCL = Hindustan Petroleum Corporation Limited → Petroleum sector ka PSU. Mumbai headquarters ko HPCL se connect karo."
+    },
+    {
+      "id": "ongc",
+      "title": "🛢️ ONGC – Oil and Natural Gas Corporation",
+      "basic_overview": "📅 Established: 14 August 1956\n👤 CEO: Arun Kumar Singh",
+      "tags": ["static-gk", "organizations", "psu", "petroleum", "energy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: ONGC = Oil + Natural Gas Corporation. Naam mein hi Oil aur Gas dono ka clue hai."
+    },
+    {
+      "id": "sbi",
+      "title": "🏦 SBI – State Bank of India",
+      "basic_overview": "📅 Established: 1 July 1955\n📍 Headquarters: Mumbai\n👤 CEO: Challa Sreenivasulu Setty",
+      "tags": ["static-gk", "organizations", "banking", "finance", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: SBI = State Bank of India. 1 July 1955 ko SBI se directly connect karo. Headquarters = Mumbai."
+    },
+    {
+      "id": "barc",
+      "title": "⚛️ BARC – Bhabha Atomic Research Centre",
+      "basic_overview": "📅 Established: January 1954\n📍 Headquarters: Mumbai\n👤 Director: Vivek Bhasin",
+      "tags": ["static-gk", "organizations", "science", "nuclear", "research"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BARC = Bhabha + Atomic Research Centre. Atomic/Nuclear research ko BARC se direct connect karo."
+    },
+    {
+      "id": "vssc",
+      "title": "🚀 VSSC – Vikram Sarabhai Space Centre",
+      "basic_overview": "📅 Established: 21 November 1963\n📍 Headquarters: Thiruvananthapuram\n👤 CEO: Dr. S. Unnikrishnan Nair",
+      "tags": ["static-gk", "organizations", "space", "isro", "science"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: VSSC = Vikram Sarabhai Space Centre → Space research + Vikram Sarabhai. Location = Thiruvananthapuram."
+    },
+    {
+      "id": "cbi",
+      "title": "🔍 CBI – Central Bureau of Investigation",
+      "basic_overview": "📅 Established: 1963\n👤 CEO: Praveen Sood",
+      "tags": ["static-gk", "organizations", "investigation", "polity"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CBI = Central Bureau of Investigation → Investigation ko CBI se direct connect karo."
+    },
+    {
+      "id": "assocham",
+      "title": "🏢 ASSOCHAM – Associated Chambers of Commerce and Industry of India",
+      "basic_overview": "📅 Established: 1920\n👤 CEO: Sanjay Nayar",
+      "tags": ["static-gk", "organizations", "industry", "commerce"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: ASSOCHAM = Associated Chambers + Commerce + Industry. Commerce aur Industry chambers ko ASSOCHAM se yaad rakho."
+    },
+    {
+      "id": "cbdt",
+      "title": "💰 CBDT – Central Board of Direct Taxes",
+      "basic_overview": "📅 Established: 1963\n👤 CEO: Ravi Agrawal",
+      "tags": ["static-gk", "organizations", "taxation", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CBDT = Central Board of Direct Taxes → Direct Tax = Income Tax type taxes. CBDT ko direct taxation se connect karo."
+    },
+    {
+      "id": "bse",
+      "title": "📈 BSE – Bombay Stock Exchange",
+      "basic_overview": "📅 Established: 1875\n👤 CEO: Sundararaman Ramamurthy",
+      "tags": ["static-gk", "organizations", "stock-market", "economy", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BSE = Bombay Stock Exchange. 1875 ko Indian stock market history ke context mein yaad rakho."
+    },
+    {
+      "id": "nia",
+      "title": "🔍 NIA – National Investigation Agency",
+      "basic_overview": "📅 Established: 31 December 2008\n👤 CEO: Sadanand Vasant Date",
+      "tags": ["static-gk", "organizations", "investigation", "security"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: NIA = National Investigation Agency → National-level investigation. NIA ko investigation/security se direct connect karo."
+    },
+    {
+      "id": "bsf",
+      "title": "🛡️ BSF – Border Security Force",
+      "basic_overview": "📅 Established: 1 December 1965\n🎯 Motto: Jeevan Paryant Kartavya (Duty Unto Death)\n👤 DG: Daljit Singh Chawdhary",
+      "tags": ["static-gk", "organizations", "security", "border-forces"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: BSF = Border Security Force → Border = BSF. 1 December 1965 ko BSF establishment ke saath yaad karo. Motto = Duty Unto Death."
+    },
+    {
+      "id": "iffco",
+      "title": "🌾 IFFCO – Indian Farmers Fertiliser Cooperative Limited",
+      "basic_overview": "📅 Established: 3 November 1967\n👤 CEO: Dilip Sanghani",
+      "tags": ["static-gk", "organizations", "agriculture", "fertilizer", "cooperative"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: IFFCO = Farmers + Fertiliser + Cooperative. Agriculture/fertilizer sector se direct connection."
+    },
+    {
+      "id": "iba",
+      "title": "🏦 IBA – Indian Banks' Association",
+      "basic_overview": "📅 Established: 26 September 1946\n👤 CEO: M. V. Rao",
+      "tags": ["static-gk", "organizations", "banking", "finance"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: IBA = Indian Banks' Association → Indian Banks ka association. Banking sector se direct connection."
+    },
+    {
+      "id": "cbic",
+      "title": "💰 CBIC – Central Board of Indirect Taxes and Customs",
+      "basic_overview": "📅 Established: 1 January 1964\n👤 CEO: Sanjay Kumar Agarwal",
+      "tags": ["static-gk", "organizations", "taxation", "customs", "economy"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: CBIC = Central Board of Indirect Taxes + Customs. Indirect tax + Customs ko CBIC se direct connect karo."
+    },
+    {
+      "id": "election-commission",
+      "title": "🗳️ Election Commission of India",
+      "basic_overview": "📅 Established: 25 January 1950\n👤 First CEC: Sukumar Sen\n👤 Current CEC: Gyanesh Kumar",
+      "tags": ["static-gk", "organizations", "polity", "elections", "important"],
+      "has_extra_info": true,
+      "extra_info_btn_color": "#0d9488",
+      "extra_info_content": "🧠 Trick: Election Commission = Elections conduct karne wali constitutional authority. 25 January 1950 → National Voters' Day bhi isi date se linked hai. First CEC = Sukumar Sen."
+    }
+  ]
+        }
