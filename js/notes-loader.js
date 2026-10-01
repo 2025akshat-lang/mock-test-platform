@@ -17,6 +17,13 @@
  *  - #11: one broken chapter no longer breaks the whole search.
  *  - #12: renderChapterShells resets state along with the DOM.
  *
+ * v6 changes:
+ *  - NEW: plain "box button" look (no folder icons/accordion look). Styles are
+ *    injected by this file itself (no css file / index.html edit needed).
+ *  - NEW: a topic can point to its own file: { "topic_id", "topic_title", "file" }.
+ *    The file is fetched only when the topic is opened (and cached). Old inline
+ *    "notes_list" topics keep working unchanged.
+ *
  * v5 changes:
  *  - NEW: optional "diagram" field on a note: { "svg": "<svg ...>", "caption": "..." }
  *    It renders INSIDE the colored ||| extra-info panel (only visible
@@ -43,6 +50,7 @@ const NotesEngine = {
   manifestData: null,        // data/notes/manifest.json (exam categories -> subjects)
   subjectIndexData: null,    // currently selected subject's chapter list (light)
   chapterCache: {},          // chapterId -> full chapter JSON (fetched on first expand)
+  topicCache: {},            // topic file path -> notes array (fetched on first open)
   chapterFilters: {},        // chapterId -> active tag ('all' by default)
   openChapters: new Set(),   // chapterIds currently expanded
   openTopics: new Set(),     // section/topic keys currently expanded (survives re-renders)
@@ -58,6 +66,7 @@ const NotesEngine = {
       this._renderMaintenanceOverlay();
       return; // manifest.json is never even fetched — no console errors while you edit mid-flight data
     }
+    this._injectStyles();
     try {
       const res = await fetch('data/notes/manifest.json');
       if (!res.ok) throw new Error('manifest.json not found');
@@ -223,6 +232,122 @@ const NotesEngine = {
   },
 
   // ------------------------------------------------------------
+  // v6: styles for the plain "box button" look. Injected once from here,
+  // so index.html and style.css stay untouched.
+  // ------------------------------------------------------------
+  _injectStyles: function () {
+    if (document.getElementById('pz-notes-style')) return;
+    const st = document.createElement('style');
+    st.id = 'pz-notes-style';
+    st.textContent = `
+      .pz-box { display:flex; align-items:center; justify-content:space-between; gap:10px; width:100%; box-sizing:border-box;
+        padding:16px 18px; background:#fff; border:1px solid #e2e8f0; border-radius:12px;
+        font-size:1rem; font-weight:800; color:#0f172a; text-align:left; cursor:pointer; line-height:1.35;
+        box-shadow:0 1px 3px rgba(0,0,0,.05); -webkit-tap-highlight-color:transparent; user-select:none;
+        transition:transform .12s ease, box-shadow .12s ease; }
+      .pz-box:active { transform:scale(.98); box-shadow:none; }
+      .pz-box small { display:block; margin-top:3px; font-size:.78rem; font-weight:500; color:#64748b; }
+      .pz-box--chapter { border-left:5px solid var(--primary, #2563eb); }
+      .pz-box--section { background:#eff6ff; border-color:#bfdbfe; color:var(--primary-dark, #1e40af); }
+      .pz-box--topic { padding:14px 16px; font-size:.95rem; background:#f8fafc; }
+      .pz-chev { display:inline-block; flex-shrink:0; font-size:.7rem; color:#64748b; transition:transform .2s cubic-bezier(0.4,0,0.2,1); }
+    `;
+    document.head.appendChild(st);
+  },
+
+  // v6: fetch one topic file (cached). Accepts an array of notes, or an object
+  // with notes_list, or a single note. Returns an array, or null on failure.
+  _fetchTopicFile: async function (file) {
+    if (this.topicCache[file]) return this.topicCache[file];
+    try {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error('topic file not found: ' + file);
+      const data = await res.json();
+      const notes = Array.isArray(data) ? data
+        : (data && Array.isArray(data.notes_list)) ? data.notes_list
+        : (data && data.basic_overview) ? [data] : [];
+      this.topicCache[file] = notes;
+      return notes;
+    } catch (err) {
+      console.error('Topic file failed:', file, err);
+      return null;
+    }
+  },
+
+  // v6: list topic files in a chapter that are not loaded yet (used by search)
+  _collectTopicFiles: function (chapterData) {
+    const files = [];
+    const scan = topics => (topics || []).forEach(t => {
+      if (t && t.file && !Array.isArray(t.notes_list) && !this.topicCache[t.file]) files.push(t.file);
+    });
+    if (chapterData.sections && chapterData.sections.length) chapterData.sections.forEach(sec => scan(sec && sec.topics));
+    else scan(chapterData.topics);
+    return files;
+  },
+
+  // v6: fills a lazy topic body (the one carrying data-file) with its notes
+  _loadTopicNotes: async function (body) {
+    const file = body.dataset.file;
+    if (!file) return;
+    const topicKey = body.id.replace('tpbody-', '');
+    const filterKey = body.dataset.filterKey || '';
+    body.innerHTML = `<div style="padding:6px;color:#64748b;font-size:0.85rem;">Loading…</div>`;
+    const all = await this._fetchTopicFile(file);
+    if (all === null) {
+      body.innerHTML = `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Topic file load nahi hui: ${this._safe(file)}</div>`;
+      return;
+    }
+    try {
+      const activeTag = this.chapterFilters[filterKey] || 'all';
+      const notes = all.filter(n => n && (activeTag === 'all' || (n.tags || []).includes(activeTag)));
+      body.innerHTML = notes.length
+        ? this._renderNoteCards(topicKey, notes)
+        : `<div style="padding:6px;color:#64748b;font-size:0.85rem;">No notes match this filter here.</div>`;
+      body.dataset.loaded = '1';
+      if (window.typesetMath) window.typesetMath(body);
+    } catch (err) {
+      console.error('Topic render failed:', file, err);
+      body.innerHTML = `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Topic render nahi ho paya: ${this._safe(file)}</div>`;
+    }
+  },
+
+  // v6: builds the note cards of one topic. Each note has its own try/catch.
+  _renderNoteCards: function (topicKey, notes) {
+    let out = '';
+    notes.forEach((note, idx) => {
+      try {
+        const btnColor = note.extra_info_btn_color || '#2563eb';
+        const noteKey = `${topicKey}__${note.id || ('n' + idx)}`;
+        const diagramHtml = this._renderDiagram(note);
+        const hasDiagram = !!(note.diagram && typeof note.diagram === 'object' && note.diagram.svg);
+        const hasExtra = !!(note.has_extra_info || hasDiagram);
+
+        out += `
+          <div style="border-bottom:1px dashed #e2e8f0;padding-bottom:10px;margin-bottom:5px;width:100%;box-sizing:border-box;">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px;">
+              <h4 style="margin:0;color:#0f172a;font-size:0.95rem;font-weight:700;line-height:1.4;">${this._safe(note.title)}</h4>
+              ${hasExtra ? `
+                <button onclick="NotesEngine.toggleExtraInfo(event, '${this._esc(noteKey)}')" style="background:${btnColor};color:#fff;border:none;width:24px;height:32px;border-radius:6px;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.75rem;letter-spacing:-1px;writing-mode:vertical-lr;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 4px rgba(0,0,0,0.25);flex-shrink:0;" title="Tap for more detail">|||</button>
+              ` : ''}
+            </div>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.5;white-space:pre-wrap;">${this._safe(note.basic_overview)}</p>
+            ${hasExtra ? `
+              <div id="extra-${noteKey}" style="display:none;margin-top:8px;padding:10px 12px;background:#fff8e1;border-left:4px solid ${btnColor};border-radius:4px;">
+                ${note.extra_info_content ? `<div style="font-size:0.85rem;color:#b78103;white-space:pre-wrap;font-weight:600;line-height:1.4;">${this._safe(note.extra_info_content)}</div>` : ''}
+                ${diagramHtml}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      } catch (err) {
+        console.error('Note render failed:', note && note.id, err);
+        out += `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Note "${(note && note.id) || idx}" render nahi ho paya.</div>`;
+      }
+    });
+    return out;
+  },
+
+  // ------------------------------------------------------------
   // Context-aware Back button: steps up exactly ONE level.
   // ------------------------------------------------------------
   _handleBack: function () {
@@ -242,6 +367,7 @@ const NotesEngine = {
     if (!this.manifestData) return;
     this.subjectIndexData = null;
     this.chapterCache = {};
+    this.topicCache = {};
     this.chapterFilters = {};
     this.openChapters = new Set();
     this.openTopics = new Set();
@@ -290,6 +416,7 @@ const NotesEngine = {
       this.subjectIndexData = await res.json();
       this.subjectIndexData._subjectName = subjectName;
       this.chapterCache = {};
+      this.topicCache = {};
       this.chapterFilters = {};
       this.openChapters = new Set();
       this.openTopics = new Set();
@@ -341,17 +468,11 @@ const NotesEngine = {
       chapterDiv.dataset.chapterId = ch.id;
       chapterDiv.style.cssText = 'grid-column:1/-1;margin-bottom:16px;';
       chapterDiv.innerHTML = `
-        <div class="menu-card" onclick="NotesEngine.toggleChapter('${this._esc(ch.id)}','${this._esc(ch.file)}')">
-          <div class="menu-card-left">
-            <div class="menu-icon">📂</div>
-            <div>
-              <div class="menu-title">${ch.title}</div>
-              <div class="menu-desc">Tap to expand notes</div>
-            </div>
-          </div>
-          <div class="menu-arrow" id="chicon-${ch.id}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:rotate(0deg);">❯</div>
+        <div class="pz-box pz-box--chapter" onclick="NotesEngine.toggleChapter('${this._esc(ch.id)}','${this._esc(ch.file)}')">
+          <span>${ch.title}<small>Tap to open</small></span>
+          <span class="pz-chev" id="chicon-${ch.id}" style="transform:rotate(0deg);">▼</span>
         </div>
-        <div id="chbody-${ch.id}" style="display:none;margin-top:8px;padding:14px 10px;background:#fff;border:1px solid var(--card-border);border-radius:12px;flex-direction:column;gap:10px;width:100%;box-sizing:border-box;box-shadow:0 1px 3px rgba(0,0,0,0.03);"></div>
+        <div id="chbody-${ch.id}" style="display:none;margin-top:10px;flex-direction:column;gap:10px;width:100%;box-sizing:border-box;"></div>
       `;
       fragment.appendChild(chapterDiv);
     });
@@ -395,7 +516,7 @@ const NotesEngine = {
     this.activeSectionKey = null;
 
     body.style.display = 'flex';
-    icon.style.transform = 'rotate(90deg)';
+    icon.style.transform = 'rotate(180deg)';
     this._showOnlyChapter(chapterId); // hide sibling chapters
 
     if (!this.chapterCache[chapterId]) {
@@ -462,15 +583,12 @@ const NotesEngine = {
           if (bodyOpen) this.openTopics.add(sectionKey);
 
           html += `
-            <div class="pz-section-wrap" data-chapter-id="${this._esc(chapterId)}" data-section-key="${this._esc(sectionKey)}" style="display:${wrapHidden ? 'none' : 'block'};border:1px solid var(--card-border);border-left:4px solid var(--primary);border-radius:10px;background:#fff;overflow:hidden;width:100%;box-sizing:border-box;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,0.03);">
-              <div onclick="NotesEngine.toggleSection('${this._esc(sectionKey)}','${this._esc(chapterId)}')" style="background:#eff6ff;padding:14px 16px;font-weight:800;color:var(--primary-dark);font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;gap:10px;">
-                <span style="display:flex;align-items:center;gap:10px;">
-                  <span style="width:34px;height:34px;border-radius:8px;background:#dbeafe;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">🗂️</span>
-                  ${section.title || 'Untitled section'}
-                </span>
-                <span id="tpicon-${sectionKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};color:var(--primary);font-weight:800;">🔽</span>
+            <div class="pz-section-wrap" data-chapter-id="${this._esc(chapterId)}" data-section-key="${this._esc(sectionKey)}" style="display:${wrapHidden ? 'none' : 'block'};width:100%;box-sizing:border-box;margin-bottom:10px;">
+              <div class="pz-box pz-box--section" onclick="NotesEngine.toggleSection('${this._esc(sectionKey)}','${this._esc(chapterId)}')">
+                <span>${section.title || 'Untitled section'}</span>
+                <span class="pz-chev" id="tpicon-${sectionKey}" style="transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};">▼</span>
               </div>
-              <div id="tpbody-${sectionKey}" style="display:${bodyOpen ? 'flex' : 'none'};padding:14px 10px;border-top:1px solid var(--card-border);flex-direction:column;gap:10px;width:100%;box-sizing:border-box;">
+              <div id="tpbody-${sectionKey}" style="display:${bodyOpen ? 'flex' : 'none'};margin-top:10px;flex-direction:column;gap:10px;width:100%;box-sizing:border-box;">
                 ${result.html}
               </div>
             </div>
@@ -509,6 +627,7 @@ const NotesEngine = {
       if (tbody && icon) {
         tbody.style.display = 'flex';
         icon.style.transform = 'rotate(180deg)';
+        if (tbody.dataset.file && tbody.dataset.loaded !== '1') this._loadTopicNotes(tbody);
       }
     });
     if (this.activeSectionKey && this.activeChapterId) {
@@ -599,68 +718,43 @@ const NotesEngine = {
 
     (topics || []).forEach(topic => {
       try {
-        // notes_list missing? treat the topic itself as one note (if it has a basic_overview)
-        const rawNotes = Array.isArray(topic.notes_list)
-          ? topic.notes_list
-          : (topic.basic_overview ? [topic] : []);
-
-        const filteredNotes = rawNotes.filter(note => {
-          const matchesSearch = !query || String(note.title || '').toLowerCase().includes(query) || String(note.basic_overview || '').toLowerCase().includes(query);
-          const matchesTag = activeTag === 'all' || (note.tags || []).includes(activeTag);
-          return matchesSearch && matchesTag;
-        });
-        if (filteredNotes.length === 0) return;
-
         const topicId = topic.topic_id || topic.id;
         const topicTitle = topic.topic_title || topic.title || 'Untitled';
         const topicKey = `${filterKey}__${topicId}`;
-        const topicBodyDisplay = autoExpand ? 'flex' : 'none';
         const topicIconRotate = autoExpand ? 'rotate(180deg)' : 'rotate(0deg)';
+        const bodyStyle = `display:${autoExpand ? 'flex' : 'none'};margin-top:6px;padding:12px 10px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;flex-direction:column;gap:12px;width:100%;box-sizing:border-box;`;
 
-        let topicHtml = `
-          <div style="border:1px solid #cbd5e1;border-radius:6px;background:#fff;overflow:hidden;display:flex;flex-direction:column;width:100%;box-sizing:border-box;">
-            <div onclick="NotesEngine.toggleTopic('${this._esc(topicKey)}')" style="background:#f1f5f9;padding:10px 12px;font-weight:700;color:#334155;font-size:0.95rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;-webkit-tap-highlight-color:transparent;">
-              <span>📄 ${topicTitle}</span>
-              <span id="tpicon-${topicKey}" style="transition:transform 0.2s cubic-bezier(0.4,0,0.2,1);transform:${topicIconRotate};">🔽</span>
-            </div>
-            <div id="tpbody-${topicKey}" style="display:${topicBodyDisplay};padding:12px 4px;border-top:1px solid #cbd5e1;flex-direction:column;gap:12px;width:100%;box-sizing:border-box;">
-        `;
+        // rawNotes === null means: topic lives in its own file and is not loaded yet
+        let rawNotes;
+        if (Array.isArray(topic.notes_list)) rawNotes = topic.notes_list;
+        else if (topic.file) rawNotes = this.topicCache[topic.file] || null;
+        else rawNotes = topic.basic_overview ? [topic] : [];
 
-        filteredNotes.forEach((note, idx) => {
-          try {
-            const btnColor = note.extra_info_btn_color || '#2563eb';
-            const noteKey = `${topicKey}__${note.id || ('n' + idx)}`;
-            const diagramHtml = this._renderDiagram(note);
-            const hasDiagram = !!(note.diagram && typeof note.diagram === 'object' && note.diagram.svg);
-            const hasExtra = !!(note.has_extra_info || hasDiagram);
-
-            topicHtml += `
-              <div style="border-bottom:1px dashed #e2e8f0;padding-bottom:10px;margin-bottom:5px;width:100%;box-sizing:border-box;">
-                <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px;">
-                  <h4 style="margin:0;color:#0f172a;font-size:0.95rem;font-weight:700;line-height:1.4;">${this._safe(note.title)}</h4>
-                  ${hasExtra ? `
-                    <button onclick="NotesEngine.toggleExtraInfo(event, '${this._esc(noteKey)}')" style="background:${btnColor};color:#fff;border:none;width:24px;height:32px;border-radius:6px;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.75rem;letter-spacing:-1px;writing-mode:vertical-lr;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 4px rgba(0,0,0,0.25);flex-shrink:0;" title="Tap for more detail">|||</button>
-                  ` : ''}
-                </div>
-                <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.5;white-space:pre-wrap;">${this._safe(note.basic_overview)}</p>
-                ${hasExtra ? `
-                  <div id="extra-${noteKey}" style="display:none;margin-top:8px;padding:10px 12px;background:#fff8e1;border-left:4px solid ${btnColor};border-radius:4px;">
-                    ${note.extra_info_content ? `<div style="font-size:0.85rem;color:#b78103;white-space:pre-wrap;font-weight:600;line-height:1.4;">${this._safe(note.extra_info_content)}</div>` : ''}
-                    ${diagramHtml}
-                  </div>
-                ` : ''}
-              </div>
-            `;
-          } catch (err) {
-            console.error('Note render failed:', note && note.id, err);
-            topicHtml += `<div style="padding:8px;background:#fef2f2;color:#b91c1c;font-size:0.8rem;border-radius:6px;">⚠️ Note "${(note && note.id) || idx}" render nahi ho paya.</div>`;
-          }
-        });
-
-        topicHtml += `</div></div>`;
+        let bodyHtml;
+        if (rawNotes === null) {
+          if (query) return; // search mode and file failed to load: nothing to match
+          bodyHtml = `<div id="tpbody-${topicKey}" data-file="${this._esc(topic.file)}" data-filter-key="${this._esc(filterKey)}" style="${bodyStyle}"><div style="padding:6px;color:#64748b;font-size:0.85rem;">Loading…</div></div>`;
+        } else {
+          const filteredNotes = rawNotes.filter(note => {
+            if (!note) return false;
+            const matchesSearch = !query || String(note.title || '').toLowerCase().includes(query) || String(note.basic_overview || '').toLowerCase().includes(query);
+            const matchesTag = activeTag === 'all' || (note.tags || []).includes(activeTag);
+            return matchesSearch && matchesTag;
+          });
+          if (filteredNotes.length === 0) return;
+          bodyHtml = `<div id="tpbody-${topicKey}" style="${bodyStyle}">${this._renderNoteCards(topicKey, filteredNotes)}</div>`;
+        }
 
         // Only committed once the whole topic built successfully
-        html += topicHtml;
+        html += `
+          <div style="width:100%;box-sizing:border-box;">
+            <div class="pz-box pz-box--topic" onclick="NotesEngine.toggleTopic('${this._esc(topicKey)}')">
+              <span>${topicTitle}</span>
+              <span class="pz-chev" id="tpicon-${topicKey}" style="transform:${topicIconRotate};">▼</span>
+            </div>
+            ${bodyHtml}
+          </div>
+        `;
         anyTopicVisible = true;
         if (autoExpand) this.openTopics.add(topicKey);
       } catch (err) {
@@ -683,7 +777,7 @@ const NotesEngine = {
     this.renderChapterBody(chapterId);
   },
 
-  toggleTopic: function (topicKey) {
+  toggleTopic: async function (topicKey) {
     const body = document.getElementById(`tpbody-${topicKey}`);
     const icon = document.getElementById(`tpicon-${topicKey}`);
     if (!body || !icon) return;
@@ -691,6 +785,8 @@ const NotesEngine = {
       body.style.display = 'flex';
       icon.style.transform = 'rotate(180deg)';
       this.openTopics.add(topicKey);
+      // v6: topic stored in its own file? load it the first time it opens
+      if (body.dataset.file && body.dataset.loaded !== '1') await this._loadTopicNotes(body);
     } else {
       body.style.display = 'none';
       icon.style.transform = 'rotate(0deg)';
@@ -746,6 +842,14 @@ const NotesEngine = {
         console.error('Search: failed to load chapter', ch.id, err);
       }
     }));
+
+    // v6: topics stored in their own files must be loaded before they can be searched
+    const topicFiles = [];
+    chapters.forEach(ch => {
+      const cd = this.chapterCache[ch.id];
+      if (cd) this._collectTopicFiles(cd).forEach(f => topicFiles.push(f));
+    });
+    await Promise.all(topicFiles.map(f => this._fetchTopicFile(f)));
 
     this.openChapters = new Set();
 
@@ -971,7 +1075,7 @@ const NotesEngine = {
     }
 
     if (!this.openTopics.has(topicKey)) {
-      this.toggleTopic(topicKey);
+      await this.toggleTopic(topicKey);
     }
 
     const el = document.getElementById(`tpbody-${topicKey}`);
