@@ -1,6 +1,8 @@
 {
   "chapters": [
-    { "id": "formula", "title": "Maths formula", "file": "data/notes/govt-exam/maths/mformula.json" }
+    { "id": "formula", "title": "Maths formula", "file": "data/notes/govt-exam/maths/mformula.json" },
+    { "id": "revision", "title": "Maths Revision Formula", "file": "data/notes/govt-exam/maths/mrevision.json" }
+    
     
   ]
 }
