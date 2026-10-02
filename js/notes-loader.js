@@ -770,7 +770,7 @@ const NotesEngine = {
           <div style="width:100%;box-sizing:border-box;">
             <div class="pz-box pz-box--topic" onclick="NotesEngine.toggleTopic('${this._esc(topicKey)}')">
               <span>${topicTitle}</span>
-              <span class="pz-chev" id="tpicon-${topicKey}" style="transform:${topicIconRotate};">▼</span>
+              <span class="pz-chev" id="tpicon-${topicKey}" style="transform:${topicIconRotate};">.</span>
             </div>
             ${bodyHtml}
           </div>
