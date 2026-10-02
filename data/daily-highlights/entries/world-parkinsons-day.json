@@ -1,0 +1,8 @@
+{
+  "id": "world-parkinsons-day",
+  "title": "World Parkinson's Day",
+  "subtitle": "11 April",
+  "blurb": "Raising Awareness and Supporting Research for Parkinson's Disease Management and Care",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='parkinsonsBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#581c87'/></linearGradient><linearGradient id='goldParkinsons' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#c084fc'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseParkinsons { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-parkinsons { animation: pulseParkinsons 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#parkinsonsBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldParkinsons)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-parkinsons'/><circle cx='150' cy='60' r='14' fill='none' stroke='#c084fc' stroke-width='3'/><circle cx='150' cy='60' r='4' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>WORLD PARKINSON'S DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Spreading Awareness and Supporting Care</text></svg>"
+}
