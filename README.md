@@ -3,9 +3,9 @@
 
 **Project URL:** https://2025akshat-lang.github.io/mock-test-platform/
 
-**Project Type:** Modular Mock Test, Educational Notes, and Daily Highlights Web Application
+**Project Type:** Modular Mock Test, Educational Notes, Daily Highlights, Settings, and Question Tools Web Application
 
-**Documentation Status:** Living Document — last updated 2026-10-01
+**Documentation Status:** Living Document — last updated 2026-10-02
 
 **Primary Objective:** Maintain a stable, modular, and fail-safe educational platform where every feature can be independently maintained, debugged, updated, or detached without breaking other features.
 
@@ -18,6 +18,8 @@ To develop a modular educational platform that provides:
 - Examination-oriented mock tests.
 - Subject-wise educational notes and study materials.
 - Daily historical events, national personalities, anniversaries, and quotations.
+- A Settings panel (mock-test colour theme and platform language).
+- Question tools inside the mock test: Save (bookmark) and Report question.
 - A dedicated system for future government job updates.
 - A clearly identifiable section for upcoming application features.
 
@@ -47,6 +49,8 @@ The application is organized into independent functional modules.
 | Mock Test Engine | Test navigation, question rendering, timers, submission, and analysis |
 | Notes Engine | Subject navigation, chapters, topics, filters, and educational content |
 | Daily Highlights | Date-based events, notifications, and daily quotations |
+| Settings | Mock-test colour theme, platform language, reset, crash guard |
+| Question Tools | Save (bookmark) and Report-question buttons, report box, email delivery |
 | Ice Cream UI | Header icon and associated interactions |
 | Ice Cream Background Animation | Background animation effects |
 | Exam Updates | Future government job and examination notifications |
@@ -73,8 +77,11 @@ axat-study-zone/
 │   └── Main application shell and module imports
 │
 ├── css/
-│   └── style.css
-│       └── Global application styling
+│   ├── style.css
+│   │   └── Global application styling
+│   │
+│   └── settings.css
+│       └── Settings panel UI + theme overrides (only active when html[data-theme] is set)
 │
 ├── js/
 │   ├── app.js
@@ -88,6 +95,24 @@ axat-study-zone/
 │   │
 │   ├── daily-highlight.js
 │   │   └── Daily Highlights notification logic
+│   │
+│   ├── settings-core.js
+│   │   └── Settings: safe storage, module registry, crash guard, ?safe=1
+│   │
+│   ├── settings-theme.js
+│   │   └── Settings: theme (white / gray / neon) via <html data-theme>
+│   │
+│   ├── settings-language.js
+│   │   └── Settings: language (English / Hindi) via [data-i18n] + JSON
+│   │
+│   ├── settings-panel.js
+│   │   └── Settings: panel UI + self-registration with ControlPanel
+│   │
+│   ├── question-tools.js
+│   │   └── Question Tools core: Save (bookmark) + Report buttons, DOM context reader
+│   │
+│   ├── question-report.js
+│   │   └── Question Tools: report box, image attach, email sending (FormSubmit)
 │   │
 │   ├── icecream-loader.js
 │   │   └── Header ice cream icon and UI
@@ -105,6 +130,11 @@ axat-study-zone/
 │   │
 │   ├── exam-updates.json
 │   │   └── Reserved data for future government job updates
+│   │
+│   ├── settings/
+│   │   └── lang/
+│   │       ├── hi.json            (Hindi strings, key -> text)
+│   │       └── en.json            (reference only; English text lives in index.html)
 │   │
 │   ├── daily-highlights/
 │   │   ├── calendar.json
@@ -155,9 +185,24 @@ axat-study-zone/
 
 **Important:** The tree is a representative outline. Existing folder names, nested directories, and file paths must be verified against the actual repository before modifying code. Paths inside JSON are case-sensitive and must match the real folder names exactly (e.g. `name-reaction`, not `name-reactions`).
 
+### Script load order in `index.html`
+
+The order matters. Scripts are loaded at the end of `<body>`:
+
+```text
+data-loader.js → notes-loader.js → daily-highlight.js
+→ settings-core.js → settings-theme.js → settings-language.js → settings-panel.js
+→ question-tools.js → question-report.js
+→ app.js
+```
+
+`css/settings.css` is linked in `<head>` right after `css/style.css`.
+
 ---
 
 ## 5. Menu and Panel Organization
+
+The sidebar has three entries: **Mock Tests Setup**, **Short Study Notes** and **Settings**. The old "Future Customize Area" panel (`future-panel`) was replaced by the Settings panel (`settings-panel`, button id `menu-btn-settings-panel`).
 
 ### 5.1 Mock Tests
 
@@ -177,7 +222,7 @@ Main responsibilities:
 - `data/manifest.json`
 - Examination-specific JSON files under `data/`
 
-**Isolation Rule:** The Mock Test Engine must not depend on Notes Engine logic.
+**Isolation Rule:** The Mock Test Engine must not depend on Notes Engine logic. It also does not depend on Settings or Question Tools; those modules read and decorate its DOM from the outside.
 
 ### 5.2 Notes
 
@@ -248,6 +293,68 @@ The planned section should:
 4. Allow future announcements to be changed without modifying the Mock Test or Notes engines.
 
 The exact data format and rendering logic will be finalized when the feature is implemented.
+
+### 5.7 Settings
+
+**Purpose:** Let the user customise the platform without any risk to the other panels. Two settings are implemented: mock-test colour theme and platform language.
+
+**Core files:**
+
+| File | Responsibility |
+|---|---|
+| `js/settings-core.js` | `SettingsCore`: safe `localStorage` (`settings:` prefix), module registry, `boot()`, crash guard, safe mode |
+| `js/settings-theme.js` | Theme: sets or removes `data-theme` on `<html>`. Options: `white` (default), `gray`, `neon` |
+| `js/settings-language.js` | Language: loads `data/settings/lang/<code>.json`, translates every `[data-i18n]` element, English fallback |
+| `js/settings-panel.js` | Renders the panel into `#st-root`, registers `settings-panel` with `ControlPanel.registerPanel()` on `DOMContentLoaded` (no change in `app.js`) |
+| `css/settings.css` | `st-` prefixed panel styles and the theme overrides |
+| `data/settings/lang/hi.json` | Hindi strings (key → text) |
+
+**How each setting works**
+
+- **Theme.** `white` removes the attribute, so the original design is untouched and `settings.css` overrides nothing. `gray` and `neon` define CSS variables (`--pz-bg`, `--pz-card`, `--pz-text`, `--pz-muted`, `--pz-border`) and apply them with `!important` only under `#mock-panel`. Notes and the sidebar are not themed. Some inline `style="background:#fff"` values in `app.js` are matched with attribute selectors.
+- **Language.** Elements carry `data-i18n="key"`. The original English text stays in the HTML as the fallback; a missing key or a missing/invalid JSON file leaves English visible. Scope: sidebar, bottom navigation, and the Settings panel. Test questions and strings generated inside `app.js` are not translated.
+- **Reset.** The panel has a "Reset all settings" button that calls `reset()` on every registered module.
+
+**Adding a new setting later**
+
+1. Create `js/settings-<name>.js` that calls `SettingsCore.register('<name>', { apply, reset, get, set, options })`.
+2. Add a `render<Name>Card()` function in `settings-panel.js`.
+3. Add the `<script>` line before `settings-panel.js` in `index.html`.
+
+**Storage keys:** `settings:theme`, `settings:lang`, `settings:boot`, `settings:notice`.
+
+**Isolation Rule:** Settings must not modify Mock Test or Notes logic. It only sets an attribute on `<html>`, text on `[data-i18n]` elements, and registers one panel hook.
+
+### 5.8 Question Tools (Save and Report)
+
+**Purpose:** Testbook-style tools inside the mock test: save a question for later, and report a problem in a question or its solution.
+
+**Core files:**
+
+| File | Responsibility |
+|---|---|
+| `js/question-tools.js` | `QuestionTools`: injects the ☆ (Save) and ⚠️ (Report) buttons, reads the current question from the DOM, bookmark storage, toasts |
+| `js/question-report.js` | Report box (issue type, description, optional screenshot), image shrinking, sending the email |
+
+**Where the buttons appear**
+
+- Exam screen: inside `#exam-viewport .meta-bar` (next to "Question N").
+- Solution screen: inside `#solution-detail-overlay .sol-detail-header`.
+
+Buttons are injected by JavaScript, and the question data (number, section, text, options, correct answer, explanation) is read from the DOM. `app.js` is not modified. The star state is refreshed by a `MutationObserver` that watches only `#question-container` and `#sol-question-text` (`childList` only, no loop risk).
+
+**Save.** Stored in `localStorage` under `qtools:saved` as `{ <hash of question text>: { q, options, section, ts } }`. There is currently no screen to view the saved list.
+
+**Report.** The box offers five issue types (Question wrong, Option/answer wrong, Solution wrong, Typing/formatting, Other), a required description (minimum 5 characters), and an optional image. The image is resized to at most 1280 px and re-encoded as JPEG before sending. The report is posted as `multipart/form-data` to FormSubmit, a free form-to-email service, which delivers it to the owner's mailbox as a table with the screenshot attached. A 20-second cooldown and a honeypot field limit spam.
+
+**One-time setup for email delivery**
+
+1. Send one test report. FormSubmit mails an activation link to the owner's address; click it once.
+2. FormSubmit then provides a random code. Replace the email inside `CONFIG.endpoint` (top of `question-report.js`) with `https://formsubmit.co/ajax/<random-code>` so the address is not exposed in the public repository.
+
+**Storage key:** `qtools:saved`.
+
+**Isolation Rule:** Question Tools must not modify Mock Test logic. If `question-report.js` is missing, Save still works and Report shows an "unavailable" toast. If `question-tools.js` is missing, `question-report.js` exits silently.
 
 ---
 
@@ -503,6 +610,22 @@ The application must remain usable even when an individual module fails.
 - If no valid event is available, attempt to display a quotation.
 - If both event and quotation data are unavailable, show a graceful empty state.
 
+### Settings
+
+- **White is the default and equals the original design.** The theme file adds nothing when no `data-theme` attribute is present.
+- **Crash guard.** On load `settings:boot` is set to `pending` and changed to `ok` about 1.5 seconds after the page `load` event. If the next load finds `pending` (the previous load did not finish), all settings are reset to defaults and a notice is shown in the Settings panel. A manual refresh within that window can also trigger this reset; that is acceptable.
+- **Safe mode.** Opening the site with `?safe=1` in the URL ignores all saved settings without deleting them.
+- **Whitelist.** An unknown theme or language value falls back to `white` / `en`.
+- **Per-module `try/catch`.** Each module's `apply`, `reset` and render step is wrapped, so one failing setting does not stop the others.
+- A missing Settings script or JSON file only disables that part of Settings; the other panels are unaffected. If the panel script fails, the panel shows its static "Settings are loading…" text.
+
+### Question Tools
+
+- Buttons are injected inside `try/catch`; a failure leaves the original exam screen unchanged.
+- Storage access is wrapped; if `localStorage` is blocked, a toast says the question could not be saved.
+- A failed report send keeps the user's text and offers "Try again".
+- Missing `question-report.js` disables only the Report button.
+
 ### Ice Cream UI
 
 - A failed icon or animation module must not block primary application panels.
@@ -543,16 +666,17 @@ Performance-sensitive changes should be measured before release.
 
 All future changes must follow these rules:
 
-1. Do not replace entire files unless explicitly requested. (For `notes-loader.js` the owner explicitly asked for complete ready-to-use files and generated data zips instead of manual patches; other modules still follow this rule.)
+1. Do not replace entire files unless explicitly requested. (For `notes-loader.js` the owner explicitly asked for complete ready-to-use files and generated data zips instead of manual patches; the same was requested for `index.html` when the Settings and Question Tools scripts were added. Other modules still follow this rule.)
 2. Identify the exact file, function, or code section requiring modification.
 3. Explain the bug or architectural issue before providing the fix.
 4. Make the smallest safe change that solves the problem.
 5. Do not modify Mock Test files to implement Notes features.
 6. Do not modify Notes files to implement Mock Test features.
 7. Keep Daily Highlights logic inside its own module.
-8. Preserve existing functionality while adding new features.
-9. Verify that the modified module works independently.
-10. Update this document whenever the architecture changes significantly.
+8. Keep Settings and Question Tools logic inside their own files; they must read or decorate other modules from the outside and must not edit `app.js` or `notes-loader.js`.
+9. Preserve existing functionality while adding new features.
+10. Verify that the modified module works independently.
+11. Update this document whenever the architecture changes significantly.
 
 ### Debugging Workflow
 
@@ -598,9 +722,36 @@ Completed and not-applicable items have been removed. Verify each remaining item
 - Existing name-reaction SVG diagrams are about 10–33 KB each, above the 3–4 KB guideline. Slim them gradually; each now lives in its own small topic file.
 - `showFailSafe()` behavior still requires verification against the current HTML structure.
 
+### Open Settings and Question Tools items
+
+- Theme coverage is based on class names seen in `index.html` and `app.js`; `css/style.css` was not reviewed. Check gray and neon on every mock-test screen (home, test list, exam, analysis, solution) and add missing selectors to `css/settings.css`.
+- Elements outside `#mock-panel` (for example the Daily Highlights card) are not themed yet.
+- Language scope is limited to sidebar, bottom navigation and the Settings panel.
+- Email delivery of reports needs the one-time FormSubmit activation (section 5.8); the AJAX file-attachment path must be confirmed with a real test report.
+- The report mail does not contain the test name because it is not exposed by `MockPanel`.
+
 ---
 
 ## 13. Maintenance Log
+
+### 2026-10-02 — Settings panel and Question Tools
+
+**Settings panel (replaces the "Future Customize Area")**
+
+- New files: `js/settings-core.js`, `js/settings-theme.js`, `js/settings-language.js`, `js/settings-panel.js`, `css/settings.css`, `data/settings/lang/hi.json` (+ reference `en.json`).
+- `index.html`: `future-panel` replaced by `settings-panel`; sidebar button renamed to Settings; sidebar and bottom-nav labels wrapped with `data-i18n`; `settings.css` linked; four settings scripts added before `app.js`.
+- Theme options: White (default, original design), Light Gray, Light Neon. Language options: English, Hindi.
+- Fail-safe layers: white = no override, crash guard (`settings:boot`), `?safe=1` safe mode, whitelist of values, per-module `try/catch`, English fallback.
+- `app.js` was not modified; the panel registers itself with `ControlPanel.registerPanel('settings-panel', …)`.
+
+**Question Tools (Save and Report)**
+
+- New files: `js/question-tools.js`, `js/question-report.js`.
+- `index.html`: two script lines added (`question-tools.js`, then `question-report.js`) before `app.js`.
+- ☆ Save and ⚠️ Report buttons added to the exam screen meta bar and to the solution screen header. Report box with issue type, description and optional screenshot; sends to the owner's email through FormSubmit.
+- `app.js` was not modified; the question is read from the DOM.
+
+**Status:** files delivered; behaviour on the live site (theme coverage, Hindi labels, report email) still to be verified.
 
 ### 2026-10-01 — Notes Engine and name-reaction data
 
@@ -617,12 +768,14 @@ Completed and not-applicable items have been removed. Verify each remaining item
 - Search across the subject (loads all topic files the first time).
 - Quick-jump dropdown to a topic.
 - `|||` panel with a diagram.
+- Settings: sidebar opens Settings; gray and neon readable on all mock screens; Hindi labels persist after refresh; `?safe=1` shows defaults.
+- Question Tools: ☆ toggles and persists; ⚠️ opens the report box on both screens; test report (with screenshot) arrives by email after FormSubmit activation.
 
 ---
 
 ## 14. About the Project
 
-Akshat Study Zone is a modular educational platform designed to combine mock examinations, structured study notes, daily educational highlights, and future examination-related updates.
+Akshat Study Zone is a modular educational platform designed to combine mock examinations, structured study notes, daily educational highlights, user settings, in-test question tools, and future examination-related updates.
 
 The architecture emphasizes independent modules, reusable data structures, controlled error handling, and maintainable code.
 
@@ -646,6 +799,8 @@ The long-term objective is to expand the platform without compromising existing 
 - Add systematic performance checks for mobile and desktop.
 - Optional: a small validation script that checks every topic file and path before upload.
 - Continue modularizing future features so they can be independently tested and maintained.
+- Settings: tune `css/settings.css` against the real `style.css`; extend theming to Daily Highlights if wanted; translate strings generated inside `app.js` (needs an agreed hook such as a `t()` helper).
+- Question Tools: add a "Saved Questions" list (Reports tab or Settings); translate the report box; include the test name in report mails (would need `MockPanel` to expose it); switch the FormSubmit endpoint to the random code after activation.
 
 ---
 
@@ -658,7 +813,7 @@ When working on this project, follow these instructions:
 3. Use English for code comments and technical documentation.
 4. Explain technical changes in clear, concise Hinglish when communicating with the project owner.
 5. Provide the exact file path and specific function or code section to modify, or a ready-to-use complete file when the owner has asked for that (see rule 1 in section 11).
-6. Preserve the separation between Mock Test, Notes, Daily Highlights, and other feature modules.
+6. Preserve the separation between Mock Test, Notes, Daily Highlights, Settings, Question Tools, and other feature modules.
 7. Check for performance regressions and unintended side effects.
 8. Verify that changes do not break unrelated panels.
 9. Check JSON paths against the real folder names (case-sensitive) before delivering data files.
