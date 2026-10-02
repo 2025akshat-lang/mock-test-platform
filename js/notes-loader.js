@@ -389,7 +389,7 @@ const NotesEngine = {
       html += `
         <div onclick="NotesEngine.toggleCategory(${ci})" style="grid-column:1/-1;margin-top:15px;margin-bottom:5px;cursor:pointer;-webkit-tap-highlight-color:transparent;user-select:none;display:flex;align-items:center;justify-content:space-between;gap:10px;">
           <h3 style="margin:0;color:#0f172a;font-size:1.15rem;border-left:4px solid #2563eb;padding-left:8px;font-family:sans-serif;">${category.name}</h3>
-          <span class="pz-chev" id="caticon-${ci}" style="display:inline-block;font-size:0.8rem;color:#64748b;transition:transform .2s;transform:rotate(0deg);">▼</span>
+          <span class="pz-chev" id="caticon-${ci}" style="display:inline-block;font-size:0.8rem;color:#64748b;transition:transform .2s;transform:rotate(0deg);">.</span>
         </div>
         <div id="catbody-${ci}" style="grid-column:1/-1;display:none;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;">
       `;
@@ -606,7 +606,7 @@ const NotesEngine = {
             <div class="pz-section-wrap" data-chapter-id="${this._esc(chapterId)}" data-section-key="${this._esc(sectionKey)}" style="display:${wrapHidden ? 'none' : 'block'};width:100%;box-sizing:border-box;margin-bottom:10px;">
               <div class="pz-box pz-box--section" onclick="NotesEngine.toggleSection('${this._esc(sectionKey)}','${this._esc(chapterId)}')">
                 <span>${section.title || 'Untitled section'}</span>
-                <span class="pz-chev" id="tpicon-${sectionKey}" style="transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};">▼</span>
+                <span class="pz-chev" id="tpicon-${sectionKey}" style="transform:${bodyOpen ? 'rotate(180deg)' : 'rotate(0deg)'};">.</span>
               </div>
               <div id="tpbody-${sectionKey}" style="display:${bodyOpen ? 'flex' : 'none'};margin-top:10px;flex-direction:column;gap:10px;width:100%;box-sizing:border-box;">
                 ${result.html}
