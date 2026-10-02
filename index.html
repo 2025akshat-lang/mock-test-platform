@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akshat Study Zone</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- ⚙️ Settings styles (white theme me kuch override nahi karti) -->
+  <link rel="stylesheet" href="css/settings.css">
 
   <!-- DOMPurify: सुरक्षित HTML रेंडरिंग के लिए (Corrected CDN) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js"></script>
@@ -217,9 +219,9 @@ window.typesetMath = function (el) {
   <!-- SIDEBAR NAVIGATION MENU -->
   <div class="sidebar-overlay" id="sidebar-overlay" onclick="ControlPanel.toggleSidebar()"></div>
   <div class="sidebar-menu" id="sidebar-menu">
-    <button class="menu-item active" id="menu-btn-mock-panel" onclick="ControlPanel.switchPanel('mock-panel')">🎯 Mock Tests Setup</button>
-    <button class="menu-item" id="menu-btn-notes-panel" onclick="ControlPanel.switchPanel('notes-panel')">📝 Short Study Notes</button>
-    <button class="menu-item" id="menu-btn-future-panel" onclick="ControlPanel.switchPanel('future-panel')">🔮 Future Customize Area</button>
+    <button class="menu-item active" id="menu-btn-mock-panel" onclick="ControlPanel.switchPanel('mock-panel')">🎯 <span data-i18n="menu.mock">Mock Tests Setup</span></button>
+    <button class="menu-item" id="menu-btn-notes-panel" onclick="ControlPanel.switchPanel('notes-panel')">📝 <span data-i18n="menu.notes">Short Study Notes</span></button>
+    <button class="menu-item" id="menu-btn-settings-panel" onclick="ControlPanel.switchPanel('settings-panel')">⚙️ <span data-i18n="menu.settings">Settings</span></button>
   </div>
 
   <!-- FAIL-SAFE ERROR SCREEN -->
@@ -266,15 +268,15 @@ window.typesetMath = function (el) {
       <div class="bottom-nav">
         <div class="nav-tab-item active" onclick="MockPanel.goToHome()">
           <div class="nav-tab-icon">🏠</div>
-          <div>Home</div>
+          <div data-i18n="nav.home">Home</div>
         </div>
         <div class="nav-tab-item" onclick="MockPanel.openAttemptedList()">
           <div class="nav-tab-icon">📊</div>
-          <div>Reports</div>
+          <div data-i18n="nav.reports">Reports</div>
         </div>
         <div class="nav-tab-item" onclick="MockPanel.promptUserEmail()">
           <div class="nav-tab-icon">👤</div>
-          <div>Account</div>
+          <div data-i18n="nav.account">Account</div>
         </div>
       </div>
     </div>
@@ -469,28 +471,31 @@ window.typesetMath = function (el) {
 
 
   <!-- ============================================================
-       🔮 PANEL 3: FUTURE CUSTOMIZE AREA
+       ⚙️ PANEL 3: SETTINGS (isolated: js/settings-*.js + css/settings.css)
        ============================================================ -->
-  <div id="future-panel" class="app-panel-wrapper">
-    <div class="notes-container">
+  <div id="settings-panel" class="app-panel-wrapper">
+    <div class="st-wrap">
       <div class="app-top-bar" style="margin-bottom: 15px; border-radius: 8px;">
         <div class="hamburger-btn" onclick="ControlPanel.toggleSidebar()">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div style="font-weight: 700; font-size: 1.1rem; color: #1e293b;">🔮 Custom Zone</div>
+        <div style="font-weight: 700; font-size: 1.1rem; color: #1e293b;">⚙️ <span data-i18n="st.title">Settings</span></div>
       </div>
-      <div class="notes-card">
-        <h3>Future Customization Dashboard</h3>
-        <p>Yeh panel puri tarah khali hai. Yahan aap bina kisi interference ke apna naya code ya feature add kar sakte hain.</p>
-      </div>
+      <!-- Settings JS yahan render karta hai. JS fail ho to yahi text dikhega, baaki app safe -->
+      <div id="st-root">Settings are loading…</div>
     </div>
   </div>
     <!-- 🔄 Yahan order theek karna hai: DataLoader ko pehle load karo -->
   <script src="js/data-loader.js"></script>
     <script src="js/notes-loader.js"></script>
     <script src="js/daily-highlight.js"></script>
+    <!-- ⚙️ Settings modules (order zaroori: core → theme → language → panel) -->
+    <script src="js/settings-core.js"></script>
+    <script src="js/settings-theme.js"></script>
+    <script src="js/settings-language.js"></script>
+    <script src="js/settings-panel.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
