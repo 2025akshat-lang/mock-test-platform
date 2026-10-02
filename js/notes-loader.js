@@ -490,7 +490,7 @@ const NotesEngine = {
       chapterDiv.innerHTML = `
         <div class="pz-box pz-box--chapter" onclick="NotesEngine.toggleChapter('${this._esc(ch.id)}','${this._esc(ch.file)}')">
           <span>${ch.title}<small>Tap to open</small></span>
-          <span class="pz-chev" id="chicon-${ch.id}" style="transform:rotate(0deg);">▼</span>
+          <span class="pz-chev" id="chicon-${ch.id}" style="transform:rotate(0deg);">.</span>
         </div>
         <div id="chbody-${ch.id}" style="display:none;margin-top:10px;flex-direction:column;gap:10px;width:100%;box-sizing:border-box;"></div>
       `;
