@@ -1,0 +1,8 @@
+{
+  "id": "earth-day",
+  "title": "Earth Day",
+  "subtitle": "22 April",
+  "blurb": "Demonstrating Global Support for Environmental Protection and Sustainable Living",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='earthBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#14532d'/><stop offset='100%' stop-color='#166534'/></linearGradient><linearGradient id='goldEarth' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#86efac'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseEarth { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-earth { animation: pulseEarth 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#earthBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldEarth)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-earth'/><circle cx='150' cy='60' r='14' fill='none' stroke='#86efac' stroke-width='3'/><circle cx='150' cy='60' r='4' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>EARTH DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Protecting Our Planet and Environment</text></svg>"
+}
