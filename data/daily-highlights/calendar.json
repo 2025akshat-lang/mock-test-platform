@@ -15,9 +15,10 @@
   "01-15": ["army-day.json", "thiruvalluvar-day.json"],
   "01-16": ["national-startup-day.json"],
   "01-23": ["netaji-jayanti.json", "parakram-diwas.json"],
-  "01-24": ["homibhabha.json", "national-girl-child-day.json"],
+  "01-24": ["homibhabha.json", "national-girl-child-day.json","international-day-of-education.json"],
   "01-25": ["national-voters-day.json", "national-tourism-day.json"],
   "01-26": ["republic-day.json", "international-customs-day.json"],
+  "01-27": ["international-holocaust-remembrance-day.json"],
   "01-28": ["lala-lajpat-rai-jayanti.json"],
   "01-30": ["martyrs-day.json", "world-leprosy-day.json"],
 
