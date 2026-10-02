@@ -24,6 +24,11 @@
  *    The file is fetched only when the topic is opened (and cached). Old inline
  *    "notes_list" topics keep working unchanged.
  *
+ * v6.1 changes:
+ *  - NEW: exam category headers (Govt Exams / PSU-Technical) are now
+ *    collapsible dropdowns. Subjects open only when the header is tapped
+ *    (toggleCategory). Everything else is unchanged.
+ *
  * v5 changes:
  *  - NEW: optional "diagram" field on a note: { "svg": "<svg ...>", "caption": "..." }
  *    It renders INSIDE the colored ||| extra-info panel (only visible
@@ -362,6 +367,8 @@ const NotesEngine = {
 
   // ------------------------------------------------------------
   // 2. Level 1: Exam categories -> Subjects
+  //    v6.1: each category header is a collapsible dropdown.
+  //    Subjects stay hidden until the header is tapped.
   // ------------------------------------------------------------
   renderExamCategories: function () {
     if (!this.manifestData) return;
@@ -378,11 +385,13 @@ const NotesEngine = {
     if (!grid) return;
 
     let html = '';
-    (this.manifestData.exam_categories || []).forEach(category => {
+    (this.manifestData.exam_categories || []).forEach((category, ci) => {
       html += `
-        <div style="grid-column:1/-1;margin-top:15px;margin-bottom:5px;">
+        <div onclick="NotesEngine.toggleCategory(${ci})" style="grid-column:1/-1;margin-top:15px;margin-bottom:5px;cursor:pointer;-webkit-tap-highlight-color:transparent;user-select:none;display:flex;align-items:center;justify-content:space-between;gap:10px;">
           <h3 style="margin:0;color:#0f172a;font-size:1.15rem;border-left:4px solid #2563eb;padding-left:8px;font-family:sans-serif;">${category.name}</h3>
+          <span class="pz-chev" id="caticon-${ci}" style="display:inline-block;font-size:0.8rem;color:#64748b;transition:transform .2s;transform:rotate(0deg);">▼</span>
         </div>
+        <div id="catbody-${ci}" style="grid-column:1/-1;display:none;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;">
       `;
       (category.subjects || []).forEach(subject => {
         html += `
@@ -392,6 +401,7 @@ const NotesEngine = {
           </div>
         `;
       });
+      html += `</div>`;
     });
     grid.innerHTML = html;
 
@@ -404,6 +414,16 @@ const NotesEngine = {
     const qjSubject = document.getElementById('qj-subject');
     if (qjSubject) qjSubject.value = '';
     this._resetQuickJumpDownstream();
+  },
+
+  // v6.1: open/close one exam category (Govt Exams / PSU-Technical)
+  toggleCategory: function (ci) {
+    const body = document.getElementById(`catbody-${ci}`);
+    const icon = document.getElementById(`caticon-${ci}`);
+    if (!body || !icon) return;
+    const isOpen = body.style.display === 'grid';
+    body.style.display = isOpen ? 'none' : 'grid';
+    icon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
   },
 
   // ------------------------------------------------------------
