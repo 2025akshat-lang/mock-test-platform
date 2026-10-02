@@ -1,0 +1,8 @@
+{
+  "id": "army-day",
+  "title": "Army Day",
+  "subtitle": "15 January",
+  "blurb": "Honoring the Valour, Selfless Sacrifice, and Dedication of the Indian Army Personnel",
+  "type": "National Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='armyBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#14532d'/></linearGradient><linearGradient id='goldArmy' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#4ade80'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseArmy { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-army { animation: pulseArmy 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#armyBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldArmy)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-army'/><circle cx='150' cy='60' r='14' fill='none' stroke='#4ade80' stroke-width='3'/><circle cx='150' cy='60' r='4' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>ARMY DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Saluting the Valor of the Indian Army</text></svg>"
+}

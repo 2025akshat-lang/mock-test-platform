@@ -1,0 +1,8 @@
+{
+  "id": "african-national-congress-foundation-day",
+  "title": "African National Congress Foundation Day",
+  "subtitle": "8 January",
+  "blurb": "Commemorating the Establishment of South Africa's Historic Liberation Movement and Its Fight Against Apartheid",
+  "type": "Global Awareness Day",
+  "svg": "<svg viewBox='0 0 300 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='ancBg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='#0f172a'/><stop offset='50%' stop-color='#1e293b'/><stop offset='100%' stop-color='#14532d'/></linearGradient><linearGradient id='goldAnc' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='#4ade80'/><stop offset='100%' stop-color='#facc15'/></linearGradient><style>@keyframes pulseAnc { 0% { transform: scale(0.96); opacity: 0.7; } 50% { transform: scale(1.04); opacity: 1; } 100% { transform: scale(0.96); opacity: 0.7; } } .animated-anc { animation: pulseAnc 3s infinite ease-in-out; transform-origin: center; }</style></defs><rect width='300' height='150' fill='url(#ancBg)'/><circle cx='150' cy='60' r='38' fill='none' stroke='url(#goldAnc)' stroke-width='1.5' stroke-dasharray='5 3' class='animated-anc'/><circle cx='150' cy='60' r='14' fill='none' stroke='#4ade80' stroke-width='3'/><circle cx='150' cy='60' r='4' fill='#facc15'/><text x='150' y='124' text-anchor='middle' font-family='sans-serif' font-size='9' font-weight='700' fill='#f8fafc' letter-spacing='0.5'>AFRICAN NATIONAL CONGRESS DAY</text><text x='150' y='136' text-anchor='middle' font-family='sans-serif' font-size='8' font-weight='500' fill='#cbd5e1'>Honoring South Africa's Liberation Movement</text></svg>"
+}
