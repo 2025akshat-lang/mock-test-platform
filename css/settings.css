@@ -1,0 +1,80 @@
+/* ============================================================
+   ⚙️ SETTINGS CSS
+   Rule: theme sirf html[data-theme="gray|neon"] hone par kaam karta hai.
+   Default (white) me yeh file kuch bhi override nahi karti.
+   Mock panel ke andar hi scope hai (#mock-panel) — Notes panel safe.
+   ============================================================ */
+
+/* ---------- Settings panel UI (apni st- classes) ---------- */
+.st-wrap { padding: 20px; font-family: sans-serif; width: 100%; box-sizing: border-box; }
+.st-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.st-card-title { font-weight: 800; font-size: 1.05rem; color: #1e293b; margin-bottom: 12px; }
+.st-opt-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.st-opt { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border: 2px solid #cbd5e1; background: #fff; color: #1e293b; border-radius: 8px; font-size: .95rem; font-weight: 600; cursor: pointer; }
+.st-opt.active { border-color: #2563eb; background: #eff6ff; }
+.st-dot { width: 16px; height: 16px; border-radius: 50%; border: 1px solid #94a3b8; display: inline-block; }
+.st-note { margin-top: 10px; font-size: .8rem; color: #64748b; }
+.st-msg { background: #fef9c3; border: 1px solid #facc15; color: #713f12; padding: 10px 12px; border-radius: 8px; margin-bottom: 14px; font-size: .9rem; }
+.st-reset { width: 100%; padding: 11px; border: 1px solid #fca5a5; background: #fff; color: #b91c1c; border-radius: 8px; font-weight: 700; cursor: pointer; }
+
+/* ---------- Theme variables ---------- */
+html[data-theme="gray"] {
+  --pz-bg: #e5e7eb; --pz-card: #f3f4f6; --pz-text: #111827;
+  --pz-muted: #4b5563; --pz-border: #9ca3af; --pz-soft: #d1d5db;
+}
+html[data-theme="neon"] {
+  --pz-bg: #e6fff7; --pz-card: #f4fffb; --pz-text: #04302b;
+  --pz-muted: #0f5f56; --pz-border: #2dd4bf; --pz-soft: #b8ffe9;
+}
+
+/* ---------- Theme apply (sirf Mock panel) ---------- */
+html[data-theme] #mock-panel,
+html[data-theme] #mock-panel .app-screen,
+html[data-theme] #mock-panel .dashboard-body,
+html[data-theme] #mock-panel .main-viewport,
+html[data-theme] #mock-panel .question-wrapper {
+  background: var(--pz-bg) !important;
+  color: var(--pz-text) !important;
+}
+
+html[data-theme] #mock-panel .app-top-bar,
+html[data-theme] #mock-panel .bottom-nav,
+html[data-theme] #mock-panel .menu-card,
+html[data-theme] #mock-panel .sub-card,
+html[data-theme] #mock-panel .test-series-card,
+html[data-theme] #mock-panel .option-card,
+html[data-theme] #mock-panel .mock-sol-card,
+html[data-theme] #mock-panel .notes-card,
+html[data-theme] #mock-panel .exam-footer-bar,
+html[data-theme] #mock-panel .question-palette-drawer,
+html[data-theme] #mock-panel .solution-detail-overlay {
+  background: var(--pz-card) !important;
+  color: var(--pz-text) !important;
+  border-color: var(--pz-border) !important;
+}
+
+html[data-theme] #mock-panel .menu-title,
+html[data-theme] #mock-panel .series-title,
+html[data-theme] #mock-panel .page-title,
+html[data-theme] #mock-panel .q-text-content,
+html[data-theme] #mock-panel h2,
+html[data-theme] #mock-panel h3 { color: var(--pz-text) !important; }
+
+html[data-theme] #mock-panel .menu-desc,
+html[data-theme] #mock-panel .series-meta,
+html[data-theme] #mock-panel .series-meta span { color: var(--pz-muted) !important; }
+
+/* app.js ki inline style wali white backgrounds (cards, palette, solution nav) */
+html[data-theme] #mock-panel [style*="background:#fff"],
+html[data-theme] #mock-panel [style*="background: #fff"],
+html[data-theme] #mock-panel [style*="background:#ffffff"],
+html[data-theme] #mock-panel [style*="background: #ffffff"],
+html[data-theme] #mock-panel [style*="background:#f8fafc"],
+html[data-theme] #mock-panel [style*="background: #f8fafc"] {
+  background: var(--pz-card) !important;
+  color: var(--pz-text) !important;
+}
+
+/* inline grey text (#64748b) ko readable rakho */
+html[data-theme] #mock-panel [style*="color:#64748b"],
+html[data-theme] #mock-panel [style*="color: #64748b"] { color: var(--pz-muted) !important; }
