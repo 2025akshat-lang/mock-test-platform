@@ -1,0 +1,25 @@
+{
+  "chapter_title": "Bioinorganic Chemistry",
+  "topics": [
+    {
+      "topic_id": "essential-metals",
+      "topic_title": "Essential metal ions in biology",
+      "file": "data/notes/psu-chemistry/inorganic/bioinorganic/essential-metals.json"
+    },
+    {
+      "topic_id": "heme",
+      "topic_title": "Hemoglobin and myoglobin",
+      "file": "data/notes/psu-chemistry/inorganic/bioinorganic/heme.json"
+    },
+    {
+      "topic_id": "carbonic-anhydrase",
+      "topic_title": "Zinc carbonic anhydrase mechanism",
+      "file": "data/notes/psu-chemistry/inorganic/bioinorganic/carbonic-anhydrase.json"
+    },
+    {
+      "topic_id": "iron-biology",
+      "topic_title": "Iron-based biological chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/bioinorganic/iron-biology.json"
+    }
+  ]
+}
