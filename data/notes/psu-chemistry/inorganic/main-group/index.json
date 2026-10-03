@@ -1,0 +1,40 @@
+{
+  "chapter_title": "Main Group Elements",
+  "topics": [
+    {
+      "topic_id": "group-gradation",
+      "topic_title": "Group relationships and gradation",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/group-gradation.json"
+    },
+    {
+      "topic_id": "boron-family",
+      "topic_title": "Boron family and electron-deficient compounds",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/boron-family.json"
+    },
+    {
+      "topic_id": "carbon-family",
+      "topic_title": "Carbon family: catenation, oxides and halides",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/carbon-family.json"
+    },
+    {
+      "topic_id": "nitrogen-family",
+      "topic_title": "Nitrogen family chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/nitrogen-family.json"
+    },
+    {
+      "topic_id": "oxygen-family",
+      "topic_title": "Oxygen family: oxides, hydrides and peroxides",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/oxygen-family.json"
+    },
+    {
+      "topic_id": "halogens",
+      "topic_title": "Halogens and interhalogens",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/halogens.json"
+    },
+    {
+      "topic_id": "electron-deficient",
+      "topic_title": "Electron-deficient and multicentre bonding",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/electron-deficient.json"
+    }
+  ]
+}
