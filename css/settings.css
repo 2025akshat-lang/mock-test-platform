@@ -6,7 +6,18 @@
    ============================================================ */
 
 /* ---------- Settings panel UI (apni st- classes) ---------- */
-.st-wrap { padding: 20px; font-family: sans-serif; width: 100%; box-sizing: border-box; }
+/* Scroll fix: panel apna khud ka scroll container hai (page ki height fixed ho tab bhi chalta hai) */
+.st-wrap {
+  padding: 20px 20px 90px;
+  font-family: sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
 .st-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
 .st-card-title { font-weight: 800; font-size: 1.05rem; color: #1e293b; margin-bottom: 12px; }
 .st-opt-row { display: flex; flex-wrap: wrap; gap: 10px; }
