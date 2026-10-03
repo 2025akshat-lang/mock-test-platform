@@ -1,0 +1,41 @@
+{
+  "subject_title": "Inorganic Chemistry — IIT JAM (CY) Deep Notes",
+  "chapters": [
+    {
+      "id": "periodic-table",
+      "title": "Periodic Table",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/index.json"
+    },
+    {
+      "id": "chemical-bonding",
+      "title": "Chemical Bonding & Shapes",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/index.json"
+    },
+    {
+      "id": "main-group",
+      "title": "Main Group Elements",
+      "file": "data/notes/psu-chemistry/inorganic/main-group/index.json"
+    },
+    {
+      "id": "transition-coordination",
+      "title": "Transition Metals & Coordination Chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/index.json"
+    },
+    {
+      "id": "organometallic",
+      "title": "Organometallic Chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/organometallic/index.json"
+    },
+    {
+      "id": "bioinorganic",
+      "title": "Bioinorganic Chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/bioinorganic/index.json"
+    },
+    {
+      "id": "analytical-extraction",
+      "title": "Analytical & Extraction Chemistry",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/index.json"
+    }
+  ],
+  "architecture": "Each chapter has its own index.json; each topic is an independent JSON with SVG molecular/formula-stage diagrams."
+}
