@@ -1,0 +1,41 @@
+{
+  "topic_id": "aldehyde-ketone-tests",
+  "topic_title": "Aldehyde and Ketone Tests",
+  "notes_list": [
+    {
+      "id": "aldehyde-ketone-tests-n01",
+      "title": "Aldehyde and Ketone Tests",
+      "tags": [
+        "aldehyde",
+        "ketone",
+        "Tollens",
+        "Fehling"
+      ],
+      "basic_overview": "Aldehydes are generally more readily oxidized than ketones and can be distinguished by classic silver-ion and copper(II) reduction tests.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Tollens reagent can oxidize aldehydes while reducing Ag(I) to metallic silver. Fehling/Benedict-type systems can be reduced by suitable aliphatic aldehydes under alkaline conditions.",
+      "examples": "RCHO → RCOO− with Tollens under alkaline aqueous conditions; ketones generally do not give the same response.",
+      "conditions_and_medium": "Aqueous alkaline medium is typical. Fresh Tollens reagent is used for qualitative testing.",
+      "mechanism_steps": "Aldehyde hydrate or related reactive form is oxidized while metal ion is reduced. The exact mechanistic picture depends on medium and substrate.",
+      "kinetics_and_energy": "Redox feasibility depends on thermodynamics and kinetics; complexation and pH affect the apparent test response.",
+      "selectivity_and_stereochemistry": "High-yield functional-group identification.",
+      "common_traps": "Some α-hydroxy ketones can reduce copper reagents; therefore a positive test is not uniquely “aldehyde” in every formulation.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Aldehyde and Ketone Tests — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Carbonyl tests</text><circle cx='25' cy='48' r='4' fill='#0891b2'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>Tollens → Ag mirror</text><circle cx='25' cy='73' r='4' fill='#0891b2'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>Fehling/Benedict → Cu reduction</text><circle cx='25' cy='98' r='4' fill='#0891b2'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>aldehydes readily oxidized</text><circle cx='25' cy='123' r='4' fill='#0891b2'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>consider exceptions</text></svg>"
+      }
+    }
+  ]
+}

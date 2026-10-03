@@ -1,0 +1,30 @@
+{
+  "chapter_title": "Qualitative Organic Analysis",
+  "topics": [
+    {
+      "id": "alcohol-tests",
+      "title": "Alcohol Functional Group Tests",
+      "file": "qualitative-analysis/alcohol-tests.json"
+    },
+    {
+      "id": "phenol-tests",
+      "title": "Phenol Tests and Reactions",
+      "file": "qualitative-analysis/phenol-tests.json"
+    },
+    {
+      "id": "aldehyde-ketone-tests",
+      "title": "Aldehyde and Ketone Tests",
+      "file": "qualitative-analysis/aldehyde-ketone-tests.json"
+    },
+    {
+      "id": "carboxylic-acid-tests",
+      "title": "Carboxylic Acid Identification",
+      "file": "qualitative-analysis/carboxylic-acid-tests.json"
+    },
+    {
+      "id": "amine-tests",
+      "title": "Amine Functional Group Tests",
+      "file": "qualitative-analysis/amine-tests.json"
+    }
+  ]
+}

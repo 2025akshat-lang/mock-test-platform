@@ -1,0 +1,39 @@
+{
+  "topic_id": "carboxylic-acid-tests",
+  "topic_title": "Carboxylic Acid Identification",
+  "notes_list": [
+    {
+      "id": "carboxylic-acid-tests-n01",
+      "title": "Carboxylic Acid Identification",
+      "tags": [
+        "carboxylic-acid",
+        "qualitative-analysis"
+      ],
+      "basic_overview": "Carboxylic acids are acidic enough to react with bicarbonate/carbonate, releasing carbon dioxide gas.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "The effervescence test is useful because many weaker organic acids do not liberate CO2 under the same conditions. Salt formation and acid-base extraction also exploit this property.",
+      "examples": "RCO2H + NaHCO3 → RCO2Na + CO2 + H2O.",
+      "conditions_and_medium": "Aqueous bicarbonate/carbonate; observe gas evolution and confirm identity with additional tests if needed.",
+      "mechanism_steps": "Proton transfer to bicarbonate generates carbonic acid, which decomposes to CO2 and water.",
+      "kinetics_and_energy": "Acid-base reactions are rapid; gas evolution drives the equilibrium toward products.",
+      "selectivity_and_stereochemistry": "Used in qualitative analysis and separation schemes.",
+      "common_traps": "Phenols generally do not produce the same vigorous bicarbonate effervescence because they are weaker acids.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Carboxylic Acid Identification — concept schematic",
+        "svg": "<svg viewBox='0 0 360 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='150' rx='12' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='45' font-size='15' font-family='Arial' font-weight='700' fill='#0f172a'>RCO2H</text><line x1='112' y1='38' x2='238' y2='38' stroke='#64748b' stroke-width='2'/><polygon points='238,38 228,32 228,44' fill='#64748b'/><text x='145' y='27' font-size='11' font-family='Arial' fill='#2563eb'>NaHCO3(aq)</text><text x='258' y='45' font-size='15' font-family='Arial' font-weight='700' fill='#0f172a'>RCO2Na + CO2</text><text x='18' y='88' font-size='12' font-family='Arial' fill='#475569'>acid-base + gas evolution</text><text x='18' y='118' font-size='11' font-family='Arial' fill='#64748b'>electron flow / stereochemical consequence / selectivity should be tracked</text></svg>"
+      }
+    }
+  ]
+}

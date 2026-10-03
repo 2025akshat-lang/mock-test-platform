@@ -1,0 +1,39 @@
+{
+  "topic_id": "phenol-tests",
+  "topic_title": "Phenol Tests and Reactions",
+  "notes_list": [
+    {
+      "id": "phenol-tests-n01",
+      "title": "Phenol Tests and Reactions",
+      "tags": [
+        "phenol",
+        "functional-group-test"
+      ],
+      "basic_overview": "Phenols show characteristic acidity and color/complexation reactions because the phenoxide ion is resonance-stabilized.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Ferric chloride can give colored complexes with many phenols; bromination of activated phenols is rapid; phenol reacts with base to form phenoxide more readily than ordinary alcohols.",
+      "examples": "Phenol + Br2(aq) gives polybromination under suitable conditions. FeCl3 is a common qualitative test but not universal for every phenolic compound.",
+      "conditions_and_medium": "Aqueous/basic medium favors phenoxide; bromination conditions determine degree of substitution.",
+      "mechanism_steps": "Phenoxide formation increases ring activation. Electrophilic substitution occurs readily at ortho/para positions because the OH group donates by resonance.",
+      "kinetics_and_energy": "Acid-base equilibrium is rapid compared with many downstream substitutions; resonance stabilization controls acidity.",
+      "selectivity_and_stereochemistry": "Use tests as a combined identification scheme, not isolated proof.",
+      "common_traps": "Not every FeCl3-positive compound is a simple phenol; hydroxamic acids and other chelating species can also respond.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Phenol Tests and Reactions — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Phenol chemistry</text><circle cx='25' cy='48' r='4' fill='#16a34a'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>ArOH ⇌ ArO− + H+</text><circle cx='25' cy='73' r='4' fill='#16a34a'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>Fe3+ complex</text><circle cx='25' cy='98' r='4' fill='#16a34a'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>Br2 substitution</text><circle cx='25' cy='123' r='4' fill='#16a34a'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>o/p activation</text></svg>"
+      }
+    }
+  ]
+}
