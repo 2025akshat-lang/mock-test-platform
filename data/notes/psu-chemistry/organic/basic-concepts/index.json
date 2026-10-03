@@ -4,22 +4,22 @@
     {
       "id": "electronic-inductive",
       "title": "Electronic Effects — Inductive Effect",
-      "file": "basic-concepts/electronic-inductive.json"
+      "file": "data/notes/psu-chemistry/organic/basic-concepts/electronic-inductive.json"
     },
     {
       "id": "electronic-resonance",
       "title": "Resonance / Mesomeric Effect",
-      "file": "basic-concepts/electronic-resonance.json"
+      "file": "data/notes/psu-chemistry/organic/basic-concepts/electronic-resonance.json"
     },
     {
       "id": "hyperconjugation",
       "title": "Hyperconjugation",
-      "file": "basic-concepts/hyperconjugation.json"
+      "file": "data/notes/psu-chemistry/organic/basic-concepts/hyperconjugation.json"
     },
     {
       "id": "aromaticity",
       "title": "Aromaticity and Hückel Criterion",
-      "file": "basic-concepts/aromaticity.json"
+      "file": "data/notes/psu-chemistry/organic/basic-concepts/aromaticity.json"
     },
     {
       "id": "organic-acidity",
@@ -29,7 +29,7 @@
     {
       "id": "organic-basicity",
       "title": "Basicity of Organic Compounds",
-      "file": "basic-concepts/organic-basicity.json"
+      "file": "data/notes/psu-chemistry/organic/basic-concepts/organic-basicity.json"
     }
   ]
 }
