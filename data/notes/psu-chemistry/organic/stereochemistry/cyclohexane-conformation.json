@@ -1,42 +1,529 @@
 {
   "topic_id": "cyclohexane-conformation",
-  "topic_title": "Conformational Analysis — Cyclohexane",
+  "topic_title": "Conformational Analysis — Acyclic & Cyclohexane (Complete)",
   "notes_list": [
     {
       "id": "cyclohexane-conformation-n01",
-      "title": "Conformational Analysis — Cyclohexane",
+      "title": "Stage 1 — Basics: Conformation, Projections, Dihedral Angle & Types of Strain",
       "tags": [
         "conformation",
-        "cyclohexane",
-        "chair",
-        "axial",
-        "equatorial"
+        "newman projection",
+        "sawhorse",
+        "dihedral angle",
+        "torsional strain",
+        "steric strain",
+        "angle strain",
+        "basics"
       ],
-      "basic_overview": "Cyclohexane adopts nonplanar conformations; chair is strongly preferred because it minimizes torsional and angle strain.",
+      "basic_overview": "Conformations (conformers/rotamers) are different spatial arrangements of the same molecule obtained by rotation about a single (sigma) bond, without breaking any bond. They are interconvertible at room temperature, so they are normally not separable. Stability of a conformer is inversely proportional to its potential energy: Stability ∝ 1/P.E. Energy is raised by three kinds of strain: torsional, steric and angle strain.",
       "has_extra_info": true,
       "extra_info_btn_color": "#2563eb",
-      "extra_info_content": "Chair conformations have axial and equatorial positions. Ring flip converts axial↔equatorial while retaining up/down orientation. Bulky groups generally prefer equatorial positions.",
-      "examples": "Methylcyclohexane is more stable with methyl equatorial. For disubstituted cyclohexanes, determine whether both substituents can be equatorial in one chair.",
-      "conditions_and_medium": "Equilibrium between chairs is temperature-dependent but normally rapid at room temperature for ordinary cyclohexanes.",
-      "mechanism_steps": "1. Draw chair. 2. Mark axial positions alternating up/down. 3. Convert substituent up/down to axial/equatorial. 4. Ring flip without changing up/down. 5. Compare A-values qualitatively.",
-      "kinetics_and_energy": "Axial penalty is often discussed using A-values; disubstituted conformers can be compared by summing substituent penalties as an approximation.",
-      "selectivity_and_stereochemistry": "High-yield for stereochemical stability and E2 reactions on cyclohexanes.",
-      "common_traps": "Ring flip does not convert cis to trans. It only exchanges axial and equatorial positions.",
+      "extra_info_content": "CONFORMATION vs CONFIGURATION:\n• Conformational isomers: interconvert by rotation about single bonds, no bond breaking, low barrier (< ~60 kJ/mol), cannot be isolated at RT.\n• Configurational isomers (enantiomers, diastereomers, cis/trans): need bond breaking to interconvert, can be isolated.\n\nWAYS OF DRAWING A CONFORMATION:\n1) Newman projection: look along the C–C bond. FRONT carbon = a dot at the centre (three bonds meet at the centre). BACK carbon = the circle (three bonds come out of the circle edge).\n2) Sawhorse projection: C–C bond drawn as a slanted line; front carbon at the lower left, back carbon at the upper right.\n3) Fischer projection: represents only the fully ECLIPSED conformation.\n4) Wedge-dash / zig-zag line drawing.\n\nDIHEDRAL (TORSIONAL) ANGLE θ: angle between two substituents on adjacent carbons, seen in the Newman projection. θ = 0° → eclipsed (syn-periplanar), 60° → gauche (synclinal), 120° → partially eclipsed (anticlinal), 180° → anti (antiperiplanar).\n\nTYPES OF STRAIN:\n• Torsional strain (Pitzer strain): repulsion between bonding electron pairs of eclipsed bonds. Present in eclipsed forms, absent in staggered.\n• Steric strain (van der Waals strain): repulsion when two bulky groups come closer than the sum of their van der Waals radii (e.g., gauche CH3/CH3, 1,3-diaxial).\n• Angle strain (Baeyer strain): deviation of bond angles from the ideal 109.5° (important in small rings).\n\nSTAGGERED vs ECLIPSED: In staggered, bonds on adjacent carbons are 60° apart; in eclipsed they are directly in front of each other. Staggered is always more stable than eclipsed for the same substituents.",
+      "examples": "Q: What is the dihedral angle between the two CH3 groups in the anti conformer of butane?  Ans: 180°.\nQ: Which projection shows the molecule in the eclipsed form only?  Ans: Fischer projection.\nQ: Is rotation about C=C possible without bond breaking?  Ans: No — the pi bond must break, so cis/trans isomers are configurational, not conformational.\nQ: Two Newman projections of ethane differ by 60° rotation. Are they isomers?  Ans: They are conformers (same compound).",
+      "conditions_and_medium": "Conformational interconversion is rapid at room temperature (rotational barrier of ethane ≈ 12 kJ/mol; thermal energy RT ≈ 2.5 kJ/mol at 298 K, barrier crossed ~10^10 times per second). Low-temperature NMR (< −100 °C) can freeze and observe individual conformers. Solvent polarity can shift the equilibrium if conformers have different dipole moments.",
+      "mechanism_steps": "STAGE-WISE: HOW TO DRAW A NEWMAN PROJECTION FROM A GIVEN STRUCTURE\nSTEP 1. Identify the bond you must look along (e.g., C2–C3 of butane). Write the front carbon and the back carbon.\nSTEP 2. Draw a circle. The front carbon = centre point with 3 bonds meeting there (spaced at 120°). The back carbon = same 3 bonds, but starting from the circle edge.\nSTEP 3. Put the substituents from the structure on each carbon (butane: on C2 → CH3, H, H; on C3 → CH3, H, H).\nSTEP 4. Fix one CH3 up on the front carbon (this is the reference position).\nSTEP 5. Rotate the back carbon in steps of 60° to generate all conformers.\nSTEP 6. At each step note the dihedral angle between the heavy groups (CH3/CH3).\nSTEP 7. Label each as staggered (60°, 180°, 300°) or eclipsed (0°, 120°, 240°), then rank by strain.",
+      "kinetics_and_energy": "Stability ∝ 1/P.E. Total strain = torsional + steric + angle strain. Typical eclipsing costs: H/H ≈ 4 kJ/mol; CH3/H ≈ 6 kJ/mol; CH3/CH3 ≈ 11 kJ/mol (approx., used in butane analysis). Gauche CH3/CH3 steric cost ≈ 3.8 kJ/mol.",
+      "selectivity_and_stereochemistry": "Conformational analysis explains product ratios and reaction rates (E2 needs anti-periplanar geometry, ring-flip decides axial/equatorial reactivity). Conformers of chiral-looking arrangements (e.g., gauche butane, +60° and −60°) are enantiomeric but interconvert rapidly, so the compound is optically inactive.",
+      "common_traps": "1) Conformers ≠ configurational isomers. Do not call cis/trans a conformational pair.\n2) Anti and gauche are BOTH staggered (60° multiples). Eclipsed ones are 0° and 120°.\n3) In Newman projection the dot/centre is the FRONT carbon; the circle is the BACK carbon.\n4) Fischer projection is eclipsed — not the most stable form.\n5) 'Stability ∝ 1/P.E.' — higher energy means less stable; do not reverse.",
       "exam_focus": {
         "level": "IIT-JAM / MSc entrance / GATE concept depth",
-        "must_revise": [],
+        "must_revise": [
+          "Conformer vs configurational isomer",
+          "Newman: front = dot, back = circle",
+          "Dihedral angle 0°/60°/120°/180° names",
+          "Torsional vs steric vs angle strain",
+          "Stability ∝ 1/P.E."
+        ],
+        "practice_style": [
+          "conceptual comparison",
+          "projection drawing",
+          "Newman ↔ sawhorse conversion"
+        ]
+      },
+      "diagram": {
+        "caption": "Dihedral angle and names of conformations",
+        "svg": "<svg viewBox='0 0 360 185' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='185' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Dihedral angle θ — names</text><circle cx='25' cy='46' r='4' fill='#7c3aed'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>0° — eclipsed (syn-periplanar) — highest energy</text><circle cx='25' cy='71' r='4' fill='#7c3aed'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>60° — gauche (synclinal) — staggered</text><circle cx='25' cy='96' r='4' fill='#7c3aed'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>120° — partially eclipsed (anticlinal)</text><circle cx='25' cy='121' r='4' fill='#7c3aed'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>180° — anti (antiperiplanar) — lowest energy</text><circle cx='25' cy='146' r='4' fill='#7c3aed'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Stability ∝ 1 / Potential Energy</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n02",
+      "title": "Stage 2 — Ethane & Propane Conformations (Torsional Strain)",
+      "tags": [
+        "ethane",
+        "propane",
+        "staggered",
+        "eclipsed",
+        "torsional strain",
+        "rotational barrier",
+        "energy profile"
+      ],
+      "basic_overview": "Ethane has two extreme conformations: staggered (θ = 60°, most stable) and eclipsed (θ = 0°, least stable). The energy difference (rotational barrier) is about 12 kJ/mol (2.9 kcal/mol), arising from three H/H eclipsing interactions of ~4 kJ/mol each. Propane's barrier is ≈ 14 kJ/mol because a CH3/H eclipsing interaction (~6 kJ/mol) replaces one H/H interaction.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "ETHANE: staggered ⇄ eclipsed every 60° rotation. Energy curve is a cosine wave with 3 maxima (eclipsed) and 3 minima (staggered) per 360°.\n• Barrier = 12 kJ/mol = 3 × 4 kJ/mol (three H/H eclipsings).\n• Cause: older view — repulsion between C–H bonding electron clouds (torsional/Pitzer strain). Modern view — extra stabilisation of the staggered form by hyperconjugation (σC–H → σ*C–H anti-periplanar overlap), which is lost in the eclipsed form.\n\nPROPANE: barrier ≈ 14 kJ/mol = 2 × 4 (two H/H eclipsings) + 6 (one CH3/H eclipsing).\nFrom this: CH3/H eclipsing ≈ 6 kJ/mol (used later for butane).\n\nSYMMETRY: staggered ethane has D3d symmetry; eclipsed ethane has D3h.\nStaggered ethane is non-polar with zero dipole in both forms.",
+      "examples": "Q: Barrier to rotation in ethane?  Ans: ≈ 12 kJ/mol (2.9 kcal/mol).\nQ: How many H/H eclipsing interactions are in eclipsed ethane?  Ans: 3 (each ≈ 4 kJ/mol).\nQ: Barrier in propane?  Ans: ≈ 14 kJ/mol (higher than ethane because CH3/H eclipsing costs more).\nQ: Number of energy minima in a 360° rotation of ethane?  Ans: 3 (and 3 maxima).",
+      "conditions_and_medium": "At 25 °C ethane rotates about 10^10–10^11 times per second, so staggered/eclipsed cannot be separated. At very low temperatures (liquid He range), the rotation slows enough to be studied by microwave spectroscopy.",
+      "mechanism_steps": "STAGE-WISE: ENERGY PROFILE OF ETHANE\nSTEP 1. Draw the staggered Newman projection (θ = 60°). Assign energy = 0.\nSTEP 2. Rotate the back carbon by 60° → eclipsed. Count the eclipsing pairs: 3 H/H.\nSTEP 3. Energy of eclipsed = 3 × 4 = 12 kJ/mol.\nSTEP 4. Rotate another 60° → staggered (energy 0 again). Repeat to complete 360°.\nSTEP 5. Plot energy vs dihedral angle: minima at 60°, 180°, 300°; maxima at 0°, 120°, 240°, 360°.\nSTEP 6. For propane, replace one H on the back carbon by CH3; at eclipsed one pair is CH3/H = 6, the other two are H/H = 4 + 4, so total = 14 kJ/mol.",
+      "kinetics_and_energy": "Ethane: ΔE(eclipsed − staggered) = 12 kJ/mol. Propane: 14 kJ/mol. n-Butane: highest barrier = 19 kJ/mol (fully eclipsed above anti, see next stage). Rotation rate k = (kT/h) e^(−ΔG‡/RT).",
+      "selectivity_and_stereochemistry": "Staggered ethane has all C–H bonds anti to a C–H bond on the other carbon, which maximises σC–H → σ*C–H hyperconjugation. Ethane is achiral in all conformations.",
+      "common_traps": "1) Barrier in ethane is 12 kJ/mol (not 3 kJ/mol or 20 kJ/mol).\n2) Total barrier ≠ one H/H interaction; it is the sum of three.\n3) Do not say 'only torsional strain exists' for propane — CH3/H eclipsing also adds some steric contribution.\n4) Ethane does not have a gauche conformer (all H identical, 60° is just staggered).",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Ethane barrier 12 kJ/mol = 3 × 4",
+          "Propane barrier 14 kJ/mol; CH3/H eclipsing 6 kJ/mol",
+          "Three minima & three maxima per 360° rotation",
+          "Hyperconjugation explanation (modern view)"
+        ],
+        "practice_style": [
+          "energy profile graph",
+          "numerical (sum of eclipsing interactions)"
+        ]
+      },
+      "diagram": {
+        "caption": "Ethane: P.E. vs dihedral angle (schematic)",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='13' font-family='Arial' font-weight='700' fill='#0f172a'>Ethane: P.E. vs dihedral angle</text><path d='M30 60 C 45 60, 55 150, 70 150 S 95 60, 110 60 S 135 150, 150 150 S 175 60, 190 60 S 215 150, 230 150 S 255 60, 270 60 S 295 150, 310 150' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='22' y='52' font-size='10' font-family='Arial' fill='#dc2626'>Ecl 0°</text><text x='60' y='168' font-size='10' font-family='Arial' fill='#16a34a'>Stag 60°</text><text x='100' y='52' font-size='10' font-family='Arial' fill='#dc2626'>Ecl 120°</text><text x='140' y='168' font-size='10' font-family='Arial' fill='#16a34a'>Stag 180°</text><text x='180' y='52' font-size='10' font-family='Arial' fill='#dc2626'>Ecl 240°</text><text x='220' y='168' font-size='10' font-family='Arial' fill='#16a34a'>Stag 300°</text><text x='18' y='125' font-size='10' font-family='Arial' fill='#7c3aed'>12 kJ/mol</text><text x='18' y='204' font-size='9' font-family='Arial' fill='#64748b'>Barrier = 3 H/H eclipsing × 4 kJ/mol = 12 kJ/mol</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n03",
+      "title": "Stage 3 — n-Butane: Anti > Gauche > Partially Eclipsed > Fully Eclipsed",
+      "tags": [
+        "butane",
+        "anti",
+        "gauche",
+        "partially eclipsed",
+        "fully eclipsed",
+        "dihedral angle",
+        "energy diagram",
+        "population"
+      ],
+      "basic_overview": "Looking along C2–C3 of n-butane, four main conformers appear. Stability order (for the same molecule): Anti > Gauche > Partially eclipsed > Fully eclipsed. Rule from notes: the larger the dihedral angle between the two big groups (CH3/CH3), the lower the repulsion and the higher the stability, as long as the arrangement is staggered.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "DIHEDRAL ANGLE (between the two CH3 groups) AND ENERGY:\n• ANTI — θ = 180° — staggered — 0 kJ/mol (reference). Most stable, CH3 groups as far apart as possible.\n• GAUCHE — θ = 60° — staggered — 3.8 kJ/mol (0.9 kcal/mol). CH3/CH3 steric (van der Waals) repulsion.\n• PARTIALLY ECLIPSED — θ = 120° — eclipsed — ≈ 16 kJ/mol. Eclipsing: CH3/H (6) + H/H (4) + H/H (4) = 14 kJ/mol torsional-type cost + small steric part ≈ 16.\n• FULLY ECLIPSED — θ = 0° — eclipsed — ≈ 19 kJ/mol. Eclipsing: CH3/CH3 (≈ 11) + H/H (4) + H/H (4) = 19 kJ/mol. Highest energy, least stable.\n\nHOW TO RECOGNISE EACH ONE QUICKLY:\n• Both CH3 on opposite sides (down vs up), staggered → ANTI.\n• CH3 next to each other, staggered, 60° → GAUCHE.\n• CH3 eclipses an H (one CH3 on top of an H) → PARTIALLY ECLIPSED.\n• CH3 directly on top of the other CH3 → FULLY ECLIPSED.\n\nENERGY PROFILE: 2 equal gauche minima (+60°, −60°, enantiomeric), 1 global minimum (anti), 2 equal partially eclipsed maxima, 1 global maximum (fully eclipsed).\n\nPOPULATION at 25 °C: ≈ 70% anti, ≈ 30% gauche (15% + 15%). Eclipsed forms are not populated (they are transition states).\n\nDIPOLE: anti-butane has zero dipole moment (symmetrical). For substituted analogues like 1,2-dichloroethane, anti has μ = 0 while gauche has a net dipole.",
+      "examples": "Q: Arrange the conformers of butane in decreasing stability.  Ans: Anti > Gauche > Partially eclipsed > Fully eclipsed.\nQ: What is the energy difference between anti and gauche butane?  Ans: ≈ 3.8 kJ/mol (0.9 kcal/mol).\nQ: Which butane conformer has the highest energy?  Ans: Fully eclipsed (θ = 0°).\nQ: Number of energy minima in the 360° rotation about C2–C3 of butane?  Ans: 3 (one anti + two gauche).\nQ: How many distinct conformers are transition states?  Ans: Eclipsed ones (partially eclipsed ×2, fully eclipsed ×1).",
+      "conditions_and_medium": "Gas phase/non-polar solvent: anti dominates (~70%). Barrier anti → gauche (via partially eclipsed) ≈ 16 kJ/mol, so interconversion is fast at 25 °C (butane is optically inactive). In polar solvents, gauche forms of polar analogues become relatively more stable (see exceptions stage).",
+      "mechanism_steps": "STAGE-WISE: RANK ANY BUTANE-TYPE CONFORMERS\nSTEP 1. Draw Newman projection along C2–C3 and note the two big groups (CH3).\nSTEP 2. Find dihedral angle between the two big groups: 180°, 60°, 120° or 0°.\nSTEP 3. Decide staggered (60° or 180°) vs eclipsed (120° or 0°).\nSTEP 4. Staggered ones are more stable than eclipsed ones.\nSTEP 5. Within staggered: bigger angle between big groups wins (anti 180° > gauche 60°).\nSTEP 6. Within eclipsed: if the big groups themselves eclipse each other (0°), that is the worst (fully eclipsed). If the big group eclipses only an H (120°), it is less bad (partially eclipsed).\nSTEP 7. Final order: Anti > Gauche > Partially eclipsed > Fully eclipsed.\nSTEP 8. Quick energy sum (optional): add eclipsing costs: H/H 4, CH3/H 6, CH3/CH3 11; gauche CH3/CH3 3.8.",
+      "kinetics_and_energy": "Relative energies (kJ/mol): Anti 0; Gauche 3.8; Partially eclipsed ≈ 16; Fully eclipsed ≈ 19. Population ratio anti:gauche from ΔG = −RT ln K, with ΔG ≈ 3.8 kJ/mol: K(anti/one gauche) ≈ e^(3.8/2.48) ≈ 4.6, so anti ≈ 70% (K per pair of gauche ≈ 2.3).",
+      "selectivity_and_stereochemistry": "Gauche butane exists as a pair of enantiomeric conformers (+60°, −60°) which interconvert quickly, so butane shows no optical activity. The anti conformer is achiral (Ci). Anti-periplanar geometry is important for E2 and for σ → σ* hyperconjugation.",
+      "common_traps": "1) Gauche is 60° (staggered), not 120°.\n2) Anti and gauche are both staggered; partially eclipsed and fully eclipsed are both eclipsed.\n3) Partially eclipsed (120°) is more stable than fully eclipsed (0°) — people mix these up.\n4) Energy difference anti–gauche is only 3.8 kJ/mol, not 16 or 19.\n5) Eclipsed conformers are transition states, not isolable conformers.\n6) The order is for NON-interacting groups; if H-bonding is possible, gauche can win (next stage).",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Anti > Gauche > Partially eclipsed > Fully eclipsed",
+          "θ values 180°, 60°, 120°, 0°",
+          "Energies 0, 3.8, ~16, ~19 kJ/mol",
+          "3 minima (anti + 2 gauche), 3 maxima",
+          "Eclipsing cost table: H/H 4, CH3/H 6, CH3/CH3 11"
+        ],
+        "practice_style": [
+          "conceptual comparison",
+          "energy profile diagram",
+          "numerical (sum of interactions)"
+        ]
+      },
+      "diagram": {
+        "caption": "Butane: P.E. vs dihedral angle (schematic)",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='13' font-family='Arial' font-weight='700' fill='#0f172a'>n-Butane: P.E. vs dihedral angle</text><path d='M40 40 C 60 40, 70 140, 88 140 S 120 80, 137 80 S 170 170, 185 170 S 215 80, 233 80 S 265 140, 282 140 S 310 40, 330 40' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='20' y='36' font-size='10' font-family='Arial' fill='#dc2626'>FE 0°</text><text x='60' y='158' font-size='10' font-family='Arial' fill='#f59e0b'>Gauche 60°</text><text x='112' y='72' font-size='10' font-family='Arial' fill='#dc2626'>PE 120°</text><text x='158' y='188' font-size='10' font-family='Arial' fill='#16a34a'>Anti 180°</text><text x='210' y='72' font-size='10' font-family='Arial' fill='#dc2626'>PE 240°</text><text x='262' y='158' font-size='10' font-family='Arial' fill='#f59e0b'>Gauche 300°</text><text x='305' y='36' font-size='10' font-family='Arial' fill='#dc2626'>FE 360°</text><text x='18' y='204' font-size='9' font-family='Arial' fill='#64748b'>FE = fully eclipsed (19), PE = partially eclipsed (16), gauche 3.8, anti 0 kJ/mol</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n04",
+      "title": "Stage 4 — Exception: Gauche > Anti (H-bonding, Gauche Effect, Solvent Effect)",
+      "tags": [
+        "gauche effect",
+        "hydrogen bonding",
+        "ethylene glycol",
+        "2-fluoroethanol",
+        "1,2-difluoroethane",
+        "1,2-dichloroethane",
+        "exception",
+        "solvent effect"
+      ],
+      "basic_overview": "Normal rule: Anti > Gauche. Exception: when the substituents on adjacent carbons can interact favourably, the gauche conformer is MORE stable than anti. Main reasons: (1) intramolecular hydrogen bonding (ethylene glycol, 2-fluoroethanol, ethylene chlorohydrin) and (2) the gauche effect from hyperconjugation/electronegativity (1,2-difluoroethane).",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "1) ETHYLENE GLYCOL HO–CH2–CH2–OH: gauche more stable. Intramolecular O–H···O hydrogen bond is possible only when the two OH are at 60° (gauche); in anti (180°) they are too far.\n2) 2-FLUOROETHANOL F–CH2–CH2–OH: gauche more stable. O–H···F intramolecular hydrogen bond (weak) + gauche effect.\n3) ETHYLENE CHLOROHYDRIN (2-chloroethanol) Cl–CH2–CH2–OH: gauche favoured (O–H···Cl interaction, dipole effect).\n4) 1,2-DIFLUOROETHANE F–CH2–CH2–F: gauche more stable than anti by ~3–4 kJ/mol even with no H-bond. Reason — GAUCHE EFFECT: hyperconjugation σ(C–H) → σ*(C–F) is best when C–H is anti to C–F, which is achieved in the gauche arrangement of the two C–F bonds. Fluorine is the strongest case.\n\nWHEN THE NORMAL RULE STILL HOLDS: 1,2-dichloroethane and 1,2-dibromoethane in the gas phase/non-polar solvent (large Cl/Br dipole/steric repulsion → anti favoured). In polar solvents the gauche proportion of 1,2-dichloroethane increases because the gauche form has a net dipole and is stabilised by the solvent.\n\nSOLVENT EFFECT: Intramolecular H-bond is strongest in gas phase/non-polar solvents (CCl4, hexane). In water or other H-bonding solvents the molecule H-bonds to solvent instead, so the gauche preference decreases.\n\nEXTRA CASES: 2-aminoethanol (gauche, O–H···N), meso-/dl-tartaric acid derivatives, 1,2-diols in general — vicinal H-bond donors/acceptors prefer gauche.",
+      "examples": "Q: In which conformer is ethylene glycol most stable?  Ans: Gauche, due to intramolecular H-bonding.\nQ: Compare stability of anti and gauche for 2-fluoroethanol.  Ans: Gauche > anti (O–H···F H-bond / gauche effect).\nQ: Which has a higher percentage of gauche: 1,2-difluoroethane or n-butane?  Ans: 1,2-difluoroethane (gauche is actually the global minimum).\nQ: Anti form of 1,2-dichloroethane has a dipole moment of?  Ans: Zero (the two C–Cl dipoles cancel). Gauche has a non-zero dipole.\nQ: Predict the effect of water as solvent on gauche preference of ethylene glycol.  Ans: It decreases, because water breaks the intramolecular H-bond.",
+      "conditions_and_medium": "Intramolecular H-bond conformers are favoured in dilute solution and non-polar media (no intermolecular competition). Polar solvents stabilise the conformer with the larger dipole moment (e.g., gauche 1,2-dichloroethane). Temperature increase raises the proportion of the higher-energy conformer.",
+      "mechanism_steps": "STAGE-WISE: IS THE ANTI RULE VALID FOR THIS MOLECULE?\nSTEP 1. Draw the Newman projection along the C–C bond between the two substituents.\nSTEP 2. Check the substituents: is one an H-bond donor (–OH, –NH2) and the other a donor or acceptor (–OH, –F, –Cl, –NH2, –OR)?\nSTEP 3. If YES → gauche (60°) brings them close enough for an intramolecular H-bond; H-bond stabilisation (≈ 10–20 kJ/mol in gas phase) beats the ~3.8 kJ/mol steric penalty → Gauche > Anti.\nSTEP 4. If NO H-bond but two C–F (or C–F/C–O) bonds → gauche effect → gauche > anti.\nSTEP 5. If NO H-bond and groups are bulky or large halogens (Cl, Br) in a non-polar medium → normal rule: Anti > Gauche.\nSTEP 6. Finally check the solvent: polar/H-bonding solvents reduce the H-bond effect.",
+      "kinetics_and_energy": "H-bond stabilisation: ~10–20 kJ/mol in the gas phase (O–H···O in ethylene glycol ≈ 8–10 kJ/mol net). Gauche effect (1,2-difluoroethane): ≈ 2–4 kJ/mol in favour of gauche. Normal steric penalty of gauche: 3.8 kJ/mol.",
+      "selectivity_and_stereochemistry": "Vicinal diols, halohydrins and amino alcohols prefer gauche. This also explains compact gauche arrangements in sugars (O–C–C–O), peptides and polyfluorinated molecules (fluorine gauche effect is used in drug design to control conformation).",
+      "common_traps": "1) Do not apply 'Anti > Gauche' blindly. First look for possible H-bonding (or fluorine gauche effect).\n2) The groups must be on ADJACENT carbons (vicinal) for the 60° geometry to give a 5-membered H-bond ring (O–H···O).\n3) In 1,2-dichloroethane the gauche is NOT more stable in the gas phase — only its proportion rises in polar solvents.\n4) H-bonded gauche is preferred in non-polar solvent; in water the advantage drops.\n5) 1,2-difluoroethane's gauche preference is not from H-bonding.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Ethylene glycol: gauche > anti (H-bond)",
+          "2-Fluoroethanol: gauche > anti",
+          "1,2-Difluoroethane: gauche effect (hyperconjugation)",
+          "1,2-Dichloroethane: anti in gas phase, gauche ↑ in polar solvent",
+          "Solvent effect on intramolecular H-bond"
+        ],
+        "practice_style": [
+          "exception identification",
+          "conceptual comparison",
+          "dipole moment questions"
+        ]
+      },
+      "diagram": {
+        "caption": "When does Gauche beat Anti?",
+        "svg": "<svg viewBox='0 0 360 185' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='185' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Gauche > Anti: exceptions</text><circle cx='25' cy='46' r='4' fill='#dc2626'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>HO–CH2–CH2–OH → intramolecular H-bond</text><circle cx='25' cy='71' r='4' fill='#dc2626'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>F–CH2–CH2–OH → O–H···F H-bond</text><circle cx='25' cy='96' r='4' fill='#dc2626'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>F–CH2–CH2–F → gauche effect (σC–H→σ*C–F)</text><circle cx='25' cy='121' r='4' fill='#dc2626'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>Cl–CH2–CH2–Cl → anti (gas), gauche ↑ in polar solvent</text><circle cx='25' cy='146' r='4' fill='#dc2626'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Normal alkanes (butane) → Anti > Gauche</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n05",
+      "title": "Stage 5 — Ring Strain in Cycloalkanes (Baeyer Strain Theory)",
+      "tags": [
+        "baeyer strain",
+        "ring strain",
+        "heat of combustion",
+        "cyclopropane",
+        "cyclobutane",
+        "cyclopentane",
+        "cyclohexane",
+        "angle strain"
+      ],
+      "basic_overview": "Cycloalkane stability is measured by the heat of combustion per CH2 group. Baeyer assumed rings to be planar and calculated angle strain from the deviation from 109°28′. The theory works for 3- and 4-membered rings but fails from cyclohexane onward because larger rings are puckered, not planar. Cyclohexane in the chair form is completely strain-free.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "BAEYER ANGLE DEVIATION: d = ½ [109°28′ − (internal angle of the planar ring)]\n• Cyclopropane (60°): d = 24°44′ (very high strain, bent 'banana' bonds)\n• Cyclobutane (90°): d = 9°44′\n• Cyclopentane (108°): d = 0°44′ (almost strain-free as planar; actually puckers into an envelope to relieve torsional strain)\n• Cyclohexane (planar, 120°): d = −5°16′ (negative = angles too large). Baeyer predicted instability, but real cyclohexane is puckered and strain-free.\n\nHEAT OF COMBUSTION PER CH2 (kJ/mol) and TOTAL RING STRAIN (kJ/mol), approx.:\n• Cyclopropane: 697 → 115 (27.5 kcal)\n• Cyclobutane: 686 → 110 (26.3 kcal)\n• Cyclopentane: 664 → 26 (6.2 kcal)\n• Cyclohexane: 659 → 0\n• Cycloheptane: 662 → 26 (6.2 kcal)\n• Cyclooctane: 664 → 40 (9.7 kcal)\n(Open-chain alkane reference = 658.6 kJ per CH2.)\n\nWHY BAEYER FAILED: He assumed planar rings. Sachse–Mohr showed that cyclohexane (and larger rings) can pucker into strain-free chair forms with all angles ≈ 109.5°.\n\nSHAPES: Cyclopropane is planar (3 points always planar). Cyclobutane is a puckered 'butterfly' (~25° fold) to reduce eclipsing. Cyclopentane adopts an envelope (half-chair). Cyclohexane adopts the chair.",
+      "examples": "Q: Which cycloalkane has zero ring strain?  Ans: Cyclohexane (chair).\nQ: Calculate Baeyer strain for cyclobutane.  Ans: ½ (109°28′ − 90°) = 9°44′.\nQ: Rank in increasing heat of combustion per CH2: cyclopropane, cyclobutane, cyclopentane, cyclohexane.  Ans: cyclohexane < cyclopentane < cyclobutane < cyclopropane.\nQ: Why is cyclopropane so reactive in ring-opening?  Ans: High angle + torsional strain (≈ 115 kJ/mol).",
+      "conditions_and_medium": "Strain energy is obtained experimentally from heat of combustion (bomb calorimetry) compared with a strain-free reference of n × 658.6 kJ/mol. Cyclopropane, cyclobutane react in ring-opening (hydrogenation, halogenation); cyclopentane and cyclohexane don't.",
+      "mechanism_steps": "STAGE-WISE: FIND THE STRAIN IN A GIVEN RING\nSTEP 1. Write the internal angle for a planar n-gon: 60°, 90°, 108°, 120°.\nSTEP 2. Apply d = ½ (109°28′ − angle). Positive = angles compressed; negative = angles stretched.\nSTEP 3. Larger |d| means higher angle strain (cyclopropane > cyclobutane > cyclopentane).\nSTEP 4. Then correct for puckering: rings of size ≥ 5 can pucker to reduce strain; use heat of combustion per CH2 for actual strain.\nSTEP 5. Total strain = (ΔHc per CH2 − 658.6) × n.\nSTEP 6. Conclude: cyclohexane (chair) = 0 strain; hence all later analysis of cyclohexane uses the chair.",
+      "kinetics_and_energy": "Total ring strain (kJ/mol): cyclopropane ≈ 115, cyclobutane ≈ 110, cyclopentane ≈ 26, cyclohexane ≈ 0, cycloheptane ≈ 26, cyclooctane ≈ 40. Cyclopropane's strain is mostly angle strain + torsional (all C–H eclipsed).",
+      "selectivity_and_stereochemistry": "Strain governs reactivity: cyclopropane/cyclobutane undergo ring-opening reactions (e.g., hydrogenolysis, electrophilic addition for cyclopropane). Cyclohexane ring chemistry is dominated by chair conformation stereoelectronics (next stages).",
+      "common_traps": "1) Baeyer theory is wrong for rings ≥ 6 because it assumes planarity.\n2) Cyclohexane planar d is −5°16′ (negative sign), not +5°16′.\n3) Cyclopentane is NOT planar in reality (envelope) even though Baeyer d is small.\n4) Strain per CH2 is compared using heat of combustion; use per-CH2 values for comparing rings of different sizes.\n5) Cyclopropane is the only cycloalkane that must be planar.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "d = ½(109°28′ − α) values: 24°44′, 9°44′, 0°44′, −5°16′",
+          "Heat of combustion per CH2 trend",
+          "Strain: cyclopropane > cyclobutane >> cyclopentane > cyclohexane = 0",
+          "Limitation of Baeyer theory (planarity assumption)"
+        ],
+        "practice_style": [
+          "numerical (angle deviation)",
+          "conceptual comparison",
+          "reasoning on reactivity"
+        ]
+      },
+      "diagram": {
+        "caption": "Baeyer angle deviation and ring strain",
+        "svg": "<svg viewBox='0 0 360 185' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='185' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Baeyer strain: d = ½(109°28′ − α)</text><circle cx='25' cy='46' r='4' fill='#2563eb'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>Cyclopropane: 24°44′  (strain ≈ 115 kJ/mol)</text><circle cx='25' cy='71' r='4' fill='#2563eb'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>Cyclobutane: 9°44′  (strain ≈ 110 kJ/mol)</text><circle cx='25' cy='96' r='4' fill='#2563eb'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>Cyclopentane: 0°44′  (strain ≈ 26 kJ/mol)</text><circle cx='25' cy='121' r='4' fill='#2563eb'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>Cyclohexane planar: −5°16′ (chair: strain 0)</text><circle cx='25' cy='146' r='4' fill='#2563eb'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Baeyer assumed planar rings → fails for n ≥ 6</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n06",
+      "title": "Stage 6 — Cyclohexane Conformers: Chair > Twist Boat > Boat > Half Chair",
+      "tags": [
+        "cyclohexane",
+        "chair",
+        "boat",
+        "twist boat",
+        "half chair",
+        "flagpole",
+        "bowsprit",
+        "ring flip energy profile"
+      ],
+      "basic_overview": "Cyclohexane avoids planarity and exists mainly as the chair conformation. Stability order (from notes): Chair > Twist boat > Boat > Half chair. Chair is free of angle strain (≈ 109.5°) and torsional strain (all C–H staggered). Boat and half chair are transition states; chair and twist boat are real energy minima.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "RELATIVE ENERGIES (kJ/mol, approx.): Chair 0 | Twist boat 23 (5.5 kcal) | Boat 29 (6.9 kcal) | Half chair 45 (10.8 kcal).\n\nCHAIR (D3d): all C–C–C angles ≈ 111°, all adjacent C–H bonds staggered (no torsional strain), 6 axial + 6 equatorial H. Free of angle, torsional and steric strain. >99.9% population at 25 °C.\n\nBOAT (C2v): angle strain small, but two types of strain: (1) FLAGPOLE interaction — the two H atoms on C1 and C4 point towards each other inside the boat (H···H ≈ 1.83 Å, steric strain ≈ 7 kJ/mol); (2) TORSIONAL strain — four C–C bonds (C2–C3 and C5–C6 and the ones in the ends) are eclipsed. Boat is the transition state between two twist-boat forms (pseudorotation).\n\nTWIST BOAT / SKEW BOAT (D2): boat twisted slightly. Flagpole H's move apart and eclipsing is reduced → 6 kJ/mol more stable than the boat. It is a real minimum (local).\n\nHALF CHAIR (C2/Cs-like): 4 carbons coplanar, one end flipped. Highest energy since it carries severe angle strain and torsional strain. It is the transition state between chair and twist boat.\n\nRING-FLIP PATH: Chair → Half chair (TS, 45) → Twist boat (23) → Boat (TS, 29) → Twist boat → Half chair (TS) → Chair'. Net result: all axial ↔ equatorial.\n\nWHICH ARE MINIMA? Chair and twist boat. TRANSITION STATES: half chair and boat.\n\nOTHER SIX-MEMBERED RINGS: cyclohexene = half chair; cyclohexanone ≈ chair with a slightly flattened C=O end; 1,4-cyclohexanedione can adopt twist boat.",
+      "examples": "Q: Arrange chair, boat, twist boat, half chair in decreasing stability.  Ans: Chair > Twist boat > Boat > Half chair.\nQ: Why is boat less stable than chair?  Ans: Flagpole H/H steric repulsion + eclipsing torsional strain along 4 C–C bonds.\nQ: Which of the cyclohexane forms are transition states?  Ans: Half chair and boat.\nQ: How many 1,3-diaxial interactions does unsubstituted chair cyclohexane have?  Ans: It has axial H's on the same face (3 up, 3 down), but they are far apart (≈ 2.5 Å) and cause negligible strain.\nQ: Barrier to chair–chair interconversion of cyclohexane?  Ans: ≈ 45 kJ/mol (10.8 kcal/mol).",
+      "conditions_and_medium": "Ring flip at 25 °C: ≈ 10^5 flips per second (ΔG‡ ≈ 45 kJ/mol). At −100 °C flips are slow on the NMR time scale, and separate axial and equatorial H signals can be observed (cyclohexane-d11). Population: twist boat ≈ 0.0001% at 25 °C.",
+      "mechanism_steps": "STAGE-WISE: CHAIR-FLIP ENERGY PROFILE (HOW TO DRAW)\nSTEP 1. Start at the chair (global minimum, E = 0).\nSTEP 2. Climb to the half chair (first TS, E = 45 kJ/mol): one carbon pushed into the plane of the other four.\nSTEP 3. Descend into the twist boat (E = 23 kJ/mol, a shallow local minimum).\nSTEP 4. Cross the boat (small TS, E = 29 kJ/mol).\nSTEP 5. Pass through the second twist boat (E = 23) and second half chair (E = 45).\nSTEP 6. Arrive at the ring-flipped chair (E = 0, axial ↔ equatorial exchanged).\nSTEP 7. For ranking questions, remember just: Chair > Twist boat > Boat > Half chair.",
+      "kinetics_and_energy": "Chair 0 < Twist boat 23 < Boat 29 < Half chair 45 kJ/mol. Boat−twist boat difference ≈ 6 kJ/mol. Heat of combustion per CH2 of cyclohexane = n-alkane reference, so strain energy of chair = 0.",
+      "selectivity_and_stereochemistry": "The chair is the reference for stereochemical analysis in six-membered rings (axial/equatorial). Twist boat forms are relevant only when severe 1,3-diaxial strain destabilises both chairs (e.g., cis-1,4-di-tert-butylcyclohexane prefers the twist boat), or in locked polycyclic systems.",
+      "common_traps": "1) Twist boat is MORE stable than boat (23 vs 29 kJ/mol).\n2) Half chair is the LEAST stable of the four, not the boat.\n3) Boat and half chair are transition states; chair and twist boat are minima.\n4) Flagpole interaction is between C1 and C4 hydrogens of the boat; do not confuse with 1,3-diaxial interaction in the chair.\n5) Ring-flip barrier ≈ 45 kJ/mol is the half chair, not the boat.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Chair > Twist boat > Boat > Half chair",
+          "Energies 0, 23, 29, 45 kJ/mol",
+          "Boat strain: flagpole + eclipsing",
+          "Minima: chair, twist boat; TS: boat, half chair",
+          "Ring-flip barrier ~45 kJ/mol"
+        ],
+        "practice_style": [
+          "conceptual comparison",
+          "energy profile diagram",
+          "identify TS vs intermediate"
+        ]
+      },
+      "diagram": {
+        "caption": "Cyclohexane conformer energy ladder",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Energy ladder (kJ/mol)</text><line x1='40' y1='175' x2='110' y2='175' stroke='#16a34a' stroke-width='3'/><text x='120' y='179' font-size='12' font-family='Arial' fill='#334155'>Chair  0  (minimum)</text><line x1='40' y1='135' x2='110' y2='135' stroke='#2563eb' stroke-width='3'/><text x='120' y='139' font-size='12' font-family='Arial' fill='#334155'>Twist boat  ~23  (minimum)</text><line x1='40' y1='105' x2='110' y2='105' stroke='#f59e0b' stroke-width='3'/><text x='120' y='109' font-size='12' font-family='Arial' fill='#334155'>Boat  ~29  (TS)</text><line x1='40' y1='50' x2='110' y2='50' stroke='#dc2626' stroke-width='3'/><text x='120' y='54' font-size='12' font-family='Arial' fill='#334155'>Half chair  ~45  (TS)</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n07",
+      "title": "Stage 7 — Drawing the Chair & Finding Axial / Equatorial Positions (Rules)",
+      "tags": [
+        "chair drawing",
+        "axial",
+        "equatorial",
+        "wedge",
+        "dash",
+        "up down",
+        "rules",
+        "cis trans",
+        "1,2-relationship"
+      ],
+      "basic_overview": "Each carbon of the chair has two bonds: one AXIAL (vertical, parallel to the ring's C3 axis) and one EQUATORIAL (pointing outward near the plane of the ring). Axial bonds alternate up, down, up, down around the ring. From the notes — Rule 1: wedge (solid line) = upward-moving group, dash (dotted line) = downward-moving group. Rule 2: heavy (bulky) group prefers equatorial position.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "FACTS ABOUT THE CHAIR:\n• 12 H: 6 axial (3 up on alternate carbons, 3 down on the other three) and 6 equatorial.\n• At a carbon whose position is an 'up' tip, axial bond points UP and equatorial points slightly DOWN. At a 'down' tip carbon, axial points DOWN and equatorial points slightly UP.\n• Each equatorial bond is parallel to two ring C–C bonds (the ones once removed, i.e., bonds from the neighbouring carbons' other side).\n• Axial bonds on the same face (1,3-diaxial) are 2.5 Å apart and cause steric crowding if the groups are larger than H.\n\nRELATIONSHIP OF GROUPS ON ADJACENT CARBONS (1,2):\n• axial–axial (one up, one down) = TRANS (anti-periplanar, dihedral 180°)\n• equatorial–equatorial = TRANS (dihedral 60°, gauche)\n• axial–equatorial = CIS (dihedral 60°)\n\nRULES FROM THE NOTES:\nRule 1 → Bridge/wedge (solid line) = up; dash (dotted line) = down.\nRule 2 → Heavy group = equatorial in the more stable chair.\n\nAXIAL H COUNT CHECK (handwritten check in notes): 1 axial H on each carbon → 6 axial H in total.",
+      "examples": "Example 1: Number the chair C1 to C6. If C1 axial is UP, then C2 axial DOWN, C3 UP, C4 DOWN, C5 UP, C6 DOWN.\nExample 2: A methyl on C1 drawn as a wedge (up) when C1's axial is up → methyl is AXIAL. Methyl on C2 drawn as a wedge (up) when C2's axial is down → methyl is EQUATORIAL.\nExample 3: cis-1,2-dimethylcyclohexane: both wedge. C1 up-axial (say) → CH3 axial; C2 axial is down, CH3 up → equatorial. So cis-1,2 = axial, equatorial.\nExample 4: trans-1,2-dimethylcyclohexane: one wedge, one dash. C1 wedge (axial up); C2 dash, C2 axial is down → axial. So trans-1,2 diaxial (or after flip, diequatorial).",
+      "conditions_and_medium": "Assignments assume a chair; in rigid ring-fused systems (decalins, steroids), axial/equatorial assignment is locked. For flipped chair, all labels exchange, but wedge/dash does not.",
+      "mechanism_steps": "STAGE-WISE: FROM A FLAT HEXAGON (WEDGE/DASH) TO A CHAIR WITH AXIAL/EQUATORIAL LABELS\nSTEP 1. Draw a chair: two parallel lines for the left and the right 'seat' edges; the left tip is down and the right tip is up (or mirror).\nSTEP 2. Number the ring carbons C1 to C6 in a fixed direction (clockwise on the flat hexagon, then copy the same order on the chair).\nSTEP 3. Mark axial directions: tip carbons pointing UP get an axial-up bond; tip carbons pointing DOWN get an axial-down bond; they alternate around the ring (up, down, up, down, up, down).\nSTEP 4. Draw equatorial bonds: on each carbon, opposite in tilt to its axial bond, parallel to the ring bond pair next to it.\nSTEP 5. Read the flat drawing: wedge = up, dash = down for every substituent.\nSTEP 6. At each substituted carbon: if the group's direction (up/down) equals that carbon's axial direction → AXIAL. If opposite → EQUATORIAL.\nSTEP 7. Heavy group (Rule 2) is placed equatorial in the preferred chair; if the molecule cannot satisfy this for all groups, do a ring flip and compare.\nSTEP 8. Always double-check using the 1,2/1,3/1,4 table (next stages).",
+      "kinetics_and_energy": "An axial substituent (larger than H) suffers 1,3-diaxial steric repulsion with the two axial H's on the same face (C3 and C5 relative to it). This costs: CH3 ≈ 7.6 kJ/mol, t-Bu ≈ 20 kJ/mol. Equatorial substituents avoid this strain.",
+      "selectivity_and_stereochemistry": "Up/down (cis/trans) is a configurational property and does not change on ring flip. Axial/equatorial is a conformational property and exchanges on ring flip. Reactivity (E2, oxidation, esterification) depends on whether the group is axial or equatorial.",
+      "common_traps": "1) 'Up' ≠ 'axial'. A group can be UP and EQUATORIAL.\n2) Axial directions must alternate; forgetting this ruins every assignment.\n3) Equatorial bonds are not horizontal; they are slightly tilted opposite to the axial bond of that carbon.\n4) Adjacent a,a = trans but also adjacent e,e = trans; a,e = cis.\n5) Wedge/dash on a flat hexagon is absolute; do not reassign when you flip the chair.\n6) The two chairs of cyclohexane flip all positions; do not flip only some groups.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Axial alternates up/down",
+          "Wedge = up, dash = down",
+          "Same direction as axial → axial; opposite → equatorial",
+          "Adjacent: a,a = trans; e,e = trans; a,e = cis",
+          "Heavy group → equatorial"
+        ],
+        "practice_style": [
+          "chair drawing",
+          "axial/equatorial assignment",
+          "cis/trans identification"
+        ]
+      },
+      "diagram": {
+        "caption": "Axial positions alternate around the chair (schematic)",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Chair rules (from notes)</text><circle cx='25' cy='46' r='4' fill='#7c3aed'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>Rule 1: wedge/solid = UP, dash/dotted = DOWN</text><circle cx='25' cy='71' r='4' fill='#7c3aed'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>Rule 2: heavy group → EQUATORIAL</text><circle cx='25' cy='96' r='4' fill='#7c3aed'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>Axial: C1 ↑, C2 ↓, C3 ↑, C4 ↓, C5 ↑, C6 ↓</text><circle cx='25' cy='121' r='4' fill='#7c3aed'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>Same direction as axial → AXIAL</text><circle cx='25' cy='146' r='4' fill='#7c3aed'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Opposite to axial → EQUATORIAL</text><circle cx='25' cy='171' r='4' fill='#7c3aed'/><text x='38' y='175' font-size='12' font-family='Arial' fill='#334155'>Ring flip: ax ↔ eq, up/down unchanged</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n08",
+      "title": "Stage 8 — Ring Flip, Monosubstituted Cyclohexanes, 1,3-Diaxial Strain & A-values",
+      "tags": [
+        "ring flip",
+        "chair interconversion",
+        "methylcyclohexane",
+        "A-value",
+        "1,3-diaxial",
+        "tert-butyl",
+        "equilibrium constant",
+        "gauche butane"
+      ],
+      "basic_overview": "Ring flip (chair–chair interconversion) converts every axial bond into an equatorial bond and vice versa, while the up/down (cis/trans) relationships never change. In a monosubstituted cyclohexane, the chair with the substituent equatorial is more stable because an axial group suffers two gauche-butane type 1,3-diaxial interactions with the axial H's on C3 and C5.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "WHY AXIAL IS WORSE: An axial CH3 is gauche to ring C3 (via C1–C2) and gauche to ring C5 (via C1–C6). These are two gauche-butane interactions, each 3.8 kJ/mol → total 7.6 kJ/mol (1.74 kcal/mol). Equatorial CH3 is anti to C3 and C5 → no such strain.\n\nA-VALUE: ΔG° (axial → equatorial), i.e., the preference for the equatorial position. Larger A-value = bulkier group = stronger equatorial preference.\nA-values (kcal/mol, approx.): F 0.25 | Cl 0.5 | Br 0.5 | I 0.5 | CN 0.2 | OCH3 0.6 | OH 0.9 | NH2 1.2 | COOH 1.4 | CH3 1.74 | C2H5 1.79 | i-Pr 2.2 | C6H5 2.8 | t-Bu ≈ 4.9 (≥ 20 kJ/mol).\nWhy halogens have small A-values despite large size: long C–X bond (C–Br 1.94 Å vs C–C 1.54 Å) keeps X away from the axial H's. Why CN is tiny: linear, slim group. Why t-Bu is huge: 3 CH3 groups, one always points into the ring.\n\nt-BUTYL LOCKS THE RING: with ΔG ≥ 20 kJ/mol, K ≈ 10^4 and >99.99% exists with t-Bu equatorial. Used to 'freeze' a conformation in mechanistic studies (4-t-butyl cyclohexyl derivatives).\n\nEQUILIBRIUM CALCULATION: ΔG° = −RT ln K. At 298 K, RT = 2.48 kJ/mol, so a ΔG of 5.7 kJ/mol (1.36 kcal/mol) gives K = 10 (≈ 91:9). For methylcyclohexane: ΔG = 7.6 kJ/mol → K ≈ e^(7.6/2.48) = e^3.06 ≈ 21 → ≈ 95% equatorial : 5% axial.\n\nSIZE vs A-VALUE: Do not rank by atom size. Use A-value ranking: t-Bu > Ph > i-Pr > Et ≈ CH3 > NH2 > OH > OMe ≈ Cl ≈ Br ≈ I > F ≈ CN.",
+      "examples": "Q: Number of gauche interactions in axial methylcyclohexane?  Ans: 2 (each 3.8 kJ/mol) → 7.6 kJ/mol.\nQ: Percentage of equatorial methylcyclohexane at 25 °C?  Ans: ≈ 95%.\nQ: Which substituent has the largest A-value: Br, OH, CH3, t-Bu?  Ans: t-Bu.\nQ: Which prefers equatorial more: Cl or CH3?  Ans: CH3 (A = 1.74 vs 0.5).\nQ: Predict preferred conformer of tert-butylcyclohexane.  Ans: t-Bu equatorial (≈ 100%), ring effectively locked.\nQ: Does ring flip convert cis to trans?  Ans: Never. Only axial ↔ equatorial.",
+      "conditions_and_medium": "Ring flip is fast at 25 °C (ΔG‡ ≈ 45 kJ/mol) so the observed NMR signal is a weighted average. At low T (−80 to −100 °C), ring flip freezes and axial/equatorial conformers are seen separately. Equilibrium ratio changes with temperature as per K = e^(−ΔG/RT) (ΔG ≈ ΔH for conformational equilibria).",
+      "mechanism_steps": "STAGE-WISE: FIND THE MORE STABLE CHAIR OF A MONOSUBSTITUTED CYCLOHEXANE\nSTEP 1. Draw the first chair and place the substituent axial or equatorial as per Stage 7.\nSTEP 2. Draw the ring-flipped chair: swap tip directions; every axial ↔ equatorial; the substituent keeps its up/down.\nSTEP 3. Identify the axial groups in each chair and their A-values.\nSTEP 4. Estimate energy of each chair = sum of A-values of axial groups (this includes two gauche interactions per axial CH3).\nSTEP 5. The chair with the smaller total is more stable.\nSTEP 6. If asked for % population: ΔG = difference in energies; K = e^(ΔG/RT); % = K/(1+K).\nSTEP 7. Check special cases: t-Bu locks the ring; equal energies mean 50:50.",
+      "kinetics_and_energy": "Axial CH3: 7.6 kJ/mol (1.74 kcal) above equatorial. t-Bu: ≈ 20–23 kJ/mol. Each gauche-butane interaction = 3.8 kJ/mol (0.9 kcal). Use: (1,3-diaxial CH3/H interaction ≈ 3.8 kJ/mol each; counted twice for one axial CH3).",
+      "selectivity_and_stereochemistry": "Equatorial preference controls stereochemistry of nucleophilic additions, reductions and equilibrations (e.g., thermodynamic equilibration gives mainly equatorial isomer; cis/trans-4-t-butylcyclohexanol is a standard test case). Reaction rates differ for axial vs equatorial leaving groups (E2, SN2) — see reactivity stage.",
+      "common_traps": "1) Ring flip never changes cis ↔ trans.\n2) Halogens: large atoms, but small A-values (long C–X bond).\n3) A-value is ΔG axial→equatorial (kcal/mol) — not the energy of the molecule.\n4) 7.6 kJ/mol = TWO gauche interactions of 3.8 each; do not count once.\n5) Population needs K = e^(ΔG/RT) — do not divide ΔG by RT in the wrong direction.\n6) t-Bu cannot be axial in practice, so the ring is locked even though ring flip is theoretically possible.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Axial CH3 = 2 gauche = 7.6 kJ/mol (A = 1.74 kcal/mol)",
+          "A-value order: t-Bu > Ph > iPr > Et ≈ Me > NH2 > OH > Cl ≈ Br > F ≈ CN",
+          "K = e^(−ΔG/RT); RT = 2.48 kJ/mol at 298 K",
+          "t-Bu locks the ring",
+          "Ring flip: ax ↔ eq; cis/trans unchanged"
+        ],
+        "practice_style": [
+          "numerical (K, % conformer)",
+          "A-value comparison",
+          "most stable conformer"
+        ]
+      },
+      "diagram": {
+        "caption": "Axial vs equatorial methyl: gauche interactions",
+        "svg": "<svg viewBox='0 0 360 185' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='185' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Methylcyclohexane: axial vs equatorial</text><circle cx='25' cy='46' r='4' fill='#16a34a'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>Axial CH3: 2 gauche interactions (C3, C5)</text><circle cx='25' cy='71' r='4' fill='#16a34a'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>Energy cost = 2 × 3.8 = 7.6 kJ/mol</text><circle cx='25' cy='96' r='4' fill='#16a34a'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>Equatorial CH3: anti to C3 and C5 → no strain</text><circle cx='25' cy='121' r='4' fill='#16a34a'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>K ≈ 21 → ≈ 95% equatorial at 25 °C</text><circle cx='25' cy='146' r='4' fill='#16a34a'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>t-Bu: ΔG ≥ 20 kJ/mol → ring locked</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n09",
+      "title": "Stage 9 — Disubstituted Cyclohexanes: cis/trans Table & Stability Calculation",
+      "tags": [
+        "disubstituted",
+        "cis",
+        "trans",
+        "1,2",
+        "1,3",
+        "1,4",
+        "diequatorial",
+        "diaxial",
+        "position table",
+        "energy calculation"
+      ],
+      "basic_overview": "For disubstituted cyclohexanes use the cis/trans position table to decide whether the two groups are (e,e)/(a,a) or (a,e) in each chair. Then compare the two chairs by counting axial groups and gauche/1,3-diaxial interactions. The diequatorial chair is the most stable whenever it is possible.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "POSITION TABLE (two substituents on the two carbons):\n• 1,2-cis → a,e  ⇄ e,a   (both chairs usually of equal energy if the groups are identical)\n• 1,2-trans → e,e  ⇄ a,a   (e,e more stable)\n• 1,3-cis → e,e  ⇄ a,a   (e,e much more stable)\n• 1,3-trans → a,e  ⇄ e,a   (equal for identical groups)\n• 1,4-cis → a,e  ⇄ e,a   (equal for identical groups)\n• 1,4-trans → e,e  ⇄ a,a   (e,e more stable)\n\nSHORTCUT MEMORY: 1,2 and 1,4 → trans = ee/aa, cis = ae. 1,3 → cis = ee/aa, trans = ae. (Odd positions 1,3 reverse the 1,2/1,4 rule.)\n\nENERGY BOOKKEEPING (methyl groups):\n• Each axial CH3 → 2 gauche (CH3/ring CH2) interactions = 7.6 kJ/mol.\n• Adjacent equatorial CH3 groups (1,2-dimethyl) are gauche to each other = +3.8 kJ/mol.\n• cis-1,3 diaxial CH3/CH3 syn-axial repulsion = extra ≈ 15 kJ/mol (very severe).\n\nWORKED NUMBERS:\n• trans-1,2-dimethyl: e,e = 1 gauche (CH3/CH3) = 3.8 kJ/mol. a,a = 4 gauche (2 per axial CH3) = 15.2 kJ/mol. e,e is more stable by ≈ 11.4 kJ/mol (exp. ≈ 11).\n• cis-1,2-dimethyl: a,e (CH3 axial = 7.6, CH3/CH3 gauche = 3.8) = 11.4 kJ/mol in either chair → both chairs equal, ratio 1:1.\n• trans-1,4-dimethyl: e,e = 0; a,a = 15.2 kJ/mol.\n• cis-1,4-dimethyl: a,e both chairs = 7.6 kJ/mol → equal.\n• cis-1,3-dimethyl: e,e = 0; a,a ≈ 15.2 + ≈ 15 (syn-axial CH3/CH3) ≈ 23–30 kJ/mol (very unstable; practically only e,e).\n• trans-1,3-dimethyl: a,e = 7.6 kJ/mol in either chair → equal.\n\nUNEQUAL GROUPS: the larger A-value group takes the equatorial position (e.g., cis-1-t-butyl-4-methyl: t-Bu e, CH3 a; the other chair costs ≈ 20+ kJ/mol more).\n\nSTABILITY OF ISOMERS: trans-1,2, cis-1,3 and trans-1,4 can all be e,e, so those isomers are more stable than cis-1,2 (a,e), trans-1,3 (a,e) and cis-1,4 (a,e). The e,e isomer is the thermodynamically more stable diastereomer.",
+      "examples": "Q: Most stable conformer of trans-1,4-dimethylcyclohexane?  Ans: Diequatorial (e,e); a,a is 15.2 kJ/mol higher.\nQ: cis-1,3-dimethylcyclohexane: which chair is preferred?  Ans: e,e (a,a has severe syn-axial CH3···CH3 repulsion).\nQ: Which is more stable, cis- or trans-1,2-dimethylcyclohexane?  Ans: trans (e,e), by ≈ 7–8 kJ/mol in total strain.\nQ: cis-1,2-dimethylcyclohexane — equilibrium between two chairs?  Ans: 1:1 (identical energies).\nQ: cis-1-tert-butyl-4-methylcyclohexane — preferred chair?  Ans: t-Bu equatorial, CH3 axial.\nQ: Which isomer of 1,3-dimethylcyclohexane is more stable: cis or trans?  Ans: cis (e,e).\nQ: Isomer count: how many stereoisomers does 1,2-dimethylcyclohexane have?  Ans: 3 (cis meso, trans enantiomeric pair).",
+      "conditions_and_medium": "Applies in non-polar solvents at RT for groups without strong polar interactions. In polar/H-bonding cases (e.g., cis-1,3-diol), the diaxial form may become competitive due to intramolecular H-bond (see special cases).",
+      "mechanism_steps": "STAGE-WISE: MOST STABLE CHAIR OF A DISUBSTITUTED CYCLOHEXANE\nSTEP 1. Note the positions (1,2 / 1,3 / 1,4) and the relationship (cis or trans).\nSTEP 2. Use the table to write the combination in each chair: ee/aa or ae/ea.\nSTEP 3. If ee is possible (trans-1,2, cis-1,3, trans-1,4) → ee is most stable (unless special H-bond or very bulky 1,2 interaction).\nSTEP 4. If only ae/ea is possible (cis-1,2, trans-1,3, cis-1,4): put the group with the LARGER A-value equatorial.\nSTEP 5. Estimate each chair's energy: sum of A-values of axial groups + gauche interactions between adjacent equatorial groups + syn-axial interactions.\nSTEP 6. Take the difference ΔE and, if asked, convert to a population ratio via K = e^(ΔE/RT).\nSTEP 7. If both chairs have the same energy, the compound exists as a 1:1 mixture of chairs.",
+      "kinetics_and_energy": "Approximate additive model (kJ/mol): axial CH3 7.6; adjacent gauche CH3/CH3 3.8; syn-axial CH3/CH3 (1,3-diaxial) ≈ +15; t-Bu axial ≈ 20–23. Additivity fails when substituents interact directly (1,2 gauche, syn-axial pairs, polar/H-bond effects).",
+      "selectivity_and_stereochemistry": "e,e isomers are thermodynamically favoured; equilibrations (base/acid catalysed epimerisations) lead to the all-equatorial isomer. Locked rings (trans-decalin type) cannot ring flip. Ring flip never converts cis to trans.",
+      "common_traps": "1) 1,3 reverses 1,2/1,4: cis-1,3 = ee/aa, trans-1,3 = ae.\n2) cis-1,2 and trans-1,3 and cis-1,4 are a,e: both chairs EQUAL only if the two groups are identical.\n3) With non-identical groups, bigger group equatorial decides the chair even in the ae/ea isomers.\n4) trans-1,2: the diequatorial pair is gauche (60°) — that costs 3.8 kJ/mol but is still far better than a,a.\n5) Do not assume diequatorial is always best: cis-1,3-diol (H-bond) and very bulky 1,2-pairs can break this.\n6) Cis/trans label comes from up/down, never from chair shape.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "1,2: trans = ee/aa; cis = ae",
+          "1,3: cis = ee/aa; trans = ae",
+          "1,4: trans = ee/aa; cis = ae",
+          "trans-1,2-dimethyl: ΔE(aa−ee) ≈ 11.4 kJ/mol",
+          "Bigger A-value → equatorial"
+        ],
+        "practice_style": [
+          "most stable conformer prediction",
+          "energy difference calculation",
+          "cis/trans diaxial or diequatorial identification",
+          "isomer stability comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Disubstituted position table",
+        "svg": "<svg viewBox='0 0 360 185' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='185' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>cis/trans table (a = axial, e = equatorial)</text><circle cx='25' cy='46' r='4' fill='#f59e0b'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>1,2-cis: a,e    |  1,2-trans: e,e / a,a</text><circle cx='25' cy='71' r='4' fill='#f59e0b'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>1,3-cis: e,e / a,a  |  1,3-trans: a,e</text><circle cx='25' cy='96' r='4' fill='#f59e0b'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>1,4-cis: a,e    |  1,4-trans: e,e / a,a</text><circle cx='25' cy='121' r='4' fill='#f59e0b'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>Odd position (1,3) reverses the rule</text><circle cx='25' cy='146' r='4' fill='#f59e0b'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Most stable: ee; else bigger group equatorial</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n10",
+      "title": "Stage 10 — Special Cases: H-bonding, Twist-boat Preference, Decalin, Cyclohexanone/ene, Anomeric Effect, Glucose",
+      "tags": [
+        "cis-1,3-diol",
+        "di-tert-butylcyclohexane",
+        "decalin",
+        "cyclohexanone",
+        "cyclohexene",
+        "anomeric effect",
+        "glucose",
+        "exception",
+        "half chair"
+      ],
+      "basic_overview": "The simple rule 'diequatorial / bulky equatorial' has well-known exceptions. They are favourite JAM/GATE questions: (1) cis-1,3-diol (diaxial H-bonded), (2) cis-1,4-di-tert-butylcyclohexane (twist boat), (3) trans- vs cis-decalin, (4) cyclohexanone / α-haloketone / cyclohexene, (5) anomeric effect in sugars, (6) β-D-glucopyranose being the all-equatorial sugar.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "1) cis-1,3-CYCLOHEXANEDIOL: Normally e,e. But the a,a form places the two OH groups 1,3-diaxial and close enough for an intramolecular O–H···O hydrogen bond (O···O ≈ 2.5 Å). In non-polar solvents, the diaxial conformer is stabilised and can become comparable or preferred. In water it is not (solvent H-bonding).\n\n2) cis-1,4-DI-tert-BUTYLCYCLOHEXANE: in the chair, one t-Bu must be axial (cost ≈ 20+ kJ/mol). The twist-boat (23 kJ/mol above chair) can place both t-Bu groups in pseudo-equatorial positions with less total strain → twist boat is preferred. (trans isomer is e,e chair.)\n\n3) DECALIN (bicyclo[4.4.0]decane): trans-decalin has both ring-fusion bonds equatorial with respect to the other ring: rigid, no ring flip (cannot flip without breaking), no 1,3-diaxial from the fusion; cis-decalin: one bond axial, one equatorial, flexible (can ring flip), has 3 extra gauche interactions. trans-Decalin is more stable by ≈ 11 kJ/mol (2.7 kcal/mol). Heat of formation: trans < cis. Steroids (A/B trans) use the same idea.\n\n4) CYCLOHEXANONE: chair, but C=O carbon is sp2; 3-alkyl groups have smaller axial penalty (fewer 1,3-diaxial H's near C=O); 2-halocyclohexanones (α-haloketone effect) prefer the axial halogen in non-polar solvents because the equatorial C–X dipole is nearly parallel to C=O (dipole–dipole repulsion). In polar solvents equatorial becomes favoured.\n\n5) CYCLOHEXENE: half-chair (C3–C4–C5–C6 puckered, C1=C2 plus the two attached carbons coplanar). It has pseudo-axial and pseudo-equatorial positions. Ring flip barrier ≈ 22 kJ/mol (lower than cyclohexane).\n\n6) ANOMERIC EFFECT: In a pyranose, an electronegative substituent (OH, OR, halogen) at the anomeric carbon (C1, next to ring O) prefers AXIAL, opposite to the steric prediction. Reason: n(O ring lone pair) → σ*(C1–X) hyperconjugation is possible only when the lone pair is anti-periplanar to C1–X (axial X). Example: 2-methoxytetrahydropyran prefers OMe axial; α-D-glucopyranose OH (C1) is axial.\n\n7) β-D-GLUCOPYRANOSE: all substituents (OH ×4 and CH2OH) equatorial in the 4C1 chair → the most stable of the aldohexoses; at equilibrium in water: β ≈ 64%, α ≈ 36% (anomeric effect gives some α in spite of steric preference for β).",
+      "examples": "Q: Which conformer of cis-1,3-cyclohexanediol is preferred in a non-polar solvent?  Ans: The diaxial (H-bonded) conformer can be preferred.\nQ: What is the preferred conformation of cis-1,4-di-tert-butylcyclohexane?  Ans: Twist boat.\nQ: Which is more stable, cis- or trans-decalin? Which can ring flip?  Ans: trans-decalin is more stable by ≈ 11 kJ/mol; only cis can ring flip.\nQ: Why does 2-chlorocyclohexanone prefer axial Cl in CCl4?  Ans: Reduced dipole–dipole repulsion between C=O and C–Cl dipoles.\nQ: Shape of cyclohexene?  Ans: Half chair.\nQ: Which sugar is all-equatorial?  Ans: β-D-glucopyranose.",
+      "conditions_and_medium": "H-bond cases are medium-sensitive (non-polar solvents favour intramolecular H-bond, polar/H-bonding solvents oppose it). The α-haloketone effect and the anomeric effect weaken in polar solvents. Locked rings (decalin, steroids) are medium independent.",
+      "mechanism_steps": "STAGE-WISE: CHECK FOR EXCEPTIONS BEFORE FINALISING 'DIEQUATORIAL'\nSTEP 1. Do the standard analysis first (Stage 9): which chair has ee/bigger group equatorial?\nSTEP 2. Are there H-bond donors/acceptors that become close in the aa chair (cis-1,3-diol, cis-1,3-hydroxy-ether)? If yes, consider the aa chair seriously in non-polar medium.\nSTEP 3. Are both groups so bulky that BOTH chairs put a t-Bu axial (cis-1,4-di-t-Bu)? Then consider the twist boat.\nSTEP 4. Is it a fused ring? trans-fused is locked (no flip); cis-fused flips and has more gauche interactions.\nSTEP 5. Is a carbonyl, alkene, or heteroatom in the ring? Adjust the model (cyclohexanone chair with C=O; cyclohexene half chair).\nSTEP 6. Is there an electronegative group at C1 next to ring O (sugar)? Apply the anomeric effect (axial preferred).\nSTEP 7. Finally decide using both steric (A-values) and electronic (dipole, H-bond, hyperconjugation) factors.",
+      "kinetics_and_energy": "trans-decalin vs cis-decalin ≈ 11 kJ/mol (three extra gauche interactions in cis). Twist-boat penalty 23 kJ/mol vs 1,4-di-t-Bu axial strain ≈ 20+ kJ/mol → twist boat just wins (≈ 1 kcal/mol). Anomeric effect stabilisation ≈ 4–6 kJ/mol. Intramolecular H-bond ≈ 10–20 kJ/mol (gas phase).",
+      "selectivity_and_stereochemistry": "Anomeric effect governs glycoside formation (α-glycosides) and sugar stereochemistry. Locked trans-decalin and steroid skeletons control the axial/equatorial reactivity of substituents. Conformational locking via t-Bu is used to compare axial vs equatorial reactivity directly.",
+      "common_traps": "1) Not every cis-1,3 compound prefers ee: with H-bonding groups the aa conformer can compete.\n2) Twist boat is not always 'unstable': for cis-1,4-di-t-Bu it is preferred.\n3) trans-Decalin cannot ring flip; cis-decalin can.\n4) Cyclohexene is half chair, not chair.\n5) Anomeric effect = axial preference of an electronegative group on the anomeric carbon, not a steric effect.\n6) In water the H-bonded diaxial preference and α-haloketone effect weaken.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "cis-1,3-diol: aa may be preferred (H-bond)",
+          "cis-1,4-di-t-Bu: twist boat",
+          "trans-decalin more stable, rigid; cis can flip",
+          "Cyclohexene = half chair",
+          "Anomeric effect (n→σ*)",
+          "β-D-glucose all equatorial"
+        ],
+        "practice_style": [
+          "exception identification",
+          "conceptual comparison",
+          "sugar chair conformations"
+        ]
+      },
+      "diagram": {
+        "caption": "Exceptions to 'diequatorial is best'",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Exceptions to the equatorial rule</text><circle cx='25' cy='46' r='4' fill='#dc2626'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>cis-1,3-diol → diaxial (intramolecular H-bond)</text><circle cx='25' cy='71' r='4' fill='#dc2626'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>cis-1,4-di-t-Bu → twist boat</text><circle cx='25' cy='96' r='4' fill='#dc2626'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>trans-decalin → rigid & more stable than cis</text><circle cx='25' cy='121' r='4' fill='#dc2626'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>2-halocyclohexanone → axial X (nonpolar)</text><circle cx='25' cy='146' r='4' fill='#dc2626'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Anomeric effect → axial OR/X at C1 of pyranose</text><circle cx='25' cy='171' r='4' fill='#dc2626'/><text x='38' y='175' font-size='12' font-family='Arial' fill='#334155'>β-D-glucose → all equatorial (very stable)</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n11",
+      "title": "Stage 11 — Conformation & Reactivity: E2 (trans-diaxial), SN2, Oxidation, Esterification, Epoxide Opening",
+      "tags": [
+        "E2",
+        "trans-diaxial",
+        "menthyl chloride",
+        "neomenthyl chloride",
+        "Zaitsev",
+        "oxidation",
+        "esterification",
+        "Furst-Plattner",
+        "reactivity",
+        "stereoelectronic"
+      ],
+      "basic_overview": "The reactivity of substituted cyclohexanes depends on whether the reacting group is axial or equatorial. Most important: E2 elimination requires the leaving group and the β-hydrogen to be anti-periplanar, which on a cyclohexane means TRANS-DIAXIAL. The reactive conformer need not be the most stable chair (Curtin–Hammett).",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "1) E2 IN CYCLOHEXANES (trans-diaxial rule): the leaving group X must be axial AND the β-H must be axial on the adjacent carbon (and on the opposite face). An equatorial X cannot eliminate; the ring must first flip so that X is axial.\n\n2) MENTHYL vs NEOMENTHYL CHLORIDE (classic): \n• Menthyl chloride (Cl equatorial, iPr eq, CH3 eq in the stable chair). To place Cl axial it must flip, which forces iPr and CH3 axial too (very strained conformer). The carbon next to C–Cl that carries iPr then has its H equatorial (not anti) — only ONE anti β-H available → gives the less substituted alkene (2-menthene); reaction is SLOW.\n• Neomenthyl chloride (Cl axial in the stable chair, iPr, CH3 equatorial). Axial H's available on both adjacent carbons → Zaitsev product 3-menthene (more substituted); reaction is FAST (≈ 200 × faster).\n\n3) trans-2-METHYLCYCLOHEXYL BROMIDE: for Br axial, CH3 is also axial (trans-diaxial). The C2–H is equatorial, so it cannot eliminate; only C6–H is axial → 3-methylcyclohexene (non-Zaitsev) only.\ncis-2-METHYLCYCLOHEXYL BROMIDE: Br axial and CH3 equatorial → C2–H is axial → Zaitsev product 1-methylcyclohexene (major).\n\n4) SN2: nucleophile attacks from the backside. For an equatorial leaving group the backside is axial and is blocked by the 3,5-axial H's; for an axial leaving group the backside attack is along an equatorial path and easier → axial leaving groups react faster in SN2 (also E2/E1 due to strain relief).\n\n5) OXIDATION of cyclohexanols (CrO3/H+): axial OH is oxidised FASTER than equatorial OH (relief of steric strain going from sp3 to sp2). Example: cis-4-t-butylcyclohexanol (axial OH) oxidises faster than trans (equatorial OH).\n\n6) ESTERIFICATION/ACYLATION (and many reactions where the OH acts as nucleophile): equatorial OH reacts faster (less hindered). Hydrolysis of equatorial esters is also faster (saponification), as the tetrahedral intermediate suffers fewer 1,3-diaxial interactions.\n\n7) EPOXIDE RING OPENING / BROMONIUM OPENING (Fürst–Plattner rule): nucleophile opens the epoxide to give the trans-DIAXIAL product (via chair-like TS), not the trans-diequatorial one. Br2 addition to cyclohexene gives trans-1,2-dibromide first as diaxial, which can ring-flip to the diequatorial form.\n\nCURTIN–HAMMETT IDEA: if conformers interconvert faster than they react, product ratios are decided by the TS energies, not by the ground-state populations. So a minor conformer (axial X) can be the reactive one.",
+      "examples": "Q: Why does neomenthyl chloride undergo E2 much faster than menthyl chloride?  Ans: Cl is axial in the stable chair and has two anti-periplanar axial H's; in menthyl chloride Cl is equatorial and must flip to a diaxial-bulky-group conformer.\nQ: Major E2 product from trans-1-bromo-2-methylcyclohexane?  Ans: 3-methylcyclohexene (only C6–H is anti).\nQ: Major E2 product from cis-1-bromo-2-methylcyclohexane?  Ans: 1-methylcyclohexene (Zaitsev).\nQ: Which alcohol is oxidised faster by chromic acid: cis- or trans-4-t-butylcyclohexanol?  Ans: cis (axial OH).\nQ: Which acetylates faster with Ac2O/pyridine: axial or equatorial OH?  Ans: Equatorial.\nQ: Trans-diaxial opening is observed in which reaction?  Ans: Epoxide opening of cyclohexene oxide (Fürst–Plattner) and bromonium opening.",
+      "conditions_and_medium": "E2: strong, bulky/non-bulky base (EtO−/EtOH, t-BuOK). Ring flip is fast, so any substrate can reach the reactive chair if the energy cost is acceptable; rate then depends on the energy of that conformer plus the TS. Oxidation: CrO3/H2SO4 (Jones). Epoxide opening: nucleophile in acidic or basic medium.",
+      "mechanism_steps": "STAGE-WISE: PREDICT THE E2 PRODUCT OF A SUBSTITUTED CYCLOHEXYL HALIDE\nSTEP 1. Draw the chair with the leaving group X placed axial (this is the reactive conformer).\nSTEP 2. Place the other substituents using cis/trans information (they may become axial because of the flip).\nSTEP 3. On each carbon adjacent to C–X check whether its β-H is axial (anti to X on the opposite face).\nSTEP 4. Only β-H's that are axial can be removed. If a β-carbon has its H equatorial (because a substituent is axial there), that direction is blocked.\nSTEP 5. Form the alkene towards the available axial H(s). If both sides are available → Zaitsev (more substituted). If only one → that alkene, even if less substituted.\nSTEP 6. Rate: if X axial in the more stable chair → fast; if the flip puts big groups axial → slow.\nSTEP 7. Verify with chair drawings; do not try to decide from flat structures.",
+      "kinetics_and_energy": "Neomenthyl chloride eliminates ≈ 200 times faster than menthyl chloride. Strain relief on going from sp3 → sp2 accelerates reactions of axial substituents (oxidation, SN1, E1). The energy cost to flip menthyl chloride into the Cl-axial chair ≈ 20+ kJ/mol (iPr + CH3 + Cl axial), slows its E2.",
+      "selectivity_and_stereochemistry": "Stereoelectronic control: anti-periplanar H and X in E2; trans-diaxial products in ring opening. In locked systems (trans-decalin, 4-t-butyl) the result can be predicted directly from the fixed chair.",
+      "common_traps": "1) E2 needs trans-diaxial — not trans-diequatorial. Equatorial X cannot eliminate.\n2) The reactive chair can be the LESS stable chair.\n3) For trans-2-methyl-1-bromo: Zaitsev is NOT followed (Hofmann-type product 3-methylcyclohexene).\n4) Axial OH is oxidised faster but acylated slower — opposite trends.\n5) Fürst–Plattner: epoxide opens to trans-diaxial first.\n6) Cis/trans label must be used correctly to decide whether the neighbouring H is axial.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "E2 → trans-diaxial (X axial, β-H axial)",
+          "Neomenthyl (fast, Zaitsev) vs menthyl chloride (slow, non-Zaitsev)",
+          "trans- vs cis-2-methylcyclohexyl bromide products",
+          "Axial OH oxidises faster; equatorial OH acylates faster",
+          "Fürst–Plattner trans-diaxial opening"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "major-product prediction",
+          "stereochemical outcome",
+          "rate comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Reactivity vs axial/equatorial",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Axial vs equatorial reactivity</text><circle cx='25' cy='46' r='4' fill='#2563eb'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>E2: X axial + β-H axial (anti-periplanar)</text><circle cx='25' cy='71' r='4' fill='#2563eb'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>Neomenthyl Cl: fast; menthyl Cl: slow</text><circle cx='25' cy='96' r='4' fill='#2563eb'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>Oxidation (CrO3): axial OH faster</text><circle cx='25' cy='121' r='4' fill='#2563eb'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>Acylation/ester hydrolysis: equatorial faster</text><circle cx='25' cy='146' r='4' fill='#2563eb'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>Epoxide opening: trans-diaxial product</text><circle cx='25' cy='171' r='4' fill='#2563eb'/><text x='38' y='175' font-size='12' font-family='Arial' fill='#334155'>Reactive conformer may be the minor one</text></svg>"
+      }
+    },
+    {
+      "id": "cyclohexane-conformation-n12",
+      "title": "Stage 12 — Final Master Algorithm, Quick Revision Sheet & Solved JAM-style MCQs",
+      "tags": [
+        "revision",
+        "algorithm",
+        "MCQ",
+        "quick sheet",
+        "IIT-JAM",
+        "GATE",
+        "problem solving"
+      ],
+      "basic_overview": "This stage gives one step-by-step algorithm that works for any conformation question (acyclic or cyclohexane), a one-screen revision sheet of all numbers and orders, and 14 solved MCQs in IIT-JAM style. Revise this stage last, before attempting mock tests.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "ONE-PAGE REVISION SHEET:\n• Stability ∝ 1/P.E.\n• Butane: Anti (180°) > Gauche (60°) > Partially eclipsed (120°) > Fully eclipsed (0°); energies 0, 3.8, ~16, ~19 kJ/mol.\n• Ethane barrier 12 kJ/mol (3 × 4); propane 14 kJ/mol; H/H 4, CH3/H 6, CH3/CH3 11 (eclipsing).\n• Exception Gauche > Anti: ethylene glycol, 2-fluoroethanol, 1,2-difluoroethane (gauche effect), H-bonding.\n• Baeyer: d = ½(109°28′ − α): 24°44′, 9°44′, 0°44′, −5°16′. Only cyclohexane chair has 0 strain.\n• Cyclohexane: Chair 0 < Twist boat 23 < Boat 29 < Half chair 45 kJ/mol; boat & half chair = TS.\n• Axial alternates up/down. Wedge = up, dash = down. Same as axial → axial; opposite → equatorial. Heavy → equatorial.\n• Axial CH3 = 2 gauche = 7.6 kJ/mol (A = 1.74 kcal). t-Bu A ≈ 4.9 kcal locks the ring.\n• 1,2/1,4: trans = ee/aa, cis = ae. 1,3: cis = ee/aa, trans = ae.\n• Ring flip: ax ↔ eq; cis/trans unchanged.\n• E2: trans-diaxial. Neomenthyl fast; menthyl slow.\n• Exceptions: cis-1,3-diol aa (H-bond), cis-1,4-di-t-Bu twist boat, trans-decalin rigid & more stable (11 kJ/mol), anomeric effect (axial), β-D-glucose all equatorial.\n\nSOLVED MCQs:\n1) Order of stability of butane conformers? → Anti > Gauche > Partially eclipsed > Fully eclipsed.\n2) Most stable conformer of ethylene glycol? → Gauche (H-bond).\n3) Strain-free cyclohexane form? → Chair.\n4) Correct order of cyclohexane conformers? → Chair > Twist boat > Boat > Half chair.\n5) Number of gauche interactions in axial methylcyclohexane? → 2 (7.6 kJ/mol).\n6) Most stable conformer of trans-1,2-dimethylcyclohexane? → Diequatorial.\n7) cis-1,2-dimethylcyclohexane chairs? → a,e ⇄ e,a, equal energy (1:1).\n8) trans-1,3-dimethylcyclohexane is? → a,e (two chairs equal).\n9) Which is more stable: cis- or trans-1,4-dimethylcyclohexane? → trans (e,e).\n10) Which dihedral angle is gauche? → 60°.\n11) Ring flip of cis-1,3-dimethyl converts it to? → still cis (a,a); never trans.\n12) Fast E2: neomenthyl or menthyl chloride? → neomenthyl (axial Cl).\n13) Which substituent has the largest A-value? → t-Bu (Ph 2.8, iPr 2.2, CH3 1.74).\n14) Number of axial H in chair cyclohexane? → 6 (3 up, 3 down).",
+      "examples": "Worked: Ratio of two chairs of methylcyclohexane at 298 K. ΔG = 7.6 kJ/mol → K = e^(7.6/2.48) ≈ 21 → equatorial % = 21/22 ≈ 95%.\nWorked: ΔE (aa − ee) for trans-1,2-dimethylcyclohexane = 4 × 3.8 − 3.8 = 11.4 kJ/mol.\nWorked: cis-1-t-butyl-4-methyl cyclohexane: preferred chair has t-Bu eq, CH3 ax (energy 7.6 kJ/mol). Other chair has t-Bu axial (~20+) → ΔE ≈ 13+ kJ/mol in favour of the first chair.\nWorked: eclipsed energy of ethane = 3 × 4 = 12 kJ/mol; fully eclipsed butane = 11 + 4 + 4 = 19 kJ/mol.",
+      "conditions_and_medium": "General: room-temperature, non-polar/dilute solution, rapid equilibration. Always check solvent/H-bond/dipole effects before finalising an answer.",
+      "mechanism_steps": "MASTER ALGORITHM FOR ANY CONFORMATION QUESTION\nSTEP 1. Decide the type: acyclic (Newman) or cyclic (chair).\nSTEP 2. ACYCLIC: draw Newman along the bond; write dihedral angle of the two big groups; staggered > eclipsed; larger angle better; then check H-bond/gauche effect exceptions (OH/F/NH2 vicinal).\nSTEP 3. CYCLIC: draw the chair; number carbons; mark axial up/down alternating.\nSTEP 4. Convert flat wedge/dash to axial/equatorial using Rule 1 (wedge up, dash down).\nSTEP 5. Write the ring-flipped chair (swap ax ↔ eq; up/down unchanged).\nSTEP 6. Rank: bigger A-value equatorial; count axial A-values + gauche + syn-axial interactions.\nSTEP 7. Check exceptions: H-bond (cis-1,3-diol), twist boat (di-t-Bu), fused rings (decalin), half chair (cyclohexene), anomeric effect (sugars).\nSTEP 8. If reaction: E2 → trans-diaxial; oxidation → axial OH faster; acylation → equatorial faster; epoxide → trans-diaxial opening.\nSTEP 9. If numerical: ΔG = −RT ln K, RT = 2.48 kJ/mol at 298 K; 1.36 kcal/mol ↔ K = 10.\nSTEP 10. Re-check cis/trans: ring flip never changes it.",
+      "kinetics_and_energy": "Key numbers: ethane 12; propane 14; butane 0/3.8/16/19; ring flip 45; chair/twist/boat/half 0/23/29/45; axial CH3 7.6; gauche 3.8; trans-decalin vs cis 11; RT(298 K) = 2.48 kJ/mol = 0.593 kcal/mol; 1 kcal = 4.184 kJ.",
+      "selectivity_and_stereochemistry": "Conformation controls: stability of diastereomers (ee isomer more stable), rates (axial vs equatorial), product distributions (E2 regiochemistry), and molecular shape in biomolecules (sugars, steroids).",
+      "common_traps": "1) Mixing up gauche (60°) and partially eclipsed (120°).\n2) Reversing twist boat/boat order.\n3) Flipping only some groups during ring flip.\n4) Forgetting that ring flip never makes cis → trans.\n5) Applying the 1,2/1,4 table to 1,3 compounds.\n6) Using atom size instead of A-value for ranking.\n7) Ignoring H-bond/solvent exceptions.\n8) Choosing the most stable chair for E2 instead of the trans-diaxial chair.\n9) Wrong sign/direction in K = e^(ΔG/RT).",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "All order lists (butane, cyclohexane conformers, A-values)",
+          "All numbers (12, 14, 3.8, 16, 19, 23, 29, 45, 7.6, 11)",
+          "cis/trans table",
+          "Exceptions list",
+          "E2 trans-diaxial examples"
+        ],
         "practice_style": [
           "mechanism prediction",
           "reagent/condition selection",
           "major-product prediction",
           "stereochemical outcome",
-          "conceptual comparison"
+          "conceptual comparison",
+          "numerical (ΔG, K, population)"
         ]
       },
       "diagram": {
-        "caption": "Conformational Analysis — Cyclohexane — concept schematic",
-        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Chair ring flip</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>axial ↔ equatorial</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>up/down retained</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>bulky groups prefer equatorial</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>compare conformer energy</text></svg>"
+        "caption": "Master algorithm",
+        "svg": "<svg viewBox='0 0 360 235' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='235' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Master algorithm (summary)</text><circle cx='25' cy='46' r='4' fill='#16a34a'/><text x='38' y='50' font-size='12' font-family='Arial' fill='#334155'>1. Acyclic → Newman, θ, staggered > eclipsed</text><circle cx='25' cy='71' r='4' fill='#16a34a'/><text x='38' y='75' font-size='12' font-family='Arial' fill='#334155'>2. Check H-bond / gauche effect exceptions</text><circle cx='25' cy='96' r='4' fill='#16a34a'/><text x='38' y='100' font-size='12' font-family='Arial' fill='#334155'>3. Cyclic → chair, axial alternation, wedge/dash</text><circle cx='25' cy='121' r='4' fill='#16a34a'/><text x='38' y='125' font-size='12' font-family='Arial' fill='#334155'>4. Write flipped chair (ax ↔ eq)</text><circle cx='25' cy='146' r='4' fill='#16a34a'/><text x='38' y='150' font-size='12' font-family='Arial' fill='#334155'>5. Compare: A-values + gauche + syn-axial</text><circle cx='25' cy='171' r='4' fill='#16a34a'/><text x='38' y='175' font-size='12' font-family='Arial' fill='#334155'>6. Check exceptions & reactivity (E2 diaxial)</text><circle cx='25' cy='196' r='4' fill='#16a34a'/><text x='38' y='200' font-size='12' font-family='Arial' fill='#334155'>7. Numbers: ΔG = −RT ln K</text></svg>"
       }
     }
   ]
-}
+    }
