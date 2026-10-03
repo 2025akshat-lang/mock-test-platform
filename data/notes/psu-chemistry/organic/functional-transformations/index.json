@@ -4,32 +4,32 @@
     {
       "id": "oxidizing-agents",
       "title": "Oxidizing Agents — KMnO4 and Cr(VI)",
-      "file": "functional-transformations/oxidizing-agents.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/oxidizing-agents.json"
     },
     {
       "id": "reducing-agents",
       "title": "Reducing Agents — LiAlH4 and NaBH4",
-      "file": "functional-transformations/reducing-agents.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/reducing-agents.json"
     },
     {
       "id": "aldol-condensation",
       "title": "Aldol Condensation",
-      "file": "functional-transformations/aldol-condensation.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/aldol-condensation.json"
     },
     {
       "id": "cannizzaro",
       "title": "Cannizzaro Reaction",
-      "file": "functional-transformations/cannizzaro.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/cannizzaro.json"
     },
     {
       "id": "friedel-crafts",
       "title": "Friedel–Crafts Alkylation and Acylation",
-      "file": "functional-transformations/friedel-crafts.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/friedel-crafts.json"
     },
     {
       "id": "grignard",
       "title": "Grignard Reagent Chemistry",
-      "file": "functional-transformations/grignard.json"
+      "file": "data/notes/psu-chemistry/organic/functional-transformations/grignard.json"
     }
   ]
 }
