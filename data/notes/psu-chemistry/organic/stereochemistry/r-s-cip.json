@@ -1,0 +1,40 @@
+{
+  "topic_id": "r-s-cip",
+  "topic_title": "R/S Configuration — CIP Rules",
+  "notes_list": [
+    {
+      "id": "r-s-cip-n01",
+      "title": "R/S Configuration — CIP Rules",
+      "tags": [
+        "R/S",
+        "CIP",
+        "configuration"
+      ],
+      "basic_overview": "R/S descriptors are assigned using Cahn–Ingold–Prelog priority rules. They describe absolute configuration at a stereogenic center.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Prioritize directly attached atoms by atomic number; isotopes by mass. If tied, compare outward atom-by-atom until the first point of difference. Orient the lowest-priority group away and trace 1→2→3: clockwise R, anticlockwise S.",
+      "examples": "2-butanol, lactic acid and substituted cyclohexanes provide common CIP practice.",
+      "conditions_and_medium": "No medium; descriptor depends only on connectivity and 3D arrangement.",
+      "mechanism_steps": "1. Assign priorities. 2. Orient group 4 away. 3. Trace 1→2→3. 4. Reverse if group 4 points toward the viewer. 5. Check multiple-bond duplicate-atom convention.",
+      "kinetics_and_energy": "CIP descriptors are not determined by optical rotation sign. R does not mean (+), and S does not mean (−).",
+      "selectivity_and_stereochemistry": "Frequently tested in multi-stereocenter structures and reaction products.",
+      "common_traps": "Do not assign priority by molecular mass of the whole group; compare atomic numbers at the first point of difference.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "R/S Configuration — CIP Rules — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>CIP sequence</text><circle cx='25' cy='48' r='4' fill='#16a34a'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>1. atomic number</text><circle cx='25' cy='73' r='4' fill='#16a34a'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>2. isotope mass if tied</text><circle cx='25' cy='98' r='4' fill='#16a34a'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>3. first point of difference</text><circle cx='25' cy='123' r='4' fill='#16a34a'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>4. orient lowest priority away</text></svg>"
+      }
+    }
+  ]
+}

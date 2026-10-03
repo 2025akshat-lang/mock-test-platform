@@ -1,0 +1,40 @@
+{
+  "topic_id": "chirality-symmetry",
+  "topic_title": "Chirality and Elements of Symmetry",
+  "notes_list": [
+    {
+      "id": "chirality-symmetry-n01",
+      "title": "Chirality and Elements of Symmetry",
+      "tags": [
+        "chirality",
+        "symmetry",
+        "stereocenter"
+      ],
+      "basic_overview": "A molecule is chiral when it is not superposable on its mirror image. Symmetry analysis helps identify whether a structure can be achiral.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Common symmetry elements: proper rotation axis Cn, mirror plane σ, inversion center i, and improper rotation axis Sn. A molecule containing a mirror plane, inversion center or Sn operation is achiral.",
+      "examples": "2-butanol is chiral at C2. Meso compounds contain stereocenters but are achiral because of internal symmetry.",
+      "conditions_and_medium": "No reaction conditions; chirality is a structural property. Reactions can create, destroy or transfer stereochemical information.",
+      "mechanism_steps": "1. Identify stereogenic elements. 2. Search for symmetry. 3. Generate mirror image. 4. Test superposability. 5. Assign configurations if required.",
+      "kinetics_and_energy": "Stereochemical purity can be measured using enantiomeric excess. Racemization occurs when a planar achiral intermediate allows attack from either face.",
+      "selectivity_and_stereochemistry": "Core for SN1 racemization, asymmetric synthesis, spectroscopy and conformational analysis.",
+      "common_traps": "A carbon with four different substituents is a common stereocenter but is not the only source of chirality.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Chirality and Elements of Symmetry — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Chirality test</text><circle cx='25' cy='48' r='4' fill='#2563eb'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>find stereogenic element</text><circle cx='25' cy='73' r='4' fill='#2563eb'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>look for σ / i / Sn</text><circle cx='25' cy='98' r='4' fill='#2563eb'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>draw mirror image</text><circle cx='25' cy='123' r='4' fill='#2563eb'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>test superposition</text></svg>"
+      }
+    }
+  ]
+}

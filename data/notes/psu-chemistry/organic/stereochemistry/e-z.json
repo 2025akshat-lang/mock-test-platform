@@ -1,0 +1,40 @@
+{
+  "topic_id": "e-z",
+  "topic_title": "E/Z Configuration",
+  "notes_list": [
+    {
+      "id": "e-z-n01",
+      "title": "E/Z Configuration",
+      "tags": [
+        "E/Z",
+        "alkene",
+        "CIP"
+      ],
+      "basic_overview": "E/Z nomenclature describes alkene geometry when each alkene carbon has two different substituents.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Apply CIP independently on each alkene carbon. If higher-priority groups are on the same side → Z; opposite sides → E.",
+      "examples": "2-butene has E and Z stereoisomers. Substituted alkenes can have E/Z even when cis/trans terminology is ambiguous.",
+      "conditions_and_medium": "Alkene geometry can be preserved or changed depending on the mechanism. Syn additions can be stereospecific; carbocation intermediates can reduce stereospecificity.",
+      "mechanism_steps": "1. Identify two substituents on each sp2 carbon. 2. Assign CIP priorities. 3. Compare spatial side of high-priority groups.",
+      "kinetics_and_energy": "E/Z is configurational; rotation around C=C is not free under ordinary conditions because π bonding must be disrupted.",
+      "selectivity_and_stereochemistry": "Important for addition, elimination and stereospecific reaction questions.",
+      "common_traps": "Do not equate E with “trans” universally; trans/cis requires a comparable pair of groups.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "E/Z Configuration — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>E/Z assignment</text><circle cx='25' cy='48' r='4' fill='#f59e0b'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>CIP on left carbon</text><circle cx='25' cy='73' r='4' fill='#f59e0b'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>CIP on right carbon</text><circle cx='25' cy='98' r='4' fill='#f59e0b'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>same side = Z</text><circle cx='25' cy='123' r='4' fill='#f59e0b'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>opposite side = E</text></svg>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "topic_id": "cyclohexane-conformation",
+  "topic_title": "Conformational Analysis — Cyclohexane",
+  "notes_list": [
+    {
+      "id": "cyclohexane-conformation-n01",
+      "title": "Conformational Analysis — Cyclohexane",
+      "tags": [
+        "conformation",
+        "cyclohexane",
+        "chair",
+        "axial",
+        "equatorial"
+      ],
+      "basic_overview": "Cyclohexane adopts nonplanar conformations; chair is strongly preferred because it minimizes torsional and angle strain.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Chair conformations have axial and equatorial positions. Ring flip converts axial↔equatorial while retaining up/down orientation. Bulky groups generally prefer equatorial positions.",
+      "examples": "Methylcyclohexane is more stable with methyl equatorial. For disubstituted cyclohexanes, determine whether both substituents can be equatorial in one chair.",
+      "conditions_and_medium": "Equilibrium between chairs is temperature-dependent but normally rapid at room temperature for ordinary cyclohexanes.",
+      "mechanism_steps": "1. Draw chair. 2. Mark axial positions alternating up/down. 3. Convert substituent up/down to axial/equatorial. 4. Ring flip without changing up/down. 5. Compare A-values qualitatively.",
+      "kinetics_and_energy": "Axial penalty is often discussed using A-values; disubstituted conformers can be compared by summing substituent penalties as an approximation.",
+      "selectivity_and_stereochemistry": "High-yield for stereochemical stability and E2 reactions on cyclohexanes.",
+      "common_traps": "Ring flip does not convert cis to trans. It only exchanges axial and equatorial positions.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Conformational Analysis — Cyclohexane — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Chair ring flip</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>axial ↔ equatorial</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>up/down retained</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>bulky groups prefer equatorial</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>compare conformer energy</text></svg>"
+      }
+    }
+  ]
+}
