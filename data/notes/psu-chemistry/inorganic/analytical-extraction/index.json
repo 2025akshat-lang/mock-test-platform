@@ -1,0 +1,35 @@
+{
+  "chapter_title": "Analytical & Extraction Chemistry",
+  "topics": [
+    {
+      "topic_id": "metallurgy",
+      "topic_title": "Metal extraction workflow",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/metallurgy.json"
+    },
+    {
+      "topic_id": "roasting-calcination",
+      "topic_title": "Roasting versus calcination",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/roasting-calcination.json"
+    },
+    {
+      "topic_id": "ellingham",
+      "topic_title": "Ellingham thermodynamic logic",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/ellingham.json"
+    },
+    {
+      "topic_id": "radioactivity",
+      "topic_title": "Radioactive decay and half-life",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/radioactivity.json"
+    },
+    {
+      "topic_id": "acid-base-titration",
+      "topic_title": "Acid–base titration",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/acid-base-titration.json"
+    },
+    {
+      "topic_id": "acid-base-equilibrium",
+      "topic_title": "Acid–base equilibrium in analysis",
+      "file": "data/notes/psu-chemistry/inorganic/analytical-extraction/acid-base-equilibrium.json"
+    }
+  ]
+}
