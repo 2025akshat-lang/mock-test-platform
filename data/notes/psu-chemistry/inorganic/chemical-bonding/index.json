@@ -1,0 +1,40 @@
+{
+  "chapter_title": "Chemical Bonding & Shapes",
+  "topics": [
+    {
+      "topic_id": "ionic-covalent",
+      "topic_title": "Ionic and covalent bonding",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/ionic-covalent.json"
+    },
+    {
+      "topic_id": "vsepr",
+      "topic_title": "VSEPR theory",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/vsepr.json"
+    },
+    {
+      "topic_id": "hybridisation",
+      "topic_title": "Hybridisation and geometry",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/hybridisation.json"
+    },
+    {
+      "topic_id": "homonuclear-mo",
+      "topic_title": "Homonuclear MO theory",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/homonuclear-mo.json"
+    },
+    {
+      "topic_id": "heteronuclear-mo",
+      "topic_title": "Heteronuclear MO theory",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/heteronuclear-mo.json"
+    },
+    {
+      "topic_id": "lattice-energy",
+      "topic_title": "Lattice energy",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/lattice-energy.json"
+    },
+    {
+      "topic_id": "born-haber",
+      "topic_title": "Born–Haber cycle",
+      "file": "data/notes/psu-chemistry/inorganic/chemical-bonding/born-haber.json"
+    }
+  ]
+}
