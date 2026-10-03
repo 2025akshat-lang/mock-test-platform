@@ -1,0 +1,41 @@
+{
+  "topic_id": "oxidizing-agents",
+  "topic_title": "Oxidizing Agents — KMnO4 and Cr(VI)",
+  "notes_list": [
+    {
+      "id": "oxidizing-agents-n01",
+      "title": "Oxidizing Agents — KMnO4 and Cr(VI)",
+      "tags": [
+        "oxidation",
+        "KMnO4",
+        "CrVI",
+        "PCC"
+      ],
+      "basic_overview": "Common oxidants differ in strength, selectivity and medium. Permanganate is versatile; Cr(VI) reagents can oxidize alcohols and carbonyl precursors depending on water content and formulation.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Primary alcohols can stop at aldehydes under controlled anhydrous conditions or proceed to acids under aqueous strong oxidation. Secondary alcohols give ketones. Alkenes can undergo oxidation/cleavage under stronger conditions.",
+      "examples": "KMnO4: alcohol oxidation, alkene dihydroxylation/cleavage depending conditions. PCC: primary alcohol → aldehyde. Jones reagent: primary alcohol → acid in aqueous acidic medium.",
+      "conditions_and_medium": "Acidic/basic medium and temperature dramatically change permanganate behavior. PCC is commonly used under relatively anhydrous conditions.",
+      "mechanism_steps": "Oxidation often proceeds through formation of a metal-bound alkoxide/chromate ester followed by hydride transfer for alcohol oxidation. Alkene permanganate chemistry can proceed through cyclic intermediates.",
+      "kinetics_and_energy": "Reaction rate depends on oxidant concentration, substrate, medium and temperature; mechanistic pathways differ by oxidant.",
+      "selectivity_and_stereochemistry": "Reagent-selection questions and synthesis planning.",
+      "common_traps": "Never choose an oxidant by name alone; identify substrate and desired stopping point.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Oxidizing Agents — KMnO4 and Cr(VI) — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Oxidant selection</text><circle cx='25' cy='48' r='4' fill='#dc2626'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>PCC → 1° alcohol → aldehyde</text><circle cx='25' cy='73' r='4' fill='#dc2626'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>Jones → 1° alcohol → acid</text><circle cx='25' cy='98' r='4' fill='#dc2626'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>KMnO4 → strong oxidation</text><circle cx='25' cy='123' r='4' fill='#dc2626'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>medium controls outcome</text></svg>"
+      }
+    }
+  ]
+}

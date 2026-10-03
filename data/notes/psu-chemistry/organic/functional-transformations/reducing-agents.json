@@ -1,0 +1,40 @@
+{
+  "topic_id": "reducing-agents",
+  "topic_title": "Reducing Agents — LiAlH4 and NaBH4",
+  "notes_list": [
+    {
+      "id": "reducing-agents-n01",
+      "title": "Reducing Agents — LiAlH4 and NaBH4",
+      "tags": [
+        "reduction",
+        "LiAlH4",
+        "NaBH4"
+      ],
+      "basic_overview": "LiAlH4 is a strong hydride donor capable of reducing many carbonyl derivatives; NaBH4 is milder and often selectively reduces aldehydes and ketones.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "LiAlH4 commonly reduces esters, acids, amides and nitriles under suitable conditions; NaBH4 is typically milder and compatible with many other functional groups.",
+      "examples": "RCHO/R2CO → alcohols; ester → primary alcohol with LiAlH4; carboxylic acid → primary alcohol with LiAlH4 after workup.",
+      "conditions_and_medium": "LiAlH4 reacts violently with protic solvents and is used in dry ether/THF followed by careful aqueous workup. NaBH4 is compatible with protic solvents in many applications.",
+      "mechanism_steps": "Hydride attacks electrophilic carbonyl carbon, producing tetrahedral intermediates. Carbonyl derivatives can undergo acyl substitution before further reduction.",
+      "kinetics_and_energy": "Hydride-transfer kinetics depend on carbonyl electrophilicity and reagent/solvent environment.",
+      "selectivity_and_stereochemistry": "High-yield synthesis/reagent selection.",
+      "common_traps": "Do not add LiAlH4 directly to water/alcohol. Always distinguish chemoselectivity of LiAlH4 vs NaBH4.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Reducing Agents — LiAlH4 and NaBH4 — concept schematic",
+        "svg": "<svg viewBox='0 0 360 150' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='150' rx='12' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='45' font-size='15' font-family='Arial' font-weight='700' fill='#0f172a'>C=O</text><line x1='112' y1='38' x2='238' y2='38' stroke='#64748b' stroke-width='2'/><polygon points='238,38 228,32 228,44' fill='#64748b'/><text x='145' y='27' font-size='11' font-family='Arial' fill='#2563eb'>LAH or NaBH4</text><text x='258' y='45' font-size='15' font-family='Arial' font-weight='700' fill='#0f172a'>CH–OH</text><text x='18' y='88' font-size='12' font-family='Arial' fill='#475569'>hydride transfer; protonation on workup</text><text x='18' y='118' font-size='11' font-family='Arial' fill='#64748b'>electron flow / stereochemical consequence / selectivity should be tracked</text></svg>"
+      }
+    }
+  ]
+}

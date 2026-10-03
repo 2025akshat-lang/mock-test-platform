@@ -1,0 +1,39 @@
+{
+  "topic_id": "cannizzaro",
+  "topic_title": "Cannizzaro Reaction",
+  "notes_list": [
+    {
+      "id": "cannizzaro-n01",
+      "title": "Cannizzaro Reaction",
+      "tags": [
+        "cannizzaro",
+        "disproportionation"
+      ],
+      "basic_overview": "Non-enolizable aldehydes can disproportionate in concentrated base to an alcohol and a carboxylate.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "One aldehyde molecule is oxidized while another is reduced. Crossed Cannizzaro often uses formaldehyde as the species oxidized to formate.",
+      "examples": "2 PhCHO + OH− → PhCH2OH + PhCOO−.",
+      "conditions_and_medium": "Concentrated aqueous base; non-enolizable aldehydes are required for the classic reaction.",
+      "mechanism_steps": "OH− addition to aldehyde → tetrahedral intermediate → hydride transfer to a second aldehyde molecule → alcohol + carboxylate.",
+      "kinetics_and_energy": "The key hydride-transfer step couples oxidation and reduction. Product distribution depends on substrate and base concentration.",
+      "selectivity_and_stereochemistry": "Distinguish from aldol by checking α-H.",
+      "common_traps": "Do not apply Cannizzaro to ordinary enolizable aldehydes where aldol chemistry is available under suitable conditions.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Cannizzaro Reaction — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Cannizzaro</text><circle cx='25' cy='48' r='4' fill='#16a34a'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>aldehyde without α-H</text><circle cx='25' cy='73' r='4' fill='#16a34a'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>OH− addition</text><circle cx='25' cy='98' r='4' fill='#16a34a'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>hydride transfer</text><circle cx='25' cy='123' r='4' fill='#16a34a'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>alcohol + carboxylate</text></svg>"
+      }
+    }
+  ]
+}
