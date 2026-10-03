@@ -1,0 +1,40 @@
+{
+  "topic_id": "organic-basicity",
+  "topic_title": "Basicity of Organic Compounds",
+  "notes_list": [
+    {
+      "id": "organic-basicity-n01",
+      "title": "Basicity of Organic Compounds",
+      "tags": [
+        "basicity",
+        "amines",
+        "nucleophilicity"
+      ],
+      "basic_overview": "Basicity describes the tendency of a species to accept a proton. In organic chemistry, lone-pair availability, resonance, inductive effects, hybridization and solvation are central.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "A lone pair delocalized into resonance is less available for protonation. Electron donation generally raises basicity, while electron withdrawal lowers it, but solvation can reverse simple gas-phase trends.",
+      "examples": "Aliphatic amines are generally more basic than amides because the amide lone pair is delocalized. Aniline is less basic than many aliphatic amines because its lone pair interacts with the aromatic ring.",
+      "conditions_and_medium": "Aqueous basicity depends strongly on solvation of the base and conjugate acid. Protic solvent can stabilize ions and change relative basicities.",
+      "mechanism_steps": "1. Locate basic lone pair. 2. Determine resonance participation. 3. Evaluate inductive effects. 4. Compare hybridization. 5. Consider solvent and conjugate-acid stabilization.",
+      "kinetics_and_energy": "Basicity is related to protonation equilibrium; nucleophilicity is kinetic and is not identical to basicity.",
+      "selectivity_and_stereochemistry": "Useful in mechanism selection, amine chemistry and acid-base workups.",
+      "common_traps": "Do not use “stronger base = stronger nucleophile” universally. Amide nitrogens have reduced basicity due to resonance.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Basicity of Organic Compounds — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Basicity vs nucleophilicity</text><circle cx='25' cy='48' r='4' fill='#0891b2'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>basicity = equilibrium</text><circle cx='25' cy='73' r='4' fill='#0891b2'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>nucleophilicity = rate</text><circle cx='25' cy='98' r='4' fill='#0891b2'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>resonance lowers lone-pair availability</text><circle cx='25' cy='123' r='4' fill='#0891b2'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>solvent matters</text></svg>"
+      }
+    }
+  ]
+}

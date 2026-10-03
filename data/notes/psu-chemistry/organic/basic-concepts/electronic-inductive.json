@@ -1,0 +1,43 @@
+{
+  "topic_id": "electronic-inductive",
+  "topic_title": "Electronic Effects — Inductive Effect",
+  "notes_list": [
+    {
+      "id": "electronic-inductive-n01",
+      "title": "Electronic Effects — Inductive Effect",
+      "tags": [
+        "inductive",
+        "electronic-effects",
+        "acidity",
+        "stability"
+      ],
+      "basic_overview": "The sigma-bond polarization transmitted through a carbon skeleton; electron-withdrawing and electron-releasing substituents alter stability, acidity, basicity and reactivity.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "+I groups push electron density through sigma bonds; −I groups withdraw it. The effect decreases rapidly with distance. Compare CF3, NO2, CN, halogens, alkyl groups and charged substituents using both magnitude and distance.",
+      "examples": "Acidity: CH3CO2H vs ClCH2CO2H vs CCl3CH2CO2H. Carbocation stability is generally helped by +I groups and harmed by strong −I groups.",
+      "conditions_and_medium": "Polar/protic media can change the observed outcome because solvation may dominate intrinsic electronic effects. Inductive effect is strongest close to the substituent.",
+      "mechanism_steps": "1. Identify polarized bond. 2. Assign donor/withdrawer. 3. Trace effect through sigma framework. 4. Predict stabilization/destabilization of charge or transition state. 5. Check competing resonance effects.",
+      "kinetics_and_energy": "Not a separate rate law; it changes activation free energy by stabilizing reactant, intermediate or transition state. Use Hammond-type reasoning qualitatively when comparing barriers.",
+      "selectivity_and_stereochemistry": "Used in acidity/basicity ranking, carbocation/carbanion stability and reaction-rate comparisons.",
+      "common_traps": "Do not call every electron-withdrawing effect inductive; resonance requires p-orbital overlap. Halogens are −I but can be +M in aromatic systems.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "effect decreases with distance"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Electronic Effects — Inductive Effect — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Inductive effect</text><circle cx='25' cy='48' r='4' fill='#2563eb'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>−I: CF3, NO2, CN, halogens</text><circle cx='25' cy='73' r='4' fill='#2563eb'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>+I: alkyl groups</text><circle cx='25' cy='98' r='4' fill='#2563eb'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>effect decreases with distance</text><circle cx='25' cy='123' r='4' fill='#2563eb'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>compare competing resonance</text></svg>"
+      }
+    }
+  ]
+}

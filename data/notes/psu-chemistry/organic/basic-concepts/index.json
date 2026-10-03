@@ -1,0 +1,35 @@
+{
+  "chapter_title": "Basic Concepts in Organic Chemistry",
+  "topics": [
+    {
+      "id": "electronic-inductive",
+      "title": "Electronic Effects — Inductive Effect",
+      "file": "basic-concepts/electronic-inductive.json"
+    },
+    {
+      "id": "electronic-resonance",
+      "title": "Resonance / Mesomeric Effect",
+      "file": "basic-concepts/electronic-resonance.json"
+    },
+    {
+      "id": "hyperconjugation",
+      "title": "Hyperconjugation",
+      "file": "basic-concepts/hyperconjugation.json"
+    },
+    {
+      "id": "aromaticity",
+      "title": "Aromaticity and Hückel Criterion",
+      "file": "basic-concepts/aromaticity.json"
+    },
+    {
+      "id": "organic-acidity",
+      "title": "Acidity of Organic Compounds",
+      "file": "basic-concepts/organic-acidity.json"
+    },
+    {
+      "id": "organic-basicity",
+      "title": "Basicity of Organic Compounds",
+      "file": "basic-concepts/organic-basicity.json"
+    }
+  ]
+}

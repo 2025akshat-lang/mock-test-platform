@@ -1,0 +1,42 @@
+{
+  "topic_id": "organic-acidity",
+  "topic_title": "Acidity of Organic Compounds",
+  "notes_list": [
+    {
+      "id": "organic-acidity-n01",
+      "title": "Acidity of Organic Compounds",
+      "tags": [
+        "acidity",
+        "pKa",
+        "conjugate-base"
+      ],
+      "basic_overview": "Organic acidity is governed by stability of the conjugate base. Inductive withdrawal, resonance delocalization, electronegativity, hybridization, solvation and aromaticity can all contribute.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "For a fixed solvent and comparable structures, rank acids by conjugate-base stability. Electron-withdrawing groups near the acidic center usually increase acidity; resonance-stabilized anions are especially important.",
+      "examples": "Carboxylic acids are much more acidic than alcohols; phenol is more acidic than a typical aliphatic alcohol; terminal alkynes are more acidic than alkenes because the conjugate carbanion is sp-hybridized.",
+      "conditions_and_medium": "Solvent can strongly affect measured acidity because ions are differently solvated. Gas-phase and solution-phase acidity rankings can differ.",
+      "mechanism_steps": "1. Remove H+. 2. Draw conjugate base. 3. Check resonance. 4. Check inductive effects. 5. Check atom/hybridization/solvation. 6. Rank stabilization.",
+      "kinetics_and_energy": "Acid strength relates to equilibrium ΔG°; pKa is a thermodynamic quantity, not simply a measure of reaction speed.",
+      "selectivity_and_stereochemistry": "High-frequency JAM question type: compare substituted phenols, carboxylic acids, alcohols and hydrocarbons.",
+      "common_traps": "Do not rank acidity only by electronegativity; conjugate-base resonance and solvation can dominate.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "lower pKa = stronger acid in same solvent"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Acidity of Organic Compounds — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Acidity workflow</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>acid → H+ removal</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>draw conjugate base</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>resonance?</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>−I/+I?</text><circle cx='25' cy='148' r='4' fill='#7c3aed'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>hybridization + solvation</text></svg>"
+      }
+    }
+  ]
+}

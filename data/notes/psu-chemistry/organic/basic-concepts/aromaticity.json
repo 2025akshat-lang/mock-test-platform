@@ -1,0 +1,42 @@
+{
+  "topic_id": "aromaticity",
+  "topic_title": "Aromaticity and Hückel Criterion",
+  "notes_list": [
+    {
+      "id": "aromaticity-n01",
+      "title": "Aromaticity and Hückel Criterion",
+      "tags": [
+        "aromaticity",
+        "huckel",
+        "antiaromatic"
+      ],
+      "basic_overview": "A cyclic, planar, continuously conjugated system with 4n+2 π electrons is aromatic and receives substantial delocalization stabilization.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Check four conditions: cyclic, planar or effectively planar, continuous p overlap, and 4n+2 π electrons. 4n π systems can be antiaromatic if planar and fully conjugated; nonplanar systems may be nonaromatic.",
+      "examples": "Benzene is 6π aromatic. Cyclopentadienyl anion is 6π aromatic. Cyclobutadiene is a classic 4π antiaromatic case when planar.",
+      "conditions_and_medium": "Aromaticity can be altered by protonation/deprotonation or oxidation/reduction. Heteroatom lone pairs must be classified according to whether they participate in the aromatic π system.",
+      "mechanism_steps": "1. Count π electrons. 2. Confirm cyclic conjugation. 3. Assess geometry. 4. Apply 4n+2 or 4n criterion. 5. Compare charge state when heteroatoms are present.",
+      "kinetics_and_energy": "Aromatic stabilization changes thermodynamic preference and can affect reaction pathways that temporarily disrupt aromaticity.",
+      "selectivity_and_stereochemistry": "Predict aromaticity of carbocycles and heterocycles; explain substitution preference.",
+      "common_traps": "Do not count every lone pair; one lone pair may participate while another remains in-plane for some heterocycles.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "4n+2 π"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Aromaticity and Hückel Criterion — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Aromaticity checklist</text><circle cx='25' cy='48' r='4' fill='#dc2626'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>cyclic?</text><circle cx='25' cy='73' r='4' fill='#dc2626'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>planar?</text><circle cx='25' cy='98' r='4' fill='#dc2626'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>continuous p orbitals?</text><circle cx='25' cy='123' r='4' fill='#dc2626'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>4n+2 π electrons?</text></svg>"
+      }
+    }
+  ]
+}
