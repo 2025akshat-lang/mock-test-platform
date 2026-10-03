@@ -1,0 +1,20 @@
+{
+  "chapter_title": "Heterocyclic Compounds",
+  "topics": [
+    {
+      "id": "furan-thiophene",
+      "title": "Furan and Thiophene — Aromaticity",
+      "file": "heterocyclic/furan-thiophene.json"
+    },
+    {
+      "id": "pyrrole",
+      "title": "Pyrrole — Aromaticity and Basicity",
+      "file": "heterocyclic/pyrrole.json"
+    },
+    {
+      "id": "pyridine",
+      "title": "Pyridine — Basicity and Electrophilic/Nucleophilic Reactivity",
+      "file": "heterocyclic/pyridine.json"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "topic_id": "pyrrole",
+  "topic_title": "Pyrrole — Aromaticity and Basicity",
+  "notes_list": [
+    {
+      "id": "pyrrole-n01",
+      "title": "Pyrrole — Aromaticity and Basicity",
+      "tags": [
+        "pyrrole",
+        "basicity",
+        "aromaticity"
+      ],
+      "basic_overview": "Pyrrole is a 6π aromatic heterocycle in which the nitrogen lone pair participates in aromaticity, making it much less basic than typical amines.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Protonating the nitrogen disrupts or competes with aromatic stabilization, so its basicity is low. Electrophilic substitution commonly occurs at C2.",
+      "examples": "Pyrrole vs pyridine is a classic comparison: pyrrole lone pair is aromatic; pyridine lone pair is not part of the aromatic sextet.",
+      "conditions_and_medium": "Mild electrophilic substitution conditions; strong acids can protonate or polymerize sensitive heterocycles.",
+      "mechanism_steps": "Draw resonance contributors showing lone-pair donation into the ring; then compare availability of the lone pair for protonation.",
+      "kinetics_and_energy": "Basicity depends on the free energy difference between neutral and protonated forms; aromaticity loss on protonation is a major factor.",
+      "selectivity_and_stereochemistry": "Aromaticity/basicity comparison.",
+      "common_traps": "Do not say “nitrogen always makes a ring basic”; pyrrole demonstrates the opposite.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Pyrrole — Aromaticity and Basicity — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Pyrrole N lone pair</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>lone pair enters π system</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>6π aromatic</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>low basicity</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>EAS at C2</text></svg>"
+      }
+    }
+  ]
+}

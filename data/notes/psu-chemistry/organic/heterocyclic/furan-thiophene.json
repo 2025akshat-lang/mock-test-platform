@@ -1,0 +1,40 @@
+{
+  "topic_id": "furan-thiophene",
+  "topic_title": "Furan and Thiophene — Aromaticity",
+  "notes_list": [
+    {
+      "id": "furan-thiophene-n01",
+      "title": "Furan and Thiophene — Aromaticity",
+      "tags": [
+        "furan",
+        "thiophene",
+        "aromaticity"
+      ],
+      "basic_overview": "Five-membered heteroaromatic rings contain two double bonds and one heteroatom lone pair participating in the aromatic π system, giving 6π electrons.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "One lone pair participates in the π system; another remains in-plane. Electrophilic substitution generally occurs readily at the 2-position.",
+      "examples": "Furan, thiophene and substituted derivatives undergo EAS, with relative reactivity influenced by heteroatom properties and substituents.",
+      "conditions_and_medium": "Mild EAS conditions are often used because these rings can be more reactive than benzene toward electrophiles.",
+      "mechanism_steps": "Electrophile attacks the electron-rich ring to form a resonance-stabilized σ-complex, followed by deprotonation to restore aromaticity.",
+      "kinetics_and_energy": "Rate depends on ring electron density and electrophile strength; harsh Lewis-acid conditions can cause decomposition/polymerization.",
+      "selectivity_and_stereochemistry": "Heteroaromatic substitution and aromaticity.",
+      "common_traps": "Do not count both heteroatom lone pairs toward aromaticity.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Furan and Thiophene — Aromaticity — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>5-member heteroaromatic</text><circle cx='25' cy='48' r='4' fill='#16a34a'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>2 C=C = 4π</text><circle cx='25' cy='73' r='4' fill='#16a34a'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>one lone pair = 2π</text><circle cx='25' cy='98' r='4' fill='#16a34a'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>total 6π</text><circle cx='25' cy='123' r='4' fill='#16a34a'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>EAS often at C2</text></svg>"
+      }
+    }
+  ]
+}
