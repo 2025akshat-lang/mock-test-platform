@@ -1,0 +1,25 @@
+{
+  "chapter_title": "Organometallic Chemistry",
+  "topics": [
+    {
+      "topic_id": "18e",
+      "topic_title": "18-electron guideline",
+      "file": "data/notes/psu-chemistry/inorganic/organometallic/18e.json"
+    },
+    {
+      "topic_id": "carbonyl",
+      "topic_title": "Metal carbonyls and synergic bonding",
+      "file": "data/notes/psu-chemistry/inorganic/organometallic/carbonyl.json"
+    },
+    {
+      "topic_id": "elementary-steps",
+      "topic_title": "Elementary organometallic reactions",
+      "file": "data/notes/psu-chemistry/inorganic/organometallic/elementary-steps.json"
+    },
+    {
+      "topic_id": "beta-hydride",
+      "topic_title": "β-Hydride elimination",
+      "file": "data/notes/psu-chemistry/inorganic/organometallic/beta-hydride.json"
+    }
+  ]
+}
