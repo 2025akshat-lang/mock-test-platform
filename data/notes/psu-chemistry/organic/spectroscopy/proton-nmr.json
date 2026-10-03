@@ -1,0 +1,43 @@
+{
+  "topic_id": "proton-nmr",
+  "topic_title": "1H NMR — Chemical Shift, Integration and Splitting",
+  "notes_list": [
+    {
+      "id": "proton-nmr-n01",
+      "title": "1H NMR — Chemical Shift, Integration and Splitting",
+      "tags": [
+        "NMR",
+        "1H-NMR",
+        "chemical-shift",
+        "splitting"
+      ],
+      "basic_overview": "1H NMR reports proton environments through chemical shift, integration and spin-spin coupling. Together they provide connectivity and local environment information.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Chemical shift reflects shielding/deshielding; integration estimates relative proton count; splitting follows coupling to nonequivalent neighboring nuclei under first-order conditions.",
+      "examples": "Ethyl group often gives triplet/quartet patterns in simple first-order spectra; aldehydic protons appear far downfield compared with simple alkyl protons.",
+      "conditions_and_medium": "Deuterated solvents are used; TMS or another reference sets the chemical-shift scale. Exchangeable OH/NH signals can broaden or shift with solvent and temperature.",
+      "mechanism_steps": "Apply: number of signals → integration → multiplicity → coupling constants → chemical shift → connect fragments.",
+      "kinetics_and_energy": "For simple first-order systems, n equivalent neighboring protons often give n+1 lines. Coupling is governed by spin-spin interactions and depends on geometry.",
+      "selectivity_and_stereochemistry": "Core structure-elucidation skill.",
+      "common_traps": "n+1 is not universal; complex/second-order spectra, equivalent nuclei and long-range couplings can violate the simple rule.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "Δν and J must be distinguished; n+1 is first-order approximation"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "1H NMR — Chemical Shift, Integration and Splitting — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>1H NMR workflow</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>signals → environments</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>integration → H count</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>multiplicity → neighbors</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>J → geometry</text><circle cx='25' cy='148' r='4' fill='#7c3aed'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>δ → environment</text></svg>"
+      }
+    }
+  ]
+}

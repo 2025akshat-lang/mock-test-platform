@@ -1,0 +1,42 @@
+{
+  "topic_id": "ir-functional-groups",
+  "topic_title": "IR Spectroscopy — Functional Group Identification",
+  "notes_list": [
+    {
+      "id": "ir-functional-groups-n01",
+      "title": "IR Spectroscopy — Functional Group Identification",
+      "tags": [
+        "IR",
+        "vibrational-spectroscopy",
+        "functional-group"
+      ],
+      "basic_overview": "IR spectroscopy probes molecular vibrations and is especially powerful for identifying functional groups through characteristic stretching and bending frequencies.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Carbonyls, O–H, N–H, C≡N and C≡C regions are high-value diagnostic areas. The fingerprint region is highly specific but best used by comparison.",
+      "examples": "A strong C=O absorption near the 1700 cm−1 region is characteristic of many carbonyl compounds; broad O–H bands distinguish alcohols/acids by shape and position.",
+      "conditions_and_medium": "Sample preparation and physical state matter. Hydrogen bonding broadens O–H/N–H features.",
+      "mechanism_steps": "A vibration is IR-active when it changes molecular dipole moment. Symmetry and coupling affect band intensity and multiplicity.",
+      "kinetics_and_energy": "Frequency depends on bond strength and reduced mass; approximately ν ∝ sqrt(k/μ).",
+      "selectivity_and_stereochemistry": "Functional-group confirmation and structure verification.",
+      "common_traps": "Do not assign a functional group from one peak without checking neighboring bands and the overall spectrum.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [
+          "ν ≈ (1/2πc)√(k/μ)"
+        ],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "IR Spectroscopy — Functional Group Identification — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>IR diagnostic map</text><circle cx='25' cy='48' r='4' fill='#16a34a'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>O–H / N–H</text><circle cx='25' cy='73' r='4' fill='#16a34a'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>C=O</text><circle cx='25' cy='98' r='4' fill='#16a34a'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>C≡N / C≡C</text><circle cx='25' cy='123' r='4' fill='#16a34a'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>C–O</text><circle cx='25' cy='148' r='4' fill='#16a34a'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>fingerprint region</text></svg>"
+      }
+    }
+  ]
+}

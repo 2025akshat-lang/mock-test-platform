@@ -1,0 +1,30 @@
+{
+  "chapter_title": "Spectroscopy and Structure Elucidation",
+  "topics": [
+    {
+      "id": "uv-visible",
+      "title": "UV–Visible Spectroscopy — Chromophores and Conjugation",
+      "file": "spectroscopy/uv-visible.json"
+    },
+    {
+      "id": "ir-functional-groups",
+      "title": "IR Spectroscopy — Functional Group Identification",
+      "file": "spectroscopy/ir-functional-groups.json"
+    },
+    {
+      "id": "proton-nmr",
+      "title": "1H NMR — Chemical Shift, Integration and Splitting",
+      "file": "spectroscopy/proton-nmr.json"
+    },
+    {
+      "id": "carbon-nmr",
+      "title": "13C NMR — Broadband Decoupled and DEPT Logic",
+      "file": "spectroscopy/carbon-nmr.json"
+    },
+    {
+      "id": "spectral-integration",
+      "title": "Integrated Spectral Structure Elucidation",
+      "file": "spectroscopy/spectral-integration.json"
+    }
+  ]
+}
