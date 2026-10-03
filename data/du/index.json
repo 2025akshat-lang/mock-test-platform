@@ -28,5 +28,36 @@
     "questionCount": 100,
     "maxMarks": 100,
     "file": "mock-3.json"
+  },
+  {
+    "id": "du-msc-chem-source-mock-4",
+    "title": "DU MSc Chemistry Source-Integrated Practice Mock 4",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-4.json"
+  },
+  {
+    "id": "du-msc-chem-source-mock-5",
+    "title": "DU MSc Chemistry Source-Integrated Practice Mock 5",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-5.json"
+  },
+  {
+    "id": "du-msc-chem-source-mock-6",
+    "title": "DU MSc Chemistry Source-Integrated Practice Mock 6",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-6.json"
   }
+  
 ]
