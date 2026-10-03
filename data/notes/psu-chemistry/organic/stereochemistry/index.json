@@ -4,27 +4,27 @@
     {
       "id": "chirality-symmetry",
       "title": "Chirality and Elements of Symmetry",
-      "file": "stereochemistry/chirality-symmetry.json"
+      "file": "data/notes/psu-chemistry/organic/stereochemistry/chirality-symmetry.json"
     },
     {
       "id": "r-s-cip",
       "title": "R/S Configuration — CIP Rules",
-      "file": "stereochemistry/r-s-cip.json"
+      "file": "data/notes/psu-chemistry/organic/stereochemistry/r-s-cip.json"
     },
     {
       "id": "e-z",
       "title": "E/Z Configuration",
-      "file": "stereochemistry/e-z.json"
+      "file": "data/notes/psu-chemistry/organic/stereochemistry/e-z.json"
     },
     {
       "id": "cyclohexane-conformation",
       "title": "Conformational Analysis — Cyclohexane",
-      "file": "stereochemistry/cyclohexane-conformation.json"
+      "file": "data/notes/psu-chemistry/organic/stereochemistry/cyclohexane-conformation.json"
     },
     {
       "id": "e2-stereochemistry",
       "title": "E2 Stereochemistry and Anti-Periplanar Geometry",
-      "file": "stereochemistry/e2-stereochemistry.json"
+      "file": "data/notes/psu-chemistry/organic/stereochemistry/e2-stereochemistry.json"
     }
   ]
 }
