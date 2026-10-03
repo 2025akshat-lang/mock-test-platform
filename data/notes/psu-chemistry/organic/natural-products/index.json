@@ -4,22 +4,22 @@
     {
       "id": "carbohydrate-classification",
       "title": "Carbohydrates — Classification and Fischer Projections",
-      "file": "natural-products/carbohydrate-classification.json"
+      "file": "data/notes/psu-chemistry/organic/natural-products/carbohydrate-classification.json"
     },
     {
       "id": "glucose-fructose-reactions",
       "title": "Glucose and Fructose — Important Reactions",
-      "file": "natural-products/glucose-fructose-reactions.json"
+      "file": "data/notes/psu-chemistry/organic/natural-products/glucose-fructose-reactions.json"
     },
     {
       "id": "amino-acids",
       "title": "Amino Acids — Zwitterions and Isoelectric Point",
-      "file": "natural-products/amino-acids.json"
+      "file": "data/notes/psu-chemistry/organic/natural-products/amino-acids.json"
     },
     {
       "id": "peptide-bond",
       "title": "Peptide Bond and Protein-Level Chemistry",
-      "file": "natural-products/peptide-bond.json"
+      "file": "data/notes/psu-chemistry/organic/natural-products/peptide-bond.json"
     }
   ]
 }
