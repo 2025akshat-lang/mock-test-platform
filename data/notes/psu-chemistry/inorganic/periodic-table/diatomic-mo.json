@@ -1,0 +1,25 @@
+{
+  "id": "diatomic-mo",
+  "title": "Homonuclear diatomic MO configurations",
+  "tags": [
+    "IIT-JAM",
+    "CY",
+    "Inorganic Chemistry"
+  ],
+  "basic_overview": "MO theory explains bond order and magnetism. For B₂/C₂/N₂ versus O₂/F₂, the conventional 2p ordering differs.",
+  "has_extra_info": true,
+  "extra_info_btn_color": "#7c3aed",
+  "extra_info_content": {
+    "short_trick": "Bond order first; unpaired electrons second.",
+    "step_by_step": "1. Combine compatible AOs. 2. Fill MOs. 3. BO=½(Nb−Na). 4. Count unpaired e⁻.",
+    "factors": "Use the standard JAM ordering expected for second-row diatomics.",
+    "examples": [],
+    "exceptions_or_traps": [],
+    "kinetics_or_energy": "Compare thermodynamic driving force with kinetic barrier when relevant; do not treat a favourable ΔG° as proof of a fast reaction.",
+    "exam_focus": "N₂ BO=3 diamagnetic; O₂ BO=2 paramagnetic."
+  },
+  "diagram": {
+    "caption": "Homonuclear diatomic MO configurations — molecular/formula stages",
+    "svg": "<svg width='760' height='215' viewBox='0 0 760 215' xmlns='http://www.w3.org/2000/svg'><rect width='760' height='215' rx='16' fill='#f8fafc'/><text x='380.0' y='31' text-anchor='middle' font-family='Arial' font-size='18' font-weight='700' fill='#0f172a'>Homonuclear diatomic MO configurations</text><rect x='20' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='105.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>N₂</text><text x='105.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>14 e⁻</text><text x='105.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>BO 3</text><text x='105.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>0 unpaired</text><text x='105.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>diamagnetic</text><line x1='193' y1='127.5' x2='208' y2='127.5' stroke='#475569' stroke-width='3'/><polygon points='208,127.5 199,121.5 199,133.5' fill='#475569'/><rect x='215' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='300.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>O₂</text><text x='300.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>16 e⁻</text><text x='300.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>BO 2</text><text x='300.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>2 unpaired</text><text x='300.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>paramagnetic</text><line x1='388' y1='127.5' x2='403' y2='127.5' stroke='#475569' stroke-width='3'/><polygon points='403,127.5 394,121.5 394,133.5' fill='#475569'/><rect x='410' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='495.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>F₂</text><text x='495.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>18 e⁻</text><text x='495.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>BO 1</text><text x='495.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>0 unpaired</text><text x='495.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>diamagnetic</text></svg>"
+  }
+}

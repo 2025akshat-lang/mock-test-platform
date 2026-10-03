@@ -1,0 +1,45 @@
+{
+  "chapter_title": "Periodic Table",
+  "topics": [
+    {
+      "topic_id": "classification",
+      "topic_title": "Periodic classification and orbital energy",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/classification.json"
+    },
+    {
+      "topic_id": "aufbau",
+      "topic_title": "Aufbau principle and configuration exceptions",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/aufbau.json"
+    },
+    {
+      "topic_id": "zeff",
+      "topic_title": "Effective nuclear charge and shielding",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/zeff.json"
+    },
+    {
+      "topic_id": "radii",
+      "topic_title": "Atomic, covalent and ionic radii",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/radii.json"
+    },
+    {
+      "topic_id": "ionization",
+      "topic_title": "Ionisation enthalpy",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/ionization.json"
+    },
+    {
+      "topic_id": "electron-gain",
+      "topic_title": "Electron-gain enthalpy",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/electron-gain.json"
+    },
+    {
+      "topic_id": "electronegativity",
+      "topic_title": "Electronegativity and bond polarity",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/electronegativity.json"
+    },
+    {
+      "topic_id": "diatomic-mo",
+      "topic_title": "Homonuclear diatomic MO configurations",
+      "file": "data/notes/psu-chemistry/inorganic/periodic-table/diatomic-mo.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "aufbau",
+  "title": "Aufbau principle and configuration exceptions",
+  "tags": [
+    "IIT-JAM",
+    "CY",
+    "Inorganic Chemistry"
+  ],
+  "basic_overview": "Aufbau is a filling guide; actual ground states can deviate when subshell energies are close.",
+  "has_extra_info": true,
+  "extra_info_btn_color": "#7c3aed",
+  "extra_info_content": {
+    "short_trick": "Fill by energy, then check Cr/Cu stability.",
+    "step_by_step": "1. Apply n+l. 2. Lower n first when n+l ties. 3. Write configuration. 4. Check known exceptions.",
+    "factors": "Exchange stabilisation and electron repulsion can favour half-filled/full d subshells.",
+    "examples": [],
+    "exceptions_or_traps": [],
+    "kinetics_or_energy": "Compare thermodynamic driving force with kinetic barrier when relevant; do not treat a favourable ΔG° as proof of a fast reaction.",
+    "exam_focus": "Cr/Cu configurations and transition-metal ion formation."
+  },
+  "diagram": {
+    "caption": "Aufbau principle and configuration exceptions — molecular/formula stages",
+    "svg": "<svg width='760' height='215' viewBox='0 0 760 215' xmlns='http://www.w3.org/2000/svg'><rect width='760' height='215' rx='16' fill='#f8fafc'/><text x='380.0' y='31' text-anchor='middle' font-family='Arial' font-size='18' font-weight='700' fill='#0f172a'>Aufbau principle and configuration exceptions</text><rect x='20' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='105.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>Na</text><text x='105.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>[Ne]3s¹</text><text x='105.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>one 3s e⁻</text><text x='105.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>normal filling</text><text x='105.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'></text><line x1='193' y1='127.5' x2='208' y2='127.5' stroke='#475569' stroke-width='3'/><polygon points='208,127.5 199,121.5 199,133.5' fill='#475569'/><rect x='215' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='300.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>Cr</text><text x='300.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>[Ar]3d⁵4s¹</text><text x='300.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>d⁵</text><text x='300.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>half-filled</text><text x='300.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>stable</text><line x1='388' y1='127.5' x2='403' y2='127.5' stroke='#475569' stroke-width='3'/><polygon points='403,127.5 394,121.5 394,133.5' fill='#475569'/><rect x='410' y='55' width='170' height='145' rx='12' fill='white' stroke='#94a3b8' stroke-width='2'/><text x='495.0' y='77' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='#475569'>Cu</text><text x='495.0' y='105' text-anchor='middle' font-family='Arial' font-size='15' font-weight='700' fill='#0f172a'>[Ar]3d¹⁰4s¹</text><text x='495.0' y='124' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>d¹⁰</text><text x='495.0' y='143' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>filled d</text><text x='495.0' y='162' text-anchor='middle' font-family='Arial' font-size='12' font-weight='400' fill='#0f172a'>stable</text></svg>"
+  }
+}
