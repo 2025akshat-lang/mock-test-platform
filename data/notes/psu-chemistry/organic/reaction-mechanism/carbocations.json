@@ -1,0 +1,40 @@
+{
+  "topic_id": "carbocations",
+  "topic_title": "Carbocations — Structure and Stability",
+  "notes_list": [
+    {
+      "id": "carbocations-n01",
+      "title": "Carbocations — Structure and Stability",
+      "tags": [
+        "carbocation",
+        "intermediate",
+        "SN1"
+      ],
+      "basic_overview": "Carbocations are electron-deficient carbon centers commonly described as three-coordinate, approximately trigonal planar species with an empty p orbital.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Stability depends on hyperconjugation, inductive effects, resonance and solvation. Benzylic and allylic carbocations gain strong resonance stabilization.",
+      "examples": "tert-butyl, benzyl and allyl carbocations illustrate different stabilization modes.",
+      "conditions_and_medium": "Polar protic solvents can stabilize ions; strongly ionizing media favor ionization steps.",
+      "mechanism_steps": "1. Identify empty p orbital. 2. Evaluate resonance. 3. Evaluate hyperconjugation/+I. 4. Check rearrangement pathways. 5. Consider solvent stabilization.",
+      "kinetics_and_energy": "For an SN1/E1 substrate, carbocation formation is commonly rate-determining under simple conditions. A more stable intermediate generally corresponds to a lower barrier, but the full transition-state environment matters.",
+      "selectivity_and_stereochemistry": "Predict SN1/E1 products and rearrangements.",
+      "common_traps": "Do not assume all tertiary carbocations are more stable than resonance-stabilized primary benzylic/allylic carbocations.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Carbocations — Structure and Stability — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Carbocation stability</text><circle cx='25' cy='48' r='4' fill='#dc2626'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>resonance</text><circle cx='25' cy='73' r='4' fill='#dc2626'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>hyperconjugation</text><circle cx='25' cy='98' r='4' fill='#dc2626'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>+I effects</text><circle cx='25' cy='123' r='4' fill='#dc2626'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>solvation</text><circle cx='25' cy='148' r='4' fill='#dc2626'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>rearrangement</text></svg>"
+      }
+    }
+  ]
+}

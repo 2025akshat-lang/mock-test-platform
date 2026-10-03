@@ -1,0 +1,42 @@
+{
+  "topic_id": "e1-e2",
+  "topic_title": "E1 and E2 Elimination",
+  "notes_list": [
+    {
+      "id": "e1-e2-n01",
+      "title": "E1 and E2 Elimination",
+      "tags": [
+        "E1",
+        "E2",
+        "elimination",
+        "Zaitsev",
+        "Hofmann"
+      ],
+      "basic_overview": "E1 elimination is stepwise through a carbocation; E2 is concerted and requires a suitable β-H/C–LG alignment.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "E1 competes with SN1 and is favored by carbocation-stabilizing substrates and heat. E2 is favored by strong bases and often by higher temperature.",
+      "examples": "Tertiary halides can undergo E1 in polar protic media; secondary/tertiary substrates with strong base commonly undergo E2.",
+      "conditions_and_medium": "E1: ionizing polar protic medium. E2: strong base; solvent and base sterics influence regioselectivity.",
+      "mechanism_steps": "E1: ionization → carbocation → β-deprotonation. E2: base abstracts β-H as leaving group departs and π bond forms.",
+      "kinetics_and_energy": "E1 rate ≈ k[substrate]; E2 rate = k[substrate][base].",
+      "selectivity_and_stereochemistry": "Integrates mechanism, kinetics, conformation and regioselectivity.",
+      "common_traps": "Zaitsev product is often favored for small bases under thermodynamic control, while bulky bases can favor Hofmann orientation.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "E1 and E2 Elimination — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>E1 vs E2</text><circle cx='25' cy='48' r='4' fill='#7c3aed'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>E1: carbocation</text><circle cx='25' cy='73' r='4' fill='#7c3aed'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>E2: concerted</text><circle cx='25' cy='98' r='4' fill='#7c3aed'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>E1 rate ∝ [RX]</text><circle cx='25' cy='123' r='4' fill='#7c3aed'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>E2 rate ∝ [RX][Base]</text><circle cx='25' cy='148' r='4' fill='#7c3aed'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>heat increases elimination</text></svg>"
+      }
+    }
+  ]
+}

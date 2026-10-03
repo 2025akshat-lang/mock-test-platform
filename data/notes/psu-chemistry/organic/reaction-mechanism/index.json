@@ -1,0 +1,40 @@
+{
+  "chapter_title": "Organic Reaction Mechanism & Reactive Intermediates",
+  "topics": [
+    {
+      "id": "carbocations",
+      "title": "Carbocations — Structure and Stability",
+      "file": "reaction-mechanism/carbocations.json"
+    },
+    {
+      "id": "carbanion",
+      "title": "Carbanions — Stability and Geometry",
+      "file": "reaction-mechanism/carbanion.json"
+    },
+    {
+      "id": "free-radicals",
+      "title": "Free Radicals",
+      "file": "reaction-mechanism/free-radicals.json"
+    },
+    {
+      "id": "sn1",
+      "title": "SN1 Reaction Mechanism",
+      "file": "reaction-mechanism/sn1.json"
+    },
+    {
+      "id": "sn2",
+      "title": "SN2 Reaction Mechanism",
+      "file": "reaction-mechanism/sn2.json"
+    },
+    {
+      "id": "e1-e2",
+      "title": "E1 and E2 Elimination",
+      "file": "reaction-mechanism/e1-e2.json"
+    },
+    {
+      "id": "alkene-electrophilic-addition",
+      "title": "Electrophilic Addition to Alkenes",
+      "file": "reaction-mechanism/alkene-electrophilic-addition.json"
+    }
+  ]
+}
