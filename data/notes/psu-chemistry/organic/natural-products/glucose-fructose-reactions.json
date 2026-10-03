@@ -1,0 +1,40 @@
+{
+  "topic_id": "glucose-fructose-reactions",
+  "topic_title": "Glucose and Fructose — Important Reactions",
+  "notes_list": [
+    {
+      "id": "glucose-fructose-reactions-n01",
+      "title": "Glucose and Fructose — Important Reactions",
+      "tags": [
+        "glucose",
+        "fructose",
+        "osazone"
+      ],
+      "basic_overview": "Glucose and fructose participate in oxidation, reduction, osazone formation and interconversion reactions that reveal structural relationships.",
+      "has_extra_info": true,
+      "extra_info_btn_color": "#2563eb",
+      "extra_info_content": "Glucose gives oxidation products depending on reagent strength; reduction gives sorbitol. Fructose can form the same osazone as glucose because the osazone-forming region involves C1/C2.",
+      "examples": "Bromine water selectively oxidizes the aldehyde function of glucose under suitable conditions; HI/red phosphorus historically gives straight-chain hydrocarbon products after extensive reduction.",
+      "conditions_and_medium": "Reagent identity and pH control selectivity. Strong oxidants can oxidize multiple sites.",
+      "mechanism_steps": "Track which carbon atoms are chemically modified. Osazone formation involves reaction of the carbonyl region and two adjacent carbon atoms.",
+      "kinetics_and_energy": "Analytical reaction rates depend on ring-opening equilibrium and reagent concentration.",
+      "selectivity_and_stereochemistry": "High-yield structural reasoning.",
+      "common_traps": "Do not infer identical complete structures from identical osazones; stereochemistry outside the osazone-forming region may differ.",
+      "exam_focus": {
+        "level": "IIT-JAM / MSc entrance / GATE concept depth",
+        "must_revise": [],
+        "practice_style": [
+          "mechanism prediction",
+          "reagent/condition selection",
+          "major-product prediction",
+          "stereochemical outcome",
+          "conceptual comparison"
+        ]
+      },
+      "diagram": {
+        "caption": "Glucose and Fructose — Important Reactions — concept schematic",
+        "svg": "<svg viewBox='0 0 360 210' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='210' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Sugar reactions</text><circle cx='25' cy='48' r='4' fill='#f59e0b'/><text x='38' y='52' font-size='12' font-family='Arial' fill='#334155'>oxidation</text><circle cx='25' cy='73' r='4' fill='#f59e0b'/><text x='38' y='77' font-size='12' font-family='Arial' fill='#334155'>reduction</text><circle cx='25' cy='98' r='4' fill='#f59e0b'/><text x='38' y='102' font-size='12' font-family='Arial' fill='#334155'>osazone formation</text><circle cx='25' cy='123' r='4' fill='#f59e0b'/><text x='38' y='127' font-size='12' font-family='Arial' fill='#334155'>mutarotation</text><circle cx='25' cy='148' r='4' fill='#f59e0b'/><text x='38' y='152' font-size='12' font-family='Arial' fill='#334155'>interconversion</text></svg>"
+      }
+    }
+  ]
+}
