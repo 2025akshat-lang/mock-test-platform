@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "description": "Organic Chemistry multi-index deep notes. Each chapter owns an index.json and each topic owns its own JSON file. SVG diagrams are embedded in note.diagram.svg.",
+  "root_index": "oindex.json",
+  "update_rule": "Edit only the relevant topic JSON when new information arrives; JavaScript does not need modification.",
+  "chapters": [
+    {
+      "id": "basic-concepts",
+      "title": "Basic Concepts in Organic Chemistry",
+      "file": "basic-concepts/index.json"
+    },
+    {
+      "id": "stereochemistry",
+      "title": "Stereochemistry",
+      "file": "stereochemistry/index.json"
+    },
+    {
+      "id": "reaction-mechanism",
+      "title": "Organic Reaction Mechanism & Reactive Intermediates",
+      "file": "reaction-mechanism/index.json"
+    },
+    {
+      "id": "qualitative-analysis",
+      "title": "Qualitative Organic Analysis",
+      "file": "qualitative-analysis/index.json"
+    },
+    {
+      "id": "functional-transformations",
+      "title": "Functional Group Transformations",
+      "file": "functional-transformations/index.json"
+    },
+    {
+      "id": "natural-products",
+      "title": "Natural Products & Biomolecules",
+      "file": "natural-products/index.json"
+    },
+    {
+      "id": "heterocyclic",
+      "title": "Heterocyclic Compounds",
+      "file": "heterocyclic/index.json"
+    },
+    {
+      "id": "spectroscopy",
+      "title": "Spectroscopy and Structure Elucidation",
+      "file": "spectroscopy/index.json"
+    },
+    {
+      "id": "name-reaction",
+      "title": "Name Reactions",
+      "file": "name-reaction/chapter.json"
+    }
+  ]
+}
