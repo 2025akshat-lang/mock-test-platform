@@ -1,0 +1,1915 @@
+{
+  "id": "du-msc-chem-mock-3",
+  "title": "DU MSc Chemistry Practice Mock Test 3",
+  "timeMins": 120,
+  "badgeText": "Practice",
+  "badgeClass": "practice",
+  "questionCount": 100,
+  "maxMarks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Analytical & Biochemistry",
+      "question": "In chromatography, a theoretical plate is a measure related to:",
+      "options": {
+        "A": "Sample molecular formula",
+        "B": "Column efficiency",
+        "C": "Detector voltage only",
+        "D": "Solvent boiling point only"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Higher theoretical plate number generally indicates greater column efficiency."
+    },
+    {
+      "id": 2,
+      "section": "Analytical & Biochemistry",
+      "question": "A bathochromic shift means movement of an absorption band toward:",
+      "options": {
+        "A": "Shorter wavelength",
+        "B": "Longer wavelength",
+        "C": "Zero wavelength",
+        "D": "No wavelength"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Bathochromic or red shift means a shift to longer wavelength."
+    },
+    {
+      "id": 3,
+      "section": "Inorganic Chemistry",
+      "question": "The inert pair effect is particularly important for:",
+      "options": {
+        "A": "Very light elements only",
+        "B": "Only transition metals",
+        "C": "Heavier p-block elements",
+        "D": "Only alkali metals"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Poor shielding by inner d/f electrons contributes to the inert pair effect in heavy p-block elements."
+    },
+    {
+      "id": 4,
+      "section": "Organic Chemistry",
+      "question": "A Grignard reagent is rapidly destroyed by:",
+      "options": {
+        "A": "Toluene",
+        "B": "Ethanol",
+        "C": "Anhydrous benzene",
+        "D": "Dry ether"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The acidic O–H proton of ethanol quenches the organomagnesium reagent."
+    },
+    {
+      "id": 5,
+      "section": "Inorganic Chemistry",
+      "question": "The Jahn-Teller effect is especially pronounced for octahedral:",
+      "options": {
+        "A": "high-spin d5",
+        "B": "d0",
+        "C": "d3",
+        "D": "d9"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "d9 octahedral systems have an uneven eg occupancy and commonly distort."
+    },
+    {
+      "id": 6,
+      "section": "Organic Chemistry",
+      "question": "A typical aromatic proton region in 1H NMR is approximately:",
+      "options": {
+        "A": "6–8 ppm",
+        "B": "2–3 ppm",
+        "C": "12–15 ppm",
+        "D": "0–1 ppm"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Aromatic protons commonly resonate around 6–8 ppm."
+    },
+    {
+      "id": 7,
+      "section": "Physical Chemistry",
+      "question": "A catalyst changes the rate of a reaction primarily by:",
+      "options": {
+        "A": "Changing the stoichiometric equation",
+        "B": "Changing ΔG°",
+        "C": "Changing equilibrium constant",
+        "D": "Providing an alternative lower-energy pathway"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A catalyst changes activation barriers, not the thermodynamic equilibrium constant."
+    },
+    {
+      "id": 8,
+      "section": "Inorganic Chemistry",
+      "question": "The magnetic moment of a d5 high-spin ion is expected to be closest to:",
+      "options": {
+        "A": "7.94 BM",
+        "B": "2.83 BM",
+        "C": "5.92 BM",
+        "D": "1.73 BM"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "For five unpaired electrons, μso ≈ √(n(n+2)) = √35 ≈ 5.92 BM."
+    },
+    {
+      "id": 9,
+      "section": "Physical Chemistry",
+      "question": "Which colligative property is most directly related to solute particle count through boiling-point elevation?",
+      "options": {
+        "A": "Surface tension",
+        "B": "Viscosity only",
+        "C": "ΔTb",
+        "D": "Refractive index"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Boiling-point elevation depends on the number of dissolved particles."
+    },
+    {
+      "id": 10,
+      "section": "Inorganic Chemistry",
+      "question": "Which species most clearly represents dsp2 hybridization in a square-planar complex?",
+      "options": {
+        "A": "[Zn(NH3)4]2+",
+        "B": "[Ni(CN)4]2−",
+        "C": "[NiCl4]2−",
+        "D": "[FeF6]3−"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "d8 Ni(II) with strong-field CN− commonly forms square-planar [Ni(CN)4]2−."
+    },
+    {
+      "id": 11,
+      "section": "Physical Chemistry",
+      "question": "At constant temperature, doubling the pressure of an ideal gas changes its molar volume to:",
+      "options": {
+        "A": "Four times the original",
+        "B": "Unchanged",
+        "C": "Half the original",
+        "D": "Twice the original"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Boyle's law gives P V = constant at fixed temperature."
+    },
+    {
+      "id": 12,
+      "section": "Inorganic Chemistry",
+      "question": "The strongest field ligand among the following is:",
+      "options": {
+        "A": "CN−",
+        "B": "NH3",
+        "C": "F−",
+        "D": "H2O"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "CN− is a strong-field ligand in the spectrochemical series."
+    },
+    {
+      "id": 13,
+      "section": "Analytical & Biochemistry",
+      "question": "In gas chromatography, the mobile phase is:",
+      "options": {
+        "A": "A liquid solvent",
+        "B": "An inert carrier gas",
+        "C": "A solid adsorbent",
+        "D": "A plasma only"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "GC uses gases such as He, H2 or N2 as carrier/mobile phase."
+    },
+    {
+      "id": 14,
+      "section": "Physical Chemistry",
+      "question": "The Nernst equation predicts that electrode potential changes with:",
+      "options": {
+        "A": "Only electrode mass",
+        "B": "Only solvent density",
+        "C": "Only atmospheric pressure",
+        "D": "Reaction quotient"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "E depends on the reaction quotient Q."
+    },
+    {
+      "id": 15,
+      "section": "Analytical & Biochemistry",
+      "question": "DNA base pairing involves:",
+      "options": {
+        "A": "A–C and G–T",
+        "B": "A–G and C–T",
+        "C": "A–T and G–C",
+        "D": "A–U and G–C only"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "In DNA, adenine pairs with thymine and guanine with cytosine."
+    },
+    {
+      "id": 16,
+      "section": "Organic Chemistry",
+      "question": "The major product of dehydration of 2-methyl-2-butanol under acidic conditions is expected to be:",
+      "options": {
+        "A": "2-methyl-2-butene",
+        "B": "1-pentene",
+        "C": "2-methyl-1-butene",
+        "D": "2-pentanol"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The Zaitsev alkene, 2-methyl-2-butene, is the major product."
+    },
+    {
+      "id": 17,
+      "section": "Analytical & Biochemistry",
+      "question": "In reversed-phase HPLC, the stationary phase is typically:",
+      "options": {
+        "A": "Highly ionic gas",
+        "B": "Pure water",
+        "C": "Only silica-free metal",
+        "D": "Highly nonpolar"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Common RP-HPLC uses nonpolar bonded phases such as C18."
+    },
+    {
+      "id": 18,
+      "section": "Physical Chemistry",
+      "question": "The Debye-Hückel limiting law is primarily used to describe:",
+      "options": {
+        "A": "Reaction mechanisms",
+        "B": "Activity coefficients of ions at low ionic strength",
+        "C": "NMR shielding",
+        "D": "Gas viscosity"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "It relates ionic activity coefficients to ionic strength in dilute solutions."
+    },
+    {
+      "id": 19,
+      "section": "Analytical & Biochemistry",
+      "question": "At its isoelectric point, an amino acid generally has:",
+      "options": {
+        "A": "Maximum net positive charge",
+        "B": "Maximum net negative charge",
+        "C": "Approximately zero net charge",
+        "D": "No ionic groups"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The zwitterion has a net charge near zero at the isoelectric point."
+    },
+    {
+      "id": 20,
+      "section": "Analytical & Biochemistry",
+      "question": "A lower Rf value in normal-phase silica TLC generally indicates:",
+      "options": {
+        "A": "No interaction",
+        "B": "Stronger interaction with the polar stationary phase",
+        "C": "Higher gas pressure",
+        "D": "Weaker interaction with silica"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "More strongly adsorbed compounds move less on silica."
+    },
+    {
+      "id": 21,
+      "section": "Physical Chemistry",
+      "question": "For an ideal gas at 300 K and 1.00 atm, the compressibility factor Z is:",
+      "options": {
+        "A": "0",
+        "B": "∞",
+        "C": "1",
+        "D": "RT"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "An ideal gas obeys PV=nRT, so Z=PV/nRT=1."
+    },
+    {
+      "id": 22,
+      "section": "Organic Chemistry",
+      "question": "The reagent commonly used to distinguish aldehydes from ketones is:",
+      "options": {
+        "A": "Benzene",
+        "B": "NaCl",
+        "C": "H2SO4 only",
+        "D": "Tollens reagent"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Aldehydes reduce Ag(I) in Tollens test to metallic silver."
+    },
+    {
+      "id": 23,
+      "section": "Analytical & Biochemistry",
+      "question": "In mass spectrometry, the molecular ion peak can provide information about:",
+      "options": {
+        "A": "Only solvent polarity",
+        "B": "Only melting point",
+        "C": "Only pH",
+        "D": "Molecular mass of the ionized molecule"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The molecular ion, when observed, is associated with the molecular mass-to-charge ratio."
+    },
+    {
+      "id": 24,
+      "section": "Analytical & Biochemistry",
+      "question": "A buffer made from acetic acid and acetate has maximum buffer capacity near:",
+      "options": {
+        "A": "pH=pKa",
+        "B": "pH=14",
+        "C": "pH=0",
+        "D": "pH=2pKa always"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Maximum capacity occurs when acid and conjugate base concentrations are comparable, pH≈pKa."
+    },
+    {
+      "id": 25,
+      "section": "Organic Chemistry",
+      "question": "Which carbonyl compound is required to undergo a conventional base-catalyzed aldol reaction?",
+      "options": {
+        "A": "Only formaldehyde",
+        "B": "A carbonyl compound with an α-hydrogen",
+        "C": "A compound with no enolizable hydrogen",
+        "D": "Only benzene"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "An α-hydrogen permits enolate formation, the key nucleophile in aldol chemistry."
+    },
+    {
+      "id": 26,
+      "section": "Organic Chemistry",
+      "question": "Which reagent is a strong hydride reducing agent capable of reducing esters to primary alcohols?",
+      "options": {
+        "A": "NaBH4 only",
+        "B": "KMnO4",
+        "C": "LiAlH4",
+        "D": "PCC"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "LiAlH4 is a powerful hydride donor and reduces esters to primary alcohols."
+    },
+    {
+      "id": 27,
+      "section": "Organic Chemistry",
+      "question": "Cannizzaro reaction is characteristic of aldehydes that:",
+      "options": {
+        "A": "Have α-hydrogen",
+        "B": "Lack α-hydrogen",
+        "C": "Contain only amines",
+        "D": "Are all ketones"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Non-enolizable aldehydes can undergo disproportionation under strong base."
+    },
+    {
+      "id": 28,
+      "section": "Inorganic Chemistry",
+      "question": "Which pair contains two commonly classified metalloids?",
+      "options": {
+        "A": "Rb and Cs",
+        "B": "Pt and Au",
+        "C": "B and Si",
+        "D": "Na and K"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Boron and silicon are commonly classified as metalloids."
+    },
+    {
+      "id": 29,
+      "section": "Physical Chemistry",
+      "question": "A solution obeying Beer-Lambert law has ε=2.0×10^4 L mol⁻¹ cm⁻¹, b=1.0 cm and c=2.0×10⁻5 mol L⁻¹. Its absorbance is:",
+      "options": {
+        "A": "4.0",
+        "B": "0.04",
+        "C": "0.20",
+        "D": "0.40"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A=εbc=(2.0×10^4)(1)(2.0×10⁻5)=0.40."
+    },
+    {
+      "id": 30,
+      "section": "Analytical & Biochemistry",
+      "question": "Resolution between two chromatographic peaks improves when:",
+      "options": {
+        "A": "Flow is random",
+        "B": "The detector is switched off",
+        "C": "Peaks overlap more",
+        "D": "Efficiency and selectivity improve"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Resolution depends on selectivity, efficiency and retention."
+    },
+    {
+      "id": 31,
+      "section": "Inorganic Chemistry",
+      "question": "Which halogen has the greatest metallic character among the common halogens?",
+      "options": {
+        "A": "F",
+        "B": "Br",
+        "C": "Cl",
+        "D": "I"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Metallic character increases down Group 17, so iodine is the most metallic among these."
+    },
+    {
+      "id": 32,
+      "section": "Analytical & Biochemistry",
+      "question": "In TLC, Rf is defined as:",
+      "options": {
+        "A": "Peak area / peak height",
+        "B": "Distance solvent front / distance solute",
+        "C": "Mass / volume",
+        "D": "Distance solute / distance solvent front"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Rf = distance traveled by solute divided by distance traveled by solvent front."
+    },
+    {
+      "id": 33,
+      "section": "Inorganic Chemistry",
+      "question": "For an octahedral d4 ion in a weak ligand field, the number of unpaired electrons is:",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "0"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The high-spin arrangement is t2g3eg1, giving four unpaired electrons."
+    },
+    {
+      "id": 34,
+      "section": "Analytical & Biochemistry",
+      "question": "In FTIR, the interferometer is used to:",
+      "options": {
+        "A": "Generate an interferogram containing spectral information",
+        "B": "Burn the sample",
+        "C": "Measure pH directly",
+        "D": "Separate ions by mass"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The interferometer modulates IR radiation to produce an interferogram."
+    },
+    {
+      "id": 35,
+      "section": "Physical Chemistry",
+      "question": "A stronger conjugation in an organic chromophore commonly causes the absorption maximum to:",
+      "options": {
+        "A": "Shift to longer wavelength",
+        "B": "Shift to shorter wavelength",
+        "C": "Become independent of structure",
+        "D": "Disappear"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Extended conjugation lowers the energy gap and causes a bathochromic shift."
+    },
+    {
+      "id": 36,
+      "section": "Analytical & Biochemistry",
+      "question": "A solution has ε=1.5×10^4 L mol⁻¹ cm⁻¹, path length 1 cm and concentration 2×10⁻5 M. The expected absorbance is:",
+      "options": {
+        "A": "3.0",
+        "B": "0.03",
+        "C": "0.15",
+        "D": "0.30"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A=εbc=(1.5×10^4)(1)(2×10⁻5)=0.30."
+    },
+    {
+      "id": 37,
+      "section": "Physical Chemistry",
+      "question": "For a reversible reaction at equilibrium, increasing the concentration of a reactant generally causes the equilibrium to:",
+      "options": {
+        "A": "Have no possible response",
+        "B": "Stop completely",
+        "C": "Shift toward reactants",
+        "D": "Shift toward products"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Le Chatelier's principle predicts consumption of added reactant."
+    },
+    {
+      "id": 38,
+      "section": "Organic Chemistry",
+      "question": "Which stereochemical relationship exists between enantiomers?",
+      "options": {
+        "A": "Different molecular formulae",
+        "B": "Same connectivity and non-superimposable mirror images",
+        "C": "Always identical physical properties in achiral media",
+        "D": "Constitutional isomers only"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Enantiomers are non-superimposable mirror images with the same connectivity."
+    },
+    {
+      "id": 39,
+      "section": "Physical Chemistry",
+      "question": "For a first-order reaction, the half-life is:",
+      "options": {
+        "A": "Inversely proportional to concentration squared",
+        "B": "Independent of initial concentration",
+        "C": "Dependent on initial concentration",
+        "D": "Always zero"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "t1/2 = ln2/k for a first-order reaction."
+    },
+    {
+      "id": 40,
+      "section": "Organic Chemistry",
+      "question": "Which reagent is commonly used for oxidative cleavage of vicinal diols?",
+      "options": {
+        "A": "PCC only",
+        "B": "NH3",
+        "C": "NaBH4",
+        "D": "HIO4"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Periodic acid cleaves suitable 1,2-diols through a cyclic intermediate."
+    },
+    {
+      "id": 41,
+      "section": "Inorganic Chemistry",
+      "question": "Which oxidation state is especially stable for thallium because of the inert pair effect?",
+      "options": {
+        "A": "+4",
+        "B": "+5",
+        "C": "+2",
+        "D": "+1"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Tl(I) is stabilized relative to Tl(III)."
+    },
+    {
+      "id": 42,
+      "section": "Analytical & Biochemistry",
+      "question": "Increasing organic solvent content in a typical reversed-phase HPLC mobile phase often causes hydrophobic analytes to:",
+      "options": {
+        "A": "Elute earlier",
+        "B": "Never elute",
+        "C": "Become permanently bonded",
+        "D": "Always decompose"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A stronger organic mobile phase generally reduces retention of hydrophobic analytes."
+    },
+    {
+      "id": 43,
+      "section": "Organic Chemistry",
+      "question": "Peroxide effect is classically observed in the addition of:",
+      "options": {
+        "A": "HBr to an alkene",
+        "B": "HF to benzene",
+        "C": "HCl to ethene",
+        "D": "HI to an alcohol"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Radical anti-Markovnikov addition is characteristic of HBr."
+    },
+    {
+      "id": 44,
+      "section": "Physical Chemistry",
+      "question": "The chemical potential of component i in an ideal solution is related to activity by:",
+      "options": {
+        "A": "μi=RT/ai",
+        "B": "μi=ai/RT",
+        "C": "μi=μi°−RT ln ai",
+        "D": "μi=μi°+RT ln ai"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The general relation is μi=μi°+RT ln ai."
+    },
+    {
+      "id": 45,
+      "section": "Analytical & Biochemistry",
+      "question": "A flame ionization detector responds strongly to:",
+      "options": {
+        "A": "Most organic compounds containing C–H bonds",
+        "B": "Only water",
+        "C": "Only alkali-metal ions",
+        "D": "Only noble gases"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "FID is highly sensitive to many combustible organic compounds."
+    },
+    {
+      "id": 46,
+      "section": "Organic Chemistry",
+      "question": "Which substrate is most favorable for an SN1 reaction?",
+      "options": {
+        "A": "Tertiary alkyl bromide",
+        "B": "Vinyl bromide",
+        "C": "Methyl bromide",
+        "D": "Primary alkyl bromide"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A tertiary carbocation is relatively stabilized, favoring ionization."
+    },
+    {
+      "id": 47,
+      "section": "Organic Chemistry",
+      "question": "A meso compound is optically inactive because it:",
+      "options": {
+        "A": "Contains an internal symmetry element despite stereocenters",
+        "B": "Has no stereocenters",
+        "C": "Is always racemic",
+        "D": "Must contain no carbon"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Internal symmetry can make a molecule achiral even with stereocenters."
+    },
+    {
+      "id": 48,
+      "section": "Organic Chemistry",
+      "question": "The aromaticity of benzene is associated with:",
+      "options": {
+        "A": "Only three isolated double bonds",
+        "B": "Six delocalized π electrons",
+        "C": "Two π electrons",
+        "D": "No π electrons"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Benzene contains a cyclic conjugated six-π-electron system.",
+      "diagram": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><polygon points='150,25 210,60 210,120 150,145 90,120 90,60' fill='none' stroke='#111827' stroke-width='3'/><circle cx='150' cy='85' r='38' fill='none' stroke='#2563eb' stroke-width='3'/><text x='150' y='15' text-anchor='middle' font-size='12'>aromatic π system</text></svg>"
+    },
+    {
+      "id": 49,
+      "section": "Inorganic Chemistry",
+      "question": "Among Al2S3, AlN, Al2Cl6 and Al2O3, the compound with pronounced covalent character is:",
+      "options": {
+        "A": "Al2S3",
+        "B": "Al2Cl6",
+        "C": "AlN",
+        "D": "Al2O3"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Al2S3 has substantial covalent character due to polarization of the sulfide ion."
+    },
+    {
+      "id": 50,
+      "section": "Organic Chemistry",
+      "question": "In IR spectroscopy, a strong absorption near 1700 cm⁻¹ often indicates:",
+      "options": {
+        "A": "C=O stretching",
+        "B": "N–H wagging only",
+        "C": "O–H bending only",
+        "D": "C–H stretching only"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Carbonyl stretching commonly appears near 1650–1750 cm⁻¹ depending on functional group."
+    },
+    {
+      "id": 51,
+      "section": "Analytical & Biochemistry",
+      "question": "The retention factor k' in chromatography is related to:",
+      "options": {
+        "A": "Retention relative to dead time",
+        "B": "Sample pH only",
+        "C": "Only detector wavelength",
+        "D": "Column color"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "k'=(tR−tM)/tM measures retention relative to unretained species."
+    },
+    {
+      "id": 52,
+      "section": "Organic Chemistry",
+      "question": "Which reaction converts an amide into an amine with one fewer carbon atom?",
+      "options": {
+        "A": "Hofmann rearrangement",
+        "B": "Aldol reaction",
+        "C": "Friedel-Crafts acylation",
+        "D": "Diels-Alder reaction"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Hofmann rearrangement converts RCONH2 to RNH2 with loss of the carbonyl carbon."
+    },
+    {
+      "id": 53,
+      "section": "Physical Chemistry",
+      "question": "The vibrational selection rule for a fundamental IR transition is approximately:",
+      "options": {
+        "A": "Δv=0",
+        "B": "Δv=±1",
+        "C": "Δv=±2 only",
+        "D": "Any Δv without restriction"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The harmonic-oscillator fundamental has Δv=±1."
+    },
+    {
+      "id": 54,
+      "section": "Inorganic Chemistry",
+      "question": "In [Co(NH3)5Cl]Cl2, the oxidation state of cobalt is:",
+      "options": {
+        "A": "+4",
+        "B": "+3",
+        "C": "+1",
+        "D": "+2"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The complex cation has charge +2; with one coordinated Cl− and neutral NH3, Co is +3."
+    },
+    {
+      "id": 55,
+      "section": "Inorganic Chemistry",
+      "question": "Which oxide is amphoteric?",
+      "options": {
+        "A": "Na2O",
+        "B": "Al2O3",
+        "C": "SO3",
+        "D": "Cl2O7"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Al2O3 reacts with both acids and strong bases."
+    },
+    {
+      "id": 56,
+      "section": "Inorganic Chemistry",
+      "question": "According to HSAB theory, which pair is most compatible?",
+      "options": {
+        "A": "Na+ with S2−",
+        "B": "Hg2+ with F−",
+        "C": "Ag+ with I−",
+        "D": "Al3+ with I−"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Ag+ is a soft acid and I− is a soft base."
+    },
+    {
+      "id": 57,
+      "section": "Physical Chemistry",
+      "question": "A proton coupled to three equivalent neighboring protons is expected, in a first-order spectrum, to appear as a:",
+      "options": {
+        "A": "Quintet",
+        "B": "Quartet",
+        "C": "Triplet",
+        "D": "Doublet"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The n+1 rule gives 3+1=4 lines, a quartet."
+    },
+    {
+      "id": 58,
+      "section": "Inorganic Chemistry",
+      "question": "The lanthanide contraction arises mainly because:",
+      "options": {
+        "A": "Nuclei lose protons down the series",
+        "B": "All lanthanides are gaseous",
+        "C": "4f electrons shield poorly",
+        "D": "5d electrons shield perfectly"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "4f electrons are poor at shielding increasing nuclear charge."
+    },
+    {
+      "id": 59,
+      "section": "Physical Chemistry",
+      "question": "In 1H NMR, tetramethylsilane is used as a reference because its signal is conventionally assigned:",
+      "options": {
+        "A": "−10 ppm",
+        "B": "0 ppm",
+        "C": "10 ppm",
+        "D": "100 ppm"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "TMS defines the 0 ppm reference."
+    },
+    {
+      "id": 60,
+      "section": "Physical Chemistry",
+      "question": "At 25 °C, the standard Gibbs energy change and standard cell potential are related by:",
+      "options": {
+        "A": "ΔG°=E°/nF",
+        "B": "ΔG°=−nFE°",
+        "C": "ΔG°=−E°/nF",
+        "D": "ΔG°=nFE°"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "For a cell, ΔG° = −nFE°."
+    },
+    {
+      "id": 61,
+      "section": "Organic Chemistry",
+      "question": "In 1H NMR, a proton attached to an electronegative environment generally appears:",
+      "options": {
+        "A": "At exactly 0 ppm",
+        "B": "Without any signal",
+        "C": "More upfield",
+        "D": "More downfield"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Electron withdrawal deshields protons and moves resonances downfield.",
+      "diagram": "<svg viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='35' y1='120' x2='290' y2='120' stroke='#111827' stroke-width='2'/><line x1='35' y1='120' x2='35' y2='20' stroke='#111827' stroke-width='2'/><path d='M45 120 L45 105 L75 105 L75 120 M110 120 L110 80 L140 80 L140 120 M175 120 L175 45 L205 45 L205 120 M235 120 L235 95 L265 95 L265 120' fill='none' stroke='#2563eb' stroke-width='3'/><text x='160' y='15' text-anchor='middle' font-size='12'>schematic 1H NMR signals</text></svg>"
+    },
+    {
+      "id": 62,
+      "section": "Inorganic Chemistry",
+      "question": "The color of many transition-metal complexes is associated with:",
+      "options": {
+        "A": "Only proton transfer",
+        "B": "d-d or charge-transfer transitions",
+        "C": "Only lattice vibrations",
+        "D": "Only nuclear decay"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Electronic transitions within d levels or charge-transfer transitions absorb visible light."
+    },
+    {
+      "id": 63,
+      "section": "Physical Chemistry",
+      "question": "The slope of a plot of ln[A] versus time for a first-order reaction is:",
+      "options": {
+        "A": "+k",
+        "B": "−1/k",
+        "C": "−k",
+        "D": "1/k"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The integrated law is ln[A] = ln[A]0 − kt."
+    },
+    {
+      "id": 64,
+      "section": "Physical Chemistry",
+      "question": "The Clausius-Clapeyron relation is useful for relating vapor pressure to:",
+      "options": {
+        "A": "Only refractive index",
+        "B": "Only density",
+        "C": "Magnetic susceptibility",
+        "D": "Temperature and enthalpy of vaporization"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "It connects vapor-pressure changes with ΔHvap and temperature."
+    },
+    {
+      "id": 65,
+      "section": "Physical Chemistry",
+      "question": "Which condition favors adsorption of a gas on a solid surface?",
+      "options": {
+        "A": "Low temperature and high pressure",
+        "B": "High temperature and low pressure",
+        "C": "Low pressure only",
+        "D": "High temperature and high pressure"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Physical adsorption is generally favored by lower temperature and higher pressure."
+    },
+    {
+      "id": 66,
+      "section": "Inorganic Chemistry",
+      "question": "The effective magnetic moment from the spin-only formula is:",
+      "options": {
+        "A": "μ=n/2 BM",
+        "B": "μ=2n BM",
+        "C": "μ=√[n(n+2)] BM",
+        "D": "μ=√n BM"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The spin-only expression is √[n(n+2)] BM."
+    },
+    {
+      "id": 67,
+      "section": "Inorganic Chemistry",
+      "question": "In an SN1-type substitution of a coordination complex, the rate-determining step commonly involves:",
+      "options": {
+        "A": "Loss of the leaving ligand",
+        "B": "Solvent freezing",
+        "C": "Attack by incoming ligand",
+        "D": "Oxidation of the metal"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A dissociative pathway begins with ligand loss."
+    },
+    {
+      "id": 68,
+      "section": "Physical Chemistry",
+      "question": "For an ideal solution, Raoult's law states that the partial vapor pressure of component i is:",
+      "options": {
+        "A": "pi=xi/RT",
+        "B": "pi=pi°/xi",
+        "C": "pi=RT/xi",
+        "D": "pi=xi pi°"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The partial pressure equals mole fraction times pure-component vapor pressure."
+    },
+    {
+      "id": 69,
+      "section": "Physical Chemistry",
+      "question": "For an exothermic reaction, increasing temperature generally shifts equilibrium toward:",
+      "options": {
+        "A": "Reactants",
+        "B": "Neither",
+        "C": "Products",
+        "D": "Both equally"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Heat behaves as a product in an exothermic equilibrium."
+    },
+    {
+      "id": 70,
+      "section": "Organic Chemistry",
+      "question": "Which reagent selectively oxidizes a primary alcohol to an aldehyde under controlled conditions?",
+      "options": {
+        "A": "PCC",
+        "B": "LiAlH4",
+        "C": "NaBH4",
+        "D": "H2/Pd"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "PCC commonly stops primary alcohol oxidation at the aldehyde stage."
+    },
+    {
+      "id": 71,
+      "section": "Analytical & Biochemistry",
+      "question": "In EI mass spectrometry, fragmentation patterns are useful for:",
+      "options": {
+        "A": "Only pH control",
+        "B": "Structural elucidation",
+        "C": "Only density measurement",
+        "D": "Measuring viscosity"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Characteristic fragment ions provide structural clues."
+    },
+    {
+      "id": 72,
+      "section": "Inorganic Chemistry",
+      "question": "Which complex is expected to show cis-trans geometrical isomerism?",
+      "options": {
+        "A": "[MA4]",
+        "B": "[MA6]",
+        "C": "[MA2B2] square planar",
+        "D": "[MA3B]"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Square-planar MA2B2 complexes can have cis and trans arrangements."
+    },
+    {
+      "id": 73,
+      "section": "Analytical & Biochemistry",
+      "question": "The secondary structure of proteins is stabilized primarily by:",
+      "options": {
+        "A": "Only ionic crystals",
+        "B": "Only disulfide bonds",
+        "C": "Backbone hydrogen bonding",
+        "D": "Peptide bond formation"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "α-helices and β-sheets are stabilized mainly by backbone hydrogen bonds."
+    },
+    {
+      "id": 74,
+      "section": "Organic Chemistry",
+      "question": "Diazotization of a primary aromatic amine is commonly carried out at:",
+      "options": {
+        "A": "50–60 °C",
+        "B": "0–5 °C",
+        "C": "100 °C",
+        "D": "Above 150 °C"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Aryl diazonium salts are generated under cold conditions to limit decomposition."
+    },
+    {
+      "id": 75,
+      "section": "Organic Chemistry",
+      "question": "For an E/Z alkene, Z indicates that the higher-priority substituents are:",
+      "options": {
+        "A": "On the same side",
+        "B": "Always identical",
+        "C": "On opposite sides",
+        "D": "Absent"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Z means the higher-priority groups are on the same side of the double bond."
+    },
+    {
+      "id": 76,
+      "section": "Inorganic Chemistry",
+      "question": "For a square-planar d8 complex, which orbital is commonly raised most strongly because it points directly at the ligand positions?",
+      "options": {
+        "A": "dxz",
+        "B": "dxy",
+        "C": "dyz",
+        "D": "dz2"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "In the square plane, dxy points toward the ligand axes and is strongly destabilized."
+    },
+    {
+      "id": 77,
+      "section": "Physical Chemistry",
+      "question": "A galvanic cell has E°cell = +0.80 V for transfer of 2 mol e−. At 298 K, the sign of ΔG° is:",
+      "options": {
+        "A": "Cannot be inferred",
+        "B": "Zero",
+        "C": "Positive",
+        "D": "Negative"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "ΔG°=−nFE°, so a positive cell potential gives negative ΔG°."
+    },
+    {
+      "id": 78,
+      "section": "Physical Chemistry",
+      "question": "A buffer resists changes in pH most effectively when:",
+      "options": {
+        "A": "Only base is present",
+        "B": "Conjugate acid/base concentrations are comparable",
+        "C": "Only acid is present",
+        "D": "The solution is completely neutral"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Buffer capacity is high when both members of a conjugate pair are present in appreciable amounts."
+    },
+    {
+      "id": 79,
+      "section": "Organic Chemistry",
+      "question": "The Diels-Alder reaction is a:",
+      "options": {
+        "A": "[3+2] cycloaddition",
+        "B": "[4+2] cycloaddition",
+        "C": "[2+2] cycloaddition",
+        "D": "Free-radical substitution"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A conjugated diene and dienophile undergo a [4+2] cycloaddition."
+    },
+    {
+      "id": 80,
+      "section": "Analytical & Biochemistry",
+      "question": "The primary role of an internal standard in quantitative analysis is to:",
+      "options": {
+        "A": "Change the analyte identity",
+        "B": "Eliminate calibration",
+        "C": "Compensate for variations in sample preparation/injection",
+        "D": "Add random error"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Internal standards improve quantitative precision by correcting variable response factors."
+    },
+    {
+      "id": 81,
+      "section": "Analytical & Biochemistry",
+      "question": "The fingerprint region of an IR spectrum is commonly taken as approximately:",
+      "options": {
+        "A": "1500–500 cm⁻¹",
+        "B": "4000–3000 cm⁻¹",
+        "C": "2500–2000 cm⁻¹",
+        "D": "100–50 cm⁻¹"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The 1500–500 cm⁻¹ region is commonly called the fingerprint region."
+    },
+    {
+      "id": 82,
+      "section": "Inorganic Chemistry",
+      "question": "Which carbonate shows the greatest thermal stability among MgCO3, CaCO3, SrCO3 and BaCO3?",
+      "options": {
+        "A": "BaCO3",
+        "B": "CaCO3",
+        "C": "MgCO3",
+        "D": "SrCO3"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Thermal stability of Group 2 carbonates generally increases down the group."
+    },
+    {
+      "id": 83,
+      "section": "Analytical & Biochemistry",
+      "question": "In UV-visible spectroscopy, λmax is the wavelength at which:",
+      "options": {
+        "A": "Detector stops",
+        "B": "Absorbance is maximum for the band",
+        "C": "Solvent evaporates",
+        "D": "Absorbance is zero"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "λmax denotes the peak wavelength of an absorption band."
+    },
+    {
+      "id": 84,
+      "section": "Organic Chemistry",
+      "question": "The major product of an SN2 reaction is formed with:",
+      "options": {
+        "A": "Retention at the stereocenter",
+        "B": "No stereochemical change",
+        "C": "Racemization in every case",
+        "D": "Inversion at the stereocenter"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "SN2 proceeds by backside attack and gives Walden inversion.",
+      "diagram": "<svg viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><text x='25' y='82' font-size='16'>Nu⁻</text><line x1='65' y1='75' x2='120' y2='75' stroke='#111827' stroke-width='3'/><polygon points='120,75 108,68 108,82' fill='#111827'/><text x='125' y='45' font-size='14'>backside attack</text><text x='155' y='82' font-size='16'>C—LG</text><line x1='215' y1='75' x2='270' y2='75' stroke='#dc2626' stroke-width='3'/><polygon points='270,75 258,68 258,82' fill='#dc2626'/><text x='175' y='125' font-size='13'>one-step substitution</text></svg>"
+    },
+    {
+      "id": 85,
+      "section": "Physical Chemistry",
+      "question": "Which thermodynamic quantity is a state function?",
+      "options": {
+        "A": "Enthalpy change",
+        "B": "Heat supplied",
+        "C": "Path length",
+        "D": "Work done"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Enthalpy is a state function; heat and work depend on the path."
+    },
+    {
+      "id": 86,
+      "section": "Inorganic Chemistry",
+      "question": "A tetrahedral complex generally has a smaller crystal-field splitting than an octahedral analogue because:",
+      "options": {
+        "A": "Ligands approach between axes",
+        "B": "The complex is always linear",
+        "C": "Tetrahedral complexes have no ligands",
+        "D": "The metal has no d orbitals"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Tetrahedral ligand directions produce less direct d-orbital repulsion."
+    },
+    {
+      "id": 87,
+      "section": "Analytical & Biochemistry",
+      "question": "The peptide bond is chemically a:",
+      "options": {
+        "A": "Phosphate ester",
+        "B": "Thioether",
+        "C": "Acetal linkage",
+        "D": "Amide linkage"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Peptide bonds connect amino acids through amide groups."
+    },
+    {
+      "id": 88,
+      "section": "Inorganic Chemistry",
+      "question": "Which d-electron configuration is especially associated with low-spin octahedral complexes?",
+      "options": {
+        "A": "d0",
+        "B": "d6 with strong ligand field",
+        "C": "d5 with weak ligand field",
+        "D": "d3"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "A strong-field d6 octahedral ion gives t2g6eg0, a low-spin configuration.",
+      "diagram": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg'><circle cx='150' cy='80' r='18' fill='none' stroke='#111827' stroke-width='3'/><line x1='150' y1='62' x2='150' y2='15' stroke='#2563eb' stroke-width='3'/><line x1='150' y1='98' x2='150' y2='145' stroke='#2563eb' stroke-width='3'/><line x1='132' y1='80' x2='75' y2='80' stroke='#2563eb' stroke-width='3'/><line x1='168' y1='80' x2='225' y2='80' stroke='#2563eb' stroke-width='3'/><text x='150' y='157' text-anchor='middle' font-size='12'>six-coordinate octahedral field</text></svg>"
+    },
+    {
+      "id": 89,
+      "section": "Analytical & Biochemistry",
+      "question": "In HPLC, the stationary phase is packed inside the:",
+      "options": {
+        "A": "Injector syringe only",
+        "B": "Column",
+        "C": "Detector lamp",
+        "D": "Mobile-phase bottle"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Separation occurs in the chromatographic column containing the stationary phase."
+    },
+    {
+      "id": 90,
+      "section": "Inorganic Chemistry",
+      "question": "Which species is paramagnetic?",
+      "options": {
+        "A": "Ti3+",
+        "B": "Cu+",
+        "C": "Zn2+",
+        "D": "Sc3+"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Ti3+ is d1 and therefore has one unpaired electron."
+    },
+    {
+      "id": 91,
+      "section": "Physical Chemistry",
+      "question": "The osmotic pressure of a dilute non-electrolyte solution follows:",
+      "options": {
+        "A": "π=RT/C",
+        "B": "π=C+RT",
+        "C": "π=C/RT",
+        "D": "π=CRT"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "The van't Hoff relation is π=CRT."
+    },
+    {
+      "id": 92,
+      "section": "Analytical & Biochemistry",
+      "question": "In EDTA complexometric titration, EDTA commonly binds metal ions in a:",
+      "options": {
+        "A": "2:1 stoichiometry always",
+        "B": "1:1 stoichiometry",
+        "C": "No fixed stoichiometry",
+        "D": "1:2 stoichiometry always"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Many metal–EDTA complexes have a 1:1 metal:EDTA ratio."
+    },
+    {
+      "id": 93,
+      "section": "Organic Chemistry",
+      "question": "The acidity of phenol relative to cyclohexanol is higher mainly because:",
+      "options": {
+        "A": "Phenoxide ion is resonance-stabilized",
+        "B": "Phenol contains no oxygen",
+        "C": "Phenol is heavier",
+        "D": "Cyclohexanol is aromatic"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Resonance delocalization stabilizes the phenoxide conjugate base."
+    },
+    {
+      "id": 94,
+      "section": "Inorganic Chemistry",
+      "question": "The strongest reducing halide ion in aqueous solution among F−, Cl−, Br− and I− is generally:",
+      "options": {
+        "A": "I−",
+        "B": "F−",
+        "C": "Br−",
+        "D": "Cl−"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "I− is most readily oxidized in aqueous solution."
+    },
+    {
+      "id": 95,
+      "section": "Physical Chemistry",
+      "question": "A reaction obeys −d[A]/dt = k[A]^2. The unit of k is:",
+      "options": {
+        "A": "L mol⁻¹ s⁻¹",
+        "B": "mol L⁻¹ s⁻¹",
+        "C": "L² mol⁻² s⁻¹",
+        "D": "s⁻¹"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "For second-order kinetics, k has units concentration⁻¹ time⁻¹."
+    },
+    {
+      "id": 96,
+      "section": "Organic Chemistry",
+      "question": "A nitro group on benzene is generally:",
+      "options": {
+        "A": "Deactivating and meta-directing",
+        "B": "Activating and meta-directing",
+        "C": "Activating and ortho/para-directing",
+        "D": "Neutral"
+      },
+      "correct": "A",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "NO2 strongly withdraws electron density and favors meta substitution."
+    },
+    {
+      "id": 97,
+      "section": "Organic Chemistry",
+      "question": "In electrophilic aromatic substitution, an electron-donating group such as –OCH3 generally directs substitution to:",
+      "options": {
+        "A": "Meta only",
+        "B": "Ortho and para",
+        "C": "No positions",
+        "D": "Only ipso"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Methoxy activates the ring and directs electrophiles mainly ortho/para."
+    },
+    {
+      "id": 98,
+      "section": "Analytical & Biochemistry",
+      "question": "A primary standard should ideally be:",
+      "options": {
+        "A": "Unknown in formula",
+        "B": "Highly impure",
+        "C": "Highly volatile and reactive",
+        "D": "Stable, pure and of known composition"
+      },
+      "correct": "D",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Primary standards must permit accurate preparation of standard solutions."
+    },
+    {
+      "id": 99,
+      "section": "Inorganic Chemistry",
+      "question": "Which ligand is ambidentate?",
+      "options": {
+        "A": "H2O",
+        "B": "NH3",
+        "C": "NO2−",
+        "D": "en"
+      },
+      "correct": "C",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "NO2− can bind through N (nitro) or O (nitrito)."
+    },
+    {
+      "id": 100,
+      "section": "Organic Chemistry",
+      "question": "Markovnikov addition of HBr to propene in the absence of peroxide gives mainly:",
+      "options": {
+        "A": "1,2-dibromopropane",
+        "B": "2-bromopropane",
+        "C": "1-bromopropane",
+        "D": "Propane"
+      },
+      "correct": "B",
+      "marks": {
+        "pos": 1,
+        "neg": 0.25
+      },
+      "timeAvg": "00:45",
+      "rightPct": "--",
+      "explanation": "Electrophilic addition places Br on the more substituted carbon."
+    }
+  ]
+}

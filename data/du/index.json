@@ -1,0 +1,32 @@
+[
+  {
+    "id": "du-msc-chem-mock-1",
+    "title": "DU MSc Chemistry Practice Mock Test 1",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-1.json"
+  },
+  {
+    "id": "du-msc-chem-mock-2",
+    "title": "DU MSc Chemistry Practice Mock Test 2",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-2.json"
+  },
+  {
+    "id": "du-msc-chem-mock-3",
+    "title": "DU MSc Chemistry Practice Mock Test 3",
+    "timeMins": 120,
+    "badgeText": "Practice",
+    "badgeClass": "practice",
+    "questionCount": 100,
+    "maxMarks": 100,
+    "file": "mock-3.json"
+  }
+]
