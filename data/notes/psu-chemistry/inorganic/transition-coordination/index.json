@@ -1,0 +1,55 @@
+{
+  "chapter_title": "Transition Metals & Coordination Chemistry",
+  "topics": [
+    {
+      "topic_id": "3d-properties",
+      "topic_title": "General properties of 3d transition metals",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/3d-properties.json"
+    },
+    {
+      "topic_id": "oxidation-states",
+      "topic_title": "Oxidation states of transition metals",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/oxidation-states.json"
+    },
+    {
+      "topic_id": "magnetism",
+      "topic_title": "Magnetic properties and spin-only moment",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/magnetism.json"
+    },
+    {
+      "topic_id": "iupac",
+      "topic_title": "Coordination nomenclature",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/iupac.json"
+    },
+    {
+      "topic_id": "isomerism",
+      "topic_title": "Coordination isomerism",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/isomerism.json"
+    },
+    {
+      "topic_id": "vbt",
+      "topic_title": "Valence Bond Theory in complexes",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/vbt.json"
+    },
+    {
+      "topic_id": "cft",
+      "topic_title": "CFT octahedral splitting",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/cft.json"
+    },
+    {
+      "topic_id": "cfse",
+      "topic_title": "CFSE and spin-state comparison",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/cfse.json"
+    },
+    {
+      "topic_id": "spectrochemical",
+      "topic_title": "Spectrochemical series and ligand-field strength",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/spectrochemical.json"
+    },
+    {
+      "topic_id": "colour",
+      "topic_title": "Colour and d–d transitions",
+      "file": "data/notes/psu-chemistry/inorganic/transition-coordination/colour.json"
+    }
+  ]
+}
