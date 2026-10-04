@@ -1,33 +1,33 @@
 {
   "topic_id": "e-z",
-  "topic_title": "E/Z Configuration",
+  "topic_title": "E/Z Configuration (Complete Masterclass)",
   "notes_list": [
     {
       "id": "e-z-n01",
-      "title": "E/Z Configuration & Detailed Molecule Analysis",
+      "title": "E/Z Nomenclature & CIP Priority Rules",
       "tags": [
         "E/Z",
         "alkene",
         "CIP",
         "stereochemistry",
-        "examples"
+        "geometrical-isomerism"
       ],
-      "basic_overview": "E/Z nomenclature describes alkene geometry using Cahn-Ingold-Prelog (CIP) priority rules independently on each sp2 carbon.",
+      "basic_overview": "Geometrical isomerism arises due to restricted rotation around the C=C double bond. When all 4 groups attached to sp2 carbons are different, cis/trans nomenclature fails, and we use E/Z nomenclature based on Cahn-Ingold-Prelog (CIP) priority rules.",
       "has_extra_info": true,
       "extra_info_btn_color": "#2563eb",
-      "extra_info_content": "CIP Priority Rules: 1. Higher atomic number gets higher priority. 2. If atomic numbers are the same, look at the next atoms along the chain (compare sets of atoms in decreasing atomic number). 3. Treat double/triple bonds as equivalent to bonded to 2/3 single atoms.",
-      "examples": "Detailed molecules discussed below covering atomic numbers, multi-atom chains, isotopes, and branching.",
-      "conditions_and_medium": "Strictly dependent on the absolute priority of groups on each alkene carbon, independent of carbon chain length or cis/trans ambiguity.",
-      "mechanism_steps": "1. Split C=C into left and right carbons. 2. List atoms attached directly to each carbon. 3. Apply CIP atomic number rules to assign priorities (1 and 2). 4. Check spatial orientation: both high-priority groups on same side = Z, opposite sides = E.",
-      "kinetics_and_energy": "E/Z isomers are configurational stereoisomers (diastereomers) separated by a high rotational barrier due to π-bond overlap.",
-      "selectivity_and_stereochemistry": "Crucial for identifying stereoisomeric products in elimination and addition reactions.",
-      "common_traps": "Don't judge priority by the size or length of the alkyl group; always look at the atomic number of the very first atom attached, and move down the chain only if there's a tie.",
+      "extra_info_content": "Z = Zusammen (German for 'together' -> higher priority groups on the same side). E = Entgegen (German for 'opposite' -> higher priority groups on opposite sides, remember 'E' for Enemy/Opposite).",
+      "examples": "1. 2-butene (CH3/H vs CH3/H). 2. Halogen-substituted alkenes (Br vs Cl vs F). 3. Isotopic substitution (D vs H). 4. Functional group comparison (-COOH vs -CH3).",
+      "conditions_and_medium": "Configurational isomers; interconversion requires breaking the π bond. Stereospecific reactions (like syn-addition) preserve or predictably alter this geometry.",
+      "mechanism_steps": "1. Split C=C into left and right sp2 carbons. 2. Apply CIP Rule 1: Higher atomic number gets Priority 1. 3. Apply CIP Rule 2 (if atomic number ties): Compare atomic mass (isotopes like D > H) or move down the chain to the next atoms. 4. Apply CIP Rule 3 (multiple bonds): Treat double/triple bonds as bonded to 2/3 single atoms. 5. Compare spatial sides: Same side = Z, Opposite sides = E.",
+      "kinetics_and_energy": "High activation energy barrier prevents spontaneous room-temperature rotation around the C=C bond.",
+      "selectivity_and_stereochemistry": "Fundamental for predicting major stereoisomers in elimination (E2) and addition reactions.",
+      "common_traps": "Never judge priority by the physical size or length of a carbon chain; always evaluate atom-by-atom based on atomic number starting directly from the double-bonded carbon.",
       "exam_focus": {
         "level": "IIT-JAM / MSc entrance / GATE concept depth",
         "must_revise": [
-          "CIP rule tie-breaking in complex chains",
-          "Double/triple bond expansion rules",
-          "Isotope priority assignment (e.g., D vs H)"
+          "CIP atomic number & mass ranking rules",
+          "Multiple bond expansion (-CH=CH2 and -C≡N)",
+          "Distinction between cis/trans and E/Z systems"
         ],
         "practice_style": [
           "mechanism prediction",
@@ -38,8 +38,8 @@
         ]
       },
       "diagram": {
-        "caption": "Detailed E/Z Assignment Examples for Complex Molecules",
-        "svg": "<svg viewBox='0 0 360 380' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='360' height='380' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>Detailed Molecular E/Z Cases</text><text x='18' y='50' font-size='12' font-family='Arial' font-weight='600' fill='#2563eb'>1. 2-Bromo-2-butene (Halogen vs Alkyl)</text><text x='30' y='70' font-size='11' font-family='Arial' fill='#334155'>Left C: -Br (priority 1) vs -CH₃ (priority 2)</text><text x='30' y='86' font-size='11' font-family='Arial' fill='#334155'>Right C: -CH₃ (priority 1) vs -H (priority 2)</text><text x='30' y='102' font-size='11' font-family='Arial' font-weight='bold' fill='#059669'>Result: If -Br and -CH₃ on same side → (Z)</text><line x1='18' y1='115' x2='342' y2='115' stroke='#e2e8f0' stroke-width='1'/><text x='18' y='135' font-size='12' font-family='Arial' font-weight='600' fill='#2563eb'>2. Isotope Case: -D vs -H</text><text x='30' y='155' font-size='11' font-family='Arial' fill='#334155'>Higher mass number / isotope gets priority: -D (1) > -H (2)</text><line x1='18' y1='170' x2='342' y2='170' stroke='#e2e8f0' stroke-width='1'/><text x='18' y='190' font-size='12' font-family='Arial' font-weight='600' fill='#2563eb'>3. Multiple Bond Expansion (e.g., -CH=CH₂)</text><text x='30' y='210' font-size='11' font-family='Arial' fill='#334155'>-CH=CH₂ treated as carbon bonded to (C, C, H)</text><text x='30' y='226' font-size='11' font-family='Arial' fill='#334155'>Beats standard propyl or ethyl group due to duplicated virtual atoms.</text><line x1='18' y1='240' x2='342' y2='240' stroke='#e2e8f0' stroke-width='1'/><text x='18' y='260' font-size='12' font-family='Arial' font-weight='600' fill='#2563eb'>4. Complex Branching (e.g., Isopropyl vs Ethyl)</text><text x='30' y='280' font-size='11' font-family='Arial' fill='#334155'>Left C compares -CH(CH₃)₂ vs -CH₂CH₃</text><text x='30' y='296' font-size='11' font-family='Arial' fill='#334155'>Isopropyl (-CH(C,C,H)) wins over Ethyl (-CH(C,H,H))</text><text x='18' y='340' font-size='11' font-family='Arial' fill='#475569'>Rule of thumb: Compare atom-by-atom in decreasing atomic number list.</text></svg>"
+        "caption": "Structural Visualization of (Z) and (E) Isomers with CIP Priority Mapping",
+        "svg": "<svg viewBox='0 0 380 260' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='380' height='260' rx='14' fill='#f8fafc' stroke='#cbd5e1'/><text x='18' y='24' font-size='14' font-family='Arial' font-weight='700' fill='#0f172a'>E/Z Structural Layout & Assignment</text><text x='65' y='52' font-size='12' font-family='Arial' font-weight='600' fill='#2563eb'>(Z) - Zusammen (Same Side)</text><line x1='50' y1='110' x2='110' y2='110' stroke='#0f172a' stroke-width='4'/><line x1='50' y1='100' x2='30' y2='75' stroke='#334155' stroke-width='2'/><text x='15' y='70' font-size='10' font-family='Arial' font-weight='bold' fill='#dc2626'>1 (High)</text><line x1='50' y1='120' x2='30' y2='145' stroke='#334155' stroke-width='2'/><text x='15' y='155' font-size='10' font-family='Arial' fill='#64748b'>2 (Low)</text><line x1='110' y1='110' x2='130' y2='75' stroke='#334155' stroke-width='2'/><text x='135' y='70' font-size='10' font-family='Arial' font-weight='bold' fill='#dc2626'>1 (High)</text><line x1='110' y1='110' x2='130' y2='145' stroke='#334155' stroke-width='2'/><text x='135' y='155' font-size='10' font-family='Arial' fill='#64748b'>2 (Low)</text><text x='250' y='52' font-size='12' font-family='Arial' font-weight='600' fill='#dc2626'>(E) - Entgegen (Opposite)</text><line x1='240' y1='110' x2='300' y2='110' stroke='#0f172a' stroke-width='4'/><line x1='240' y1='100' x2='220' y2='75' stroke='#334155' stroke-width='2'/><text x='205' y='70' font-size='10' font-family='Arial' font-weight='bold' fill='#dc2626'>1 (High)</text><line x1='240' y1='120' x2='220' y2='145' stroke='#334155' stroke-width='2'/><text x='205' y='155' font-size='10' font-family='Arial' fill='#64748b'>2 (Low)</text><line x1='300' y1='110' x2='320' y2='75' stroke='#334155' stroke-width='2'/><text x='325' y='70' font-size='10' font-family='Arial' fill='#64748b'>2 (Low)</text><line x1='300' y1='110' x2='320' y2='145' stroke='#334155' stroke-width='2'/><text x='325' y='155' font-size='10' font-family='Arial' font-weight='bold' fill='#dc2626'>1 (High)</text><rect x='20' y='180' width='340' height='60' rx='8' fill='#e2e8f0' opacity='0.7'/><text x='30' y='200' font-size='11' font-family='Arial' font-weight='bold' fill='#0f172a'>Quick Recap Rule:</text><text x='30' y='218' font-size='10' font-family='Arial' fill='#334155'>• Priority 1 groups on SAME side = (Z) | Priority 1 groups on OPPOSITE sides = (E)</text><text x='30' y='232' font-size='10' font-family='Arial' fill='#334155'>• Order checked via Atomic Number -> Mass (Isotopes) -> Chain Branching</text></svg>"
       }
     }
   ]
