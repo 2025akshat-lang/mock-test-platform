@@ -5,70 +5,37 @@
       "id": "number-system-advanced",
       "title": "Number System — Advanced Revision",
       "filters": [
-        {
-          "label": "⭐ Important",
-          "tag": "important"
-        },
-        {
-          "label": "🔢 Factors",
-          "tag": "factors"
-        }
+        {"label": "⭐ Important", "tag": "important"},
+        {"label": "🔢 Factors", "tag": "factors"}
       ],
       "topics": [
         {
           "topic_id": "ns-powers",
           "topic_title": "Powers, Factors & Remainders",
           "notes_list": [
-            {
-              "id": "nsa001",
-              "title": "Laws of indices",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$a^m a^n=a^{m+n},\\quad \\frac{a^m}{a^n}=a^{m-n},\\quad (a^m)^n=a^{mn},\\quad a^{-n}=\\frac1{a^n}$$"
-            },
-            {
-              "id": "nsa002",
-              "title": "Number of divisors",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "If $$N=p^a q^b r^c$$, then total positive divisors $$=(a+1)(b+1)(c+1)$$."
-            },
-            {
-              "id": "nsa003",
-              "title": "Sum of positive divisors",
-              "basic_overview": "For $$N=p^a q^b$$, sum of divisors $$=\\frac{p^{a+1}-1}{p-1}\\times\\frac{q^{b+1}-1}{q-1}$$."
-            },
-            {
-              "id": "nsa004",
-              "title": "Remainder theorem for powers",
-              "basic_overview": "For divisors 2, 5 or 10, use the last digit(s); for other moduli reduce the base modulo the divisor before exponentiation."
-            }
+            {"id": "nsa001", "title": "Laws of indices", "tags": ["important"], "basic_overview": "$$a^m a^n=a^{m+n},\\quad \\frac{a^m}{a^n}=a^{m-n},\\quad (a^m)^n=a^{mn},\\quad a^{-n}=\\frac1{a^n}$$", "trick": "Convert every number to the same base first (4=2², 8=2³, 9=3², 27=3³), then just add or subtract powers.", "example": {"question": "Simplify 2^5 × 2^3 ÷ 2^6.", "solution": "2^(5+3−6) = 2² = 4."}},
+            {"id": "nsa002", "title": "Number of divisors", "tags": ["important", "factors"], "basic_overview": "If $$N=p^a q^b r^c$$, then total positive divisors $$=(a+1)(b+1)(c+1)$$.", "trick": "Only perfect squares have an ODD number of divisors. Number of odd divisors = ignore the power of 2 and apply the formula.", "example": {"question": "How many divisors does 360 have?", "solution": "360 = 2³ × 3² × 5¹ → (3+1)(2+1)(1+1) = 4×3×2 = 24."}},
+            {"id": "nsa003", "title": "Sum of positive divisors", "tags": ["factors"], "basic_overview": "For $$N=p^a q^b$$, sum of divisors $$=\\frac{p^{a+1}-1}{p-1}\\times\\frac{q^{b+1}-1}{q-1}$$.", "trick": "Work prime by prime: each prime gives a GP sum 1 + p + p² + … + p^a. Multiply the results.", "example": {"question": "Find the sum of all divisors of 12.", "solution": "12 = 2² × 3 → (2³−1)/(2−1) × (3²−1)/(3−1) = 7 × 4 = 28. (Check: 1+2+3+4+6+12 = 28)"}},
+            {"id": "nsa004", "title": "Remainder of a power", "tags": ["important"], "basic_overview": "To find the remainder of $$a^n$$ divided by d, reduce a modulo d first (a ≡ r), then find the remainder of $$r^n$$ — look for a repeating cycle.", "trick": "a^n ÷ (a−1) always leaves remainder 1. a^n ÷ (a+1) leaves 1 if n is even and a (i.e. −1 ≡ d−1) if n is odd.", "example": {"question": "Remainder when 7^100 is divided by 6?", "solution": "7 ≡ 1 (mod 6) → 7^100 ≡ 1^100 = 1. Remainder = 1."}},
+            {"id": "nsa008", "title": "Unit digit of a power", "tags": ["important"], "basic_overview": "Cycle of unit digits: 2→(2,4,8,6), 3→(3,9,7,1), 7→(7,9,3,1), 8→(8,4,2,6) all of length 4; 4→(4,6), 9→(9,1) of length 2; 0,1,5,6 never change.", "trick": "Divide the power by 4 (for cyclic length 4). Remainder 1,2,3 → take 1st,2nd,3rd of the cycle; remainder 0 → take the 4th (last) of the cycle.", "example": {"question": "Unit digit of 7^123?", "solution": "123 ÷ 4 leaves remainder 3 → 3rd value in (7,9,3,1) = 3."}}
           ]
         },
         {
           "topic_id": "ns-lcm-hcf",
           "topic_title": "HCF, LCM & Remainders",
           "notes_list": [
-            {
-              "id": "nsa005",
-              "title": "HCF × LCM relation",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "For exactly two positive integers a,b: $$\\mathrm{HCF}(a,b)\\times\\mathrm{LCM}(a,b)=ab$$."
-            },
-            {
-              "id": "nsa006",
-              "title": "Numbers from HCF and ratio",
-              "basic_overview": "If two numbers are in ratio m:n and HCF is H, numbers are $$Hm,Hn$$ provided gcd(m,n)=1."
-            },
-            {
-              "id": "nsa007",
-              "title": "Same remainder pattern",
-              "basic_overview": "If numbers leave the same remainder r on division by d, then their pairwise differences are divisible by d."
-            }
+            {"id": "nsa005", "title": "HCF × LCM relation", "tags": ["important", "factors"], "basic_overview": "For exactly two positive integers a,b: $$\\mathrm{HCF}(a,b)\\times\\mathrm{LCM}(a,b)=ab$$.", "trick": "This works ONLY for two numbers, not three. HCF always divides LCM.", "example": {"question": "HCF = 12, LCM = 180, one number = 36. Find the other.", "solution": "Other = (12 × 180) ÷ 36 = 60."}},
+            {"id": "nsa006", "title": "Numbers from HCF and ratio", "tags": ["factors"], "basic_overview": "If two numbers are in ratio m:n and HCF is H, numbers are $$Hm,Hn$$ provided gcd(m,n)=1. Then LCM $$=Hmn$$.", "trick": "Always write numbers as Hm and Hn, then use LCM = H·m·n to link HCF, LCM and ratio.", "example": {"question": "Two numbers are in ratio 3:5 and their LCM is 150. Find the numbers.", "solution": "LCM = H×3×5 = 15H = 150 → H = 10. Numbers = 30 and 50."}},
+            {"id": "nsa007", "title": "Same remainder pattern", "tags": ["important", "factors"], "basic_overview": "If numbers leave the same remainder r on division by d, then their pairwise differences are divisible by d. Largest such d = HCF of the differences.", "trick": "Subtract the numbers, take HCF of the differences — never include the numbers themselves.", "example": {"question": "Greatest number that divides 61, 85 and 109 leaving the same remainder?", "solution": "Differences: 24 and 48 → HCF = 24."}},
+            {"id": "nsa009", "title": "Greatest divisor with given remainders", "tags": ["factors"], "basic_overview": "Greatest number dividing a and b leaving remainders r1 and r2 = $$\\mathrm{HCF}(a-r_1,\\ b-r_2)$$.", "trick": "Subtract each remainder from its own number first, then take the HCF.", "example": {"question": "Greatest number that divides 60 and 98 leaving remainders 4 and 2.", "solution": "HCF(60−4, 98−2) = HCF(56, 96) = 8."}},
+            {"id": "nsa010", "title": "Least number with given remainders", "tags": ["important", "factors"], "basic_overview": "Same remainder r in every case: LCM + r. Constant difference (divisor − remainder = k) in every case: LCM − k.", "trick": "Check divisor − remainder for every divisor. If it is the same number k each time, answer = LCM − k.", "example": {"question": "Least number which leaves remainders 1, 3, 7 when divided by 6, 8, 12 respectively?", "solution": "6−1 = 8−3 = 12−7 = 5 → LCM(6,8,12) − 5 = 24 − 5 = 19."}}
+          ]
+        },
+        {
+          "topic_id": "ns-divisibility",
+          "topic_title": "Divisibility Rules",
+          "notes_list": [
+            {"id": "nsa011", "title": "Divisibility rules", "tags": ["important"], "basic_overview": "By 2: last digit even. By 3: digit sum divisible by 3. By 4: last two digits divisible by 4. By 5: last digit 0 or 5. By 6: divisible by 2 and 3. By 8: last three digits divisible by 8. By 9: digit sum divisible by 9. By 11: (sum of digits at odd places) − (sum at even places) is 0 or a multiple of 11.", "trick": "For composite divisors use co-prime factors: 12 = 3×4, 24 = 3×8, 72 = 8×9. For 7, 11, 13 together test the number 1001 = 7×11×13.", "example": {"question": "Is 2926 divisible by 11?", "solution": "Digits from right: 6,2,9,2. Odd places 6+9 = 15; even places 2+2 = 4; difference 11 → divisible. (2926 = 11 × 266)"}}
           ]
         }
       ]
@@ -76,34 +43,21 @@
     {
       "id": "percentage-advanced",
       "title": "Percentage — Advanced",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "pct-shortcuts",
           "topic_title": "Percentage Shortcuts",
           "notes_list": [
-            {
-              "id": "pa001",
-              "title": "Fraction-to-percentage quick values",
-              "basic_overview": "$$\\frac12=50\\%,\\frac13=33.33\\%,\\frac14=25\\%,\\frac15=20\\%,\\frac18=12.5\\%,\\frac1{10}=10\\%$$"
-            },
-            {
-              "id": "pa002",
-              "title": "Successive increase/decrease",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "For changes x% and y%: $$\\text{Net change}=x+y+\\frac{xy}{100}$$; take decreases as negative."
-            },
-            {
-              "id": "pa003",
-              "title": "Same increase and decrease",
-              "basic_overview": "Increase x% followed by decrease x% gives net change $$-\\frac{x^2}{100}\\%$$."
-            },
-            {
-              "id": "pa004",
-              "title": "Population / depreciation",
-              "basic_overview": "$$V_n=V_0\\left(1\\pm\\frac r{100}\\right)^n$$, with + for growth and − for depreciation."
-            }
+            {"id": "pa001", "title": "Fraction-to-percentage quick values", "tags": ["important"], "basic_overview": "$$\\frac12=50\\%,\\frac13=33.33\\%,\\frac14=25\\%,\\frac15=20\\%,\\frac16=16.67\\%,\\frac17=14.28\\%,\\frac18=12.5\\%,\\frac19=11.11\\%,\\frac1{10}=10\\%,\\frac1{11}=9.09\\%,\\frac1{12}=8.33\\%,\\frac1{16}=6.25\\%$$", "trick": "Memorise 1/2 to 1/16. Multiples follow: 3/8 = 3 × 12.5 = 37.5%, 5/6 = 5 × 16.67 = 83.33%.", "example": {"question": "Find 37.5% of 480.", "solution": "37.5% = 3/8 → 3/8 × 480 = 180."}},
+            {"id": "pa002", "title": "Successive increase/decrease", "tags": ["important"], "basic_overview": "For changes x% and y%: $$\\text{Net change}=x+y+\\frac{xy}{100}$$; take decreases as negative.", "trick": "Never add the percentages directly. Use +, − signs and add the small product term xy/100.", "example": {"question": "A price is raised by 20% and then reduced by 10%. Net change?", "solution": "20 − 10 + (20)(−10)/100 = 10 − 2 = +8% (increase)."}},
+            {"id": "pa003", "title": "Same increase and decrease", "tags": ["important"], "basic_overview": "Increase x% followed by decrease x% (or the reverse) gives net change $$-\\frac{x^2}{100}\\%$$ — always a loss.", "trick": "Net loss % = x² ÷ 100. Example shortcut: 10% up and 10% down = 1% loss.", "example": {"question": "A value increases by 20% and then decreases by 20%. Net change?", "solution": "−(20²)/100 = −4%, i.e. a 4% decrease."}},
+            {"id": "pa004", "title": "Population / depreciation", "tags": ["important"], "basic_overview": "$$V_n=V_0\\left(1\\pm\\frac r{100}\\right)^n$$, with + for growth and − for depreciation.", "trick": "For 10% use factor 1.1 or 0.9, for 20% use 1.2 or 0.8, for 5% use 1.05 or 0.95. Square when n = 2.", "example": {"question": "A town of 20,000 grows 10% every year. Population after 2 years?", "solution": "20000 × 1.1 × 1.1 = 24,200."}},
+            {"id": "pa005", "title": "Price rise and consumption cut", "tags": ["important"], "basic_overview": "If price rises by x%, consumption must fall by $$\\frac{x}{100+x}\\times100\\%$$ to keep expenditure constant. Similarly, if A is x% more than B, then B is $$\\frac{x}{100+x}\\times100\\%$$ less than A.", "trick": "Use fractions: 25% rise = 1/4 → reduce by 1/5 = 20%. 20% rise → reduce 1/6 = 16.67%. 50% rise → reduce 1/3 = 33.33%.", "example": {"question": "Price of sugar rises by 25%. By how much should a family cut its use to keep spending the same?", "solution": "25/(100+25) × 100 = 20%."}},
+            {"id": "pa006", "title": "x% of y = y% of x", "basic_overview": "$$x\\%\\text{ of }y=y\\%\\text{ of }x$$.", "trick": "Swap to the easier one before calculating.", "example": {"question": "Find 8% of 50.", "solution": "8% of 50 = 50% of 8 = 4."}},
+            {"id": "pa007", "title": "Election / votes problems", "tags": ["important"], "basic_overview": "Winner % + loser % = 100% (if no invalid votes). Margin = (winner % − loser %) of valid votes.", "trick": "Convert the margin into a percentage difference, then divide to get the total.", "example": {"question": "The winner got 55% of the votes and won by 3000 votes. Total votes?", "solution": "Margin = 55 − 45 = 10% = 3000 → total = 30,000."}}
           ]
         }
       ]
@@ -111,39 +65,22 @@
     {
       "id": "profit-loss",
       "title": "Profit, Loss, Discount & False Weight",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "pl-advanced",
           "topic_title": "Advanced Models",
           "notes_list": [
-            {
-              "id": "pla001",
-              "title": "CP, SP and MP relation",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$\\text{Profit\\%}=\\frac{SP-CP}{CP}\\times100,\\quad \\text{Discount\\%}=\\frac{MP-SP}{MP}\\times100$$"
-            },
-            {
-              "id": "pla002",
-              "title": "Successive discounts",
-              "basic_overview": "Equivalent discount for x% and y%: $$x+y-\\frac{xy}{100}\\%$$."
-            },
-            {
-              "id": "pla003",
-              "title": "CP of x articles = SP of y articles",
-              "basic_overview": "If CP of x articles equals SP of y articles, profit/loss percentage $$=\\frac{x-y}{y}\\times100\\%$$; sign indicates profit or loss."
-            },
-            {
-              "id": "pla004",
-              "title": "False weight",
-              "basic_overview": "If T units are charged while F units are actually supplied, gain % due to false weight $$=\\frac{T-F}{F}\\times100$$."
-            },
-            {
-              "id": "pla005",
-              "title": "Markup and discount",
-              "basic_overview": "If MP is m% above CP and discount is d%, $$\\frac{SP}{CP}=\\left(1+\\frac m{100}\\right)\\left(1-\\frac d{100}\\right)$$."
-            }
+            {"id": "pla001", "title": "CP, SP and MP relation", "tags": ["important"], "basic_overview": "$$\\text{Profit\\%}=\\frac{SP-CP}{CP}\\times100,\\quad \\text{Discount\\%}=\\frac{MP-SP}{MP}\\times100$$ Also $$SP=CP\\times\\frac{100\\pm P\\%}{100}$$.", "trick": "Profit/loss % is always on CP; discount % is always on marked price (MP).", "example": {"question": "CP = ₹800 and profit = 25%. Find SP.", "solution": "SP = 800 × 125/100 = ₹1000."}},
+            {"id": "pla002", "title": "Successive discounts", "tags": ["important"], "basic_overview": "Equivalent discount for x% and y%: $$x+y-\\frac{xy}{100}\\%$$.", "trick": "Multiply the remaining fractions: 20% and 10% discount → 0.8 × 0.9 = 0.72, so total discount 28%.", "example": {"question": "Find the single discount equal to successive discounts of 20% and 10%.", "solution": "20 + 10 − (20×10)/100 = 28%."}},
+            {"id": "pla003", "title": "CP of x articles = SP of y articles", "tags": ["important"], "basic_overview": "If CP of x articles equals SP of y articles, profit/loss percentage $$=\\frac{x-y}{y}\\times100\\%$$; positive = profit, negative = loss.", "trick": "Divide by the SP side (y) in the denominator.", "example": {"question": "CP of 15 articles = SP of 12 articles. Find the gain %.", "solution": "(15 − 12)/12 × 100 = 25% profit."}},
+            {"id": "pla004", "title": "False weight", "basic_overview": "If T units are charged while F units are actually supplied, gain % due to false weight $$=\\frac{T-F}{F}\\times100$$.", "trick": "Error ÷ (true value − error) × 100. Denominator is the weight actually given.", "example": {"question": "A shopkeeper gives 900 g but charges for 1 kg. Gain %?", "solution": "(1000 − 900)/900 × 100 = 11.11%."}},
+            {"id": "pla005", "title": "Markup and discount", "tags": ["important"], "basic_overview": "If MP is m% above CP and discount is d%, $$\\frac{SP}{CP}=\\left(1+\\frac m{100}\\right)\\left(1-\\frac d{100}\\right)$$.", "trick": "Assume CP = 100 and apply markup then discount in order.", "example": {"question": "An article is marked 40% above cost and sold at a 20% discount. Find profit %.", "solution": "1.4 × 0.8 = 1.12 → 12% profit."}},
+            {"id": "pla006", "title": "Dishonest dealer (profit + false weight)", "basic_overview": "If a dealer charges p% profit and also uses false weight, overall gain % $$=\\left(\\frac{(100+p)\\times\\text{True weight}}{\\text{False weight}}-100\\right)\\%$$.", "trick": "Both effects multiply — never simply add the two percentages.", "example": {"question": "A dealer sells at 10% profit but uses a 900 g weight instead of 1 kg. Overall gain %?", "solution": "(110 × 1000/900) − 100 = 122.22 − 100 = 22.22%."}},
+            {"id": "pla007", "title": "Same SP, equal profit % and loss %", "basic_overview": "If two articles are sold at the same SP, one at x% profit and the other at x% loss, there is always an overall loss of $$\\frac{x^2}{100}\\%$$.", "trick": "Same formula as 'same increase and decrease' in percentage.", "example": {"question": "Two items sold at the same price, one at 10% gain and the other at 10% loss. Overall result?", "solution": "Loss = 10²/100 = 1%."}},
+            {"id": "pla008", "title": "Profit equals loss at two selling prices", "basic_overview": "If profit at SP1 equals loss at SP2, then $$CP=\\frac{SP_1+SP_2}{2}$$.", "trick": "CP lies exactly in the middle of the two selling prices.", "example": {"question": "Selling at ₹400 gives the same profit as the loss when selling at ₹300. Find CP.", "solution": "CP = (400 + 300)/2 = ₹350."}}
           ]
         }
       ]
@@ -151,63 +88,31 @@
     {
       "id": "interest-advanced",
       "title": "Simple & Compound Interest — Advanced",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "si-shortcuts",
           "topic_title": "SI Shortcuts",
           "notes_list": [
-            {
-              "id": "ia001",
-              "title": "Simple Interest",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$SI=\\frac{PRT}{100},\\qquad A=P+SI$$"
-            },
-            {
-              "id": "ia002",
-              "title": "Equal SI installments",
-              "basic_overview": "For equal annual installments under simple interest, total installment amount can be derived by equating the present principal plus interest on outstanding balances."
-            },
-            {
-              "id": "ia003",
-              "title": "SI time-rate relation",
-              "basic_overview": "For fixed P, $$SI\\propto R\\times T$$."
-            }
+            {"id": "ia001", "title": "Simple Interest", "tags": ["important"], "basic_overview": "$$SI=\\frac{PRT}{100},\\qquad A=P+SI$$", "trick": "Write rate as R% per year, time in years. For months use T = months/12.", "example": {"question": "Find SI on ₹5000 at 8% for 3 years.", "solution": "5000 × 8 × 3 / 100 = ₹1200."}},
+            {"id": "ia002", "title": "Equal installments under SI", "basic_overview": "For equal annual installments x paid at the end of each year, present value $$P=\\frac{x}{1+\\frac{R}{100}}+\\frac{x}{1+\\frac{2R}{100}}+\\cdots$$", "trick": "Each installment is discounted back by its time: the later it is paid, the more interest it would have earned.", "example": {"question": "Two equal installments of ₹660 are paid at the end of year 1 and year 2 at 10% SI. Find the loan.", "solution": "P = 660/1.1 + 660/1.2 = 600 + 550 = ₹1150."}},
+            {"id": "ia003", "title": "SI time-rate relation", "basic_overview": "For fixed P, $$SI\\propto R\\times T$$.", "trick": "Use ratios instead of recomputing: new SI = old SI × (R₂T₂)/(R₁T₁).", "example": {"question": "SI is ₹360 at 6% for 2 years. Find SI at 8% for 3 years on the same sum.", "solution": "360 × (8×3)/(6×2) = ₹720."}},
+            {"id": "ia009", "title": "Sum becomes n times at SI", "tags": ["important"], "basic_overview": "If a sum becomes n times in T years at SI, $$R=\\frac{(n-1)\\times100}{T}\\%$$.", "trick": "Sum doubles in T years → rate = 100/T. If a sum becomes k times in the same period, time scales by (k−1).", "example": {"question": "A sum doubles in 8 years at SI. Find the rate.", "solution": "R = 100/8 = 12.5% per annum."}},
+            {"id": "ia010", "title": "Time to become k times at SI", "basic_overview": "If a sum doubles in T years, it becomes 3 times in 2T years, 4 times in 3T years — i.e. (k−1)T years for k times.", "trick": "Interest earned = (k − 1) × P, so time ∝ (k − 1).", "example": {"question": "A sum doubles in 5 years at SI. In how many years will it become 3 times?", "solution": "(3−1)/(2−1) × 5 = 10 years."}}
           ]
         },
         {
           "topic_id": "ci-shortcuts",
           "topic_title": "CI Shortcuts",
           "notes_list": [
-            {
-              "id": "ia004",
-              "title": "Compound amount",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$A=P\\left(1+\\frac R{100}\\right)^n,\\qquad CI=A-P$$"
-            },
-            {
-              "id": "ia005",
-              "title": "Half-yearly compounding",
-              "basic_overview": "Use rate $$R/2$$ and number of periods $$2n$$."
-            },
-            {
-              "id": "ia006",
-              "title": "Quarterly compounding",
-              "basic_overview": "Use rate $$R/4$$ and number of periods $$4n$$."
-            },
-            {
-              "id": "ia007",
-              "title": "CI − SI for 2 years",
-              "basic_overview": "$$CI-SI=P\\left(\\frac R{100}\\right)^2$$."
-            },
-            {
-              "id": "ia008",
-              "title": "Growth factor method",
-              "basic_overview": "For successive annual rates r1,r2,... multiply the factors $$\\left(1+\\frac{r_i}{100}\\right)$$ rather than adding rates."
-            }
+            {"id": "ia004", "title": "Compound amount", "tags": ["important"], "basic_overview": "$$A=P\\left(1+\\frac R{100}\\right)^n,\\qquad CI=A-P$$", "trick": "For R = 10%, multiply by 11/10 each year; for 20%, by 6/5; for 5%, by 21/20 — keep P as a multiple of the denominators.", "example": {"question": "Find CI on ₹10,000 at 10% for 2 years.", "solution": "A = 10000 × 1.1² = 12100 → CI = ₹2100."}},
+            {"id": "ia005", "title": "Half-yearly compounding", "basic_overview": "Use rate $$R/2$$ and number of periods $$2n$$.", "trick": "Halve the rate, double the time.", "example": {"question": "Amount on ₹8000 at 10% p.a. for 1 year, compounded half-yearly?", "solution": "8000 × (1.05)² = ₹8820."}},
+            {"id": "ia006", "title": "Quarterly compounding", "basic_overview": "Use rate $$R/4$$ and number of periods $$4n$$.", "trick": "Quarter the rate, quadruple the time.", "example": {"question": "Amount on ₹10,000 at 20% p.a. for 6 months, compounded quarterly?", "solution": "Rate 5% per quarter, 2 quarters → 10000 × 1.05² = ₹11,025."}},
+            {"id": "ia007", "title": "CI − SI for 2 years", "tags": ["important"], "basic_overview": "$$CI-SI=P\\left(\\frac R{100}\\right)^2$$.", "trick": "If the difference is given, find P directly: P = difference × (100/R)².", "example": {"question": "Find CI − SI on ₹5000 at 10% for 2 years.", "solution": "5000 × (10/100)² = ₹50."}},
+            {"id": "ia011", "title": "CI − SI for 3 years", "basic_overview": "$$CI-SI=P\\left(\\frac R{100}\\right)^2\\left(3+\\frac R{100}\\right)$$.", "trick": "It is the 2-year difference multiplied by (3 + R/100).", "example": {"question": "Find CI − SI on ₹1000 at 10% for 3 years.", "solution": "1000 × 0.01 × 3.1 = ₹31. (CI = 331, SI = 300)"}},
+            {"id": "ia008", "title": "Growth factor method", "basic_overview": "For successive annual rates r1,r2,... multiply the factors $$\\left(1+\\frac{r_i}{100}\\right)$$ rather than adding rates.", "trick": "Convert each % into a factor, multiply, then subtract 1 to get the net growth.", "example": {"question": "A sum grows 10% in year 1 and 20% in year 2. Total growth?", "solution": "1.1 × 1.2 = 1.32 → 32% total growth."}}
           ]
         }
       ]
@@ -215,69 +120,35 @@
     {
       "id": "ratio-proportion",
       "title": "Ratio, Proportion, Partnership & Mixture",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "ratio-advanced",
           "topic_title": "Ratio & Proportion",
           "notes_list": [
-            {
-              "id": "ra001",
-              "title": "Composition from ratio",
-              "basic_overview": "If a:b=m:n, then $$a=\\frac m{m+n}(a+b),\\quad b=\\frac n{m+n}(a+b)$$."
-            },
-            {
-              "id": "ra002",
-              "title": "Third proportional",
-              "basic_overview": "Third proportional to a,b is $$\\frac{b^2}{a}$$."
-            },
-            {
-              "id": "ra003",
-              "title": "Fourth proportional",
-              "basic_overview": "If a:b::c:x, then $$x=\\frac{bc}{a}$$."
-            },
-            {
-              "id": "ra004",
-              "title": "Mean proportional",
-              "basic_overview": "Mean proportional between a and b is $$\\sqrt{ab}$$."
-            }
+            {"id": "ra001", "title": "Composition from ratio", "basic_overview": "If a:b=m:n, then $$a=\\frac m{m+n}(a+b),\\quad b=\\frac n{m+n}(a+b)$$.", "trick": "Total number of parts = m + n; one part = total ÷ (m+n).", "example": {"question": "Two numbers are in ratio 3:5 and their sum is 160. Find them.", "solution": "One part = 160/8 = 20 → 60 and 100."}},
+            {"id": "ra002", "title": "Third proportional", "basic_overview": "Third proportional to a,b is $$\\frac{b^2}{a}$$.", "trick": "a : b = b : c, so the middle term is squared.", "example": {"question": "Third proportional to 4 and 6?", "solution": "6²/4 = 9."}},
+            {"id": "ra003", "title": "Fourth proportional", "basic_overview": "If a:b::c:x, then $$x=\\frac{bc}{a}$$.", "trick": "Cross multiply: ax = bc.", "example": {"question": "Fourth proportional to 3, 4, 9?", "solution": "4 × 9/3 = 12."}},
+            {"id": "ra004", "title": "Mean proportional", "basic_overview": "Mean proportional between a and b is $$\\sqrt{ab}$$.", "trick": "Middle term of a GP of three terms.", "example": {"question": "Mean proportional between 4 and 16?", "solution": "√(4 × 16) = 8."}},
+            {"id": "ra009", "title": "Combining ratios", "tags": ["important"], "basic_overview": "If a:b = p:q and b:c = r:s, make b equal: $$a:b:c=pr:qr:qs$$.", "trick": "Multiply the first ratio by r and the second by q so that the common term b becomes qr.", "example": {"question": "A:B = 2:3 and B:C = 4:5. Find A:B:C.", "solution": "A:B:C = (2×4):(3×4):(3×5) = 8:12:15."}}
           ]
         },
         {
           "topic_id": "partnership",
           "topic_title": "Partnership",
           "notes_list": [
-            {
-              "id": "ra005",
-              "title": "Profit-sharing ratio",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "Profit is divided in the ratio of $$\\text{Capital}\\times\\text{Time}$$."
-            },
-            {
-              "id": "ra006",
-              "title": "Changing investment",
-              "basic_overview": "If A invests I1 for T1 and B invests I2 for T2, profit ratio $$=I_1T_1:I_2T_2$$."
-            }
+            {"id": "ra005", "title": "Profit-sharing ratio", "tags": ["important"], "basic_overview": "Profit is divided in the ratio of $$\\text{Capital}\\times\\text{Time}$$.", "trick": "If the time is equal, the ratio is the ratio of capitals; if capitals are equal, the ratio of times.", "example": {"question": "A invests ₹3000 for 12 months and B ₹4000 for 6 months. Divide a profit of ₹5000.", "solution": "36000 : 24000 = 3:2 → A ₹3000, B ₹2000."}},
+            {"id": "ra006", "title": "Changing investment", "basic_overview": "If A invests I1 for T1 and B invests I2 for T2, profit ratio $$=I_1T_1:I_2T_2$$.", "trick": "Convert every period into months and multiply by the capital.", "example": {"question": "A starts with ₹5000. B joins after 4 months with ₹6000. Profit ratio at year-end?", "solution": "A: 5000×12 = 60000; B: 6000×8 = 48000 → 5:4."}}
           ]
         },
         {
           "topic_id": "mixture",
           "topic_title": "Mixture & Alligation",
           "notes_list": [
-            {
-              "id": "ra007",
-              "title": "Alligation",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "For cheaper C, dearer D and mean M: $$C:D=(D-M):(M-C)$$."
-            },
-            {
-              "id": "ra008",
-              "title": "Repeated replacement",
-              "basic_overview": "If x quantity is removed from total V and replaced n times, original substance remaining $$=V\\left(1-\\frac{x}{V}\\right)^n$$."
-            }
+            {"id": "ra007", "title": "Alligation", "tags": ["important"], "basic_overview": "For cheaper C, dearer D and mean M: $$C:D=(D-M):(M-C)$$.", "trick": "Draw the cross: cheaper and dearer on top, mean in the middle, subtract diagonally — the results give the ratio of cheaper : dearer.", "example": {"question": "Rice at ₹20/kg and ₹30/kg is mixed to get ₹24/kg. Find the ratio.", "solution": "(30 − 24):(24 − 20) = 6:4 = 3:2."}},
+            {"id": "ra008", "title": "Repeated replacement", "tags": ["important"], "basic_overview": "If x quantity is removed from total V and replaced n times, original substance remaining $$=V\\left(1-\\frac{x}{V}\\right)^n$$.", "trick": "Fraction left after each replacement = (V − x)/V; raise to power n.", "example": {"question": "40 L of milk: 4 L is removed and replaced by water, done twice. Milk left?", "solution": "40 × (36/40)² = 40 × 0.81 = 32.4 L."}}
           ]
         }
       ]
@@ -285,47 +156,21 @@
     {
       "id": "average",
       "title": "Average & Weighted Average",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "avg-basic",
           "topic_title": "Core Average",
           "notes_list": [
-            {
-              "id": "av001",
-              "title": "Average",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$\\text{Average}=\\frac{\\text{Sum}}{\\text{Number}}$$"
-            },
-            {
-              "id": "av002",
-              "title": "Average of first n natural numbers",
-              "basic_overview": "$$\\frac{n+1}{2}$$"
-            },
-            {
-              "id": "av003",
-              "title": "Average of first n odd numbers",
-              "basic_overview": "$$n$$"
-            },
-            {
-              "id": "av004",
-              "title": "Average of first n even numbers",
-              "basic_overview": "$$n+1$$"
-            },
-            {
-              "id": "av005",
-              "title": "Replacement rule",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "If one value is replaced among n observations and average changes by d: $$\\text{New value}=\\text{Old value}+nd$$."
-            },
-            {
-              "id": "av006",
-              "title": "Weighted average",
-              "basic_overview": "$$\\bar x=\\frac{\\sum wx}{\\sum w}$$."
-            }
+            {"id": "av001", "title": "Average", "tags": ["important"], "basic_overview": "$$\\text{Average}=\\frac{\\text{Sum}}{\\text{Number}}$$", "trick": "Sum = Average × Number. Most average problems are solved by working with sums.", "example": {"question": "Average of 10, 20, 30, 40, 50?", "solution": "150/5 = 30."}},
+            {"id": "av002", "title": "Average of first n natural numbers", "basic_overview": "$$\\frac{n+1}{2}$$", "trick": "Average of any AP = (first + last)/2.", "example": {"question": "Average of the first 20 natural numbers?", "solution": "(20+1)/2 = 10.5."}},
+            {"id": "av003", "title": "Average of first n odd numbers", "basic_overview": "$$n$$", "trick": "Sum of first n odd numbers = n².", "example": {"question": "Average of the first 15 odd numbers?", "solution": "15."}},
+            {"id": "av004", "title": "Average of first n even numbers", "basic_overview": "$$n+1$$", "trick": "Sum of first n even numbers = n(n+1).", "example": {"question": "Average of the first 12 even numbers?", "solution": "12 + 1 = 13."}},
+            {"id": "av005", "title": "Replacement rule", "tags": ["important"], "basic_overview": "If one value is replaced among n observations and average changes by d: $$\\text{New value}=\\text{Old value}+nd$$.", "trick": "Change in total = n × change in average. Use + if average rises, − if it falls.", "example": {"question": "Average weight of 8 persons rises by 2 kg when a 60 kg person is replaced. Weight of the new person?", "solution": "60 + 8×2 = 76 kg."}},
+            {"id": "av006", "title": "Weighted average", "tags": ["important"], "basic_overview": "$$\\bar x=\\frac{\\sum wx}{\\sum w}$$.", "trick": "Weights are the group sizes. Use alligation when only two groups are mixed.", "example": {"question": "30 students average 60 and 20 students average 70. Combined average?", "solution": "(30×60 + 20×70)/50 = 3200/50 = 64."}},
+            {"id": "av007", "title": "Adding a new member", "basic_overview": "If the average of n items changes by d when one more item is added: $$\\text{New item}=\\text{Old average}+(n+1)d$$.", "trick": "Opposite of replacement rule: use (n+1) as the multiplier.", "example": {"question": "Average of 5 numbers is 20. A sixth number raises the average to 22. Find it.", "solution": "20 + 6×2 = 32. (Check: 100 + 32 = 132, 132/6 = 22)"}}
           ]
         }
       ]
@@ -333,71 +178,41 @@
     {
       "id": "time-speed-distance",
       "title": "Time, Speed & Distance",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "tsd-core",
           "topic_title": "Core Formulas",
           "notes_list": [
-            {
-              "id": "ts001",
-              "title": "Speed-Distance-Time",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$S=\\frac DT,\\quad D=ST,\\quad T=\\frac DS$$"
-            },
-            {
-              "id": "ts002",
-              "title": "Unit conversion",
-              "basic_overview": "$$1\\text{ km/h}=\\frac5{18}\\text{ m/s},\\quad1\\text{ m/s}=\\frac{18}{5}\\text{ km/h}$$"
-            },
-            {
-              "id": "ts003",
-              "title": "Average speed — equal distances",
-              "basic_overview": "$$S_{avg}=\\frac{2s_1s_2}{s_1+s_2}$$."
-            },
-            {
-              "id": "ts004",
-              "title": "Relative speed",
-              "basic_overview": "Same direction: $$|s_1-s_2|$$; opposite direction: $$s_1+s_2$$."
-            }
+            {"id": "ts001", "title": "Speed-Distance-Time", "tags": ["important"], "basic_overview": "$$S=\\frac DT,\\quad D=ST,\\quad T=\\frac DS$$", "trick": "Keep units consistent — convert km/h to m/s or minutes to hours before calculating.", "example": {"question": "Time to cover 150 km at 50 km/h?", "solution": "150/50 = 3 hours."}},
+            {"id": "ts002", "title": "Unit conversion", "tags": ["important"], "basic_overview": "$$1\\text{ km/h}=\\frac5{18}\\text{ m/s},\\quad1\\text{ m/s}=\\frac{18}{5}\\text{ km/h}$$", "trick": "km/h → m/s: multiply by 5/18. m/s → km/h: multiply by 18/5.", "example": {"question": "Convert 72 km/h to m/s.", "solution": "72 × 5/18 = 20 m/s."}},
+            {"id": "ts003", "title": "Average speed — equal distances", "tags": ["important"], "basic_overview": "$$S_{avg}=\\frac{2s_1s_2}{s_1+s_2}$$.", "trick": "Average speed is NOT the simple mean when distances are equal; it is the harmonic mean.", "example": {"question": "A person goes at 40 km/h and returns at 60 km/h. Average speed?", "solution": "2×40×60/(40+60) = 48 km/h."}},
+            {"id": "ts010", "title": "Average speed — equal times", "basic_overview": "If equal time is spent at speeds s1 and s2, $$S_{avg}=\\frac{s_1+s_2}{2}$$.", "trick": "Equal time → arithmetic mean. Equal distance → harmonic mean.", "example": {"question": "A car drives 2 h at 40 km/h and 2 h at 60 km/h. Average speed?", "solution": "(40 + 60)/2 = 50 km/h."}},
+            {"id": "ts004", "title": "Relative speed", "tags": ["important"], "basic_overview": "Same direction: $$|s_1-s_2|$$; opposite direction: $$s_1+s_2$$.", "trick": "Overtaking → subtract; meeting/crossing head-on → add.", "example": {"question": "Two cars move at 60 and 40 km/h. Relative speed in the same direction and in opposite directions?", "solution": "Same: 20 km/h; opposite: 100 km/h."}},
+            {"id": "ts011", "title": "Speed ratio and time ratio", "basic_overview": "For the same distance, speed is inversely proportional to time: $$S_1:S_2=T_2:T_1$$.", "trick": "Invert the speed ratio to get the time ratio, then use the given difference to find one 'part'.", "example": {"question": "Speeds of A and B are in ratio 4:5. A takes 30 minutes more. Find B's time.", "solution": "Times 5:4 → 1 part = 30 min → B takes 4 × 30 = 120 min."}},
+            {"id": "ts012", "title": "Meeting problems", "basic_overview": "Two people start from opposite ends toward each other: $$T=\\frac{D}{s_1+s_2}$$.", "trick": "Distance covered together = D, so use the relative (sum) speed.", "example": {"question": "Two towns are 300 km apart. Trains start towards each other at 60 and 40 km/h. When do they meet?", "solution": "300/100 = 3 hours."}},
+            {"id": "ts013", "title": "Circular track", "basic_overview": "Same direction: first meeting after $$\\frac{L}{|s_1-s_2|}$$. Opposite direction: $$\\frac{L}{s_1+s_2}$$, where L is the track length.", "trick": "The faster runner gains one full lap (L) over the slower one.", "example": {"question": "Two runners at 5 m/s and 3 m/s start together on a 400 m track in the same direction. When do they first meet?", "solution": "400/(5−3) = 200 seconds."}}
           ]
         },
         {
           "topic_id": "trains",
           "topic_title": "Trains",
           "notes_list": [
-            {
-              "id": "ts005",
-              "title": "Train crossing pole/person",
-              "basic_overview": "$$T=\\frac{L}{S}$$."
-            },
-            {
-              "id": "ts006",
-              "title": "Train crossing platform",
-              "basic_overview": "$$T=\\frac{L_{train}+L_{platform}}{S}$$"
-            },
-            {
-              "id": "ts007",
-              "title": "Two trains",
-              "basic_overview": "$$T=\\frac{L_1+L_2}{\\text{relative speed}}$$."
-            }
+            {"id": "ts005", "title": "Train crossing pole/person", "tags": ["important"], "basic_overview": "$$T=\\frac{L}{S}$$.", "trick": "Distance = length of the train. Convert km/h to m/s first.", "example": {"question": "A 120 m train at 54 km/h crosses a pole. Time?", "solution": "54 km/h = 15 m/s → 120/15 = 8 seconds."}},
+            {"id": "ts006", "title": "Train crossing platform", "tags": ["important"], "basic_overview": "$$T=\\frac{L_{train}+L_{platform}}{S}$$", "trick": "Same rule for bridge or tunnel: add the lengths.", "example": {"question": "A 150 m train at 72 km/h crosses a 250 m platform. Time?", "solution": "72 km/h = 20 m/s → 400/20 = 20 s."}},
+            {"id": "ts007", "title": "Two trains", "basic_overview": "$$T=\\frac{L_1+L_2}{\\text{relative speed}}$$.", "trick": "Add lengths; relative speed is sum (opposite) or difference (same direction).", "example": {"question": "Trains of 100 m and 150 m run in opposite directions at 54 and 36 km/h. Time to cross?", "solution": "Relative = 90 km/h = 25 m/s → 250/25 = 10 s."}},
+            {"id": "ts014", "title": "Train and moving person", "basic_overview": "Train and a person moving: relative speed $$=|S_{train}\\pm S_{person}|$$, time $$=\\frac{L}{\\text{relative speed}}$$.", "trick": "Person walking the same way → subtract speeds; opposite way → add.", "example": {"question": "A 150 m train at 60 km/h passes a man walking at 6 km/h in the same direction. Time?", "solution": "Relative 54 km/h = 15 m/s → 150/15 = 10 s."}}
           ]
         },
         {
           "topic_id": "boats",
           "topic_title": "Boats & Streams",
           "notes_list": [
-            {
-              "id": "ts008",
-              "title": "Upstream / downstream",
-              "basic_overview": "$$D=u+v,\\qquad U=u-v$$"
-            },
-            {
-              "id": "ts009",
-              "title": "Boat and stream speeds",
-              "basic_overview": "$$u=\\frac{D+U}{2},\\qquad v=\\frac{D-U}{2}$$"
-            }
+            {"id": "ts008", "title": "Upstream / downstream", "tags": ["important"], "basic_overview": "With boat speed u and stream speed v: $$D=u+v,\\qquad U=u-v$$", "trick": "Downstream helps (add); upstream opposes (subtract).", "example": {"question": "Boat speed 10 km/h, stream 2 km/h. Downstream and upstream speeds?", "solution": "12 km/h and 8 km/h."}},
+            {"id": "ts009", "title": "Boat and stream speeds", "tags": ["important"], "basic_overview": "$$u=\\frac{D+U}{2},\\qquad v=\\frac{D-U}{2}$$", "trick": "Boat = average of the two speeds; stream = half the difference.", "example": {"question": "Downstream 15 km/h, upstream 9 km/h. Find boat and stream speeds.", "solution": "Boat = 12 km/h, stream = 3 km/h."}},
+            {"id": "ts015", "title": "Round trip time", "basic_overview": "Time for a round trip of distance D each way: $$T=\\frac{D}{u+v}+\\frac{D}{u-v}$$.", "trick": "Compute both legs separately; don't use average speed directly.", "example": {"question": "Boat speed 8 km/h, stream 2 km/h, distance 30 km each way. Total time?", "solution": "30/10 + 30/6 = 3 + 5 = 8 hours."}}
           ]
         }
       ]
@@ -405,55 +220,31 @@
     {
       "id": "time-work",
       "title": "Time, Work, Pipes & Cisterns",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "work-core",
           "topic_title": "Time & Work",
           "notes_list": [
-            {
-              "id": "tw001",
-              "title": "One-day work",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "If A completes work in n days, one-day work $$=1/n$$."
-            },
-            {
-              "id": "tw002",
-              "title": "Combined work",
-              "basic_overview": "If A and B take a and b days: $$T=\\frac{ab}{a+b}$$."
-            },
-            {
-              "id": "tw003",
-              "title": "Efficiency relation",
-              "basic_overview": "Efficiency is inversely proportional to time: $$E_1:E_2=T_2:T_1$$."
-            },
-            {
-              "id": "tw004",
-              "title": "Men-days-hours",
-              "basic_overview": "For same efficiency, $$M_1D_1H_1=M_2D_2H_2$$."
-            }
+            {"id": "tw001", "title": "One-day work", "tags": ["important"], "basic_overview": "If A completes work in n days, one-day work $$=1/n$$.", "trick": "Always think in 'work per day'; total work = 1.", "example": {"question": "A completes a job in 10 days. How much does he do in 1 day?", "solution": "1/10 of the work."}},
+            {"id": "tw002", "title": "Combined work", "tags": ["important"], "basic_overview": "If A and B take a and b days: $$T=\\frac{ab}{a+b}$$.", "trick": "For three workers use 1/T = 1/a + 1/b + 1/c.", "example": {"question": "A takes 12 days and B takes 6 days. Together?", "solution": "12×6/(12+6) = 72/18 = 4 days."}},
+            {"id": "tw008", "title": "LCM (unit) method", "tags": ["important"], "basic_overview": "Take total work = LCM of the days. Daily work = Total ÷ days.", "trick": "This avoids fractions completely and is the fastest method in exams.", "example": {"question": "A takes 20 days, B takes 30 days. Together?", "solution": "Total = 60 units; A = 3/day, B = 2/day → 5/day → 60/5 = 12 days."}},
+            {"id": "tw003", "title": "Efficiency relation", "basic_overview": "Efficiency is inversely proportional to time: $$E_1:E_2=T_2:T_1$$.", "trick": "If A is twice as efficient as B, A takes half the time of B.", "example": {"question": "A is twice as efficient as B. Together they finish in 12 days. A alone?", "solution": "Efficiency 2:1 = 3 units/day × 12 = 36 units; A alone = 36/2 = 18 days."}},
+            {"id": "tw004", "title": "Men-days-hours", "basic_overview": "For same efficiency, $$M_1D_1H_1=M_2D_2H_2$$.", "trick": "Man-days (or man-hours) is the constant amount of work.", "example": {"question": "12 men finish a job in 15 days. How many men are needed to finish it in 10 days?", "solution": "12×15/10 = 18 men."}},
+            {"id": "tw009", "title": "Wages", "tags": ["important"], "basic_overview": "Wages are divided in the ratio of work done (efficiency × days).", "trick": "Find the efficiency ratio via the LCM method, then split the money in that ratio.", "example": {"question": "A can finish a job in 10 days and B in 15 days. They share ₹1500. Find each share.", "solution": "Efficiency ratio 3:2 (when working equal days) → A ₹900, B ₹600."}},
+            {"id": "tw010", "title": "Leaving the work midway", "basic_overview": "Add the work done by each person for the days they worked; set the total equal to 1 (or the LCM units).", "trick": "Let total time be x days and write each person's days in terms of x.", "example": {"question": "A takes 20 days, B takes 30 days. They start together, but A leaves 5 days before completion. Total time?", "solution": "60 units; A = 3/day, B = 2/day. 2x + 3(x−5) = 60 → 5x = 75 → x = 15 days."}}
           ]
         },
         {
           "topic_id": "pipes",
           "topic_title": "Pipes & Cisterns",
           "notes_list": [
-            {
-              "id": "tw005",
-              "title": "Filling pipe",
-              "basic_overview": "If a pipe fills in a hours, rate $$=1/a$$ tank per hour."
-            },
-            {
-              "id": "tw006",
-              "title": "Filling + emptying",
-              "basic_overview": "If fill time is a and empty time is b (b>a), net time $$=\\frac{ab}{b-a}$$."
-            },
-            {
-              "id": "tw007",
-              "title": "Multiple pipes",
-              "basic_overview": "Net rate = sum of filling rates − sum of emptying rates."
-            }
+            {"id": "tw005", "title": "Filling pipe", "basic_overview": "If a pipe fills in a hours, rate $$=1/a$$ tank per hour.", "trick": "Same as one-day work — filling is +, emptying is −.", "example": {"question": "A pipe fills a tank in 6 hours. Part filled in 1 hour?", "solution": "1/6 of the tank."}},
+            {"id": "tw006", "title": "Filling + emptying", "tags": ["important"], "basic_overview": "If fill time is a and empty time is b (b>a), net time $$=\\frac{ab}{b-a}$$.", "trick": "If emptying is faster than filling, the tank never fills.", "example": {"question": "A pipe fills in 12 h and an outlet empties in 18 h. Both open — time to fill?", "solution": "12×18/(18−12) = 36 hours."}},
+            {"id": "tw007", "title": "Multiple pipes", "basic_overview": "Net rate = sum of filling rates − sum of emptying rates.", "trick": "Use the LCM method with units per hour.", "example": {"question": "Pipes A and B fill in 10 h and 15 h; pipe C empties in 30 h. All open — time to fill?", "solution": "LCM 30 units: A=3, B=2, C=−1 → net 4/h → 30/4 = 7.5 hours."}},
+            {"id": "tw011", "title": "Leak problems", "basic_overview": "If a tank fills in a hours normally but takes b hours with a leak, the leak alone empties it in $$\\frac{ab}{b-a}$$ hours.", "trick": "Leak rate = normal rate − actual rate.", "example": {"question": "A tank fills in 6 h, but with a leak it takes 8 h. How long does the leak take to empty a full tank?", "solution": "6×8/(8−6) = 24 hours."}}
           ]
         }
       ]
@@ -461,79 +252,39 @@
     {
       "id": "algebra",
       "title": "Algebra & Quadratic Equations",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "identities",
           "topic_title": "Algebraic Identities",
           "notes_list": [
-            {
-              "id": "al001",
-              "title": "Squares",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$(a+b)^2=a^2+2ab+b^2,\\quad(a-b)^2=a^2-2ab+b^2$$"
-            },
-            {
-              "id": "al002",
-              "title": "Difference of squares",
-              "basic_overview": "$$a^2-b^2=(a+b)(a-b)$$"
-            },
-            {
-              "id": "al003",
-              "title": "Cubes",
-              "basic_overview": "$$a^3+b^3=(a+b)(a^2-ab+b^2)$$ and $$a^3-b^3=(a-b)(a^2+ab+b^2)$$"
-            },
-            {
-              "id": "al004",
-              "title": "Three-variable identity",
-              "basic_overview": "$$a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$$."
-            }
+            {"id": "al001", "title": "Squares", "tags": ["important"], "basic_overview": "$$(a+b)^2=a^2+2ab+b^2,\\quad(a-b)^2=a^2-2ab+b^2$$", "trick": "a² + b² = (a+b)² − 2ab = (a−b)² + 2ab.", "example": {"question": "If a + b = 10 and ab = 21, find a² + b².", "solution": "100 − 2×21 = 58."}},
+            {"id": "al002", "title": "Difference of squares", "tags": ["important"], "basic_overview": "$$a^2-b^2=(a+b)(a-b)$$", "trick": "Use for fast squares and products: 101² − 99² = 200 × 2.", "example": {"question": "Evaluate 101² − 99².", "solution": "(101+99)(101−99) = 200 × 2 = 400."}},
+            {"id": "al003", "title": "Cubes", "basic_overview": "$$a^3+b^3=(a+b)(a^2-ab+b^2)$$ and $$a^3-b^3=(a-b)(a^2+ab+b^2)$$. Also $$a^3+b^3=(a+b)^3-3ab(a+b)$$.", "trick": "When a+b and ab are given, use the (a+b)³ form directly.", "example": {"question": "If a + b = 5 and ab = 6, find a³ + b³.", "solution": "125 − 3×6×5 = 35."}},
+            {"id": "al004", "title": "Three-variable identity", "tags": ["important"], "basic_overview": "$$a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$$. If a+b+c=0 then $$a^3+b^3+c^3=3abc$$.", "trick": "Whenever a+b+c = 0, directly write the cube sum = 3abc.", "example": {"question": "If a = 2, b = 3, c = −5, find a³ + b³ + c³.", "solution": "a+b+c = 0 → 3abc = 3×2×3×(−5) = −90."}}
           ]
         },
         {
           "topic_id": "x-inverse",
           "topic_title": "x ± 1/x",
           "notes_list": [
-            {
-              "id": "al005",
-              "title": "Square identity",
-              "basic_overview": "If $$x+1/x=n$$, then $$x^2+1/x^2=n^2-2$$."
-            },
-            {
-              "id": "al006",
-              "title": "Cube identity",
-              "basic_overview": "If $$x+1/x=n$$, then $$x^3+1/x^3=n^3-3n$$."
-            },
-            {
-              "id": "al007",
-              "title": "Minus form",
-              "basic_overview": "If $$x-1/x=n$$, then $$x^2+1/x^2=n^2+2$$."
-            }
+            {"id": "al005", "title": "Square identity", "tags": ["important"], "basic_overview": "If $$x+1/x=n$$, then $$x^2+1/x^2=n^2-2$$.", "trick": "Square the given expression and subtract 2.", "example": {"question": "If x + 1/x = 3, find x² + 1/x².", "solution": "9 − 2 = 7."}},
+            {"id": "al006", "title": "Cube identity", "basic_overview": "If $$x+1/x=n$$, then $$x^3+1/x^3=n^3-3n$$.", "trick": "Memorise n³ − 3n directly.", "example": {"question": "If x + 1/x = 3, find x³ + 1/x³.", "solution": "27 − 9 = 18."}},
+            {"id": "al007", "title": "Minus form", "basic_overview": "If $$x-1/x=n$$, then $$x^2+1/x^2=n^2+2$$ and $$x^3-1/x^3=n^3+3n$$.", "trick": "Minus form → add 2 instead of subtracting.", "example": {"question": "If x − 1/x = 4, find x² + 1/x².", "solution": "16 + 2 = 18."}},
+            {"id": "al012", "title": "Reverse: from x² + 1/x² to x + 1/x", "basic_overview": "If $$x^2+1/x^2=m$$, then $$x+\\frac1x=\\sqrt{m+2}$$ and $$x-\\frac1x=\\sqrt{m-2}$$.", "trick": "Use +2 for the sum form and −2 for the difference form.", "example": {"question": "If x² + 1/x² = 14, find x + 1/x.", "solution": "√(14 + 2) = 4 (taking the positive value)."}}
           ]
         },
         {
           "topic_id": "quadratic",
           "topic_title": "Quadratic Equations",
           "notes_list": [
-            {
-              "id": "al008",
-              "title": "Quadratic formula",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "For $$ax^2+bx+c=0$$, $$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$"
-            },
-            {
-              "id": "al009",
-              "title": "Nature of roots",
-              "basic_overview": "Discriminant $$D=b^2-4ac$$: D>0 distinct real roots; D=0 equal real roots; D<0 non-real roots."
-            },
-            {
-              "id": "al010",
-              "title": "Sum and product of roots",
-              "basic_overview": "$$\\alpha+\\beta=-\\frac ba,\\qquad\\alpha\\beta=\\frac ca$$."
-            }
+            {"id": "al008", "title": "Quadratic formula", "tags": ["important"], "basic_overview": "For $$ax^2+bx+c=0$$, $$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$", "trick": "First try splitting the middle term; use the formula only if factoring fails.", "example": {"question": "Solve x² − 5x + 6 = 0.", "solution": "(x − 2)(x − 3) = 0 → x = 2 or 3."}},
+            {"id": "al009", "title": "Nature of roots", "basic_overview": "Discriminant $$D=b^2-4ac$$: D>0 distinct real roots; D=0 equal real roots; D<0 non-real roots.", "trick": "D is a perfect square → roots are rational.", "example": {"question": "Nature of roots of x² + 4x + 5 = 0?", "solution": "D = 16 − 20 = −4 < 0 → no real roots."}},
+            {"id": "al010", "title": "Sum and product of roots", "tags": ["important"], "basic_overview": "$$\\alpha+\\beta=-\\frac ba,\\qquad\\alpha\\beta=\\frac ca$$.", "trick": "Sum = −(coefficient of x)/(coefficient of x²); product = constant/(coefficient of x²).", "example": {"question": "Find the sum and product of the roots of x² − 7x + 10 = 0.", "solution": "Sum = 7, product = 10."}},
+            {"id": "al013", "title": "Forming a quadratic from roots", "basic_overview": "Equation with roots α, β: $$x^2-(\\alpha+\\beta)x+\\alpha\\beta=0$$.", "trick": "Always write 'x² − (sum)x + product'.", "example": {"question": "Form the quadratic whose roots are 3 and 4.", "solution": "x² − 7x + 12 = 0."}},
+            {"id": "al014", "title": "Expressions in roots", "basic_overview": "$$\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta,\\qquad \\frac1\\alpha+\\frac1\\beta=\\frac{\\alpha+\\beta}{\\alpha\\beta}$$.", "trick": "Never solve for the roots — use sum and product only.", "example": {"question": "For x² − 5x + 6 = 0 find α² + β².", "solution": "25 − 2×6 = 13. (2² + 3² = 13)"}}
           ]
         }
       ]
@@ -541,47 +292,29 @@
     {
       "id": "surds-indices",
       "title": "Surds & Indices",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "surds",
           "topic_title": "Surd Rules",
           "notes_list": [
-            {
-              "id": "su001",
-              "title": "Product and quotient",
-              "basic_overview": "$$\\sqrt a\\sqrt b=\\sqrt{ab},\\qquad\\frac{\\sqrt a}{\\sqrt b}=\\sqrt{\\frac ab}$$ for b>0."
-            },
-            {
-              "id": "su002",
-              "title": "Rationalisation",
-              "basic_overview": "$$\\frac1{\\sqrt a}=\\frac{\\sqrt a}{a}$$ and use the conjugate for binomial surds."
-            },
-            {
-              "id": "su003",
-              "title": "Nested surd",
-              "basic_overview": "$$\\sqrt{a+2\\sqrt b}=\\sqrt m+\\sqrt n$$ when $$m+n=a,\\ mn=b$$."
-            }
+            {"id": "su001", "title": "Product and quotient", "basic_overview": "$$\\sqrt a\\sqrt b=\\sqrt{ab},\\qquad\\frac{\\sqrt a}{\\sqrt b}=\\sqrt{\\frac ab}$$ for b>0.", "trick": "Multiply or divide under one root, then simplify to a perfect square.", "example": {"question": "Simplify √18 × √2.", "solution": "√36 = 6."}},
+            {"id": "su002", "title": "Rationalisation", "tags": ["important"], "basic_overview": "$$\\frac1{\\sqrt a}=\\frac{\\sqrt a}{a}$$ and use the conjugate for binomial surds.", "trick": "Multiply top and bottom by the conjugate; (√a − √b)(√a + √b) = a − b.", "example": {"question": "Rationalise 1/(√3 − 1).", "solution": "(√3 + 1)/((√3)² − 1²) = (√3 + 1)/2."}},
+            {"id": "su003", "title": "Nested surd", "basic_overview": "$$\\sqrt{a+2\\sqrt b}=\\sqrt m+\\sqrt n$$ when $$m+n=a,\\ mn=b$$.", "trick": "Find two numbers with sum a and product b.", "example": {"question": "Simplify √(7 + 2√12).", "solution": "m + n = 7, mn = 12 → 4 and 3 → 2 + √3."}},
+            {"id": "su008", "title": "Comparing surds", "basic_overview": "Convert surds to the same order (LCM of the roots), then compare the numbers under the root.", "trick": "Raise both to the LCM of their orders: √2 and ∛3 → raise to power 6.", "example": {"question": "Which is greater: √2 or ∛3?", "solution": "LCM of 2 and 3 = 6: (√2)⁶ = 8, (∛3)⁶ = 9 → ∛3 is greater."}},
+            {"id": "su009", "title": "Infinite nested root", "basic_overview": "If $$n=\\sqrt{a+\\sqrt{a+\\sqrt{a+\\cdots}}}$$ then $$n^2=a+n$$.", "trick": "Replace the infinite expression by n and solve the quadratic (take the positive root).", "example": {"question": "Find √(6 + √(6 + √(6 + …))).", "solution": "n² = 6 + n → n² − n − 6 = 0 → n = 3."}}
           ]
         },
         {
           "topic_id": "indices",
           "topic_title": "Index Laws",
           "notes_list": [
-            {
-              "id": "su004",
-              "title": "Fractional powers",
-              "basic_overview": "$$a^{m/n}=\\sqrt[n]{a^m}$$."
-            },
-            {
-              "id": "su005",
-              "title": "Negative powers",
-              "basic_overview": "$$a^{-n}=1/a^n$$."
-            },
-            {
-              "id": "su006",
-              "title": "Zero power",
-              "basic_overview": "For a≠0, $$a^0=1$$."
-            }
+            {"id": "su004", "title": "Fractional powers", "basic_overview": "$$a^{m/n}=\\sqrt[n]{a^m}$$.", "trick": "Take the root first, then the power — numbers stay small.", "example": {"question": "Find 8^(2/3).", "solution": "(∛8)² = 2² = 4."}},
+            {"id": "su005", "title": "Negative powers", "basic_overview": "$$a^{-n}=1/a^n$$.", "trick": "Flip the base to remove the negative sign.", "example": {"question": "Value of 2^(−3)?", "solution": "1/2³ = 1/8."}},
+            {"id": "su006", "title": "Zero power", "basic_overview": "For a≠0, $$a^0=1$$.", "trick": "Any non-zero number to the power 0 is 1.", "example": {"question": "Value of 999⁰ + 5⁰?", "solution": "1 + 1 = 2."}},
+            {"id": "su007", "title": "Equal bases", "tags": ["important"], "basic_overview": "If $$a^x=a^y$$ (a>0, a≠1) then x = y.", "trick": "Express both sides with the same base, then equate the powers.", "example": {"question": "Solve 2^(x+1) = 32.", "solution": "32 = 2⁵ → x + 1 = 5 → x = 4."}}
           ]
         }
       ]
@@ -589,6 +322,9 @@
     {
       "id": "sequence-series",
       "title": "Sequence & Series",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "ap",
@@ -597,46 +333,31 @@
             {
               "id": "ss001",
               "title": "nth term of AP",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important"],
               "basic_overview": "$$a_n=a+(n-1)d$$",
+              "trick": "Common difference d = any term − the previous term.",
+              "example": {"question": "Find the 20th term of 5, 8, 11, …", "solution": "a = 5, d = 3 → 5 + 19×3 = 62."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"35\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n<circle cx=\"55\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/><circle cx=\"115\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<circle cx=\"175\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/><circle cx=\"235\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<circle cx=\"295\" cy=\"110\" r=\"9\" fill=\"#2563eb\"/>\n<text x=\"47\" y=\"85\" font-size=\"13\">a</text><text x=\"101\" y=\"85\" font-size=\"13\">a+d</text>\n<text x=\"157\" y=\"85\" font-size=\"13\">a+2d</text><text x=\"215\" y=\"85\" font-size=\"13\">...</text>\n<text x=\"278\" y=\"85\" font-size=\"13\">a+(n−1)d</text>\n</svg>",
+                "svg": "<svg viewBox='0 0 380 150' xmlns='http://www.w3.org/2000/svg'><line x1='25' y1='110' x2='355' y2='110' stroke='#94a3b8' stroke-width='2'/><circle cx='50' cy='110' r='9' fill='#2563eb'/><circle cx='120' cy='110' r='9' fill='#2563eb'/><circle cx='190' cy='110' r='9' fill='#2563eb'/><circle cx='260' cy='110' r='9' fill='#2563eb'/><circle cx='330' cy='110' r='9' fill='#2563eb'/><text x='50' y='85' font-size='13' text-anchor='middle'>a</text><text x='120' y='85' font-size='13' text-anchor='middle'>a+d</text><text x='190' y='85' font-size='13' text-anchor='middle'>a+2d</text><text x='260' y='85' font-size='13' text-anchor='middle'>...</text><text x='330' y='85' font-size='13' text-anchor='middle'>a+(n−1)d</text></svg>",
                 "caption": "Arithmetic progression: each term changes by the common difference d."
               }
             },
-            {
-              "id": "ss002",
-              "title": "Sum of n terms",
-              "basic_overview": "$$S_n=\\frac n2[2a+(n-1)d]=\\frac n2(a+l)$$."
-            },
-            {
-              "id": "ss003",
-              "title": "Arithmetic mean",
-              "basic_overview": "For three terms in AP, $$2b=a+c$$."
-            }
+            {"id": "ss002", "title": "Sum of n terms", "tags": ["important"], "basic_overview": "$$S_n=\\frac n2[2a+(n-1)d]=\\frac n2(a+l)$$.", "trick": "If first and last terms are known use n/2 × (a + l).", "example": {"question": "Sum of the first 20 terms of 5, 8, 11, …", "solution": "20/2 × [10 + 19×3] = 10 × 67 = 670."}},
+            {"id": "ss003", "title": "Arithmetic mean", "basic_overview": "For three terms in AP, $$2b=a+c$$.", "trick": "Middle term = average of its neighbours.", "example": {"question": "7, x, 19 are in AP. Find x.", "solution": "x = (7 + 19)/2 = 13."}},
+            {"id": "ss010", "title": "Number of terms in AP", "basic_overview": "$$n=\\frac{l-a}{d}+1$$.", "trick": "Divide the gap between first and last term by d, then add 1.", "example": {"question": "How many terms in 7, 14, 21, …, 98?", "solution": "(98 − 7)/7 + 1 = 14."}},
+            {"id": "ss011", "title": "Count of multiples", "basic_overview": "Number of multiples of k up to N $$=\\left\\lfloor\\frac Nk\\right\\rfloor$$.", "trick": "Divide and ignore the remainder.", "example": {"question": "How many multiples of 7 up to 200?", "solution": "⌊200/7⌋ = 28."}},
+            {"id": "ss007", "title": "Sum of first n natural numbers", "tags": ["important"], "basic_overview": "$$1+2+\\cdots+n=\\frac{n(n+1)}2$$", "trick": "Use for sums like 1 to 100 instantly.", "example": {"question": "Find 1 + 2 + … + 100.", "solution": "100×101/2 = 5050."}},
+            {"id": "ss008", "title": "Sum of squares", "basic_overview": "$$1^2+2^2+\\cdots+n^2=\\frac{n(n+1)(2n+1)}6$$", "trick": "Memorise as n(n+1)(2n+1)/6.", "example": {"question": "Find 1² + 2² + … + 10².", "solution": "10×11×21/6 = 385."}},
+            {"id": "ss009", "title": "Sum of cubes", "basic_overview": "$$1^3+2^3+\\cdots+n^3=\\left[\\frac{n(n+1)}2\\right]^2$$", "trick": "Sum of cubes = (sum of numbers)².", "example": {"question": "Find 1³ + 2³ + … + 5³.", "solution": "(5×6/2)² = 15² = 225."}}
           ]
         },
         {
           "topic_id": "gp",
           "topic_title": "Geometric Progression",
           "notes_list": [
-            {
-              "id": "ss004",
-              "title": "nth term of GP",
-              "basic_overview": "$$a_n=ar^{n-1}$$."
-            },
-            {
-              "id": "ss005",
-              "title": "Sum of n terms",
-              "basic_overview": "For r≠1: $$S_n=a\\frac{r^n-1}{r-1}$$."
-            },
-            {
-              "id": "ss006",
-              "title": "Infinite GP",
-              "basic_overview": "If |r|<1, $$S_\\infty=\\frac a{1-r}$$."
-            }
+            {"id": "ss004", "title": "nth term of GP", "basic_overview": "$$a_n=ar^{n-1}$$.", "trick": "Common ratio r = any term ÷ the previous term.", "example": {"question": "Find the 6th term of 2, 6, 18, …", "solution": "2 × 3⁵ = 486."}},
+            {"id": "ss005", "title": "Sum of n terms", "basic_overview": "For r≠1: $$S_n=a\\frac{r^n-1}{r-1}$$.", "trick": "Use (r^n − 1)/(r − 1) when r > 1 and (1 − r^n)/(1 − r) when r < 1.", "example": {"question": "Sum of first 5 terms of 3, 6, 12, …", "solution": "3 × (2⁵ − 1)/(2 − 1) = 93."}},
+            {"id": "ss006", "title": "Infinite GP", "tags": ["important"], "basic_overview": "If |r|<1, $$S_\\infty=\\frac a{1-r}$$.", "trick": "Check |r| < 1 before using. Recurring decimals are infinite GPs.", "example": {"question": "Sum to infinity of 8, 4, 2, …", "solution": "8/(1 − 1/2) = 16."}}
           ]
         }
       ]
@@ -644,6 +365,9 @@
     {
       "id": "geometry",
       "title": "Geometry & Theorems",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "triangles",
@@ -652,85 +376,48 @@
             {
               "id": "geo001",
               "title": "Angle sum",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important"],
               "basic_overview": "$$A+B+C=180^\\circ$$",
+              "trick": "Exterior angle = sum of the two opposite interior angles.",
+              "example": {"question": "Two angles of a triangle are 50° and 60°. Find the third.", "solution": "180 − 110 = 70°."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\">\n<polygon points=\"45,145 255,145 150,30\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"145\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"145\" y=\"164\" font-size=\"14\" fill=\"#1e293b\">b</text>\n<text x=\"90\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">a</text>\n<text x=\"205\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">c</text>\n</svg>",
-                "caption": "Triangle with base b, height h and sides a,c."
+                "svg": "<svg viewBox='0 0 300 190' xmlns='http://www.w3.org/2000/svg'><polygon points='45,145 255,145 150,30' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/><text x='150' y='22' font-size='15' text-anchor='middle' fill='#1e293b'>A</text><text x='30' y='158' font-size='15' text-anchor='middle' fill='#1e293b'>B</text><text x='270' y='158' font-size='15' text-anchor='middle' fill='#1e293b'>C</text><text x='150' y='125' font-size='14' text-anchor='middle' fill='#dc2626'>A + B + C = 180°</text></svg>",
+                "caption": "Triangle ABC: the three interior angles add up to 180°."
               }
             },
-            {
-              "id": "geo002",
-              "title": "Pythagoras theorem",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "In a right triangle, $$c^2=a^2+b^2$$."
-            },
-            {
-              "id": "geo003",
-              "title": "Area of triangle",
-              "basic_overview": "$$A=\\frac12bh$$."
-            },
-            {
-              "id": "geo004",
-              "title": "Heron's formula",
-              "basic_overview": "$$A=\\sqrt{s(s-a)(s-b)(s-c)},\\quad s=\\frac{a+b+c}{2}$$."
-            },
-            {
-              "id": "geo005",
-              "title": "Similar triangles",
-              "basic_overview": "Corresponding sides are proportional; areas of similar triangles are proportional to the squares of corresponding sides."
-            }
+            {"id": "geo002", "title": "Pythagoras theorem", "tags": ["important"], "basic_overview": "In a right triangle, $$c^2=a^2+b^2$$.", "trick": "Common triples: (3,4,5), (5,12,13), (8,15,17), (7,24,25), (20,21,29) and their multiples.", "example": {"question": "Legs of a right triangle are 6 and 8. Find the hypotenuse.", "solution": "√(36 + 64) = 10."}},
+            {"id": "geo003", "title": "Area of triangle", "basic_overview": "$$A=\\frac12bh$$.", "trick": "Any side can be the base — use the perpendicular height to it.", "example": {"question": "Base 10 cm, height 6 cm. Area?", "solution": "½ × 10 × 6 = 30 cm²."}},
+            {"id": "geo004", "title": "Heron's formula", "basic_overview": "$$A=\\sqrt{s(s-a)(s-b)(s-c)},\\quad s=\\frac{a+b+c}{2}$$.", "trick": "Use when all three sides are given and there is no height.", "example": {"question": "Area of a triangle with sides 13, 14, 15.", "solution": "s = 21 → √(21×8×7×6) = √7056 = 84."}},
+            {"id": "geo005", "title": "Similar triangles", "tags": ["important"], "basic_overview": "Corresponding sides are proportional; areas of similar triangles are proportional to the squares of corresponding sides.", "trick": "Side ratio a:b → area ratio a²:b².", "example": {"question": "Sides of two similar triangles are in the ratio 2:3. Ratio of areas?", "solution": "4:9."}},
+            {"id": "geo013", "title": "Equilateral triangle", "basic_overview": "Area $$=\\frac{\\sqrt3}{4}a^2$$, height $$=\\frac{\\sqrt3}{2}a$$.", "trick": "Each angle is 60°; the altitude also bisects the base.", "example": {"question": "Area of an equilateral triangle of side 4 cm?", "solution": "(√3/4) × 16 = 4√3 cm²."}},
+            {"id": "geo016", "title": "Exterior angle property", "basic_overview": "Exterior angle of a triangle = sum of the two opposite interior angles.", "trick": "Saves finding the third angle.", "example": {"question": "Two interior opposite angles are 40° and 60°. Exterior angle?", "solution": "100°."}},
+            {"id": "geo015", "title": "Triangle centres and angles", "tags": ["important"], "basic_overview": "Incentre I: $$\\angle BIC=90^\\circ+\\frac A2$$. Circumcentre O: $$\\angle BOC=2A$$. Orthocentre H: $$\\angle BHC=180^\\circ-A$$.", "trick": "Centroid divides each median 2:1 from the vertex.", "example": {"question": "In triangle ABC, ∠A = 60°. Find ∠BIC where I is the incentre.", "solution": "90 + 30 = 120°."}},
+            {"id": "geo017", "title": "Right triangle radii", "basic_overview": "Inradius $$r=\\frac{a+b-c}{2}$$, circumradius $$R=\\frac c2$$ (c = hypotenuse).", "trick": "Circumcentre of a right triangle is the midpoint of the hypotenuse.", "example": {"question": "Find r and R for a right triangle with sides 6, 8, 10.", "solution": "r = (6+8−10)/2 = 2; R = 10/2 = 5."}},
+            {"id": "geo018", "title": "Angle bisector theorem", "basic_overview": "If AD bisects ∠A then $$\\frac{BD}{DC}=\\frac{AB}{AC}$$.", "trick": "The bisector divides the opposite side in the ratio of the other two sides.", "example": {"question": "AB = 6, AC = 9, BC = 10. AD bisects ∠A. Find BD.", "solution": "BD:DC = 6:9 = 2:3 → BD = 4."}},
+            {"id": "geo019", "title": "Basic proportionality (Thales) theorem", "basic_overview": "If DE ∥ BC then $$\\frac{AD}{DB}=\\frac{AE}{EC}$$.", "trick": "A line parallel to one side divides the other two sides proportionally.", "example": {"question": "DE ∥ BC, AD = 3, DB = 6, AE = 2. Find EC.", "solution": "3/6 = 2/EC → EC = 4."}}
           ]
         },
         {
           "topic_id": "polygons",
           "topic_title": "Polygons & Quadrilaterals",
           "notes_list": [
-            {
-              "id": "geo006",
-              "title": "Sum of interior angles",
-              "basic_overview": "For n-sided polygon: $$(n-2)180^\\circ$$."
-            },
-            {
-              "id": "geo007",
-              "title": "Each interior angle of regular polygon",
-              "basic_overview": "$$\\frac{(n-2)180^\\circ}{n}$$."
-            },
-            {
-              "id": "geo008",
-              "title": "Exterior angle of regular polygon",
-              "basic_overview": "$$\\frac{360^\\circ}{n}$$."
-            },
-            {
-              "id": "geo009",
-              "title": "Quadrilateral angle sum",
-              "basic_overview": "$$360^\\circ$$."
-            }
+            {"id": "geo006", "title": "Sum of interior angles", "basic_overview": "For n-sided polygon: $$(n-2)180^\\circ$$.", "trick": "Split the polygon into (n − 2) triangles.", "example": {"question": "Sum of interior angles of a hexagon?", "solution": "(6 − 2) × 180 = 720°."}},
+            {"id": "geo007", "title": "Each interior angle of regular polygon", "basic_overview": "$$\\frac{(n-2)180^\\circ}{n}$$.", "trick": "Interior angle = 180° − exterior angle.", "example": {"question": "Each interior angle of a regular octagon?", "solution": "6 × 180/8 = 135°."}},
+            {"id": "geo008", "title": "Exterior angle of regular polygon", "tags": ["important"], "basic_overview": "$$\\frac{360^\\circ}{n}$$.", "trick": "If the exterior angle is given, n = 360 ÷ exterior angle.", "example": {"question": "Exterior angle is 36°. Number of sides?", "solution": "360/36 = 10."}},
+            {"id": "geo009", "title": "Quadrilateral angle sum", "basic_overview": "$$360^\\circ$$.", "trick": "A quadrilateral = 2 triangles.", "example": {"question": "Three angles of a quadrilateral are 80°, 90°, 100°. Find the fourth.", "solution": "360 − 270 = 90°."}},
+            {"id": "geo020", "title": "Number of diagonals", "basic_overview": "$$\\frac{n(n-3)}{2}$$.", "trick": "Each vertex joins to (n − 3) others; divide by 2 because each diagonal is counted twice.", "example": {"question": "Diagonals in an octagon?", "solution": "8 × 5/2 = 20."}}
           ]
         },
         {
           "topic_id": "circles",
           "topic_title": "Circle Geometry",
           "notes_list": [
-            {
-              "id": "geo010",
-              "title": "Radius and tangent",
-              "basic_overview": "Radius to the point of contact is perpendicular to the tangent."
-            },
-            {
-              "id": "geo011",
-              "title": "Angle in semicircle",
-              "basic_overview": "Angle subtended by a diameter at the circumference is $$90^\\circ$$."
-            },
-            {
-              "id": "geo012",
-              "title": "Chord and center",
-              "basic_overview": "Perpendicular from center to a chord bisects the chord."
-            }
+            {"id": "geo010", "title": "Radius and tangent", "tags": ["important"], "basic_overview": "Radius to the point of contact is perpendicular to the tangent. Tangent length from an external point at distance d: $$\\sqrt{d^2-r^2}$$.", "trick": "Tangents from the same external point are equal.", "example": {"question": "A point is 13 cm from the centre of a circle of radius 5 cm. Length of the tangent?", "solution": "√(169 − 25) = 12 cm."}},
+            {"id": "geo011", "title": "Angle in semicircle", "basic_overview": "Angle subtended by a diameter at the circumference is $$90^\\circ$$.", "trick": "Diameter seen at any point on the circle → right angle.", "example": {"question": "AB is a diameter and C is a point on the circle. Find ∠ACB.", "solution": "90°."}},
+            {"id": "geo012", "title": "Chord and center", "basic_overview": "Perpendicular from center to a chord bisects the chord.", "trick": "Join the centre to the chord's end to form a right triangle.", "example": {"question": "A 16 cm chord is 6 cm from the centre. Find the radius.", "solution": "√(8² + 6²) = 10 cm."}},
+            {"id": "geo021", "title": "Angle at centre", "basic_overview": "Angle at the centre = 2 × angle at the circumference on the same arc.", "trick": "Angles in the same segment are equal.", "example": {"question": "An angle at the circumference is 40°. Angle at the centre on the same arc?", "solution": "80°."}},
+            {"id": "geo022", "title": "Cyclic quadrilateral", "tags": ["important"], "basic_overview": "Opposite angles of a cyclic quadrilateral sum to $$180^\\circ$$; exterior angle = interior opposite angle.", "trick": "Opposite angles are supplementary.", "example": {"question": "In cyclic quadrilateral ABCD, ∠A = 70°. Find ∠C.", "solution": "180 − 70 = 110°."}},
+            {"id": "geo023", "title": "Common tangents", "basic_overview": "For two circles with centres d apart and radii R, r: direct common tangent $$\\sqrt{d^2-(R-r)^2}$$, transverse common tangent $$\\sqrt{d^2-(R+r)^2}$$.", "trick": "Direct → subtract radii; transverse → add radii.", "example": {"question": "d = 13, R = 7, r = 2. Length of the direct common tangent?", "solution": "√(169 − 25) = 12."}}
           ]
         }
       ]
@@ -738,59 +425,34 @@
     {
       "id": "trigonometry",
       "title": "Trigonometry",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "trig-identities",
           "topic_title": "Ratios & Identities",
           "notes_list": [
-            {
-              "id": "tr001",
-              "title": "Basic ratios",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$\\sin\\theta=\\frac PH,\\quad\\cos\\theta=\\frac BH,\\quad\\tan\\theta=\\frac PB$$"
-            },
-            {
-              "id": "tr002",
-              "title": "Reciprocal ratios",
-              "basic_overview": "$$\\sec\\theta=1/\\cos\\theta,\\quad\\csc\\theta=1/\\sin\\theta,\\quad\\cot\\theta=1/\\tan\\theta$$"
-            },
-            {
-              "id": "tr003",
-              "title": "Pythagorean identities",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$\\sin^2\\theta+\\cos^2\\theta=1,\\quad1+\\tan^2\\theta=\\sec^2\\theta,\\quad1+\\cot^2\\theta=\\csc^2\\theta$$"
-            }
+            {"id": "tr001", "title": "Basic ratios", "tags": ["important"], "basic_overview": "$$\\sin\\theta=\\frac PH,\\quad\\cos\\theta=\\frac BH,\\quad\\tan\\theta=\\frac PB$$", "trick": "Remember 'PHB' – Pandit Har Prasad Badri Prasad Har Har Bole: sin=P/H, cos=B/H, tan=P/B.", "example": {"question": "Right triangle with P = 3, B = 4, H = 5. Find sin θ and tan θ.", "solution": "sin θ = 3/5, tan θ = 3/4."}},
+            {"id": "tr002", "title": "Reciprocal ratios", "basic_overview": "$$\\sec\\theta=1/\\cos\\theta,\\quad\\csc\\theta=1/\\sin\\theta,\\quad\\cot\\theta=1/\\tan\\theta$$", "trick": "Pairs: sin↔cosec, cos↔sec, tan↔cot.", "example": {"question": "If cos θ = 4/5, find sec θ.", "solution": "5/4."}},
+            {"id": "tr003", "title": "Pythagorean identities", "tags": ["important"], "basic_overview": "$$\\sin^2\\theta+\\cos^2\\theta=1,\\quad1+\\tan^2\\theta=\\sec^2\\theta,\\quad1+\\cot^2\\theta=\\csc^2\\theta$$", "trick": "Also (sec θ − tan θ)(sec θ + tan θ) = 1.", "example": {"question": "If tan θ = 3/4, find sec θ.", "solution": "sec²θ = 1 + 9/16 = 25/16 → sec θ = 5/4."}},
+            {"id": "tr008", "title": "Double angle", "basic_overview": "$$\\sin2\\theta=2\\sin\\theta\\cos\\theta,\\quad\\cos2\\theta=\\cos^2\\theta-\\sin^2\\theta=1-2\\sin^2\\theta$$", "trick": "Use sin 2θ = 2 tan θ/(1 + tan²θ) when only tan θ is given.", "example": {"question": "Verify sin 60° using sin 30° and cos 30°.", "solution": "2 × (1/2) × (√3/2) = √3/2 ✓."}}
           ]
         },
         {
           "topic_id": "standard-angles",
           "topic_title": "Standard Angles",
           "notes_list": [
-            {
-              "id": "tr004",
-              "title": "Standard values",
-              "basic_overview": "For 0°,30°,45°,60°,90°: sin = 0, 1/2, 1/√2, √3/2, 1; cos = 1, √3/2, 1/√2, 1/2, 0."
-            },
-            {
-              "id": "tr005",
-              "title": "Complementary angles",
-              "basic_overview": "$$\\sin(90^\\circ-\\theta)=\\cos\\theta,\\quad\\tan(90^\\circ-\\theta)=\\cot\\theta$$"
-            }
+            {"id": "tr004", "title": "Standard values", "tags": ["important"], "basic_overview": "For 0°,30°,45°,60°,90°: sin = 0, 1/2, 1/√2, √3/2, 1; cos = 1, √3/2, 1/√2, 1/2, 0; tan = 0, 1/√3, 1, √3, ∞.", "trick": "sin values = √0/2, √1/2, √2/2, √3/2, √4/2. For cos reverse the order.", "example": {"question": "Evaluate sin 30° cos 60° + cos 30° sin 60°.", "solution": "(1/2)(1/2) + (√3/2)(√3/2) = 1/4 + 3/4 = 1."}},
+            {"id": "tr005", "title": "Complementary angles", "basic_overview": "$$\\sin(90^\\circ-\\theta)=\\cos\\theta,\\quad\\tan(90^\\circ-\\theta)=\\cot\\theta$$", "trick": "If two angles add up to 90°, sin(one)/cos(other) = 1 and tan × cot = 1.", "example": {"question": "Find the value of sin 35° / cos 55°.", "solution": "cos 55° = sin 35° → value = 1."}}
           ]
         },
         {
           "topic_id": "heights-distances",
           "topic_title": "Heights & Distances",
           "notes_list": [
-            {
-              "id": "tr006",
-              "title": "Angle of elevation",
-              "basic_overview": "$$\\tan\\theta=\\frac{\\text{height}}{\\text{horizontal distance}}$$."
-            }
+            {"id": "tr006", "title": "Angle of elevation", "tags": ["important"], "basic_overview": "$$\\tan\\theta=\\frac{\\text{height}}{\\text{horizontal distance}}$$.", "trick": "Draw the right triangle first; angle of elevation = angle of depression from the top (alternate angles).", "example": {"question": "From a point 30 m from the foot of a tower the angle of elevation is 45°. Height?", "solution": "tan 45° = 1 → height = 30 m."}},
+            {"id": "tr007", "title": "Two observation points", "basic_overview": "If angles α and β (α < β) are seen at two points d apart (on the same side): $$h=\\frac{d}{\\cot\\alpha-\\cot\\beta}$$.", "trick": "Write h = x tan β and h = (x + d) tan α, then subtract.", "example": {"question": "A tower is seen at 30°; after moving 20 m closer it is seen at 60°. Find the height.", "solution": "h(cot 30° − cot 60°) = 20 → h(√3 − 1/√3) = 20 → h × 2/√3 = 20 → h = 10√3 m."}}
           ]
         }
       ]
@@ -799,149 +461,92 @@
       "id": "mensuration",
       "title": "Mensuration — 2D & 3D",
       "filters": [
-        {
-          "label": "⭐ Important",
-          "tag": "important"
-        },
-        {
-          "label": "◼️ 2D",
-          "tag": "2d"
-        },
-        {
-          "label": "🧊 3D",
-          "tag": "3d"
-        }
+        {"label": "⭐ Important", "tag": "important"},
+        {"label": "◼️ 2D", "tag": "2d"},
+        {"label": "🧊 3D", "tag": "3d"}
       ],
       "topics": [
         {
           "topic_id": "2d",
           "topic_title": "2D Figures",
           "notes_list": [
-            {
-              "id": "me001",
-              "title": "Square",
-              "basic_overview": "Area $$=a^2$$, perimeter $$=4a$$, diagonal $$=a\\sqrt2$$."
-            },
-            {
-              "id": "me002",
-              "title": "Rectangle",
-              "basic_overview": "Area $$=lb$$, perimeter $$=2(l+b)$$, diagonal $$=\\sqrt{l^2+b^2}$$."
-            },
+            {"id": "me001", "title": "Square", "tags": ["2d"], "basic_overview": "Area $$=a^2$$, perimeter $$=4a$$, diagonal $$=a\\sqrt2$$.", "trick": "If the diagonal is d, area = d²/2.", "example": {"question": "Side = 7 cm. Area and diagonal?", "solution": "Area 49 cm²; diagonal 7√2 cm."}},
+            {"id": "me002", "title": "Rectangle", "tags": ["2d"], "basic_overview": "Area $$=lb$$, perimeter $$=2(l+b)$$, diagonal $$=\\sqrt{l^2+b^2}$$.", "trick": "For a fixed perimeter, a square gives the maximum area.", "example": {"question": "l = 12, b = 5. Area and diagonal?", "solution": "Area 60; diagonal √(144+25) = 13."}},
             {
               "id": "me003",
               "title": "Triangle",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important", "2d"],
               "basic_overview": "Area $$=\\frac12bh$$; Heron's formula may be used when all three sides are known.",
+              "trick": "Isosceles triangle: drop the altitude on the base to get a right triangle.",
+              "example": {"question": "Triangle with sides 5, 5, 6. Area?", "solution": "Height = √(25 − 9) = 4 → ½ × 6 × 4 = 12."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\">\n<polygon points=\"45,145 255,145 150,30\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"145\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"145\" y=\"164\" font-size=\"14\" fill=\"#1e293b\">b</text>\n<text x=\"90\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">a</text>\n<text x=\"205\" y=\"88\" font-size=\"14\" fill=\"#1e293b\">c</text>\n</svg>",
+                "svg": "<svg viewBox='0 0 300 180' xmlns='http://www.w3.org/2000/svg'><polygon points='45,145 255,145 150,30' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/><line x1='150' y1='30' x2='150' y2='145' stroke='#dc2626' stroke-width='2' stroke-dasharray='6 4'/><text x='156' y='95' font-size='14' fill='#dc2626'>h</text><text x='145' y='164' font-size='14' fill='#1e293b'>b</text><text x='90' y='88' font-size='14' fill='#1e293b'>a</text><text x='205' y='88' font-size='14' fill='#1e293b'>c</text></svg>",
                 "caption": "Base-height representation for triangle area."
               }
             },
             {
               "id": "me004",
               "title": "Circle",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important", "2d"],
               "basic_overview": "Area $$=\\pi r^2$$, circumference $$=2\\pi r$$.",
+              "trick": "Use π = 22/7 when the radius is a multiple of 7.",
+              "example": {"question": "r = 7 cm. Area and circumference?", "solution": "Area = 22/7 × 49 = 154 cm²; circumference = 2 × 22/7 × 7 = 44 cm."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 260 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"130\" cy=\"95\" r=\"65\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"130\" y1=\"95\" x2=\"195\" y2=\"95\" stroke=\"#dc2626\" stroke-width=\"3\"/>\n<circle cx=\"130\" cy=\"95\" r=\"4\" fill=\"#dc2626\"/>\n<text x=\"156\" y=\"88\" font-size=\"14\" fill=\"#dc2626\">r</text>\n<text x=\"84\" y=\"25\" font-size=\"14\" fill=\"#1e293b\">Circle</text>\n</svg>",
+                "svg": "<svg viewBox='0 0 260 190' xmlns='http://www.w3.org/2000/svg'><circle cx='130' cy='95' r='65' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/><line x1='130' y1='95' x2='195' y2='95' stroke='#dc2626' stroke-width='3'/><circle cx='130' cy='95' r='4' fill='#dc2626'/><text x='156' y='88' font-size='14' fill='#dc2626'>r</text><text x='130' y='20' font-size='14' text-anchor='middle' fill='#1e293b'>Circle</text></svg>",
                 "caption": "Radius r of a circle."
               }
             },
-            {
-              "id": "me005",
-              "title": "Semicircle",
-              "basic_overview": "Area $$=\\frac12\\pi r^2$$; curved perimeter $$=\\pi r$$."
-            },
-            {
-              "id": "me006",
-              "title": "Trapezium",
-              "basic_overview": "Area $$=\\frac12(a+b)h$$."
-            },
-            {
-              "id": "me007",
-              "title": "Rhombus",
-              "basic_overview": "Area $$=\\frac12d_1d_2$$."
-            }
+            {"id": "me005", "title": "Semicircle", "tags": ["2d"], "basic_overview": "Area $$=\\frac12\\pi r^2$$; curved length $$=\\pi r$$; full perimeter $$=(\\pi+2)r$$.", "trick": "Don't forget to add the diameter 2r for the full perimeter.", "example": {"question": "Area and perimeter of a semicircle with r = 7 cm.", "solution": "Area = ½ × 22/7 × 49 = 77 cm²; perimeter = 22 + 14 = 36 cm."}},
+            {"id": "me006", "title": "Trapezium", "tags": ["2d"], "basic_overview": "Area $$=\\frac12(a+b)h$$.", "trick": "Average of the parallel sides × height.", "example": {"question": "Parallel sides 10 and 14 cm, height 8 cm. Area?", "solution": "½ × 24 × 8 = 96 cm²."}},
+            {"id": "me007", "title": "Rhombus", "tags": ["2d"], "basic_overview": "Area $$=\\frac12d_1d_2$$; side $$=\\frac12\\sqrt{d_1^2+d_2^2}$$.", "trick": "Diagonals bisect each other at right angles.", "example": {"question": "Diagonals 10 and 24 cm. Area and side?", "solution": "Area = 120 cm²; side = √(5² + 12²) = 13 cm."}},
+            {"id": "me021", "title": "Sector of a circle", "tags": ["2d"], "basic_overview": "Area $$=\\frac{\\theta}{360}\\pi r^2$$, arc length $$=\\frac{\\theta}{360}2\\pi r$$.", "trick": "Take the fraction θ/360 of the full circle.", "example": {"question": "Sector angle 90°, r = 14 cm. Area and arc length?", "solution": "Area = ¼ × 22/7 × 196 = 154 cm²; arc = ¼ × 2 × 22/7 × 14 = 22 cm."}},
+            {"id": "me023", "title": "Parallelogram", "tags": ["2d"], "basic_overview": "Area $$=bh$$; perimeter $$=2(a+b)$$.", "trick": "Use the perpendicular height, not the slant side.", "example": {"question": "Base 12 cm, height 5 cm. Area?", "solution": "60 cm²."}},
+            {"id": "me024", "title": "Regular hexagon", "tags": ["2d"], "basic_overview": "Area $$=\\frac{3\\sqrt3}{2}a^2$$.", "trick": "A regular hexagon is made of 6 equilateral triangles.", "example": {"question": "Area of a regular hexagon with side 2 cm?", "solution": "(3√3/2) × 4 = 6√3 cm²."}}
           ]
         },
         {
           "topic_id": "3d",
           "topic_title": "3D Figures",
           "notes_list": [
-            {
-              "id": "me008",
-              "title": "Cube",
-              "basic_overview": "Volume $$=a^3$$, TSA $$=6a^2$$, LSA $$=4a^2$$, diagonal $$=a\\sqrt3$$."
-            },
-            {
-              "id": "me009",
-              "title": "Cuboid",
-              "basic_overview": "Volume $$=lbh$$, TSA $$=2(lb+bh+hl)$$, diagonal $$=\\sqrt{l^2+b^2+h^2}$$."
-            },
+            {"id": "me008", "title": "Cube", "tags": ["3d"], "basic_overview": "Volume $$=a^3$$, TSA $$=6a^2$$, LSA $$=4a^2$$, diagonal $$=a\\sqrt3$$.", "trick": "If side is doubled, volume becomes 8 times and surface area 4 times.", "example": {"question": "Cube of side 5 cm: volume, TSA and diagonal?", "solution": "125 cm³; 150 cm²; 5√3 cm."}},
+            {"id": "me009", "title": "Cuboid", "tags": ["3d"], "basic_overview": "Volume $$=lbh$$, TSA $$=2(lb+bh+hl)$$, diagonal $$=\\sqrt{l^2+b^2+h^2}$$.", "trick": "LSA = 2h(l + b).", "example": {"question": "Cuboid 12 × 4 × 3: volume, TSA and diagonal?", "solution": "Volume 144; TSA = 2(48+12+36) = 192; diagonal = √(144+16+9) = 13."}},
             {
               "id": "me010",
               "title": "Cylinder",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important", "3d"],
               "basic_overview": "Volume $$=\\pi r^2h$$, CSA $$=2\\pi rh$$, TSA $$=2\\pi r(r+h)$$.",
+              "trick": "CSA is a rectangle of size 2πr × h when unrolled.",
+              "example": {"question": "r = 7 cm, h = 10 cm: volume and CSA?", "solution": "Volume = 22/7 × 49 × 10 = 1540 cm³; CSA = 2 × 22/7 × 7 × 10 = 440 cm²."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<ellipse cx=\"150\" cy=\"45\" rx=\"65\" ry=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<path d=\"M85 45v125 M215 45v125\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<ellipse cx=\"150\" cy=\"170\" rx=\"65\" ry=\"20\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"230\" y1=\"45\" x2=\"230\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<text x=\"238\" y=\"112\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<line x1=\"150\" y1=\"45\" x2=\"215\" y2=\"45\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<text x=\"178\" y=\"38\" font-size=\"14\" fill=\"#16a34a\">r</text>\n</svg>",
+                "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><ellipse cx='150' cy='45' rx='65' ry='20' fill='#dbeafe' stroke='#2563eb' stroke-width='3'/><path d='M85 45v125 M215 45v125' stroke='#2563eb' stroke-width='3'/><ellipse cx='150' cy='170' rx='65' ry='20' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/><line x1='235' y1='45' x2='235' y2='170' stroke='#dc2626' stroke-width='2'/><text x='243' y='112' font-size='14' fill='#dc2626'>h</text><line x1='150' y1='45' x2='215' y2='45' stroke='#16a34a' stroke-width='2'/><text x='178' y='38' font-size='14' fill='#16a34a'>r</text></svg>",
                 "caption": "Cylinder radius r and height h."
               }
             },
             {
               "id": "me011",
               "title": "Cone",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "Volume $$=\\frac13\\pi r^2h$$, CSA $$=\\pi rl$$, $$l=\\sqrt{r^2+h^2}$$.",
+              "tags": ["important", "3d"],
+              "basic_overview": "Volume $$=\\frac13\\pi r^2h$$, CSA $$=\\pi rl$$, TSA $$=\\pi r(r+l)$$, $$l=\\sqrt{r^2+h^2}$$.",
+              "trick": "Cone volume = 1/3 of the cylinder with the same r and h.",
+              "example": {"question": "Cone with r = 3 cm, h = 4 cm: slant height, volume and CSA?", "solution": "l = 5 cm; V = ⅓π × 9 × 4 = 12π cm³; CSA = π × 3 × 5 = 15π cm²."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M150 25 L75 175 Q150 205 225 175 Z\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"175\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/>\n<line x1=\"150\" y1=\"25\" x2=\"225\" y2=\"175\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<text x=\"156\" y=\"105\" font-size=\"14\" fill=\"#dc2626\">h</text>\n<text x=\"190\" y=\"98\" font-size=\"14\" fill=\"#16a34a\">l</text>\n<text x=\"145\" y=\"194\" font-size=\"14\" fill=\"#1e293b\">r</text>\n</svg>",
+                "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><path d='M150 25 L75 175 Q150 205 225 175 Z' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/><line x1='150' y1='25' x2='150' y2='175' stroke='#dc2626' stroke-width='2' stroke-dasharray='6 4'/><line x1='150' y1='25' x2='225' y2='175' stroke='#16a34a' stroke-width='2'/><text x='156' y='105' font-size='14' fill='#dc2626'>h</text><text x='195' y='98' font-size='14' fill='#16a34a'>l</text><text x='145' y='194' font-size='14' fill='#1e293b'>r</text></svg>",
                 "caption": "Cone with radius r, height h and slant height l."
               }
             },
-            {
-              "id": "me012",
-              "title": "Sphere",
-              "basic_overview": "Volume $$=\\frac43\\pi r^3$$, surface area $$=4\\pi r^2$$."
-            },
-            {
-              "id": "me013",
-              "title": "Hemisphere",
-              "basic_overview": "Volume $$=\\frac23\\pi r^3$$, CSA $$=2\\pi r^2$$, TSA $$=3\\pi r^2$$."
-            },
-            {
-              "id": "me014",
-              "title": "Frustum",
-              "basic_overview": "$$V=\\frac13\\pi h(R^2+r^2+Rr)$$."
-            }
+            {"id": "me012", "title": "Sphere", "tags": ["important", "3d"], "basic_overview": "Volume $$=\\frac43\\pi r^3$$, surface area $$=4\\pi r^2$$.", "trick": "Surface area of a sphere = 4 × area of its great circle.", "example": {"question": "Surface area of a sphere of radius 21 cm?", "solution": "4 × 22/7 × 441 = 5544 cm²."}},
+            {"id": "me013", "title": "Hemisphere", "tags": ["3d"], "basic_overview": "Volume $$=\\frac23\\pi r^3$$, CSA $$=2\\pi r^2$$, TSA $$=3\\pi r^2$$.", "trick": "TSA = CSA + the circular base πr².", "example": {"question": "r = 7 cm: CSA and TSA of a hemisphere?", "solution": "CSA = 2 × 22/7 × 49 = 308 cm²; TSA = 3 × 22/7 × 49 = 462 cm²."}},
+            {"id": "me014", "title": "Frustum", "tags": ["3d"], "basic_overview": "$$V=\\frac13\\pi h(R^2+r^2+Rr)$$, CSA $$=\\pi(R+r)l$$, $$l=\\sqrt{h^2+(R-r)^2}$$.", "trick": "Frustum = big cone − small cone.", "example": {"question": "Frustum with R = 4, r = 1, h = 4. Find the volume.", "solution": "⅓π × 4 × (16 + 1 + 4) = 28π cubic units."}}
           ]
         },
         {
           "topic_id": "mens-application",
           "topic_title": "Mensuration Applications",
           "notes_list": [
-            {
-              "id": "me015",
-              "title": "Unit conversion in area",
-              "basic_overview": "If length unit changes by factor k, area changes by $$k^2$$."
-            },
-            {
-              "id": "me016",
-              "title": "Unit conversion in volume",
-              "basic_overview": "If length unit changes by factor k, volume changes by $$k^3$$."
-            },
-            {
-              "id": "me017",
-              "title": "Path / border problems",
-              "basic_overview": "For an outer and inner rectangle/circle, area of path = outer area − inner area."
-            }
+            {"id": "me015", "title": "Unit conversion in area", "tags": ["important"], "basic_overview": "If length unit changes by factor k, area changes by $$k^2$$. 1 m² = 10,000 cm².", "trick": "Square the length conversion factor.", "example": {"question": "Convert 2.5 m² to cm².", "solution": "2.5 × 10,000 = 25,000 cm²."}},
+            {"id": "me016", "title": "Unit conversion in volume", "tags": ["important"], "basic_overview": "If length unit changes by factor k, volume changes by $$k^3$$. 1 m³ = 1000 litres = 10⁶ cm³.", "trick": "1 litre = 1000 cm³.", "example": {"question": "A tank is 2 m × 1 m × 1 m. Capacity in litres?", "solution": "2 m³ = 2000 litres."}},
+            {"id": "me017", "title": "Path / border problems", "tags": ["important"], "basic_overview": "For an outer and inner rectangle/circle, area of path = outer area − inner area.", "trick": "Outside path adds 2w to each dimension; inside path subtracts 2w.", "example": {"question": "A 20 m × 15 m garden has a 2 m wide path outside. Area of the path?", "solution": "24 × 19 − 20 × 15 = 456 − 300 = 156 m²."}},
+            {"id": "me018", "title": "Melting and recasting", "tags": ["3d"], "basic_overview": "When a solid is melted and recast, volume remains constant: $$V_{old}=V_{new}$$.", "trick": "Number of small solids = big volume ÷ small volume.", "example": {"question": "A sphere of radius 6 cm is melted into small spheres of radius 2 cm. How many?", "solution": "(6/2)³ = 27."}}
           ]
         }
       ]
@@ -950,14 +555,8 @@
       "id": "probability",
       "title": "Probability",
       "filters": [
-        {
-          "label": "⭐ Important",
-          "tag": "important"
-        },
-        {
-          "label": "🎲 Core",
-          "tag": "core"
-        }
+        {"label": "⭐ Important", "tag": "important"},
+        {"label": "🎲 Core", "tag": "core"}
       ],
       "topics": [
         {
@@ -967,78 +566,59 @@
             {
               "id": "pr001",
               "title": "Classical probability",
-              "tags": [
-                "important"
-              ],
+              "tags": ["important", "core"],
               "basic_overview": "For equally likely outcomes, $$P(E)=\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$$",
+              "trick": "List the sample space first, then count favourable outcomes carefully.",
+              "example": {"question": "A die is thrown. Probability of getting a prime number?", "solution": "Primes: 2, 3, 5 → 3/6 = 1/2."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"45\" cy=\"110\" r=\"6\" fill=\"#2563eb\"/>\n<line x1=\"51\" y1=\"110\" x2=\"150\" y2=\"55\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<line x1=\"51\" y1=\"110\" x2=\"150\" y2=\"165\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<text x=\"75\" y=\"80\" font-size=\"13\">A (P)</text>\n<text x=\"75\" y=\"145\" font-size=\"13\">Aᶜ (1−P)</text>\n<line x1=\"156\" y1=\"55\" x2=\"270\" y2=\"25\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"55\" x2=\"270\" y2=\"85\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"165\" x2=\"270\" y2=\"135\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<line x1=\"156\" y1=\"165\" x2=\"270\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n<text x=\"205\" y=\"32\" font-size=\"12\">B</text><text x=\"205\" y=\"80\" font-size=\"12\">Bᶜ</text>\n<text x=\"205\" y=\"142\" font-size=\"12\">B</text><text x=\"205\" y=\"194\" font-size=\"12\">Bᶜ</text>\n<text x=\"285\" y=\"28\" font-size=\"12\">P(A∩B)</text>\n<text x=\"285\" y=\"88\" font-size=\"12\">P(A∩Bᶜ)</text>\n<text x=\"285\" y=\"142\" font-size=\"12\">P(Aᶜ∩B)</text>\n<text x=\"285\" y=\"200\" font-size=\"12\">P(Aᶜ∩Bᶜ)</text>\n</svg>",
-                "caption": "Probability tree: branch probabilities multiply along a path."
+                "svg": "<svg viewBox='0 0 360 140' xmlns='http://www.w3.org/2000/svg'><rect x='15' y='45' width='45' height='45' rx='6' fill='#f1f5f9' stroke='#64748b' stroke-width='2'/><rect x='70' y='45' width='45' height='45' rx='6' fill='#bbf7d0' stroke='#16a34a' stroke-width='2'/><rect x='125' y='45' width='45' height='45' rx='6' fill='#bbf7d0' stroke='#16a34a' stroke-width='2'/><rect x='180' y='45' width='45' height='45' rx='6' fill='#f1f5f9' stroke='#64748b' stroke-width='2'/><rect x='235' y='45' width='45' height='45' rx='6' fill='#bbf7d0' stroke='#16a34a' stroke-width='2'/><rect x='290' y='45' width='45' height='45' rx='6' fill='#f1f5f9' stroke='#64748b' stroke-width='2'/><text x='37' y='74' font-size='18' text-anchor='middle'>1</text><text x='92' y='74' font-size='18' text-anchor='middle'>2</text><text x='147' y='74' font-size='18' text-anchor='middle'>3</text><text x='202' y='74' font-size='18' text-anchor='middle'>4</text><text x='257' y='74' font-size='18' text-anchor='middle'>5</text><text x='312' y='74' font-size='18' text-anchor='middle'>6</text><text x='180' y='120' font-size='13' text-anchor='middle' fill='#16a34a'>Prime outcomes (green): P = 3/6</text></svg>",
+                "caption": "Sample space of a die: favourable outcomes (primes) highlighted."
               }
             },
-            {
-              "id": "pr002",
-              "title": "Complement",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$P(E^c)=1-P(E)$$."
-            },
-            {
-              "id": "pr003",
-              "title": "Impossible and certain events",
-              "basic_overview": "$$P(\\varnothing)=0,\\quad P(S)=1,\\quad0\\le P(E)\\le1$$."
-            }
+            {"id": "pr002", "title": "Complement", "tags": ["important", "core"], "basic_overview": "$$P(E^c)=1-P(E)$$.", "trick": "For 'at least one' type questions, find the complement first.", "example": {"question": "Probability of rain is 0.3. Probability of no rain?", "solution": "1 − 0.3 = 0.7."}},
+            {"id": "pr003", "title": "Impossible and certain events", "tags": ["core"], "basic_overview": "$$P(\\varnothing)=0,\\quad P(S)=1,\\quad0\\le P(E)\\le1$$.", "trick": "Probability can never be negative or greater than 1.", "example": {"question": "Probability of getting 7 on a single die throw?", "solution": "0 (impossible)."}},
+            {"id": "pr011", "title": "Two dice — sum table", "tags": ["important"], "basic_overview": "Total outcomes 36. Number of ways for sum 2,3,4,...,12 = 1,2,3,4,5,6,5,4,3,2,1.", "trick": "Sum 7 has the most ways (6).", "example": {"question": "Two dice are thrown. Probability that the sum is 7?", "solution": "6/36 = 1/6."}},
+            {"id": "pr012", "title": "Playing-card facts", "tags": ["important"], "basic_overview": "52 cards: 4 suits of 13 (26 red, 26 black); 12 face cards (J, Q, K); 4 aces; 4 kings.", "trick": "Memorise: 13 per suit, 12 face cards.", "example": {"question": "Probability of drawing a face card?", "solution": "12/52 = 3/13."}},
+            {"id": "pr013", "title": "Odds", "basic_overview": "Odds in favour = m:n means $$P=\\frac{m}{m+n}$$.", "trick": "Odds are favourable : unfavourable — not favourable : total.", "example": {"question": "Odds in favour of an event are 3:5. Find the probability.", "solution": "3/(3+5) = 3/8."}}
           ]
         },
         {
           "topic_id": "prob-rules",
           "topic_title": "Addition & Multiplication Rules",
           "notes_list": [
-            {
-              "id": "pr004",
-              "title": "Addition theorem",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$$."
-            },
-            {
-              "id": "pr005",
-              "title": "Mutually exclusive events",
-              "basic_overview": "If A and B cannot occur together, $$P(A\\cap B)=0$$ and $$P(A\\cup B)=P(A)+P(B)$$."
-            },
+            {"id": "pr004", "title": "Addition theorem", "tags": ["important", "core"], "basic_overview": "$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$$.", "trick": "OR → add (subtract the overlap).", "example": {"question": "P(A) = 0.5, P(B) = 0.4, P(A∩B) = 0.2. Find P(A∪B).", "solution": "0.5 + 0.4 − 0.2 = 0.7."}},
+            {"id": "pr005", "title": "Mutually exclusive events", "tags": ["core"], "basic_overview": "If A and B cannot occur together, $$P(A\\cap B)=0$$ and $$P(A\\cup B)=P(A)+P(B)$$.", "trick": "Same card can't be both a heart and a spade.", "example": {"question": "Probability of drawing a heart or a spade?", "solution": "13/52 + 13/52 = 1/2."}},
             {
               "id": "pr006",
               "title": "Multiplication theorem",
-              "basic_overview": "$$P(A\\cap B)=P(A)P(B|A)=P(B)P(A|B)$$."
+              "tags": ["important", "core"],
+              "basic_overview": "$$P(A\\cap B)=P(A)P(B|A)=P(B)P(A|B)$$.",
+              "trick": "AND → multiply. For draws without replacement, reduce both the favourable and total counts.",
+              "example": {"question": "A bag has 5 red and 3 blue balls. Two are drawn without replacement. Probability both are red?", "solution": "5/8 × 4/7 = 20/56 = 5/14."},
+              "diagram": {
+                "svg": "<svg viewBox='0 0 420 220' xmlns='http://www.w3.org/2000/svg'><circle cx='45' cy='110' r='6' fill='#2563eb'/><line x1='51' y1='110' x2='150' y2='55' stroke='#2563eb' stroke-width='2'/><line x1='51' y1='110' x2='150' y2='165' stroke='#2563eb' stroke-width='2'/><text x='75' y='80' font-size='13'>A (P)</text><text x='65' y='145' font-size='13'>Aᶜ (1−P)</text><line x1='156' y1='55' x2='270' y2='25' stroke='#16a34a' stroke-width='2'/><line x1='156' y1='55' x2='270' y2='85' stroke='#16a34a' stroke-width='2'/><line x1='156' y1='165' x2='270' y2='135' stroke='#dc2626' stroke-width='2'/><line x1='156' y1='165' x2='270' y2='195' stroke='#dc2626' stroke-width='2'/><text x='205' y='32' font-size='12'>B</text><text x='205' y='80' font-size='12'>Bᶜ</text><text x='205' y='142' font-size='12'>B</text><text x='205' y='194' font-size='12'>Bᶜ</text><text x='285' y='28' font-size='12'>P(A∩B)</text><text x='285' y='88' font-size='12'>P(A∩Bᶜ)</text><text x='285' y='142' font-size='12'>P(Aᶜ∩B)</text><text x='285' y='200' font-size='12'>P(Aᶜ∩Bᶜ)</text></svg>",
+                "caption": "Probability tree: multiply along a path, add across different paths."
+              }
             },
-            {
-              "id": "pr007",
-              "title": "Independent events",
-              "basic_overview": "If A and B are independent, $$P(A\\cap B)=P(A)P(B)$$."
-            }
+            {"id": "pr007", "title": "Independent events", "tags": ["core"], "basic_overview": "If A and B are independent, $$P(A\\cap B)=P(A)P(B)$$.", "trick": "Events like separate coin tosses or dice throws are independent.", "example": {"question": "A coin and a die are tossed. P(head and a 6)?", "solution": "1/2 × 1/6 = 1/12."}}
           ]
         },
         {
           "topic_id": "conditional",
           "topic_title": "Conditional Probability & Bayes",
           "notes_list": [
-            {
-              "id": "pr008",
-              "title": "Conditional probability",
-              "basic_overview": "$$P(A|B)=\\frac{P(A\\cap B)}{P(B)}$$, where P(B)>0."
-            },
-            {
-              "id": "pr009",
-              "title": "Bayes theorem",
-              "basic_overview": "$$P(A_i|B)=\\frac{P(A_i)P(B|A_i)}{\\sum_jP(A_j)P(B|A_j)}$$."
-            },
-            {
-              "id": "pr010",
-              "title": "At least one occurrence",
-              "basic_overview": "For n independent trials with event probability p, $$P(\\text{at least one})=1-(1-p)^n$$."
-            }
+            {"id": "pr008", "title": "Conditional probability", "tags": ["core"], "basic_overview": "$$P(A|B)=\\frac{P(A\\cap B)}{P(B)}$$, where P(B)>0.", "trick": "The sample space shrinks to B.", "example": {"question": "P(A∩B) = 0.3 and P(B) = 0.6. Find P(A|B).", "solution": "0.3/0.6 = 0.5."}},
+            {"id": "pr009", "title": "Bayes theorem", "basic_overview": "$$P(A_i|B)=\\frac{P(A_i)P(B|A_i)}{\\sum_jP(A_j)P(B|A_j)}$$.", "trick": "Draw a tree: multiply along each path, then take the path of interest ÷ all paths that lead to B.", "example": {"question": "Machine A makes 60% of items (2% defective), B makes 40% (5% defective). An item is defective — P(it came from A)?", "solution": "A: 0.6×0.02 = 0.012; B: 0.4×0.05 = 0.02 → 0.012/0.032 = 3/8."}},
+            {"id": "pr010", "title": "At least one occurrence", "tags": ["important"], "basic_overview": "For n independent trials with event probability p, $$P(\\text{at least one})=1-(1-p)^n$$.", "trick": "At least one = 1 − P(none).", "example": {"question": "A coin is tossed 3 times. P(at least one head)?", "solution": "1 − (1/2)³ = 7/8."}}
+          ]
+        },
+        {
+          "topic_id": "binomial",
+          "topic_title": "Binomial Probability",
+          "notes_list": [
+            {"id": "pb001", "title": "Exactly r successes", "basic_overview": "For n independent trials with success probability p: $$P(X=r)={}^{n}C_{r}\\,p^r(1-p)^{n-r}$$.", "trick": "Choose which r trials succeed, then multiply by their probabilities.", "example": {"question": "A coin is tossed 3 times. P(exactly 2 heads)?", "solution": "3C2 × (1/2)³ = 3/8."}},
+            {"id": "pb002", "title": "At least r successes", "basic_overview": "$$P(X\\ge r)=\\sum_{k=r}^{n}{}^{n}C_{k}\\,p^k(1-p)^{n-k}$$.", "trick": "Use the complement if it has fewer terms.", "example": {"question": "A coin is tossed 3 times. P(at least 2 heads)?", "solution": "3/8 + 1/8 = 1/2."}},
+            {"id": "pb003", "title": "Expected value of binomial", "basic_overview": "For X~Bin(n,p), $$E(X)=np$$ and $$Var(X)=np(1-p)$$.", "trick": "Mean = np; variance = npq.", "example": {"question": "A coin is tossed 10 times. Find E(X) and Var(X) for the number of heads.", "solution": "E = 10 × 1/2 = 5; Var = 10 × 1/2 × 1/2 = 2.5."}}
           ]
         }
       ]
@@ -1046,79 +626,40 @@
     {
       "id": "permutation-combination",
       "title": "Permutation & Combination",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "factorial",
           "topic_title": "Factorial Basics",
           "notes_list": [
-            {
-              "id": "pc001",
-              "title": "Factorial",
-              "basic_overview": "$$n!=n(n-1)(n-2)\\cdots2\\cdot1$$ and $$0!=1$$."
-            },
-            {
-              "id": "pc002",
-              "title": "Useful factorial ratio",
-              "basic_overview": "$$\\frac{n!}{(n-r)!}=n(n-1)\\cdots(n-r+1)$$."
-            }
+            {"id": "pc001", "title": "Factorial", "basic_overview": "$$n!=n(n-1)(n-2)\\cdots2\\cdot1$$ and $$0!=1$$.", "trick": "Memorise 1! to 7! = 1, 2, 6, 24, 120, 720, 5040.", "example": {"question": "Find 5!.", "solution": "5×4×3×2×1 = 120."}},
+            {"id": "pc002", "title": "Useful factorial ratio", "basic_overview": "$$\\frac{n!}{(n-r)!}=n(n-1)\\cdots(n-r+1)$$.", "trick": "Cancel the common tail instead of expanding both factorials.", "example": {"question": "Evaluate 10!/8!.", "solution": "10 × 9 = 90."}},
+            {"id": "pc011", "title": "Fundamental principle of counting", "tags": ["important"], "basic_overview": "If one task can be done in m ways and another in n ways: AND → m × n; OR → m + n.", "trick": "AND means multiply, OR means add.", "example": {"question": "3 shirts and 4 trousers: how many outfits?", "solution": "3 × 4 = 12."}}
           ]
         },
         {
           "topic_id": "permutation",
           "topic_title": "Permutations",
           "notes_list": [
-            {
-              "id": "pc003",
-              "title": "Permutation of n objects taken r",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$^nP_r=\\frac{n!}{(n-r)!}$$"
-            },
-            {
-              "id": "pc004",
-              "title": "All n distinct objects",
-              "basic_overview": "Number of arrangements $$=n!$$."
-            },
-            {
-              "id": "pc005",
-              "title": "Repeated objects",
-              "basic_overview": "If n objects contain repetitions p,q,r,..., arrangements $$=\\frac{n!}{p!q!r!\\cdots}$$."
-            },
-            {
-              "id": "pc006",
-              "title": "Circular permutation",
-              "basic_overview": "For n distinct objects around a circle, arrangements $$=(n-1)!$$."
-            }
+            {"id": "pc003", "title": "Permutation of n objects taken r", "tags": ["important"], "basic_overview": "$${}^{n}P_{r}=\\frac{n!}{(n-r)!}$$", "trick": "Start from n and write r factors going down.", "example": {"question": "Find 5P3.", "solution": "5 × 4 × 3 = 60."}},
+            {"id": "pc004", "title": "All n distinct objects", "basic_overview": "Number of arrangements $$=n!$$.", "trick": "Fill positions one by one: n choices, then n−1, and so on.", "example": {"question": "In how many ways can 4 distinct books be arranged on a shelf?", "solution": "4! = 24."}},
+            {"id": "pc005", "title": "Repeated objects", "tags": ["important"], "basic_overview": "If n objects contain repetitions p,q,r,..., arrangements $$=\\frac{n!}{p!q!r!\\cdots}$$.", "trick": "Divide by the factorial of each repeated letter's count.", "example": {"question": "Arrangements of the letters of LEVEL?", "solution": "5!/(2! × 2!) = 30."}},
+            {"id": "pc006", "title": "Circular permutation", "basic_overview": "For n distinct objects around a circle, arrangements $$=(n-1)!$$. For a necklace/garland (flippable): $$\\frac{(n-1)!}{2}$$.", "trick": "Fix one person to remove the rotations.", "example": {"question": "In how many ways can 6 people sit at a round table?", "solution": "5! = 120."}},
+            {"id": "pc014", "title": "Items together", "tags": ["important"], "basic_overview": "Treat the items that must be together as one block, arrange all blocks, then multiply by the arrangements inside the block.", "trick": "(Number of units)! × (arrangements within the block)!", "example": {"question": "Arrangements of DELHI with the vowels together?", "solution": "Units: D, L, H, [EI] = 4! = 24; vowels inside 2! = 2 → 48."}}
           ]
         },
         {
           "topic_id": "combination",
           "topic_title": "Combinations",
           "notes_list": [
-            {
-              "id": "pc007",
-              "title": "Combination",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$^nC_r=\\frac{n!}{r!(n-r)!}$$"
-            },
-            {
-              "id": "pc008",
-              "title": "Symmetry",
-              "basic_overview": "$$^nC_r=^nC_{n-r}$$."
-            },
-            {
-              "id": "pc009",
-              "title": "Relation with permutation",
-              "basic_overview": "$$^nP_r=^nC_r\\,r!$$."
-            },
-            {
-              "id": "pc010",
-              "title": "Pascal identity",
-              "basic_overview": "$$^nC_r+^nC_{r-1}=^{n+1}C_r$$."
-            }
+            {"id": "pc007", "title": "Combination", "tags": ["important"], "basic_overview": "$${}^{n}C_{r}=\\frac{n!}{r!(n-r)!}$$", "trick": "Use the smaller of r and n−r to compute fast.", "example": {"question": "Find 6C2.", "solution": "6×5/(2×1) = 15."}},
+            {"id": "pc008", "title": "Symmetry", "basic_overview": "$${}^{n}C_{r}={}^{n}C_{n-r}$$.", "trick": "10C8 is easier as 10C2.", "example": {"question": "Find 10C8.", "solution": "10C2 = 45."}},
+            {"id": "pc009", "title": "Relation with permutation", "basic_overview": "$${}^{n}P_{r}={}^{n}C_{r}\\times r!$$.", "trick": "Selection first (C), then arrangement (× r!).", "example": {"question": "Verify 5P2 using 5C2.", "solution": "5C2 × 2! = 10 × 2 = 20 ✓."}},
+            {"id": "pc010", "title": "Pascal identity", "basic_overview": "$${}^{n}C_{r}+{}^{n}C_{r-1}={}^{n+1}C_{r}$$.", "trick": "Adding two adjacent entries in Pascal's triangle gives the entry below.", "example": {"question": "Find 5C2 + 5C1.", "solution": "= 6C2 = 15."}},
+            {"id": "pc012", "title": "Handshakes / matches", "tags": ["important"], "basic_overview": "Handshakes among n people = $$\\frac{n(n-1)}{2}$$ (i.e. nC2).", "trick": "Every pair is counted once.", "example": {"question": "10 people shake hands with each other once. Number of handshakes?", "solution": "10×9/2 = 45."}},
+            {"id": "pc015", "title": "Committee with 'at least' condition", "basic_overview": "Use total − unwanted cases.", "trick": "At least one woman = total − all men.", "example": {"question": "A committee of 3 is chosen from 5 men and 4 women with at least 1 woman. How many ways?", "solution": "9C3 − 5C3 = 84 − 10 = 74."}}
           ]
         }
       ]
@@ -1126,86 +667,39 @@
     {
       "id": "statistics",
       "title": "Statistics",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "stats-basic",
           "topic_title": "Basic Statistics",
           "notes_list": [
-            {
-              "id": "st001",
-              "title": "Mean",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$\\bar x=\\frac{\\sum x}{n}$$"
-            },
-            {
-              "id": "st002",
-              "title": "Weighted mean",
-              "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$."
-            },
-            {
-              "id": "st003",
-              "title": "Median — odd n",
-              "basic_overview": "After arranging data, median is the $$\\frac{n+1}{2}$$th observation."
-            },
-            {
-              "id": "st004",
-              "title": "Median — even n",
-              "basic_overview": "Median = average of $$\\frac n2$$th and $$\\left(\\frac n2+1\\right)$$th observations."
-            },
-            {
-              "id": "st005",
-              "title": "Mode empirical relation",
-              "basic_overview": "For moderately skewed data, $$\\text{Mode}\\approx3\\text{Median}-2\\text{Mean}$$."
-            }
+            {"id": "st001", "title": "Mean", "tags": ["important"], "basic_overview": "$$\\bar x=\\frac{\\sum x}{n}$$", "trick": "Add or subtract a constant from all values → mean changes by the same constant.", "example": {"question": "Mean of 2, 4, 6, 8, 10?", "solution": "30/5 = 6."}},
+            {"id": "st002", "title": "Weighted mean", "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$.", "trick": "Weights = frequencies.", "example": {"question": "Marks 10, 20, 30 with frequencies 2, 3, 5. Find the mean.", "solution": "(20 + 60 + 150)/10 = 23."}},
+            {"id": "st003", "title": "Median — odd n", "basic_overview": "After arranging data, median is the $$\\frac{n+1}{2}$$th observation.", "trick": "Always sort the data first.", "example": {"question": "Median of 3, 9, 5, 7, 1?", "solution": "Sorted: 1, 3, 5, 7, 9 → 5."}},
+            {"id": "st004", "title": "Median — even n", "basic_overview": "Median = average of $$\\frac n2$$th and $$\\left(\\frac n2+1\\right)$$th observations.", "trick": "Average the two middle values.", "example": {"question": "Median of 2, 4, 6, 8?", "solution": "(4 + 6)/2 = 5."}},
+            {"id": "st005", "title": "Mode empirical relation", "tags": ["important"], "basic_overview": "For moderately skewed data, $$\\text{Mode}\\approx3\\text{Median}-2\\text{Mean}$$.", "trick": "Mean − Mode = 3 (Mean − Median).", "example": {"question": "Mean = 20, Median = 22. Find the mode.", "solution": "3×22 − 2×20 = 26."}}
           ]
         },
         {
           "topic_id": "grouped-data",
           "topic_title": "Grouped Data",
           "notes_list": [
-            {
-              "id": "st006",
-              "title": "Grouped mean",
-              "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$."
-            },
-            {
-              "id": "st007",
-              "title": "Grouped median",
-              "basic_overview": "$$\\text{Median}=L+\\left(\\frac{N/2-CF}{f}\\right)h$$."
-            },
-            {
-              "id": "st008",
-              "title": "Grouped mode",
-              "basic_overview": "$$\\text{Mode}=L+\\frac{f_1-f_0}{2f_1-f_0-f_2}h$$."
-            }
+            {"id": "st006", "title": "Grouped mean", "basic_overview": "$$\\bar x=\\frac{\\sum fx}{\\sum f}$$, where x is the class mark (mid-value).", "trick": "Class mark = (upper limit + lower limit)/2.", "example": {"question": "Classes 0–10, 10–20, 20–30 with f = 2, 3, 5. Find the mean.", "solution": "x = 5, 15, 25 → Σfx = 10 + 45 + 125 = 180; Σf = 10 → mean = 18."}},
+            {"id": "st007", "title": "Grouped median", "tags": ["important"], "basic_overview": "$$\\text{Median}=L+\\left(\\frac{N/2-CF}{f}\\right)h$$.", "trick": "Find N/2, locate the class where the cumulative frequency first exceeds it — that is the median class.", "example": {"question": "Classes 0–10 … 40–50 with f = 5, 8, 15, 8, 4 (N = 40). Find the median.", "solution": "N/2 = 20; median class 20–30, CF = 13, f = 15 → 20 + (7/15) × 10 = 24.67."}},
+            {"id": "st008", "title": "Grouped mode", "basic_overview": "$$\\text{Mode}=L+\\frac{f_1-f_0}{2f_1-f_0-f_2}h$$.", "trick": "Modal class = class with the highest frequency.", "example": {"question": "Same data as above. Find the mode.", "solution": "Modal class 20–30: f1 = 15, f0 = 8, f2 = 8 → 20 + 7/14 × 10 = 25."}}
           ]
         },
         {
           "topic_id": "dispersion",
           "topic_title": "Dispersion",
           "notes_list": [
-            {
-              "id": "st009",
-              "title": "Range",
-              "basic_overview": "$$\\text{Range}=\\text{Maximum}-\\text{Minimum}$$."
-            },
-            {
-              "id": "st010",
-              "title": "Variance",
-              "basic_overview": "Population variance $$\\sigma^2=\\frac{\\sum(x-\\bar x)^2}{n}$$."
-            },
-            {
-              "id": "st011",
-              "title": "Standard deviation",
-              "basic_overview": "$$\\sigma=\\sqrt{\\sigma^2}$$."
-            },
-            {
-              "id": "st012",
-              "title": "Coefficient of variation",
-              "basic_overview": "$$CV=\\frac{\\sigma}{\\bar x}\\times100$$."
-            }
+            {"id": "st009", "title": "Range", "basic_overview": "$$\\text{Range}=\\text{Maximum}-\\text{Minimum}$$.", "trick": "Only uses the two extreme values.", "example": {"question": "Range of 3, 9, 12, 20?", "solution": "20 − 3 = 17."}},
+            {"id": "st010", "title": "Variance", "basic_overview": "Population variance $$\\sigma^2=\\frac{\\sum(x-\\bar x)^2}{n}$$.", "trick": "Equivalent: σ² = (Σx²/n) − (mean)².", "example": {"question": "Variance of 2, 4, 4, 4, 5, 5, 7, 9.", "solution": "Mean = 5; Σ(x−5)² = 9+1+1+1+0+0+4+16 = 32 → 32/8 = 4."}},
+            {"id": "st011", "title": "Standard deviation", "basic_overview": "$$\\sigma=\\sqrt{\\sigma^2}$$.", "trick": "SD has the same unit as the data.", "example": {"question": "Variance is 4. Standard deviation?", "solution": "√4 = 2."}},
+            {"id": "st012", "title": "Coefficient of variation", "basic_overview": "$$CV=\\frac{\\sigma}{\\bar x}\\times100$$.", "trick": "Smaller CV → more consistent data.", "example": {"question": "Mean = 50, SD = 10. Find CV.", "solution": "10/50 × 100 = 20%."}},
+            {"id": "st013", "title": "Effect of changing all values", "basic_overview": "If every value is multiplied by k and increased by c: new mean = k·mean + c, new SD = |k|·SD.", "trick": "Adding a constant does not change SD or variance.", "example": {"question": "Mean 12, SD 3. Each value is doubled and then increased by 1. New mean and SD?", "solution": "Mean = 2×12 + 1 = 25; SD = 2×3 = 6."}}
           ]
         }
       ]
@@ -1213,6 +707,9 @@
     {
       "id": "sets",
       "title": "Sets & Venn Diagram",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "set-basic",
@@ -1222,50 +719,36 @@
               "id": "set001",
               "title": "Union",
               "basic_overview": "$$A\\cup B$$ contains elements in A or B or both.",
+              "trick": "Write each common element only once.",
+              "example": {"question": "A = {1, 2, 3}, B = {3, 4}. Find A∪B.", "solution": "{1, 2, 3, 4}."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"125\" cy=\"95\" r=\"65\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<circle cx=\"195\" cy=\"95\" r=\"65\" fill=\"#f0fdf4\" stroke=\"#16a34a\" stroke-width=\"3\"/>\n<text x=\"92\" y=\"100\" font-size=\"16\">A</text><text x=\"214\" y=\"100\" font-size=\"16\">B</text>\n<text x=\"145\" y=\"100\" font-size=\"14\" fill=\"#dc2626\">A∩B</text>\n</svg>",
-                "caption": "Venn diagram showing intersection A∩B."
+                "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><circle cx='125' cy='95' r='65' fill='#bfdbfe' stroke='#2563eb' stroke-width='3'/><circle cx='195' cy='95' r='65' fill='#bfdbfe' stroke='#2563eb' stroke-width='3'/><text x='92' y='100' font-size='16'>A</text><text x='214' y='100' font-size='16'>B</text><text x='160' y='20' font-size='14' text-anchor='middle' fill='#1e293b'>A ∪ B (shaded)</text></svg>",
+                "caption": "Venn diagram: A∪B is everything inside either circle."
               }
             },
             {
               "id": "set002",
               "title": "Intersection",
-              "basic_overview": "$$A\\cap B$$ contains elements common to A and B."
+              "basic_overview": "$$A\\cap B$$ contains elements common to A and B.",
+              "trick": "Only keep elements present in both sets.",
+              "example": {"question": "A = {1, 2, 3}, B = {3, 4}. Find A∩B.", "solution": "{3}."},
+              "diagram": {
+                "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><circle cx='125' cy='95' r='65' fill='#2563eb' fill-opacity='0.2' stroke='#2563eb' stroke-width='3'/><circle cx='195' cy='95' r='65' fill='#16a34a' fill-opacity='0.2' stroke='#16a34a' stroke-width='3'/><text x='92' y='100' font-size='16'>A</text><text x='214' y='100' font-size='16'>B</text><text x='160' y='100' font-size='14' text-anchor='middle' fill='#dc2626'>A∩B</text></svg>",
+                "caption": "Venn diagram: the overlapping region is A∩B."
+              }
             },
-            {
-              "id": "set003",
-              "title": "Difference",
-              "basic_overview": "$$A-B$$ contains elements in A but not in B."
-            },
-            {
-              "id": "set004",
-              "title": "Complement",
-              "basic_overview": "$$A^c=U-A$$."
-            }
+            {"id": "set003", "title": "Difference", "basic_overview": "$$A-B$$ contains elements in A but not in B.", "trick": "A − B = A − (A∩B).", "example": {"question": "A = {1, 2, 3}, B = {3, 4}. Find A − B.", "solution": "{1, 2}."}},
+            {"id": "set004", "title": "Complement", "basic_overview": "$$A^c=U-A$$.", "trick": "n(Aᶜ) = n(U) − n(A).", "example": {"question": "U = {1,…,10}, A = {2,4,6,8,10}. Find Aᶜ.", "solution": "{1, 3, 5, 7, 9}."}},
+            {"id": "set008", "title": "De Morgan's laws", "basic_overview": "$$(A\\cup B)^c=A^c\\cap B^c,\\qquad (A\\cap B)^c=A^c\\cup B^c$$.", "trick": "Complement flips union ↔ intersection.", "example": {"question": "U = {1,…,5}, A = {1,2}, B = {2,3}. Verify (A∪B)ᶜ.", "solution": "A∪B = {1,2,3} → complement {4,5}; Aᶜ∩Bᶜ = {3,4,5}∩{1,4,5} = {4,5} ✓."}}
           ]
         },
         {
           "topic_id": "set-counting",
           "topic_title": "Counting Formulae",
           "notes_list": [
-            {
-              "id": "set005",
-              "title": "Two-set counting",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "$$n(A\\cup B)=n(A)+n(B)-n(A\\cap B)$$"
-            },
-            {
-              "id": "set006",
-              "title": "Three-set inclusion-exclusion",
-              "basic_overview": "$$n(A\\cup B\\cup C)=n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(C\\cap A)+n(A\\cap B\\cap C)$$."
-            },
-            {
-              "id": "set007",
-              "title": "Power set",
-              "basic_overview": "A set with n elements has $$2^n$$ subsets."
-            }
+            {"id": "set005", "title": "Two-set counting", "tags": ["important"], "basic_overview": "$$n(A\\cup B)=n(A)+n(B)-n(A\\cap B)$$", "trick": "Neither = Total − n(A∪B). Only A = n(A) − n(A∩B).", "example": {"question": "In a class of 60, 35 like tea, 30 like coffee and 10 like both. How many like neither?", "solution": "n(A∪B) = 35 + 30 − 10 = 55 → neither = 60 − 55 = 5."}},
+            {"id": "set006", "title": "Three-set inclusion-exclusion", "tags": ["important"], "basic_overview": "$$n(A\\cup B\\cup C)=n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(C\\cap A)+n(A\\cap B\\cap C)$$.", "trick": "Singles − pairs + triple.", "example": {"question": "n(A) = 20, n(B) = 15, n(C) = 10, pairwise overlaps 5, 4, 3, triple overlap 2. Find n(A∪B∪C).", "solution": "45 − 12 + 2 = 35."}},
+            {"id": "set007", "title": "Power set", "basic_overview": "A set with n elements has $$2^n$$ subsets; $$2^n-1$$ proper subsets.", "trick": "Each element is either in or out — 2 choices each.", "example": {"question": "A set has 4 elements. How many subsets and proper subsets?", "solution": "16 subsets; 15 proper subsets."}}
           ]
         }
       ]
@@ -1273,6 +756,9 @@
     {
       "id": "coordinate-geometry",
       "title": "Coordinate Geometry",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "coordinate",
@@ -1281,67 +767,39 @@
             {
               "id": "cg001",
               "title": "Distance formula",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "For (x1,y1),(x2,y2): $$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$",
+              "tags": ["important"],
+              "basic_overview": "For (x1,y1),(x2,y2): $$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$. Distance from the origin: $$\\sqrt{x^2+y^2}$$.",
+              "trick": "It is Pythagoras on the horizontal and vertical differences.",
+              "example": {"question": "Distance between (1, 2) and (4, 6)?", "solution": "√(3² + 4²) = 5."},
               "diagram": {
-                "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<line x1=\"35\" y1=\"180\" x2=\"275\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<line x1=\"150\" y1=\"205\" x2=\"150\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n<polyline points=\"45,165 150,80 250,145\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"80\" r=\"4\" fill=\"#dc2626\"/>\n<text x=\"155\" y=\"72\" font-size=\"13\">P(x,y)</text>\n<text x=\"260\" y=\"175\" font-size=\"13\">x</text>\n<text x=\"157\" y=\"30\" font-size=\"13\">y</text>\n</svg>",
-                "caption": "Coordinate plane with a point P(x,y)."
+                "svg": "<svg viewBox='0 0 300 210' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='190' x2='285' y2='190' stroke='#1e293b' stroke-width='2'/><line x1='30' y1='190' x2='30' y2='15' stroke='#1e293b' stroke-width='2'/><line x1='80' y1='150' x2='230' y2='60' stroke='#2563eb' stroke-width='3'/><line x1='80' y1='150' x2='230' y2='150' stroke='#64748b' stroke-width='2' stroke-dasharray='6 4'/><line x1='230' y1='150' x2='230' y2='60' stroke='#64748b' stroke-width='2' stroke-dasharray='6 4'/><circle cx='80' cy='150' r='4' fill='#dc2626'/><circle cx='230' cy='60' r='4' fill='#dc2626'/><text x='45' y='145' font-size='13'>A(x1,y1)</text><text x='170' y='50' font-size='13'>B(x2,y2)</text><text x='155' y='168' font-size='12' text-anchor='middle'>x2 − x1</text><text x='238' y='108' font-size='12'>y2 − y1</text><text x='140' y='100' font-size='13' fill='#2563eb'>d</text></svg>",
+                "caption": "Distance AB is the hypotenuse of a right triangle with legs x2−x1 and y2−y1."
               }
             },
-            {
-              "id": "cg002",
-              "title": "Midpoint",
-              "basic_overview": "$$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$$."
-            },
-            {
-              "id": "cg003",
-              "title": "Section formula — internal",
-              "basic_overview": "If P divides A(x1,y1),B(x2,y2) in m:n, $$P=\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)$$."
-            },
-            {
-              "id": "cg004",
-              "title": "Slope",
-              "basic_overview": "$$m=\\frac{y_2-y_1}{x_2-x_1}$$."
-            }
+            {"id": "cg002", "title": "Midpoint", "basic_overview": "$$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$$.", "trick": "Average the x's and average the y's separately.", "example": {"question": "Midpoint of (2, 4) and (8, 10)?", "solution": "(5, 7)."}},
+            {"id": "cg003", "title": "Section formula — internal", "tags": ["important"], "basic_overview": "If P divides A(x1,y1),B(x2,y2) in m:n, $$P=\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)$$.", "trick": "Cross-multiply: m goes with the second point, n with the first.", "example": {"question": "Find the point dividing (1, 2) and (7, 8) in the ratio 1:2.", "solution": "x = (1×7 + 2×1)/3 = 3; y = (1×8 + 2×2)/3 = 4 → (3, 4)."}},
+            {"id": "cg004", "title": "Slope", "basic_overview": "$$m=\\frac{y_2-y_1}{x_2-x_1}$$ (= tan of the angle with the positive x-axis).", "trick": "Slope of the x-axis is 0; the y-axis has undefined slope.", "example": {"question": "Slope through (1, 2) and (3, 8)?", "solution": "(8 − 2)/(3 − 1) = 3."}},
+            {"id": "cg011", "title": "Centroid of a triangle", "basic_overview": "$$G=\\left(\\frac{x_1+x_2+x_3}{3},\\frac{y_1+y_2+y_3}{3}\\right)$$.", "trick": "Average all three x's and all three y's.", "example": {"question": "Centroid of (0, 0), (6, 0), (0, 9)?", "solution": "(2, 3)."}}
           ]
         },
         {
           "topic_id": "straight-line",
           "topic_title": "Straight Lines",
           "notes_list": [
-            {
-              "id": "cg005",
-              "title": "Slope-intercept form",
-              "basic_overview": "$$y=mx+c$$."
-            },
-            {
-              "id": "cg006",
-              "title": "Point-slope form",
-              "basic_overview": "$$y-y_1=m(x-x_1)$$."
-            },
-            {
-              "id": "cg007",
-              "title": "Parallel lines",
-              "basic_overview": "Parallel non-vertical lines have equal slopes."
-            },
-            {
-              "id": "cg008",
-              "title": "Perpendicular lines",
-              "basic_overview": "For non-zero finite slopes, $$m_1m_2=-1$$."
-            }
+            {"id": "cg005", "title": "Slope-intercept form", "basic_overview": "$$y=mx+c$$.", "trick": "For ax + by + c = 0, slope = −a/b.", "example": {"question": "Line with slope 2 and y-intercept 3. Find y when x = 4.", "solution": "y = 2x + 3 → y = 11."}},
+            {"id": "cg006", "title": "Point-slope form", "basic_overview": "$$y-y_1=m(x-x_1)$$.", "trick": "Use when a point and the slope are given.", "example": {"question": "Line through (1, 2) with slope 3.", "solution": "y − 2 = 3(x − 1) → y = 3x − 1."}},
+            {"id": "cg007", "title": "Parallel lines", "basic_overview": "Parallel non-vertical lines have equal slopes.", "trick": "Parallel line: change only the constant term.", "example": {"question": "Line parallel to y = 3x + 1 through (0, 5)?", "solution": "y = 3x + 5."}},
+            {"id": "cg008", "title": "Perpendicular lines", "basic_overview": "For non-zero finite slopes, $$m_1m_2=-1$$.", "trick": "Flip the slope and change the sign.", "example": {"question": "A line has slope 2. Slope of a perpendicular line?", "solution": "−1/2."}},
+            {"id": "cg013", "title": "Distance of a point from a line", "basic_overview": "Distance of (x1,y1) from ax + by + c = 0: $$\\frac{|ax_1+by_1+c|}{\\sqrt{a^2+b^2}}$$.", "trick": "Put the line in the form ax + by + c = 0 first.", "example": {"question": "Distance of the origin from 3x + 4y − 10 = 0?", "solution": "|−10|/5 = 2."}},
+            {"id": "cg014", "title": "Intercept form", "basic_overview": "$$\\frac xa+\\frac yb=1$$ where a and b are the x- and y-intercepts.", "trick": "Area of the triangle formed with the axes = ½|ab|.", "example": {"question": "Line through (3, 0) and (0, 4)?", "solution": "x/3 + y/4 = 1."}}
           ]
         },
         {
           "topic_id": "coordinate-area",
           "topic_title": "Area by coordinates",
           "notes_list": [
-            {
-              "id": "cg009",
-              "title": "Triangle area",
-              "basic_overview": "$$\\text{Area}=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$$."
-            }
+            {"id": "cg009", "title": "Triangle area", "tags": ["important"], "basic_overview": "$$\\text{Area}=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$$.", "trick": "Area = 0 means the three points are collinear.", "example": {"question": "Area of triangle (0,0), (4,0), (0,3)?", "solution": "½ × 4 × 3 = 6."}},
+            {"id": "cg010", "title": "Collinearity test", "basic_overview": "Three points are collinear if the area formula gives 0 (or their slopes are equal).", "trick": "Check equal slopes first — it is faster.", "example": {"question": "Are (1,1), (2,2), (3,3) collinear?", "solution": "1(2−3) + 2(3−1) + 3(1−2) = −1 + 4 − 3 = 0 → yes."}}
           ]
         }
       ]
@@ -1349,42 +807,31 @@
     {
       "id": "simplification",
       "title": "Simplification, Approximation & Surds",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "simplify",
           "topic_title": "Order & Fractions",
           "notes_list": [
-            {
-              "id": "sim001",
-              "title": "BODMAS",
-              "basic_overview": "Bracket → Orders → Division → Multiplication → Addition → Subtraction."
-            },
-            {
-              "id": "sim002",
-              "title": "Fraction operations",
-              "basic_overview": "$$\\frac ab\\pm\\frac cd=\\frac{ad\\pm bc}{bc},\\qquad\\frac ab\\times\\frac cd=\\frac{ac}{bd}$$."
-            },
-            {
-              "id": "sim003",
-              "title": "Division shortcuts",
-              "basic_overview": "Divide by 5: ×2 then ÷10; divide by 25: ×4 then ÷100; divide by 125: ×8 then ÷1000."
-            }
+            {"id": "sim001", "title": "BODMAS", "tags": ["important"], "basic_overview": "Bracket → Orders → Division → Multiplication → Addition → Subtraction.", "trick": "Division and multiplication have equal priority — go left to right. Same for addition and subtraction.", "example": {"question": "Simplify 8 + 2 × (10 − 4)² ÷ 3.", "solution": "8 + 2 × 36 ÷ 3 = 8 + 24 = 32."}},
+            {"id": "sim002", "title": "Fraction operations", "basic_overview": "$$\\frac ab\\pm\\frac cd=\\frac{ad\\pm bc}{bd},\\qquad\\frac ab\\times\\frac cd=\\frac{ac}{bd}$$.", "trick": "Cancel common factors before multiplying.", "example": {"question": "2/3 + 3/4 = ?", "solution": "(8 + 9)/12 = 17/12."}},
+            {"id": "sim003", "title": "Division shortcuts", "basic_overview": "Divide by 5: ×2 then ÷10; divide by 25: ×4 then ÷100; divide by 125: ×8 then ÷1000.", "trick": "Convert divisions into multiplications by 2, 4 or 8.", "example": {"question": "375 ÷ 25 = ?", "solution": "375 × 4 = 1500 → ÷ 100 = 15."}},
+            {"id": "sim006", "title": "Square of numbers ending in 5", "tags": ["important"], "basic_overview": "For a number n5: square = n(n+1) followed by 25.", "trick": "Multiply the leading digits by the next number, then write 25.", "example": {"question": "Find 75².", "solution": "7 × 8 = 56 → 5625."}},
+            {"id": "sim012", "title": "Squares near 50", "basic_overview": "For 50 + d: square = (25 + d) followed by d² (two digits). For 50 − d: (25 − d) followed by d².", "trick": "Works for d up to about 9.", "example": {"question": "Find 52².", "solution": "25 + 2 = 27, 2² = 04 → 2704."}},
+            {"id": "sim007", "title": "Product around a middle number", "basic_overview": "$$(n-k)(n+k)=n^2-k^2$$.", "trick": "Use for numbers symmetric around a number with an easy square.", "example": {"question": "Find 49 × 51.", "solution": "50² − 1 = 2499."}},
+            {"id": "sim008", "title": "Multiply by 11", "basic_overview": "Write the first digit, then sum of each adjacent pair, then the last digit (carry if needed).", "trick": "ab × 11 = a (a+b) b.", "example": {"question": "Find 53 × 11.", "solution": "5 (5+3) 3 = 583."}},
+            {"id": "sim009", "title": "Multiply by 9, 99, 999", "basic_overview": "n × 99 = n × 100 − n; n × 999 = n × 1000 − n.", "trick": "Round up to the next power of 10 and subtract once.", "example": {"question": "Find 47 × 99.", "solution": "4700 − 47 = 4653."}},
+            {"id": "sim010", "title": "Approximation", "basic_overview": "Round each number to the nearest convenient value before calculating.", "trick": "Round numbers close to 10, 50, 100 and compute; check options for the nearest answer.", "example": {"question": "Approximate 49.8 × 20.1.", "solution": "≈ 50 × 20 = 1000 (exact = 1000.98)."}}
           ]
         },
         {
           "topic_id": "digital-sum",
           "topic_title": "Digital Sum",
           "notes_list": [
-            {
-              "id": "sim004",
-              "title": "Digital root",
-              "basic_overview": "Repeatedly sum digits until one digit remains; multiples of 9 have digital root 9 (except 0)."
-            },
-            {
-              "id": "sim005",
-              "title": "Divisibility by 9",
-              "basic_overview": "A number is divisible by 9 iff its digit sum is divisible by 9."
-            }
+            {"id": "sim004", "title": "Digital root", "basic_overview": "Repeatedly sum digits until one digit remains; multiples of 9 have digital root 9 (except 0).", "trick": "Use it to check multiplication/addition answers (casting out nines).", "example": {"question": "Digital root of 4789?", "solution": "4+7+8+9 = 28 → 2+8 = 10 → 1."}},
+            {"id": "sim005", "title": "Divisibility by 9", "basic_overview": "A number is divisible by 9 iff its digit sum is divisible by 9.", "trick": "The same digit-sum test works for divisibility by 3.", "example": {"question": "Is 7254 divisible by 9?", "solution": "7+2+5+4 = 18 → yes."}}
           ]
         }
       ]
@@ -1392,31 +839,19 @@
     {
       "id": "ages",
       "title": "Ages",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "age-ratio",
           "topic_title": "Age Ratios",
           "notes_list": [
-            {
-              "id": "ag001",
-              "title": "Age difference remains constant",
-              "basic_overview": "If no birth/death event is involved, difference between two people's ages remains constant."
-            },
-            {
-              "id": "ag002",
-              "title": "Age ratio after t years",
-              "basic_overview": "If present ages are a and b, after t years ratio $$=(a+t):(b+t)$$."
-            },
-            {
-              "id": "ag003",
-              "title": "Past ages",
-              "basic_overview": "t years ago ratio $$=(a-t):(b-t)$$."
-            },
-            {
-              "id": "ag004",
-              "title": "Average age",
-              "basic_overview": "$$\\text{Average age}=\\frac{\\text{sum of ages}}{\\text{number of persons}}$$."
-            }
+            {"id": "ag001", "title": "Age difference remains constant", "tags": ["important"], "basic_overview": "If no birth/death event is involved, difference between two people's ages remains constant.", "trick": "Use the constant difference to link past, present and future ratios.", "example": {"question": "Father is 40 and son is 10. What is the ratio after 5 years?", "solution": "45:15 = 3:1; the difference stays 30."}},
+            {"id": "ag002", "title": "Age ratio after t years", "basic_overview": "If present ages are a and b, after t years ratio $$=(a+t):(b+t)$$.", "trick": "Assume present ages are the ratio × x and solve.", "example": {"question": "A:B = 4:5 now; after 6 years the ratio is 5:6. Find their ages.", "solution": "(4x+6)/(5x+6) = 5/6 → x = 6 → ages 24 and 30."}},
+            {"id": "ag003", "title": "Past ages", "basic_overview": "t years ago ratio $$=(a-t):(b-t)$$.", "trick": "Subtract t from each age.", "example": {"question": "Father is 3 times son now and 4 times 5 years ago. Find present ages.", "solution": "3x − 5 = 4(x − 5) → x = 15 → son 15, father 45."}},
+            {"id": "ag004", "title": "Average age", "basic_overview": "$$\\text{Average age}=\\frac{\\text{sum of ages}}{\\text{number of persons}}$$.", "trick": "Work with the total sum of ages.", "example": {"question": "Average age of 5 persons is 20. A 30-year-old leaves. New average?", "solution": "(100 − 30)/4 = 17.5."}},
+            {"id": "ag005", "title": "Sum of ages after/before t years", "basic_overview": "Sum of ages of n persons after t years = present sum + n × t (before: − n × t).", "trick": "Every person adds t years.", "example": {"question": "Sum of ages of 3 persons is 90. What was it 5 years ago?", "solution": "90 − 3×5 = 75."}}
           ]
         }
       ]
@@ -1424,55 +859,29 @@
     {
       "id": "clock-calendar",
       "title": "Clock & Calendar",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "clock",
           "topic_title": "Clock",
           "notes_list": [
-            {
-              "id": "cc001",
-              "title": "Minute hand speed",
-              "basic_overview": "Minute hand = 6° per minute."
-            },
-            {
-              "id": "cc002",
-              "title": "Hour hand speed",
-              "basic_overview": "Hour hand = 0.5° per minute."
-            },
-            {
-              "id": "cc003",
-              "title": "Angle between hands",
-              "tags": [
-                "important"
-              ],
-              "basic_overview": "At H:M, angle $$=|30H-5.5M|$$; take the smaller angle if required."
-            },
-            {
-              "id": "cc004",
-              "title": "Coincidence of hands",
-              "basic_overview": "Hands coincide every $$\\frac{720}{11}$$ minutes approximately."
-            }
+            {"id": "cc001", "title": "Minute hand speed", "basic_overview": "Minute hand = 6° per minute.", "trick": "360° in 60 minutes.", "example": {"question": "Angle moved by the minute hand in 10 minutes?", "solution": "60°."}},
+            {"id": "cc002", "title": "Hour hand speed", "basic_overview": "Hour hand = 0.5° per minute.", "trick": "30° per hour.", "example": {"question": "Angle moved by the hour hand in 20 minutes?", "solution": "10°."}},
+            {"id": "cc003", "title": "Angle between hands", "tags": ["important"], "basic_overview": "At H:M, angle $$=|30H-5.5M|$$; take the smaller angle if required (if > 180°, subtract from 360°).", "trick": "Use 30H − 5.5M for any time in minutes.", "example": {"question": "Angle between the hands at 3:30?", "solution": "|90 − 165| = 75°."}},
+            {"id": "cc004", "title": "Coincidence of hands", "basic_overview": "Hands coincide every $$\\frac{720}{11}$$ minutes (≈ 65.45 min). In 12 hours: 11 times; in 24 hours: 22 times. Right angle: 22 times in 12 hours (44 in a day); opposite: 11 times in 12 hours.", "trick": "Remember 11-22-44 counts for coincidence, opposite and right angle per day (22, 22, 44).", "example": {"question": "How many times do the hands coincide in 12 hours?", "solution": "11 times."}},
+            {"id": "cc009", "title": "Faulty clocks", "basic_overview": "If a clock gains or loses x minutes per hour, the error after T real hours = x × T minutes.", "trick": "Add the gain to, or subtract the loss from, the real time.", "example": {"question": "A clock gains 2 min per hour and is set right at 12 noon. What does it show at 6 PM real time?", "solution": "6 × 2 = 12 min gained → 6:12 PM."}}
           ]
         },
         {
           "topic_id": "calendar",
           "topic_title": "Calendar",
           "notes_list": [
-            {
-              "id": "cc005",
-              "title": "Odd days",
-              "basic_overview": "Seven days make one week; the remainder after dividing total days by 7 gives odd days."
-            },
-            {
-              "id": "cc006",
-              "title": "Leap year",
-              "basic_overview": "A year divisible by 4 is leap, except century years; century years must be divisible by 400."
-            },
-            {
-              "id": "cc007",
-              "title": "Days in months",
-              "basic_overview": "31 days: Jan, Mar, May, Jul, Aug, Oct, Dec; 30 days: Apr, Jun, Sep, Nov; Feb has 28/29."
-            }
+            {"id": "cc005", "title": "Odd days", "tags": ["important"], "basic_overview": "Seven days make one week; the remainder after dividing total days by 7 gives odd days. 100 years = 5 odd days, 200 = 3, 300 = 1, 400 = 0.", "trick": "Odd days: Sun = 0, Mon = 1, …, Sat = 6.", "example": {"question": "Today is Monday. What day will it be after 100 days?", "solution": "100 mod 7 = 2 → Wednesday."}},
+            {"id": "cc006", "title": "Leap year", "tags": ["important"], "basic_overview": "A year divisible by 4 is leap, except century years; century years must be divisible by 400.", "trick": "A leap year has 2 odd days; an ordinary year has 1.", "example": {"question": "Is 2100 a leap year?", "solution": "No — century year not divisible by 400."}},
+            {"id": "cc007", "title": "Days in months", "basic_overview": "31 days: Jan, Mar, May, Jul, Aug, Oct, Dec; 30 days: Apr, Jun, Sep, Nov; Feb has 28/29.", "trick": "Knuckle method: knuckles = 31 days, valleys = 30 (Feb is the exception).", "example": {"question": "Days from 15 Jan to 15 Mar in a non-leap year?", "solution": "31 + 28 = 59 days."}},
+            {"id": "cc010", "title": "Day of the week for a date", "basic_overview": "Odd days = (odd days of completed centuries + odd days of completed years + odd days of the months/days of the current year) mod 7.", "trick": "Break the date into centuries, years, then days of the current year.", "example": {"question": "Day on 15 Aug 1947?", "solution": "1600 yrs = 0, 300 yrs = 1, 46 yrs = 46 + 11 leap = 57 → 1; days to 15 Aug = 227 → 3; total = 0 + 1 + 1 + 3 = 5 → Friday."}}
           ]
         }
       ]
@@ -1480,58 +889,48 @@
     {
       "id": "data-interpretation",
       "title": "Data Interpretation Formulae",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
           "topic_id": "di-basic",
           "topic_title": "Core DI Calculations",
           "notes_list": [
-            {
-              "id": "di001",
-              "title": "Percentage share",
-              "basic_overview": "$$\\text{Share\\%}=\\frac{\\text{part}}{\\text{total}}\\times100$$."
-            },
-            {
-              "id": "di002",
-              "title": "Ratio from chart values",
-              "basic_overview": "If values are a,b, ratio $$=a:b$$; simplify by HCF."
-            },
-            {
-              "id": "di003",
-              "title": "Percentage increase in data",
-              "basic_overview": "$$\\frac{\\text{New}-\\text{Old}}{\\text{Old}}\\times100$$."
-            },
-            {
-              "id": "di004",
-              "title": "Average from tabular data",
-              "basic_overview": "$$\\text{Average}=\\frac{\\sum \\text{values}}{n}$$ or weighted $$\\frac{\\sum fx}{\\sum f}$$."
-            }
+            {"id": "di001", "title": "Percentage share", "tags": ["important"], "basic_overview": "$$\\text{Share\\%}=\\frac{\\text{part}}{\\text{total}}\\times100$$.", "trick": "Use fraction-percentage values (1/8 = 12.5%) for fast mental division.", "example": {"question": "Part = 60, total = 400. Share %?", "solution": "60/400 × 100 = 15%."}},
+            {"id": "di002", "title": "Ratio from chart values", "basic_overview": "If values are a,b, ratio $$=a:b$$; simplify by HCF.", "trick": "Divide both numbers by their common factors.", "example": {"question": "Values are 120 and 180. Ratio?", "solution": "2:3."}},
+            {"id": "di003", "title": "Percentage increase in data", "tags": ["important"], "basic_overview": "$$\\frac{\\text{New}-\\text{Old}}{\\text{Old}}\\times100$$.", "trick": "Always divide by the OLD (base) value.", "example": {"question": "Sales rise from 250 to 300. % increase?", "solution": "50/250 × 100 = 20%."}},
+            {"id": "di004", "title": "Average from tabular data", "basic_overview": "$$\\text{Average}=\\frac{\\sum \\text{values}}{n}$$ or weighted $$\\frac{\\sum fx}{\\sum f}$$.", "trick": "Use the weighted average when the groups have different sizes.", "example": {"question": "Average of 12, 18, 20, 30?", "solution": "80/4 = 20."}},
+            {"id": "di005", "title": "Percentage point vs percent", "basic_overview": "A change from p₁% to p₂% is (p₂ − p₁) percentage points, but the relative change is $$\\frac{p_2-p_1}{p_1}\\times100\\%$$.", "trick": "Read the question carefully: 'percentage points' → just subtract.", "example": {"question": "A rate rises from 20% to 25%. Percentage points and percent change?", "solution": "5 percentage points; relative increase = 5/20 × 100 = 25%."}},
+            {"id": "di006", "title": "Pie chart angle", "basic_overview": "Central angle = % × 3.6° (or value/total × 360°).", "trick": "10% = 36°, 25% = 90°, 50% = 180°.", "example": {"question": "Central angle of a sector representing 25%?", "solution": "25 × 3.6 = 90°."}},
+            {"id": "di007", "title": "Comparing fractions by cross-multiplication", "basic_overview": "To compare a/b and c/d compare ad and bc.", "trick": "Larger cross-product on the side of the larger fraction.", "example": {"question": "Which is greater: 5/7 or 8/11?", "solution": "5×11 = 55, 8×7 = 56 → 8/11 is greater."}}
           ]
         }
       ]
     },
     {
-      "id": "probability-advanced",
-      "title": "Probability — Advanced Counting Models",
+      "id": "quick-tables",
+      "title": "Quick Tables & Memory Aids (DSSSB Speed Sheet)",
+      "filters": [
+        {"label": "⭐ Important", "tag": "important"}
+      ],
       "topics": [
         {
-          "topic_id": "binomial",
-          "topic_title": "Binomial Probability",
+          "topic_id": "squares-cubes",
+          "topic_title": "Squares, Cubes & Roots",
           "notes_list": [
-            {
-              "id": "pb001",
-              "title": "Exactly r successes",
-              "basic_overview": "For n independent trials with success probability p: $$P(X=r)=^nC_r p^r(1-p)^{n-r}$$."
-            },
-            {
-              "id": "pb002",
-              "title": "At least r successes",
-              "basic_overview": "$$P(X\\ge r)=\\sum_{k=r}^{n}{}^nC_kp^k(1-p)^{n-k}$$."
-            },
-            {
-              "id": "pb003",
-              "title": "Expected value of binomial",
-              "basic_overview": "For X~Bin(n,p), $$E(X)=np$$ and $$Var(X)=np(1-p)$$."
-            }
+            {"id": "qt001", "title": "Squares 11–30", "tags": ["important"], "basic_overview": "11²=121, 12²=144, 13²=169, 14²=196, 15²=225, 16²=256, 17²=289, 18²=324, 19²=361, 20²=400, 21²=441, 22²=484, 23²=529, 24²=576, 25²=625, 26²=676, 27²=729, 28²=784, 29²=841, 30²=900.", "trick": "(n+1)² = n² + 2n + 1 — build each square from the previous one.", "example": {"question": "Find √729.", "solution": "27² = 729 → 27."}},
+            {"id": "qt002", "title": "Cubes 1–15", "tags": ["important"], "basic_overview": "1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, 1331, 1728, 2197, 2744, 3375.", "trick": "Last digit of a cube identifies the root's last digit (e.g. cube ends in 3 → root ends in 7).", "example": {"question": "Find ∛2197.", "solution": "13³ = 2197 → 13."}},
+            {"id": "qt003", "title": "Important square roots", "basic_overview": "√2 = 1.414, √3 = 1.732, √5 = 2.236, √6 = 2.449, √7 = 2.646, √10 = 3.162.", "trick": "Use these for surds, trigonometry and mensuration answers.", "example": {"question": "Find the diagonal of a square of side 10 cm.", "solution": "10√2 ≈ 14.14 cm."}},
+            {"id": "qt004", "title": "Multiples of 1/7", "basic_overview": "1/7 = 0.142857…, 2/7 = 0.285714…, 3/7 = 0.428571…, 4/7 = 0.571428…, 5/7 = 0.714285…, 6/7 = 0.857142…", "trick": "The same six digits cycle round — only the starting point changes.", "example": {"question": "Write 3/7 as a percentage.", "solution": "0.428571… → 42.86%."}}
+          ]
+        },
+        {
+          "topic_id": "primes-units",
+          "topic_title": "Primes & Units",
+          "notes_list": [
+            {"id": "qt006", "title": "Primes up to 100", "tags": ["important"], "basic_overview": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 (25 primes).", "trick": "To test if n is prime, check divisibility by primes up to √n.", "example": {"question": "Is 91 prime?", "solution": "No — 91 = 7 × 13."}},
+            {"id": "qt005", "title": "Unit conversions", "basic_overview": "1 km = 1000 m; 1 hectare = 10,000 m²; 1 litre = 1000 cm³; 1 quintal = 100 kg; 1 tonne = 1000 kg; 1 inch = 2.54 cm.", "trick": "Convert all quantities to one unit before calculating.", "example": {"question": "Convert 2.5 hectares to m².", "solution": "2.5 × 10,000 = 25,000 m²."}}
           ]
         }
       ]
