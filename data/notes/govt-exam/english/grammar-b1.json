@@ -1,0 +1,191 @@
+{
+  "chapter_title": "Grammar - Test Notes",
+  "sections": [
+    {
+      "id": "verbals",
+      "title": "Verbs and Verbals",
+      "filters": [
+        {
+          "label": "🟢 Verbals",
+          "tag": "verbals"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-eg-t1",
+          "topic_title": "Gerund vs Infinitive",
+          "notes_list": [
+            {
+              "id": "b1-eg-01",
+              "title": "Gerund (-ing) vs Infinitive (to + verb)",
+              "tags": [
+                "verbals",
+                "grammar"
+              ],
+              "basic_overview": "Gerund: real, completed or past experience (I enjoy reading). Infinitive: goal, potential or future (I plan to read).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Tests: after a preposition (of, for, about, at, in, by) always a gerund (tired of working). After an adjective (difficult, happy, important) use an infinitive (difficult to learn). Subject of a sentence = gerund (Swimming is great exercise); purpose = infinitive (I am here to study)."
+            },
+            {
+              "id": "b1-eg-02",
+              "title": "Meaning Changes with Gerund / Infinitive",
+              "tags": [
+                "verbals",
+                "grammar"
+              ],
+              "basic_overview": "Remember locking = recall that you already locked the door. Remember to lock = a future reminder.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Stop smoking = quit the habit. Stop to smoke = pause another activity in order to smoke."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agree",
+      "title": "Nouns, Pronouns and Agreement",
+      "filters": [
+        {
+          "label": "🔵 Agreement",
+          "tag": "agree"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-eg-t2",
+          "topic_title": "Nouns and Pronouns",
+          "notes_list": [
+            {
+              "id": "b1-eg-03",
+              "title": "Uncountable Nouns Used Only in Singular",
+              "tags": [
+                "agree",
+                "grammar"
+              ],
+              "basic_overview": "Words like furniture, scenery, machinery, stationery, poetry, jewellery, crockery, luggage, baggage, breakage, percentage, knowledge, information, traffic, coffee, dust are always singular.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "'Furnitures' is wrong; the plural of furniture is furniture. Correct: All the furniture was burnt down by the fire. Uncountable nouns need a unit word (2 kg sugar, 1 glass water)."
+            },
+            {
+              "id": "b1-eg-04",
+              "title": "One of the + Plural Noun",
+              "tags": [
+                "agree",
+                "grammar"
+              ],
+              "basic_overview": "The noun after 'one of the' is always plural: One of the + plural noun + that/who + verb.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Correct: One of the reasons behind malnutrition is the improper way of food intake."
+            },
+            {
+              "id": "b1-eg-05",
+              "title": "Relative Pronoun 'that'",
+              "tags": [
+                "agree",
+                "grammar"
+              ],
+              "basic_overview": "After qualifiers like the same, only, all, nothing, everything and superlatives, use 'that' as the relative pronoun.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "This is the same man that met me in the market yesterday ('who', 'whom' and 'which' are not suitable here)."
+            },
+            {
+              "id": "b1-eg-06",
+              "title": "Possessive Apostrophe",
+              "tags": [
+                "agree",
+                "grammar"
+              ],
+              "basic_overview": "Singular noun: add 's (Rahul's car, the dog's bone). Plural noun already ending in s: add only the apostrophe (students' books).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Irregular plurals not ending in s take 's (children's toys)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sent",
+      "title": "Sentence Structure",
+      "filters": [
+        {
+          "label": "🟠 Structure",
+          "tag": "structure"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-eg-t3",
+          "topic_title": "Sentence Rules",
+          "notes_list": [
+            {
+              "id": "b1-eg-07",
+              "title": "Question Tags",
+              "tags": [
+                "structure",
+                "grammar"
+              ],
+              "basic_overview": "A short question is added to a statement: positive statement takes a negative tag and vice versa (It's hot today, isn't it?).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "For 'I am', the standard tag is 'aren't I?' ('am not I' is non-standard). Example: I am late for the meeting, aren't I?"
+            },
+            {
+              "id": "b1-eg-08",
+              "title": "Inversion after 'Not only'",
+              "tags": [
+                "structure",
+                "grammar"
+              ],
+              "basic_overview": "When 'Not only' begins the sentence, the first clause uses question word order (inversion).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Correct: Not only is he a great athlete, but he is also a brilliant student."
+            },
+            {
+              "id": "b1-eg-09",
+              "title": "'Yet' with Although / Despite",
+              "tags": [
+                "structure",
+                "grammar"
+              ],
+              "basic_overview": "Do not use 'yet' in the second part with although, despite or in spite of; it is superfluous.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "'Despite' is a preposition; 'yet' is a conjunction meaning but/nevertheless. 'Yet' can also be an adverb meaning 'up to now'."
+            },
+            {
+              "id": "b1-eg-10",
+              "title": "When / Then / Than; More / Most",
+              "tags": [
+                "structure",
+                "grammar"
+              ],
+              "basic_overview": "When = time (kab). Then = next in sequence (First study, then play). Than = comparison (Tea is better than coffee).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "More = comparative (two things): more interesting than that one. Most = superlative (three or more): the most interesting book in the library."
+            },
+            {
+              "id": "b1-eg-11",
+              "title": "Indirect Speech with 'need'",
+              "tags": [
+                "structure",
+                "grammar"
+              ],
+              "basic_overview": "Modal 'need' (need not) stays unchanged in indirect speech with a reporting verb like told: Sita told her friend that she need not study so hard.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Main verb 'need' (meaning require) changes: She said, 'I need money' becomes She said that she needed money. For an interrogative sentence use asked/enquired, not told: He asked me if he had to stay there."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

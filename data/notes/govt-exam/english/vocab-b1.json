@@ -1,0 +1,71 @@
+{
+  "chapter_title": "Vocab and Usage - Test Notes",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Vocabulary and Usage",
+      "filters": [
+        {
+          "label": "🟣 Vocab",
+          "tag": "vocab"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-ev-t1",
+          "topic_title": "Words, Phrasal Verbs, Spelling",
+          "notes_list": [
+            {
+              "id": "b1-ev-01",
+              "title": "Confer: Synonym",
+              "tags": [
+                "vocab",
+                "english"
+              ],
+              "basic_overview": "CONFER (to discuss and decide together) is closest to 'negotiate'.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Wrong options in the same question were dishonor, refuse, corrupt. 'Confer' can also mean 'to bestow'."
+            },
+            {
+              "id": "b1-ev-02",
+              "title": "Burst: Phrasal Verbs",
+              "tags": [
+                "vocab",
+                "english"
+              ],
+              "basic_overview": "Burst into = suddenly start doing something / start burning with large flames. The aircraft crashed and burst into flames.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Burst in = intrude and interrupt; burst on = appear suddenly and attract attention; burst out = suddenly start laughing or crying, or shout."
+            },
+            {
+              "id": "b1-ev-03",
+              "title": "Subject of / on / with; Subjected to",
+              "tags": [
+                "vocab",
+                "english"
+              ],
+              "basic_overview": "Subject of = a subject belonging to something (Maths is my favourite subject of study). Subject on = a topic (He wrote a book on the subject of AI).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Subject with = used only when 'with' connects another thing (Bring the book on this subject with the blue cover; 'with' belongs to the book's cover, not the subject). Simple SOP: if you see 'subjected', put 'to'. If only 'subject' appears, pause and check the meaning of the sentence."
+            },
+            {
+              "id": "b1-ev-04",
+              "title": "Spelling Rules",
+              "tags": [
+                "vocab",
+                "english"
+              ],
+              "basic_overview": "Adding -ly keeps the base word (public + ly = publicly). Adding -ance drops the silent e (guide + ance = guidance).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Watch ei vs ie (receive, believe) and a vs e (guidance, not guidence). Break words into parts (gov-ern-ment) so silent letters are not missed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
