@@ -1,8 +1,24 @@
 {
   "chapters": [
-    { "id": "formula", "title": "Maths formula", "file": "data/notes/govt-exam/maths/mformula.json" },
-    { "id": "revision", "title": "Maths Revision Formula", "file": "data/notes/govt-exam/maths/mrevision.json" }
-    
-    
+    {
+      "id": "formula",
+      "title": "Maths formula",
+      "file": "data/notes/govt-exam/maths/mformula.json"
+    },
+    {
+      "id": "revision",
+      "title": "Maths Revision Formula",
+      "file": "data/notes/govt-exam/maths/mrevision.json"
+    },
+    {
+      "id": "mtricks-b1",
+      "title": "Maths Tricks - Test Notes",
+      "file": "data/notes/govt-exam/maths/mtricks-b1.json"
+    },
+    {
+      "id": "msolved-b1",
+      "title": "Solved Questions - Test Notes",
+      "file": "data/notes/govt-exam/maths/msolved-b1.json"
+    }
   ]
 }
