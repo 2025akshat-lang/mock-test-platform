@@ -1,0 +1,47 @@
+{
+  "chapter_title": "Computer - Test Notes",
+  "sections": [
+    {
+      "id": "syllabus",
+      "title": "Computer Syllabus (UP Excise Part 2)",
+      "filters": [
+        {
+          "label": "🔵 Syllabus",
+          "tag": "syllabus"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-cs-t1",
+          "topic_title": "Computer and IT Syllabus",
+          "notes_list": [
+            {
+              "id": "b1-cs-01",
+              "title": "Basics: Hardware, I/O, Internet, IP",
+              "tags": [
+                "syllabus",
+                "computer"
+              ],
+              "basic_overview": "History, introduction and application of Computer, IT, Internet and WWW. Hardware and software; input and output; Internet Protocol / IP address.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Also: IT gadgets and their applications; creating an e-mail ID and using e-mail; operation of printer, tablet and mobile."
+            },
+            {
+              "id": "b1-cs-02",
+              "title": "Apps, Security and New Technology",
+              "tags": [
+                "syllabus",
+                "computer"
+              ],
+              "basic_overview": "MS-Word and MS-Excel important elements; operating system, social networking, e-governance; digital financial tools and applications.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Future skills and cyber security; technology developments: Artificial Intelligence, Big Data Processing, Deep Learning, Machine Learning, Internet of Things and India's achievements in the field."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
