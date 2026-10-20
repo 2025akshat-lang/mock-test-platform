@@ -1,0 +1,125 @@
+{
+  "chapter_title": "Reasoning Tricks - Test Notes",
+  "sections": [
+    {
+      "id": "stmt",
+      "title": "Statement and Conclusion",
+      "filters": [
+        {
+          "label": "🔵 Logic",
+          "tag": "logic"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-rt-t1",
+          "topic_title": "Statement and Conclusion",
+          "notes_list": [
+            {
+              "id": "b1-rt-01",
+              "title": "Rules to Decide Conclusions",
+              "tags": [
+                "logic",
+                "reasoning"
+              ],
+              "basic_overview": "Treat the statement as true even if it differs from common facts. Check whether the conclusion can be proved 100% using only the statement.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Scope-stretching words (any, all, every, each, never, always, only) are red flags. Qualifying words (many, some, often, usually, can, may) are safer and more likely to follow."
+            },
+            {
+              "id": "b1-rt-02",
+              "title": "Example: Problem Solving",
+              "tags": [
+                "logic",
+                "reasoning"
+              ],
+              "basic_overview": "Statement: The best way to deal with a problem is to solve it. I: Solving any problem is easy. II: Solving a problem is better than ignoring it.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Conclusion I fails because of 'any' and 'easy' (not stated). Conclusion II follows. Answer: only conclusion II follows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clockcal",
+      "title": "Clock and Calendar",
+      "filters": [
+        {
+          "label": "🟠 Clock and calendar",
+          "tag": "clock"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-rt-t2",
+          "topic_title": "Clock Angle",
+          "notes_list": [
+            {
+              "id": "b1-rt-03",
+              "title": "Angle between Clock Hands",
+              "tags": [
+                "clock",
+                "reasoning"
+              ],
+              "basic_overview": "Angle = | 30H - (11/2) M |, where the time is H hours M minutes. If the result exceeds 180 degrees, subtract it from 360.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Example 4:20: |30x4 - 5.5x20| = |120 - 110| = 10 degrees."
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-rt-t3",
+          "topic_title": "Day of the Week",
+          "notes_list": [
+            {
+              "id": "b1-rt-04",
+              "title": "Day Code Method",
+              "tags": [
+                "clock",
+                "reasoning"
+              ],
+              "basic_overview": "Add: date, month code, century code, number of leap years in the year digits (yy divided by 4), and yy; take the sum modulo 7. Codes: 1=Sun, 2=Mon, 3=Tue, 4=Wed, 5=Thu, 6=Fri, 0=Sat.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Month codes: Jan 1, Feb 4, Mar 4, Apr 0, May 2, Jun 5, Jul 0, Aug 3, Sep 6, Oct 1, Nov 4, Dec 6. Century: 2000s = 6. In a leap year, subtract 1 for January and February. Example 14 March 2026: 0+4+6+6+5 = 21, so Saturday. Practice: 19 November 2032 = Friday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cubes",
+      "title": "Cubes",
+      "filters": [
+        {
+          "label": "🟢 Cubes",
+          "tag": "cube"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-rt-t4",
+          "topic_title": "Painted Cube Cut into n^3 Cubes",
+          "notes_list": [
+            {
+              "id": "b1-rt-05",
+              "title": "Painted Cube Formulas",
+              "tags": [
+                "cube",
+                "reasoning"
+              ],
+              "basic_overview": "For an n x n x n cube painted on all faces: no colour (n-2)^3; one face 6(n-2)^2; two faces 12(n-2); three faces 8.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Check with n = 3: 1 + 6 + 12 + 8 = 27 = 3^3."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
