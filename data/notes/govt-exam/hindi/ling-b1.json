@@ -1,0 +1,47 @@
+{
+  "chapter_title": "Hindi Vyakaran - Test Notes",
+  "sections": [
+    {
+      "id": "ling",
+      "title": "Ling (Gender)",
+      "filters": [
+        {
+          "label": "🟢 Ling",
+          "tag": "ling"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-hl-t1",
+          "topic_title": "Bhavvachak Sangya ka Ling",
+          "notes_list": [
+            {
+              "id": "b1-hl-01",
+              "title": "Striling Pratyay (Feminine Endings)",
+              "tags": [
+                "ling",
+                "hindi"
+              ],
+              "basic_overview": "Bhavvachak sangya jinke ant mein -ता, -वट, -हट, -आस, -आई aata hai, wo mostly striling hoti hain.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "-ता: सुंदरता, मित्रता; -वट/-हट: सजावट, घबराहट; -आस: मिठास, प्यास; -आई: पढ़ाई, लिखाई."
+            },
+            {
+              "id": "b1-hl-02",
+              "title": "Pullinga Pratyay (Masculine Endings)",
+              "tags": [
+                "ling",
+                "hindi"
+              ],
+              "basic_overview": "Bhavvachak sangya jinke ant mein -पा, -पन, -आव, -त्व aata hai, wo mostly pullinga hoti hain.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "-पा/-पन: बुढ़ापा, बचपन, लड़कपन; -आव: बहाव, चुनाव; -त्व: मनुष्यत्व, कवित्व. 'Mostly' ka matlab hai ki apwad bhi ho sakte hain."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
