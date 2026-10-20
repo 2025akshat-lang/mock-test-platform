@@ -1,0 +1,185 @@
+{
+  "chapter_title": "Maths Tricks - Test Notes",
+  "sections": [
+    {
+      "id": "numsys",
+      "title": "Number System",
+      "filters": [
+        {
+          "label": "🔵 Number system",
+          "tag": "numsys"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-mt-t1",
+          "topic_title": "Factors",
+          "notes_list": [
+            {
+              "id": "b1-mt-01",
+              "title": "Factors of a Number",
+              "tags": [
+                "numsys",
+                "maths"
+              ],
+              "basic_overview": "If N = p^a x q^b x r^c: total factors = (a+1)(b+1)(c+1); prime factors (with repetition) = a+b+c; distinct prime factors = number of different primes.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Odd factors: ignore the prime 2 and apply the formula to the rest. Even factors = total - odd. Example 120 = 2^3 x 3 x 5: total 16, prime factors 5, distinct primes 3, odd factors 4, even factors 12."
+            },
+            {
+              "id": "b1-mt-02",
+              "title": "Multiples of 6 but not of 18",
+              "tags": [
+                "numsys",
+                "maths"
+              ],
+              "basic_overview": "Count multiples of 6, subtract multiples of 18 (their LCM-based overlap), using integer division.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Between 1 and 1000: 1000/6 = 166, 1000/18 = 55, so 166 - 55 = 111."
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-mt-t2",
+          "topic_title": "Remainders and Division",
+          "notes_list": [
+            {
+              "id": "b1-mt-03",
+              "title": "Euler / Fermat Remainder Trick",
+              "tags": [
+                "numsys",
+                "maths"
+              ],
+              "basic_overview": "If a and n are co-prime, a^phi(n) leaves remainder 1 when divided by n. For a prime n, phi(n) = n - 1.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example: 2^102 divided by 101: phi(101) = 100, so 2^102 = 2^2 = 4 remainder 4. Example: 3^21 divided by 5: phi(5) = 4, 21 = 4x5 + 1, so remainder 3."
+            },
+            {
+              "id": "b1-mt-04",
+              "title": "Division by 98 and 99",
+              "tags": [
+                "numsys",
+                "maths"
+              ],
+              "basic_overview": "By 98: count the hundreds, add 2 for each hundred to the leftover, then adjust. 2352 / 98: 23 hundreds, 23 x 2 = 46, 46 + 52 = 98 = one more, so quotient 24.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "By 99: split the number into 2-digit blocks from the right. 2345 / 99: blocks 23 and 45; quotient = 23, remainder = 23 + 45 = 68. This works when the block sum is less than 99. For 49 (round up to 50, base 5): 3234 / 49: 323 / 5 is about 6; 6 x 49 = 294; 323 - 294 = 29; bring down 4 and divide 294 by 49 = 6 exactly. Answer: 66."
+            },
+            {
+              "id": "b1-mt-05",
+              "title": "Sum of Squares",
+              "tags": [
+                "numsys",
+                "maths"
+              ],
+              "basic_overview": "1^2 + 2^2 + ... + n^2 = n(n+1)(2n+1) / 6.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Example n = 10: 10 x 11 x 21 / 6 = 385. The 6 in the denominator always cancels with factors 2 and 3 from the numerator."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick",
+      "title": "Quick Calculation",
+      "filters": [
+        {
+          "label": "🟠 Squares and surds",
+          "tag": "quick"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-mt-t3",
+          "topic_title": "Squares, Surds, Fractions",
+          "notes_list": [
+            {
+              "id": "b1-mt-06",
+              "title": "Squares Near 50 and 100",
+              "tags": [
+                "quick",
+                "maths"
+              ],
+              "basic_overview": "Near 100: N^2 = (N +/- d) | d^2 (d = difference from 100). 96^2 = (96-4) | 16 = 9216. 104^2 = (104+4) | 16 = 10816 (carry the 1).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "Near 50: N^2 = (25 +/- d) | d^2, d^2 as 2 digits. 53^2 = (25+3) | 09 = 2809. A number ending in 5 always has a square ending in 25."
+            },
+            {
+              "id": "b1-mt-07",
+              "title": "Square Root of (a + 2 sqrt(b))",
+              "tags": [
+                "quick",
+                "maths"
+              ],
+              "basic_overview": "Rewrite the surd in the form 2 sqrt(m), then find two numbers whose product is m and whose sum is a.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "sqrt(7 + sqrt48) = sqrt(7 + 2 sqrt12); find two numbers with product 12 and sum 7: 4 and 3, so the answer is sqrt4 + sqrt3 = 2 + sqrt3."
+            },
+            {
+              "id": "b1-mt-08",
+              "title": "Adding Mixed Fractions (same denominator)",
+              "tags": [
+                "quick",
+                "maths"
+              ],
+              "basic_overview": "Add whole parts and numerators separately: (whole1 + whole2) x denominator + (num1 + num2), all over the denominator.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "6 3/8 + 5 4/8 = (11 x 8 + 7) / 8 = 95/8. Works only when denominators are equal."
+            },
+            {
+              "id": "b1-mt-09",
+              "title": "Algebra Identity in Calculation Questions",
+              "tags": [
+                "quick",
+                "maths"
+              ],
+              "basic_overview": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). If the denominator already equals the second bracket, the answer is simply (a - b).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#d97706",
+              "extra_info_content": "[27(2.5)^3 - 8(1.5)^3] / [7.5^2 + 7.5x3 + 3^2]: a = 7.5, b = 3, so the value is 7.5 - 3 = 4.5. Also: sum of cubes a^3 + b^3 = (a+b)^3 - 3ab(a+b)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geomt",
+      "title": "Geometry",
+      "filters": [
+        {
+          "label": "🟢 Geometry",
+          "tag": "geom"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-mt-t4",
+          "topic_title": "Incircle of Right Triangle",
+          "notes_list": [
+            {
+              "id": "b1-mt-10",
+              "title": "Inradius of a Right-Angled Triangle",
+              "tags": [
+                "geom",
+                "maths"
+              ],
+              "basic_overview": "r = (P + B - H) / 2, where P and B are the perpendicular sides and H is the hypotenuse. Area of the incircle = pi r^2.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Example: sides 12, 16, 20: r = (12 + 16 - 20)/2 = 4 cm; area = pi x 16 = about 50.27 sq cm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

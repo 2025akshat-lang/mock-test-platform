@@ -1,0 +1,143 @@
+{
+  "chapter_title": "Solved Questions - Test Notes",
+  "sections": [
+    {
+      "id": "arith",
+      "title": "Arithmetic Solved Examples",
+      "filters": [
+        {
+          "label": "🟣 Arithmetic",
+          "tag": "arith"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-ms-t1",
+          "topic_title": "Percentage, Profit and Loss, Partnership",
+          "notes_list": [
+            {
+              "id": "b1-ms-01",
+              "title": "Price Reduction and Extra Quantity",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Reduced price per kg = (total spend x reduction %) / extra quantity.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Rice: (640 x 20%) / 6.4 = 128 / 6.4 = Rs 20 per kg after the reduction."
+            },
+            {
+              "id": "b1-ms-02",
+              "title": "Profit and Loss Chain (bike)",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "P sells for Rs 90,000 at 20% loss, so CP of P = 90,000/0.8 = 1,12,500. A 10% profit on this = 1,23,750 (Q's selling price to R).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Q's gain = (1,23,750 - 90,000)/90,000 = 37.5%."
+            },
+            {
+              "id": "b1-ms-03",
+              "title": "Partnership with Changed Investment",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Ratios 4/3 : 5/2 : 6/7 become 56 : 105 : 36 (LCM 42). B raises 105 by 40% to 147 after 3 months.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Capital x time: A = 56x12 = 672; B = 105x3 + 147x9 = 1638; C = 36x12 = 432; total 2742. A's share = 2,19,360 x 672/2742 = Rs 53,760."
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-ms-t2",
+          "topic_title": "Interest, Instalments, Ages",
+          "notes_list": [
+            {
+              "id": "b1-ms-04",
+              "title": "Compound Interest, Compounded Every 4 Months",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "60% per year compounded every 4 months means 20% per period for 3 periods.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Amount = 3250 x (1.2)^3 = 3250 x 1.728 = Rs 5,616."
+            },
+            {
+              "id": "b1-ms-05",
+              "title": "Instalments with Simple Interest (scooter)",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Balance after down payment = 65,000 - 41,000 = 24,000. With 25% p.a. simple interest for 5 months, amount due = 24,000 x (1 + 25x5/1200) = 26,500.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Each instalment x earns interest on the later months: 5x + x(25/1200)(4+3+2+1) = 26,500, so 5.2083x = 26,500 and x = about Rs 5,088. (Answer worked out here: the PDF has only the question. It matches option 5,088.)"
+            },
+            {
+              "id": "b1-ms-06",
+              "title": "Ages: Equations from Averages",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Raman + Suman + Mohan = 3 x 34 = 102. 3 Suman = 2 Raman gives Raman = 1.5 Suman.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Using 5(Mohan - 7) = 4(Suman - 5) with Mohan = 102 - 2.5 Suman, we get Suman = 30, so five years hence he will be 35."
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-ms-t3",
+          "topic_title": "Time-Speed and Data",
+          "notes_list": [
+            {
+              "id": "b1-ms-07",
+              "title": "Boat and River",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Upstream speed = distance / time; downstream speed likewise; stream speed = (downstream - upstream) / 2.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Upstream 4 km in 5 h = 0.8 km/h; downstream 16 km in 5 h = 3.2 km/h; stream = (3.2 - 0.8)/2 = 1.2 km/h."
+            },
+            {
+              "id": "b1-ms-08",
+              "title": "Two Numbers: Sum and Sum of Cubes",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Use a^3 + b^3 = (a+b)^3 - 3ab(a+b), then (a - b)^2 = (a+b)^2 - 4ab.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Sum 15, sum of cubes 1755: 1755 = 3375 - 45ab so ab = 36; (a-b)^2 = 225 - 144 = 81, so the difference is 9."
+            },
+            {
+              "id": "b1-ms-09",
+              "title": "Median of 10 Observations",
+              "tags": [
+                "arith",
+                "maths"
+              ],
+              "basic_overview": "Arrange in order; if n is even, median = average of the (n/2)th and (n/2 + 1)th terms.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Scores sorted: 20, 26, 32, 32, 40, 44, 46, 48, 48, 54. Median = (40 + 44)/2 = 42."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
