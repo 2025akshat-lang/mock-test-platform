@@ -1,6 +1,14 @@
 {
   "chapters": [
-    { "id": "computer", "title": "Computer awareness", "file": "data/notes/govt-exam/computer/computer1.json" }
-    
+    {
+      "id": "computer",
+      "title": "Computer awareness",
+      "file": "data/notes/govt-exam/computer/computer1.json"
+    },
+    {
+      "id": "computer-b1",
+      "title": "Computer - Test Notes",
+      "file": "data/notes/govt-exam/computer/computer-b1.json"
+    }
   ]
 }
