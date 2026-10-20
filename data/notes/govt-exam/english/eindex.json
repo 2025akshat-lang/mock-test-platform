@@ -1,9 +1,29 @@
 {
   "chapters": [
-    { "id": "grammer", "title": "Grammer Rules", "file": "data/notes/govt-exam/english/grammer.json" },
-    { "id": "passage", "title": "Reading Comprehension", "file": "data/notes/govt-exam/english/passage.json" },
-    { "id": "vocab", "title": "Vocab", "file": "data/notes/govt-exam/english/vocab.json" }
-
-    
+    {
+      "id": "grammer",
+      "title": "Grammer Rules",
+      "file": "data/notes/govt-exam/english/grammer.json"
+    },
+    {
+      "id": "passage",
+      "title": "Reading Comprehension",
+      "file": "data/notes/govt-exam/english/passage.json"
+    },
+    {
+      "id": "vocab",
+      "title": "Vocab",
+      "file": "data/notes/govt-exam/english/vocab.json"
+    },
+    {
+      "id": "grammar-b1",
+      "title": "Grammar - Test Notes",
+      "file": "data/notes/govt-exam/english/grammar-b1.json"
+    },
+    {
+      "id": "vocab-b1",
+      "title": "Vocab and Usage - Test Notes",
+      "file": "data/notes/govt-exam/english/vocab-b1.json"
+    }
   ]
 }
