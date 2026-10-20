@@ -1,0 +1,47 @@
+{
+  "chapter_title": "General Science - Test Notes",
+  "sections": [
+    {
+      "id": "optics",
+      "title": "Physics: Optics",
+      "filters": [
+        {
+          "label": "🔵 Mirrors",
+          "tag": "mirror"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-sci-t1",
+          "topic_title": "Images in Two Inclined Plane Mirrors",
+          "notes_list": [
+            {
+              "id": "b1-sci-01",
+              "title": "Number of Images: n = 360/theta",
+              "tags": [
+                "mirror",
+                "science"
+              ],
+              "basic_overview": "For two plane mirrors inclined at angle theta: if 360/theta is even, n = 360/theta - 1. If odd and the object lies symmetrically, n = 360/theta - 1; if odd and asymmetric, n = 360/theta. If it is a fraction, take only the integer part.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Quick table: 30 deg - 11, 45 deg - 7, 60 deg - 5, 120 deg - 2, 180 deg - 1, 0 deg (parallel mirrors) - infinite. Example: theta = 72 deg, object unsymmetrical, so n = 360/72 = 5."
+            },
+            {
+              "id": "b1-sci-02",
+              "title": "Mirrors: Basic Facts",
+              "tags": [
+                "mirror",
+                "science"
+              ],
+              "basic_overview": "The first mirror (silvered glass mirror) was made by German scientist Justus von Liebig, who coated glass with silver metal.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Concave mirror: inner surface of a sphere is the reflecting surface. Convex mirror: outer surface is the reflecting surface."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

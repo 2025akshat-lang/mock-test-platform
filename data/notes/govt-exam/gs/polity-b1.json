@@ -1,0 +1,35 @@
+{
+  "chapter_title": "Polity - Test Notes",
+  "sections": [
+    {
+      "id": "panchayat",
+      "title": "Panchayati Raj",
+      "filters": [
+        {
+          "label": "🟢 Committees",
+          "tag": "committee"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-pol-t1",
+          "topic_title": "Panchayati Raj Committees",
+          "notes_list": [
+            {
+              "id": "b1-pol-01",
+              "title": "Constitutional Status: L.M. Singhvi Committee",
+              "tags": [
+                "committee",
+                "polity"
+              ],
+              "basic_overview": "The constitutional status for Panchayati Raj institutions was recommended by the L.M. Singhvi Committee (1986).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "This led to the 73rd Constitutional Amendment Act 1992, in force from 24 April 1993. Balwant Rai Mehta Committee (1957) recommended the three-tier system; Ashok Mehta Committee (1977) recommended a two-tier system."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

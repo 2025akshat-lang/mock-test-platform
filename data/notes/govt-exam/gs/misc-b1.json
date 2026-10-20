@@ -1,0 +1,77 @@
+{
+  "chapter_title": "GK Misc - Test Notes",
+  "sections": [
+    {
+      "id": "psych",
+      "title": "Psychology and Pedagogy",
+      "filters": [
+        {
+          "label": "🟣 Psychology",
+          "tag": "psychology"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-misc-t1",
+          "topic_title": "Intelligence Theories",
+          "notes_list": [
+            {
+              "id": "b1-misc-01",
+              "title": "Spearman: Two-Factor Theory (1927)",
+              "tags": [
+                "psychology",
+                "misc"
+              ],
+              "basic_overview": "Charles Spearman proposed the two-factor theory using factor analysis: intelligence has a general factor (g) and specific factors (s).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "The general (g) factor influences all specific abilities (mechanical, verbal, spatial, numerical). Not 'fluid', 'crystallized' or 'practical' intelligence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "facts",
+      "title": "GK Facts and Syllabus",
+      "filters": [
+        {
+          "label": "🟠 Facts",
+          "tag": "fact"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-misc-t2",
+          "topic_title": "Railway and UP Excise Syllabus",
+          "notes_list": [
+            {
+              "id": "b1-misc-02",
+              "title": "Ramanathapuram-Rameswaram: No-Wire Section",
+              "tags": [
+                "fact",
+                "misc"
+              ],
+              "basic_overview": "Near INS Parundu (naval air station, Uchipuli) the railway track passes close to the runway, so overhead wires were removed for about 220 m (flight-safety reason).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "The pilot lowers the pantograph and the train crosses this 'no-wire section' by coasting on momentum (about 110 km/h entry speed), then raises the pantograph again. Source: a Google AI answer in your PDF, so verify once before exam use."
+            },
+            {
+              "id": "b1-misc-03",
+              "title": "UP Excise Constable Mains: Part 1 and Part 3",
+              "tags": [
+                "fact",
+                "misc"
+              ],
+              "basic_overview": "Part 1 includes current events, data interpretation, and excise law: United Provinces Excise Act-1910 (as amended), molasses/alcohol rules and Excise Policy 2025-26.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Part 3 is General Information of Uttar Pradesh: history, culture, art, architecture, festivals, folk dances, literature, heritage, tourism, geography, resources, climate, forests, wildlife, economy, polity and administration, current events."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

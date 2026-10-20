@@ -1,0 +1,65 @@
+{
+  "chapter_title": "Geography - Test Notes",
+  "sections": [
+    {
+      "id": "rivers",
+      "title": "Rivers",
+      "filters": [
+        {
+          "label": "🔵 Rivers",
+          "tag": "river"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-geo-t1",
+          "topic_title": "West Flowing Rivers",
+          "notes_list": [
+            {
+              "id": "b1-geo-01",
+              "title": "West Flowing River: Periyar",
+              "tags": [
+                "river",
+                "geography"
+              ],
+              "basic_overview": "Periyar (Kerala) flows west into the Arabian Sea. Krishna, Damodar and Ponnaiyar flow east.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#2563eb",
+              "extra_info_content": "Other well-known west-flowing rivers: Narmada, Tapi, Mahi, Sabarmati. Most peninsular rivers flow east into the Bay of Bengal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakes",
+      "title": "Lakes",
+      "filters": [
+        {
+          "label": "🟤 Lakes",
+          "tag": "lake"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-geo-t2",
+          "topic_title": "Types of Lakes",
+          "notes_list": [
+            {
+              "id": "b1-geo-02",
+              "title": "Lakes by Formation (8 types)",
+              "tags": [
+                "lake",
+                "geography"
+              ],
+              "basic_overview": "Tectonic (Wular, Baikal); Oxbow (Kanwar - Bihar, Kabartal); Lagoon (Chilika - Odisha, Pulicat - AP/TN); Crater (Lonar - Maharashtra, Toba - Indonesia).",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#92400e",
+              "extra_info_content": "Glacial (Nainital, Bhimtal - Uttarakhand); Aeolian/wind-formed (Sambhar, Didwana - Rajasthan); Artificial (Govind Sagar - HP, Rana Pratap Sagar - Rajasthan); Landslide (Gohna - Uttarakhand). Some books classify Nainital, Bhimtal and Sambhar differently, so follow your exam source."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

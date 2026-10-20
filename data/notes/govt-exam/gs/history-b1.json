@@ -1,0 +1,177 @@
+{
+  "chapter_title": "History - Test Notes",
+  "sections": [
+    {
+      "id": "revolt1857",
+      "title": "Revolt of 1857",
+      "filters": [
+        {
+          "label": "🔴 Rebellions",
+          "tag": "rebellion"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-his-t1",
+          "topic_title": "Leaders and Centres of 1857",
+          "notes_list": [
+            {
+              "id": "b1-his-01",
+              "title": "1857: Leaders and Centres",
+              "tags": [
+                "rebellion",
+                "modern"
+              ],
+              "basic_overview": "Nana Saheb - Kanpur; Begum Hazrat Mahal - Lucknow; General Bakht Khan - Delhi; Maulvi Ahmadullah - Faizabad; Khan Bahadur - Bareilly; Rani Laxmibai - Jhansi.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "Frequently asked as a match-the-following. Faizabad and Lucknow both belong to Awadh region, so check the exact leader-centre pair in the options."
+            },
+            {
+              "id": "b1-his-02",
+              "title": "Tatya Tope's Arrest",
+              "tags": [
+                "rebellion",
+                "modern"
+              ],
+              "basic_overview": "Tatya Tope was betrayed by Man Singh of Narwar after he fled into the jungles, and was captured in April 1859.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#dc2626",
+              "extra_info_content": "He was tried and executed on 18 April 1859. Exam trap: the betrayer is a local chief (Man Singh), not the Nawab of Lucknow or the Governor-General."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gandhi",
+      "title": "Gandhian Era and Freedom Struggle",
+      "filters": [
+        {
+          "label": "🟢 Movements",
+          "tag": "movement"
+        },
+        {
+          "label": "🟠 Congress",
+          "tag": "congress"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-his-t2",
+          "topic_title": "Mahatma Gandhi",
+          "notes_list": [
+            {
+              "id": "b1-his-03",
+              "title": "Gandhi: Key Facts and Movements",
+              "tags": [
+                "movement",
+                "modern"
+              ],
+              "basic_overview": "Gandhi died on 30 January 1948 in Delhi; the day is observed as Shaheed Diwas (Martyrs' Day). His autobiography is My Experiments with Truth.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "Movements in order: Champaran (1917), Kheda (1918), Khilafat (1919), Non-Cooperation (1920), Civil Disobedience / Dandi March (1930), Quit India (1942)."
+            },
+            {
+              "id": "b1-his-04",
+              "title": "Quit India Movement: Key Points",
+              "tags": [
+                "movement",
+                "congress"
+              ],
+              "basic_overview": "Lord Linlithgow was Viceroy when Quit India started in 1942. The Congress Working Committee met at Wardha on 14 July 1942 and passed the Quit India resolution.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#16a34a",
+              "extra_info_content": "The Congress session at Gowalia Tank (Kranti Maidan), Mumbai on 7-8 August 1942 gave the call, with Maulana Abul Kalam Azad as President of the session. Gandhi's slogan was 'Do or Die'. The CWC itself was formed at the Nagpur session of December 1920, headed by C. Vijayaraghavacharya."
+            },
+            {
+              "id": "b1-his-05",
+              "title": "Madan Mohan Malaviya",
+              "tags": [
+                "congress",
+                "modern"
+              ],
+              "basic_overview": "Madan Mohan Malaviya founded Banaras Hindu University (BHU), Varanasi in 1916 and was President of the Indian National Congress four times.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "He opposed untouchability, was called 'Mahamana' (title linked with Rabindranath Tagore), and received the Bharat Ratna posthumously in 2015."
+            }
+          ]
+        },
+        {
+          "topic_id": "b1-his-t3",
+          "topic_title": "Towards Independence",
+          "notes_list": [
+            {
+              "id": "b1-his-06",
+              "title": "August Offer (1940)",
+              "tags": [
+                "congress",
+                "modern"
+              ],
+              "basic_overview": "The August Offer of 1940 promised Dominion Status for India after the war.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "Made by Viceroy Linlithgow in August 1940. Congress rejected it. Do not confuse with 'complete independence' (Purna Swaraj, 1929/1930)."
+            },
+            {
+              "id": "b1-his-07",
+              "title": "Direct Action Day (16 August 1946)",
+              "tags": [
+                "congress",
+                "modern"
+              ],
+              "basic_overview": "The Muslim League announced 16 August 1946 as Direct Action Day.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#f97316",
+              "extra_info_content": "It was followed by serious communal violence in Calcutta. Not related to Republic Day, Independence Day or 'Bloody Sunday'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolutionary",
+      "title": "Revolutionary Movement",
+      "filters": [
+        {
+          "label": "🟣 Revolutionaries",
+          "tag": "revolutionary"
+        }
+      ],
+      "topics": [
+        {
+          "topic_id": "b1-his-t4",
+          "topic_title": "Revolutionary Organisations and Events",
+          "notes_list": [
+            {
+              "id": "b1-his-08",
+              "title": "HRA and Kakori; Naujawan Bharat Sabha",
+              "tags": [
+                "revolutionary",
+                "modern"
+              ],
+              "basic_overview": "The Hindustan Republican Association (HRA) is associated with the Kakori conspiracy (1925). Bhagat Singh was the first secretary of the Naujawan Bharat Sabha, founded in 1926.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Do not confuse with the Delhi conspiracy case, Ghadar conspiracy or Alipore bomb case, which belong to other groups and years."
+            },
+            {
+              "id": "b1-his-09",
+              "title": "Order of Revolutionary Events (1908-1912)",
+              "tags": [
+                "revolutionary",
+                "modern"
+              ],
+              "basic_overview": "Muzaffarpur bomb attack (Khudiram Bose, Prafulla Chaki) - April 1908; Alipore Bomb Case (Aurobindo Ghose and others arrested) - May 1908.",
+              "has_extra_info": true,
+              "extra_info_btn_color": "#7c3aed",
+              "extra_info_content": "Then the assassination of Curzon-Wylie in London by Madan Lal Dhingra (July 1909), and the bomb attack on Lord Hardinge during a Delhi procession (December 1912). Muzaffarpur is the earliest."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
