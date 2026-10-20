@@ -1,8 +1,19 @@
 {
   "chapters": [
-    { "id": "vyakaran", "title": "Hindi Vyakaran", "file": "data/notes/govt-exam/hindi/vyakaran.json" },
-    { "id": "gadyans", "title": "Gadyans", "file": "data/notes/govt-exam/hindi/gadyans.json" }
-    
-    
+    {
+      "id": "vyakaran",
+      "title": "Hindi Vyakaran",
+      "file": "data/notes/govt-exam/hindi/vyakaran.json"
+    },
+    {
+      "id": "gadyans",
+      "title": "Gadyans",
+      "file": "data/notes/govt-exam/hindi/gadyans.json"
+    },
+    {
+      "id": "ling-b1",
+      "title": "Hindi Vyakaran - Test Notes",
+      "file": "data/notes/govt-exam/hindi/ling-b1.json"
+    }
   ]
 }
