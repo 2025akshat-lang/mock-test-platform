@@ -1,0 +1,29 @@
+{
+  "title": "Kushana Samrajya",
+  "icon": "🏛️",
+  "kind": "Dynasty",
+  "date": null,
+  "hook": "Kushana Samrajya: Silk Route par niyantran; Roman vyapar se sone ka aagman.",
+  "facts": {
+    "Mool": "Yuezhi (Central Asia)",
+    "Pramukh raja": "Kujula, Vima, Kanishka, Huvishka",
+    "Rajdhani": "Purushapura, Mathura"
+  },
+  "exam_points": [
+    "Silk Route par niyantran; Roman vyapar se sone ka aagman.",
+    "Gandhara aur Mathura kala shailiyan; Mahayana ka vikas.",
+    "Rabatak abhilekh (Afghanistan) mein Kanishka ki vanshavali."
+  ],
+  "mcqs": [
+    {
+      "q": "Mathura aur Gandhara kala shailiyan kis kaal mein vikasit hui?",
+      "options": [
+        "Gupta kaal",
+        "Pala kaal",
+        "Kushana kaal",
+        "Maurya kaal"
+      ],
+      "answer": 2
+    }
+  ]
+}

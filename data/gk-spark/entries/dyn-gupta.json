@@ -1,0 +1,29 @@
+{
+  "title": "Gupta Vansh",
+  "icon": "🏛️",
+  "kind": "Dynasty",
+  "date": null,
+  "hook": "Gupta Vansh: Prashasanik ikai: Bhukti (Uparika), Vishaya (Vishayapati), Gram (Gramika).",
+  "facts": {
+    "Sansthapak": "Sri Gupta",
+    "Gupta Samvat": "319-320 CE",
+    "Shikhar": "Samudragupta, Chandragupta II"
+  },
+  "exam_points": [
+    "Prashasanik ikai: Bhukti (Uparika), Vishaya (Vishayapati), Gram (Gramika).",
+    "Sone ke sikke 'Dinara'; Swarna Yug: Kalidasa, Aryabhata, Varahamihira.",
+    "Huna aakramano se patan."
+  ],
+  "mcqs": [
+    {
+      "q": "Gupta kaal ke sone ke sikke ko kya kehte the?",
+      "options": [
+        "Karshapana",
+        "Dam",
+        "Dinara",
+        "Nishka"
+      ],
+      "answer": 2
+    }
+  ]
+}

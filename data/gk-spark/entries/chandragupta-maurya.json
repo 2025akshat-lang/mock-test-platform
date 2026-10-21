@@ -1,0 +1,31 @@
+{
+  "title": "Chandragupta Maurya",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Chandragupta Maurya: Maurya samrajya ka sansthapak",
+  "facts": {
+    "Vansh": "Maurya",
+    "Kaal": "c. 321-297 BCE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Maurya samrajya ka sansthapak"
+  },
+  "exam_points": [
+    "Chanakya (Kautilya) ki madad se Nanda vansh ko haraya.",
+    "Seleucus Nicator ko c. 305 BCE mein haraya; sandhi mein Aria, Arachosia, Gedrosia, Paropamisadae mile; badle mein 500 haathi.",
+    "Megasthenes Seleucus ka rajdoot tha; usne 'Indica' likhi.",
+    "Jain parampara: antim samay Shravanabelagola (Karnataka) mein sallekhana."
+  ],
+  "mcqs": [
+    {
+      "q": "Megasthenes kis Maurya raja ke darbar mein aaya?",
+      "options": [
+        "Ashoka",
+        "Bindusara",
+        "Dasharatha",
+        "Chandragupta Maurya"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Lakshmanasena",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Lakshmanasena: Jayadeva ke sanrakshak",
+  "facts": {
+    "Vansh": "Sena",
+    "Kaal": "c. 1179-1206 CE",
+    "Rajdhani/Kshetra": "Lakhnauti / Nadia",
+    "Pehchan": "Jayadeva ke sanrakshak"
+  },
+  "exam_points": [
+    "Darbar ke kavi: Jayadeva (Gita Govinda), Halayudha, Dhoyi.",
+    "Bakhtiyar Khilji ne Nadia par aakraman kiya (c. 1203-04)."
+  ],
+  "mcqs": [
+    {
+      "q": "'Gita Govinda' ke rachayita Jayadeva kis raja ke darbari the?",
+      "options": [
+        "Ballalasena",
+        "Ramapala",
+        "Dharmapala",
+        "Lakshmanasena"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Bhoja",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Bhoja: Vidwan raja",
+  "facts": {
+    "Vansh": "Paramara",
+    "Kaal": "c. 1010-1055 CE",
+    "Rajdhani/Kshetra": "Dhara (Dhar)",
+    "Pehchan": "Vidwan raja"
+  },
+  "exam_points": [
+    "Granth: Sarasvatikanthabharana, Samarangana Sutradhara; Bhojpur (Bhopal) aur Bhojtal.",
+    "Dhar mein Bhojshala (Saraswati mandir)."
+  ],
+  "mcqs": [
+    {
+      "q": "Bhojpur (Bhopal) aur Bhojtal kis raja se jude hain?",
+      "options": [
+        "Dhanga",
+        "Bhoja (Paramara)",
+        "Munja",
+        "Mihira Bhoja"
+      ],
+      "answer": 1
+    }
+  ]
+}

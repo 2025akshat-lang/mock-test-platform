@@ -1,0 +1,29 @@
+{
+  "title": "Bhima I",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Bhima I: Somnath par Mahmud ka aakraman",
+  "facts": {
+    "Vansh": "Chaulukya (Solanki), Gujarat",
+    "Kaal": "c. 1022-1064 CE",
+    "Rajdhani/Kshetra": "Anahilapataka",
+    "Pehchan": "Somnath par Mahmud ka aakraman"
+  },
+  "exam_points": [
+    "Mahmud Ghaznavi ne 1025-26 mein Somnath mandir loota (inke samay).",
+    "Modhera Sun Temple (c. 1026-27) inke samay ka; Mount Abu ka Dilwara (Adinath) mandir Vimala Shah ne banwaya (c. 1031)."
+  ],
+  "mcqs": [
+    {
+      "q": "Mahmud Ghaznavi ne Somnath kab loota?",
+      "options": [
+        "1206",
+        "1025-26",
+        "1001",
+        "1191"
+      ],
+      "answer": 1
+    }
+  ]
+}

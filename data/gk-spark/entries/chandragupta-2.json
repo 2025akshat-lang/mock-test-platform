@@ -1,0 +1,31 @@
+{
+  "title": "Chandragupta II (Vikramaditya)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Chandragupta II (Vikramaditya): Gupta Swarna Yug ke shikhar",
+  "facts": {
+    "Vansh": "Gupta",
+    "Kaal": "c. 375-415 CE",
+    "Rajdhani/Kshetra": "Pataliputra, Ujjain (doosri rajdhani)",
+    "Pehchan": "Gupta Swarna Yug ke shikhar"
+  },
+  "exam_points": [
+    "Western Kshatrapa Rudrasimha III ko haraya; Ujjain doosri rajdhani.",
+    "Chini yatri Fa-Hien (399-414 CE) ne yatra ki.",
+    "Navratna: Kalidasa, Amarasimha, Varahamihira aadi (parampara); Mehrauli Lauh Stambh (Chandra).",
+    "Putri Prabhavati Gupta ka vivah Vakataka Rudrasena II se."
+  ],
+  "mcqs": [
+    {
+      "q": "Fa-Hien kis Gupta raja ke samay aaya?",
+      "options": [
+        "Kumaragupta I",
+        "Chandragupta II",
+        "Samudragupta",
+        "Skandagupta"
+      ],
+      "answer": 1
+    }
+  ]
+}

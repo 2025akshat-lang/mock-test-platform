@@ -1,0 +1,30 @@
+{
+  "title": "Dahir",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Dahir: Muhammad bin Qasim se haar",
+  "facts": {
+    "Vansh": "Rai/Brahmin vansh (Sindh)",
+    "Kaal": "c. 679-712 CE",
+    "Rajdhani/Kshetra": "Aror (Alor)",
+    "Pehchan": "Muhammad bin Qasim se haar"
+  },
+  "exam_points": [
+    "712 CE mein Arab senapati Muhammad bin Qasim se Sindh mein haar; Raor ke yuddh mein maara gaya.",
+    "Chachnama (Persian) mein varnan; Chach Dahir ke pita the.",
+    "Arab vijay Sindh aur Multan tak seemit raha."
+  ],
+  "mcqs": [
+    {
+      "q": "Muhammad bin Qasim ne Sindh par kab aakraman kiya?",
+      "options": [
+        "636 CE",
+        "1001 CE",
+        "1191 CE",
+        "712 CE"
+      ],
+      "answer": 3
+    }
+  ]
+}

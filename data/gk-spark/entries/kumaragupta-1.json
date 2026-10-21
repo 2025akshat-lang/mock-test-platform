@@ -1,0 +1,30 @@
+{
+  "title": "Kumaragupta I",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Kumaragupta I: Nalanda ke sansthapak",
+  "facts": {
+    "Vansh": "Gupta",
+    "Kaal": "c. 415-455 CE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Nalanda ke sansthapak"
+  },
+  "exam_points": [
+    "Nalanda Mahavihar ki sthapna (Shakraditya) inke naam se jodi jati hai.",
+    "Mandasor abhilekh (436 CE): resham bunkaron ki shreni; upadhi Mahendraditya.",
+    "Shasan ke ant mein Huna aakraman shuru."
+  ],
+  "mcqs": [
+    {
+      "q": "Nalanda Mahavihar ki sthapna kis Gupta raja se jodi jati hai?",
+      "options": [
+        "Kumaragupta I",
+        "Samudragupta",
+        "Budhagupta",
+        "Skandagupta"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Jaichandra",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Jaichandra: Chandawar ka yuddh",
+  "facts": {
+    "Vansh": "Gahadavala",
+    "Kaal": "c. 1170-1194 CE",
+    "Rajdhani/Kshetra": "Kannauj",
+    "Pehchan": "Chandawar ka yuddh"
+  },
+  "exam_points": [
+    "1194 mein Chandawar (Etawah) mein Muhammad Ghori se haar; parampara mein Prithviraj ka virodhi."
+  ],
+  "mcqs": [
+    {
+      "q": "Chandawar ka yuddh (1194) mein Ghori ne kise haraya?",
+      "options": [
+        "Govindachandra",
+        "Jaichandra",
+        "Prithviraj III",
+        "Paramardi"
+      ],
+      "answer": 1
+    }
+  ]
+}

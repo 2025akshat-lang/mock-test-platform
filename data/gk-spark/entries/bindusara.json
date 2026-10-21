@@ -1,0 +1,30 @@
+{
+  "title": "Bindusara",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Bindusara: 'Amitraghata' (shatru-vinashak)",
+  "facts": {
+    "Vansh": "Maurya",
+    "Kaal": "c. 297-273 BCE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "'Amitraghata' (shatru-vinashak)"
+  },
+  "exam_points": [
+    "Greek lekhakon ne ise 'Amitrochates' kaha.",
+    "Syria ke Antiochus I ne rajdoot Deimachus bheja.",
+    "Ajivika sampraday ko sanrakshan diya."
+  ],
+  "mcqs": [
+    {
+      "q": "Greek lekhakon ne Bindusara ko kya kaha?",
+      "options": [
+        "Amitrochates",
+        "Sandrocottus",
+        "Agrammes",
+        "Xandrames"
+      ],
+      "answer": 0
+    }
+  ]
+}

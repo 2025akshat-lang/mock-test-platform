@@ -1,0 +1,28 @@
+{
+  "title": "Shaka (Scythian)",
+  "icon": "🏹",
+  "kind": "Dynasty",
+  "date": null,
+  "hook": "Shaka (Scythian): Shaka Samvat Bharat ka rashtriya panchang (1957 se) hai.",
+  "facts": {
+    "Pehla Shaka raja": "Maues (Moga)",
+    "Shaka Samvat": "78 CE (Kanishka se jodta hai)",
+    "Shakha": "Western Kshatrapa (Ujjain)"
+  },
+  "exam_points": [
+    "Shaka Samvat Bharat ka rashtriya panchang (1957 se) hai.",
+    "Western Kshatrapa shakha sabse lambi chali (Rudradaman)."
+  ],
+  "mcqs": [
+    {
+      "q": "Bharat ka rashtriya panchang kis Samvat par adharit hai?",
+      "options": [
+        "Gupta Samvat",
+        "Hijri",
+        "Shaka Samvat",
+        "Vikram Samvat"
+      ],
+      "answer": 2
+    }
+  ]
+}

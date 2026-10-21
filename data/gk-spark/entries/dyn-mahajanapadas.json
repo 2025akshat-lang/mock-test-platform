@@ -1,0 +1,30 @@
+{
+  "title": "16 Mahajanapada",
+  "icon": "🗺️",
+  "kind": "Dynasty / Rajya",
+  "date": null,
+  "hook": "16 Mahajanapada: Anga (Champa), Magadha (Rajagriha), Kashi (Varanasi), Kosala (Shravasti), Vajji (Vaisha...",
+  "facts": {
+    "Srot": "Anguttara Nikaya (Bauddh); Jain Bhagavati Sutra ki list alag",
+    "Sankhya": "16",
+    "Dakshin mein sirf": "Assaka (Godavari kinare)"
+  },
+  "exam_points": [
+    "Anga (Champa), Magadha (Rajagriha), Kashi (Varanasi), Kosala (Shravasti), Vajji (Vaishali), Malla (Kushinara, Pava).",
+    "Chedi (Suktimati), Vatsa (Kaushambi), Kuru (Indraprastha), Panchala (Ahichhatra, Kampilya), Machchha (Viratnagar), Surasena (Mathura).",
+    "Assaka (Potana/Potali), Avanti (Ujjain, Mahishmati), Gandhara (Taxila), Kamboja (Rajapura).",
+    "Vajji aur Malla ganarajya (sangh) the, baaki rajtantra."
+  ],
+  "mcqs": [
+    {
+      "q": "Kaun sa Mahajanapada Vindhya ke dakshin mein, Godavari kinare tha?",
+      "options": [
+        "Chedi",
+        "Vatsa",
+        "Assaka",
+        "Avanti"
+      ],
+      "answer": 2
+    }
+  ]
+}

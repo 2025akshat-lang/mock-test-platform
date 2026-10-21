@@ -1,0 +1,32 @@
+{
+  "title": "Ashoka",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Ashoka: Dhamma ka pracharak samrat",
+  "facts": {
+    "Vansh": "Maurya",
+    "Kaal": "c. 273-232 BCE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Dhamma ka pracharak samrat"
+  },
+  "exam_points": [
+    "Kalinga yuddh c. 261 BCE (rajyabhishek ke 8ve varsh); Rock Edict XIII mein varnit.",
+    "Tisri Bauddh Sangiti Pataliputra mein, adhyaksh Moggaliputta Tissa.",
+    "Putra Mahendra aur putri Sanghamitra ko Sri Lanka bheja.",
+    "James Prinsep ne 1837 mein Brahmi lipi padhi; Maski abhilekh mein 'Ashoka' naam milta hai.",
+    "Sarnath ka Singh-stambh Bharat ka rashtriya chinh."
+  ],
+  "mcqs": [
+    {
+      "q": "Brahmi lipi ko kisne padha (1837)?",
+      "options": [
+        "R.D. Banerji",
+        "James Prinsep",
+        "Alexander Cunningham",
+        "John Marshall"
+      ],
+      "answer": 1
+    }
+  ]
+}

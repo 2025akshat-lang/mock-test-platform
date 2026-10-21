@@ -1,0 +1,25 @@
+{
+  "title": "Indus Valley Civilization",
+  "icon": "\ud83c\udffa",
+  "kind": "History point",
+  "date": null,
+  "hook": "Harappa ki khoj kisne ki aur kab?",
+  "facts": {
+    "Period": "c. 2600 - 1900 BCE (mature phase)",
+    "Harappa discovered": "1921, Daya Ram Sahni",
+    "Mohenjo-daro discovered": "1922, R.D. Banerji",
+    "Famous site (Gujarat)": "Dholavira, Lothal"
+  },
+  "exam_points": [
+    "Lothal mein dockyard mila hai.",
+    "Mohenjo-daro ka matlab 'Murdon ka tila'.",
+    "Great Bath Mohenjo-daro se mila hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Great Bath kis site se mila?",
+      "options": ["Harappa", "Lothal", "Mohenjo-daro", "Kalibangan"],
+      "answer": 2
+    }
+  ]
+}

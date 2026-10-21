@@ -1,0 +1,29 @@
+{
+  "title": "Chandragupta I",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Chandragupta I: Gupta Samvat (319-320 CE)",
+  "facts": {
+    "Vansh": "Gupta",
+    "Kaal": "c. 319-335 CE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Gupta Samvat (319-320 CE)"
+  },
+  "exam_points": [
+    "Lichchhavi rajkumari Kumaradevi se vivah; 'Maharajadhiraja' upadhi.",
+    "Gupta Samvat ki shuruat 319-320 CE mein."
+  ],
+  "mcqs": [
+    {
+      "q": "Gupta Samvat kab shuru hua?",
+      "options": [
+        "606 CE",
+        "319-320 CE",
+        "78 CE",
+        "57 BCE"
+      ],
+      "answer": 1
+    }
+  ]
+}

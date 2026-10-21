@@ -1,0 +1,28 @@
+{
+  "title": "Bhanugupta",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Bhanugupta: Eran abhilekh aur sati ka praman",
+  "facts": {
+    "Vansh": "Gupta",
+    "Kaal": "c. 510 CE",
+    "Rajdhani/Kshetra": "Magadha",
+    "Pehchan": "Eran abhilekh aur sati ka praman"
+  },
+  "exam_points": [
+    "Eran abhilekh (510 CE): Goparaja ki mrityu aur uski patni ke sati hone ka sabse purana abhilekhiya praman mana jata hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Sati ka sabse purana abhilekhiya praman kis abhilekh mein mana jata hai?",
+      "options": [
+        "Eran abhilekh (510 CE)",
+        "Junagadh abhilekh",
+        "Prayag Prashasti",
+        "Aihole abhilekh"
+      ],
+      "answer": 0
+    }
+  ]
+}

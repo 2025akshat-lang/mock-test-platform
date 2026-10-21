@@ -1,0 +1,24 @@
+{
+  "title": "Battle of Plassey",
+  "icon": "\u2694\ufe0f",
+  "kind": "History point",
+  "date": null,
+  "hook": "Plassey ki ladai ne India ka itihas kaise badla?",
+  "facts": {
+    "Year": "1757",
+    "Between": "Robert Clive (East India Company) vs Siraj-ud-Daulah",
+    "Betrayal by": "Mir Jafar",
+    "Result": "Company ka Bengal par control shuru"
+  },
+  "exam_points": [
+    "Plassey (1757) ko Company rule ki neev mana jata hai.",
+    "Iske baad 1764 ka Buxar yuddh Company ki pakad aur mazboot karta hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Plassey ke yuddh mein Nawab kaun tha?",
+      "options": ["Mir Qasim", "Siraj-ud-Daulah", "Shuja-ud-Daulah", "Mir Jafar"],
+      "answer": 1
+    }
+  ]
+}

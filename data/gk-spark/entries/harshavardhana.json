@@ -1,0 +1,31 @@
+{
+  "title": "Harshavardhana",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Harshavardhana: Antim bade Hindu samrat (V.A. Smith)",
+  "facts": {
+    "Vansh": "Pushyabhuti (Vardhana)",
+    "Kaal": "606-647 CE",
+    "Rajdhani/Kshetra": "Thanesar, baad mein Kannauj",
+    "Pehchan": "Antim bade Hindu samrat (V.A. Smith)"
+  },
+  "exam_points": [
+    "Narmada par Pulakeshin II se haar (Aihole abhilekh, Ravikirti).",
+    "Xuanzang (c. 630-643 CE) ne yatra ki; Kannauj sabha aur Prayag ka 'Mahamoksha Parishad'.",
+    "Natak: Ratnavali, Priyadarshika, Nagananda; Bana ki 'Harshacharita'.",
+    "Banskhera (628 CE) aur Madhuban (631 CE) tamra-patra."
+  ],
+  "mcqs": [
+    {
+      "q": "Harsha ko Narmada par kisne haraya?",
+      "options": [
+        "Pulakeshin II",
+        "Dantidurga",
+        "Pulumavi",
+        "Mahendravarman I"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Dharmapala",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Dharmapala: Vikramashila ke sansthapak",
+  "facts": {
+    "Vansh": "Pala",
+    "Kaal": "c. 770-810 CE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Vikramashila ke sansthapak"
+  },
+  "exam_points": [
+    "Vikramashila (Bhagalpur) vishwavidyalaya aur Somapura Mahavihar (Paharpur) ka nirman.",
+    "Kannauj ke liye Tripaksheeya sangharsh mein bhaag liya."
+  ],
+  "mcqs": [
+    {
+      "q": "Vikramashila vishwavidyalaya kisne sthapit kiya?",
+      "options": [
+        "Devapala",
+        "Kumaragupta I",
+        "Dharmapala",
+        "Gopala"
+      ],
+      "answer": 2
+    }
+  ]
+}

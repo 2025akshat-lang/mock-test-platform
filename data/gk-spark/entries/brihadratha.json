@@ -1,0 +1,28 @@
+{
+  "title": "Brihadratha",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Brihadratha: Antim Maurya raja",
+  "facts": {
+    "Vansh": "Maurya",
+    "Kaal": "c. 187-185 BCE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Antim Maurya raja"
+  },
+  "exam_points": [
+    "Senapati Pushyamitra Shunga ne sena ki samiksha ke samay hatya ki aur c. 185 BCE mein Shunga vansh sthapit kiya."
+  ],
+  "mcqs": [
+    {
+      "q": "Antim Maurya raja kaun tha?",
+      "options": [
+        "Dasharatha",
+        "Samprati",
+        "Bindusara",
+        "Brihadratha"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Gopala",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Gopala: Pala vansh ka sansthapak",
+  "facts": {
+    "Vansh": "Pala",
+    "Kaal": "c. 750-770 CE",
+    "Rajdhani/Kshetra": "Pataliputra / Monghyr",
+    "Pehchan": "Pala vansh ka sansthapak"
+  },
+  "exam_points": [
+    "Matsyanyaya ke ant mein pramukhon ne raja chuna; Odantapuri vihar ki sthapna."
+  ],
+  "mcqs": [
+    {
+      "q": "Pala vansh ka sansthapak kaun tha?",
+      "options": [
+        "Dharmapala",
+        "Devapala",
+        "Ramapala",
+        "Gopala"
+      ],
+      "answer": 3
+    }
+  ]
+}

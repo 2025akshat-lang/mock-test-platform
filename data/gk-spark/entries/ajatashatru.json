@@ -1,0 +1,30 @@
+{
+  "title": "Ajatashatru (Kunika)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Ajatashatru (Kunika): Pehli Bauddh Sangiti ke samay ke raja",
+  "facts": {
+    "Vansh": "Haryanka",
+    "Kaal": "c. 492-460 BCE",
+    "Rajdhani/Kshetra": "Rajagriha",
+    "Pehchan": "Pehli Bauddh Sangiti ke samay ke raja"
+  },
+  "exam_points": [
+    "Pehli Bauddh Sangiti Rajagriha (Saptaparni gufa) mein inke samay hui; adhyaksh Mahakassapa.",
+    "Vajji (Lichchhavi) yuddh mein 'Mahashilakantaka' (catapult) aur 'Rathamusala' ka prayog.",
+    "Pataligram mein durg ki neev inhi ke samay padi."
+  ],
+  "mcqs": [
+    {
+      "q": "Pehli Bauddh Sangiti kahan hui?",
+      "options": [
+        "Pataliputra",
+        "Kundalvana",
+        "Rajagriha",
+        "Vaishali"
+      ],
+      "answer": 2
+    }
+  ]
+}

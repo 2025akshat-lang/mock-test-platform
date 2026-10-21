@@ -1,0 +1,31 @@
+{
+  "title": "Kanishka I",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Kanishka I: Shaka Samvat (78 CE) aur chautha Bauddh sammelan",
+  "facts": {
+    "Vansh": "Kushana",
+    "Kaal": "c. 78-101 CE",
+    "Rajdhani/Kshetra": "Purushapura (Peshawar), Mathura",
+    "Pehchan": "Shaka Samvat (78 CE) aur chautha Bauddh sammelan"
+  },
+  "exam_points": [
+    "Chauthi Bauddh Sangiti Kundalvana (Kashmir) mein; adhyaksh Vasumitra, upadhyaksh Ashvaghosha.",
+    "Mahayana Bauddh dharm ka sanrakshak; Gandhara aur Mathura kala.",
+    "Darbar ke vidwan: Ashvaghosha, Nagarjuna, Charaka, Vasumitra (parampara).",
+    "Peshawar mein vishal stupa (Shah-ji-ki-Dheri)."
+  ],
+  "mcqs": [
+    {
+      "q": "Chauthi Bauddh Sangiti kahan hui?",
+      "options": [
+        "Rajagriha",
+        "Vaishali",
+        "Pataliputra",
+        "Kundalvana (Kashmir)"
+      ],
+      "answer": 3
+    }
+  ]
+}

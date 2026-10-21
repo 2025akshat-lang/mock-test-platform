@@ -1,0 +1,29 @@
+{
+  "title": "Maurya Samrajya",
+  "icon": "🦁",
+  "kind": "Dynasty",
+  "date": null,
+  "hook": "Maurya Samrajya: Prant: Uttarapatha (Taxila), Avantirata (Ujjain), Prachyapatha (Tosali), Dakshinapatha ...",
+  "facts": {
+    "Sthapna": "c. 321 BCE (Chandragupta)",
+    "Rajdhani": "Pataliputra",
+    "Antim raja": "Brihadratha (c. 185 BCE)"
+  },
+  "exam_points": [
+    "Prant: Uttarapatha (Taxila), Avantirata (Ujjain), Prachyapatha (Tosali), Dakshinapatha (Suvarnagiri).",
+    "Pramukh raja: Chandragupta, Bindusara, Ashoka.",
+    "Srot: Arthashastra, Indica, Ashokan abhilekh, Mudrarakshasa."
+  ],
+  "mcqs": [
+    {
+      "q": "Maurya prant 'Uttarapatha' ki rajdhani kya thi?",
+      "options": [
+        "Tosali",
+        "Suvarnagiri",
+        "Taxila",
+        "Ujjain"
+      ],
+      "answer": 2
+    }
+  ]
+}

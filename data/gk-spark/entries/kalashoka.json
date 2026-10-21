@@ -1,0 +1,28 @@
+{
+  "title": "Kalashoka (Kakavarna)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Kalashoka (Kakavarna): Doosri Bauddh Sangiti",
+  "facts": {
+    "Vansh": "Shishunaga",
+    "Kaal": "c. 383 BCE",
+    "Rajdhani/Kshetra": "Pataliputra / Vaishali",
+    "Pehchan": "Doosri Bauddh Sangiti"
+  },
+  "exam_points": [
+    "Doosri Bauddh Sangiti Vaishali mein inke samay (c. 383 BCE) hui; adhyaksh Sabakami."
+  ],
+  "mcqs": [
+    {
+      "q": "Doosri Bauddh Sangiti kahan hui?",
+      "options": [
+        "Kashmir",
+        "Vaishali",
+        "Rajagriha",
+        "Pataliputra"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Tripaksheeya Sangharsh (Kannauj)",
+  "icon": "⚔️",
+  "kind": "Dynasty / Ghatna",
+  "date": null,
+  "hook": "Tripaksheeya Sangharsh (Kannauj): Dharmapala ne Chakrayudha ko Kannauj ka raja banaya; Nagabhata II ne use hataya.",
+  "facts": {
+    "Teen shaktiyan": "Pratihara (pashchim), Pala (purv), Rashtrakuta (dakshin)",
+    "Kendra": "Kannauj",
+    "Samay": "8vi-10vi shatabdi"
+  },
+  "exam_points": [
+    "Dharmapala ne Chakrayudha ko Kannauj ka raja banaya; Nagabhata II ne use hataya.",
+    "Rashtrakutas (Dhruva, Govinda III) ne Pratihara aur Pala dono ko haraya.",
+    "Antatah Pratihara Mihira Bhoja ne Kannauj par pakad banayi."
+  ],
+  "mcqs": [
+    {
+      "q": "Tripaksheeya sangharsh kis nagar ke liye tha?",
+      "options": [
+        "Kannauj",
+        "Pataliputra",
+        "Ujjain",
+        "Mathura"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Bimbisara",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Bimbisara: Magadh samrajya ka sansthapak",
+  "facts": {
+    "Vansh": "Haryanka",
+    "Kaal": "c. 544-492 BCE",
+    "Rajdhani/Kshetra": "Rajagriha (Girivraja)",
+    "Pehchan": "Magadh samrajya ka sansthapak"
+  },
+  "exam_points": [
+    "Buddha aur Mahavira ka samkalin; vaivahik sambandhon (Kosaladevi, Chellana, Khema) se rajya badhaya.",
+    "Anga ko jeet kar Magadh mein milaya; Brahmadatta ko haraya.",
+    "Rajvaidya Jivaka inke darbar mein the; Ajatashatru ne inhe kaid kiya."
+  ],
+  "mcqs": [
+    {
+      "q": "Bimbisara ne kis rajya ko jeet kar Magadh mein milaya?",
+      "options": [
+        "Anga",
+        "Kashi",
+        "Vatsa",
+        "Avanti"
+      ],
+      "answer": 0
+    }
+  ]
+}

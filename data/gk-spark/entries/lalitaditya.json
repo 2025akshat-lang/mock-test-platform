@@ -1,0 +1,29 @@
+{
+  "title": "Lalitaditya Muktapida",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Lalitaditya Muktapida: Martand Sun Temple ke nirmata",
+  "facts": {
+    "Vansh": "Karkota (Kashmir)",
+    "Kaal": "c. 724-760 CE",
+    "Rajdhani/Kshetra": "Parihaspur / Srinagar",
+    "Pehchan": "Martand Sun Temple ke nirmata"
+  },
+  "exam_points": [
+    "Kannauj ke Yashovarman ko haraya; Kalhana ki Rajatarangini mein varnan.",
+    "Martand Surya mandir (Anantnag) ka nirman."
+  ],
+  "mcqs": [
+    {
+      "q": "Martand Surya mandir kis raja ne banwaya?",
+      "options": [
+        "Harsha",
+        "Didda",
+        "Lalitaditya",
+        "Avantivarman"
+      ],
+      "answer": 2
+    }
+  ]
+}
