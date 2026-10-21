@@ -1,7 +1,1007 @@
 {
-  "entries": [
-    { "file": "world-food-day.json", "date": "10-16" },
-    { "file": "indus-valley-civilization.json", "date": null },
-    { "file": "battle-of-plassey.json", "date": null }
-  ]
+ "entries": [
+  {
+   "file": "world-food-day.json",
+   "date": "10-16"
+  },
+  {
+   "file": "indus-valley-civilization.json",
+   "date": null
+  },
+  {
+   "file": "battle-of-plassey.json",
+   "date": null
+  },
+  {
+   "file": "sudas.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "porus.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ambhi.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "prasenajit.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "udayana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "pradyota.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "brahmadatta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chetaka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bimbisara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ajatashatru.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "udayin.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "nagadasaka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "shishunaga.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kalashoka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mahapadma.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dhananand.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chandragupta-maurya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bindusara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ashoka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dasharatha.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "samprati.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "brihadratha.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "pushyamitra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "agnimitra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vasumitra-shunga.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bhagabhadra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "devabhuti.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vasudeva-kanva.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "demetrius.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "menander.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "antialcidas.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "maues.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "nahapana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chashtana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "rudradaman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "gondophernes.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kujula.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vima.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kanishka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "huvishka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vasudeva-kushana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "sri-gupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ghatotkacha.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chandragupta-1.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "samudragupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ramagupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chandragupta-2.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kumaragupta-1.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "skandagupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "budhagupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bhanugupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "narasimhagupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "toramana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mihirakula.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "yashodharman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ishanavarman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "adityasena.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "prabhakarvardhana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "rajyavardhana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "harshavardhana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "shashanka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "grahavarman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bhaskaravarman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dahir.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "lalitaditya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "avantivarman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "didda.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "yashovarman-kannauj.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bappa-rawal.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "gopala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dharmapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "devapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mahipala-pala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ramapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vijayasena.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ballalasena.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "lakshmanasena.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "nagabhata-1.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vatsaraja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "nagabhata-2.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mihira-bhoja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mahendrapala-1.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mahipala-pratihara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "rajyapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "ajayaraja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "arnoraja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vigraharaja-4.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "prithviraj-3.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "munja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bhoja-paramara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "mularaja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "bhima-1.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "siddharaja.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kumarapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "yashovarman-chandela.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dhanga.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "vidyadhara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kirtivarman.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "paramardi.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "chandradeva.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "govindachandra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "jaichandra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "anangapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "kallar.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "jayapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "anandapala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-mahajanapadas.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-magadh-rise.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-haryanka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-shishunaga.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-nanda.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-maurya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-shunga.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-kanva.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-indo-greek.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-shaka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-indo-parthian.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-kushana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-western-kshatrapa.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-gupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-huna.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-maukhari.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-pushyabhuti.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-karkota.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-pala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-sena.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-pratihara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-tripartite.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-chahamana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-paramara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-chandela.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-gahadavala.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-chaulukya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-hindu-shahi.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "dyn-tomara.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-arthashastra.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-indica.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-mudrarakshasa.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-rajatarangini.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-harshacharita.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-milindapanha.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-fahien.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-xuanzang.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-itsing.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-alberuni.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-arab-travellers.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-prayag-prashasti.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-sudarshana.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-ashokan-edicts.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-lumbini.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-heliodorus.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-mehrauli.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-gupta-inscriptions.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-aihole.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-nalanda.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-vikramashila.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-takshashila.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-sanchi.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-sarnath.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-bharhut.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-bodhgaya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-khajuraho.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-prithviraj-raso.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-gita-govinda.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-kavyamimamsa.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-ramacharita.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-kalidasa.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-panini.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-patanjali.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-ayurveda.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-aryabhata.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-varahamihira.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-brahmagupta.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-mrichchhakatika.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "src-chachnama.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-alexander.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-buddhist-councils.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-eras.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-coins.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-mauryan-admin.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-mauryan-art.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-art-schools.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-gupta-art.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-gupta-admin.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-harsha-admin.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-pala-buddhism.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-rajput-temples.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "per-buddha.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "per-mahavira.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "per-chanakya.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "per-jivaka.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "per-naikidevi.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-vedic-polity.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-republics.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-dhamma.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-turk-invasions.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-mauryan-economy.json",
+   "date": null,
+   "cat": "ancient-north"
+  },
+  {
+   "file": "top-silk-route.json",
+   "date": null,
+   "cat": "ancient-north"
+  }
+ ]
 }
+
