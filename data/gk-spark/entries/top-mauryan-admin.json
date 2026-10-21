@@ -1,0 +1,28 @@
+{
+  "title": "Maurya prashasan",
+  "icon": "🏛️",
+  "kind": "Topic / Prashasan",
+  "date": null,
+  "hook": "Maurya prashasan: Chaar prant: Taxila, Ujjain, Tosali, Suvarnagiri.",
+  "facts": {
+    "Pramukh adhikari": "Mahamatra, Rajuka, Yukta, Pradeshika",
+    "Ashoka ke naye": "Dhamma-mahamatra",
+    "Srot": "Arthashastra, Indica, Ashokan abhilekh"
+  },
+  "exam_points": [
+    "Chaar prant: Taxila, Ujjain, Tosali, Suvarnagiri.",
+    "Vishal sena aur guptchar vyavastha (Arthashastra)."
+  ],
+  "mcqs": [
+    {
+      "q": "Ashoka dwara niyukt dhamma prachar ke adhikari kaun the?",
+      "options": [
+        "Pradeshika",
+        "Dhamma-mahamatra",
+        "Rajuka",
+        "Yukta"
+      ],
+      "answer": 1
+    }
+  ]
+}

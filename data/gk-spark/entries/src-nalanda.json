@@ -1,0 +1,28 @@
+{
+  "title": "Nalanda Mahavihar",
+  "icon": "🏯",
+  "kind": "Source / Sthal",
+  "date": null,
+  "hook": "Nalanda Mahavihar: Xuanzang aur I-tsing ne yahan padha.",
+  "facts": {
+    "Rajya": "Bihar",
+    "Sansthapak (parampara)": "Kumaragupta I (Shakraditya)",
+    "UNESCO": "2016"
+  },
+  "exam_points": [
+    "Xuanzang aur I-tsing ne yahan padha.",
+    "Dharmaganja pustakalaya; c. 1200 mein Bakhtiyar Khilji ne nasht kiya."
+  ],
+  "mcqs": [
+    {
+      "q": "Nalanda ke khandhar ko UNESCO ne kab World Heritage mana?",
+      "options": [
+        "2016",
+        "1989",
+        "2002",
+        "2010"
+      ],
+      "answer": 0
+    }
+  ]
+}

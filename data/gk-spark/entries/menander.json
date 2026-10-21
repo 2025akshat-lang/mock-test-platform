@@ -1,0 +1,30 @@
+{
+  "title": "Menander (Milinda)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Menander (Milinda): Bauddh Nagasena se prashnottar",
+  "facts": {
+    "Vansh": "Indo-Greek",
+    "Kaal": "c. 165-130 BCE",
+    "Rajdhani/Kshetra": "Sakala (Sialkot)",
+    "Pehchan": "Bauddh Nagasena se prashnottar"
+  },
+  "exam_points": [
+    "Pali granth 'Milindapanha' mein Milinda aur Nagasena ka samvad.",
+    "Bauddh dharm ka sanrakshak mana jata hai; sikke par dharmachakra.",
+    "Greek-Kharosthi lekh wale sikke prasiddh."
+  ],
+  "mcqs": [
+    {
+      "q": "Milindapanha kin do ke samvad par hai?",
+      "options": [
+        "Menander aur Nagasena",
+        "Ashoka aur Upagupta",
+        "Kanishka aur Ashvaghosha",
+        "Harsha aur Xuanzang"
+      ],
+      "answer": 0
+    }
+  ]
+}

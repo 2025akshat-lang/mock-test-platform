@@ -1,0 +1,29 @@
+{
+  "title": "Vardhamana Mahavira",
+  "icon": "🕉️",
+  "kind": "Vyakti",
+  "date": null,
+  "hook": "Vardhamana Mahavira: Pita Siddhartha (Jnatrika kul), mata Trishala (Lichchhavi).",
+  "facts": {
+    "Janm": "c. 540 BCE, Kundagrama (Vaishali ke paas)",
+    "Kaivalya": "Jrimbhikagrama, Rijupalika nadi, 42 varsh",
+    "Nirvana": "Pavapuri, c. 468 BCE",
+    "Sthan": "24ve Tirthankara"
+  },
+  "exam_points": [
+    "Pita Siddhartha (Jnatrika kul), mata Trishala (Lichchhavi).",
+    "23ve Tirthankara Parshvanath (Varanasi); Mahavira ne 5ve vrat (brahmacharya) joda."
+  ],
+  "mcqs": [
+    {
+      "q": "Jain dharm ke 24ve Tirthankara kaun the?",
+      "options": [
+        "Mahavira",
+        "Parshvanath",
+        "Rishabhanatha",
+        "Neminatha"
+      ],
+      "answer": 0
+    }
+  ]
+}

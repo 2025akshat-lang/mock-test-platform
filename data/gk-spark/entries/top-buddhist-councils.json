@@ -1,0 +1,31 @@
+{
+  "title": "Chaar Bauddh Sangitiyan",
+  "icon": "☸️",
+  "kind": "Topic / Ghatna",
+  "date": null,
+  "hook": "Chaar Bauddh Sangitiyan: Pehli: Sutta aur Vinaya sankalan.",
+  "facts": {
+    "1st": "Rajagriha, Ajatashatru, Mahakassapa",
+    "2nd": "Vaishali, Kalashoka, Sabakami",
+    "3rd": "Pataliputra, Ashoka, Moggaliputta Tissa",
+    "4th": "Kundalvana (Kashmir), Kanishka, Vasumitra"
+  },
+  "exam_points": [
+    "Pehli: Sutta aur Vinaya sankalan.",
+    "Doosri: Sthaviravadi aur Mahasanghika mein vibhajan.",
+    "Teesri: Abhidhamma Pitaka; Kathavatthu.",
+    "Chauthi: Mahayana aur Hinayana ka vibhajan."
+  ],
+  "mcqs": [
+    {
+      "q": "Teesri Bauddh Sangiti ke adhyaksh kaun the?",
+      "options": [
+        "Vasumitra",
+        "Moggaliputta Tissa",
+        "Mahakassapa",
+        "Sabakami"
+      ],
+      "answer": 1
+    }
+  ]
+}

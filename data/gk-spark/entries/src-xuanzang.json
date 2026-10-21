@@ -1,0 +1,28 @@
+{
+  "title": "Xuanzang (Hiuen Tsang)",
+  "icon": "🧳",
+  "kind": "Source / Yatri",
+  "date": null,
+  "hook": "Xuanzang (Hiuen Tsang): Harsha ke samay aaya; Nalanda mein Shilabhadra se padha.",
+  "facts": {
+    "Desh": "China",
+    "Bharat mein": "c. 629-645 CE",
+    "Granth": "Si-yu-ki"
+  },
+  "exam_points": [
+    "Harsha ke samay aaya; Nalanda mein Shilabhadra se padha.",
+    "'Prince of Pilgrims'; Kannauj sabha aur Prayag Mahamoksha Parishad ka varnan."
+  ],
+  "mcqs": [
+    {
+      "q": "Xuanzang ne Nalanda mein kiske paas adhyayan kiya?",
+      "options": [
+        "Nagarjuna",
+        "Dignaga",
+        "Atisha",
+        "Shilabhadra"
+      ],
+      "answer": 3
+    }
+  ]
+}

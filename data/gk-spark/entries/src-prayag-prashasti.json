@@ -1,0 +1,28 @@
+{
+  "title": "Prayag Prashasti",
+  "icon": "🗿",
+  "kind": "Source / Abhilekh",
+  "date": null,
+  "hook": "Prayag Prashasti: Samudragupta ke vijay: Aryavarta (9 raja), Dakshinapatha (12 raja).",
+  "facts": {
+    "Rachayita": "Harishena",
+    "Sthan": "Allahabad (Ashokan stambh par)",
+    "Raja": "Samudragupta"
+  },
+  "exam_points": [
+    "Samudragupta ke vijay: Aryavarta (9 raja), Dakshinapatha (12 raja).",
+    "Isi stambh par Ashoka ke lekh aur Jahangir ka lekh bhi hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Prayag Prashasti kisne likhi?",
+      "options": [
+        "Banabhatta",
+        "Kalhana",
+        "Harishena",
+        "Ravikirti"
+      ],
+      "answer": 2
+    }
+  ]
+}

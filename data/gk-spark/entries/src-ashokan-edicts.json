@@ -1,0 +1,29 @@
+{
+  "title": "Ashoka ke abhilekh",
+  "icon": "🗿",
+  "kind": "Source / Abhilekh",
+  "date": null,
+  "hook": "Ashoka ke abhilekh: 14 mukhya shilalekh, 7 stambh lekh; shuruaat 'Devanampiya Piyadasi'.",
+  "facts": {
+    "Lipiyan": "Brahmi (zyadatar), Kharosthi (NW), Greek, Aramaic",
+    "Bhasha": "Prakrit",
+    "Rock Edict XIII": "Kalinga yuddh"
+  },
+  "exam_points": [
+    "14 mukhya shilalekh, 7 stambh lekh; shuruaat 'Devanampiya Piyadasi'.",
+    "Maski aur Gujarra lekhon mein 'Ashoka' naam milta hai.",
+    "Kandahar aur Laghman se Greek/Aramaic lekh."
+  ],
+  "mcqs": [
+    {
+      "q": "Ashoka ke zyadatar abhilekh kis lipi mein hain?",
+      "options": [
+        "Greek",
+        "Brahmi",
+        "Kharosthi",
+        "Devanagari"
+      ],
+      "answer": 1
+    }
+  ]
+}

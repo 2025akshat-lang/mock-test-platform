@@ -1,0 +1,16 @@
+{
+  "title": "Ramacharita",
+  "icon": "📜",
+  "kind": "Source / Granth",
+  "date": null,
+  "hook": "Ramacharita: Kaivarta vidroh ka srot.",
+  "facts": {
+    "Lekhak": "Sandhyakar Nandi",
+    "Raja": "Ramapala (Pala)",
+    "Visheshta": "Dvyarthi kavya (Rama aur Ramapala)"
+  },
+  "exam_points": [
+    "Kaivarta vidroh ka srot."
+  ],
+  "mcqs": []
+}

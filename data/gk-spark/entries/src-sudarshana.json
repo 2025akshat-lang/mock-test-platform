@@ -1,0 +1,29 @@
+{
+  "title": "Sudarshana Jheel (Junagadh)",
+  "icon": "🗿",
+  "kind": "Source / Abhilekh",
+  "date": null,
+  "hook": "Sudarshana Jheel (Junagadh): Pushyagupta (Chandragupta ka rajyapal) ne banwayi.",
+  "facts": {
+    "Sthan": "Girnar, Junagadh (Gujarat)",
+    "Chaar kaal": "Chandragupta Maurya, Ashoka, Rudradaman, Skandagupta",
+    "Mahatva": "Seenchai ka praman"
+  },
+  "exam_points": [
+    "Pushyagupta (Chandragupta ka rajyapal) ne banwayi.",
+    "Tushaspa (Ashoka ka rajyapal) ne nahar nikali; Rudradaman ne marammat ki.",
+    "Skandagupta ke rajyapal ke putra Chakrapalita ne marammat ki."
+  ],
+  "mcqs": [
+    {
+      "q": "Sudarshana jheel ka sambandh kis Maurya raja ke rajyapal Pushyagupta se hai?",
+      "options": [
+        "Bindusara",
+        "Ashoka",
+        "Dasharatha",
+        "Chandragupta Maurya"
+      ],
+      "answer": 3
+    }
+  ]
+}

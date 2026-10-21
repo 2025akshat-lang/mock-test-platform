@@ -1,0 +1,28 @@
+{
+  "title": "Naikidevi",
+  "icon": "👑",
+  "kind": "Vyakti",
+  "date": null,
+  "hook": "Naikidevi: Parampara/itihas ke anusaar bal-raja Mularaja II ki mata Naikidevi ne Ghori ko haraya.",
+  "facts": {
+    "Vansh": "Chaulukya (Solanki), Gujarat",
+    "Yuddh": "Kasahrada (Mount Abu), 1178 CE",
+    "Shatru": "Muhammad Ghori"
+  },
+  "exam_points": [
+    "Parampara/itihas ke anusaar bal-raja Mularaja II ki mata Naikidevi ne Ghori ko haraya.",
+    "Ghori ki Bharat mein pehli badi haar mani jati hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Ghori ko 1178 mein kisne haraya?",
+      "options": [
+        "Prithviraj Chauhan",
+        "Jaichandra",
+        "Paramardi",
+        "Chaulukya (Mularaja II / Naikidevi)"
+      ],
+      "answer": 3
+    }
+  ]
+}

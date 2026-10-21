@@ -1,0 +1,30 @@
+{
+  "title": "Prithviraj Chauhan III",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Prithviraj Chauhan III: Tarain ke yuddh",
+  "facts": {
+    "Vansh": "Chahamana (Chauhan)",
+    "Kaal": "c. 1177-1192 CE",
+    "Rajdhani/Kshetra": "Ajmer / Delhi",
+    "Pehchan": "Tarain ke yuddh"
+  },
+  "exam_points": [
+    "Pehla Tarain (1191): Ghori ko haraya; Doosra Tarain (1192): haar.",
+    "Chand Bardai ki 'Prithviraj Raso'; Jayanaka ki 'Prithviraj Vijaya'.",
+    "1182 mein Chandela Paramardi ko haraya."
+  ],
+  "mcqs": [
+    {
+      "q": "Doosra Tarain ka yuddh kab hua?",
+      "options": [
+        "1192",
+        "1191",
+        "1206",
+        "1526"
+      ],
+      "answer": 0
+    }
+  ]
+}

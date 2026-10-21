@@ -1,0 +1,30 @@
+{
+  "title": "Rudradaman I",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Rudradaman I: Junagadh abhilekh ka nirmata",
+  "facts": {
+    "Vansh": "Western Kshatrapa",
+    "Kaal": "c. 130-150 CE",
+    "Rajdhani/Kshetra": "Ujjain",
+    "Pehchan": "Junagadh abhilekh ka nirmata"
+  },
+  "exam_points": [
+    "Junagadh (Girnar) shilalekh (150 CE): lamba shuddh Sanskrit abhilekh.",
+    "Sudarshana jheel ki marammat karwayi; ye jheel Chandragupta Maurya ke samay ban chuki thi.",
+    "Dakshinapatha-pati Satakarni ko haraya par rishtedari ke karan nasht nahi kiya."
+  ],
+  "mcqs": [
+    {
+      "q": "Junagadh shilalekh kis shasak ka hai?",
+      "options": [
+        "Skandagupta",
+        "Rudradaman I",
+        "Kanishka",
+        "Ashoka"
+      ],
+      "answer": 1
+    }
+  ]
+}

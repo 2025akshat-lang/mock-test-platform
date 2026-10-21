@@ -1,0 +1,28 @@
+{
+  "title": "Rajatarangini",
+  "icon": "📜",
+  "kind": "Source / Granth",
+  "date": null,
+  "hook": "Rajatarangini: Kashmir ke rajaon ka itihas; 8 taranga.",
+  "facts": {
+    "Lekhak": "Kalhana",
+    "Kaal": "c. 1148-49 CE",
+    "Bhasha": "Sanskrit"
+  },
+  "exam_points": [
+    "Kashmir ke rajaon ka itihas; 8 taranga.",
+    "Sanskrit mein itihas jaisi pehli rachna maani jati hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Rajatarangini ke lekhak kaun hain?",
+      "options": [
+        "Bilhana",
+        "Jayanaka",
+        "Kalhana",
+        "Banabhatta"
+      ],
+      "answer": 2
+    }
+  ]
+}

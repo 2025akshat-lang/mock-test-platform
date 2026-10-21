@@ -1,0 +1,28 @@
+{
+  "title": "Al-Biruni",
+  "icon": "🧳",
+  "kind": "Source / Yatri",
+  "date": null,
+  "hook": "Al-Biruni: Bharatiya vigyan, dharm aur samaj ka varnan.",
+  "facts": {
+    "Granth": "Tahqiq-i-Hind (Kitab-ul-Hind)",
+    "Kaal": "11vi shatabdi",
+    "Sath": "Mahmud Ghaznavi ke saath aaya"
+  },
+  "exam_points": [
+    "Bharatiya vigyan, dharm aur samaj ka varnan.",
+    "Hindu Shahi vansh ke baare mein bhi jankari."
+  ],
+  "mcqs": [
+    {
+      "q": "Tahqiq-i-Hind kiski rachna hai?",
+      "options": [
+        "Al-Biruni",
+        "Al-Masudi",
+        "Sulaiman",
+        "Ibn Battuta"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Gandhara aur Mathura kala shaili",
+  "icon": "🗿",
+  "kind": "Topic / Kala",
+  "date": null,
+  "hook": "Gandhara aur Mathura kala shaili: Mathura ne yaksh, tirthankar aur Buddha ki murtiyan banayin.",
+  "facts": {
+    "Gandhara": "Greco-Roman prabhav, dhusar schist, Buddha ki yunani chhavi",
+    "Mathura": "Deshi shaili, lal balu-pathar",
+    "Sanrakshak": "Kushana"
+  },
+  "exam_points": [
+    "Mathura ne yaksh, tirthankar aur Buddha ki murtiyan banayin."
+  ],
+  "mcqs": [
+    {
+      "q": "Mathura kala shaili mein kaun sa pathar prayog hota tha?",
+      "options": [
+        "Kala basalt",
+        "Lal balu-pathar",
+        "Dhusar schist",
+        "Safed sangmarmar"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Arthashastra",
+  "icon": "📜",
+  "kind": "Source / Granth",
+  "date": null,
+  "hook": "Arthashastra: Paramparik roop se 15 adhikarana, 180 prakarana mane jate hain.",
+  "facts": {
+    "Lekhak": "Kautilya (Chanakya / Vishnugupta)",
+    "Bhasha": "Sanskrit",
+    "Khoj": "1905, R. Shamasastry (Mysore)"
+  },
+  "exam_points": [
+    "Paramparik roop se 15 adhikarana, 180 prakarana mane jate hain.",
+    "Saptanga rajya: swami, amatya, janapada, durga, kosha, danda, mitra.",
+    "Maurya prashasan, rajneeti aur arthvyavastha ka mukhya srot."
+  ],
+  "mcqs": [
+    {
+      "q": "Arthashastra kisne likha (parampara)?",
+      "options": [
+        "Vishakhadatta",
+        "Kalhana",
+        "Kautilya (Chanakya)",
+        "Megasthenes"
+      ],
+      "answer": 2
+    }
+  ]
+}

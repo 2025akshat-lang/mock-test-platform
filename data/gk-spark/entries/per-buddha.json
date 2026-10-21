@@ -1,0 +1,30 @@
+{
+  "title": "Gautama Buddha",
+  "icon": "☸️",
+  "kind": "Vyakti",
+  "date": null,
+  "hook": "Gautama Buddha: Pita Suddhodhana, mata Mahamaya, patni Yashodhara, putra Rahula.",
+  "facts": {
+    "Janm": "c. 563 BCE, Lumbini (Shakya, Kapilavastu)",
+    "Gyan": "Bodh Gaya, Niranjana nadi (35 varsh ki umr)",
+    "Pehla updesh": "Sarnath (Dharmachakra Pravartana)",
+    "Mahaparinirvana": "Kushinagar (Malla), c. 483 BCE"
+  },
+  "exam_points": [
+    "Pita Suddhodhana, mata Mahamaya, patni Yashodhara, putra Rahula.",
+    "Mahabhinishkramana (grih-tyag) 29 varsh ki umr mein.",
+    "Chaar Aryasatya aur Ashtangika Marga; Madhyam Marg."
+  ],
+  "mcqs": [
+    {
+      "q": "Buddha ka Mahaparinirvana kahan hua?",
+      "options": [
+        "Sarnath",
+        "Bodh Gaya",
+        "Kushinagar",
+        "Lumbini"
+      ],
+      "answer": 2
+    }
+  ]
+}

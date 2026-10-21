@@ -1,0 +1,16 @@
+{
+  "title": "Charaka aur Sushruta Samhita",
+  "icon": "📜",
+  "kind": "Source / Granth",
+  "date": null,
+  "hook": "Charaka aur Sushruta Samhita: Sushruta ko 'Surgery ka janak' kaha jata hai.",
+  "facts": {
+    "Charaka Samhita": "Chikitsa (Internal medicine)",
+    "Sushruta Samhita": "Shalya chikitsa (Surgery)",
+    "Samkalin (Charaka)": "Kanishka (parampara)"
+  },
+  "exam_points": [
+    "Sushruta ko 'Surgery ka janak' kaha jata hai."
+  ],
+  "mcqs": []
+}

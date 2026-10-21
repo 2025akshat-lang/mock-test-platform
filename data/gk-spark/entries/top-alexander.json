@@ -1,0 +1,29 @@
+{
+  "title": "Sikandar ka Bharat aakraman",
+  "icon": "⚔️",
+  "kind": "Topic / Ghatna",
+  "date": null,
+  "hook": "Sikandar ka Bharat aakraman: Taxila ke Ambhi ne saath diya; Porus ne virodh kiya.",
+  "facts": {
+    "Samay": "327-325 BCE",
+    "Mukhya yuddh": "Hydaspes (326 BCE)",
+    "Ruka": "Beas (Hyphasis) nadi par"
+  },
+  "exam_points": [
+    "Taxila ke Ambhi ne saath diya; Porus ne virodh kiya.",
+    "Sena ke vidroh par Beas se wapsi; Nearchus ne Sindhu se samudri raasta liya.",
+    "323 BCE mein Babylon mein Sikandar ki mrityu."
+  ],
+  "mcqs": [
+    {
+      "q": "Sikandar ki sena kis nadi par ruk gayi?",
+      "options": [
+        "Jhelum",
+        "Ravi",
+        "Sutlej",
+        "Beas (Hyphasis)"
+      ],
+      "answer": 3
+    }
+  ]
+}

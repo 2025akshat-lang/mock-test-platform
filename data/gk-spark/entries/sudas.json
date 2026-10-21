@@ -1,0 +1,30 @@
+{
+  "title": "Sudas",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Sudas: Dasarajna yuddh ka vijeta",
+  "facts": {
+    "Vansh": "Bharata (Rigvedic)",
+    "Kaal": "c. 1500-1000 BCE",
+    "Rajdhani/Kshetra": "Saraswati-Yamuna kshetra (Punjab)",
+    "Pehchan": "Dasarajna yuddh ka vijeta"
+  },
+  "exam_points": [
+    "Dasarajna (das rajaon ka) yuddh Parushni (Ravi) nadi ke kinare hua; Rigveda ke 7th mandal mein varnit.",
+    "Sudas Bharata kabile ka raja tha; purohit Vashishtha the, Vishwamitra virodhi paksh mein.",
+    "Sudas ne 10 rajaon ke sangh ko haraya."
+  ],
+  "mcqs": [
+    {
+      "q": "Dasarajna yuddh kis nadi ke kinare hua?",
+      "options": [
+        "Parushni (Ravi)",
+        "Sindhu",
+        "Saraswati",
+        "Ganga"
+      ],
+      "answer": 0
+    }
+  ]
+}

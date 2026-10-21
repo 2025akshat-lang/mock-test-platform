@@ -1,0 +1,28 @@
+{
+  "title": "Kalidasa ki rachnayein",
+  "icon": "📜",
+  "kind": "Source / Granth",
+  "date": null,
+  "hook": "Kalidasa ki rachnayein: Gupta kaal ke mahan kavi (Chandragupta II ke darbari, parampara).",
+  "facts": {
+    "Natak": "Abhijnana-Shakuntalam, Vikramorvashiyam, Malavikagnimitram",
+    "Kavya": "Raghuvamsham, Kumarasambhavam",
+    "Doot kavya": "Meghadutam; Ritusamhara"
+  },
+  "exam_points": [
+    "Gupta kaal ke mahan kavi (Chandragupta II ke darbari, parampara).",
+    "Shakuntalam ka anuvad William Jones ne (1789)."
+  ],
+  "mcqs": [
+    {
+      "q": "'Meghadutam' kisne likha?",
+      "options": [
+        "Bhasa",
+        "Shudraka",
+        "Banabhatta",
+        "Kalidasa"
+      ],
+      "answer": 3
+    }
+  ]
+}

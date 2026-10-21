@@ -1,0 +1,30 @@
+{
+  "title": "Pushyamitra Shunga",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Pushyamitra Shunga: Shunga vansh ka sansthapak",
+  "facts": {
+    "Vansh": "Shunga",
+    "Kaal": "c. 185-149 BCE",
+    "Rajdhani/Kshetra": "Pataliputra (Vidisha)",
+    "Pehchan": "Shunga vansh ka sansthapak"
+  },
+  "exam_points": [
+    "Do Ashvamedha yagya kiye; purohit Patanjali (Mahabhashya).",
+    "Ayodhya abhilekh (Dhanadeva) mein Ashvamedha ka ullekh.",
+    "Bharhut stupa aur Sanchi ke vistar ka kaal."
+  ],
+  "mcqs": [
+    {
+      "q": "Pushyamitra ke purohit kaun the?",
+      "options": [
+        "Charaka",
+        "Kautilya",
+        "Patanjali",
+        "Panini"
+      ],
+      "answer": 2
+    }
+  ]
+}

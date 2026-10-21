@@ -1,0 +1,30 @@
+{
+  "title": "Samudragupta",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Samudragupta: 'Bharat ka Napoleon' (V.A. Smith)",
+  "facts": {
+    "Vansh": "Gupta",
+    "Kaal": "c. 335-375 CE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "'Bharat ka Napoleon' (V.A. Smith)"
+  },
+  "exam_points": [
+    "Prayag Prashasti (Harishena) Ashokan stambh par; Aryavarta (9 raja) aur Dakshinapatha (12 raja) vijay.",
+    "Sikke: Ashvamedha, Veena-vadak, Dhanurdhari, Vyaghra-hanta; upadhi 'Kaviraja'.",
+    "Sri Lanka ke Meghavarna ko Bodh Gaya mein vihar banane ki anumati."
+  ],
+  "mcqs": [
+    {
+      "q": "Samudragupta ko 'Bharat ka Napoleon' kisne kaha?",
+      "options": [
+        "R.C. Majumdar",
+        "James Prinsep",
+        "John Marshall",
+        "V.A. Smith"
+      ],
+      "answer": 3
+    }
+  ]
+}

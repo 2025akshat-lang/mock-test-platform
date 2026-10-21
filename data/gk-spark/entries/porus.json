@@ -1,0 +1,30 @@
+{
+  "title": "Porus (Raja Puru)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Porus (Raja Puru): Sikandar se Hydaspes ka yuddh",
+  "facts": {
+    "Vansh": "Paurava",
+    "Kaal": "c. 326 BCE",
+    "Rajdhani/Kshetra": "Jhelum-Chenab ke beech ka rajya",
+    "Pehchan": "Sikandar se Hydaspes ka yuddh"
+  },
+  "exam_points": [
+    "Hydaspes (Jhelum) ka yuddh 326 BCE mein Sikandar aur Porus ke beech hua.",
+    "Haar ke baad bhi Sikandar ne Porus ka rajya wapas lauta diya aur use apna sahyogi banaya.",
+    "Sikandar ne yuddh ke baad Bucephala aur Nicaea nagar basaye."
+  ],
+  "mcqs": [
+    {
+      "q": "Hydaspes ka yuddh kab hua?",
+      "options": [
+        "305 BCE",
+        "326 BCE",
+        "321 BCE",
+        "261 BCE"
+      ],
+      "answer": 1
+    }
+  ]
+}

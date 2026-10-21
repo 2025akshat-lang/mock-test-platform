@@ -1,0 +1,27 @@
+{
+  "title": "Aryabhata",
+  "icon": "🔭",
+  "kind": "Source / Vigyan",
+  "date": null,
+  "hook": "Aryabhata: Pehla Bharatiya upgrah 'Aryabhata' (1975) unke naam par.",
+  "facts": {
+    "Granth": "Aryabhatiya (499 CE)",
+    "Janm": "476 CE, Kusumapura (Pataliputra)",
+    "Uplabdhi": "Pi ka sannikat mann 3.1416, prithvi ka ghoornan"
+  },
+  "exam_points": [
+    "Pehla Bharatiya upgrah 'Aryabhata' (1975) unke naam par."
+  ],
+  "mcqs": [
+    {
+      "q": "Pehle Bharatiya upgrah ka naam kiske naam par tha?",
+      "options": [
+        "Varahamihira",
+        "Brahmagupta",
+        "Bhaskara",
+        "Aryabhata"
+      ],
+      "answer": 3
+    }
+  ]
+}

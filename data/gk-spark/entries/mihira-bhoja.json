@@ -1,0 +1,29 @@
+{
+  "title": "Mihira Bhoja",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Mihira Bhoja: Pratihara vansh ka sabse mahan raja",
+  "facts": {
+    "Vansh": "Gurjara-Pratihara",
+    "Kaal": "c. 836-885 CE",
+    "Rajdhani/Kshetra": "Kannauj",
+    "Pehchan": "Pratihara vansh ka sabse mahan raja"
+  },
+  "exam_points": [
+    "'Adivaraha' sikke; Arab yatri Sulaiman (851 CE) ne prashansa ki.",
+    "Gwalior prashasti inke samay ki mahatvapurn jankari deti hai."
+  ],
+  "mcqs": [
+    {
+      "q": "Pratihara vansh ka sabse mahan raja kaun tha?",
+      "options": [
+        "Rajyapala",
+        "Mihira Bhoja",
+        "Nagabhata I",
+        "Vatsaraja"
+      ],
+      "answer": 1
+    }
+  ]
+}

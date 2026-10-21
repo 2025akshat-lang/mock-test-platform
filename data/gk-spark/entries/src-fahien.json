@@ -1,0 +1,28 @@
+{
+  "title": "Fa-Hien (Faxian)",
+  "icon": "🧳",
+  "kind": "Source / Yatri",
+  "date": null,
+  "hook": "Fa-Hien (Faxian): Chandragupta II ke samay aaya; Madhya-desh ki shanti aur samriddhi ka varnan.",
+  "facts": {
+    "Desh": "China",
+    "Bharat mein": "399-414 CE",
+    "Granth": "Fo-kuo-ki"
+  },
+  "exam_points": [
+    "Chandragupta II ke samay aaya; Madhya-desh ki shanti aur samriddhi ka varnan.",
+    "Chandalon ka alag rehna aur kam daand ka ullekh."
+  ],
+  "mcqs": [
+    {
+      "q": "Fa-Hien kis desh se aaya?",
+      "options": [
+        "Greece",
+        "Arabia",
+        "Persia",
+        "China"
+      ],
+      "answer": 3
+    }
+  ]
+}

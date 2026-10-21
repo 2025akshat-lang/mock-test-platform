@@ -1,0 +1,29 @@
+{
+  "title": "Prachin Bharat ke Samvat",
+  "icon": "🗓️",
+  "kind": "Topic / Kaal-ganana",
+  "date": null,
+  "hook": "Prachin Bharat ke Samvat: Shaka Samvat 1957 se Bharat ka rashtriya panchang (1 Chaitra = 22 March).",
+  "facts": {
+    "Vikram Samvat": "57 BCE",
+    "Shaka Samvat": "78 CE",
+    "Gupta Samvat": "319-320 CE",
+    "Harsha Samvat": "606 CE"
+  },
+  "exam_points": [
+    "Shaka Samvat 1957 se Bharat ka rashtriya panchang (1 Chaitra = 22 March).",
+    "Vikram Samvat ki shuruat 57 BCE se maani jati hai (Malwa parampara)."
+  ],
+  "mcqs": [
+    {
+      "q": "Vikram Samvat kis varsh se shuru mana jata hai?",
+      "options": [
+        "606 CE",
+        "57 BCE",
+        "78 CE",
+        "319 CE"
+      ],
+      "answer": 1
+    }
+  ]
+}
