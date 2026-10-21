@@ -1,0 +1,28 @@
+{
+  "title": "Turk aakraman: Ghaznavi se Ghori",
+  "icon": "⚔️",
+  "kind": "Topic / Ghatna",
+  "date": null,
+  "hook": "Turk aakraman: Ghaznavi se Ghori: Pehla Tarain (1191) Prithviraj ki jeet; doosra (1192) Ghori ki jeet.",
+  "facts": {
+    "Mahmud Ghaznavi": "1000-1027 CE ke aakraman; Somnath 1025-26",
+    "Muhammad Ghori": "Multan 1175; Anhilwara haar 1178; Tarain 1191-92",
+    "Chandawar": "1194 (Jaichandra)"
+  },
+  "exam_points": [
+    "Pehla Tarain (1191) Prithviraj ki jeet; doosra (1192) Ghori ki jeet.",
+    "Is ke baad Delhi Sultanate ki neev (1206, Aibak)."
+  ],
+  "mcqs": [
+    {
+      "q": "Chandawar ka yuddh kab hua?",
+      "options": [
+        "1206",
+        "1194",
+        "1175",
+        "1192"
+      ],
+      "answer": 1
+    }
+  ]
+}

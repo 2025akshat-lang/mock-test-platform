@@ -1,0 +1,29 @@
+{
+  "title": "Vidyadhara",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Vidyadhara: Kandariya Mahadeva mandir",
+  "facts": {
+    "Vansh": "Chandela",
+    "Kaal": "c. 1003-1035 CE",
+    "Rajdhani/Kshetra": "Khajuraho",
+    "Pehchan": "Kandariya Mahadeva mandir"
+  },
+  "exam_points": [
+    "Mahmud Ghaznavi ke aakraman ka safalta se samna; Kandariya Mahadeva mandir (c. 1030).",
+    "Pratihara Rajyapala ko maara."
+  ],
+  "mcqs": [
+    {
+      "q": "Kandariya Mahadeva mandir kis vansh ne banwaya?",
+      "options": [
+        "Chandela",
+        "Pratihara",
+        "Pala",
+        "Paramara"
+      ],
+      "answer": 0
+    }
+  ]
+}

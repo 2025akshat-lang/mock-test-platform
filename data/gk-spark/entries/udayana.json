@@ -1,0 +1,30 @@
+{
+  "title": "Udayana",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Udayana: Vasavadatta ke saath prem katha",
+  "facts": {
+    "Vansh": "Vatsa (Paurava)",
+    "Kaal": "c. 6th century BCE",
+    "Rajdhani/Kshetra": "Kaushambi",
+    "Pehchan": "Vasavadatta ke saath prem katha"
+  },
+  "exam_points": [
+    "Udayana Kaushambi ka raja tha; Avanti raja Pradyota ki putri Vasavadatta se vivah.",
+    "Bhasa ka natak 'Svapnavasavadattam' inhi par hai.",
+    "Veena (Ghoshavati) bajane mein prasiddh."
+  ],
+  "mcqs": [
+    {
+      "q": "'Svapnavasavadattam' kisne likha?",
+      "options": [
+        "Vishakhadatta",
+        "Bhasa",
+        "Kalidasa",
+        "Shudraka"
+      ],
+      "answer": 1
+    }
+  ]
+}

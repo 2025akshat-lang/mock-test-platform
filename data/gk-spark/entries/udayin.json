@@ -1,0 +1,28 @@
+{
+  "title": "Udayin (Udayabhadra)",
+  "icon": "👑",
+  "kind": "Prachin Bharat · Raja",
+  "date": null,
+  "hook": "Udayin (Udayabhadra): Pataliputra ka sansthapak",
+  "facts": {
+    "Vansh": "Haryanka",
+    "Kaal": "c. 460-444 BCE",
+    "Rajdhani/Kshetra": "Pataliputra",
+    "Pehchan": "Pataliputra ka sansthapak"
+  },
+  "exam_points": [
+    "Ganga aur Son ke sangam par Pataliputra (Kusumapura) basaya aur rajdhani Rajagriha se wahan layi."
+  ],
+  "mcqs": [
+    {
+      "q": "Pataliputra kis raja ne basaya?",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Udayin",
+        "Bimbisara"
+      ],
+      "answer": 2
+    }
+  ]
+}

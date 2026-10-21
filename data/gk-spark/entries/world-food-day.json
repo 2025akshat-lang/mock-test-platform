@@ -1,0 +1,26 @@
+{
+  "title": "World Food Day",
+  "icon": "\ud83c\udf3e",
+  "kind": "Date based",
+  "date": "10-16",
+  "hook": "16 October ko World Food Day kyun manaya jata hai?",
+  "facts": {
+    "Organisation": "FAO (Food and Agriculture Organization)",
+    "FAO founded": "16 October 1945",
+    "FAO headquarters": "Rome, Italy",
+    "Observed since": "1981 (declared in 1979 by FAO conference)"
+  },
+  "themes": {},
+  "exam_points": [
+    "FAO ki sthapna 16 Oct 1945 ko hui, isi ki yaad mein ye din manaya jata hai.",
+    "FAO ka headquarters Rome (Italy) mein hai.",
+    "Har saal ki alag theme hoti hai: 'themes' mein year-wise add karo, purani mat hatao."
+  ],
+  "mcqs": [
+    {
+      "q": "FAO ka headquarters kahan hai?",
+      "options": ["Geneva", "Rome", "New York", "Paris"],
+      "answer": 1
+    }
+  ]
+}
